@@ -1,0 +1,30 @@
+      m4_define( `m4_post_date', `2004-08-01')m4_dnl
+      m4_define( `m4_post_title', `NetOne')m4_dnl
+      m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+Only last week did I discover that even <a
+href="http://www.bsnl.co.in/">BSNL</a> has an &quot;account
+free&quot; dial-up connection scheme called <a
+href="http://netoneblr.bsnl.co.in/">NetOne</a> that
+authenticates based on Caller Line Identification (CLI) and is reasonable
+at 10 paise per minute. This is apart from the normal outgoing call
+charges for ISP dial-up numbers (17xxxx).
+
+m4_begin_post_rest
+<p>
+<a href="http://www.touchtelindia.com/index.jsp">TouchTel</a>
+in fact has gone one step further and has eliminated the ISP charges
+altogether for its subscribers! Anyone with a landline connection from
+either BSNL or TouchTel can therefore start using their dial-up services
+right away and there is also no hassle of renewals. So tell me again
+why anyone should bother buying an ISP pack from <a
+href="http://www.vsnl.com/">VSNL</a> or <a
+href="http://www.sify.com/">Sify</a>?
+<p>
+Today I also complete eight years in the software industry. I am getting
+<i>old</i>. It is about time I join the Society of Geriatric Software
+Engineers.
+
+m4_end_post_rest
+m4_end_post

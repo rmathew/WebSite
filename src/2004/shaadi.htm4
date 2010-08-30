@@ -1,0 +1,41 @@
+      m4_define( `m4_post_date', `2004-02-02')m4_dnl
+      m4_define( `m4_post_title', `Turning a New Leaf')m4_dnl
+      m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+It is done. <i>Finally!</i>
+
+m4_begin_post_rest
+<p>
+I got married to the lovely <i>Anusha</i> on the 22<sup>nd</sup> of
+January 2004.  I met her while working for <a
+href="http://www.thbs.com/">Torry Harris</a>, where she is still working as a
+developer. We got to work in the same team (ASPizer),
+became good friends, fell in love with each other over time and I
+actually proposed to her on the 7<sup>th</sup> of December 2002.
+It was an uphill battle from then on till the actual marriage,
+causing much grief to all involved, primarily because we were born
+into families that followed different religions. We finally got married
+under the Indian &quot;Special Marriages Act&quot; in the office
+of the Registrar of Marriages, Jayanagar, Bangalore. We hosted a small
+celebratory party after that (commonly termed in India as
+&quot;the reception&quot;), attended by some of our close friends
+and our colleagues from our offices.
+
+<p>
+A side-effect of the whole affair has been that instead of just being
+agnostic about religion as before, I have now become strongly <i>against</i>
+all forms of religion. I have only seen animosity, greed and pure
+waste of time in the name of religion. What good does it do that cannot
+otherwise be realised by rational and educated humans? The
+benefits of religion are overwhelmingly nullified by
+the actions of its followers. It divides much more than it unites.
+It is not for me.
+
+<p>
+Anyway, now that the most tumultuous times are behind us, I hope to 
+get back to doing the things I like, including of course, hacking
+on <a href="http://gcc.gnu.org/java/">GCJ</a>.
+
+m4_end_post_rest
+m4_end_post

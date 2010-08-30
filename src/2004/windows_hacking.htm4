@@ -1,0 +1,33 @@
+      m4_define( `m4_post_date', `2004-10-02')m4_dnl
+      m4_define( `m4_post_title', `Windows Hacking')m4_dnl
+      m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I decided to try out the demos of a few of the new games like <a
+href="http://www.doom3.com/">Doom 3</a>, <a
+href="http://www.crytek.com/">Far Cry</a> and <a
+href="http://www.princeofpersiagame.com/">Prince of Persia:
+Sands of Time</a> on my home PC.
+
+m4_begin_post_rest
+<p>
+While the latter two didn't have any problems
+running on my machine, Doom 3 refused to run on the Windows 98 that is
+installed on this machine. I had to write an &quot;ersatz DLL&quot; (as
+Ananth puts it) to overcome this and the game now runs on my machine! The
+hacking turned out to be more fun than the game itself, which is just
+lots and lots of darkness punctuated by hideous monsters jumping at you
+every now and then.
+<p>
+It turns out that there is now a <a
+href="ftp://ftp.idsoftware.com/pub/idstuff/doom3/linux/">Linux
+client for Doom 3</a> that obviates the need for such a kludge.
+<p>
+<a href="http://www.mystrevelation.com/">Myst 4: Revelation</a>
+has been released (as a DVD-only game!), but we still have not been able to
+lay our hands on it. Hopefully, unlike <a
+href="http://uru.ubisoft.com/">Uru</a>, this game would actually be available
+in the stores here.
+
+m4_end_post_rest
+m4_end_post

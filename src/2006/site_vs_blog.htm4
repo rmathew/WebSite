@@ -1,0 +1,14 @@
+      m4_define( `m4_post_date', `2006-11-27')m4_dnl
+      m4_define( `m4_post_title', `Website Versus Weblog')m4_dnl
+      m4_include( `posttrans.m4')m4_dnl
+      m4_begin_post
+      <p>
+      Now that I have <a href="http://rmathew.blogspot.com/">my own
+      weblog</a>, the &quot;News&quot; items on this website are simply
+      about updates to the website. For example, newly-added articles or
+      book reviews, software releases, website redesign or restructuring,
+      etc. are announced via &quot;News&quot; items on this website, while
+      my usually inane ramblings on sundry topics appear as posts on my
+      weblog.
+
+      m4_end_post

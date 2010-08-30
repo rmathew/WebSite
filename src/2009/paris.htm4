@@ -1,0 +1,61 @@
+      m4_define( `m4_post_date', `2009-11-05')m4_dnl
+      m4_define( `m4_post_title', `&quot;Paris&quot;')m4_dnl
+      m4_include( `posttrans.m4')m4_dnl
+      m4_begin_post
+      <p>
+      &quot;Paris&quot; by Colin Jones is a history of the city of Paris,
+      covering the period of about 2,000 years from its days as the
+      Roman camp of Lutetia to the present. The author chronicles its rise
+      to prominence as one of the greatest cities in the world and a major
+      centre for art and fashion. He does not shy away from talking about
+      the horrible attrocities of its past either. This is a book written
+      by someone who clearly loves the city for what it is and what it has
+      been.
+
+      m4_begin_post_rest
+      <div class="book_display">
+        <img src="m4_root_dir/books/images/m4_post_id.jpg" alt="m4_post_title">
+        <br>
+        <a
+          href="http://www.amazon.com/gp/product/0143036718?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0143036718">
+          <img src="m4_root_dir/books/images/buyamz.gif"
+            alt="Buy From Amazon.com">
+        </a>
+        <img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0143036718" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
+      </div>
+      <p>
+      The coverage of the 2,000-year period is not uniform, with the author
+      understandably concentrating on some intervals longer than others
+      depending on their influence on the city. There are numerous
+      &quot;feature boxes&quot; spread throughout the chapters of the book
+      that go into more details of a particular topic, ranging from the Louvre
+      to the public toilet. Unlike such boxes in other books, your flow is
+      not interrupted if you start reading them after the text immediately
+      preceding them and the topic in question is usually something alluded
+      to in the last paragraph you were reading in the main text.
+      <p>
+      Though the overall narrative is fairly linear, there are occasional
+      references to topics that are yet to be covered but that are still
+      relevant to explaining the context of the current topic. This turned
+      out to be not as bad as I had initially feared. The book manages to
+      remain quite entertaining as well as informative throughout the text.
+      This is a well-researched book written in an easy-to-read style. I am
+      sure that even die-hard Paris fans will discover something new about
+      the city if they were to read this book.
+      <p>
+      You must have stayed in Paris for at least a little while to make sense
+      of some of the things (e.g. street names) that the author talks about
+      in this book. French is thankfully not used extensively in this book -
+      the meanings of the French phrases that are used can easily be guessed
+      or looked up in a dictionary. You should also have a fair knowledge of
+      world history in general and French history in particular to place some
+      of the events and characters in mentioned this book in their proper
+      historical context.
+      <p>
+      The book has a fair collection of paintings and photographs spread
+      throughout, though all of them were reproduced in low-quality
+      black-and-white prints in the <i>hardcover</i> edition that I read,
+      which was a big disappointment to say the least.
+
+      m4_end_post_rest
+      m4_end_post

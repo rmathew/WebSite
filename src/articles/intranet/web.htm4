@@ -1,0 +1,174 @@
+m4_define(`m4_root_dir',`../..')m4_dnl
+m4_define(`m4_page_title',`Web Server')m4_dnl
+m4_define(`m4_page_section',``Articles'')m4_dnl
+m4_dnl
+m4_include(`header.htm4')m4_dnl
+m4_dnl
+<!-- BEGIN: Page Body -->
+<div id="main-copy">
+m4_toc
+m4_heading( `1', `web', `Web Server')
+<p>
+Some time after Sam set up the basic Intranet Server, Frodo
+asked him if he could set up the internal web server.
+The Hobbit Resources (HR) department was in the process of preparing
+an Employee Handbook that was supposed to answer most of the
+questions that employees had about company processes, practices,
+policies, etc. For maximum flexibility,
+Frodo wanted it to be in HTML, and if could be hosted on a 
+suitable web server, easily accessible via any browser.
+
+<p>
+The most logical choice for hosting the internal web server was
+the Intranet Server, provided Sam could find a low overhead (in
+terms of processing power and storage needed) web server. And
+Sam found in the <a href="http://httpd.apache.org/">Apache Web Server</a>,
+the perfect solution.
+
+
+<br>
+m4_heading( `1', `setup', `Setup')
+<p>
+Sam just installed the Apache package that came with his
+Linux distribution. This package installed the Apache Web
+Server version 1.3.12 into the folder 
+&quot;<code>/var/lib/apache</code>&quot; on the Intranet
+Server.
+
+<p>
+Apache ran right &quot;out of the box&quot; the way it was
+installed. Sam could conveniently run
+&quot;<code>/var/lib/apache/sbin/apachectl start</code>&quot;
+to start the web server and 
+&quot;<code>/var/lib/apache/sbin/apachectl stop</code>&quot;
+to stop it. The &quot;document root&quot; was set to 
+&quot;<code>/var/lib/apache/htdocs</code>&quot;, where there
+was a welcome page and Apache documentation, including the
+manuals.
+
+<p>
+Sam read up the Apache manuals and quickly understood
+what to do to achieve what he wanted. The Apache server
+read its configuration from the file 
+&quot;<code>conf/httpd.conf</code>&quot; in the folder into
+which it was installed. To Sam's delight, he found that
+the default configuration file already had reasonable values
+for most of the options and was very well documented by
+lots of useful comments placed in the appropriate sections
+of the file. This considerably eased his task.
+
+<p>
+The first thing to do was to set up the &quot;document root&quot;
+- the folder which contained all the HTML files, images, etc.
+for the internal web site. He located and modified the
+&quot;<code>DocumentRoot</code>&quot; directive and set it to
+&quot;<code>/dump/LocalSite</code>&quot; - the folder where
+he intended to put all the files comprising the internal web
+site. Sam created a simple welcome page named 
+&quot;<code>index.html</code>&quot; and put it into this folder.
+(By giving it this name, Sam ensured that Apache serves the user
+this page when the user does not explicitly specify a file name
+in the URL.)
+
+<p>
+Sam changed the &quot;<code>ServerAdmin</code>&quot; directive
+to &quot;<code>sam@internal.hobbitware.com</code>&quot;, so that
+the hobbits could know (as if they did not!) who to contact
+in case of problems with the web server.
+
+<p>
+Next, Sam changed the &quot;<code>ServerName</code>&quot; directive
+to send &quot;<code>www.internal.hobbitware.com</code>&quot; as
+the host name to the user browsers. Sam was confident that this
+would work properly, as he had already set up the internal DNS
+server appropriately.
+
+<p>
+Though not strictly needed, Sam changed the 
+&quot;<code>HostnameLookups</code>&quot; to &quot;<code>On</code>&quot;,
+so that Apache would log host names (instead of mere IP addresses)
+in its error and access logs.
+
+<p>
+To properly isolate logs created by Apache, Sam created the
+folder &quot;<code>logs</code>&quot; within the folder where
+Apache was installed (&quot;<code>/var/lib/apache</code>&quot;).
+He then set the &quot;<code>ErrorLog</code>&quot; directive to
+&quot;<code>/var/lib/apache/logs/error_log</code>&quot; and the
+&quot;<code>CustomLog</code>&quot; directive to 
+&quot;<code>/var/lib/apache/logs/access_log common</code>&quot;.
+
+<p>
+The last thing Sam needed to do was to add the command
+&quot;<code>/var/lib/apache/sbin/apachectl start</code>&quot;
+to the system startup scripts, so that the Apache web server
+was started whenever the Intranet Server came up.
+
+<p>
+After these basic and simple configuration changes, Apache was
+ready to serve the internal web site. Sam took the help of
+a few hobbits to create a better welcome page with more useful
+content. He took the Employee Handbook from the Hobbit Resources (HR)
+department and put it into a suitable folder, and created a link
+from the welcome page to the Handbook. The hobbits could very
+easily access the internal web site by typing in the URL
+&quot;<code>http://www.internal.hobbitware.com/</code>&quot;
+into their browsers.
+
+
+<br>
+m4_heading( `1', `maint', `Maintenance')
+<p>
+Apache did not require much by way of maintenance. It performed
+very smoothly and efficiently. Every now and then, Sam examined
+the error logs to see if he could proactively weed out any problems
+with the web site.
+
+<p>
+The maintenance of the internal web site was taken over by
+enthusiastic volunteers who helped organise the content and
+kept it updated.
+
+
+<br>
+m4_heading( `1', `conclusion', `Conclusion')
+<p>
+Apache performed very well and was quite efficient. The Employee
+Handbook proved to be very popular and soon the internal web site
+was expanded to serve commonly needed information, like technical
+documentation on the areas that the hobbits worked with, employee
+profiles, projects information, etc. Frodo was quite pleased with
+the result and congratulated Sam on a job well done.
+
+<br>
+m4_heading( `1', `resources', `Resources')
+<p>
+The following resources proved immensely helpful to Sam while
+he set up the internal web server:
+
+<ol>
+
+<li>
+<a href="http://httpd.apache.org/">Apache Web 
+Server</a>: The superlative web server that Sam used for serving
+the internal web site. Its efficiency and ease of configuration
+considerably helped Sam in his job.
+</li>
+
+<li>
+<a href="http://httpd.apache.org/docs/">Apache
+Server Documentation</a>: Online Apache server documents that
+helped Sam figure out what to change and how.
+</li>
+
+<li>
+<a href="http://www.linuxdoc.org/HOWTO/Apache-Overview-HOWTO.html">Apache
+Overview HOWTO</a>: The Linux HOWTO document
+that Sam consulted for general information on Apache.
+</li>
+
+</ol>
+</div>
+<!-- END: Page Body -->
+m4_dnl
+m4_include(`footer.htm4')m4_dnl

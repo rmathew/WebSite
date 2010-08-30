@@ -1,0 +1,75 @@
+      m4_define( `m4_post_date', `2010-07-12')m4_dnl
+      m4_define( `m4_post_title', `&quot;Head First Statistics&quot;')m4_dnl
+      m4_include( `posttrans.m4')m4_dnl
+      m4_begin_post
+      <p>
+      I have come to believe that statistics is one of those important subjects
+      that most of us know woefully little about even as we increasingly rely
+      on the results of various studies to drive our lifestyle choices or on
+      data visualisation to take decisions at our workplace. That said, I have
+      been procrastinating on my resolution to study this subject in greater
+      depth than what was afforded by an introductory course I took in college
+      ages ago. The first step towards that goal has now been precipitated due
+      to the nature of my current work. Unfortunately for me, most of the
+      books on this subject looked too dull or intimidating
+      to serve as a useful review of the basic concepts. &quot;Head First
+      Statistics&quot; by Dawn Griffiths presented a welcome contrast with
+      its pages full of informal text and fun pictures, though I was sceptical
+      at first of its utility. I am happy to report that my scepticism was
+      entirely misplaced.
+      m4_begin_post_rest
+      <div class="book_display">
+        <img src="m4_root_dir/books/images/m4_post_id.jpg" alt="m4_post_title">
+        <br>
+        <a
+          href="http://www.amazon.com/gp/product/0596527586?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0596527586">
+          <img src="m4_root_dir/books/images/buyamz.gif"
+            alt="Buy From Amazon.com">
+        </a>
+        <img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0596527586" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
+      </div>
+      <p>
+      The book is another in the series of <a
+      href="http://headfirstlabs.com/">&quot;Head First&quot; books by
+      O'Reilly</a>. True to its pedigree, this book uses lots of little
+      stories, pictures and exercises to provide a gentle introduction to
+      otherwise complicated-looking topics. Each chapter asks you to help
+      denizens of the fictional town of &quot;Statsville&quot; with their
+      sundry problems using increasingly-complicated statistical techniques.
+      Unlike most text-books where the exercises are lumped together at the
+      end of each chapter or section, sometimes without solutions or hints,
+      this book makes the exercises an integral part of its flow and works
+      out the solution for each of them in full after letting you take a
+      crack at it first.
+      <p>
+      All the usual suspects of statistics are here: data visualisation,
+      mean, median, mode, standard deviation, probabilities, probability
+      distributions, normal curves, sampling, hypothesis tests, t-distribution,
+      chi-square distribution, etc. I was frankly a bit surprised that the
+      author managed to cover so much ground in a book like this. My kudos to
+      her for making most of it so accessible to the lay reader.
+      <p>
+      Of course, despite her valiant efforts the author loses her grip
+      on lucidity in the latter half of the book that covers advanced topics
+      and where many a formula or statement is left hanging with an implicit
+      &quot;Just take my word for it&quot;. This could be deeply dissatisfying
+      if you are of an enquiring disposition. There are no references to
+      books, papers, articles or web-sites where the reader can go to find
+      more information or get a deeper understanding of the concepts. There
+      should have been some practice problems for the reader to test their
+      understanding, with the solutions perhaps available from a web-site. One
+      of my major grudges was the sudden switch to probability from statistics
+      in the early chapters without any explanation - only if you persist do
+      you discover in the later chapters how closely the two are linked to
+      each other and get your &quot;Aha!&quot; moment of understanding.
+      Finally I really believe that the book could have been thinner given
+      the ground that it covers.
+      <p>
+      While I feel that this is a great book to use to get introduced to this
+      important subject, it is not suitable for use as a reference or as a
+      guide to get a deeper understanding of the concepts. It will certainly
+      whet your appetite for the subject and is a great book if you find
+      yourself scared by the subject.
+
+      m4_end_post_rest
+      m4_end_post

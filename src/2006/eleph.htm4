@@ -1,0 +1,38 @@
+      m4_define( `m4_post_date', `2006-12-07')m4_dnl
+      m4_define( `m4_post_title', `&quot;The Elephants of Style&quot;')m4_dnl
+      m4_include( `posttrans.m4')m4_dnl
+      m4_begin_post
+      <p>
+      &quot;The Elephants of Style&quot; by Bill Walsh is a style guide
+      for written English. The title is a play on the title of that classic
+      book on style by Strunk and White, &quot;The Elements of Style&quot;.
+
+      m4_begin_post_rest
+      <div class="book_display">
+        <img src="m4_root_dir/books/images/eleph.jpg"
+          alt="The Elephants of Style">
+        <br>
+        <a href="http://www.amazon.com/gp/product/0071422684?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0071422684">
+        <img src="m4_root_dir/books/images/buyamz.gif"
+          alt="Buy From Amazon.com">
+        </a>
+        <img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0071422684" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
+      </div>
+      <p>
+      The book is quite funny at times and the author is not afraid to show
+      off his contempt for sloppy writing. Unfortunately the book seems to
+      have been written more for copy editors than the general public. I
+      still found the book an interesting read most of the times and it
+      taught me quite a few things that I didn't know.
+      <p>
+      At times it does get a bit dreary while the author painstakingly
+      spells out the arcane conventions, exceptions, exceptions to the
+      exceptions, etc. about an item <i>ad nauseum</i>, though it really
+      just highlights the completely arbitrary, illogical and inconsistent
+      conventions of written English. I found myself disagreeing with the
+      author's recommendations on some topics and resolving to stick to my
+      current conventions, but such occasions were infrequent. This book
+      is a nice read even if you don't write for a living.
+
+      m4_end_post_rest
+      m4_end_post

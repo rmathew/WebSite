@@ -1,0 +1,15 @@
+      m4_define( `m4_post_date', `2006-04-16')m4_dnl
+      m4_define( `m4_post_title', `Website Redesign')m4_dnl
+      m4_include( `posttrans.m4')m4_dnl
+      m4_begin_post
+      <p>
+      After several years, I have finally redesigned the entire website
+      making it far more standards-compliant. All the pages should now have
+      strictly valid HTML 4.01. The presentation is driven by stylesheets,
+      allowing me to change the look-and-feel of the entire website very
+      easily. I have also implemented a simple system for
+      expandable/collapsible news entries that should make it easier to read
+      the main page. I expect a few glitches from a site redesign of this
+      magnitude, so please let me know if you encounter any problems.
+
+      m4_end_post

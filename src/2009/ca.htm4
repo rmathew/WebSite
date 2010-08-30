@@ -1,0 +1,68 @@
+      m4_define( `m4_post_date', `2009-03-30')m4_dnl
+      m4_define( `m4_post_title', `&quot;Computer Architecture&quot;')m4_dnl
+      m4_include( `posttrans.m4')m4_dnl
+      m4_begin_post
+      <p>
+      &quot;Computer Architecture&quot; by John Hennessy and David Patterson
+      is an advanced text on the subject that is a sequel to their other
+      book &quot;<a href="m4_root_dir/2009/coad.html">Computer Organization
+      and Design</a>&quot;. The authors assume in this book that the reader is
+      already familiar with the topics introduced in the other book and build
+      upon these topics. Even then there is a fair amount of overlap among
+      these books that is a bit irritating if you have only recently read the
+      other book.
+
+      m4_begin_post_rest
+      <div class="book_display">
+        <img src="m4_root_dir/books/images/m4_post_id.jpg" alt="m4_post_title">
+        <br>
+        <a
+          href="http://www.amazon.com/gp/product/0123704901?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0123704901">
+          <img src="m4_root_dir/books/images/buyamz.gif"
+            alt="Buy From Amazon.com">
+        </a>
+        <img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0123704901" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
+      </div>
+      <p>
+      The book covers the exploitation of instruction-level parallelism and
+      thread-level parallelism in modern microprocessors in great detail. It
+      goes on to cover memory cache design and organisation, virtualisation
+      and secondary storage systems in detail. It shows how instruction set
+      design can affect the implementation of pipelining and virtualisation.
+      The authors illustrate the principles introduced in the book very well
+      by using recent microprocessors as examples. This makes the book quite
+      current and relevant, though it also makes the book look a bit dated
+      after a few years.
+      <p>
+      As with the other book, a fair portion of the book is in its appendices
+      most of which are on an accompanying CD. This makes the book less bulky
+      and more cost-effective to produce but it also makes it cumbersome to
+      refer to the off-book appendices. I can appreciate this compromise as
+      the alternative would have been to make the book more bulky and omit a
+      lot of the material from the appendices.
+      <p>
+      A lot of the material in this book, especially the case-studies and
+      some of the appendices, has been contributed by other authors. Impressive
+      as the primary authors' credentials are (one is the father of MIPS and
+      the other of SPARC), they cannot be expected to be experts on every
+      topic in this domain and this extensive collaboration brings others'
+      expertise to bear on specialised topics like floating-point arithmetic,
+      embedded systems, etc.
+      <p>
+      Throughout the two books the authors have stuck with their
+      &quot;quantitative approach&quot; to this field. Instead of making
+      hand-waving statements like many others, they provide concrete formulae
+      to measure various aspects of a computer's performance and extensively
+      use various benchmarks to test existing systems. These benchmarks include
+      the SPEC and TPC benchmark suites to cover a range of performance
+      aspects.
+      <p>
+      This book would make for a great text-book for an advanced course on
+      computer architecture. It would be particularly useful to computer
+      architects, operating system designers and compiler writers. For the
+      rest of us, this book provides a great insight into just what goes in
+      the making of modern high-performance computer systems that most of us
+      just take for granted.
+
+      m4_end_post_rest
+      m4_end_post

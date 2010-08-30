@@ -1,0 +1,55 @@
+      m4_define( `m4_post_date', `2004-04-18')m4_dnl
+      m4_define( `m4_post_title', `Accounts')m4_dnl
+      m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I update <a href="http://www.advogato.org/person/rmathew/">my 
+Advogato diary</a> far more often than these pages, probably because I
+have more things to say on nerdy stuff than on anything else. That diary
+is now also being consolidated into <a
+href="http://classpath.wildebeest.org/planet/">Planet
+Classpath</a>, courtesy of <a href="http://klomp.org/mark/">Mark
+Wielaard</a>.
+
+m4_begin_post_rest
+<p>
+Courtesy of <a href="http://www.yumpee.org/">Yumpee Saar</a> I
+now have a <a href="http://www.gmail.com/">Gmail</a> account
+from <a href="http://www.google.com/">Google</a> that too with
+my preferred username: <strong>rmathew AT gmail DOT com</strong>! With 1000MB
+of total storage space and up to 10MB allowed per incoming or outgoing message,
+this provides much more breathing space than what is given by <a
+href="http://www.hotmail.com/">the provider</a> of the
+other email address I use regularly. I am slowly moving to using this account
+as my primary email address.
+
+<p>
+Somewhat belatedly, I applied for and got write-after-approval access to
+<a href="http://gcc.gnu.org/">GCC</a>'s CVS repository.
+This means that I can now commit my own patches after approval from a 
+maintainer instead of making another person do it for me.
+
+<p>
+<a href="http://www.gimp.org/">The GIMP</a> got its most
+significant upgrade in a long time when version 2.0 was released recently.
+Among other things, Windows is now a fully supported platform so many, many
+more users can try their hands on this ultra cool piece of fine Free
+software. Definitely worth a dekko and very highly recommended.
+
+<p>
+A couple of weeks ago, I decided to update my <a
+href="http://www.slackware.com/">Slackware</a> 8.1 based Linux
+installation at home to the latest and the greatest stable versions of the
+components, compiling them all from their sources - glibc 2.3.2, kernel 2.4.26,
+GCC 3.3.3, XFree86 4.4.0, KDE 3.2.1, Mozilla 1.6, Gtk+ 2.4.0, etc. The upgrade
+was surprisingly smooth and the system feels even more responsive under Linux
+than ever before. In sharp contrast, under Windows the system feels slower
+after every upgrade. Mind you, I am not speaking this as a Linux zealot
+but as someone who uses it to get his work done with the least hassles - but
+this does make me love this wonderful system more than ever before. Oh by the
+way, with <a href="http://www.everaldo.com/crystal.html">the
+gorgeous Crystal SVG icons set</a> for KDE by Everaldo, my Linux desktop looks 
+positively beautiful!
+
+m4_end_post_rest
+m4_end_post

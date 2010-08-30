@@ -1,0 +1,13 @@
+m4_define(`m4_root_dir',`.')m4_dnl
+m4_define(`m4_page_title',`Page Title')m4_dnl
+m4_define(`m4_page_section',``Page Section'')m4_dnl
+m4_dnl
+m4_include(`header.htm4')m4_dnl
+m4_dnl
+<!-- BEGIN: Page Body -->
+    <div id="main-copy">
+      Page Body
+    </div>
+<!-- END: Page Body -->
+m4_dnl
+m4_include(`footer.htm4')m4_dnl

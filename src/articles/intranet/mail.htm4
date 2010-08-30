@@ -1,0 +1,406 @@
+m4_define(`m4_root_dir',`../..')m4_dnl
+m4_define(`m4_page_title',`Email Server')m4_dnl
+m4_define(`m4_page_section',``Articles'')m4_dnl
+m4_dnl
+m4_include(`header.htm4')m4_dnl
+m4_dnl
+<!-- BEGIN: Page Body -->
+<div id="main-copy">
+m4_toc
+m4_heading( `1', `email', `Email Server')
+<p>
+Hobbits are a merry lot and believed in sharing jokes,
+amusing anecdotes, etc. whenever they could. They mostly used
+emails for these, even though some (or all) of the recipients
+sat in the same office. In addition, all the official
+communications happened over email (hobbits did not quite
+like the idea of cutting down trees to produce paper and
+tried to aim for a &quot;paperless office&quot; long before the
+term became a fashionable buzzword). Sending and receiving 
+these mails consumed most of the limited bandwidth that the 
+company had, and therefore Sam had to find some way of reducing 
+this unnecessary overhead.
+
+<p>
+The natural solution for this problem was to set up an internal
+mail server. Sam looked at all the available options and then
+settled on 
+<a href="http://www.sendmail.org/">Sendmail</a>
+because of its power and almost endless configurability, even
+though it was somewhat complex for a novice. He found that
+<a href="http://www.qmail.org/">qmail</a> was 
+far simpler and much faster, but not quite as powerful as
+Sendmail, especially for some of the things that Sam ultimately
+wanted to do.
+
+<p>
+Again, he could have built Sendmail from its source code, which was
+freely available, but decided not to, as the binaries that came
+with his distribution were perfectly all right for his job.
+
+<p>
+To avoid unnecessary frustrations in the setup of the mail server,
+Sam made sure that he read up the excellent Linux
+<a href="http://www.linuxdoc.org/HOWTO/HOWTO-INDEX/apps.html#SERVERMAIL">Mail
+HowTos</a>. And without the essential
+<a href="http://www.sendmail.org/faq/">Sendmail FAQ</a>,
+Sam would not have been able to set up anything.
+
+
+<br>
+m4_heading( `1', `intmail', `Internal Mail Setup')
+<p>
+Simple internal mail setup with Sendmail was a no-brainer - Sam
+just installed Sendmail and created user accounts on the server
+for all the hobbits of the company. Every hobbit in the company
+then had an internal email address of the form
+<i>username@internal.hobbitware.com</i>. To send and receive 
+internal mails, each hobbit had to give the Intranet server as
+the SMTP and POP3 servers in the configuration for his favourite
+email client. The Linux distribution that Sam used had automatically
+installed a simple POP3 daemon, so he didn't have to install one
+separately. (Sam could also have used the IMAP and POP3 
+servers that come with the <a href="http://www.washington.edu/pine/">PINE</a>
+distribution.)
+
+<p>
+In the DNS server configuration, the Intranet server
+was listed as an &quot;MX (Mail Exchanger)&quot; entry for the
+&quot;<code>internal.hobbitware.com</code>&quot; domain, so that
+the email address did not have to explicitly contain the address
+of the mail server (i.e. instead of having to specify
+&quot;<i>merry@dns.internal.hobbitware.com</i>&quot;, they could
+just write &quot;<i>merry@internal.hobbitware.com</i>&quot;). This
+enabled location transparency for the addresses - Sam could now
+easily move the email server to a different machine if needed, without
+asking everyone to update their address books - all he had to do
+was to update the entry in the DNS server.
+
+<p>
+Sam used the Quota support in Linux (referring to the great
+<a href="http://www.linuxdoc.org/HOWTO/mini/Quota.html">Quota mini-HowTo</a>
+of course), to limit the
+total size of files that the users could store on the server.
+This automatically limited the capacity of the mailboxes for
+the hobbits and prevented abuse of the server.
+
+
+<br>
+m4_heading( `1', `extmail', `Linking with External Mail Accounts')
+<p>
+For a while things looked great - the internal mail setup
+considerably reduced the load on the Internet link. However,
+now most hobbits had to deal with at least two email 
+accounts - the internal mail account and the externally
+visible account - not to mention other accounts, mostly
+hosted by free web-based email services. The least Sam could
+do was to link the &quot;official&quot; mail accounts.
+
+<p>
+The first step for Sam was to ensure that the hobbits also
+get to see their &quot;external&quot; mails when they checked
+their internal mails. He used the really nifty
+<a href="http://tuxedo.org/~esr/fetchmail/">Fetchmail</a> program to enable
+this. He just
+installed the version that came with his distribution and
+then configured it. His Fetchmail configuration (stored in the
+home directory of the super-user as the file
+&quot;<code>.fetchmailrc</code>&quot;) looked something like this:
+
+<p>
+<div class="notice">
+<pre>
+set daemon 900
+poll pop.hobbitware.com with protocol POP3:
+no dns, aka hobbitware.com
+user Frodo_Baggins%hobbitware.com is frodo here 
+password \x70\x61\x73\x73\x77\x6f\x72\x64
+user Samwise_Gamgee%hobbitware.com is sam here 
+password \x70\x61\x73\x73\x77\x6f\x72\x64
+</pre>
+</div>
+
+<p>
+The first line of the configuration file asked Fetchmail to run
+in the &quot;daemon mode&quot; and wake up every 900 seconds (or
+15 minutes) to check user mails. The next line asked it to 
+connect to the company's external POP3 server and retrieve the user
+mails. Each user's external id with the relevant password was
+listed alongwith the mapping to the internal mail id. Thus, any
+mail sent to <i>Frodo_Baggins@hobbitware.com</i> would be automatically
+fetched by the program and routed to the mailbox of the local
+user <i>frodo</i>. Frodo would then get to see the mail the next time
+he checks his internal mails.
+
+<p>
+Since this file contained passwords for users for the external
+mail accounts, it had to be protected by having read permissions
+only for the super-user. Furthermore, the passwords were 
+obfuscated by using the following C program:
+
+<div class="notice">
+<pre>
+/**
+ * ObPass: A very simple program that converts a given 
+ * word into C-style hex escape sequences for entering 
+ * into the runtime configuration file for Fetchmail.
+ */
+
+#include &lt;stdio.h&gt;
+#include &lt;unistd.h&gt;
+
+int main( int argc, char* argv[])
+{
+    char *str;
+
+    if( argc != 1)
+    {
+        fprintf( stderr, 
+	    "%s: Obfuscate a password into a C-style hex sequence\n",
+	    argv[0]);
+        fprintf( stderr, "Usage: %s &lt;ENTER&gt;\n", argv[0]);
+
+	return 1;
+
+    } /* End if */
+    else
+    {
+        str = getpass( "Please enter the password: ");
+
+	for( ; *str != '\0'; str++)
+	{
+	    printf( "\\x%x", *str);
+
+	} /* End for */
+
+	printf( "\n");
+
+    } /* End else */
+
+} /* End function main */
+</pre>
+</div>
+
+<p>
+Sam added Fetchmail to the system startup scripts, so that it
+automatically started up when the system booted. Fetchmail 
+ensured that the hobbits could see their internal and external
+emails in one place.
+
+<p>
+This setup was not without problems however. The default 
+configuration of the SMTP server on the Intranet server
+did allow mails to be sent to external users, but almost always
+resulted in &quot;<code>Sender domain must exist</code>&quot;
+style errors. And for the mails that <i>did</i> get through,
+the recipients could not reply to the message as the sender
+address was the internal email address of the form 
+<i>internal.hobbitware.com</i>, which was meaningless to 
+their mail clients.
+
+<p>
+Here is where the power of Sendmail came to Sam's rescue: Sam
+could configure Sendmail to rewrite the sender's address so that
+was always of the form <i>hobbitware.com</i> with the
+correct mapping to the external id. Thus mails sent by
+<i>frodo@internal.hobbitware.com</i> were rewritten to appear
+to have come from <i>Frodo_Baggins@hobbitware.com</i>.
+
+<p>
+Sendmail usually reads its configuration information from the
+file &quot;<code>/etc/sendmail.cf</code>&quot;, but this is 
+usually too complex for the average person to tweak himself.
+Therefore it comes with scripts that automate the generation
+of this configuration file. Sam's Linux distribution placed
+these scripts and sample configuration files in the
+&quot;<code>/usr/src/sendmail</code>&quot; folder. Under the
+folder &quot;<code>cf/cf</code>&quot; in this folder, was a
+sample configuration file named &quot;<code>linux.smtp.mc</code>&quot;.
+Sam tweaked this file until it looked something like this:
+
+<div class="notice">
+<pre>
+include(``../m4/cf.m4'')
+VERSIONID(``linux for smtp-only setup'')dnl
+OSTYPE(linux)
+FEATURE(nouucp)dnl
+FEATURE(genericstable, btree /etc/mail/genericstable)dnl
+FEATURE(virtusertable, btree /etc/mail/virtuserstable)dnl
+GENERICS_DOMAIN_FILE( /etc/mail/generics-domain)dnl
+FEATURE(masquerade_envelope)dnl
+FEATURE(relay_local_from)dnl
+MAILER(local)dnl
+MAILER(smtp)dnl
+MASQUERADE_AS(hobbitware.com)
+Cwinternal.hobbitware.com
+Cwhobbitware.com
+DSsmtp.shirenet.com
+</pre>
+</div>
+
+<p>
+Of course, this was all according to the instructions given in the
+life-saving Sendmail FAQ. The reference to the server
+<code>smtp.shirenet.com</code> was there to ensure that all external
+mails were processed and delivered by the ISP's SMTP server rather than
+the Intranet server. This process was called &quot;relaying&quot; and
+helped save the bandwidth further. Sam ran the <code>m4</code> macro 
+processor on this file to generate the final Sendmail configuration 
+file like this:
+
+<div class="centred">
+<code>m4 &lt;linux.smtp.mc &gt;/etc/sendmail.cf</code>
+</div>
+
+<p>
+The next step was to create the &quot;generics table&quot; and the
+&quot;virtual users map&quot; (refer to the Sendmail FAQ) 
+in the &quot;<code>/etc/mail</code>&quot; folder 
+(Sam had to create this folder). These were in-file databases
+and were created using the &quot;<code>updatemaildbs</code>&quot; 
+shell script that Sam wrote:
+
+<div class="notice">
+<pre>
+#!/bin/bash
+makemap btree virtuserstable &lt;virtualusermaps
+makemap btree genericstable &lt;genericusermaps
+</pre>
+</div>
+
+<p>
+The &quot;<code>virtualusermaps</code>&quot; file looked like
+this:
+
+<div class="notice">
+<pre>
+Frodo_Baggins@hobbitware.com	frodo
+Samwise_Gamgee@hobbitware.com	sam
+@hobbitware.com	%1@pop.hobbitware.com
+</pre>
+</div>
+
+<p>
+And the &quot;<code>genericusermaps</code>&quot; file looked like
+this:
+
+<div class="notice">
+<pre>
+frodo	Frodo_Baggins
+sam Samwise_Gamgee
+</pre>
+</div>
+
+<p>
+Finally, the &quot;<code>generics-domain</code>&quot; file looked like
+this:
+
+<div class="notice">
+<pre>
+internal.hobbitware.com
+</pre>
+</div>
+
+<p>
+The <code>updatemaildbs</code> shell script took these text files
+and generated the appropriate in-file databases (with the <code>.db</code>
+extension). These files together ensured that any mail sent to an
+external user will have the sender's address rewritten to use the
+external email address and any mail sent to the external address
+of a user will automatically be routed to his internal mailbox. Thus
+any mail sent to <i>Frodo_Baggins@hobbitware.com</i> would automatically
+be routed to his internal mailbox corresponding to the address
+<i>frodo@internal.hobbitware.com</i>, saving the unnecessary trip
+to the external SMTP server.
+
+<p>
+This was a setup as close to the ideal as possible - no mail would
+waste the available bandwidth if it could somehow be routed internally.
+And the hobbits got a single convenient &quot;magical&quot; mail
+account that made the best use of the bandwidth and could be used
+for both internal as well as external communications.
+
+
+<br>
+m4_heading( `1', `maint', `Maintenance')
+<p>
+As more employees joined the company, Sam had to keep the mail server
+configuration up to date. He had to create the account for the new
+employee, update the Fetchmail configuration file, update the generic
+users table and the virtual users map for Sendmail. He had to ensure
+that the servers read the modified configuration (by sending them
+the &quot;<code>HUP</code>&quot; signal through the <code>kill</code>
+command).
+
+<p>
+From time to time, he looked at the messages produced via 
+<code>syslog</code> to proactively weed out potential problems with
+the system.
+
+<br>
+m4_heading( `1', `conclusion', `Conclusion')
+<p>
+The mail server setup considerably reduced the load on the
+available bandwidth. Further, the linking of the external 
+and internal accounts provided a convenient single interface to
+the hobbits to access all of their &quot;official&quot;
+mails.
+
+<p>
+Since sending and receiving mails had become so easy, the
+Hobbit Resources (HR) department was able to roll in effective
+processes for various activities.
+
+
+<br>
+m4_heading( `1', `resources', `Resources')
+<p>
+The following resources proved immensely useful to Sam during the
+setup of the mail server:
+
+<ol>
+<li>
+<a href="http://www.linuxdoc.org/HOWTO/HOWTO-INDEX/apps.html#SERVERMAIL">Linux
+Mail HowTos</a>: The set of documents that helped
+Sam get started on the mail server setup and taught him various
+concepts.
+</li>
+
+<li>
+<a href="http://www.sendmail.org/">Sendmail</a>: The
+mail server implementation that Sam used. The 
+<a href="http://www.sendmail.org/faq/">Sendmail FAQ</a>
+was an extremely useful resource without which he possibly couldn't
+have worked out the magic.
+</li>
+
+<li>
+<a href="http://www.qmail.org/">qmail</a>: The other
+mail server that Sam could have used (and would have preferred) had
+his needs not been so complicated.
+</li>
+
+<li>
+<a href="http://www.washington.edu/pine/">PINE</a>: The
+email client which comes with the IMAP and POP3 servers that Sam 
+could have used as an alternative to those that came with his
+distribution.
+</li>
+
+<li>
+<a href="http://tuxedo.org/~esr/fetchmail/">Fetchmail</a>:
+The powerful, automated mail retriever program that enabled Sam to
+merge the external and internal email accounts.
+</li>
+
+<li>
+<a href="http://www.linuxdoc.org/HOWTO/mini/Quota.html">Quota mini-HowTo</a>:
+The document that Sam used to
+understand how to set up usage quotas for users under Linux.
+</li>
+
+</ol>
+</div>
+<!-- END: Page Body -->
+m4_dnl
+m4_include(`footer.htm4')m4_dnl

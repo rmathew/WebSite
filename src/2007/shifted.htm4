@@ -1,0 +1,22 @@
+      m4_define( `m4_post_date', `2007-12-18')m4_dnl
+      m4_define( `m4_post_title', `Website Hosting Provider Changed')m4_dnl
+      m4_include( `posttrans.m4')m4_dnl
+      m4_begin_post
+      <p>
+      <a href="http://www.hostingzero.com/">HostingZero</a> has disappeared
+      mysteriously and has been unavailable for at least about three or four
+      weeks now. This website was therefore down as well. I was hoping to
+      see HostingZero get back on-line, but it has been quite some time now
+      and I am giving up hope.
+
+      m4_begin_post_rest
+      <p>
+      I have now shifted to <a href="http://www.bluehost.com/">Bluehost</a>
+      as the hosting provider for this website. They just have a single
+      hosting plan and it is a bit too much for my current requirements, but
+      I have still opted to go with them since so many of the people I know
+      who have their own domains have hosted them with Bluehost. Let us see
+      how this works out.
+
+      m4_end_post_rest
+      m4_end_post

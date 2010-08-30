@@ -1,0 +1,51 @@
+      m4_define( `m4_post_date', `2008-08-28')m4_dnl
+      m4_define( `m4_post_title', `&quot;The Undercover Economist&quot;')m4_dnl
+      m4_include( `posttrans.m4')m4_dnl
+      m4_begin_post
+      <p>
+      &quot;The Undercover Economist&quot; by <a
+      href="http://en.wikipedia.org/wiki/Tim_Harford">Tim Harford</a> attempts
+      to explain some of the basic principles of economics using a jargon-free
+      language that is easy to understand for the lay person. He provides
+      several examples of these principles at work in our day-to-day life.
+      Peppered with his great sense of humour, this book is an extremely
+      interesting and insightful read.
+
+      m4_begin_post_rest
+      <div class="book_display">
+        <img src="m4_root_dir/books/images/m4_post_id.jpg" alt="m4_post_title">
+        <br>
+        <a
+          href="http://www.amazon.com/gp/product/0345494016?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0345494016">
+        <img src="m4_root_dir/books/images/buyamz.gif"
+          alt="Buy From Amazon.com">
+        </a>
+        <img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0345494016" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
+      </div>
+      <p>
+      The examples chosen in this book range from the pricing of coffee to
+      the sales of used cars and from the problems of health insurance to the
+      continuing poverty of some poor nations. It is hard to read through the
+      first part of this book without cringing from time to time at the
+      thought of having been taken advantage of by the pricing strategies of,
+      say, a coffee shop or a supermarket.
+      <p>
+      The second part of the book is much more serious and dismal than the
+      first part, though no less insightful. His analysis of why Cameroon is
+      not able to pull itself out of poverty resonated in some parts with the
+      endemic problems that impede India's growth. The author comes across as
+      a strong supporter of free markets and of putting a cost on
+      externalities as a way of controlling pollution.
+      <p>
+      The economic principles explained here range from <a
+      href="http://en.wikipedia.org/wiki/Comparative_advantage">comparative
+      advantage</a> to <a
+      href="http://en.wikipedia.org/wiki/Externality">externalities</a>. The
+      author also makes the works of some Nobel laureates accessible with
+      his prose. This is a great book to get a gentle introduction to some
+      of the less widely known, but important, principles of economics. More
+      importantly, it teaches you to look at the world around you the way
+      an economist would.
+
+      m4_end_post_rest
+      m4_end_post

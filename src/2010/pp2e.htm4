@@ -1,0 +1,86 @@
+      m4_define( `m4_post_date', `2010-03-03')m4_dnl
+      m4_define( `m4_post_title', `&quot;Programming Pearls&quot;')m4_dnl
+      m4_include( `posttrans.m4')m4_dnl
+      m4_begin_post
+      <p>
+      <a href="http://www.cs.bell-labs.com/cm/cs/pearls/">Programming
+      Pearls</a> by <a href="http://en.wikipedia.org/wiki/Jon_Bentley">Jon
+      Bentley</a> is a book based on a collection of articles written by the
+      author for the eponymous column in <a
+      href="http://cacm.acm.org/">Communications of the ACM</a>. True to its
+      name, the book presents several pearls of programming wisdom based on
+      the hard-won experience of a brilliant computer programmer who was also
+      lucky enough to be associated with some of the brightest minds in
+      computer programming (the group at Bell Labs). The icing on the cake is
+      the clarity and brevity of the book. I have read the book at least
+      three times over the years and I continue to learn new things from it -
+      no wonder this book is considered a classic in computer programming.
+
+      m4_begin_post_rest
+      <div class="book_display">
+        <img src="m4_root_dir/books/images/m4_post_id.jpg" alt="m4_post_title">
+        <br>
+        <a
+          href="http://www.amazon.com/gp/product/0201657880?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0201657880">
+          <img src="m4_root_dir/books/images/buyamz.gif"
+            alt="Buy From Amazon.com">
+        </a>
+        <img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0201657880" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
+      </div>
+      <p>
+      The book is divided into three parts with five chapters per part. The
+      first part presents the fundamentals of programming, from programme
+      design to algorithms, data structures, programme verification and
+      testing. The second part focusses on performance and shows how to
+      perform rough estimations of running costs, improving algorithms, tuning
+      code and saving space. The third part applies the principles of the
+      previous two parts to problems in sorting, searching and
+      string-processing.
+      <p>
+      The chapters are short, clear and peppered with interesting anecdotes.
+      These make them easy to read, though it would be a terrible mistake to
+      zip through them. The author himself recommends that you take
+      the time to understand the concepts presented in a chapter and attempt
+      solving the given problems yourself before taking a look at the
+      solutions. The chapters only give you a flavour for some of the
+      concepts - you'll have to supplement it with reading a suitable book if
+      you are not familiar with these concepts. Here the author has some
+      recommendations and the usual suspects (<i>The Art of Computer
+      Programming</i>, <i><a href="cc2e.html">Code Complete</a></i>, <i><a
+      href="tpop.html">The Practice of Programming</a></i>, etc.) all figure
+      prominently.
+      <p>
+      The author ends the book with a couple of amusing epilogues presented
+      as interviews with himself. He takes a dig at himself for the frequent
+      references in the book to his colleagues from Bell Labs. One of the
+      appendices contains rules for code tuning adapted from his
+      now-out-of-print book &quot;Writing Efficient Programs&quot;. I suspect
+      that an absolute beginner would have some trouble understanding these
+      recommendations since they are presented here without much elaboration
+      or examples, though there are references to related material elsewhere
+      in the book. Another appendix presents a model for estimating the costs
+      of various data-types and operations. These can be used to make quick
+      back-of-the-envelope calculations about the time and space that will
+      likely be taken by a given function during its execution.
+      <p>
+      Some of the material, like that on performance improvement or programme
+      verification, might not be very fashionable today, but no serious
+      computer programmer can afford to ignore it. Much of the advice in this
+      book is timeless and will definitely help you become a better
+      programmer.
+      <p>
+      Note that the web-site for the book as given in it,
+      &quot;<tt>www.programmingpearls.com</tt>&quot;, is not valid any more as
+      a domain squatter has snatched control of it - the correct web-site is <a
+      href="http://www.cs.bell-labs.com/cm/cs/pearls/">http://www.cs.bell-labs.com/cm/cs/pearls/</a>.
+      <p>
+      The sequel to this book was published as &quot;<a
+      href="http://www.amazon.com/gp/product/0201118890?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0201118890">More
+      Programming Pearls: Confessions of a Coder</a><img
+      src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0201118890"
+      width="1" height="1" alt="" style="border:none !important; margin:0px
+      !important;">&quot;. That book is a little hard to find in most
+      book-shops as it did not become as famous as this one.
+
+      m4_end_post_rest
+      m4_end_post

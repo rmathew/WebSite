@@ -1,0 +1,63 @@
+      m4_define( `m4_post_date', `2006-08-28')m4_dnl
+      m4_define( `m4_post_title', `&quot;Watchmen&quot;')m4_dnl
+      m4_include( `posttrans.m4')m4_dnl
+      m4_begin_post
+      <p>
+      &quot;Watchmen&quot;, written by Alan Moore and illustrated by Dave
+      Gibbons, has been widely hailed as one of the best graphic novels
+      ever written. In fact, <i>Time</i> magazine even went to the extent
+      of putting it in its list of the 100 best English-language novels of
+      &quot;all time&quot; published since 1923. It is also the only
+      graphic novel to have ever been awarded the <a
+      href="http://en.wikipedia.org/wiki/Hugo_Award">Hugo Award</a> (given
+      every year to the best work in science fiction and fantasy). It has
+      also won numerous other awards for its creators.
+
+      m4_begin_post_rest
+      <div class="book_display">
+        <img src="m4_root_dir/books/images/watchmen.jpg" alt="Watchmen">
+        <br>
+        <a href="http://www.amazon.com/gp/product/0930289234?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0930289234">
+        <img src="m4_root_dir/books/images/buyamz.gif"
+          alt="Buy From Amazon.com">
+        </a>
+        <img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0930289234" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
+      </div>
+      <p>
+      I have to say that I
+      fully agree with all the accolades that have been heaped upon this
+      fantastic piece of work. You really have to read it yourself to see
+      what all the fuss is about - you will never be able to dismiss comics
+      as just being for kids after reading this.
+      <p>
+      &quot;Watchmen&quot; tells the story of retired and active costumed
+      adventurers (masked superheroes) in 1985 in an alternate history
+      United States with the Soviet Union being its biggest adversary. All
+      of the superheroes, except one, are humans without any special powers.
+      It appears that someone is trying to kill the masked superheroes one
+      by one and precipitating events that could lead to World War Three. The
+      surviving superheroes try to find out who is behind all this.
+      <p>
+      The book explores the complex psyche of its characters and presents
+      several flashbacks to help the reader understand the characters better.
+      There are twelve chapters in the book. The cover page of each chapter
+      is an extreme close-up of some part of the first frame in the chapter
+      and the cover of the book itself is an extreme close-up of the cover
+      of the first chapter. The title of a chapter is a part of a line or a
+      verse (from various sources, including songs from Bob Dylan, Elvis
+      Costello, the Book of Job in the Old Testament, etc.) that is
+      presented in full at the end of the chapter and that is relevant in
+      some sense to the overall theme of the chapter. The book itself ends
+      with the now famous line &quot;Who watches the Watchmen?&quot;. The
+      chapters are separated by excerpts from media (books, newspapers,
+      police reports, etc.) from within the world of the book that further
+      illuminate the nature of the characters. There is some nudity and gore
+      that might be unsettling for a few people. The illustrations are superb
+      and the colouring good. About the only &quot;flaw&quot; as such that
+      bothered me was the same old inclination of comics writers to randomly
+      put one or two words in every sentence in bold typeface for some reason.
+      <p>
+      This book is a must-read.
+
+      m4_end_post_rest
+      m4_end_post

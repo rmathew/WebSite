@@ -1,0 +1,107 @@
+      m4_define( `m4_post_date', `2010-01-23')m4_dnl
+      m4_define( `m4_post_title', `&quot;The Practice of Programming&quot;')m4_dnl
+      m4_include( `posttrans.m4')m4_dnl
+      m4_begin_post
+      <p>
+      In their book <a href="http://tpop.awl.com/">The Practice of
+      Programming</a>, Brian Kernighan and Rob Pike aim to advise computer
+      programmers on things like testing, debugging, style, performance,
+      design, portability, etc. that they are not usually taught in computer
+      science classes or programming courses. This is what they call the
+      &quot;practice&quot; of programming. Many pick these up over the
+      course of their careers with some trial and error; many simply don't.
+      This is the kind of book that has lessons for both rookie and seasoned
+      programmers and that deserves multiple readings over the course of
+      one's career.
+
+      m4_begin_post_rest
+      <div class="book_display">
+        <img src="m4_root_dir/books/images/m4_post_id.jpg" alt="m4_post_title">
+        <br>
+        <a
+          href="http://www.amazon.com/gp/product/020161586X?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=020161586X">
+          <img src="m4_root_dir/books/images/buyamz.gif"
+            alt="Buy From Amazon.com">
+        </a>
+        <img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=020161586X" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
+      </div>
+      <p>
+      I first read this book about a decade back when I was a relatively-new
+      professional programmer with a couple of years' worth experience.
+      Reading this book again after all these years makes me appreciate the
+      wisdom contained in these pages and agree with almost all that the
+      authors have to say. In fact, I think this is a great approach to
+      becoming a good programmer - learn the basics of programming, spend a
+      couple of years writing lots of programmes for fun or profit, read books
+      like this to improve yourself and come back to such books after several
+      years, having applied their principles in the interim. If you read such
+      a book <i>immediately</i> after learning the basics, you might not
+      really understand the reasons behind the advice in the book and will
+      have to just take the words of the authors at face value.
+      <p>
+      This book is a typical &quot;Kernighan book&quot; - it is short and
+      to the point, the language is clear and simple, the material is
+      logically ordered with a natural progression and some of the examples
+      show that it is simple to implement things (e.g. a regular
+      expression parser) that might appear hard otherwise. It is also
+      an old-school Unix book in that it uses the command pipe-line:
+      <blockquote>
+      <pre>grap | pic | tbl | eqn | troff -mpm</pre>
+      </blockquote>
+      <p>
+      for type-setting instead of using something like a system based on <a
+      href="http://en.wikipedia.org/wiki/TeX">TeX</a>.
+      <p>
+      The programming languages used in this book are C, C++ and Java with
+      an occasional sprinkling of AWK, Perl and Tcl. Most of the examples
+      use C however and some of the advice can be considered specific to this
+      language rather than being agnostic. That is not as bad as it seems
+      since every serious programmer must have C in their arsenal and not be
+      wedded to a single language or a narrow set of languages.
+      <p>
+      The book is full of pearls of wisdom that you might miss on a quick
+      skim through it. For example, in a section on debugging a problem, the
+      authors say:
+      <blockquote>
+      <p>Resist the urge to start typing; thinking is a worthwhile alternative.
+      </blockquote>
+      <p>
+      When faced with a bug, most of us either fire up a debugger or start
+      modifying our programme in the hope of making the bug go away. With
+      experience we learn that carefully reading the code in question and
+      thinking about it lets us resolve the issue faster and some times
+      exposes other latent bugs. As another example, in a section on
+      performance, the authors say:
+      <blockquote>
+      <p>Thus the first principle of optimization is <i>don't</i>.
+      </blockquote>
+      <p>
+      Once again many of us spend a lot of time trying to optimise rarely-used
+      programmes or portions of a programme that we determine to be
+      bottlenecks based on reasoning and intuition alone. We have to ask
+      ourselves if the programme in question is worth speeding up and then
+      use measurements to determine the real bottlenecks. Even then, using
+      better algorithms and data structures coupled with clean and simple
+      code can provide greater benefits than complex code that tries to be
+      clever.
+      <p>
+      The last chapter in the book goes into topics like creating
+      domain-specific languages or compiling code on the fly with an emphasis
+      on using the right language for the job. It is better to create little
+      specialised tools that work with text files on their standard I/O
+      streams and that can then be combined in various ways (using Unix
+      pipes for example) to solve different problems. This is, of course,
+      the <a href="http://en.wikipedia.org/wiki/Unix_philosophy">Unix
+      philosophy</a>. As an example, the authors create scripts for
+      getting the document for a given URL, removing HTML tags from a document
+      and formatting a text document into 60-character lines (written in
+      Tcl, Perl and AWK respectively). They then combine these scripts
+      to create a very simple, command-line-based, &quot;web
+      browser&quot; that shows a web-page as formatted plain-text.
+      <p>
+      In short, read this book if you want to be a better programmer. If
+      you have read it in the distant past, read it once again - you might
+      have missed some things the first time round.
+
+      m4_end_post_rest
+      m4_end_post

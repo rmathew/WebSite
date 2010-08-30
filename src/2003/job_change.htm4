@@ -1,0 +1,9 @@
+      m4_define( `m4_post_date', `2003-01-28')m4_dnl
+      m4_define( `m4_post_title', `A Rolling Stone')m4_dnl
+      m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I have changed jobs and now work for <a
+href="http://www.oracle.com/">Oracle</a> India.
+
+m4_end_post

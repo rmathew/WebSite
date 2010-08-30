@@ -1,0 +1,47 @@
+      m4_define( `m4_post_date', `2004-05-16')m4_dnl
+      m4_define( `m4_post_title', `N-Gaged Otherwise')m4_dnl
+      m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+Srikanth has bought a cool new <a href="http://www.n-gage.com/">Nokia
+N-Gage</a> mobile phone. <a href="http://www.sidetalkin.com/">Side
+talking</a> notwithstanding, it is a pretty cool device really - much
+lighter than I had
+imagined it to be (though about as unwieldy) and with a Multimedia Card (MMC),
+able to store whatever you care to upload to it using a PC via its Bluetooth
+interface. Srikanth had loaded it up with some MP3s and that all time
+favourite action game DOOM. Quite impressive! I <i>still</i> think though
+that he should have waited just a little while longer for the upcoming <a
+href="http://www.n-gage.com/qd/">N-Gage QD</a>.
+
+m4_begin_post_rest
+<p>
+Talking of Srikanth, he now has a cool new <a
+href="http://gmail.google.com/">Gmail</a> address too - <b>sriki77 AT gmail
+DOT com</b>.
+Kingshuk too would have had such an address by now if only he had taken
+some time off bonding with his brethren from the Ibo tribe of Nigeria.
+
+<p>
+I continue hacking on <a href="http://gcc.gnu.org/java/">GCJ</a>
+as time permits. This week marked a big milestone for <a
+href="http://gcc.gnu.org/">GCC</a> that GCJ is a part of - <a
+href="http://gcc.gnu.org/projects/tree-ssa/">the Tree-SSA project</a> was
+finally merged into the GCC mainline after almost 4 years of development,
+bringing a much-needed internal infrastructure upgrade to this venerable
+and very important compiler collection for Free software. GCC will now be
+able to implement several of the optimisations that were formerly only
+available with commercial compilers.
+
+<p>
+<a href="http://uru.ubi.com/">URU</a> is still not available
+here in India, but I am not that saddened by it now as I have something
+<i>much better</i> to look forward to - &quot;<a
+href="http://www.mystrevelation.com/">Myst IV:
+Revelation</a>&quot;, the fourth episode in <a
+href="http://www.mystworlds.com/">the Myst saga</a> that is
+so dear to me and my wife. I hope this one is available in time in India
+like its predecessors.
+
+m4_end_post_rest
+m4_end_post

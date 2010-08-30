@@ -1,0 +1,24 @@
+      m4_define( `m4_post_date', `2005-07-15')m4_dnl
+      m4_define( `m4_post_title', `Bhopal')m4_dnl
+      m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I have come back to Bangalore after a two-week vacation in <a
+href="http://en.wikipedia.org/wiki/Bhopal">Bhopal</a>.
+It is the city where I grew up and where I stayed till I went to
+college. I was visiting Bhopal after a gap of nearly 4 years.
+
+m4_begin_post_rest
+<p>
+The city continues to expand rapidly and now has much better and wider roads.
+I got to eat fresh and tasty <i>kachauris</i> and <i>samosas</i> at
+the &quot;<i>Milan</i>&quot; shops, see the wonderful <i>stupas</i>
+at <a href="http://en.wikipedia.org/wiki/Sanchi">Sanchi</a>,
+see the house where I had grown up, see the school I used to
+go to, see the awesome <i><a
+href="http://indiaculture.nic.in/en/Org/indira.htm">Manav
+Sangrahalaya</a></i> (&quot;Museum of Mankind&quot;), see the one-of-a-kind
+cultural melting pot <i>Bharat Bhavan</i> and see the beautiful <i>Bada
+Talaab</i> (Upper Lake). A wonderful and memorable trip.
+m4_end_post_rest
+m4_end_post

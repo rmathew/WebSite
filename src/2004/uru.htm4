@@ -1,0 +1,48 @@
+      m4_define( `m4_post_date', `2004-08-22')m4_dnl
+      m4_define( `m4_post_title', `&quot;Uru: Ages Beyond Myst&quot;')m4_dnl
+      m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+This week Anusha and I played <a href="http://uru.ubi.com/">Uru: Ages Beyond
+Myst</a> - the ambitious and open-ended
+3D incarnation of the <a href="http://www.mystworlds.com/">Myst series of
+games</a>.
+
+m4_begin_post_rest
+We have finished the original
+single player game and will soon start on <a
+href="http://www.pathoftheshell.com/">The Path of the Shell</a>
+which is the expansion pack for this game.
+
+<div class="centred">
+<img src="m4_root_dir/images/uru1.jpg" alt="Uru Screenshot">
+<br>
+<i>Our Avatar inside an Age (&quot;Gahreesan&quot;) in Uru</i>
+</div>
+
+<p>
+I liked the game on the whole but just <i>hated</i> some of the elements -
+notably the extremely awkward third-person perspective and the associated
+movement of the avatar as well as the camera (first-person perspective is
+also provided but is difficult to use in many a puzzle). Some of the
+puzzles were also quite bad and extremely illogical. I do not
+think this game can be finished without the help of a walkthrough.
+The graphics, while really stunning at times, do not hold a candle
+to the really gorgeous and polished Riven and Exile in the same series. The
+story was non-existent and we had no idea why we were carrying out
+the whims of the eccentric Yeesha, Atrus's daughter. More irritatingly,
+the game engine has a few bugs that make it freeze hard in the middle
+of a session and Windows 98 dutifully corrupts a few files every time we
+hard-reboot the computer! After some time some of the game files were so
+corrupted that we had to uninstall and then reinstall the game to
+be able to proceed!
+
+<p>
+I hope the forthcoming <a href="http://www.mystrevelation.com/">Myst
+Revelation</a> redeems this otherwise quite wonderful
+series and Uru remains a forgettable aberration. The playable demo
+features gorgeous graphics quite seamlessly integrated with animation
+and a great interface.
+
+m4_end_post_rest
+m4_end_post

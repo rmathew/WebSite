@@ -1,0 +1,22 @@
+      m4_define( `m4_post_date', `2004-09-26')m4_dnl
+      m4_define( `m4_post_title', `Heights of Jingoistic Protectionism')m4_dnl
+      m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+The Kannada movie industry wants non-Kannada movies to be released within 
+the state of Karnataka at least <i>seven weeks later</i> than their release
+elsewhere in India. Even then, there can be only eight prints of such a
+movie at a time across Karnataka. As if that was not enough, they want
+<i>70%</i> entertainment tax on non-Kannada movies and <i>none</i> on
+Kannada movies, going as far as to demand subsidies even for commercial
+Kannada movies.
+
+m4_begin_post_rest
+<p>
+These recommendations were made by a committee appointed by the state
+government comprising members who were deemed &quot;competent&quot; by
+the members of the Kannada movie industry, as they were not satisfied
+with those made by an earlier committee.
+
+m4_end_post_rest
+m4_end_post

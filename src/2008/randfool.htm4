@@ -1,0 +1,70 @@
+      m4_define( `m4_post_date', `2008-11-18')m4_dnl
+      m4_define( `m4_post_title', `&quot;Fooled by Randomness&quot;')m4_dnl
+      m4_include( `posttrans.m4')m4_dnl
+      m4_begin_post
+      <p>
+      It is not easy to put &quot;<a
+      href="http://www.fooledbyrandomness.com/">Fooled by Randomness</a>&quot;
+      by <a href="http://en.wikipedia.org/wiki/Nassim_Nicholas_Taleb">Nassim
+      Nicholas Taleb</a> into one of the standard book categories like
+      &quot;Business&quot; or &quot;Science&quot; or &quot;Philosophy&quot;.
+      This is because the book is about all of these and more. The main
+      message of the book is that humans have an innate tendency to overlook
+      the randomness of most of the events in their lives and they must learn
+      to recognise this. Chance plays a much greater role in our lives than
+      we are willing to believe. The success or failure of a person depends
+      a lot on luck as well as the usual suspects like skills, hard work,
+      risk-appetite, etc.
+
+      m4_begin_post_rest
+      <div class="book_display">
+        <img src="m4_root_dir/books/images/m4_post_id.jpg" alt="m4_post_title">
+        <br>
+        <a
+          href="http://www.amazon.com/gp/product/0812975219?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0812975219">
+        <img src="m4_root_dir/books/images/buyamz.gif"
+          alt="Buy From Amazon.com">
+        </a>
+        <img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0812975219" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
+      </div>
+      <p>
+      The book shows how probability is misunderstood by most people. People
+      assign definite probabilities to events even when it is scientifically
+      impossible to do so and then proceed to perform elaborate calculations
+      based on such probabilities. Even when they have a fair idea of the
+      probabilities people tend to take the wrong decisions because they
+      forget to calculate the expected value of the possible outcomes. Many
+      of the examples used to illustrate these statements are taken from the
+      financial markets since the author is an options trader. The story of
+      &quot;Nero Tulip&quot; seems somewhat autobiographical.
+      <p>
+      The author makes no attempt to hide his contempt for many people
+      and for several commonly-accepted ideas. His motto is &quot;to tease
+      those who take themselves and the quality of their knowledge too
+      seriously&quot;. He reserves particular contempt for economists and
+      journalists. The book has many &quot;warnings against economists and
+      finance professors as they tend to believe that they know something,
+      and something useful at that&quot;. He does not shy from rubbishing
+      the typical MBA even though he holds an MBA himself. He thinks that
+      journalists are primarily entertainers and asks you to stay away from
+      those who are deluded into believing that they are thinkers.
+      <p>
+      If you think that this book will help you in profiting from the
+      apparent randomness of the financial markets then you will be
+      disappointed. It would help you to be on your guard while dealing
+      with this randomness. The author points out that contrary to what most
+      people think, randomness does not mean that there will never be any
+      recognisable patterns in the data under observation. It is dangerous
+      to be lulled by such occasional patterns into making ultimately costly
+      bets.
+      <p>
+      Many of the passages in the book make the author appear pompous,
+      arrogant or condescending. At times you feel as if the author just
+      wants to show off his acquaintances, his travels, his readings or his
+      aristocratic lineage. It is also difficult to understand some of the
+      passages without a background in finance, mathematics or philosophy.
+      Fortunately these distractions are not enough to deter you from
+      getting the main points so vividly made by the author.
+
+      m4_end_post_rest
+      m4_end_post

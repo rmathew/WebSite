@@ -1,0 +1,55 @@
+      m4_define( `m4_post_date', `2003-06-29')m4_dnl
+      m4_define( `m4_post_title', `Two Mat(t)hews and a Chandrasekharan')m4_dnl
+      m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+During the &quot;Bang!inux&quot; Linux Conference held here in Bangalore
+in February 2000, my friend Ananth Chandrasekharan and I managed to get
+<a href="http://www.stallman.org/">RMS</a> (Richard 
+Matthew Stallman) to pose with us for a photograph.
+
+m4_begin_post_rest
+<div class="centred">
+<img src="m4_root_dir/images/rmsnus.jpg" alt="RMS posing with us">
+</div>
+<p>
+He kept saying &quot;The movement is more important than the
+individuals!&quot; (or something to that effect) as he posed
+for this, while we were just too excited to see 
+the &quot;hacker of hackers&quot; in person and to be able 
+to listen to him talk, to pay attention to that.
+
+<p>
+Yesterday I watched &quot;<a href="http://whatisthematrix.warnerbros.com/">The Matrix Reloaded</a>&quot; for the second time in
+two weeks - this time around a LOT of the dialogues made so 
+much more sense in the light of <a 
+href="http://www.joeythefilmgeek.com/neo.html">what
+the Architect tells Neo</a> towards the end of the movie that 
+I remembered from the first viewing. I still could not 
+understand why some rather tautological statements like 
+&quot;Some things never change - and some things
+do!&quot; had to be repeatedly uttered by Niaobe and Morpheous. This
+movie <i>demands</i> repeated viewings to be able to 
+make sense of most of what is revealed and you <i>still</i> do 
+not know whether your interpretation and hypotheses are
+&quot;correct&quot;! No wonder it has been <a 
+href="http://matrixessays.blogspot.com/">analysed 
+so much</a> by so many people. I was intrigued so much by this 
+movie that I have ordered the
+<a href="http://www.intothematrix.com/">Animatrix</a>
+DVD from <a href="http://www.amazon.com/">amazon.com</a>
+to get as much background information as possible!
+
+<p>
+It was wonderful to see Warner Brothers release this movie here
+in India within a month of its release in the US! I hope they
+keep it up for the sequel to this movie that I am, needless to
+say, <i>dying</i> to see.
+
+<p>
+By the way, did you know that I also maintain a sort of a 
+<a href="http://www.advogato.org/person/rmathew/">geek 
+diary</a>?
+
+m4_end_post_rest
+m4_end_post

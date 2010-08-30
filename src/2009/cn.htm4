@@ -1,0 +1,62 @@
+      m4_define( `m4_post_date', `2009-05-17')m4_dnl
+      m4_define( `m4_post_title', `&quot;Computer Networks&quot;')m4_dnl
+      m4_include( `posttrans.m4')m4_dnl
+      m4_begin_post
+      <p>
+      &quot;Computer Networks&quot; by <a
+      href="http://en.wikipedia.org/wiki/Andrew_S._Tanenbaum">Andrew S.
+      Tanenbaum</a> is a comprehensive text-book on the topic written by an
+      author with many popular text-books to his credit. There are more than
+      800 pages in this book, though the prose is fairly accessible and
+      peppered with the entertaining wit and sarcasm that is the hallmark of
+      the author's text-books. Even though its 2002 vintage shows through every
+      now and then, the book on the whole is fairly up-to-date and still quite
+      relevant. It is therefore a great text-book from which to teach yourself
+      about computer networks.
+
+      m4_begin_post_rest
+      <div class="book_display">
+        <img src="m4_root_dir/books/images/m4_post_id.jpg" alt="m4_post_title">
+        <br>
+        <a
+          href="http://www.amazon.com/gp/product/0130661023?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0130661023">
+          <img src="m4_root_dir/books/images/buyamz.gif"
+            alt="Buy From Amazon.com">
+          </a>
+          <img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0130661023" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
+      </div>
+      <p>
+      While the book talks about the seven-layered <a
+      href="http://en.wikipedia.org/wiki/OSI_model">OSI model</a> for computer
+      networks as well as the much simpler TCP/IP model, it uses a hybrid
+      model to describe the relevant concepts and protocols. This model
+      comprises the Physical Layer, the Data-Link Layer, the Network Layer,
+      the Transport Layer and the Application Layer. I personally feel that
+      the model used in this book is a more natural fit to computer networks
+      as they exist today.
+      <p>
+      There are enough protocols described here, across all layers, to sate
+      the appetite of almost every person. At times the author describes the
+      politics behind the promotion of some of the protocols and the reasons
+      for some protocols becoming more dominant than others. You also get to
+      appreciate just how much effort has gone into these protocols to cope
+      with all sorts of network errors and the evolving needs of users. The
+      book covers a lot of wireless and mobile networking issues as well in
+      this edition to reflect their increasing importance in the modern world.
+      <p>
+      The sections on multimedia, cryptography and copyright issues,
+      while no doubt very interesting, seem a little out of place for this
+      book. Some of the figures do not appear anywhere close to their sites
+      of reference, which makes it a bit cumbersome to flip back and forth
+      between the relevant text and the respective figure. The book uses a
+      proportional font for code listings instead of the usual monospace fonts,
+      which makes it difficult to read through the code.
+      <p>
+      While this book is a great reference for the concepts related to
+      computer networks, it is not so great as an actual network programming
+      reference. You would be much better served for that purpose by one of
+      the books by <a href="http://en.wikipedia.org/wiki/W._Richard_Stevens">W.
+      Richard Stevens</a>.
+     
+      m4_end_post_rest
+      m4_end_post

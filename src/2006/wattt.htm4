@@ -1,0 +1,35 @@
+      m4_define( `m4_post_date', `2006-04-27')m4_dnl
+      m4_define( `m4_post_title', `&quot;Writers and Their Tall Tales&quot;')m4_dnl
+      m4_include( `posttrans.m4')m4_dnl
+      m4_begin_post
+      <p>
+      &quot;Writers and Their Tall Tales&quot; is the second book I have
+      read in the &quot;<a
+      href="http://www.scholastic.co.uk/zone/book_dead-famous.htm">Dead
+      Famous</a>&quot; series of books (the first one was on William
+      Shakespeare). It is a light book written in a humourous manner and
+      is loaded with comic illustrations.
+
+      m4_begin_post_rest
+      <div class="book_display">
+        <img src="m4_root_dir/books/images/wattt.jpg"
+          alt="Writers and Their Tall Tales">
+        <br>
+        <a href="http://www.amazon.com/gp/product/0439982294?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0439982294">
+        <img src="m4_root_dir/books/images/buyamz.gif"
+          alt="Buy From Amazon.com">
+        </a>
+        <img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0439982294" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
+      </div>
+      <p>
+      It talks about some famous authors
+      like William Shakespeare, Charles Dickens, Jane Austen, etc. and 
+      discusses a couple of their respective works in brief. I enjoyed it,
+      but not as much as I did the first one, probably because the novelty
+      has worn off. They only seem to consider British authors and the
+      &quot;secret diary&quot; entries get a bit tiresome after a while. It
+      is still a decent quick introduction to these authors for young
+      teenagers.
+
+      m4_end_post_rest
+      m4_end_post

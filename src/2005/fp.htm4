@@ -1,0 +1,41 @@
+      m4_define( `m4_post_date', `2005-07-15')m4_dnl
+      m4_define( `m4_post_title', `&quot;Foucault'`''`s Pendulum&quot;')m4_dnl
+      m4_include( `posttrans.m4')m4_dnl
+      m4_begin_post
+      <p>
+      Umberto Eco's &quot;Foucault's Pendulum&quot; is another of the books
+      recommended to me by <a href="http://www.yumpee.org/">Yumpee</a>. Any
+      novel that features a complete program in BASIC for generating all the
+      permutations of the letters of God's name in Hebrew
+      (&quot;<i>Yahveh</i>&quot;) <i>has</i> to be interesting.
+
+      m4_begin_post_rest
+      <div class="book_display">
+        <img src="m4_root_dir/books/images/fp.jpg" alt="Foucault's Pendulum">
+        <br>
+        <a href="http://www.amazon.com/gp/product/015603297X?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=015603297X">
+        <img src="m4_root_dir/books/images/buyamz.gif"
+          alt="Buy From Amazon.com">
+        </a>
+        <img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=015603297X" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
+      </div>
+      <p>
+      Three rather
+      clever editors in a little publishing house invent a plan, just for
+      the kicks of it, supposedly of the Knights Templar scattered
+      throughout the world after their trial, after having read through
+      several manuscripts of dubious merit on occult and esoterica submitted
+      for a forthcoming compilation to be published by the publishing house.
+      Unfortunately for them, their creation takes over their lives when
+      others get wind of their creation. I found the novel a great read on
+      the whole, except for a couple of irritants that it shares with all
+      such books that I have read in the recent past: there are a <i>lot</i>
+      of background characters, organisations and events spread over several
+      centuries that become difficult to remember and there are a <i>lot</i>
+      of sentences in French and Latin that are not at all accompanied by
+      English translations. Either people happily ignore such things or the
+      average reader has faculties of intelligence far beyond those of yours
+      truly.
+
+      m4_end_post_rest
+      m4_end_post

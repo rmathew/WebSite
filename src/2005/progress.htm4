@@ -1,0 +1,48 @@
+      m4_define( `m4_post_date', `2005-07-31')m4_dnl
+      m4_define( `m4_post_title', `Progress')m4_dnl
+      m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+In recent times, I have been quite impressed by the progress shown by
+some of the government units in making the lives of the people much
+simpler.
+
+m4_begin_post_rest
+<p>
+The most impressive change is in the automated railway
+enquiry system (dial 139) of the <a
+href="http://www.southernrailway.org/">Southern Railway</a>. It features
+<i>voice-recognition</i> now
+so that you just speak out the name of the train instead of having to
+remember the number of the train. It has worked flawlessly all of the times
+that I have tried it. Their site also allows you to track trains in
+real time. This is a level of automation that I haven't even seen in a
+private enterprise.
+<p>
+I have been able to <a href="http://tin.nsdl.com/">apply for
+a PAN card online</a> which arrived within the month, get my new voter's
+identity card within an hour, file my income-tax returns within five
+minutes, pay my property-tax within five minutes without leaving the
+apartment complex, get <a href="http://dataone.in/">a broadband
+DSL connection</a> that provides more value for money and on better terms
+than those from any of the private operators, <i>et cetera</i>. This is 
+a level of progress that the people in my father's generation still 
+can not believe is happening and that the people in my generation still
+do not think is enough. I believe it is unfair for us to perpetually
+curse the government without appreciating just how much progress has been
+made. If you do not believe me, just ask your father or mother.
+<p>
+By the way, our country is now at a stage where we find that the
+fares by plane to reach a destination are sometimes lower than the fares
+by train (even by second class). Low-cost airlines have certainly led
+to a big boom in air travel (for example, almost all of my colleagues travel
+only by air now) and the resultant congestion at airports like those in
+Bombay, Delhi and Bangalore which are totally unprepared for this kind
+of traffic. Once again, the fact that ordinary middle-class people would
+be able to afford air travel is something that would have been unthinkable
+just a decade ago. Another thing is that our generation is prepared to
+shell out extra money if it saves time, while it used to be just the other
+way round a generation ago.
+
+m4_end_post_rest
+m4_end_post

@@ -1,0 +1,49 @@
+      m4_define( `m4_post_date', `2002-04-25')m4_dnl
+      m4_define( `m4_post_title', `&quot;Get Rid Of Slimy Scumware&quot; (G.R.O.S.S.)')m4_dnl
+      m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+<i>(With due apologies to <a
+href="http://www.calvinandhobbes.com/">Calvin</a>!)</i>
+
+<p> 
+<a href="http://www.scumware.com/">Scumware</a> 
+is software that is installed on your machine, generally without 
+your consent, by a lot of software these days. This particularly 
+despicable strain of software pops up banner adds on sites that 
+do not have any, steals browser URLs to drive up affiliate 
+marketing scores, puts ugly green and yellow lines under 
+words on a web page (extra hyperlinks that take you to their 
+affiliate sites), messes with search engine results, eats 
+up your bandwidth, etc.
+
+m4_begin_post_rest
+<p>
+You are particularly likely to be affected 
+if you are a regular user of Internet Explorer on Windows 
+(i.e. 90% of the web surfing population) and keep downloading 
+&quot;neat&quot; utilities like music players, file 
+&quot;sharing&quot; clients, download managers, etc. 
+
+<p>
+Examples of particularly widespread scumware include 
+<a href="http://www.gator.com/">Gator</a>,
+<a href="http://www.ezula.com/">eZula</a>,
+<a href="http://www.cydoor.com/">Cydoor</a>,
+<a href="http://www.radiate.com/">Aureate</a>,
+etc. Beware!
+
+<p>
+One of the best utilities to help you get rid of these pests is
+<a href="http://www.lavasoftusa.com/">Ad-Aware</a>.
+Get it today and find out if your machine is also infested with
+this menace (very likely). Some of the programs might complain 
+or even stop working if their pet scumware is removed - just get
+an alternative utility that does not. Do not forget to keep 
+your <a href="http://www.lavasoftusa.com/">Ad-Aware</a>
+up to date by downloading the latest &quot;reference file&quot;
+(similar to updating an antivirus utility with the latest
+virus signatures).
+
+m4_end_post_rest
+m4_end_post

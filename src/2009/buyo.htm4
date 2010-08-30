@@ -1,0 +1,57 @@
+      m4_define( `m4_post_date', `2009-11-02')m4_dnl
+      m4_define( `m4_post_title', `&quot;Buyology&quot;')m4_dnl
+      m4_include( `posttrans.m4')m4_dnl
+      m4_begin_post
+      <p>
+      &quot;Buyology&quot; by <a href="http://www.martinlindstrom.com/">Martin
+      Lindstrom</a> is a book that purports to show that our subconscious
+      drives our buying decisions in ways that we rarely suspect. Marketers
+      can successfully sell products to their target consumers by
+      understanding these factors; otherwise their campaigns are a waste of
+      time, effort and money. The author tries to back these claims by citing
+      the results of some studies.
+
+      m4_begin_post_rest
+      <div class="book_display">
+        <img src="m4_root_dir/books/images/m4_post_id.jpg" alt="m4_post_title">
+        <br>
+        <a
+          href="http://www.amazon.com/gp/product/0385523882?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0385523882">
+          <img src="m4_root_dir/books/images/buyamz.gif"
+            alt="Buy From Amazon.com">
+        </a>
+        <img
+          src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0385523882" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
+      </div>
+      <p>
+      The studies in question involved over 2,000 volunteers and used
+      brain-mapping with <a
+      href="http://en.wikipedia.org/wiki/Functional_magnetic_resonance_imaging">Functional
+      Magnetic Resonance Imaging</a> (fMRI) to study their reactions to
+      products and marketing messages. By noting the parts of a volunteer's
+      brain that &quot;light up&quot; when presented with a test, the
+      researchers draw various conclusions about how the product or marketing
+      message affects their subconscious.
+      <p>
+      This is where the studies seem to be flawed, as far as I can tell. It
+      seems to be a case of the classic logical fallacy usually known as
+      <a href="http://en.wikipedia.org/wiki/Affirming_the_consequent">affirming
+      the consequent</a> - &quot;A implies B&quot; does not necessarily mean
+      that &quot;B implies A&quot;. In other words, suppose a part of my brain
+      lights up under fMRI when, say, I'm hungry. If you now observe that the
+      same part of my brain lights up when I see a product, it does not
+      necessarily follow that the product makes me feel hungry. Maybe it does;
+      maybe it doesn't.
+      <p>
+      I feel that there is not enough material in this book that justifies
+      its existence. It should perhaps have been published as an article in
+      a magazine instead. There is a fair amount of fluff in this book
+      seemingly to fill out the pages. In addition the author comes across
+      as quite egotistical dedicating several passages to tell you
+      (again and again) that he surely has influenced your life in one way
+      or the other and that he is constantly travelling all over the world
+      meeting his big and important clients. It seems as if this book did
+      not have an editor.
+
+      m4_end_post_rest
+      m4_end_post

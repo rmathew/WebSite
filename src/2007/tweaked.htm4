@@ -1,0 +1,31 @@
+      m4_define( `m4_post_date', `2007-11-11')m4_dnl
+      m4_define( `m4_post_title', `Website Design Tweaked')m4_dnl
+      m4_include( `posttrans.m4')m4_dnl
+      m4_begin_post
+      <p>
+      I have tweaked the design of this website a bit. It should now be
+      slightly easier to get a quick overview of the available content on
+      some of the pages. (<b>Note:</b> You might need to reload <a
+      href="m4_root_dir/script.js">script.js</a> and <a
+      href="m4_root_dir/custom.css">custom.css</a> to properly see the effect
+      of the changes, if you have visited this website some time in the
+      recent past. This is to avoid the problems caused by stale copies
+      of these files cached by your web browser.)
+
+      m4_begin_post_rest
+      <p>
+      Instead of showing just the most recent post on a given page in full,
+      I now show a summary for each post followed by a &quot;Read More...&quot;
+      link that expands the rest of the body of the post if the reader finds
+      the summary interesting. I have implemented this feature for the main
+      page, the &quot;<a href="m4_root_dir/archives/index.html">News
+      Archives</a>&quot; pages and the &quot;<a
+      href="m4_root_dir/books/index.html">Book Reviews</a>&quot; pages.
+      <p>
+      I have also removed the books for which there were no reviews yet and
+      the website used to show a silly &quot;To be reviewed&quot; text. This
+      should reduce unwarranted disappointments on account of missing
+      reviews.
+
+      m4_end_post_rest
+      m4_end_post

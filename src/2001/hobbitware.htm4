@@ -1,0 +1,24 @@
+      m4_define( `m4_post_date', `2001-04-14')m4_dnl
+      m4_define( `m4_post_title', `The Hobbitware.com Intranet Project')m4_dnl
+      m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+Some time back I had helped build a simple Intranet for our
+company. I had to dig around a bit and learn a lot of things by
+trial and error as there was no simple guide to setting up the
+whole thing anywhere that I could lay my hands on.
+<a href="m4_root_dir/articles/intranet/index.html">The Hobbitware.com Intranet
+Project</a> is a &quot;guide with a difference&quot; that attempts
+to be a simple guide to system administrators who want to set up
+a simple, cost-effective Intranet for their organisations. It is
+right now in the preliminary stages, but I hope to finish it
+pretty soon. I would <i>love</i> to know what you think about it.
+
+m4_begin_post_rest
+<p>
+I also made minor changes to some file names: in accordance with
+HTTP conventions, the main file for every section would be named
+&quot;<code>index.html</code>&quot;.
+
+m4_end_post_rest
+m4_end_post

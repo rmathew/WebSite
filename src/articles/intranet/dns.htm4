@@ -1,0 +1,321 @@
+m4_define(`m4_root_dir',`../..')m4_dnl
+m4_define(`m4_page_title',`DNS Server')m4_dnl
+m4_define(`m4_page_section',``Articles'')m4_dnl
+m4_dnl
+m4_include(`header.htm4')m4_dnl
+m4_dnl
+<!-- BEGIN: Page Body -->
+<div id="main-copy">
+m4_toc
+m4_heading( `1', `dns', `DNS Server')
+<p>
+The first order of business for Sam was to define a proper
+TCP/IP domain for the Intranet. 
+
+<p>
+The hobbits of the company
+assigned IP addresses to their machines according to their
+whim and availability of the chosen address. The only saving grace
+here was that by convention, all the IP addresses had the
+form &quot;<code>192.168.1.x</code>&quot;. Since IP addresses were 
+too cumbersome to use to refer to machines, each hobbit's
+machine had a &quot;<code>/etc/hosts</code>&quot; file populated 
+according to his needs, and sooner than later, containing incorrect 
+entries as the IP addresses changed for some servers. And of course, 
+everyone had a different idea of what domain name the machines 
+belonged to: some configured their machines to belong to the 
+<code>hobbiton.hobbitware.com</code> domain, while others configured
+<code>local.hobbitware.com</code> as their domain, and so on.
+
+
+<p>
+Sam pretty much decreed that thenceforth all the internal machines
+shall belong to the &quot;<code>internal.hobbitware.com</code>&quot;
+domain. All the machines were configured to use the Intranet server
+(which was assigned the IP address 192.168.1.1) for host name
+lookups (DNS Server) and the &quot;<code>/etc/hosts</code>&quot; 
+files were banished. Everyone had to get their machine name 
+registered with Sam and get an IP address, which Sam configured 
+into the server.
+
+
+<br>
+m4_heading( `1', `setup', `Setup')
+<p>
+For setting up the server, Sam was helped immensely by the excellent
+<a href="http://www.linuxdoc.org/HOWTO/DNS-HOWTO.html">Linux
+DNS-HowTo</a>. He installed the <code>bind</code>
+server that came with his Linux distribution. (He could have also
+compiled it himself using the sources he could find
+<a href="http://www.isc.org/products/BIND/">at this
+place</a>, but there really was no point to it.) Sam still swears by
+the DNS-HowTo and recommends that everyone read it before attempting
+to configure a DNS server.
+
+<p>
+First Sam had to get the list of all the &quot;root servers&quot;
+in the DNS hierarchy - the &quot;know-all&quot; servers that knew
+how to contact the next level DNS servers. He just ran the command
+
+<p>
+<div class="centred">
+<code>dig @e.root-servers.net . ns &gt;root.hints</code>
+</div>
+
+<p>
+to get this list in the proper format. (Of course he had to use the
+ISP's DNS server to get to this root server in the first place.)
+He saved this &quot;<code>root.hints</code>&quot; file in the 
+<code>/var/named</code> folder, where he planned to keep all his 
+zone configuration. And he made a note to himself to update this
+file periodically (even though it didn't change much over time).
+
+<p>
+Next, Sam needed to tell the DNS server <code>bind</code> where to
+look for the domain configuration information. Now <code>bind</code>
+looks in the file &quot;<code>/etc/named.conf</code>&quot; for 
+configuration information, so Sam went about creating this file
+using his favourite text editor. His configuration file looked
+something like this:
+
+<p>
+<div class="notice">
+<pre>
+options {
+    directory "/var/named";
+    forward first;
+    forwarders {
+        202.54.1.30;
+        202.54.12.17;
+    };
+};
+
+zone "." {
+    type hint;
+    file "root.hints";
+};
+
+zone "0.0.127.in-addr.arpa" {
+    type master;
+    file "zone/127.0.0";
+};
+
+zone "internal.hobbitware.com" {
+    notify no;
+    type master;
+    file "zone/internal.hobbitware.com";
+};
+
+zone "1.168.192.in-addr.arpa" {
+    notify no;
+    type master;
+    file "zone/192.168.1";
+};
+</pre>
+</div>
+
+<p>
+Sam told <code>bind</code> to look for all the other files
+relative to the &quot;<code>/var/named</code>&quot; folder.
+He instructed it to first forward all non-local host name 
+lookups to his ISP's DNS servers (202.54.1.30 and 202.54.12.17),
+and attempt to resolve the name itself only if these servers
+fail. As a typical complete DNS entry lookup takes several
+steps, it would have been unwise to carry it out on the slower
+link between the company and the ISP, as opposed to the much
+fatter link between the ISP itself and the Internet.
+
+<p>
+The server automatically caches all name lookups, so he didn't
+have to specify it explicitly. This caching tremendously helps
+extraneous name lookups over the slow Internet link as most
+hobbits used to go to the same sites.
+
+<p>
+The interesting entries were those for the zones 
+&quot;<code>internal.hobbitware.com</code>&quot; and for
+&quot;<code>1.168.192.in-addr.arpa</code>&quot; - for both
+these zones, this server was going to be the &quot;master&quot;
+server (or the authoritative source), and the zone
+configuration files specified contained the respective zone data.
+The former zone helped resolve host names to IP addresses and
+the latter for reverse lookups (IP addresses to host names).
+This in effect was all Sam needed to define his own little
+internal domain.
+
+<br>
+m4_heading( `1', `zones', `Zones Configuration')
+<p>
+Sam now created the folder &quot;<code>/var/named/zone</code>&quot;.
+Here he placed three files named 
+&quot;<code>127.0.0</code>&quot;,
+&quot;<code>internal.hobbitware.com</code>&quot; and
+&quot;<code>192.168.1</code>&quot;. The first file merely
+contained the following:
+
+<p>
+<div class="notice">
+<pre>
+@   IN  SOA dns.internal.hobbitware.com. root.dns.internal.hobbitware.com. (
+            1   ; Serial Number
+            8H  ; Refresh Interval
+            2H  ; Retry Period
+            1W  ; Entry Expiry Period
+            1D) ; Minimum Time-to-live
+;
+        NS  dns.internal.hobbitware.com.
+;
+1       PTR localhost.
+</pre>
+</div>
+
+<p>
+This was of course as dictated by the DNS-HowTo. It was merely a fancy
+way of resolving &quot;<code>127.0.0.1</code>&quot; to 
+&quot;<code>localhost</code>&quot;.
+
+<p>
+The next file (&quot;<code>internal.hobbitware.com</code>&quot;)
+was more interesting and contained something like this:
+
+<p>
+<div class="notice">
+<pre>
+@   IN  SOA dns.internal.hobbitware.com. root.dns.internal.hobbitware.com. (
+            1421041401   ; Serial Number
+            8H  ; Refresh Interval
+            2H  ; Retry Period
+            1W  ; Entry Expiry Period
+            1D) ; Minimum Time-to-live
+;
+        NS  dns     ; Name server for the entire domain
+;
+        MX  10  dns.internal.hobbitware.com     ; Primary Mail Exchanger
+;
+localhost   A   127.0.0.1
+;
+www     CNAME   dns
+ftp     CNAME   dns
+smtp    CNAME   dns
+pop     CNAME   dns
+proxy   CNAME   dns
+news    CNAME   dns
+;
+dns     A   192.168.1.1
+frodo   A   192.168.1.10
+merry   A   192.168.1.11
+pippin  A   192.168.1.12
+sam     A   192.168.1.13
+;
+</pre>
+</div>
+
+<p>
+Again, in accordance with the guidelines set in the DNS HowTo, this
+file defined the domain <code>internal.hobbitware.com</code>. It
+designated this server as the primary DNS as well as the mail server
+for this domain. It also defined several aliases (&quot;www&quot;,
+&quot;pop&quot;, etc.) to this server so that one could access this
+server as <code>www.internal.hobbitware.com</code> or as
+<code>pop.internal.hobbitware.com</code>, etc. After that were
+just name to IP address mappings for hosts. As a convention, Sam
+decided to keep these names in alphabetic order.
+
+<p>
+Finally the last file (&quot;<code>192.168.1</code>&quot;)
+contained stuff like this:
+
+<p>
+<div class="notice">
+<pre>
+@   IN  SOA dns.internal.hobbitware.com. root.dns.internal.hobbitware.com. (
+            1421041402   ; Serial Number
+            8H  ; Refresh Interval
+            2H  ; Retry Period
+            1W  ; Entry Expiry Period
+            1D) ; Minimum Time-to-live
+;
+    NS  dns.internal.hobbitware.com.
+;
+1   PTR dns
+10  PTR frodo
+11  PTR merry
+12  PTR pippin
+13  PTR sam
+;
+</pre>
+</div>
+
+<p>
+This file helped reverse DNS lookups and was quite similar to
+the previous one. Again as a convention, Sam decided to keep
+the entries here in numerically sorted (ascending) order.
+
+<br>
+m4_heading( `1', `server', `Server Startup and Shutdown')
+<p>
+Sam could very easily manage the DNS server using the 
+<code>ndc</code> command: &quot;<code>ndc start</code>&quot;
+would stard the DNS server, while &quot;<code>ndc stop</code>&quot;
+would stop it (duh!). &quot;<code>ndc restart</code>&quot; 
+restarted the DNS server.
+
+<p>
+Sam added an entry in the server startup scripts so that the DNS
+server software (<code>bind</code>) would automatically startup
+as the system booted up. Again, he found all that he needed in the
+DNS HowTo.
+
+<br>
+m4_heading( `1', `maint', `Maintenance')
+<p>
+As new machines were added to the company, Sam had to assign
+a suitable name and an IP address to the machine and then
+update the last two files listed above in a suitable manner.
+He could ask the DNS server to update the zone configuration
+information by just issuing the command 
+&quot;<code>ndc reload</code>&quot;.
+
+<p>
+Once in a month, Sam updated the &quot;<code>root.hints</code>&quot;
+file as shown above. He also used to examine the files
+&quot;<code>/var/adm/messages</code>&quot; and 
+&quot;<code>/var/adm/debug</code>&quot; for diagnostic or
+error messages, so that he could fix them before they became
+serious.
+
+<br>
+m4_heading( `1', `conclusion', `Conclusion')
+<p>
+After this setup, the company had a much saner environment with
+respect to machine names and addresses. There was an
+improvment in surfing time as most of the host names were resolved
+locally from the DNS cache. Finally, this setup provided the foundation
+on which Sam could build the other services for the Intranet.
+
+
+<br>
+m4_heading( `1', `resources', `Resources')
+<p>
+The following were some of the resources that Sam found immensely
+useful during the period he set up his DNS server:
+
+<ol>
+<li>
+<a href="http://www.linuxdoc.org/HOWTO/DNS-HOWTO.html">The Linux
+DNS-HowTo</a>: A very good and useful
+document that told Sam everything he wanted to know about the
+DNS system as well as how to set up a server on his machine.
+</li>
+<li>
+<a href="http://www.isc.org/products/BIND/">BIND</a>:
+The DNS server that Sam installed on his machine. He could have 
+downloaded and compiled the sources available here, but he
+preferred to simply install the binaries available with his
+distribution.
+</li>
+</ol>
+</div>
+<!-- END: Page Body -->
+m4_dnl
+m4_include(`footer.htm4')m4_dnl

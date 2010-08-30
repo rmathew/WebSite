@@ -1,0 +1,58 @@
+      m4_define( `m4_post_date', `2004-07-25')m4_dnl
+      m4_define( `m4_post_title', `&quot;Five Point Someone&quot;')m4_dnl
+      m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+This short novel by <a href="http://www.chetanbhagat.com/">Chetan Bhagat</a>
+tells the story of the narrator and his two friends and their stay in <a
+href="http://www.iitd.ac.in/">IIT Delhi</a>. While some of the lines did make
+me chuckle and some made me say &quot;So true!&quot;, I still do not feel
+that all the hype over this novel is justified. Some of the stuff was a bit
+of an exaggeration too - this is <i>not</i> what generally happens in
+the IITs people (the coke bottles episode, the making out with a
+<i>professor</i>'s daughter thing, etc.)! Then again, IIT Delhi has always
+been a bit different from the other IITs, so who knows. <tt>;-)</tt>
+
+m4_begin_post_rest
+        <div class="book_display">
+        <img src="m4_root_dir/books/images/fps.jpg" alt="Five Point Someone">
+        <br>
+        <a
+          href="http://www.amazon.com/gp/product/8129104598?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=8129104598">
+          <img src="m4_root_dir/books/images/buyamz.gif"
+            alt="Buy From Amazon.com">
+          </a>
+          <img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=8129104598" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
+        </div>
+
+<p>
+However, I do strongly agree with one of the main points made in the
+novel - the IITs do make a student work unnecessarily
+hard on getting decent grades, solving uninteresting and cliched
+problems - they prepare one more for a plum industrial job than for
+being able to innovate as an engineer. Much of your <i>aukaat</i> is
+judged merely from your Cumulative Performance Index (CPI), as if that
+is the only metric of someone's personality or capability (hence
+the title of the novel). (Disclaimer: I happen to be a person
+who was a <i>telu</i> of his batch with an utterly unimpressive
+CPI to show for his four years at <a href="http://www.iitk.ac.in/">IIT
+Kanpur</a>.)
+<p>
+The real benefit of an IIT (in my humble opinion) is in the resources
+made available to the students at very reasonable rates and
+(more importantly) in the ability to interact with many like-minded
+and very bright individuals with varying cultural backgrounds. Many a
+time this is enough of a stimulant for one to find interesting
+things to do despite the frustrating rat race for grades. Some of the
+best and long lasting friendships are made during these four years.
+<p>
+If you don't really get worked up over your grades, an IIT can be
+a very nice place to be <i>despite</i> the bad food, the utter lack of
+decent females, the pathetic living conditions and the delusional
+and dictatorial faculty members!
+<p>
+Oh by the way, apart from being IIT alumni, Chetan and I also happen
+to have wives with the same name (&quot;Anusha&quot;).
+
+m4_end_post_rest
+m4_end_post

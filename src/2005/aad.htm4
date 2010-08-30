@@ -1,0 +1,34 @@
+      m4_define( `m4_post_date', `2005-01-08')m4_dnl
+      m4_define( `m4_post_title', `&quot;Angels and Demons&quot;')m4_dnl
+      m4_include( `posttrans.m4')m4_dnl
+      m4_begin_post
+      <p>
+      &quot;Angels and Demons&quot; was written by <a
+      href="http://www.danbrown.com/">Dan Brown</a> before he wrote his
+      bestseller novel &quot;The Da Vinci Code&quot;. As such it shares the
+      same protagonist Harvard symbologist Robert Langdon and a plot
+      revolving around medieval Christian mysteries. The story is about an
+      ancient brotherhood named <i>Illuminati</i> and its alleged attempt to
+      blow up Vatican City using <i>antimatter</i>.
+
+      m4_begin_post_rest
+      <div class="book_display">
+        <img src="m4_root_dir/books/images/aad.jpg" alt="Angels and Demons">
+        <br>
+        <a href="http://www.amazon.com/gp/product/1416524797?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1416524797">
+        <img src="m4_root_dir/books/images/buyamz.gif"
+          alt="Buy From Amazon.com">
+        </a>
+        <img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=1416524797" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
+      </div>
+      <p>
+      The novel is decent by itself and the latter half is quite gripping,
+      but it does not measure up to the vastly expanded scope of the sequel.
+      If you liked the sequel, you'll most probably like this one too. <a
+      href="http://www.johnlangdon.net/">John Langdon</a> has created some
+      really nice <a
+      href="http://en.wikipedia.org/wiki/Ambigram">ambigrams</a> for this
+      novel including an &quot;ambigram of ambigrams&quot;.
+
+      m4_end_post_rest
+      m4_end_post

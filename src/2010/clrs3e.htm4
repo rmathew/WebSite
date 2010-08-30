@@ -1,0 +1,91 @@
+      m4_define( `m4_post_date', `2010-03-22')m4_dnl
+      m4_define( `m4_post_title', `&quot;Introduction to Algorithms&quot;')m4_dnl
+      m4_include( `posttrans.m4')m4_dnl
+      m4_begin_post
+      <p>
+      I put off reading <a
+      href="http://mitpress.mit.edu/algorithms/">Introduction to
+      Algorithms</a> by Thomas Cormen, Charles Leiserson, Ronald Rivest and
+      Clifford Stein (popularly known as &quot;CLRS&quot;) for
+      quite some time because I was somewhat intimidated by its bulk. The
+      recent release of the third edition of this tome finally made me get a
+      copy and give it a dekko. This compendium of a number of algorithms and
+      data structures for computer programming is bulkier than its
+      predecessors, but it does not disappoint. It should serve as a good
+      reference for this field, though not quite as an introductory text for
+      beginners. A serious professional will have a copy handy at all times.
+      Somewhat surprisingly, it does manage to leave out some
+      commonly-encountered data structures and algorithms, so it is not
+      <i>as</i> comprehensive and up-to-date as I would have liked.
+
+      m4_begin_post_rest
+      <div class="book_display">
+        <img src="m4_root_dir/books/images/m4_post_id.jpg" alt="m4_post_title">
+        <br>
+        <a
+          href="http://www.amazon.com/gp/product/0262033844?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0262033844">
+          <img src="m4_root_dir/books/images/buyamz.gif"
+            alt="Buy From Amazon.com">
+        </a>
+        <img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0262033844" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
+      </div>
+      <p>
+      With 35 chapters and four appendices, this book packs in a lot of
+      material. The main content is divided into eight parts, beginning with
+      the foundations of algorithm design and analysis and ending with a set
+      of special topics. Many of the algorithms are presented in pseudo-code
+      that can readily be translated into an imperative language of your
+      choice. Most such algorithms are also analysed for running costs,
+      usually by solving the appropriate recurrence relations. The mathematics
+      used in the analysis is not that complicated and the appendices
+      refresh your memory in case you have forgotten it since high-school or
+      college. The notation used throughout the book is thankfully one that
+      is now widely used.
+      <p>
+      Despite its name and the claims of the authors in the preface, this
+      book is <i>not</i> suitable for absolute beginners to the subject. In
+      most places it just assumes that you know the basic concepts and proceeds
+      to expand on them. It does not clearly explain to the beginner <i>why</i>
+      they need to study so many data structures and algorithms and how to
+      choose an appropriate data structure or algorithm. Somewhat surprisingly
+      for a book on the subject, it does not tell you what is an <a
+      href="http://en.wikipedia.org/wiki/Abstract_data_type">Abstract Data
+      Type</a> (ADT). The authors use the term &quot;dynamic set&quot; instead
+      of the more common &quot;collection&quot; and this might unnecessarily
+      confuse some people.
+      <p>
+      I was surprised to find many a commonly-encountered data structure or
+      algorithm missing from this modern tome. For example, <a
+      href="http://en.wikipedia.org/wiki/Trie">trie</a>, <a
+      href="http://en.wikipedia.org/wiki/Skip_list">skip list</a>, <a
+      href="http://en.wikipedia.org/wiki/Splay_tree">splay tree</a>, <a
+      href="http://en.wikipedia.org/wiki/Dancing_Links">dancing links</a>, <a
+      href="http://en.wikipedia.org/wiki/A*_search_algorithm">A*</a>, <a
+      href="http://en.wikipedia.org/wiki/Judy_array">Judy array</a>, etc. are
+      either not mentioned at all or are referred to merely in passing.
+      Looking at the current trends in computer architecture, it is high
+      time such books explain some <a
+      href="http://en.wikipedia.org/wiki/Cache-oblivious_algorithm">cache-oblivious
+      algorithms</a> that can run efficiently on modern CPUs. The chapter
+      on multi-threaded algorithms also seems to have been added as an
+      afterthought. For example, it does not talk about <a
+      href="http://www.ddj.com/hpc-high-performance-computing/206100542">super-linear
+      speed-ups</a> that are possible with concurrent algorithms. Finally,
+      we have to increasingly deal with huge data-sets that do not fit into
+      a single computer's RAM or even hard-discs - learning to efficiently
+      store and process such data is important in modern computing (just as
+      it was in the old days) and a book like this cannot afford to leave
+      it out.
+      <p>
+      Unlike many other text-books, the problems in the exercises further
+      explore the topics introduced in the associated section instead of
+      merely testing the reader's comprehension, some times providing
+      more details or introducing a variant. Some of the problems use
+      mostly-funny names for professors - the authors provide <a
+      href="http://mitpress.mit.edu/algorithms/profjokes3e.asp">explanations
+      for these names</a> in case you don't &quot;get it&quot;. The
+      bibliography is quite extensive and useful when you want to find more
+      information about a given topic.
+
+      m4_end_post_rest
+      m4_end_post

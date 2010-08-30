@@ -1,0 +1,42 @@
+      m4_define( `m4_post_date', `2005-09-29')m4_dnl
+      m4_define( `m4_post_title', `&quot;Harry Potter and The Half-Blood Prince&quot;')m4_dnl
+      m4_include( `posttrans.m4')m4_dnl
+      m4_begin_post
+      <p>
+      The sixth book in the Harry Potter series also manages to keep one
+      interested throughout. It has a rather sad ending though and, unlike
+      the previous books, doesn't achieve &quot;closure&quot; (in my
+      opinion, also shared by Ananth) - one longs to read the seventh book to
+      find out what happens to Harry after the terrible tragedy. Be that as
+      it may, I would still highly recommend it to anyone who hasn't read
+      this volume yet.
+
+      m4_begin_post_rest
+      <div class="book_display">
+        <img src="m4_root_dir/books/images/hp6.jpg"
+          alt="Harry Potter and The Half-Blood Prince">
+        <br>
+        <a href="http://www.amazon.com/gp/product/0439785960?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0439785960">
+        <img src="m4_root_dir/books/images/buyamz.gif"
+          alt="Buy From Amazon.com">
+        </a>
+        <img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0439785960" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
+      </div>
+      <p>
+      As an aside, I would like to register my strong protest against the
+      exorbitant pricing adopted by the publishers of this series in India.
+      The books are usually priced around four times their worth. For example,
+      this particular book is priced at <i>900 rupees</i> right now! Does it
+      really surprise anyone then that the unauthorised editions
+      (&quot;pirated copies&quot;) of these books sell so well? Why should
+      we be made to pay for the publisher's greed, their insane marketing
+      budgets and Ms Rowling's ever-ballooning coffers? Sheesh!
+      <p>
+      As another aside, <a href="http://www.jkrowling.com/">J. K.
+      Rowling's site</a> is full of nice tidbits about the books that anyone
+      even slightly interested in Harry Potter should check out. It also
+      features an up-to-date text-only version that I personally prefer to
+      the heavily Flash-laden default version.
+
+      m4_end_post_rest
+      m4_end_post

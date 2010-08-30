@@ -1,0 +1,39 @@
+      m4_define( `m4_post_date', `2004-03-14')m4_dnl
+      m4_define( `m4_post_title', `Hung Up')m4_dnl
+      m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+As weird as it might seem, <a href="http://www.william-hung.org/">William
+Hung</a>, who arguably gave the worst (albeit
+spirited) performance for <a
+href="http://www.helenandbarry.com/WilliamHung.wmv">his audition</a>
+in this year's <a
+href="http://www.idolonfox.com/">American Idol</a>, has actually
+become <a href="http://www.williamhung.net/">famous</a>!
+He has since appeared on various TV shows (including a special reappearance
+and performance on American Idol) and is even coming out with
+<a href="http://www.williamhung.net/news_030804koch.cfm">an
+album of his own</a>!
+
+m4_begin_post_rest
+<p>
+As if to prove that the gene responsible for cracking bad jokes
+runs in the family, my sister Ruby came up with this one: after
+having lost his near and dear in the battle with Rama, the ten-headed
+Ravana sees the light and asks for pardon from Rama, saying &quot;<i>Mein
+kis munh se aapse kshama maangoo?</i>&quot;. Ha!
+
+<p>
+It is sad that we Indians have not much of a choice but to choose
+between the BJP led by the incumbent Prime Minister Atal Bihari
+Vajpayee hung up on &quot;Hindutva&quot; and the dilapidated
+Congress led by Sonia Gandhi that just cannot get over its obsession
+with the Gandhi dynasty, in the coming general elections. Not that
+the Americans have much to cheer, having to choose between the incumbent
+President George W. Bush and John Kerry. A weird thing about John
+Kerry seems to be that most Democrats don't seem to like him that
+much but still ended up voting for him thinking that he is going
+to be the most popular - sort of a self-fulfilling prophecy.
+
+m4_end_post_rest
+m4_end_post

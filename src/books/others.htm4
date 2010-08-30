@@ -1,0 +1,78 @@
+m4_define(`m4_root_dir',`..')m4_dnl
+m4_define(`m4_page_title',`Other Books')m4_dnl
+m4_define(`m4_page_section',``Books'')m4_dnl
+m4_dnl
+m4_include(`header.htm4')m4_dnl
+m4_dnl
+<!-- BEGIN: Page Body -->
+    <div id="main-copy">
+      
+      m4_define( `m4_show_post_date', `false')m4_dnl
+
+      m4_toc
+
+      m4_heading( `1', `art', `Art')
+
+      m4_include_post(`2009', `soart')
+
+
+      m4_heading( `1', `biography', `Biography')
+
+      m4_include_post(`2006', `softwar')
+      m4_include_post(`2005', `wsahda')
+      m4_include_post(`2006', `wattt')
+      m4_include_post(`2006', `just4fun')
+
+
+      m4_heading( `1', `economics', `Economics')
+
+      m4_include_post(`2007', `tii')
+      m4_include_post(`2010', `gwartney')
+      m4_include_post(`2006', `freako')
+      m4_include_post(`2008', `undeco')
+      m4_include_post(`2009', `irrex')
+      m4_include_post(`2008', `tlbtbtm')
+
+
+      m4_heading( `1', `history', `History')
+
+      m4_include_post(`2007', `ggs')
+      m4_include_post(`2007', `acamer')
+      m4_include_post(`2009', `paris')
+      m4_include_post(`2009', `vijay')
+
+
+      m4_heading( `1', `miscellaneous', `Miscellaneous')
+
+      m4_include_post(`2008', `randfool')
+      m4_include_post(`2008', `doet')
+      m4_include_post(`2008', `bswan')
+      m4_include_post(`2008', `granta100')
+      m4_include_post(`2009', `wine')
+      m4_include_post(`2009', `buyo')
+
+
+      m4_heading( `1', `religion', `Religion')
+
+      m4_include_post(`2008', `ging')
+      m4_include_post(`2005', `hbhg')
+
+
+      m4_heading( `1', `scitech', `Science and Technology')
+
+      m4_include_post(`2006', `bbshort')
+      m4_include_post(`2005', `htsi')
+      m4_include_post(`2010', `hfstats')
+      m4_include_post(`2008', `calcwars')
+      m4_include_post(`2007', `srch')
+
+
+      m4_heading( `1', `style', `Style')
+
+      m4_include_post(`2005', `esl')
+      m4_include_post(`2006', `eleph')
+
+      </div>
+<!-- END: Page Body -->
+m4_dnl
+m4_include(`footer.htm4')m4_dnl

@@ -1,0 +1,43 @@
+      m4_define( `m4_post_date', `2004-11-01')m4_dnl
+      m4_define( `m4_post_title', `Srirangapatna')m4_dnl
+      m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+Anusha and I drove down to <a
+href="http://en.wikipedia.org/wiki/Tipu_Sultan">Tipu Sultan</a>'s fort town
+in Srirangapatna yesterday. It is
+close to the city of Mysore and is around 3.5 hours by car from
+Bangalore (with the current state of the connecting highway).
+
+m4_begin_post_rest
+<p>
+The fort is supposed to be the second strongest in India and
+has three strong and wide walls separated by moats that used to be
+filled with crocodiles. This was the place from where Haider Ali, and
+then his son Tipu Sultan, ruled over much of the Deccan peninsula
+and thwarted the advances of the British in alliance with the French.
+It is also home to the Sri Ranganathaswamy Temple that is dedicated
+to Lord Vishnu and is around 1100 years old!
+<p>
+I had been to this town earlier <i>en route</i> to Mysore as a part of a
+package tour, but wasn't able see much of it. This time around we could
+explore the town at our own sweet pace and it was real fun. We
+even found out the quite well-hidden Thomas Innman's dungeon that was used
+by Tipu's men to hold captive &quot;unimportant&quot; soldiers (as opposed
+to Captain Bailey's dungeon that was used to hold the British soldiers
+and &quot;important&quot; enemy men).
+<div class="centred">
+<img src="m4_root_dir/images/innman.jpg"
+alt="Anusha at the well-hidden Thomas Innman's Dungeon">
+<br>
+<i>Anusha at the well-hidden Thomas Innman's Dungeon</i>
+</div>
+<p>
+I hope we can make more of these wonderful excursions.
+<p>
+As an aside, I have written <a href="m4_root_dir/articles/bind.html">a small
+programme</a> that shows how to bind Windows executables to the DLLs they use,
+so that their loading times are improved.
+
+m4_end_post_rest
+m4_end_post

@@ -1,0 +1,34 @@
+      m4_define( `m4_post_date', `2006-05-05')m4_dnl
+      m4_define( `m4_post_title', `Digital Cable TV and PBF')m4_dnl
+      m4_include( `posttrans.m4')m4_dnl
+      m4_begin_post
+      <p>
+      Our cable operator has switched over to <a
+      href="http://www.hathway.com/">Hathway</a> for the feed and this
+      means that we can now opt for digital cable TV. Hathway has given us a
+      <a
+      href="http://www.humaxdigital.com/global/products/nd-1000c.asp">Humax
+      ND-1000C</a> as a set-top box to receive the digital signals on a trial
+      basis.
+
+      m4_begin_post_rest
+      <p>
+      This gives us about 150 channels, including a few radio
+      channels. The clarity of the video and audio is unlike anything I have
+      seen or heard with the analogue signals. The programme guide is also a
+      very nice feature, though it is a bit inaccurate at times. When you
+      change channels, you see a little banner that tells you the title of
+      the programme that you are watching, its timings, its rating, etc. You
+      can also find out all the programmes of a particular type (movies,
+      soaps, etc.) playing across all the channels. There are a bunch of
+      other not-so-exciting features as well. It is also surprisingly
+      affordable. Altogether it is a rather tempting proposition.
+      <p>
+      <a href="http://cheston.com/pbf/archive.html">PBF</a> is a comic strip
+      unlike any other I have seen so far. (Warning: Some of the strips might
+      not be safe for viewing in the workplace.) I found most of them rather
+      funny and have to wonder what kind of a mind can even <i>think</i> of
+      such things.
+
+      m4_end_post_rest
+      m4_end_post

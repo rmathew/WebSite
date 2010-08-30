@@ -1,0 +1,23 @@
+      m4_define( `m4_post_date', `2006-04-06')m4_dnl
+      m4_define( `m4_post_title', `ZINC (&quot;ZINC Is Not CoreWar&quot;)')m4_dnl
+      m4_include( `posttrans.m4')m4_dnl
+      m4_begin_post
+      <p>
+      I am pleased to announce the release of ZINC. ZINC is a variant of the
+      game of <a href="http://en.wikipedia.org/wiki/Core_War">Core War</a> in
+      which programmes fight for the control of a virtual computer.
+
+      m4_begin_post_rest
+      <p>
+      Version 0.1 of ZINC is now <a
+      href="software/index.html#zinc">available</a>.
+      <div class="centred">
+        <br>
+        <img src="m4_root_dir/software/images/zincscr.png"
+          alt="ZINC Screenshot">
+        <br>
+        ZINC 0.1 Screenshot
+      </div>
+
+      m4_end_post_rest
+      m4_end_post

@@ -1,0 +1,63 @@
+      m4_define( `m4_post_date', `2009-06-05')m4_dnl
+      m4_define( `m4_post_title', `&quot;An Introduction to Database Systems&quot;')m4_dnl
+      m4_include( `posttrans.m4')m4_dnl
+      m4_begin_post
+      <p>
+      &quot;An Introduction to Database Systems&quot; by <a
+      href="http://en.wikipedia.org/wiki/Christopher_J._Date">Christopher J.
+      Date</a> is a classic text-book on database concepts by one of the
+      foremost writers and thinkers in the field. The book has been kept
+      fairly up-to-date over the years by the author and includes topics
+      like logic databases, temporal databases, decision support systems,
+      object databases, object-relational databases, etc. Most of the book
+      however concentrates on the relational data model and relational
+      database management systems. This is not surprising since most of the
+      popular database management systems today are based on this model and
+      the author too clearly prefers this data model over all the others.
+
+      m4_begin_post_rest
+      <div class="book_display">
+        <img src="m4_root_dir/books/images/m4_post_id.jpg" alt="m4_post_title">
+        <br>
+        <a
+          href="http://www.amazon.com/gp/product/0321197844?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0321197844">
+          <img src="m4_root_dir/books/images/buyamz.gif"
+            alt="Buy From Amazon.com">
+        </a>
+        <img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0321197844" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
+      </div>
+      <p>
+      Almost all of the text in this book is a wistful reflection on the pure
+      relational data model and its imperfect implementation in real database
+      management systems. This is actually quite good since it is quite
+      important for a serious student to know how things <i>ought</i> to be in
+      addition to how things actually are. The book teaches you how to design
+      good databases in general; it does not teach you the specifics of a
+      particular product like Oracle or DB2. Beyond a preliminary overview
+      of the general concepts, it will also not teach you writing complicated
+      SQL queries, query optimisation for a particular product or writing
+      stored procedures in PL/SQL. This book is what you need to get a solid
+      understanding of the concepts underlying modern database managements
+      systems.
+      <p>
+      The book is divided into a few logical parts, each part comprising
+      well-defined chapters. Each chapter has an introductory overview,
+      detailed exposition, summary of concepts, self-check exercises,
+      well-anotated bibliography and answers to selected exercises. There
+      are chapters on all the important concepts like the relational data
+      model, relational algebra and calculus, database integrity, SQL,
+      database normalisation, query optimisation, transactions, concurrency,
+      recovery, security, etc.
+      <p>
+      The book provides most of the examples in a weird language called
+      &quot;Tutorial D&quot; instead of SQL. It does not tell you much about
+      the data models and database systems prevalent before the relational
+      data model, depriving the student of a useful perspective on the
+      historical significance of this model. The book does not provide any
+      information on how relational databases could be implemented dismissing
+      it as a detail that varies from product to product. This is quite
+      unfortunate since it is very instructive to see how an abstract data
+      model is concretely implemented in an efficient manner.
+
+      m4_end_post_rest
+      m4_end_post

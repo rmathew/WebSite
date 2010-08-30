@@ -1,0 +1,66 @@
+m4_define(`m4_root_dir',`..')m4_dnl
+m4_define(`m4_page_title',`Software')m4_dnl
+m4_define(`m4_page_section',``Software'')m4_dnl
+m4_dnl
+m4_include(`header.htm4')m4_dnl
+m4_dnl
+<!-- BEGIN: Page Body -->
+<div id="main-copy">
+m4_toc
+
+m4_heading( `1', `intro', `Introduction')
+<p>
+This page provides access to some of my personal projects.
+<p>
+These programmes have absolutely <b>NO WARRANTIES</b> 
+and are for purely educational purposes. If you find any of these useful,
+do tell me about it.
+
+<div class="notice">
+<b>NOTE:</b> These and some other programmes are now hosted on <a
+href="http://bitbucket.org/">BitBucket</a> as <a
+href="http://en.wikipedia.org/wiki/Mercurial">Mercurial</a> repositories
+under <a href="http://bitbucket.org/rmathew/"><b>bitbucket.org/rmathew</b></a>.
+</div>
+
+m4_heading( `1', `zinc', `ZINC')
+<p>
+ZINC (&quot;ZINC Is Not CoreWar&quot;) is a variant of the game of
+<a href="http://en.wikipedia.org/wiki/Core_War">Core War</a>
+in which programmes (called &quot;warriors&quot;) fight in a battle to take
+control of a virtual computer. The warriors are written in a simple language
+called Redcode and are run by a tool called Memory Array Redcode Simulator
+(MARS). The ZINC User Manual includes a short tutorial that teaches
+you the basics of Core War. The current version of ZINC is 0.1 and runs on
+at least Linux and Windows.
+<div class="centred">
+<img src="images/zincscr.png" alt="ZINC Screenshot">
+</div>
+<p>
+<a href="http://bitbucket.org/rmathew/zinc/downloads"><b>Download ZINC</b></a>
+
+m4_heading( `1', `vtaj', `Virtual Taj Mahal')
+<p>
+This is an interactive 3D walkthrough of the famous <a
+href="http://en.wikipedia.org/wiki/Taj_Mahal">Taj Mahal</a>
+in Agra, India. It is based on the original demo published by
+<a href="http://www.intel.com/in/">Intel India</a>,
+from where I took the 3D models and textures - the original demo
+was coded by <a href="mailto:dsanjit_AT_yahoo_DOT_com">D Sanjit</a> 
+and the models were created by 
+<a href="http://www.vrrt.com/">VR Real Technologies</a>.
+The programme uses OpenGL/SDL and runs on Windows and Linux - please
+read the included 'README' file for more details. I hope you like it.
+
+<div class="centred">
+<img src="images/vtscr.png" alt="VirtualTaj Screenshot">
+</div>
+
+<p>
+<a href="http://bitbucket.org/rmathew/virtualtaj/downloads"><b>Download
+Virtual Taj Mahal</b></a>
+
+</div>
+<!-- END: Page Body -->
+m4_dnl
+m4_include(`footer.htm4')m4_dnl

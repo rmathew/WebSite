@@ -1,0 +1,60 @@
+m4_define(`m4_root_dir',`..')m4_dnl
+m4_define(`m4_page_title',`Computer Programming')m4_dnl
+m4_define(`m4_page_section',``Articles'')m4_dnl
+m4_dnl
+m4_include(`header.htm4')m4_dnl
+m4_dnl
+<!-- BEGIN: Page Body -->
+<div id="main-copy">
+m4_heading( `1', `prog', `Computer Programming')
+
+<p>
+I started programming on the <a
+href="http://en.wikipedia.org/wiki/BBC_Micro">BBC Micro</a> when I was in
+school and was instantly hooked on to computers and programming. I mean,
+there was <i>so much</i> one could do with a computer! To paraphrase the
+old clich&eacute;, one was limited only by one's own imagination. I was
+fortunate to have started on the Beeb using BASIC - a great computer combined
+with a great language can comfortably introduce even the most na&iuml;ve to
+the world of computers and programming.
+
+<p>
+At IIT-K, I was lucky enough to get Computer Science and
+Engineering. I was among people tens of times better than
+myself, had access to great machines all the time, had
+access to a great library, had good teachers to learn from
+and was introduced to the wonderful world of the Internet
+towards the latter half of my stay there. I mean, what else
+can one ask for? I freaked out, albeit at the expense of
+my grades. But then, I didn't give a damn!
+
+<p>
+I developed some really nice programs back then. I mean,
+they were very n&#228;ively written and were quite buggy, but 
+what the heck I thoroughly enjoyed doing it all and am
+yet to do anything like it almost <i>five years</i> after 
+graduation and becoming a professional software engineer.
+
+<p>
+I developed a fast Mandelbrot set explorer, an assembler
+and a simulator for Knuth's MIX, an assembler and simulator
+for A. K. Dewdney's <a href="http://en.wikipedia.org/wiki/Core_War">Core
+War</a>, an intelligent disassembler for MS-DOS executables, a real-time 3D
+raycasting engine, etc.
+
+<p>
+But all these are mere memories from my misty past... 
+
+<p>
+Now I develop &quot;enterprise software&quot; after joining the 
+IT industry.
+
+<p>
+<div class="centred">
+<code><b>:-(</b></code>
+</div>
+
+</div>
+<!-- END: Page Body -->
+m4_dnl
+m4_include(`footer.htm4')m4_dnl

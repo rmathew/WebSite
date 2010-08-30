@@ -1,0 +1,34 @@
+m4_define(`m4_root_dir',`..')m4_dnl
+m4_define(`m4_page_title',`Fiction Books')m4_dnl
+m4_define(`m4_page_section',``Books'')m4_dnl
+m4_dnl
+m4_include(`header.htm4')m4_dnl
+m4_dnl
+<!-- BEGIN: Page Body -->
+    <div id="main-copy">
+      m4_heading( `1', `ficbooks', `Fiction Books')
+      m4_define( `m4_show_post_date', `false')m4_dnl
+
+      m4_include_post(`2004', `hdm')
+      m4_include_post(`2004', `sil')
+      m4_include_post(`2008', `atonement')
+      m4_include_post(`2006', `watchmen')
+      m4_include_post(`2006', `bestrum')
+      m4_include_post(`2010', `trn2pak')
+      m4_include_post(`2010', `abavg')
+      m4_include_post(`2006', `v4vendetta')
+      m4_include_post(`2006', `dkr')
+      m4_include_post(`2005', `fp')
+      m4_include_post(`2008', `hp7')
+      m4_include_post(`2005', `hp6')
+      m4_include_post(`2003', `hp5')
+      m4_include_post(`2004', `tdvc')
+      m4_include_post(`2005', `rof')
+      m4_include_post(`2005', `aad')
+      m4_include_post(`2006', `ybgfxnov')
+      m4_include_post(`2004', `fps')
+      
+    </div>
+<!-- END: Page Body -->
+m4_dnl
+m4_include(`footer.htm4')m4_dnl

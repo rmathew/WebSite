@@ -1,0 +1,12 @@
+      m4_define( `m4_post_date', `2005-06-21')m4_dnl
+      m4_define( `m4_post_title', `&quot;A Heap of Broken Images&quot;')m4_dnl
+      m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+We watched this play by Girish Karnad in Ranga Shankara today. Arundhati
+Raja plays her part to near perfection and the way the story unfolds
+is really nice. It has been a while since I saw a good play. Heartily
+recommended. A nice bonus was that Srikanth got to talk to and shake
+hands with Tamil superstar Rajnikanth and Anusha got to talk to Arundhati
+Raja.
+m4_end_post

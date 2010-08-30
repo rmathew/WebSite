@@ -1,0 +1,15 @@
+      m4_define( `m4_post_date', `2001-12-26')m4_dnl
+      m4_define( `m4_post_title', `Riven')m4_dnl
+      m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+After almost a week of intense play, I was able to finish the
+excellent game <a href="http://www.riven.com">Riven</a>,
+though not without <a
+href="http://www.uq.edu.au/~e4lchan/Riven/Intro.html">some help</a>. This
+completes my journey through 
+<a href="http://www.mystworlds.com/">the Myst series of 
+games</a>. This series is easily one of the best set of adventure
+games that I have ever come across!
+
+m4_end_post

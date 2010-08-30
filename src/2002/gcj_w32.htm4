@@ -1,0 +1,12 @@
+      m4_define( `m4_post_date', `2002-12-23')m4_dnl
+      m4_define( `m4_post_title', `Building GCJ for Windows')m4_dnl
+      m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I have written <a href="m4_root_dir/articles/gcj/bldgcj.html">a small
+article</a> on the process I use to build GCJ for Windows on Linux. It also 
+includes the shell scripts I use at each stage of the process. I
+hope this would prove useful to other hackers wishing to play
+around with creating GCJ for Windows.
+
+m4_end_post

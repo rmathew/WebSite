@@ -1,0 +1,34 @@
+      m4_define( `m4_post_date', `2005-08-15')m4_dnl
+      m4_define( `m4_post_title', `Shivanasamudram')m4_dnl
+      m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+Anusha and I have just come back from a conducted tour by <a
+href="http://www.kstdc.nic.in/">K.S.T.D.C.</a> of the waterfalls
+in <a
+href="http://www.karnatakatourism.org/sites/east_shivsamudram.html">Shivanasamudram</a>.
+
+m4_begin_post_rest
+<p>
+On the way, we were also taken to the
+bird sanctuary at Ranganthittu and the temple at Somnathpura. We couldn't get
+to see any birds other than crows, storks and herons at the bird sanctuary.
+The temple is quite old and is quite beautiful but was strangely bereft of a
+priest or religious ceremonies.
+<div class="centred">
+<img src="m4_root_dir/images/shivana.jpg" alt="The waterfalls in
+Shivanasamudram">
+<br>
+<i>The waterfalls in Shivanasamudram</i>
+</div>
+<p>
+The twin waterfalls in Shivanasamudram, formed by two streams of the river
+Kaveri, are a sight to behold. At this time of the year, there is plenty
+of water gushing in at a great speed and hitting the rock so hard that 
+the little droplets look like mist (see the picture above). Very beautiful
+and very dangerous. We were allowed to spend only an hour here, so we have
+decided to go back some time in the future on our own, what with it being
+just 110 kms from Bangalore.
+
+m4_end_post_rest
+m4_end_post

@@ -1,0 +1,78 @@
+      m4_define( `m4_post_date', `2006-05-29')m4_dnl
+      m4_define( `m4_post_title', `&quot;Softwar&quot;')m4_dnl
+      m4_include( `posttrans.m4')m4_dnl
+      m4_begin_post
+      <p>
+      I did not want to read &quot;Softwar&quot; by Matthew Symonds at first.
+      I thought it would be just like the numerous other biographies endorsed
+      by their subjects that are so common these days and that are utterly
+      banal and filled with nauseating flattery of their subjects. I also
+      felt a bit weird for some reason reading about the company (and its
+      CEO) that employed me.
+
+      m4_begin_post_rest
+      <div class="book_display">
+        <img src="m4_root_dir/books/images/softwar.jpg" alt="Softwar">
+        <br>
+        <a href="http://www.amazon.com/gp/product/0743225058?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0743225058">
+        <img src="m4_root_dir/books/images/buyamz.gif"
+          alt="Buy From Amazon.com">
+        </a>
+        <img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0743225058" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
+      </div>
+      <p>
+      However, I could not help but notice that the
+      book was receiving rave reviews almost everywhere and that it was
+      written by the former technology editor and the current political
+      editor of <a href="http://www.economist.com/">The Economist</a>. The
+      Economist is about the only general magazine I have a very high regard
+      for and surely one of its editors cannot possibly write something
+      completely trashy. So I picked up the book curious to see if it really
+      delivers on its promise of &quot;an intimate portrait of Larry Ellison
+      and Oracle&quot;.
+      <p>
+      It does. Sometimes it's uncomfortably frank and a bit too intimate.
+      Matthew travelled with Larry for over a year and was allowed to attend
+      even confidential internal company meetings and meetings with
+      customers. Apparently Larry was not allowed to edit the text but was
+      allowed to have his say in numerous footnotes on almost every page. I
+      am seeing this technique for the first time and I must say its very
+      effective. The book is filled with numerous insights into the life of
+      Larry and the workings of Oracle, most of which were new for yours
+      truly who has been working for Oracle for over three and a half years
+      now. This book is a must-read for anyone who is interested in learning
+      how a big company can work efficiently and continue to grow even under
+      adverse conditions. It is surely a must-read for anyone who has a
+      relationship with Oracle (employee, customer, vendor, etc.) and those
+      in the media who write about Larry and Oracle. The picture of Larry
+      and Oracle that emerges from this book is quite different from what
+      the media and the IT analysts would have you believe.
+      <p>
+      The book is a bit verbose and unnecessarily repetitive at times. It
+      could have easily been reduced to about half its size without losing
+      anything. I personally found the chronology of events a bit hard to
+      track and the detailed descriptions of yachting and boat racing rather
+      boring. I thought the book spent an unfair amount of time on the Oracle
+      E-Business Suite (&quot;Apps&quot;) compared to the RDBMS server and
+      the Application Server. Perhaps that was because Apps was the primary
+      focus of Oracle's marketing thrust during the time this book was
+      written and Larry must have been obsessed with it at that time. Written
+      by a British author, I also found the use of American English a bit
+      confusing - perhaps I just happened to read the American reprint.
+      <p>
+      For someone working in the Server Technologies division of Oracle
+      (which makes the RDBMS server, the Application Server, etc.), I found
+      this book to be an eye-opener on just what Apps is all about, the
+      inherent complexities in creating something like it and the hurdles
+      faced in marketing such a beast especially when its integrated suite
+      approach is so different from the best-of-breed approach favoured by
+      conventional wisdom (and system integrators who make tonnes of money
+      this way). I also learnt about some Oracle gods like Dirk
+      &quot;Derry&quot; Kabcenell and Andy Mendelsohn. I found out that
+      Larry was actually technically involved in the database for a long
+      time and that could be the reason he was listed as a co-inventor in
+      some patents on database technologies instead of pure vanity as I had
+      assumed so far.
+
+      m4_end_post_rest
+      m4_end_post

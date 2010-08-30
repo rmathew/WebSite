@@ -1,0 +1,204 @@
+m4_define(`m4_root_dir',`..')m4_dnl
+m4_define(`m4_page_title',`Windows NT4 Tips')m4_dnl
+m4_define(`m4_page_section',``Articles'')m4_dnl
+m4_dnl
+m4_include(`header.htm4')m4_dnl
+m4_dnl
+<!-- BEGIN: Page Body -->
+<div id="main-copy">
+m4_heading( `1', `tips', `Windows NT 4 Tips')
+
+<p>
+Most of us find ourselves working with a Microsoft OS most
+of the time. Developers especially are likely to land up with
+Windows NT (or its successor Windows 2000). Let's not even
+talk about the other junk (Win9x/Win3.x/DOS) that MS dumps on us
+in the name of an OS. Since I've only had experience with 
+WinNT 4.0, this is the OS that I'll be dealing with in these
+pages.
+
+<p>
+First off, be sure to apply the latest Service Packs (unless you
+have some really good reason for not doing it). I've been using
+SP 6a for some time now and the system has been working flawlessly
+for me. Do not blame the OS unnecessarily for bugs that have long
+since been fixed.
+
+<p>
+Next, to get the maximum out of your Windows NT system, be sure
+to check out the excellent set of articles on 
+<a href="http://arstechnica.com/tweak/nt/index.html">Tweaking Windows NT</a>
+at <a href="http://arstechnica.com/">Ars Technica</a>.
+I will not needlessly repeat here all that is given there. Trust
+me, these tips will help you boost your system's performance
+<i>tremendously</i>!
+
+<p>
+That aside, proceed now with the rest of the article.
+
+<p>
+<b>NOTE:</b> I will keep adding to these tips as I keep
+discovering (and remembering) them, so be sure to check 
+this page again after some time. Some of these are not
+my original ideas, though some have been discovered 
+by me independently - friends and the InterNet have contributed
+significantly to a better experience on this OS for all of us.
+
+
+<p>
+<a name="contents"><b>Contents:</b></a>
+
+<ol>
+
+<li>
+<a href="#prompt">&quot;Open Command Prompt Here&quot;</a>
+</li>
+
+<li>
+<a href="#poweroff">Power-off after shutdown</a>
+</li>
+
+<li>
+<a href="#autocomplete">Auto Filename Completion</a>
+</li>
+
+<li>
+<a href="#remunins">Remove Unwanted UnInstall Entries</a>
+</li>
+
+<li>
+<a href="#remrunprog">Remove Stupid Startup Programs</a>
+</li>
+
+<li>
+<a href="#sendto">Control the &quot;Send To&quot; Menu</a>
+</li>
+
+</ol>
+
+
+&nbsp;<p>
+<a name="prompt"><b>&quot;Open Command Prompt Here&quot;</b></a>
+<p>
+While using Windows Explorer, you sometimes wish you could go
+straight to the folder you are browsing, and open a command
+window in that folder. Ideally you would like to be able to
+right-click and say &quot;Open Command Prompt Here&quot; and
+be taken there directly in a command window. Some of the
+Windows Desktop tweaking programs let you do precisely this.
+<p>
+However, if you do not have any of these, you can enable this
+thing yourself by doing the following: In Explorer, open
+&quot;View<code>-&gt;</code>Options&quot;, go to the &quot;File Types&quot;
+tab, go to the &quot;Folder&quot; type under &quot;Registered
+file types&quot;, click the &quot;Edit...&quot; button, 
+click the &quot;New...&quot; button, type &quot;Open Command
+Prompt Here&quot; in the Action text-field, and &quot;cmd.exe&quot;
+in the Application text-field, click all the &quot;OK&quot;
+buttons as they become visible...and you're done!
+
+
+<p>
+<a name="poweroff"><b>Power-off after shutdown</b></a>
+
+<p>
+Users of Windows 9x and Linux (and maybe other systems, I 
+do not know) can do a &quot;power-off after shutdown&quot;.
+This is immensely useful but is not available under standard
+Windows NT 4. Several add-on packages let you do this, but
+as far as I know, none of them are freely available.
+
+<p>
+However, I found a free (or so it seems) utility by HP
+called <a
+href="http://www.support.vectra.hp.com/vectrasupport/level4/621vdf507en.exe.html">SoftPowerDown</a>. This is supposedly for HP Vectra
+machines, but I've found that it works on most ATX-based PCs with
+APM BIOS support. You can use this utility to enable this feature
+with your Windows NT 4. Be sure to apply at least SP 3 before this
+though.
+
+<p>
+<b>WARNING:</b> I did not see it mentioned anywhere that you can
+use it <i>only</i> if you have an HP Vectra. However, I might have
+erred for all you know. Please check everything out properly before
+you use this software. For the record, I do have an HP Vectra so
+I do not have this problem.
+
+
+<p>
+<a name="autocomplete"><b>Auto Filename Completion</b></a>
+
+<p>
+Most of us developers who are used to <i>bash</i> under
+Linux or other powerful shells are also used to the immensely
+helpful feature there of filename completion: if you press
+TAB after typing in a part of a filename, the shell will 
+complete it for you. Moreover, if you press TAB again and again,
+the shell will cycle through all the file names that match 
+the partial name. Sadly, this feature is lacking (or so it seems)
+in the Command Prompt shown by Windows NT.
+
+<p>
+Not really! Now you can enable this feature in NT by doing the
+following: open <code>regedit</code> and look for the key
+&quot;<code>HKEY_CURRENT_USER\Software\Microsoft\Command Processor</code>&quot;,
+look for the value named &quot;CompletionChar&quot; and change
+its value to 9 (ASCII code for the TAB character), and you're done!
+That's all there is to it.
+
+
+<p>
+<a name="remunins"><b>Remove Unwanted UnInstall Entries</b></a>
+<p>
+I wish most of the software vendors wrote their uninstallers
+properly. Sometimes you find that the UnInstaller is not
+working and that you're forced to remove files manually.
+You have removed everything else, but that entry in 
+&quot;Add/Remove Programs&quot; still remains. How do you
+remove that?
+
+<p>
+Well, open up <code>regedit</code> and search for the key
+&quot;<code>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall</code>&quot;. Now look at the sub-keys of this key, find
+the offensive entry and just delete it. Simple.
+
+
+<p>
+<a name="remrunprog"><b>Remove Stupid Startup Programs</b></a>
+<p>
+Some of the software vendors think they are smarter than the
+user and that the user should really be running their programs
+every time he logs on to the system. Some of these programs
+are put under the &quot;Startup&quot; sub-menu of the &quot;Start&quot;
+menu and so are easily removable if you feel they are not needed and
+are unnecessarily slowing down your system. But not some of the
+others...
+
+<p>
+You can now even remove these stoopid programs yourself. Open
+<code>regedit</code> and search for the key
+&quot;<code>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run</code>&quot;.
+Now just see the values listed under this key and remove all
+the programs that you don't want to be run every time you log on
+to the system. Got 'em, huh?
+
+
+<p>
+<a name="sendto"><b>Control the &quot;Send To&quot; Menu</b></a>
+
+<p>
+In Windows Explorer, you can right-click on a file or a folder
+and &quot;Send&quot; it to the floppy, &quot;My Briefcase&quot;
+or whatever. It is easy to manipulate the contents of this
+menu. If you've installed Windows NT in <code>C:\WinNT</code> (say),
+just go to <code>C:\WinNT\Profiles\<i>yourlogin</i>\SendTo</code>, where
+<i>yourlogin</i> is the login id by which you logged in to Windows
+NT. Now create a shortcut to your favourite program, say, Notepad,
+in this folder and this program will be visible in the &quot;Send To&quot;
+menu. With this feature for example, you can very easily open a file
+in Notepad by right-clicking on the file in Explorer, and saying
+&quot;Send To&quot;<code>-&gt;</code>Notepad. Easy and convenient, huh?
+</div>
+<!-- END: Page Body -->
+m4_dnl
+m4_include(`footer.htm4')m4_dnl

@@ -1,0 +1,61 @@
+      m4_define( `m4_post_date', `2010-04-15')m4_dnl
+      m4_define( `m4_post_title', `&quot;Distributed Systems&quot;')m4_dnl
+      m4_include( `posttrans.m4')m4_dnl
+      m4_begin_post
+      <p>
+      &quot;Distributed Systems: Concepts and Design&quot; by George
+      Coulouris, Jean Dollimore and Tim Kindberg is an introductory text-book
+      on distributed computing. It provides a broad overview of the basic
+      principles as well as the major issues in building such systems. Since
+      I happened to have the second edition around, I decided to read that
+      instead of going for the currently-available <a
+      href="http://www.cdk4.net/">fourth edition</a> (a <a
+      href="http://www.cdk5.net/">fifth edition</a> is in the works), as the
+      two editions didn't seem to differ significantly. This turned out to be
+      not that bad a decision.
+
+      m4_begin_post_rest
+      <div class="book_display">
+        <img src="m4_root_dir/books/images/m4_post_id.jpg" alt="m4_post_title">
+        <br>
+        <a
+          href="http://www.amazon.com/gp/product/0321263545?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0321263545">
+          <img src="m4_root_dir/books/images/buyamz.gif"
+            alt="Buy From Amazon.com">
+        </a>
+        <img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0321263545" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
+      </div>
+      <p>
+      There is a great amount of overlap between the foundational chapters
+      of this book and decent books on computer networks and operating
+      systems. The useful bits of the book comes more than half-way into
+      the text. The discussion of the design of distributed systems and the
+      implementation of distributed algorithms is at a high-level - this is
+      the book for you if you want to quickly get an overview of the issues
+      and the general approaches but not if you want to actually implement
+      any of the algorithms.
+      <p>
+      That said the book is quite comprehensive in its coverage. The problems
+      in synchronising disparate clocks, coordination, replication,
+      concurrency control, transaction management, recovery, fault-tolerance,
+      etc. are all covered here along with the major approaches to solving
+      these problems in distributed systems. The language used is fairly
+      friendly and formalisms are used sparingly.
+      <p>
+      If you are a student, you can use this book to get an overview of the
+      field and perhaps to see if this is an area worth pursuing. If you are
+      a professional faced with building a distributed system, you can use
+      this book to get an idea of the challenges you will run into and the
+      approaches you can use to tackle them.
+      <p>
+      Distributed computing is a field with some very interesting problems
+      for many of which there aren't any perfect solutions. Some of the
+      current distributed systems used for serving web-based solutions are
+      massive and on a scale far bigger than what could be imagined just a
+      decade back. This is a subject that now needs to be a part of the
+      core computer science and engineering curriculum instead of being a
+      specialised course. This book provides a useful, but by no means
+      sufficient, guide to the field.
+
+      m4_end_post_rest
+      m4_end_post

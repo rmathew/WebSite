@@ -1,0 +1,12 @@
+m4_define(`m4_root_dir',`..')m4_dnl
+m4_define(`m4_news_year',`2001')m4_dnl
+<html>
+<head>
+<title>Page Moved...</title>
+<meta http-equiv="Refresh" content="3;m4_root_dir/m4_news_year/index.html">
+</head>
+<body>
+<b>The page has moved to <a
+href="m4_root_dir/m4_news_year/index.html">m4_root_dir/m4_news_year/index.html</a>.</b>
+</body>
+</html>

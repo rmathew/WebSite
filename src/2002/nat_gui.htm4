@@ -1,0 +1,24 @@
+      m4_define( `m4_post_date', `2002-12-13')m4_dnl
+      m4_define( `m4_post_title', `Native GUI Applications in Java')m4_dnl
+      m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I have <a href="http://gcc.gnu.org/ml/java/2002-12/msg00103.html">released a
+fresh snapshot of GCJ 3.2 for MinGW</a> which
+has much better support for the Java Native Interface (JNI) and
+can <a href="http://gcc.gnu.org/ml/java/2002-12/msg00105.html">create native
+SWT-based GUI applications</a>. Finally 
+<a href="http://www.ibm.com/developerworks/java/library/j-nativegui/">the
+dream</a> can now also be realised on Windows!
+
+m4_begin_post_rest
+<p>
+For those who came in late, <a 
+href="http://www.eclipse.org/articles/Article-SWT-Design-1/SWT-Design-1.html">SWT
+(the Standard Widget Toolkit)</a> is a free Java GUI 
+toolkit that is an order of magnitude faster and more responsive than 
+Swing and was created by the great folks who brought us the super-cool
+<a href="http://www.eclipse.org/">Eclipse IDE</a>.
+
+m4_end_post_rest
+m4_end_post

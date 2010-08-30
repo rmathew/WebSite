@@ -1,0 +1,43 @@
+      m4_define( `m4_post_date', `2003-09-10')m4_dnl
+      m4_define( `m4_post_title', `&quot;Harry Potter and the Order of the Phoenix&quot;')m4_dnl
+      m4_include( `posttrans.m4')m4_dnl
+      m4_begin_post
+      <p>
+      The fifth book in the &quot;Harry Potter&quot; series by J. K. Rowling,
+      &quot;Harry Potter and the Order of the Phoenix&quot; is <i>so much
+      better</i> than the previous one (which was the worst, in my opinion)
+      in the series &quot;Harry Potter and the Goblet of Fire&quot;! It is
+      the biggest book in the series and yet manages to keep the reader
+      interested throughout by various turns in the plot.
+
+      m4_begin_post_rest
+      <div class="book_display">
+        <img src="m4_root_dir/books/images/hp5.jpg"
+          alt="Harry Potter and the Order of the Phoenix">
+        <br>
+        <a href="http://www.amazon.com/gp/product/0439358078?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0439358078">
+        <img src="m4_root_dir/books/images/buyamz.gif"
+          alt="Buy From Amazon.com">
+        </a>
+        <img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0439358078" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
+      </div>
+      <p>
+      The biggest complaint I have against this series as a whole is the
+      character of Lord Voldemort - apparently so feared by every wizard
+      that they dare not take his name and refer to him as &quot;You Know
+      Who&quot; or &quot;He Who Must Not Be Named&quot; or &quot;Dark
+      Lord&quot; (by his followers). Yet whenever he tries to fight either
+      Harry or Dumbledore, he turns out to be a total dud not lasting much
+      in a fight and always beating a hasty retreat! <i>Hello?</i>
+      <p>
+      This is quite similar to the character of &quot;Sauron&quot; in
+      &quot;The Lord of the Rings&quot; - you are made to think throughout
+      the book that he is a terrible and most fearsome villian, but he also
+      turns out to be a dud by the end.
+      <p>
+      To borrow Ananth's terms for analyses of movies, books, etc., these
+      books score high on plot development but are abyssmal on
+      characterisation.
+
+      m4_end_post_rest
+      m4_end_post

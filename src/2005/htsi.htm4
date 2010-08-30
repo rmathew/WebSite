@@ -1,0 +1,46 @@
+      m4_define( `m4_post_date', `2005-05-15')m4_dnl
+      m4_define( `m4_post_title', `&quot;How to Solve it&quot;')m4_dnl
+      m4_include( `posttrans.m4')m4_dnl
+      m4_begin_post
+      <p>
+      &quot;How to Solve it&quot; is <i>the</i> classic book on
+      problem-solving by G. Polya that shows how to approach and attack
+      problems in a way that you are ultimately able to solve them as well
+      as verify your solutions. Polya provides heuristics for mathematical
+      problems but I think the approach applies quite well to problems in
+      other domains as well.
+
+      m4_begin_post_rest
+      <div class="book_display">
+        <img src="m4_root_dir/books/images/htsi.jpg" alt="How To Solve It">
+        <br>
+        <a href="http://www.amazon.com/gp/product/069111966X?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=069111966X">
+        <img src="m4_root_dir/books/images/buyamz.gif"
+          alt="Buy From Amazon.com">
+        </a>
+        <img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=069111966X" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
+      </div>
+      <p>
+      The basic approach is described in a short chapter at the beginning of
+      the book. The bulk of the book is taken up by a quaint
+      &quot;dictionary&quot; which is a collection of articles each
+      explaining a particular term or phrase that is referenced (in
+      uppercase letters) elsewhere in the book, including within other
+      articles of the dictionary. There are a few problems given towards the
+      end of the book for you to try out your newly-acquired problem-solving
+      skills, followed by hints for these problems and then the solutions
+      for them.
+      <p>
+      In my personal opinion, the book could have been a bit shorter and
+      less repetitive and the dictionary could have been dispensed with
+      entirely, with the articles of the dictionary absorbed into the main
+      material of the book. As it stands, it requires a bit of perseverance
+      from people like me (with short attention spans) for them to be able
+      to finish it. Despite this, I still found the book to be immensely
+      useful and I would gladly recommend it to anyone wishing to improve
+      their problem-solving skills and especially young programmers. There
+      is a reason why this book is mandatory reading in a few software
+      companies out there.
+
+      m4_end_post_rest
+      m4_end_post

@@ -1,0 +1,11 @@
+      m4_define( `m4_post_date', `2003-02-23')m4_dnl
+      m4_define( `m4_post_title', `Snap It Up!')m4_dnl
+      m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+<a href="http://www.thisiscool.com/">Mohan Embar</a>
+has kindly provided <a
+href="http://www.thisiscool.com/gcc33_mingw.htm">updated GCJ 3.3 snapshots</a>
+for all of us to play with.
+
+m4_end_post
