@@ -1,0 +1,28 @@
+      m4_define( `m4_post_date', `2010-08-30')m4_dnl
+      m4_define( `m4_post_title', `Web-Site Source-Code Now Available')m4_dnl
+      m4_include( `posttrans.m4')m4_dnl
+      m4_begin_post
+      <p>
+      I am sharing the source-code for this web-site as a <a
+      href="http://en.wikipedia.org/wiki/Mercurial">Mercurial</a> repository
+      hosted on <a href="http://bitbucket.org/">BitBucket</a>. The repository
+      can be found at <a
+      href="http://bitbucket.org/rmathew/website">bitbucket.org/rmathew/website</a>.
+      The source-code uses the <a
+      href="http://en.wikipedia.org/wiki/M4_%28computer_language%29"><tt>m4</tt></a>
+      macro processor for generating the content. It also uses <a
+      href="http://en.wikipedia.org/wiki/Make_%28software%29"><tt>make</tt></a>
+      and a few helper scripts for managing dependencies. It heavily depends
+      on the availability of a UNIX-like environment, as provided by Linux for
+      example.
+      m4_begin_post_rest
+      <p>
+      To create or update the information about the dependencies among the
+      source-files (stored in &quot;<tt>deps.mk</tt>&quot; and included by
+      the <tt>Makefile</tt>), run &quot;<tt>make deps</tt>&quot;. To generate
+      the content, run &quot;<tt>make all</tt>&quot;. The content is
+      generated in the &quot;<tt>pub</tt>&quot; folder. The source for the
+      content is in the &quot;<tt>src</tt>&quot; folder, while the
+      &quot;<tt>bin</tt>&quot; folder contains some helper scripts.
+      m4_end_post_rest
+      m4_end_post
