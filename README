@@ -3,4 +3,4 @@ This is the source for my web-site hosted at "http://rmathew.com/".
 It's a simple home-grown system based on GNU make and m4.
 
 Run "make deps" followed by "make" to generate the contents of
-the web-site in the "pub" folder.
+the web-site in a "pub" sub-folder.

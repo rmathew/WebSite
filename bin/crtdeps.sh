@@ -7,13 +7,13 @@
 
 if test -z "$1"
 then
-  echo "ERROR: Source directory missing!" 1>&2
+  echo "ERROR: Source directory argument missing!" 1>&2
   exit 1
 fi
 
 if test -z "$2"
 then
-  echo "ERROR: Target directory missing!" 1>&2
+  echo "ERROR: Target directory argument missing!" 1>&2
   exit 1
 fi
 
@@ -21,39 +21,67 @@ ORIG_DIR="$PWD"
 
 SRC_DIR="$1"
 SRC_DIR=`cd $SRC_DIR; pwd`
+
+cd "$ORIG_DIR"
+
 TGT_DIR="$2"
+if [ ! -d "$TGT_DIR" ]
+then
+  echo Creating folder \"$TGT_DIR\"...
+  mkdir -p "$TGT_DIR"
+fi
+TGT_DIR=`cd $TGT_DIR; pwd`
 
 BIN_DIR=`dirname $0`
 BIN_DIR=`cd $BIN_DIR; pwd`
 
 OUTFILE="$ORIG_DIR/deps.mk"
 
-# These are the files that should *not* be generated.
-IGNORE_LIST="header.html \| footer.html \| template.html \| sitesrch.html"
-
-echo Generating dependencies information in \"$OUTFILE\"...
+# NOTE: Subsequent code assumes this working directory.
 cd "$SRC_DIR"
 
+# Create sub-folders under the target folder as needed.
+find . -type d -exec mkdir -p "$TGT_DIR"/\{\} \;
+
+# Create symbolic links for as-is files in the target folder.
+echo Linking to as-is files...
+AS_IS_EXTNS="jpg gif png ico pdf sh css js txt"
+for extn in $AS_IS_EXTNS
+do
+  for i in `find . -name "*.""$extn"`
+  do
+    # The names are of the form "./foo/bar.ext" - convert to "foo/bar.ext".
+    A_FILE=`echo $i | cut -b3-`
+    if [ ! -e "$TGT_DIR"/"$A_FILE" ]
+    then
+      ln -s "$SRC_DIR"/"$A_FILE" "$TGT_DIR"/"$A_FILE"
+    fi
+  done
+done
+
 rm -f "$OUTFILE"
+echo Generating dependencies information in \"$OUTFILE\"...
+
+# These are the files that should *not* be generated.
+IGNORE_LIST="header.html \| footer.html \| template.html \| sitesrch.html"
 
 # Prepare a list of generated HTML files.
 echo Listing HTML files...
 echo "GEN_HTML=\\" >>$OUTFILE
 for i in `find . -name "*.htm4"`
 do
-  # The names are of the form "./foo/bar.htm4". Convert it to "foo/bar.html".
+  # The names are of the form "./foo/bar.htm4" - convert to "foo/bar.html".
   HTML_FILE=`echo $i | cut -b3- | sed s/\.htm4$/\.html/`
   echo "  $TGT_DIR/$HTML_FILE \\" | grep -v "$IGNORE_LIST" >>$OUTFILE
 done
 
-echo >>$OUTFILE
-
 # Prepare a list of generated XML files.
 echo Listing XML files...
+echo >>$OUTFILE
 echo "GEN_XML=\\" >>$OUTFILE
 for i in `find . -name "*.xm4"`
 do
-  # The names are of the form "./foo/bar.xm4". Convert it to "foo/bar.xml".
+  # The names are of the form "./foo/bar.xm4" - convert to "foo/bar.xml".
   XML_FILE=`echo $i | cut -b3- | sed s/\.xm4$/\.xml/`
   echo "  $TGT_DIR/$XML_FILE \\" | grep -v "$IGNORE_LIST" >>$OUTFILE
 done
@@ -62,7 +90,7 @@ done
 echo Getting dependencies for HTML files...
 for i in `find . -name "*.htm4"`
 do
-  # The names are of the form "./foo/bar.htm4". Convert it to "foo/bar.html".
+  # The names are of the form "./foo/bar.htm4" - convert to "foo/bar.html".
   HTML_FILE=`echo $i | cut -b3- | sed s/\.htm4$/\.html/`
 
   DEPS=""
@@ -119,7 +147,7 @@ done
 echo Getting dependencies for XML files...
 for i in `find . -name "*.xm4"`
 do
-  # The names are of the form "./foo/bar.xm4". Convert it to "foo/bar.xml".
+  # The names are of the form "./foo/bar.xm4" - convert to "foo/bar.xml".
   XML_FILE=`echo $i | cut -b3- | sed s/\.xm4$/\.xml/`
 
   DEPS=""

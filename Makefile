@@ -4,7 +4,7 @@
 SRC_DIR=src
 
 # The folder that contains the generated files.
-PUB_DIR=pub
+PUB_DIR=$(CURDIR)/pub
 
 # The folder that contains the helper scripts.
 BIN_DIR=$(CURDIR)/bin
@@ -47,4 +47,5 @@ deps:
 	$(BIN_DIR)/crtdeps.sh $(SRC_DIR) $(PUB_DIR)
 
 clean: 
-	rm -f $(GEN_HTML) $(GEN_XML) deps.mk
+	rm -f deps.mk
+	rm -fr $(PUB_DIR)
