@@ -1,52 +1,50 @@
-      m4_define( `m4_post_date', `2006-05-14')m4_dnl
-      m4_define( `m4_post_title', `&quot;A Short History of Nearly Everything&quot;')m4_dnl
-      m4_include( `posttrans.m4')m4_dnl
-      m4_begin_post
-      <p>
-      &quot;A Short History of Nearly Everything&quot; by Bill Bryson is
-      the kind of book everyone who is even remotely interested in science,
-      or even slightly intrigued by it, should read.
-
-      m4_begin_post_rest
-      <div class="book_display">
-        <img src="m4_root_dir/books/images/bbshort.jpg"
-          alt="A Short History of Nearly Everything">
-        <br>
-        <a href="http://www.amazon.com/gp/product/076790818X?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=076790818X">
-        <img src="m4_root_dir/books/images/buyamz.gif"
-          alt="Buy From Amazon.com">
-        </a>
-        <img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=076790818X" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
-      </div>
-      <p>
-      Like most of us, he
-      was also intrigued as a kid by the claims of scientists and was
-      curious to know how they could have figured out all these things.
-      Unlike most of us however, he did not let this curiosity die out and
-      eventually set out to discover for himself how scientists could
-      determine so many interesting things about the world around us. He
-      shows us how scientists are just like normal people and how science
-      is also affected by ego, political machinations, greed and other vices
-      that are a part of human nature. He also shows us how <i>so many</i>
-      of the discoveries are credited to the wrong person for one reason or
-      the other and how even now our textbooks merrily perpetuate such
-      errors. Above all else, he manages to put the fun back into science.
-      The book is backed by a lot of research and meetings in person with
-      some of the scientists. There are many notes backing every chapter at
-      the end of the book and an extensive bibliography of books and papers
-      to refer to should you get curious about something in the book and
-      want to know more about it.
-      <p>
-      The book seems to devote an unusual amount of space to geology and
-      palaeontology. I found some of the transitions between chapters a bit
-      weird. Even with almost 700 pages, I feel a lot of things have been
-      left out, though that is probably just greed on my part. The ancient
-      Greek, Chinese and Indian scientists barely get a mention for some
-      reason. All that aside, this is a great book that I would heartily
-      recommend. I am grateful to Bill Bryson who has put in the immense
-      effort that is required to put together a book like this and who has
-      presented all the material in such a manner that is accessible to
-      everyone.
-
-      m4_end_post_rest
-      m4_end_post
+m4_define( `m4_post_date', `2006-05-14')m4_dnl
+m4_define( `m4_post_title', `&quot;A Short History of Nearly Everything&quot;')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+&quot;A Short History of Nearly Everything&quot; by Bill Bryson is
+the kind of book everyone who is even remotely interested in science,
+or even slightly intrigued by it, should read.
+m4_begin_post_rest
+<div class="book_display">
+<img src="m4_root_dir/books/images/bbshort.jpg"
+alt="A Short History of Nearly Everything">
+<br>
+<a href="http://www.amazon.com/gp/product/076790818X?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=076790818X">
+<img src="m4_root_dir/books/images/buyamz.gif"
+alt="Buy From Amazon.com">
+</a>
+<img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=076790818X" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
+</div>
+<p>
+Like most of us, he
+was also intrigued as a kid by the claims of scientists and was
+curious to know how they could have figured out all these things.
+Unlike most of us however, he did not let this curiosity die out and
+eventually set out to discover for himself how scientists could
+determine so many interesting things about the world around us. He
+shows us how scientists are just like normal people and how science
+is also affected by ego, political machinations, greed and other vices
+that are a part of human nature. He also shows us how <i>so many</i>
+of the discoveries are credited to the wrong person for one reason or
+the other and how even now our textbooks merrily perpetuate such
+errors. Above all else, he manages to put the fun back into science.
+The book is backed by a lot of research and meetings in person with
+some of the scientists. There are many notes backing every chapter at
+the end of the book and an extensive bibliography of books and papers
+to refer to should you get curious about something in the book and
+want to know more about it.
+<p>
+The book seems to devote an unusual amount of space to geology and
+palaeontology. I found some of the transitions between chapters a bit
+weird. Even with almost 700 pages, I feel a lot of things have been
+left out, though that is probably just greed on my part. The ancient
+Greek, Chinese and Indian scientists barely get a mention for some
+reason. All that aside, this is a great book that I would heartily
+recommend. I am grateful to Bill Bryson who has put in the immense
+effort that is required to put together a book like this and who has
+presented all the material in such a manner that is accessible to
+everyone.
+m4_end_post_rest
+m4_end_post

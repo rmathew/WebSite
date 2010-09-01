@@ -1,48 +1,46 @@
-      m4_define( `m4_post_date', `2008-05-22')m4_dnl
-      m4_define( `m4_post_title', `&quot;Granta 100&quot;')m4_dnl
-      m4_include( `posttrans.m4')m4_dnl
-      m4_begin_post
-      <p>
-      <a href="http://www.granta.com/">Granta</a> is a quarterly magazine
-      dedicated to new writing. It usually contains a motley collection of
-      fiction, essays, photographs, poems, etc. <a
-      href="http://www.granta.com/Magazine/100/">Granta 100</a> is a
-      special issue celebrating the 100<sup>th</sup> edition of this magazine
-      featuring contributions from the likes of Martin Amis, Salman Rushdie,
-      Doris Lessing, Hanif Kureishi, Ian McEwan, etc.
-
-      m4_begin_post_rest
-      <div class="book_display">
-        <img src="m4_root_dir/books/images/m4_post_id.jpg" alt="m4_post_title">
-        <br>
-        <a
-          href="http://www.amazon.com/gp/product/1929001304?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1929001304">
-        <img src="m4_root_dir/books/images/buyamz.gif"
-          alt="Buy From Amazon.com">
-        </a>
-        <img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=1929001304" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
-      </div>
-      <p>
-      Most of the entries are samples from soon-to-be-published works of the
-      respective authors. They are thus &quot;teaser trailers&quot; of the
-      authors' upcoming works. They give you a fair idea of what to expect
-      from your favourite authors. They also make you aware of the work of
-      an author you might have otherwise ignored.
-      <p>
-      Some of the writing makes for delightful reading and is a welcome
-      change from the colourless writing I usually get to read. Some of it,
-      I'm afraid, went straight over my head. On the whole though, I liked
-      most of the entries. Even after you have read this book once, some of
-      the material here provides enough fodder for rumination later.
-      <p>
-      I was particularly charmed by the entries from the book &quot;<a
-      href="http://www.questionformyself.com/">My Question For
-      Myself</a>&quot; that are interspersed throughout this book. These
-      feature a question posed, as well as answered, by a writer that they
-      wished had been asked of them during an interview with the literary
-      journalist Tobias Wenzel. Each of these is accompanied by a wonderful
-      black-and-white picture of the writer by photographer Carolin
-      Seeliger, with a particular emphasis on the eyes of the writer.
-
-      m4_end_post_rest
-      m4_end_post
+m4_define( `m4_post_date', `2008-05-22')m4_dnl
+m4_define( `m4_post_title', `&quot;Granta 100&quot;')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+<a href="http://www.granta.com/">Granta</a> is a quarterly magazine
+dedicated to new writing. It usually contains a motley collection of
+fiction, essays, photographs, poems, etc. <a
+href="http://www.granta.com/Magazine/100/">Granta 100</a> is a
+special issue celebrating the 100<sup>th</sup> edition of this magazine
+featuring contributions from the likes of Martin Amis, Salman Rushdie,
+Doris Lessing, Hanif Kureishi, Ian McEwan, etc.
+m4_begin_post_rest
+<div class="book_display">
+<img src="m4_root_dir/books/images/m4_post_id.jpg" alt="m4_post_title">
+<br>
+<a
+href="http://www.amazon.com/gp/product/1929001304?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1929001304">
+<img src="m4_root_dir/books/images/buyamz.gif"
+alt="Buy From Amazon.com">
+</a>
+<img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=1929001304" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
+</div>
+<p>
+Most of the entries are samples from soon-to-be-published works of the
+respective authors. They are thus &quot;teaser trailers&quot; of the
+authors' upcoming works. They give you a fair idea of what to expect
+from your favourite authors. They also make you aware of the work of
+an author you might have otherwise ignored.
+<p>
+Some of the writing makes for delightful reading and is a welcome
+change from the colourless writing I usually get to read. Some of it,
+I'm afraid, went straight over my head. On the whole though, I liked
+most of the entries. Even after you have read this book once, some of
+the material here provides enough fodder for rumination later.
+<p>
+I was particularly charmed by the entries from the book &quot;<a
+href="http://www.questionformyself.com/">My Question For
+Myself</a>&quot; that are interspersed throughout this book. These
+feature a question posed, as well as answered, by a writer that they
+wished had been asked of them during an interview with the literary
+journalist Tobias Wenzel. Each of these is accompanied by a wonderful
+black-and-white picture of the writer by photographer Carolin
+Seeliger, with a particular emphasis on the eyes of the writer.
+m4_end_post_rest
+m4_end_post

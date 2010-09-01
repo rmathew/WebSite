@@ -1,6 +1,6 @@
-      m4_define( `m4_post_date', `2003-07-20')m4_dnl
-      m4_define( `m4_post_title', `Matrix Mania Mantained')m4_dnl
-      m4_include( `posttrans.m4')m4_dnl
+m4_define( `m4_post_date', `2003-07-20')m4_dnl
+m4_define( `m4_post_title', `Matrix Mania Mantained')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
 I got my <a href="http://www.intothematrix.com/">Animatrix</a>
@@ -10,7 +10,6 @@ be an understatement to say that I was not disappointed at all.
 The DVD comprises nine short movies in eight different styles of
 anim&#233;, a short documentary on anim&#233;, production notes on
 the included movies and a trailer for the &quot;Enter the Matrix&quot; game.
-
 m4_begin_post_rest
 <p>
 &quot;Final Flight of the Osiris&quot; features &quot;Final Fantasy:
@@ -24,18 +23,16 @@ of the fawning kid in &quot;The Matrix Reloaded&quot; and finally
 explains what Neo meant when he says &quot;You saved yourself, kid&quot;
 to him. &quot;The Second Renaissance&quot; has the most gorgeously
 colourful and beautiful graphics I have seen so far as we are led up to
-&quot;Mandala&quot;. &quot;Matriculated&quot; features stunningly 
+&quot;Mandala&quot;. &quot;Matriculated&quot; features stunningly
 colourful graphics and makes one really appreciate the DVD format.
 For those who have seen &quot;Final Fantasy: The Spirits Within&quot;,
 there is a bonus sequence where Aki fights a sentinel! All
 in all, this is a must have for anyone interested in &quot;The
 Matrix&quot; and its sequels and anim&#233; in general.
-
 <p>
 I have also put up a couple of articles <a
 href="m4_root_dir/articles/gcj/crpatch.html">on creating patches for
 GCC/GCJ</a> and <a href="m4_root_dir/articles/perfect.html">on the
 impossibility of having certain kinds of perfect software</a>.
-
 m4_end_post_rest
 m4_end_post

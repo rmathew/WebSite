@@ -1,67 +1,65 @@
-      m4_define( `m4_post_date', `2009-04-19')m4_dnl
-      m4_define( `m4_post_title', `&quot;Operating System Concepts&quot;')m4_dnl
-      m4_include( `posttrans.m4')m4_dnl
-      m4_begin_post
-      <p>
-      &quot;Operating System Concepts&quot; by Abraham Silberschatz, Peter
-      Galvin and Greg Gagne is a text-book that teaches the basics of
-      operating systems design. As is implied by the title, the book focuses
-      more on the concepts than their implementation. Almost all the concepts
-      that you need to know to appreciate the working of an operating system
-      are explained here and illustrated with numerous case studies.
-
-      m4_begin_post_rest
-      <div class="book_display">
-        <img src="m4_root_dir/books/images/m4_post_id.jpg" alt="m4_post_title">
-        <br>
-        <a
-          href="http://www.amazon.com/gp/product/0470128720?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0470128720">
-          <img src="m4_root_dir/books/images/buyamz.gif"
-            alt="Buy From Amazon.com">
-        </a>
-        <img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0470128720" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
-      </div>
-      <p>
-      The book covers all the operating systems concepts that you find in a
-      standard text-book like process management, memory management,
-      concurrency control, device management, etc. Unlike some of the other
-      text-books, it also covers security, networking, distributed systems,
-      etc. This makes the book slightly bulky, though it also makes it a
-      comprehensive reference on the topic for beginners. A couple of chapters
-      towards the end bring it all together by taking a detailed look at Linux
-      and Windows XP. <a href="http://www.os-book.com/">The book's web-site</a>
-      provides additional appendices on BSD Unix, Mach and Windows 2000.
-      <p>
-      The biggest criticism I have for this book as a computer programmer is
-      that it only covers the concepts, not their implementation. While it is
-      true that most of us will never ever implement an operating system, it
-      is my experience that only by looking at and tinkering with working
-      code do we programmers gain a solid understanding of a system. When you
-      look at the code you realise that it does not take black magic to write
-      an operating system. The tinkering of fearless programmers with such code
-      creates a breeding ground for fresh breakthroughs in this field - after
-      all, Linux is the result of such tinkering by a very talented hacker.
-      This focus on implementation is what makes &quot;<a
-      href="http://www.amazon.com/gp/product/0131429388?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0131429388">Operating
-      Systems Design and Implementation</a>&quot;<img
-      src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0131429388"
-      width="1" height="1" alt="" style="border:none !important; margin:0px
-      !important;"> by Andrew Tanenbaum such a valuable book when compared
-      to this book.
-      <p>
-      This book has gone through several editions over the years, gaining a
-      couple of co-authors and losing one. It refrains from passing
-      judgement over design alternatives. The language is simple and
-      non-condescending. Some of the topics should perhaps have been dropped
-      and some moved to an &quot;advanced&quot; text-book. For example, the
-      chapters on networking, transaction processing and distributed systems
-      really belong to other text-books devoted to the respective subjects.
-      <p>
-      If you are looking for a refresher text-book on operating systems or
-      if you are just casually interested in operating systems design, this
-      is a good book to have. If you are more serious, you will need to
-      supplement this book with reading code from a real operating system like
-      Linux or FreeBSD.
-
-      m4_end_post_rest
-      m4_end_post
+m4_define( `m4_post_date', `2009-04-19')m4_dnl
+m4_define( `m4_post_title', `&quot;Operating System Concepts&quot;')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+&quot;Operating System Concepts&quot; by Abraham Silberschatz, Peter
+Galvin and Greg Gagne is a text-book that teaches the basics of
+operating systems design. As is implied by the title, the book focuses
+more on the concepts than their implementation. Almost all the concepts
+that you need to know to appreciate the working of an operating system
+are explained here and illustrated with numerous case studies.
+m4_begin_post_rest
+<div class="book_display">
+<img src="m4_root_dir/books/images/m4_post_id.jpg" alt="m4_post_title">
+<br>
+<a
+href="http://www.amazon.com/gp/product/0470128720?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0470128720">
+<img src="m4_root_dir/books/images/buyamz.gif"
+alt="Buy From Amazon.com">
+</a>
+<img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0470128720" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
+</div>
+<p>
+The book covers all the operating systems concepts that you find in a
+standard text-book like process management, memory management,
+concurrency control, device management, etc. Unlike some of the other
+text-books, it also covers security, networking, distributed systems,
+etc. This makes the book slightly bulky, though it also makes it a
+comprehensive reference on the topic for beginners. A couple of chapters
+towards the end bring it all together by taking a detailed look at Linux
+and Windows XP. <a href="http://www.os-book.com/">The book's web-site</a>
+provides additional appendices on BSD Unix, Mach and Windows 2000.
+<p>
+The biggest criticism I have for this book as a computer programmer is
+that it only covers the concepts, not their implementation. While it is
+true that most of us will never ever implement an operating system, it
+is my experience that only by looking at and tinkering with working
+code do we programmers gain a solid understanding of a system. When you
+look at the code you realise that it does not take black magic to write
+an operating system. The tinkering of fearless programmers with such code
+creates a breeding ground for fresh breakthroughs in this field - after
+all, Linux is the result of such tinkering by a very talented hacker.
+This focus on implementation is what makes &quot;<a
+href="http://www.amazon.com/gp/product/0131429388?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0131429388">Operating
+Systems Design and Implementation</a>&quot;<img
+src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0131429388"
+width="1" height="1" alt="" style="border:none !important; margin:0px
+!important;"> by Andrew Tanenbaum such a valuable book when compared
+to this book.
+<p>
+This book has gone through several editions over the years, gaining a
+couple of co-authors and losing one. It refrains from passing
+judgement over design alternatives. The language is simple and
+non-condescending. Some of the topics should perhaps have been dropped
+and some moved to an &quot;advanced&quot; text-book. For example, the
+chapters on networking, transaction processing and distributed systems
+really belong to other text-books devoted to the respective subjects.
+<p>
+If you are looking for a refresher text-book on operating systems or
+if you are just casually interested in operating systems design, this
+is a good book to have. If you are more serious, you will need to
+supplement this book with reading code from a real operating system like
+Linux or FreeBSD.
+m4_end_post_rest
+m4_end_post

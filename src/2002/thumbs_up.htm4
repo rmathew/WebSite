@@ -1,38 +1,33 @@
-      m4_define( `m4_post_date', `2002-07-16')m4_dnl
-      m4_define( `m4_post_title', `Thumbs Up!')m4_dnl
-      m4_include( `posttrans.m4')m4_dnl
+m4_define( `m4_post_date', `2002-07-16')m4_dnl
+m4_define( `m4_post_title', `Thumbs Up!')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
 I just bought myself a <a href="http://www.gameboyadvance.com/">Game Boy
 Advance</a>!
 <br>
-(I know that the Japanese are generally bad at English, 
+(I know that the Japanese are generally bad at English,
 but doesn't <i>anyone</i> at <a href="http://www.nintendo.com/">Nintendo</a>
 realise that the name should have been the more proper &quot;Game Boy
 Advanced&quot;?)
-
 m4_begin_post_rest
 <p>
 I have also ordered a <a href="http://www.visoly.com/">Flash Linker Advance
-64M Set</a>, that will 
+64M Set</a>, that will
 help me write out my own programs (or so is the plan for the
 moment at least) into cartridges and run them on the GBA!
 While it arrives, I have been checking out some of the
 cool and readily <a href="http://www.gbxemu.com/">downloadable GBA games</a>
 in the absolutely fantastic <a
 href="http://vboy.emuhq.com/">VisualBoyAdvance</a> GBA emulator. Really cool!
-
 <p>
 I need not buy a <a href="http://www.simputer.org/">Simputer</a> after all.
-
 <p>
 I am also upgrading my home PC with more RAM (+128MB), more hard-disc
 space (+40GB) and a DVD-ROM/CD-R/CD-RW combo drive! Yay!
-
 <p>
-I might as well <a href="m4_root_dir/articles/obsessions.html">keep track of 
-some of the sudden obsessions</a> that overcome me from time 
+I might as well <a href="m4_root_dir/articles/obsessions.html">keep track of
+some of the sudden obsessions</a> that overcome me from time
 to time and that so many of my friends are so wary of.
-
 m4_end_post_rest
 m4_end_post

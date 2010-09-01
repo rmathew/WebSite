@@ -4,11 +4,8 @@ m4_define(`m4_page_section',``Articles'')m4_dnl
 m4_dnl
 m4_include(`header.htm4')m4_dnl
 m4_dnl
-<!-- BEGIN: Page Body -->
 <div id="main-copy">
-
 m4_heading( `1', `bind', `Binding Windows Executables')
-
 <p>
 This small program illustrates how to bind Windows executables to the DLLs
 they use so that their loading times are reduced and hence they start up
@@ -23,101 +20,85 @@ machine to others.
 <p>
 I have tested this program with the GCC C compiler available with
 <a href="http://www.mingw.org/">MinGW</a>.
-
 <div class="notice">
 <pre>
 #include &lt;stdio.h&gt;
-
 #define WIN32_LEAN_AND_MEAN
 #include &lt;windows.h&gt;
 #include &lt;imagehlp.h&gt;
-
 /**
- * Uses BindImageEx in the ImageHlp library to bind Windows
- * executables.
- * See the MSDN documentation for this function for more details.
- * &lt;p&gt;
- * This can potentially speed up the loading times of the executable.
- * Note that such an executable cannot then be reliably redistributed
- * due to the very nature of this operation.
- * &lt;p&gt;
- * To compile using the GCC in MinGW, use:
- * &lt;br/&gt;
- * &lt;tt&gt;gcc -Wall bind.c -o bind.exe -limagehlp&lt;/tt&gt;
- *
- * @author Ranjit Mathew &lt;rmathew AT hotmail DOT com&gt;
- *
- * @version 0.1
- */
+* Uses BindImageEx in the ImageHlp library to bind Windows
+* executables.
+* See the MSDN documentation for this function for more details.
+* &lt;p&gt;
+* This can potentially speed up the loading times of the executable.
+* Note that such an executable cannot then be reliably redistributed
+* due to the very nature of this operation.
+* &lt;p&gt;
+* To compile using the GCC in MinGW, use:
+* &lt;br/&gt;
+* &lt;tt&gt;gcc -Wall bind.c -o bind.exe -limagehlp&lt;/tt&gt;
+*
+* @author Ranjit Mathew &lt;rmathew AT hotmail DOT com&gt;
+*
+* @version 0.1
+*/
 int main( int argc, char *argv[])
 {
-  OSVERSIONINFO osInfo;
-  DWORD bindFlags;
-
-  if (argc != 2)
-  {
-    fprintf (stderr, "USAGE: bind &lt;executable file&gt;\n");
-    return 1;
-  }
-
-
-  ZeroMemory (&amp;osInfo, sizeof (osInfo));
-  osInfo.dwOSVersionInfoSize = sizeof (osInfo);
-  GetVersionEx (&amp;osInfo);
-
-  if ((osInfo.dwMajorVersion == 4)
-      && ((osInfo.dwMinorVersion == 0)
-         || (osInfo.dwMinorVersion == 10)
-         || (osInfo.dwMinorVersion == 90)))
-  {
-    printf ("INFO: Windows 9x/ME detected - using BIND_NO_BOUND_IMPORTS.\n");
-    bindFlags = BIND_NO_BOUND_IMPORTS;
-  }
-  else
-  {
-    bindFlags = 0;
-  }
-
-
-  if (BindImageEx (bindFlags, argv[1], NULL, NULL, NULL) == TRUE)
-
-  {
-    printf ("INFO: \"%s\" has been successfully bound!\n", argv[1]);
-  }
-  else
-  {
-    char *bufPtr;
-
-    DWORD err = GetLastError ();
-
-    fprintf (stderr, "\nERROR: Could not bind \"%s\"!\n\n", argv[1]);
-
-    if (FormatMessage (FORMAT_MESSAGE_ALLOCATE_BUFFER
-                       | FORMAT_MESSAGE_FROM_SYSTEM
-                       | FORMAT_MESSAGE_IGNORE_INSERTS,
-                       NULL,
-                       err,
-                       MAKELANGID (LANG_NEUTRAL, SUBLANG_DEFAULT),
-                       (LPTSTR) &amp;bufPtr,
-                       0,
-                       NULL) != 0)
-    {
-      fprintf (stderr, "REASON: %s\n", bufPtr);
-      LocalFree (bufPtr);
-    }
-    else
-    {
-      fprintf (stderr, "REASON: System error code: %lu\n", err);
-    }
-
-    return 1;
-  }
-
-  return 0;
+OSVERSIONINFO osInfo;
+DWORD bindFlags;
+if (argc != 2)
+{
+fprintf (stderr, "USAGE: bind &lt;executable file&gt;\n");
+return 1;
+}
+ZeroMemory (&amp;osInfo, sizeof (osInfo));
+osInfo.dwOSVersionInfoSize = sizeof (osInfo);
+GetVersionEx (&amp;osInfo);
+if ((osInfo.dwMajorVersion == 4)
+&& ((osInfo.dwMinorVersion == 0)
+|| (osInfo.dwMinorVersion == 10)
+|| (osInfo.dwMinorVersion == 90)))
+{
+printf ("INFO: Windows 9x/ME detected - using BIND_NO_BOUND_IMPORTS.\n");
+bindFlags = BIND_NO_BOUND_IMPORTS;
+}
+else
+{
+bindFlags = 0;
+}
+if (BindImageEx (bindFlags, argv[1], NULL, NULL, NULL) == TRUE)
+{
+printf ("INFO: \"%s\" has been successfully bound!\n", argv[1]);
+}
+else
+{
+char *bufPtr;
+DWORD err = GetLastError ();
+fprintf (stderr, "\nERROR: Could not bind \"%s\"!\n\n", argv[1]);
+if (FormatMessage (FORMAT_MESSAGE_ALLOCATE_BUFFER
+| FORMAT_MESSAGE_FROM_SYSTEM
+| FORMAT_MESSAGE_IGNORE_INSERTS,
+NULL,
+err,
+MAKELANGID (LANG_NEUTRAL, SUBLANG_DEFAULT),
+(LPTSTR) &amp;bufPtr,
+0,
+NULL) != 0)
+{
+fprintf (stderr, "REASON: %s\n", bufPtr);
+LocalFree (bufPtr);
+}
+else
+{
+fprintf (stderr, "REASON: System error code: %lu\n", err);
+}
+return 1;
+}
+return 0;
 }
 </pre>
 </div>
 </div>
-<!-- END: Page Body -->
 m4_dnl
 m4_include(`footer.htm4')m4_dnl

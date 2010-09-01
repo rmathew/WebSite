@@ -1,52 +1,50 @@
-      m4_define( `m4_post_date', `2006-04-18')m4_dnl
-      m4_define( `m4_post_title', `&quot;Freakonomics&quot;')m4_dnl
-      m4_include( `posttrans.m4')m4_dnl
-      m4_begin_post
-      <p>
-      I wanted to read &quot;<a
-      href="http://www.freakonomics.com/">Freakonomics</a>&quot; by Steven D.
-      Levitt and Stephen J. Dubner since the time I read <a
-      href="http://www.economist.com/books/displayStory.cfm?story_id=3960469">a
-      review of the book in The Economist</a>. For some reason or the other
-      I kept postponing it, though I could not help but notice how rapidly
-      popular it was becoming. Now that I have finally read it, I
-      wholeheartedly agree with almost every praise showered on this book.
-
-      m4_begin_post_rest
-      <div class="book_display">
-        <img src="m4_root_dir/books/images/freako.jpg" alt="Freakonomics">
-        <br>
-        <a href="http://www.amazon.com/gp/product/0061234001?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0061234001">
-        <img src="m4_root_dir/books/images/buyamz.gif"
-          alt="Buy From Amazon.com">
-        </a>
-        <img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0061234001" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
-      </div>
-      <p>
-      This book shows how useful Economics and its tools can be in providing
-      us insights into all that is around us. Steven D. Levitt is a maverick
-      economist who does not shy from asking &quot;absurd&quot; questions and
-      then sifting through and analysing lots of data to find out the answers.
-      Some of the answers are quite surprising, if not completely shocking.
-      <p>
-      If you haven't read this book yet and happen to come across this book
-      in a bookshop or at a friend's place, do read just the first chapter of
-      the book (which is like an overture for the entire book) to get a feel
-      for what is in store for you should you decide to read it. About the
-      only negative thing I would say about this book is that it is a bit
-      too verbose in some places. Note that one of the most surprising results
-      shown by the book - that the recent dramatic fall in the crime rate in
-      the US is really due to the freedom of abortion given to the women in
-      the US via the landmark <a
-      href="http://en.wikipedia.org/wiki/Roe_v._Wade">Roe v/s Wade</a>
-      judgement of the US Supreme Court - was recently <a
-      href="http://www.economist.com/finance/displayStory.cfm?story_id=5246700">challenged
-      by some economists</a> who found faults in the tools used for the
-      analysis of available data. If you like this book, you might want to
-      read some of the books written by <a
-      href="http://en.wikipedia.org/wiki/John_Kenneth_Galbraith">J. K.
-      Galbraith</a> for an accessible introduction to Economics which is
-      otherwise labelled as the dismal science.
-
-      m4_end_post_rest
-      m4_end_post
+m4_define( `m4_post_date', `2006-04-18')m4_dnl
+m4_define( `m4_post_title', `&quot;Freakonomics&quot;')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I wanted to read &quot;<a
+href="http://www.freakonomics.com/">Freakonomics</a>&quot; by Steven D.
+Levitt and Stephen J. Dubner since the time I read <a
+href="http://www.economist.com/books/displayStory.cfm?story_id=3960469">a
+review of the book in The Economist</a>. For some reason or the other
+I kept postponing it, though I could not help but notice how rapidly
+popular it was becoming. Now that I have finally read it, I
+wholeheartedly agree with almost every praise showered on this book.
+m4_begin_post_rest
+<div class="book_display">
+<img src="m4_root_dir/books/images/freako.jpg" alt="Freakonomics">
+<br>
+<a href="http://www.amazon.com/gp/product/0061234001?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0061234001">
+<img src="m4_root_dir/books/images/buyamz.gif"
+alt="Buy From Amazon.com">
+</a>
+<img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0061234001" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
+</div>
+<p>
+This book shows how useful Economics and its tools can be in providing
+us insights into all that is around us. Steven D. Levitt is a maverick
+economist who does not shy from asking &quot;absurd&quot; questions and
+then sifting through and analysing lots of data to find out the answers.
+Some of the answers are quite surprising, if not completely shocking.
+<p>
+If you haven't read this book yet and happen to come across this book
+in a bookshop or at a friend's place, do read just the first chapter of
+the book (which is like an overture for the entire book) to get a feel
+for what is in store for you should you decide to read it. About the
+only negative thing I would say about this book is that it is a bit
+too verbose in some places. Note that one of the most surprising results
+shown by the book - that the recent dramatic fall in the crime rate in
+the US is really due to the freedom of abortion given to the women in
+the US via the landmark <a
+href="http://en.wikipedia.org/wiki/Roe_v._Wade">Roe v/s Wade</a>
+judgement of the US Supreme Court - was recently <a
+href="http://www.economist.com/finance/displayStory.cfm?story_id=5246700">challenged
+by some economists</a> who found faults in the tools used for the
+analysis of available data. If you like this book, you might want to
+read some of the books written by <a
+href="http://en.wikipedia.org/wiki/John_Kenneth_Galbraith">J. K.
+Galbraith</a> for an accessible introduction to Economics which is
+otherwise labelled as the dismal science.
+m4_end_post_rest
+m4_end_post

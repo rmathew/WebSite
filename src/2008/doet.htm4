@@ -1,60 +1,58 @@
-      m4_define( `m4_post_date', `2008-11-20')m4_dnl
-      m4_define( `m4_post_title', `&quot;The Design of Everyday Things&quot;')m4_dnl
-      m4_include( `posttrans.m4')m4_dnl
-      m4_begin_post
-      <p>
-      As I struggle with opening a fruit-juice pack by tugging at its
-      inconveniently-placed pastic ring (that hurts your finger if you pull it
-      too hard or for too long) or try to open a cola can by trying to get
-      my thick finger under the metal ring that is placed too close to the
-      surface of the can, I think to myself: &quot;Who designs such things?
-      What <i>were</i> they thinking?&quot; In &quot;The Design of Everyday
-      Things&quot; by <a
-      href="http://en.wikipedia.org/wiki/Donald_Norman">Donald Norman</a> I
-      find a kindred spirit who is frustrated by the apparent lack of thought
-      put into the design of most of the things around us and who suggests
-      several ways of improving such designs.
-
-      m4_begin_post_rest
-      <div class="book_display">
-        <img src="m4_root_dir/books/images/m4_post_id.jpg" alt="m4_post_title">
-        <br>
-        <a
-          href="http://www.amazon.com/gp/product/0465067107?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0465067107">
-        <img src="m4_root_dir/books/images/buyamz.gif"
-          alt="Buy From Amazon.com">
-        </a>
-        <img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0465067107" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
-      </div>
-      <p>
-      Have you been frustrated by the numerous confusingly-labelled buttons
-      on your remote control, DVD player or music-system? When you arrive
-      at a door are you forced to wonder if you are supposed to push it or
-      pull it and whether on the left or the right? Do you find most software
-      bewildering? Do you blame yourself for being clumsy with such things?
-      If your answer is &quot;yes&quot; to any of these questions, the bad
-      design of the thing in question is most likely to be blamed.
-      <p>
-      The charm of this book is that it is very easy for most of us to relate
-      to the problems presented here. The beauty of this book is that it is
-      not just a collection of rants about bad designs but has concrete
-      suggestions for improvements. The author presents several principles
-      that a designer must keep in mind when working on a product. The book
-      has quite a few pictures and diagrams that illustrate the author's
-      points.
-      <p>
-      The book was initially called &quot;The Psychology of Everyday
-      Things&quot;, which made for a nice acronym (&quot;POET&quot;). To make
-      it more accessible to lay readers and to prevent miscategorisation in
-      bookshops and libraries, it was renamed to &quot;The Design of Everyday
-      Things&quot;. Some of the illustrations and passages still refer to
-      &quot;POET&quot; though, which is a bit disconcerting.
-      <p>
-      The book is required reading for every designer. It is also required
-      reading for software developers since software presents some of the
-      most complicated and unintuitive interfaces to people. Most of the book
-      is an entertaining read, though my eyes glazed over some passages that
-      involved cognitive psychology.
-
-      m4_end_post_rest
-      m4_end_post
+m4_define( `m4_post_date', `2008-11-20')m4_dnl
+m4_define( `m4_post_title', `&quot;The Design of Everyday Things&quot;')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+As I struggle with opening a fruit-juice pack by tugging at its
+inconveniently-placed pastic ring (that hurts your finger if you pull it
+too hard or for too long) or try to open a cola can by trying to get
+my thick finger under the metal ring that is placed too close to the
+surface of the can, I think to myself: &quot;Who designs such things?
+What <i>were</i> they thinking?&quot; In &quot;The Design of Everyday
+Things&quot; by <a
+href="http://en.wikipedia.org/wiki/Donald_Norman">Donald Norman</a> I
+find a kindred spirit who is frustrated by the apparent lack of thought
+put into the design of most of the things around us and who suggests
+several ways of improving such designs.
+m4_begin_post_rest
+<div class="book_display">
+<img src="m4_root_dir/books/images/m4_post_id.jpg" alt="m4_post_title">
+<br>
+<a
+href="http://www.amazon.com/gp/product/0465067107?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0465067107">
+<img src="m4_root_dir/books/images/buyamz.gif"
+alt="Buy From Amazon.com">
+</a>
+<img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0465067107" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
+</div>
+<p>
+Have you been frustrated by the numerous confusingly-labelled buttons
+on your remote control, DVD player or music-system? When you arrive
+at a door are you forced to wonder if you are supposed to push it or
+pull it and whether on the left or the right? Do you find most software
+bewildering? Do you blame yourself for being clumsy with such things?
+If your answer is &quot;yes&quot; to any of these questions, the bad
+design of the thing in question is most likely to be blamed.
+<p>
+The charm of this book is that it is very easy for most of us to relate
+to the problems presented here. The beauty of this book is that it is
+not just a collection of rants about bad designs but has concrete
+suggestions for improvements. The author presents several principles
+that a designer must keep in mind when working on a product. The book
+has quite a few pictures and diagrams that illustrate the author's
+points.
+<p>
+The book was initially called &quot;The Psychology of Everyday
+Things&quot;, which made for a nice acronym (&quot;POET&quot;). To make
+it more accessible to lay readers and to prevent miscategorisation in
+bookshops and libraries, it was renamed to &quot;The Design of Everyday
+Things&quot;. Some of the illustrations and passages still refer to
+&quot;POET&quot; though, which is a bit disconcerting.
+<p>
+The book is required reading for every designer. It is also required
+reading for software developers since software presents some of the
+most complicated and unintuitive interfaces to people. Most of the book
+is an entertaining read, though my eyes glazed over some passages that
+involved cognitive psychology.
+m4_end_post_rest
+m4_end_post

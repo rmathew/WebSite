@@ -1,11 +1,10 @@
-      m4_define( `m4_post_date', `2002-08-13')m4_dnl
-      m4_define( `m4_post_title', `Prime Time')m4_dnl
-      m4_include( `posttrans.m4')m4_dnl
+m4_define( `m4_post_date', `2002-08-13')m4_dnl
+m4_define( `m4_post_title', `Prime Time')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-<a href="http://www.cse.iitk.ac.in/">IIT-K CSE</a> 
+<a href="http://www.cse.iitk.ac.in/">IIT-K CSE</a>
 junta have come up with <a href="http://www.cse.iitk.ac.in/primality.ps">a
 deterministic, polynomial time algorithm for
 finding out if a given number is prime or not</a>. Yay!
-
 m4_end_post

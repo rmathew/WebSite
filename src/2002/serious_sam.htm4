@@ -1,45 +1,42 @@
-      m4_define( `m4_post_date', `2002-01-07')m4_dnl
-      m4_define( `m4_post_title', `Get Serious!')m4_dnl
-      m4_include( `posttrans.m4')m4_dnl
+m4_define( `m4_post_date', `2002-01-07')m4_dnl
+m4_define( `m4_post_title', `Get Serious!')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
 I have been playing <a href="http://www.serioussam.com/">Serious Sam: The
-First Encounter</a> - the 
-coolest FPS (First Person Shooter) I have ever seen - 
-jaw-dropping, yet fast, 3D graphics, relentless action, great music, 
-lovely locales and amusing one-liners from your alter ego 
+First Encounter</a> - the
+coolest FPS (First Person Shooter) I have ever seen -
+jaw-dropping, yet fast, 3D graphics, relentless action, great music,
+lovely locales and amusing one-liners from your alter ego
 make this an unrivalled winner of a game!
-
 m4_begin_post_rest
 <p>
-Created by the 
+Created by the
 super-cool people at <a href="http://www.croteam.com/">Croteam</a> from
-Croatia, it is not for nothing 
-that this game has won 
+Croatia, it is not for nothing
+that this game has won
 <a
-href="http://gamespot.com/gamespot/features/pc/bestof_2001/p5_06.html">GameSpot's 2001 &quot;Game of the Year&quot; Award</a> - 
+href="http://gamespot.com/gamespot/features/pc/bestof_2001/p5_06.html">GameSpot's 2001 &quot;Game of the Year&quot; Award</a> -
 check out <a href="http://www.croteam.com/interviews.shtml">the reviews</a> if you don't believe me! The
 retail version is priced at $20 and comes with the full game as
 well as level and map editors and tutorials to help you create your
-own levels and maps - is this value for money or what! 
-I can't wait to get my hands on the sequel - &quot;Serious Sam: 
+own levels and maps - is this value for money or what!
+I can't wait to get my hands on the sequel - &quot;Serious Sam:
 The Second Encounter&quot;!
-
 <p>
 <a href="http://praneeta.freeservers.com/">Praneeta</a>
 introduced me to <a href="http://www.tangrams.ca">Tangrams</a> - an ancient
 Chinese puzzle that comprises a deceptively simple set of seven pieces cut
 from a square, which can be put together to form an amazing number of
-figures - puzzles involve 
-trying to recreate the arrangement that results in a given silhouette 
+figures - puzzles involve
+trying to recreate the arrangement that results in a given silhouette
 figure. With the kind permission of <a
-href="http://www.tangrams.ca/">Randy</a> and 
+href="http://www.tangrams.ca/">Randy</a> and
 <a href="http://www.worthoggarden.com/tangram/Tangrams.html">Susan</a>,
 I have put together <a href="m4_root_dir/articles/Tangrams.pdf">a little
-document on Tangrams</a> (PDF/128KB) that collects material from their sites, 
-including history, rules, how to make your own set and a small set 
-of puzzles - for the solutions, you would have to visit their sites. 
+document on Tangrams</a> (PDF/128KB) that collects material from their sites,
+including history, rules, how to make your own set and a small set
+of puzzles - for the solutions, you would have to visit their sites.
 I hope you enjoy these puzzles as much as I did.
-
 m4_end_post_rest
 m4_end_post

@@ -1,39 +1,37 @@
-      m4_define( `m4_post_date', `2006-04-29')m4_dnl
-      m4_define( `m4_post_title', `&quot;Just for Fun&quot;')m4_dnl
-      m4_include( `posttrans.m4')m4_dnl
-      m4_begin_post
-      <p>
-      &quot;Just for Fun: The Story of an Accidental Revolutionary&quot;
-      is a book about the life of Linus Torvalds, the creator of Linux,
-      till the year 2001. It has been written by Linus and David Diamond.
-
-      m4_begin_post_rest
-      <div class="book_display">
-        <img src="m4_root_dir/books/images/just4fun.jpg" alt="Just for Fun">
-        <br>
-        <a href="http://www.amazon.com/gp/product/0066620732?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0066620732">
-        <img src="m4_root_dir/books/images/buyamz.gif"
-          alt="Buy From Amazon.com">
-        </a>
-        <img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0066620732" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
-      </div>
-      <p>
-      I was eagerly looking forward to reading this book, but it has turned
-      out to be a disappointment. It begins awfully and ends even more
-      awfully. The interesting part is in the middle of book where Linus
-      describes the creation of the Linux operating system. It was also
-      fascinating to read about his complete obsession with computer
-      programming, to the detriment of almost everything else in life,
-      during his teenage years and even later, since this was just what
-      had happened to yours truly and around the same time in life. To be
-      fair, the book does have a few funny lines and provides more than a
-      couple of great insights into Linus's life and opinions. Perhaps I
-      had unreasonable expectations of this book, being a fellow geek and an
-      enthusiastic user of Linux, but I suspect even non-geeks will be
-      disappointed by this book. There are also more than a few glaring
-      typographical mistakes that make me wonder whether this book was
-      put together by incompetent people or people in a hurry to cash in
-      on the buzz around Linux at the time of publishing.
-
-      m4_end_post_rest
-      m4_end_post
+m4_define( `m4_post_date', `2006-04-29')m4_dnl
+m4_define( `m4_post_title', `&quot;Just for Fun&quot;')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+&quot;Just for Fun: The Story of an Accidental Revolutionary&quot;
+is a book about the life of Linus Torvalds, the creator of Linux,
+till the year 2001. It has been written by Linus and David Diamond.
+m4_begin_post_rest
+<div class="book_display">
+<img src="m4_root_dir/books/images/just4fun.jpg" alt="Just for Fun">
+<br>
+<a href="http://www.amazon.com/gp/product/0066620732?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0066620732">
+<img src="m4_root_dir/books/images/buyamz.gif"
+alt="Buy From Amazon.com">
+</a>
+<img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0066620732" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
+</div>
+<p>
+I was eagerly looking forward to reading this book, but it has turned
+out to be a disappointment. It begins awfully and ends even more
+awfully. The interesting part is in the middle of book where Linus
+describes the creation of the Linux operating system. It was also
+fascinating to read about his complete obsession with computer
+programming, to the detriment of almost everything else in life,
+during his teenage years and even later, since this was just what
+had happened to yours truly and around the same time in life. To be
+fair, the book does have a few funny lines and provides more than a
+couple of great insights into Linus's life and opinions. Perhaps I
+had unreasonable expectations of this book, being a fellow geek and an
+enthusiastic user of Linux, but I suspect even non-geeks will be
+disappointed by this book. There are also more than a few glaring
+typographical mistakes that make me wonder whether this book was
+put together by incompetent people or people in a hurry to cash in
+on the buzz around Linux at the time of publishing.
+m4_end_post_rest
+m4_end_post

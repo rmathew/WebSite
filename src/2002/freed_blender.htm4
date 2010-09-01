@@ -1,6 +1,6 @@
-      m4_define( `m4_post_date', `2002-10-28')m4_dnl
-      m4_define( `m4_post_title', `Blender Has Been Freed!')m4_dnl
-      m4_include( `posttrans.m4')m4_dnl
+m4_define( `m4_post_date', `2002-10-28')m4_dnl
+m4_define( `m4_post_title', `Blender Has Been Freed!')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
 I know this is old news now, but that does not mean that I am
@@ -8,21 +8,19 @@ not excited about it: my favourite free 3D modelling tool
 <a href="http://www.blender3d.org/">Blender</a>
 has finally been <a href="http://www.blender.org/">freed</a> after a spirited
 effort by people from
-around the world who just could not bear to see it die after 
+around the world who just could not bear to see it die after
 the company that owned it (NaN) went bankrupt. NaN (&quot;Not
-a Number&quot;) shareholders agreed to allow Blender to be 
-released as completely free (with the source code) software 
-only if they could get 100,000 euros for it. The campaign 
-led by Ton Roosendaal, the creator of Blender, has managed 
-to raise this amount - and more - and this darling of a tool 
+a Number&quot;) shareholders agreed to allow Blender to be
+released as completely free (with the source code) software
+only if they could get 100,000 euros for it. The campaign
+led by Ton Roosendaal, the creator of Blender, has managed
+to raise this amount - and more - and this darling of a tool
 is now completely FREE!
-
 m4_begin_post_rest
 <p>
-Yes, I did contribute <a 
+Yes, I did contribute <a
 href="http://www.blender.org/openBlender/donations/list.php">my bit</a> to
 the effort, even though it meant selling my soul to the <a
 href="http://www.nopaypal.com/">horrible PayPal</a>!
-
 m4_end_post_rest
 m4_end_post

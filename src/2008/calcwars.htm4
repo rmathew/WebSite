@@ -1,49 +1,47 @@
-      m4_define( `m4_post_date', `2008-04-29')m4_dnl
-      m4_define( `m4_post_title', `&quot;The Calculus Wars&quot;')m4_dnl
-      m4_include( `posttrans.m4')m4_dnl
-      m4_begin_post
-      <p>
-      In &quot;<a href="http://www.calculuswars.com/">The Calculus
-      Wars</a>&quot;, Jason Bardi writes about the bitter fight in the
-      beginning of the 18<sup>th</sup> century between Isaac Newton and
-      Gottfried Leibniz over the right to be known as the inventor of
-      calculus. Since this episode paints an extremely unflattering picture
-      of the two great men, it is either ignored or only mentioned in passing
-      by most authors writing about the history of mathematics.
-
-      m4_begin_post_rest
-      <div class="book_display">
-        <img src="m4_root_dir/books/images/m4_post_id.jpg" alt="m4_post_title">
-        <br>
-        <a
-          href="http://www.amazon.com/gp/product/1560259922?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1560259922">
-        <img src="m4_root_dir/books/images/buyamz.gif"
-          alt="Buy From Amazon.com">
-        </a>
-        <img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0471733067" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
-      </div>
-      <p>
-      The book provides a brief biography of each of the two men, including
-      the background in each case that led them to independently invent
-      calculus. It attempts to explain why Newton did not publish his papers
-      on his version of calculus (&quot;fluxions and fluents&quot;) even
-      though he had mentioned it in some of his letters to a few of his
-      contemporaries and had invented it about <i>two decades</i> before
-      Leibniz published his first paper on calculus. It shows how the pride
-      and vanity of these men led them into this fight and how they were not
-      shy of abusing their respective positions to gain an advantage over
-      each other.
-      <p>
-      The book contains very little mathematics, presumably to avoid scaring
-      off lay people. I think this is a shame - I would have really liked to
-      see some examples of early expositions of the principles behind calculus
-      and the notations used therein. Perhaps this could have been
-      accommodated in a couple of appendices.
-      <p>
-      The author uses a lot of digressions and digressions within digressions
-      which were quite a bit irritating for me. Though there is a separate
-      appendix containing the bibliography, in most of the places the author
-      does not cite the actual reference used.
-
-      m4_end_post_rest
-      m4_end_post
+m4_define( `m4_post_date', `2008-04-29')m4_dnl
+m4_define( `m4_post_title', `&quot;The Calculus Wars&quot;')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+In &quot;<a href="http://www.calculuswars.com/">The Calculus
+Wars</a>&quot;, Jason Bardi writes about the bitter fight in the
+beginning of the 18<sup>th</sup> century between Isaac Newton and
+Gottfried Leibniz over the right to be known as the inventor of
+calculus. Since this episode paints an extremely unflattering picture
+of the two great men, it is either ignored or only mentioned in passing
+by most authors writing about the history of mathematics.
+m4_begin_post_rest
+<div class="book_display">
+<img src="m4_root_dir/books/images/m4_post_id.jpg" alt="m4_post_title">
+<br>
+<a
+href="http://www.amazon.com/gp/product/1560259922?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1560259922">
+<img src="m4_root_dir/books/images/buyamz.gif"
+alt="Buy From Amazon.com">
+</a>
+<img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0471733067" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
+</div>
+<p>
+The book provides a brief biography of each of the two men, including
+the background in each case that led them to independently invent
+calculus. It attempts to explain why Newton did not publish his papers
+on his version of calculus (&quot;fluxions and fluents&quot;) even
+though he had mentioned it in some of his letters to a few of his
+contemporaries and had invented it about <i>two decades</i> before
+Leibniz published his first paper on calculus. It shows how the pride
+and vanity of these men led them into this fight and how they were not
+shy of abusing their respective positions to gain an advantage over
+each other.
+<p>
+The book contains very little mathematics, presumably to avoid scaring
+off lay people. I think this is a shame - I would have really liked to
+see some examples of early expositions of the principles behind calculus
+and the notations used therein. Perhaps this could have been
+accommodated in a couple of appendices.
+<p>
+The author uses a lot of digressions and digressions within digressions
+which were quite a bit irritating for me. Though there is a separate
+appendix containing the bibliography, in most of the places the author
+does not cite the actual reference used.
+m4_end_post_rest
+m4_end_post

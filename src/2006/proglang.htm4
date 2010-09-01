@@ -1,41 +1,39 @@
-      m4_define( `m4_post_date', `2006-08-18')m4_dnl
-      m4_define( `m4_post_title', `&quot;Programming Languages: Concepts and Constructs&quot;')m4_dnl
-      m4_include( `posttrans.m4')m4_dnl
-      m4_begin_post
-      <p>
-      &quot;Programming Languages: Concepts and Constructs&quot; (Second
-      Edition) by Ravi Sethi is a book desgined to be used as one of the
-      text books in a &quot;Principles of Programming Languages&quot; CS
-      course. To that end, it covers all the major programming styles
-      (imperative, functional and declarative) and variants (object-oriented
-      and concurrent), basic lambda calculus, a short tour of a
-      representative programming language or two for each of the covered
-      styles, numerous exercises for the students to work out, extensive
-      bibliography, etc.
-
-      m4_begin_post_rest
-      <div class="book_display">
-        <img src="m4_root_dir/books/images/proglang.jpg"
-          alt="Programming Languages">
-        <br>
-        <a href="http://www.amazon.com/gp/product/0201590654?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0201590654">
-        <img src="m4_root_dir/books/images/buyamz.gif"
-          alt="Buy From Amazon.com">
-        </a>
-        <img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0201590654" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
-      </div>
-      <p>
-      Unfortunately, it is rather dull and boring (as most text books turn
-      out to be) if you read it on your own for self-learning. It does not
-      bother explaining <i>why</i> one should bother acquainting oneself
-      with the different programming styles. It barely covers the genesis
-      of the different programming styles and why, despite the overwhelming
-      popularity of the imperative programming languages like C, C++ and
-      Java, functional and declarative programming languages still have a
-      small but dedicated and enthusiastic following.
-      <p>
-      Were it not a prescribed text book in many a university, I think it
-      would have long died a natural death.
-
-      m4_end_post_rest
-      m4_end_post
+m4_define( `m4_post_date', `2006-08-18')m4_dnl
+m4_define( `m4_post_title', `&quot;Programming Languages: Concepts and Constructs&quot;')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+&quot;Programming Languages: Concepts and Constructs&quot; (Second
+Edition) by Ravi Sethi is a book desgined to be used as one of the
+text books in a &quot;Principles of Programming Languages&quot; CS
+course. To that end, it covers all the major programming styles
+(imperative, functional and declarative) and variants (object-oriented
+and concurrent), basic lambda calculus, a short tour of a
+representative programming language or two for each of the covered
+styles, numerous exercises for the students to work out, extensive
+bibliography, etc.
+m4_begin_post_rest
+<div class="book_display">
+<img src="m4_root_dir/books/images/proglang.jpg"
+alt="Programming Languages">
+<br>
+<a href="http://www.amazon.com/gp/product/0201590654?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0201590654">
+<img src="m4_root_dir/books/images/buyamz.gif"
+alt="Buy From Amazon.com">
+</a>
+<img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0201590654" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
+</div>
+<p>
+Unfortunately, it is rather dull and boring (as most text books turn
+out to be) if you read it on your own for self-learning. It does not
+bother explaining <i>why</i> one should bother acquainting oneself
+with the different programming styles. It barely covers the genesis
+of the different programming styles and why, despite the overwhelming
+popularity of the imperative programming languages like C, C++ and
+Java, functional and declarative programming languages still have a
+small but dedicated and enthusiastic following.
+<p>
+Were it not a prescribed text book in many a university, I think it
+would have long died a natural death.
+m4_end_post_rest
+m4_end_post

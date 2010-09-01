@@ -1,55 +1,53 @@
-      m4_define( `m4_post_date', `2007-05-21')m4_dnl
-      m4_define( `m4_post_title', `&quot;The Search&quot;')m4_dnl
-      m4_include( `posttrans.m4')m4_dnl
-      m4_begin_post
-      <p>
-      &quot;The Search&quot; is a book by John Battelle that seeks to
-      explain &quot;How Google and Its Rivals Rewrote the Rules of Business
-      and Transformed Our Culture&quot;. The book highlights how searching
-      for something or someone on the Internet is becoming such an integral
-      part of our lives and how companies are trying to profit from this
-      opportunity.
-
-      m4_begin_post_rest
-      <div class="book_display">
-        <img src="m4_root_dir/books/images/srch.jpg" alt="The Search">
-        <br>
-        <a href="http://www.amazon.com/gp/product/1591841410?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1591841410">
-        <img src="m4_root_dir/books/images/buyamz.gif"
-          alt="Buy From Amazon.com">
-        </a>
-        <img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=1591841410" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
-      </div>
-      <p>
-      The book starts off rather badly with unnecessary verbiage comprising
-      the author's pontification on the importance of search, the
-      contribution of the combined search histories of Internet users
-      towards creating a &quot;Database of Intentions&quot; that essentially
-      represents what the world is looking for at a given point in time, the
-      immense value of such a database and the great responsibility that
-      rests with a company like Google that has such data. I have a feeling
-      that the author could have easily made the same point using an order
-      of magnitude fewer pages. Ditto for the final quarter of the book,
-      which I found to be an even bigger pain to read through.
-      <p>
-      Sandwiched between these is the interesting story of the rise and
-      the fall of the early search engines like WebCrawler, AltaVista, etc.
-      and the creation of Overture, Yahoo and Google. However, the bulk of
-      this book is devoted to the creation of Google, its early days, its
-      struggle with its IPO, the praise and the criticisms that it has been
-      receiving, etc. The author deserves praise for presenting a balanced
-      view of Google. I was a bit surprised that he didn't find anything
-      repulsive about Overture's method of sneaking in paid links among
-      genuine search results that are hard to discern for normal users. One
-      of the things that irritated me was that the footnotes for each
-      page were moved to a separate &quot;Notes&quot; section at the end
-      of the book, rather than at the bottom of the page, which made it a
-      bit difficult to read the chapters, as I had to keep flipping back
-      and forth.
-      <p>
-      If you have been using the Internet for some time and have even a bit
-      of intelligence, there is nothing terribly insightful or new in this
-      book.
-
-      m4_end_post_rest
-      m4_end_post
+m4_define( `m4_post_date', `2007-05-21')m4_dnl
+m4_define( `m4_post_title', `&quot;The Search&quot;')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+&quot;The Search&quot; is a book by John Battelle that seeks to
+explain &quot;How Google and Its Rivals Rewrote the Rules of Business
+and Transformed Our Culture&quot;. The book highlights how searching
+for something or someone on the Internet is becoming such an integral
+part of our lives and how companies are trying to profit from this
+opportunity.
+m4_begin_post_rest
+<div class="book_display">
+<img src="m4_root_dir/books/images/srch.jpg" alt="The Search">
+<br>
+<a href="http://www.amazon.com/gp/product/1591841410?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1591841410">
+<img src="m4_root_dir/books/images/buyamz.gif"
+alt="Buy From Amazon.com">
+</a>
+<img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=1591841410" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
+</div>
+<p>
+The book starts off rather badly with unnecessary verbiage comprising
+the author's pontification on the importance of search, the
+contribution of the combined search histories of Internet users
+towards creating a &quot;Database of Intentions&quot; that essentially
+represents what the world is looking for at a given point in time, the
+immense value of such a database and the great responsibility that
+rests with a company like Google that has such data. I have a feeling
+that the author could have easily made the same point using an order
+of magnitude fewer pages. Ditto for the final quarter of the book,
+which I found to be an even bigger pain to read through.
+<p>
+Sandwiched between these is the interesting story of the rise and
+the fall of the early search engines like WebCrawler, AltaVista, etc.
+and the creation of Overture, Yahoo and Google. However, the bulk of
+this book is devoted to the creation of Google, its early days, its
+struggle with its IPO, the praise and the criticisms that it has been
+receiving, etc. The author deserves praise for presenting a balanced
+view of Google. I was a bit surprised that he didn't find anything
+repulsive about Overture's method of sneaking in paid links among
+genuine search results that are hard to discern for normal users. One
+of the things that irritated me was that the footnotes for each
+page were moved to a separate &quot;Notes&quot; section at the end
+of the book, rather than at the bottom of the page, which made it a
+bit difficult to read the chapters, as I had to keep flipping back
+and forth.
+<p>
+If you have been using the Internet for some time and have even a bit
+of intelligence, there is nothing terribly insightful or new in this
+book.
+m4_end_post_rest
+m4_end_post

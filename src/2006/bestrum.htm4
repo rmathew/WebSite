@@ -1,39 +1,37 @@
-      m4_define( `m4_post_date', `2006-11-09')m4_dnl
-      m4_define( `m4_post_title', `&quot;The Best of Rumpole&quot;')m4_dnl
-      m4_include( `posttrans.m4')m4_dnl
-      m4_begin_post
-      <p>
-      &quot;The Best of Rumpole&quot; is a collection of seven
-      <a href="http://en.wikipedia.org/wiki/Rumpole">Rumpole</a> stories
-      personally selected by the author John Mortimer and considered by him
-      to be the best among those he has written so far.
-
-      m4_begin_post_rest
-      <div class="book_display">
-        <img src="m4_root_dir/books/images/bestrum.jpg"
-          alt="The Best of Rumpole">
-        <br>
-        <a href="http://www.amazon.com/gp/product/0140176845?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0140176845">
-        <img src="m4_root_dir/books/images/buyamz.gif"
-          alt="Buy From Amazon.com">
-        </a>
-        <img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0140176845" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
-      </div>
-      <p>
-      Horace Rumpole is an old barrister practising at <a
-      href="http://en.wikipedia.org/wiki/The_Old_Bailey">The Old Bailey</a>,
-      the criminal court in London, who is willing to defend anyone at all,
-      who loves to quote verse and who secretly refers to his wife Hilda as
-      &quot;She Who Must Be Obeyed&quot;.
-      <p>
-      The stories presented in this book are really nice and are
-      particularly enjoyable if you appreciate the British style of subtle
-      humour. There usually is a mystery that must be resolved in every
-      story but it is not as pronounced in a given story as in other
-      examples of detective fiction. The author is a former practising
-      barrister himself and therefore writes convincingly about the lives of
-      barristers. Particularly amusing is the description of the interaction
-      between barristers and judges, both in the court and out of it.
-
-      m4_end_post_rest
-      m4_end_post
+m4_define( `m4_post_date', `2006-11-09')m4_dnl
+m4_define( `m4_post_title', `&quot;The Best of Rumpole&quot;')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+&quot;The Best of Rumpole&quot; is a collection of seven
+<a href="http://en.wikipedia.org/wiki/Rumpole">Rumpole</a> stories
+personally selected by the author John Mortimer and considered by him
+to be the best among those he has written so far.
+m4_begin_post_rest
+<div class="book_display">
+<img src="m4_root_dir/books/images/bestrum.jpg"
+alt="The Best of Rumpole">
+<br>
+<a href="http://www.amazon.com/gp/product/0140176845?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0140176845">
+<img src="m4_root_dir/books/images/buyamz.gif"
+alt="Buy From Amazon.com">
+</a>
+<img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0140176845" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
+</div>
+<p>
+Horace Rumpole is an old barrister practising at <a
+href="http://en.wikipedia.org/wiki/The_Old_Bailey">The Old Bailey</a>,
+the criminal court in London, who is willing to defend anyone at all,
+who loves to quote verse and who secretly refers to his wife Hilda as
+&quot;She Who Must Be Obeyed&quot;.
+<p>
+The stories presented in this book are really nice and are
+particularly enjoyable if you appreciate the British style of subtle
+humour. There usually is a mystery that must be resolved in every
+story but it is not as pronounced in a given story as in other
+examples of detective fiction. The author is a former practising
+barrister himself and therefore writes convincingly about the lives of
+barristers. Particularly amusing is the description of the interaction
+between barristers and judges, both in the court and out of it.
+m4_end_post_rest
+m4_end_post

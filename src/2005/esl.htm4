@@ -1,32 +1,30 @@
-      m4_define( `m4_post_date', `2005-07-15')m4_dnl
-      m4_define( `m4_post_title', `&quot;Eats`,' Shoots and Leaves&quot;')m4_dnl
-      m4_include( `posttrans.m4')m4_dnl
-      m4_begin_post
-      <p>
-      Lynne Truss's &quot;Eats, Shoots &amp; Leaves&quot; is a delightful
-      read about using punctuation correctly in English sentences.
-
-      m4_begin_post_rest
-      <div class="book_display">
-        <img src="m4_root_dir/books/images/esl.jpg"
-          alt="Eats, Shoots and Leaves">
-        <br>
-        <a href="http://www.amazon.com/gp/product/1592402038?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1592402038">
-        <img src="m4_root_dir/books/images/buyamz.gif"
-          alt="Buy From Amazon.com">
-        </a>
-        <img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=1592402038" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
-      </div>
-      <p>
-      I found
-      myself agreeing with her most of the times, except that I did not
-      quite like her excessive use of commas as well as her weird enthusiasm
-      for colons and semi-colons. I learnt a fair bit about punctuation
-      conventions and realised that I have been guilty of abusing
-      punctuation on numerous occasions myself. I liked her sense of humour
-      a lot and being a stickler for such things myself, empathised with her
-      when she noted her anguish on seeing numerous abuses of punctuation
-      all around her every day.
-
-      m4_end_post_rest
-      m4_end_post
+m4_define( `m4_post_date', `2005-07-15')m4_dnl
+m4_define( `m4_post_title', `&quot;Eats`,' Shoots and Leaves&quot;')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+Lynne Truss's &quot;Eats, Shoots &amp; Leaves&quot; is a delightful
+read about using punctuation correctly in English sentences.
+m4_begin_post_rest
+<div class="book_display">
+<img src="m4_root_dir/books/images/esl.jpg"
+alt="Eats, Shoots and Leaves">
+<br>
+<a href="http://www.amazon.com/gp/product/1592402038?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1592402038">
+<img src="m4_root_dir/books/images/buyamz.gif"
+alt="Buy From Amazon.com">
+</a>
+<img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=1592402038" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
+</div>
+<p>
+I found
+myself agreeing with her most of the times, except that I did not
+quite like her excessive use of commas as well as her weird enthusiasm
+for colons and semi-colons. I learnt a fair bit about punctuation
+conventions and realised that I have been guilty of abusing
+punctuation on numerous occasions myself. I liked her sense of humour
+a lot and being a stickler for such things myself, empathised with her
+when she noted her anguish on seeing numerous abuses of punctuation
+all around her every day.
+m4_end_post_rest
+m4_end_post

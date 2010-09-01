@@ -1,10 +1,9 @@
-      m4_define( `m4_post_date', `2002-03-25')m4_dnl
-      m4_define( `m4_post_title', `Updated Bookmarks')m4_dnl
-      m4_include( `posttrans.m4')m4_dnl
+m4_define( `m4_post_date', `2002-03-25')m4_dnl
+m4_define( `m4_post_title', `Updated Bookmarks')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
 I have finally managed to clean up my bookmarks - reorganising links, removing
 dead URLs, etc. If you so desire, you can directly import these into
 Netscape/Mozilla - or even IE, though I have not tried that.
-
 m4_end_post

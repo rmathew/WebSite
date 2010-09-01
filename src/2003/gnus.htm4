@@ -1,9 +1,8 @@
-      m4_define( `m4_post_date', `2003-01-09')m4_dnl
-      m4_define( `m4_post_title', `More GNUs')m4_dnl
-      m4_include( `posttrans.m4')m4_dnl
+m4_define( `m4_post_date', `2003-01-09')m4_dnl
+m4_define( `m4_post_title', `More GNUs')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
 I am now <a href="http://gcc.gnu.org/ml/java/2003-01/msg00109.html">an
 official FSF developer</a>!
-
 m4_end_post

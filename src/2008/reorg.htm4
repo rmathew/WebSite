@@ -1,52 +1,47 @@
-      m4_define( `m4_post_date', `2008-01-27')m4_dnl
-      m4_define( `m4_post_title', `Web-site Slightly Reorganised')m4_dnl
-      m4_include( `posttrans.m4')m4_dnl
-      m4_begin_post
-      <p>
-      I have once again slightly reorganised this web-site in order to make it
-      a bit faster to load, a bit easier to use and a lot easier to maintain.
-      Among the major user-visible changes are <a
-      href="http://rmathew.com/atom.xml">a web-site feed</a>, per-post pages,
-      lighter aggregating pages and a web-site-specific Google search.
-
-      m4_begin_post_rest
-      <p>
-      With the addition of a web-site feed, you can now automatically get
-      notified of new posts to this web-site instead of having to manually
-      check for such updates. The feed <a
-      href="http://feedvalidator.org/check.cgi?url=http%3A//rmathew.com/atom.xml">conforms</a>
-      to the <a href="http://www.atomenabled.org/">Atom</a> 1.0 standard. I
-      have also verified that it works in at least <a
-      href="http://www.mozilla.com/thunderbird/">Thunderbird</a> and <a
-      href="http://reader.google.com/">Google Reader</a>.
-
-      <p>
-      Each &quot;News&quot; post now has its own dedicated page. This makes
-      it easier to link to it, especially in the web-site feed. Instead of
-      using expandable and collapsible sections to summarise posts on
-      aggregating pages (the main page and the &quot;News Archive&quot;
-      pages), I now put only the first paragraph of a post on an aggregating
-      page. For longer posts, I insert a &quot;Read More...&quot; text linking
-      to the dedicated page for the post. This considerably reduces the size
-      of the aggregating pages.
-
-      <p>
-      The biggest changes however have been to the way I maintain this web-site.
-      I have now expanded my use of the <a
-      href="http://en.wikipedia.org/wiki/M4_%28computer_language%29">m4</a>
-      macro processor and Unix shell scripts to automate as many tasks related
-      to web-site maintenance as I could. This includes automatically creating
-      aggregating pages with post-summaries in the right order, automatically
-      creating the web-site feed, automatically creating a table of contents,
-      automatically determining the dependencies between the various files
-      with HTML fragments and using it in a &quot;Makefile&quot;, etc.
-      Maintaining this web-site is now less of a chore.
-
-      <p>
-      The time and effort I spend maintaining this web-site might seem to be
-      quite disproportionate to the amount of useful content in it. That is
-      because it is easier to keep tweaking this web-site than to produce
-      genuinely useful content for it.
-
-      m4_end_post_rest
-      m4_end_post
+m4_define( `m4_post_date', `2008-01-27')m4_dnl
+m4_define( `m4_post_title', `Web-site Slightly Reorganised')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I have once again slightly reorganised this web-site in order to make it
+a bit faster to load, a bit easier to use and a lot easier to maintain.
+Among the major user-visible changes are <a
+href="http://rmathew.com/atom.xml">a web-site feed</a>, per-post pages,
+lighter aggregating pages and a web-site-specific Google search.
+m4_begin_post_rest
+<p>
+With the addition of a web-site feed, you can now automatically get
+notified of new posts to this web-site instead of having to manually
+check for such updates. The feed <a
+href="http://feedvalidator.org/check.cgi?url=http%3A//rmathew.com/atom.xml">conforms</a>
+to the <a href="http://www.atomenabled.org/">Atom</a> 1.0 standard. I
+have also verified that it works in at least <a
+href="http://www.mozilla.com/thunderbird/">Thunderbird</a> and <a
+href="http://reader.google.com/">Google Reader</a>.
+<p>
+Each &quot;News&quot; post now has its own dedicated page. This makes
+it easier to link to it, especially in the web-site feed. Instead of
+using expandable and collapsible sections to summarise posts on
+aggregating pages (the main page and the &quot;News Archive&quot;
+pages), I now put only the first paragraph of a post on an aggregating
+page. For longer posts, I insert a &quot;Read More...&quot; text linking
+to the dedicated page for the post. This considerably reduces the size
+of the aggregating pages.
+<p>
+The biggest changes however have been to the way I maintain this web-site.
+I have now expanded my use of the <a
+href="http://en.wikipedia.org/wiki/M4_%28computer_language%29">m4</a>
+macro processor and Unix shell scripts to automate as many tasks related
+to web-site maintenance as I could. This includes automatically creating
+aggregating pages with post-summaries in the right order, automatically
+creating the web-site feed, automatically creating a table of contents,
+automatically determining the dependencies between the various files
+with HTML fragments and using it in a &quot;Makefile&quot;, etc.
+Maintaining this web-site is now less of a chore.
+<p>
+The time and effort I spend maintaining this web-site might seem to be
+quite disproportionate to the amount of useful content in it. That is
+because it is easier to keep tweaking this web-site than to produce
+genuinely useful content for it.
+m4_end_post_rest
+m4_end_post

@@ -4,11 +4,8 @@ m4_define(`m4_page_section',``Articles'')m4_dnl
 m4_dnl
 m4_include(`header.htm4')m4_dnl
 m4_dnl
-<!-- BEGIN: Page Body -->
 <div id="main-copy">
-
 m4_toc
-
 m4_heading( `1', `intro', `Introduction')
 <p>
 This document describes the process I use to create and
@@ -16,11 +13,10 @@ submit patches to the <a href="http://gcc.gnu.org/java/">GNU Compiler for Java
 (GCJ)</a> and the <a href="http://gcc.gnu.org/">GNU Compiler Collection
 (GCC)</a>. I hope this proves useful to the people who ask &quot;How do I
 submit a patch?&quot; on the GCJ/GCC mailing lists.
-
 <div class="notice">
 <p>
 <b>NOTE:</b> This is <i>not</i> the &quot;proper&quot; or
-&quot;official&quot; way of creating and submitting 
+&quot;official&quot; way of creating and submitting
 patches - that process has been <a
 href="http://gcc.gnu.org/svnwrite.html">explained in detail elsewhere</a>.
 That process requires one to use <a
@@ -29,24 +25,21 @@ href="http://subversion.tigris.org/">Subversion</a> (SVN).
 The process described here is meant for &quot;one-off hackers&quot;
 or people who cannot use SVN for some reason or the other.
 </div>
-
 <p>
-I am fairly sure that the same process would apply 
+I am fairly sure that the same process would apply
 equally well to other <a href="http://www.gnu.org/">GNU</a>
 software projects and quite possibly to other Free
 software projects.
-
 m4_heading( `1', `reqs', `Requirements')
 <p>
 I assume Linux as the development environment - this process also
 applies to systems that have all the standard UNIX utilities
 as well as Larry Wall's &quot;<tt>patch</tt>&quot; program.
 The &quot;<tt>diff</tt>&quot; program used here is the
-GNU <tt>diff</tt> utility. On Windows, <a 
-href="http://sources.redhat.com/cygwin/">Cygwin</a> and 
+GNU <tt>diff</tt> utility. On Windows, <a
+href="http://sources.redhat.com/cygwin/">Cygwin</a> and
 <a href="http://www.mingw.org/msys.shtml">MinGW MSYS</a>
 satisfy these conditions.
-
 <p>
 I use a couple of scripts as wrappers around these commands.
 These are the <a href="getdiff.sh"><tt>getdiff.sh</tt></a>
@@ -54,10 +47,9 @@ script that generates the patch for a single modified file and the
 <a href="makepatch.sh"><tt>makepatch.sh</tt></a> script
 that uses the <tt>getdiff.sh</tt> script to create a patch
 out of multiple modified files. I recommend that you download
-and put these scripts in your <tt>PATH</tt> if you wish to 
+and put these scripts in your <tt>PATH</tt> if you wish to
 avoid having to type tedious command lines every time you create
 a patch or want review your changes.
-
 <p>
 Alexandre Oliva has created a few scripts (imaginatively named
 &quot;CVS Utils&quot;) that are very useful in submitting
@@ -66,8 +58,6 @@ you get &quot;<tt>clcleanup</tt>&quot; and the &quot;<tt>fixpatch</tt>&quot;
 script that it uses and put them in your <tt>PATH</tt>. You can get
 these scripts <a
 href="http://savannah.gnu.org/cgi-bin/viewcvs/cvs-utils/cvs-utils/">here</a>.
-
-
 m4_heading( `1', `before', `Before You Start')
 <p>
 In order to help you understand this process more clearly,
@@ -75,60 +65,51 @@ let us assume that you wish to change the files
 &quot;<tt>libjava/foo/bar/Snafu.java</tt>&quot;
 and &quot;<tt>libjava/wombat.cc</tt>&quot; within the GCC sources
 as a part of your proposed patch.
-
 <p>
 The very first thing you need to do before you start modifying
 the sources is to ensure that the source tree is as up to date
 as is possible for you. For example, you can download the
 latest GCC snapshot and update your source tree with it.
-
 <p>
 The next thing you need to do is to back up the files you intend
 to modify in their respective folders but with a &quot;<tt>.orig</tt>&quot;
 suffix. In our example, after you back up, you should have
-&quot;<tt>libjava/foo/bar/Snafu.java.orig</tt>&quot; and 
+&quot;<tt>libjava/foo/bar/Snafu.java.orig</tt>&quot; and
 &quot;<tt>libjava/wombat.cc.orig</tt>&quot; apart from the original
 files and identical to them. This step is <b>very important</b>!
-
 m4_heading( `1', `modsrcs', `Modifying the Sources')
 <p>
 Now go ahead and make the changes you intended to make. You will
-of course have to adhere to the coding standards in effect 
+of course have to adhere to the coding standards in effect
 for that module and/or the programming language. The <a
 href="http://www.gnu.org/prep/standards_toc.html">GNU
 Coding Standards</a> are pretty detailed and apply strictly to
 GCC. GCJ has its own <a
 href="http://gcc.gnu.org/java/contrib.html">addendum</a> for Java source files.
-
 <p>
 An important thing to note here is that you should use a code
 editor that does not act too smart with TABs and spaces. You
 could otherwise end up ruining the formatting of the source code
 you are modifying.
-
 m4_heading( `1', `testing', `Testing Your Changes')
 <p>
-After this you should do a clean bootstrap build and run the 
-testsuite and any additional tests that you want to run to make 
+After this you should do a clean bootstrap build and run the
+testsuite and any additional tests that you want to run to make
 sure that your patch really fixes the problem. There should be
 <i>no regressions</i> as a result of your patch.
-
 <p>
 Ignore this at your own peril - you really do not want hordes
 of angry developers with bared fangs crying for your blood if your
 patch somehow gets accepted and committed to the tree and
 causes regressions (or worse, <i>build failures</i>).
-
 <p>
 Once you are satisfied with your changes and have confidence
 in them, it is time to create a patch that you can submit
 to the maintainers of the project.
-
 m4_heading( `1', `chlog', `Writing a ChangeLog Entry')
 <p>
 You begin by describing your changes in the
 &quot;<tt>ChangeLog</tt>&quot; for the affected module.
-
 <p>
 All modules in almost all the major Free software projects
 maintain &quot;change logs&quot; that describe the changes
@@ -140,10 +121,9 @@ that describe the actual changes. By convention, the active
 change log is kept in a file named &quot;<tt>ChangeLog</tt>&quot;
 in the main folder of a module and the entries are maintained
 in a reverse chronological order (latest changes first).
-
 <p>
 You will need to find the appropriate <tt>ChangeLog</tt> file
-and add an entry describing your changes. To find this file, 
+and add an entry describing your changes. To find this file,
 look for it in the folder containing the modified source
 file, if it is not found, in the parent folder of the folder, and
 so on. In our example, this file can be found in the
@@ -152,25 +132,19 @@ back up the original file with a &quot;<tt>.orig</tt>&quot; extension
 as before. So you should now have the file
 &quot;<tt>libjava/ChangeLog.orig</tt>&quot; that is identical to
 the original file.
-
 <p>
 Take a look at the other <tt>ChangeLog</tt> entries to see how
 to write one. For our example, the relevant <tt>ChangeLog</tt>
 entry could look like this:
-
 <div class="notice">
 <pre>
 2003-07-14  Ranjit Mathew  &lt;rmathew@example.com&gt;
-
-        * foo/bar/Snafu.java (getGrok): Use native method
-        for computing grok.
-
-        * wombat.cc (getGrok): New method for computing grok
-        using get_grok().
-
+* foo/bar/Snafu.java (getGrok): Use native method
+for computing grok.
+* wombat.cc (getGrok): New method for computing grok
+using get_grok().
 </pre>
 </div>
-
 <p>
 The <tt>ChangeLog</tt> entry header is a line of the format:
 <div class="centred">
@@ -180,7 +154,6 @@ The <tt>ChangeLog</tt> entry header is a line of the format:
 <i><small>two-spaces</small></i>&nbsp;
 <tt>&lt;your@email.address&gt;</tt>
 </div>
-
 <p>
 The lines following the header describe the affected files
 and the methods/functions within them that were affected
@@ -189,14 +162,11 @@ real TAB character and <i>not</i> an &quot;equivalent&quot;
 number of spaces. For GNU projects, you can find all you
 need to know about writing <tt>ChangeLog</tt> entries
 <a href="http://www.gnu.org/prep/standards_40.html">here</a>.
-
 <p>
 If your patch fixes a reported GCC/GCJ bug, be sure to
 have a line like &quot;<tt>Fixes PR c++/7910</tt>&quot;
 as the first line in the <tt>ChangeLog</tt> entry
 description.
-
-
 m4_heading( `1', `create', `Creating the Patch')
 <p>
 Now you are all set to create the patch. Execute the
@@ -204,7 +174,6 @@ Now you are all set to create the patch. Execute the
 in the root folder of the module, filter its output
 through the <tt>clcleanup</tt> script and redirect the
 final output to a text file.
-
 <p>
 In other words, for our example, simply execute the following
 in the &quot;<tt>libjava</tt>&quot; folder within the GCC
@@ -212,56 +181,47 @@ source tree:
 <div class="centred">
 <tt>$ makepatch.sh . | clcleanup &gt; /tmp/mypatch.txt</tt>
 </div>
-
 <p>
-If you examine &quot;<tt>/tmp/mypatch.txt</tt>&quot;, it might 
+If you examine &quot;<tt>/tmp/mypatch.txt</tt>&quot;, it might
 look something like the following:
-
 <div class="notice">
 <pre>
 Index: ChangeLog
 from  Ranjit Mathew  &lt;rmathew@example.com&gt;
-
-	* foo/bar/Snafu.java (getGrok): Use native method
-	for computing grok.
-
-	* wombat.cc (getGrok): New method for computing grok
-	using get_grok().
-
+* foo/bar/Snafu.java (getGrok): Use native method
+for computing grok.
+* wombat.cc (getGrok): New method for computing grok
+using get_grok().
 Index: foo/bar/Snafu.java
 ===================================================================
 --- foo/bar/Snafu.java	Mon Jul 14 07:49:50 2003
 +++ foo/bar/Snafu.java	Mon Jul 14 07:50:48 2003
 @@ -1,4 +1,6 @@
-     }
- 
+}
 +    public native int getGrok ();
 +
-     public String toString ()
-     {
+public String toString ()
+{
 Index: wombat.cc
 ===================================================================
 --- wombat.cc	Mon Jul 14 07:54:02 2003
 +++ wombat.cc	Mon Jul 14 07:53:34 2003
 @@ -1,4 +1,9 @@
-     }
- 
+}
 +    int foo::bar::getGrok (void)
 +    {
 +      return get_grok ();
 +    }
 +
-     get_name (void)
-     {
+get_name (void)
+{
 </pre>
 </div>
-
 <p>
 Notice that <tt>clcleanup</tt> script has removed the date from
 your <tt>ChangeLog</tt> entry so that the when the maintainer
 finally applies your patch, the final <tt>ChangeLog</tt> entry
 will automagically have the correct date.
-
 <p>
 Note that the <tt>ChangeLog</tt> entry must come first in the
 patch. Most of the times the command given above works just
@@ -270,21 +230,17 @@ arrange to consolidate the individual file changes obtained
 using the <a href="getdiff.sh"><tt>getdiff.sh</tt></a> script
 manually in the desired order. This is left as an exercise for
 the reader.
-
-
 m4_heading( `1', `submit', `Submitting the Patch')
 <p>
 You can now send your patch to the appropriate mailing list. For
 GCC in general, patches should be sent to <tt>gcc-patches@gcc.gnu.org</tt>.
 For GCJ in particular, patches should be sent to
 <tt>java-patches@gcc.gnu.org</tt>.
-
 <p>
 Your mail should describe the problem that your patch is trying
 to solve in detail. Alternatively you can also point to the
 appropriate bug report or the thread on a mailing list where
 the issue was discussed, etc.
-
 <p>
 Do not send HTML mail! Use only plain-text to send the mail.
 You should also be aware of any issues that your mail client
@@ -299,18 +255,15 @@ href="http://gcc.gnu.org/ml/java-patches/2003-q2/msg00315.html">introduces an
 extra space in lines that start with a space</a> (such lines are very common
 in <tt>diff</tt> outputs). Sometimes it is safer to send the patch as
 an attachment instead of sending it inline.
-
 <p>
 If there are objections to your patch or if people suggest
 a better way of achieving the same thing, you might have to
 repeat the process until your patch is accepted.
-
 <p>
 If you do not get a response to your patch in a &quot;reasonable&quot;
 amount of time (say, a week), you can send a &quot;ping&quot;
 message to the patches mailing list requesting people to
 take a look at it.
 </div>
-<!-- END: Page Body -->
 m4_dnl
 m4_include(`footer.htm4')m4_dnl

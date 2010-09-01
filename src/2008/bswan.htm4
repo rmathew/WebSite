@@ -1,99 +1,95 @@
-      m4_define( `m4_post_date', `2008-12-08')m4_dnl
-      m4_define( `m4_post_title', `&quot;The Black Swan&quot;')m4_dnl
-      m4_include( `posttrans.m4')m4_dnl
-      m4_begin_post
-      <p>
-      &quot;The Black Swan&quot; by <a
-      href="http://en.wikipedia.org/wiki/Nassim_Nicholas_Taleb">Nassim
-      Nicholas Taleb</a> is a follow-up to his last book &quot;Fooled by
-      Randomness&quot;. A Black Swan is a completely unforeseen event with
-      significant consequences. It could be the sudden crash of the stock
-      market after a prolonged bull phase or the unexpected success of a
-      book by a previously-unknown author. The term refers to the shattering
-      of the long-held idea of a swan always being white by the sighting of
-      black swans in the newly-discovered land of Australia. The book is a
-      warning against using induction to derive conclusions that are then
-      prone to Black Swans.
-
-      m4_begin_post_rest
-      <div class="book_display">
-        <img src="m4_root_dir/books/images/m4_post_id.jpg" alt="m4_post_title">
-        <br>
-        <a
-          href="http://www.amazon.com/gp/product/1400063515?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1400063515">
-          <img src="m4_root_dir/books/images/buyamz.gif"
-            alt="Buy From Amazon.com">
-        </a>
-        <img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=1400063515" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
-
-
-      </div>
-      <p>
-      The author divides our observations of the world around us into those
-      belonging to &quot;Mediocristan&quot; and &quot;Extremistan&quot;. In
-      Mediocristan, there are no very large deviations from the normal over
-      many observations. In Extremistan, you might run into observations
-      deviating significantly from the normal. For example, the height or
-      weight of people do not have very large variations (Mediocristan),
-      while the wealth of people does (Extremistan). Black Swans occur in
-      Extremistan.
-      <p>
-      The author shows how to differentiate between data that belong to
-      Mediocristan and data that belong to Extremistan. This allows you
-      to be on your guard against Black Swans and to insure yourself against
-      their impact. Of course, this is much easier said than done.
-      <p>
-      As in the previous book, the author mulls over a lot of topics that
-      I have been thinking about but have not seen much written about. These
-      include:
-      <ul>
-      <li>
-      A thousand experiments are insufficient to prove a theory but a single
-      experiment is sufficient to disprove it.
-      </li>
-      <li>
-      Modern finance uses a lot of mathematics to give an appearance of
-      certainty, but the underlying assumptions are so flawed that the
-      formulae are useless.
-      </li>
-      <li>
-      The <a href="http://en.wikipedia.org/wiki/Normal_distribution">normal
-      distribution</a> is applied to a lot of places where it is not at all
-      applicable.
-      </li>
-      <li>
-      <a href="http://en.wikipedia.org/wiki/Pascal%27s_Wager">Pascal's
-      wager</a> assumes that if a god exists it is naive enough to overlook
-      a feigned devotion to itself.
-      </li>
-      <li>
-      People tend to assign precise probabilities to events where it is not
-      really possible to do so.
-      </li>
-      </ul>
-      <p>
-      Of course, this could simply mean that I am not that well-read. There
-      are also discussions about the confusion between correlation and
-      causation and between &quot;absence of evidence&quot; and &quot;evidence
-      of absence&quot;, which commonly lead people into deriving the wrong
-      conclusions from data.
-      <p>
-      The author warns against the increasing globalisation of finance and
-      the consolidation of smaller financial institutions into bigger ones.
-      While this makes the financial system resilient to small shocks, it
-      leaves it quite vulnerable to huge systemic shocks since everything is
-      now inter-linked. In the light of the recent economic shocks, the
-      author appears fairly prescient here.
-      <p>
-      Many of my complaints about the previous book apply to this book as
-      well. The author also falls for many of the ills that he cautions
-      against in this book. For example, after having cautioned us to the
-      perils of trying to look for normal distributions everywhere, the author
-      tries to apply fractals to several places where it requires a bit of
-      a stretch of the imagination. After having cautioned us to the ills
-      of deriving conclusions from statistically-insignificant samples,
-      the author refers to a study deriving conclusions from a sample of
-      Oscar-winning actors.
-
-      m4_end_post_rest
-      m4_end_post
+m4_define( `m4_post_date', `2008-12-08')m4_dnl
+m4_define( `m4_post_title', `&quot;The Black Swan&quot;')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+&quot;The Black Swan&quot; by <a
+href="http://en.wikipedia.org/wiki/Nassim_Nicholas_Taleb">Nassim
+Nicholas Taleb</a> is a follow-up to his last book &quot;Fooled by
+Randomness&quot;. A Black Swan is a completely unforeseen event with
+significant consequences. It could be the sudden crash of the stock
+market after a prolonged bull phase or the unexpected success of a
+book by a previously-unknown author. The term refers to the shattering
+of the long-held idea of a swan always being white by the sighting of
+black swans in the newly-discovered land of Australia. The book is a
+warning against using induction to derive conclusions that are then
+prone to Black Swans.
+m4_begin_post_rest
+<div class="book_display">
+<img src="m4_root_dir/books/images/m4_post_id.jpg" alt="m4_post_title">
+<br>
+<a
+href="http://www.amazon.com/gp/product/1400063515?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1400063515">
+<img src="m4_root_dir/books/images/buyamz.gif"
+alt="Buy From Amazon.com">
+</a>
+<img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=1400063515" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
+</div>
+<p>
+The author divides our observations of the world around us into those
+belonging to &quot;Mediocristan&quot; and &quot;Extremistan&quot;. In
+Mediocristan, there are no very large deviations from the normal over
+many observations. In Extremistan, you might run into observations
+deviating significantly from the normal. For example, the height or
+weight of people do not have very large variations (Mediocristan),
+while the wealth of people does (Extremistan). Black Swans occur in
+Extremistan.
+<p>
+The author shows how to differentiate between data that belong to
+Mediocristan and data that belong to Extremistan. This allows you
+to be on your guard against Black Swans and to insure yourself against
+their impact. Of course, this is much easier said than done.
+<p>
+As in the previous book, the author mulls over a lot of topics that
+I have been thinking about but have not seen much written about. These
+include:
+<ul>
+<li>
+A thousand experiments are insufficient to prove a theory but a single
+experiment is sufficient to disprove it.
+</li>
+<li>
+Modern finance uses a lot of mathematics to give an appearance of
+certainty, but the underlying assumptions are so flawed that the
+formulae are useless.
+</li>
+<li>
+The <a href="http://en.wikipedia.org/wiki/Normal_distribution">normal
+distribution</a> is applied to a lot of places where it is not at all
+applicable.
+</li>
+<li>
+<a href="http://en.wikipedia.org/wiki/Pascal%27s_Wager">Pascal's
+wager</a> assumes that if a god exists it is naive enough to overlook
+a feigned devotion to itself.
+</li>
+<li>
+People tend to assign precise probabilities to events where it is not
+really possible to do so.
+</li>
+</ul>
+<p>
+Of course, this could simply mean that I am not that well-read. There
+are also discussions about the confusion between correlation and
+causation and between &quot;absence of evidence&quot; and &quot;evidence
+of absence&quot;, which commonly lead people into deriving the wrong
+conclusions from data.
+<p>
+The author warns against the increasing globalisation of finance and
+the consolidation of smaller financial institutions into bigger ones.
+While this makes the financial system resilient to small shocks, it
+leaves it quite vulnerable to huge systemic shocks since everything is
+now inter-linked. In the light of the recent economic shocks, the
+author appears fairly prescient here.
+<p>
+Many of my complaints about the previous book apply to this book as
+well. The author also falls for many of the ills that he cautions
+against in this book. For example, after having cautioned us to the
+perils of trying to look for normal distributions everywhere, the author
+tries to apply fractals to several places where it requires a bit of
+a stretch of the imagination. After having cautioned us to the ills
+of deriving conclusions from statistically-insignificant samples,
+the author refers to a study deriving conclusions from a sample of
+Oscar-winning actors.
+m4_end_post_rest
+m4_end_post

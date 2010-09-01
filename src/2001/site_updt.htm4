@@ -1,27 +1,25 @@
-      m4_define( `m4_post_date', `2001-04-07')m4_dnl
-      m4_define( `m4_post_title', `Site Updated')m4_dnl
-      m4_include( `posttrans.m4')m4_dnl
+m4_define( `m4_post_date', `2001-04-07')m4_dnl
+m4_define( `m4_post_title', `Site Updated')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-I have changed the licence for my programmes to the 
+I have changed the licence for my programmes to the
 <a href="http://www.trolltech.com/products/download/freelicense/license.html">Q
 Public License (QPL)</a> created by <a
 href="http://www.trolltech.com/">TrollTech</a>. This is a more practical
 license and is less restrictive than the GPL - users can use the software for
 free as long as they only develop free software using it, but for commercial
 uses they will have to contact the author (and pay him, yes!).
-
 m4_begin_post_rest
 <p>
 I have also put up an updated HyperText version of my r&eacute;sum&eacute;
 here.  I added a new section for describing the kind of music I listen to.
-I added a page each devoted to 
+I added a page each devoted to
 <a href="m4_root_dir/articles/prog.html">coding</a> and decoding, though they
 don't have much right now. You can also get a taste of my horrendous puns now!
 And don't you forget to check out my bookmarks that have a <i>lot</i> of
 links, gathered over the past four years! By the way, did I mention the
 article I'm writing on <a
 href="m4_root_dir/articles/wnt.html">Windows NT 4 Tips</a>?
-
 m4_end_post_rest
 m4_end_post

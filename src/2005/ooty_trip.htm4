@@ -1,20 +1,19 @@
-      m4_define( `m4_post_date', `2005-11-07')m4_dnl
-      m4_define( `m4_post_title', `Ooty')m4_dnl
-      m4_include( `posttrans.m4')m4_dnl
+m4_define( `m4_post_date', `2005-11-07')m4_dnl
+m4_define( `m4_post_title', `Ooty')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
 Anusha and I are back from our vacation to <a
 href="http://www.ooty.com/">Ooty</a>, the highest (~2,250m above
 MSL) hill-station on <a href="http://www.nilgiris.com/">the Nilgiris</a>
-range of 
+range of
 mountains. It is also known as Ootacamund, Udhagamandalam or Udhagai.
-
 m4_begin_post_rest
 <p>
 It is the most famous tourist spot in South India and is a top destination
 for many a honeymooning couple. Unfortunately, that also means that it is
 quite crowded with tourists (especially with a lot of loud-mouthed Gujjus for
-some weird reason), has bad roads for the most part and has many a 
+some weird reason), has bad roads for the most part and has many a
 shopkeeper eager to fleece you. Despite all this, it is still a <i>very
 beautiful</i> place with a lovely cool weather. At this time of the
 year, it is foggy for the most part which is a result of clouds passing
@@ -25,7 +24,6 @@ can literally walk in the clouds in Ooty!
 <br>
 <i>A Toda Temple on Muthunadu Mund near Ooty</i>
 </div>
-
 <p>
 Our visit took an unexpected turn when we struck a conversation with
 Chinnapparaj, the driver of our taxi on our detour to the nearby town
@@ -43,7 +41,7 @@ a <i>huge</i> golf course (supposedly the second
 largest in Asia), the really old Nilgris Library, St Stephen's church
 that was built in 1830, etc. Incidentally, John Sullivan used to be
 the collector of Coimbatore in the 1820s when he took a fancy to the
-place on an expedition with the Kanan-Devan brothers as guides 
+place on an expedition with the Kanan-Devan brothers as guides
 and went on to establish the town of Ooty. The brothers called the
 place &quot;Whotakaimund&quot; or the village (<i>mund</i>) with the
 fruits (<i>kai</i>) of <i>whotai</i> (a species of dwarf bamboo). This
@@ -62,9 +60,8 @@ need to be a really good driver if you do not want to end up trapped
 in a car rolling down a mountainside to an eventual crash. Do also note
 that plastics are banned in the Nilgiris (the fine for using a plastic
 bag is apparently 500 rupees for tourists and 2,000 rupees for the locals).
-The supposedly home-made chocolates are not as good as they are made to 
+The supposedly home-made chocolates are not as good as they are made to
 be and every other shop tries to sell them - the most reliable one is King's
 Star on Commercial Road.
-
 m4_end_post_rest
 m4_end_post

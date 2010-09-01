@@ -1,6 +1,6 @@
-      m4_define( `m4_post_date', `2002-04-18')m4_dnl
-      m4_define( `m4_post_title', `Of Engines and Men')m4_dnl
-      m4_include( `posttrans.m4')m4_dnl
+m4_define( `m4_post_date', `2002-04-18')m4_dnl
+m4_define( `m4_post_title', `Of Engines and Men')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
 <a href="http://www.blogger.com/">Blogging</a>
@@ -8,19 +8,16 @@ has quickly become a phenomenon on the Internet - so much so
 that even <a href="http://rmathew.blogspot.com/">I succumbed to it</a>,
 before realising that I have been doing it all along with these pages.
 Duh!
-
 m4_begin_post_rest
 <p>
 A revelation of sorts to me is <a href="http://www.stirlingengine.com/">the
 Stirling engine</a>, arguably the most efficient mechnical engine that has
 ever been developed.
-
 <p>
 <a href="http://www.lua.org/">Lua</a> is a tiny, embeddable and extensible
-scripting language for C programs 
-that is remarkably powerful. It has been successfully used 
+scripting language for C programs
+that is remarkably powerful. It has been successfully used
 in several commercial products including several computer
 games. Very impressive!
-
 m4_end_post_rest
 m4_end_post

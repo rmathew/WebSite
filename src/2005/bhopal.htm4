@@ -1,13 +1,12 @@
-      m4_define( `m4_post_date', `2005-07-15')m4_dnl
-      m4_define( `m4_post_title', `Bhopal')m4_dnl
-      m4_include( `posttrans.m4')m4_dnl
+m4_define( `m4_post_date', `2005-07-15')m4_dnl
+m4_define( `m4_post_title', `Bhopal')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
 I have come back to Bangalore after a two-week vacation in <a
 href="http://en.wikipedia.org/wiki/Bhopal">Bhopal</a>.
 It is the city where I grew up and where I stayed till I went to
 college. I was visiting Bhopal after a gap of nearly 4 years.
-
 m4_begin_post_rest
 <p>
 The city continues to expand rapidly and now has much better and wider roads.

@@ -1,6 +1,6 @@
-      m4_define( `m4_post_date', `2005-04-22')m4_dnl
-      m4_define( `m4_post_title', `DataOne')m4_dnl
-      m4_include( `posttrans.m4')m4_dnl
+m4_define( `m4_post_date', `2005-04-22')m4_dnl
+m4_define( `m4_post_title', `DataOne')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
 I now have a 256Kbps broadband connection with <a

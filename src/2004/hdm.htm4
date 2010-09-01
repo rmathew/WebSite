@@ -1,66 +1,64 @@
-      m4_define( `m4_post_date', `2004-12-26')m4_dnl
-      m4_define( `m4_post_title', `&quot;His Dark Materials&quot;')m4_dnl
-      m4_include( `posttrans.m4')m4_dnl
-      m4_begin_post
-      <p>
-      &quot;Unputdownable&quot; is how I would describe <a
-      href="http://www.philip-pullman.com/">Philip Pullman</a>'s superb
-      &quot;<a href="http://www.hisdarkmaterials.com/">His Dark
-      Materials</a>&quot; trilogy comprising &quot;The Golden Compass&quot;
-      (released as &quot;The Northern Lights&quot; in the UK), &quot;The
-      Subtle Knife&quot; and &quot;The Amber Spyglass&quot;. I am so glad
-      that I picked them up <i>after</i> all the three books had been
-      released as I cannot imagine how I would have borne the agony of
-      having to wait for a couple of years to find out how this delicious
-      saga unfolds.
-
-      m4_begin_post_rest
-      <div class="book_display">
-        <img src="m4_root_dir/books/images/hdm.jpg" alt="His Dark Materials">
-        <br>
-        <a href="http://www.amazon.com/gp/product/0440238609?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0440238609">
-        <img src="m4_root_dir/books/images/buyamz.gif"
-          alt="Buy From Amazon.com">
-        </a>
-        <img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0440238609" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
-      </div>
-      <p>
-      Pullman combines the <i>multiverse</i> and <i>dark matter</i> theories
-      from modern physics with theology and pure fantasy to create a gripping
-      saga with only a few logical loose ends. The tale begins in a parallel
-      universe quite like ours (even in the names of places and their
-      relative geography) populated by humans who have externalised
-      polymorphic souls called <i>daemons</i>. The corrupt Church has
-      established a stifling theocracy and seeks to suppress anything that
-      goes against what it has propagated. In particular, it wants to reign
-      in and control the research into a recently discovered curious form of
-      matter called <i>Dust</i>.
-      <p>
-      The ebullient and charming heroine Lyra Belacqua and her daemon
-      Pantalaimon find themselves dragged from their blissful abode in
-      Oxford into what becomes the ultimate battle led by Lord Asriel
-      against The Authority (God) itself.  They are ably supported by the
-      brave Will Parry from our own world and a whole lot of other
-      characters including gypsies, witches, armoured bears, <i>mulefas</i>,
-      Gallivespians, etc.
-      <p>
-      While the story in the first book happens entirely in Lyra's world and
-      is quite linearly narrated with Lyra always at its centre, the next
-      two books have several threads of narration, many more prominent
-      characters and keep switching between worlds. The story is quite
-      gripping and the pace quite good. I did find the end a bit
-      disappointing and strange considering the ambitious swipe of the
-      story's plot, but I still found the book on the whole an extremely
-      satisfying read. I was a bit sad that it had to end and I keep wishing
-      I had an external daemon of my own too.
-      <p>
-      I would highly recommend this trilogy to anyone and I am so surprised
-      that it is not as popular as it ought to be. But for Ananth who pushed
-      me to read it, I would probably never have known about this epic.
-      Thank you Ananth! (By the way, he has named the hard disc partitions
-      on his computer Pantalaimon and Lyra, with the former being the boot
-      partition, as &quot;the boot has the sole (soul)&quot;. Yes, that
-      <i>is</i> awfully corny.)
-
-      m4_end_post_rest
-      m4_end_post
+m4_define( `m4_post_date', `2004-12-26')m4_dnl
+m4_define( `m4_post_title', `&quot;His Dark Materials&quot;')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+&quot;Unputdownable&quot; is how I would describe <a
+href="http://www.philip-pullman.com/">Philip Pullman</a>'s superb
+&quot;<a href="http://www.hisdarkmaterials.com/">His Dark
+Materials</a>&quot; trilogy comprising &quot;The Golden Compass&quot;
+(released as &quot;The Northern Lights&quot; in the UK), &quot;The
+Subtle Knife&quot; and &quot;The Amber Spyglass&quot;. I am so glad
+that I picked them up <i>after</i> all the three books had been
+released as I cannot imagine how I would have borne the agony of
+having to wait for a couple of years to find out how this delicious
+saga unfolds.
+m4_begin_post_rest
+<div class="book_display">
+<img src="m4_root_dir/books/images/hdm.jpg" alt="His Dark Materials">
+<br>
+<a href="http://www.amazon.com/gp/product/0440238609?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0440238609">
+<img src="m4_root_dir/books/images/buyamz.gif"
+alt="Buy From Amazon.com">
+</a>
+<img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0440238609" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
+</div>
+<p>
+Pullman combines the <i>multiverse</i> and <i>dark matter</i> theories
+from modern physics with theology and pure fantasy to create a gripping
+saga with only a few logical loose ends. The tale begins in a parallel
+universe quite like ours (even in the names of places and their
+relative geography) populated by humans who have externalised
+polymorphic souls called <i>daemons</i>. The corrupt Church has
+established a stifling theocracy and seeks to suppress anything that
+goes against what it has propagated. In particular, it wants to reign
+in and control the research into a recently discovered curious form of
+matter called <i>Dust</i>.
+<p>
+The ebullient and charming heroine Lyra Belacqua and her daemon
+Pantalaimon find themselves dragged from their blissful abode in
+Oxford into what becomes the ultimate battle led by Lord Asriel
+against The Authority (God) itself.  They are ably supported by the
+brave Will Parry from our own world and a whole lot of other
+characters including gypsies, witches, armoured bears, <i>mulefas</i>,
+Gallivespians, etc.
+<p>
+While the story in the first book happens entirely in Lyra's world and
+is quite linearly narrated with Lyra always at its centre, the next
+two books have several threads of narration, many more prominent
+characters and keep switching between worlds. The story is quite
+gripping and the pace quite good. I did find the end a bit
+disappointing and strange considering the ambitious swipe of the
+story's plot, but I still found the book on the whole an extremely
+satisfying read. I was a bit sad that it had to end and I keep wishing
+I had an external daemon of my own too.
+<p>
+I would highly recommend this trilogy to anyone and I am so surprised
+that it is not as popular as it ought to be. But for Ananth who pushed
+me to read it, I would probably never have known about this epic.
+Thank you Ananth! (By the way, he has named the hard disc partitions
+on his computer Pantalaimon and Lyra, with the former being the boot
+partition, as &quot;the boot has the sole (soul)&quot;. Yes, that
+<i>is</i> awfully corny.)
+m4_end_post_rest
+m4_end_post

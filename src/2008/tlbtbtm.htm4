@@ -1,91 +1,89 @@
-      m4_define( `m4_post_date', `2008-02-10')m4_dnl
-      m4_define( `m4_post_title', `&quot;The Little Book That Beats the Market&quot;')m4_dnl
-      m4_include( `posttrans.m4')m4_dnl
-      m4_begin_post
-      <p>
-      With a title like &quot;The Little Book That Beats the Market&quot;,
-      this book might appear to be peddling nothing more than snake oil to
-      gullible people looking to make money from the stock market. It
-      still merits a look since the author <a
-      href="http://en.wikipedia.org/wiki/Joel_Greenblatt">Joel Greenblatt</a>
-      is a respected <a
-      href="http://en.wikipedia.org/wiki/Value_investing">value investor</a>
-      and a professor, who started and managed the hedge fund Gotham
-      Capital that achieved an average annual return of 40% over more
-      than 20 years.
-
-      m4_begin_post_rest
-      <div class="book_display">
-        <img src="m4_root_dir/books/images/m4_post_id.jpg" alt="m4_post_title">
-        <br>
-        <a href="http://www.amazon.com/gp/product/0471733067?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0471733067">
-        <img src="m4_root_dir/books/images/buyamz.gif"
-          alt="Buy From Amazon.com">
-        </a>
-        <img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0471733067" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
-      </div>
-      <p>
-      The book recommends a very simple strategy - buying good companies at
-      bargain prices. A &quot;good company&quot; is defined as one that has
-      provided an above-average return on capital in the recent past. A stock
-      has a &quot;bargain price&quot; if the earnings per share is much more
-      than that from a relatively risk-free investment like US Treasury bonds.
-      The book provides a &quot;magic formula&quot; that ranks companies
-      according these critera so that the reader can build a suitable
-      portfolio based on the principles given in the book. There is also a
-      website called &quot;<a
-      href="http://www.magicformulainvesting.com/">Magic Formula
-      Investing</a>&quot; that makes it very easy to apply the magic formula
-      to US stocks.
-      <p>
-      The author shows that this strategy has worked consistenly over the long
-      term with a suitably diversified portfolio (the top 20 to 30 stocks
-      picked according to the magic formula) when compared to the returns
-      from the overall market and the S&amp;P 500. Appendices in the book
-      provide more precise definitions of the criteria used by the magic
-      formula for those familiar with financial terms and answers to the
-      usual criticisms of formula-based investing.
-      <p>
-      If the formula is so simple and seems to work so consistently, wouldn't
-      everyone start using it and thus reduce its effectiveness? The answer
-      seems to be that the magic formula only works in the long term (3 to 5
-      years) - in the short term it might perform much worse than the market.
-      It thus requires a significant amount of patience that most people
-      lack. For the same reason, professional money managers cannot use this
-      formula since most clients pull out their money if a fund doesn't
-      perform well over a relatively short term.
-      <p>
-      How is it possible to pick stocks at bargain prices? Aren't markets
-      supposed to be efficient since the interaction of a large number of
-      knowledgeable buyers and sellers ensures that a stock is priced at its
-      fair value? Even if the market underprices a stock, what is the
-      guarantee that it will ever offer a fair value for that stock? The
-      answers to these questions seem to be in the observation that the
-      markets behave irrationally over the short term (driven by the
-      prevailing sentiments), but usually behave rationally over the long
-      term. It is not always necessary that a given stock achieves its
-      fair value over the long term or that the company continues to perform
-      as well as it has in the past, so it is necessary to hold a suitably
-      diversified portfolio of such stocks to guard against these risks.
-      <p>
-      The best part about this book is that it uses a simple language that
-      can easily be understood by laymen. As the title suggests, it is indeed
-      a little book that comprises easy to digest short chapters. It explains
-      the principles behind the magic formula using easy to understand
-      examples. It answers almost all the questions that you are likely to
-      come up with as you read the chapters.
-      <p>
-      The only major complaint I have with the book is that the tone of the
-      writing seems to be a bit condescending. I would also have liked each
-      chapter to have a title. The title of the book as well as the term
-      &quot;magic formula&quot; are a bit too provocative for my tastes. Be
-      that as it may, I would still highly recommend this book if you are
-      interested in investing in the stock market.
-      <p>
-      There is also an Indian hard-cover edition of this book (ISBN:
-      81-265-0797-7) that has a surprisingly good quality of paper and print
-      for its price. I do not yet know of a website that applies the magic
-      formula to Indian stocks.
-
-      m4_end_post_rest
-      m4_end_post
+m4_define( `m4_post_date', `2008-02-10')m4_dnl
+m4_define( `m4_post_title', `&quot;The Little Book That Beats the Market&quot;')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+With a title like &quot;The Little Book That Beats the Market&quot;,
+this book might appear to be peddling nothing more than snake oil to
+gullible people looking to make money from the stock market. It
+still merits a look since the author <a
+href="http://en.wikipedia.org/wiki/Joel_Greenblatt">Joel Greenblatt</a>
+is a respected <a
+href="http://en.wikipedia.org/wiki/Value_investing">value investor</a>
+and a professor, who started and managed the hedge fund Gotham
+Capital that achieved an average annual return of 40% over more
+than 20 years.
+m4_begin_post_rest
+<div class="book_display">
+<img src="m4_root_dir/books/images/m4_post_id.jpg" alt="m4_post_title">
+<br>
+<a href="http://www.amazon.com/gp/product/0471733067?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0471733067">
+<img src="m4_root_dir/books/images/buyamz.gif"
+alt="Buy From Amazon.com">
+</a>
+<img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0471733067" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
+</div>
+<p>
+The book recommends a very simple strategy - buying good companies at
+bargain prices. A &quot;good company&quot; is defined as one that has
+provided an above-average return on capital in the recent past. A stock
+has a &quot;bargain price&quot; if the earnings per share is much more
+than that from a relatively risk-free investment like US Treasury bonds.
+The book provides a &quot;magic formula&quot; that ranks companies
+according these critera so that the reader can build a suitable
+portfolio based on the principles given in the book. There is also a
+website called &quot;<a
+href="http://www.magicformulainvesting.com/">Magic Formula
+Investing</a>&quot; that makes it very easy to apply the magic formula
+to US stocks.
+<p>
+The author shows that this strategy has worked consistenly over the long
+term with a suitably diversified portfolio (the top 20 to 30 stocks
+picked according to the magic formula) when compared to the returns
+from the overall market and the S&amp;P 500. Appendices in the book
+provide more precise definitions of the criteria used by the magic
+formula for those familiar with financial terms and answers to the
+usual criticisms of formula-based investing.
+<p>
+If the formula is so simple and seems to work so consistently, wouldn't
+everyone start using it and thus reduce its effectiveness? The answer
+seems to be that the magic formula only works in the long term (3 to 5
+years) - in the short term it might perform much worse than the market.
+It thus requires a significant amount of patience that most people
+lack. For the same reason, professional money managers cannot use this
+formula since most clients pull out their money if a fund doesn't
+perform well over a relatively short term.
+<p>
+How is it possible to pick stocks at bargain prices? Aren't markets
+supposed to be efficient since the interaction of a large number of
+knowledgeable buyers and sellers ensures that a stock is priced at its
+fair value? Even if the market underprices a stock, what is the
+guarantee that it will ever offer a fair value for that stock? The
+answers to these questions seem to be in the observation that the
+markets behave irrationally over the short term (driven by the
+prevailing sentiments), but usually behave rationally over the long
+term. It is not always necessary that a given stock achieves its
+fair value over the long term or that the company continues to perform
+as well as it has in the past, so it is necessary to hold a suitably
+diversified portfolio of such stocks to guard against these risks.
+<p>
+The best part about this book is that it uses a simple language that
+can easily be understood by laymen. As the title suggests, it is indeed
+a little book that comprises easy to digest short chapters. It explains
+the principles behind the magic formula using easy to understand
+examples. It answers almost all the questions that you are likely to
+come up with as you read the chapters.
+<p>
+The only major complaint I have with the book is that the tone of the
+writing seems to be a bit condescending. I would also have liked each
+chapter to have a title. The title of the book as well as the term
+&quot;magic formula&quot; are a bit too provocative for my tastes. Be
+that as it may, I would still highly recommend this book if you are
+interested in investing in the stock market.
+<p>
+There is also an Indian hard-cover edition of this book (ISBN:
+81-265-0797-7) that has a surprisingly good quality of paper and print
+for its price. I do not yet know of a website that applies the magic
+formula to Indian stocks.
+m4_end_post_rest
+m4_end_post

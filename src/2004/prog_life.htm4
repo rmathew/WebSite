@@ -1,6 +1,6 @@
-      m4_define( `m4_post_date', `2004-03-06')m4_dnl
-      m4_define( `m4_post_title', `&quot;Are you going to remain a programmer all your life?&quot;')m4_dnl
-      m4_include( `posttrans.m4')m4_dnl
+m4_define( `m4_post_date', `2004-03-06')m4_dnl
+m4_define( `m4_post_title', `&quot;Are you going to remain a programmer all your life?&quot;')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
 Why do people look down upon programming? Why do most software
@@ -9,7 +9,6 @@ architects? Why is it that an interview candidate with hardly
 four years of experience behind him says &quot;I have done
 enough coding in my life - now I only want to design and
 architect systems&quot;?
-
 m4_begin_post_rest
 <p>
 Very few people seem to actually <i>enjoy</i> programming. Very few
@@ -19,7 +18,6 @@ realise the truly amazing exploratory and recreational powers
 of the programmable computer (&quot;<a
 href="http://www.amazon.com/exec/obidos/tg/detail/-/0716719398">The Armchair
 Universe</a>&quot; by A. K. Dewdney anyone?).
-
 <p>
 Few people are good at programming. Those who are, are usually
 &quot;promoted&quot; into leading or managing roles within
@@ -29,10 +27,8 @@ href="http://www.amazon.com/exec/obidos/tg/detail/-/1568491611">the Peter
 Principle</a> in action. As in any craft, good
 programming skills come over time working on real-life systems and
 this process leads to a perpetual shortage of good programmers.
-
 <p>
 <i>~sigh~</i>
-
 <p>
 Anyway, in an exciting turn of events for GCC hackers, the GCC
 Steering Committee has finally given the go ahead for the merging
@@ -41,7 +37,6 @@ href="http://gcc.gnu.org/projects/tree-ssa/">Tree-SSA</a>&quot; project
 into the mainline.
 This allows GCC to have new and powerful optimisation phases
 and considerably simplifies its internals.
-
 <p>
 In order to make sense of all this, I have bought Steven Muchnick's
 &quot;<a
@@ -52,6 +47,5 @@ available in the local bookstores here in Bangalore, but that it
 was also available in a nice and quite affordable Indian edition!
 Are there really that many compiler professionals or hackers in
 Bangalore? Why do I not get to meet them?
-
 m4_end_post_rest
 m4_end_post

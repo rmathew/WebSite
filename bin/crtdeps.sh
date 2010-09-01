@@ -5,15 +5,10 @@
 #
 # This information is put into $OUTFILE in a format understood by make.
 
-if test -z "$1"
+if [ "$#" != "2" ]
 then
-  echo "ERROR: Source directory argument missing!" 1>&2
-  exit 1
-fi
-
-if test -z "$2"
-then
-  echo "ERROR: Target directory argument missing!" 1>&2
+  echo "ERROR: Invalid number of arguments." 1>&2
+  echo "USAGE: $0 <src_dir> <tgt_dir>" 1>&2
   exit 1
 fi
 
@@ -62,8 +57,8 @@ done
 rm -f "$OUTFILE"
 echo Generating dependencies information in \"$OUTFILE\"...
 
-# These are the files that should *not* be generated.
-IGNORE_LIST="header.html \| footer.html \| template.html \| sitesrch.html"
+# These are the HTML files that should *not* be generated.
+OMIT_HTMLS="header.html|footer.html|template.html|sitesrch.html"
 
 # Prepare a list of generated HTML files.
 echo Listing HTML files...
@@ -72,7 +67,7 @@ for i in `find . -name "*.htm4"`
 do
   # The names are of the form "./foo/bar.htm4" - convert to "foo/bar.html".
   HTML_FILE=`echo $i | cut -b3- | sed s/\.htm4$/\.html/`
-  echo "  $TGT_DIR/$HTML_FILE \\" | grep -v "$IGNORE_LIST" >>$OUTFILE
+  echo "  $TGT_DIR/$HTML_FILE \\" | grep -Ev "$OMIT_HTMLS" >>$OUTFILE
 done
 
 # Prepare a list of generated XML files.
@@ -83,7 +78,7 @@ for i in `find . -name "*.xm4"`
 do
   # The names are of the form "./foo/bar.xm4" - convert to "foo/bar.xml".
   XML_FILE=`echo $i | cut -b3- | sed s/\.xm4$/\.xml/`
-  echo "  $TGT_DIR/$XML_FILE \\" | grep -v "$IGNORE_LIST" >>$OUTFILE
+  echo "  $TGT_DIR/$XML_FILE \\" >>$OUTFILE
 done
 
 # Get the dependencies for each of the HTML files.
@@ -92,54 +87,58 @@ for i in `find . -name "*.htm4"`
 do
   # The names are of the form "./foo/bar.htm4" - convert to "foo/bar.html".
   HTML_FILE=`echo $i | cut -b3- | sed s/\.htm4$/\.html/`
+  HTML_FILE=`echo $HTML_FILE | grep -Ev "$OMIT_HTMLS"`
 
-  DEPS=""
-  
-  # Find files directly included using "m4_include".
-  for j in `grep m4_include\( $i | sed 's/ //g'`
-  do
-    # We have something like "m4_include(`foo/bar.htm4')".
-    INC_FILE=`echo $j | cut -f2 -d\( | cut -b2- | cut -f1 -d\'`
-    DEPS="$DEPS $INC_FILE"
-  done
-
-  # Find files directly included using "m4_include_post".
-  for j in `grep m4_include_post\( $i | sed 's/ //g'`
-  do
-    # We have something like "m4_include_post(`NNNN',`foo')".
-    TMP=`echo $j | cut -f2 -d\( | cut -b2-`
-    DIR=`echo $TMP | cut -f1 -d\'`
-    FILE=`echo $TMP | cut -f2 -d, | cut -b2- | cut -f1 -d\'`
-    DEPS="$DEPS $DIR/$FILE.htm4"
-  done
-
-  # Find files indirectly included using "m4_collect_posts".
-  for j in `grep m4_collect_posts\( $i | sed 's/ //g'`
-  do
-    # We have something like "m4_collect_posts(`foo',`NNNN')"
-    # or "m4_collect_posts(`foo',m4_news_year)".
-    TMP=`echo $j | cut -f2 -d\, | cut -f1 -d\)`
-
-    if test "$TMP" = "m4_news_year"
-    then
-      # XXX: Assume that the "m4_news_year"-style usage is only inside
-      # the index files of the yearly archives.
-      DIR=`dirname $HTML_FILE`
-    else
-      DIR=`echo $TMP | cut -f1 -d\' | cut -b2-`
-    fi
-
-    for k in `$BIN_DIR/getposts.sh $SRC_DIR/$DIR`
+  if [ -n "$HTML_FILE" ]
+  then
+    DEPS=""
+    
+    # Find files directly included using "m4_include".
+    for j in `grep m4_include\( $i | sed 's/ //g'`
     do
-      FILE=`echo $k | cut -f2 -d:`
+      # We have something like "m4_include(`foo/bar.htm4')".
+      INC_FILE=`echo $j | cut -f2 -d\( | cut -b2- | cut -f1 -d\'`
+      DEPS="$DEPS $INC_FILE"
+    done
+
+    # Find files directly included using "m4_include_post".
+    for j in `grep m4_include_post\( $i | sed 's/ //g'`
+    do
+      # We have something like "m4_include_post(`NNNN',`foo')".
+      TMP=`echo $j | cut -f2 -d\( | cut -b2-`
+      DIR=`echo $TMP | cut -f1 -d\'`
+      FILE=`echo $TMP | cut -f2 -d, | cut -b2- | cut -f1 -d\'`
       DEPS="$DEPS $DIR/$FILE.htm4"
     done
-  done
 
-  if test -n "$DEPS"
-  then
-    echo >>$OUTFILE
-    echo $TGT_DIR/$HTML_FILE: $DEPS >>$OUTFILE
+    # Find files indirectly included using "m4_collect_posts".
+    for j in `grep m4_collect_posts\( $i | sed 's/ //g'`
+    do
+      # We have something like "m4_collect_posts(`foo',`NNNN')"
+      # or "m4_collect_posts(`foo',m4_news_year)".
+      TMP=`echo $j | cut -f2 -d\, | cut -f1 -d\)`
+
+      if [ "$TMP" = "m4_news_year" ]
+      then
+	# XXX: Assume that the "m4_news_year"-style usage is only inside
+	# the index files of the yearly archives.
+	DIR=`dirname $HTML_FILE`
+      else
+	DIR=`echo $TMP | cut -f1 -d\' | cut -b2-`
+      fi
+
+      for k in `$BIN_DIR/getposts.sh $SRC_DIR/$DIR`
+      do
+	FILE=`echo $k | cut -f2 -d:`
+	DEPS="$DEPS $DIR/$FILE.htm4"
+      done
+    done
+
+    if [ -n "$DEPS" ]
+    then
+      echo >>$OUTFILE
+      echo $TGT_DIR/$HTML_FILE: $DEPS >>$OUTFILE
+    fi
   fi
 done
 
@@ -174,7 +173,7 @@ do
     done
   done
 
-  if test -n "$DEPS"
+  if [ -n "$DEPS" ]
   then
     echo >>$OUTFILE
     echo $TGT_DIR/$XML_FILE: $DEPS >>$OUTFILE

@@ -4,61 +4,48 @@ m4_define(`m4_page_section',``Articles'')m4_dnl
 m4_dnl
 m4_include(`header.htm4')m4_dnl
 m4_dnl
-<!-- BEGIN: Page Body -->
 <div id="main-copy">
-
 m4_heading( `1', `articles', `Articles')
-
 <p>
 The following articles are available from this web-site:
-
 <ul>
-
 <li>
 <a href="gcj/index.html">The GNU Compiler for Java (GCJ)</a>:
 Articles on <a href="http://gcc.gnu.org/java/">GCJ</a>
 based on my experiences so far hacking at it.
 </li>
-
 <li>
 <a href="intranet/index.html">The Hobbitware.com Intranet Project</a>:
-A &quot;guide with a difference&quot; to building a complete Intranet for 
-an organisation based on the author's personal experience. Check it 
+A &quot;guide with a difference&quot; to building a complete Intranet for
+an organisation based on the author's personal experience. Check it
 out if you are planning to implement, or have already implemented an
 Intranet.
 </li>
-
 <li>
 <a href="perfect.html">Perfection Denied</a>: Collected &quot;proofs&quot;
 for why certain perfect software just can not be produced.
 </li>
-
 <li>
 <a href="bind.html">Binding Win32 Executables</a>: A small program
 that illustrates how to bind a Win32 executable to the DLLs it uses
 so that its loading time is reduced.
 </li>
-
 <li>
 <a href="wnt.html">Windows NT Tips</a>: By choice or otherwise,
 most of us find ourselves working with a Microsoft OS most of
-the time. This is a collection of tips and tricks to help you 
+the time. This is a collection of tips and tricks to help you
 get the most out of your Windows NT system.
 </li>
-
 <li>
 <a name="tangrams"></a><a href="Tangrams.pdf">Tangrams</a> (PDF, 132KB):
-A small collection of Tangram puzzles, some history and instructions 
-for making your own set. Almost all material in this collection 
+A small collection of Tangram puzzles, some history and instructions
+for making your own set. Almost all material in this collection
 has been collected from various web sites on Tangrams.
 </li>
-
 <li>
 <a href="prog.html">Computer Programming</a>: Why I like computer programming.
 </li>
-
 </ul>
 </div>
-<!-- END: Page Body -->
 m4_dnl
 m4_include(`footer.htm4')m4_dnl

@@ -4,29 +4,22 @@ m4_define(`m4_page_section',``Articles'')m4_dnl
 m4_dnl
 m4_include(`header.htm4')m4_dnl
 m4_dnl
-<!-- BEGIN: Page Body -->
 <div id="main-copy">
 m4_heading( `1', `gcj', `GNU Compiler for Java')
-
 <p>
 The following articles on <a href="http://gcc.gnu.org/java/">the GNU
 Compiler for Java (GCJ)</a> are available:
-
 <ul>
-
 <li>
 <b><a href="bldgcj.html">How to build GCJ for Windows</a>:</b> explains
 the process I use to create GCJ for Windows, supported by the scripts
 that I use to automate the tasks.
 </li>
-
 <li>
 <a href="crpatch.html">How to Create Patches</a>: explains the process
 I use to create and submit patches to GCJ/GCC.
 </li>
-
 </ul>
 </div>
-<!-- END: Page Body -->
 m4_dnl
 m4_include(`footer.htm4')m4_dnl

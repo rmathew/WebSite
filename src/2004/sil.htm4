@@ -1,32 +1,30 @@
-      m4_define( `m4_post_date', `2004-12-04')m4_dnl
-      m4_define( `m4_post_title', `&quot;The Silmarillion&quot;')m4_dnl
-      m4_include( `posttrans.m4')m4_dnl
-      m4_begin_post
-      <p>
-      &quot;The Silmarillion&quot; by J. R. R. Tolkien is a collection of
-      tales that make up the epic mythology that forms the background of
-      &quot;The Lord of the Rings&quot; (LOTR), this book and &quot;The
-      Hobbit&quot; are a must-read for anyone who wishes to fully appreciate
-      LOTR.
-
-      m4_begin_post_rest
-      <div class="book_display">
-        <img src="m4_root_dir/books/images/sil.jpg" alt="The Silmarillion">
-        <br>
-        <a href="http://www.amazon.com/gp/product/0345325818?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0345325818">
-        <img src="m4_root_dir/books/images/buyamz.gif"
-          alt="Buy From Amazon.com">
-        </a>
-        <img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0345325818" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
-      </div>
-      <p>
-      I liked it a lot, though it was a bit tiring in some places and
-      the abundance of characters and places was quite overwhelming. Having
-      read all the three books, I now take back my earlier claim that
-      Devakinandan Khatri's &quot;Chandrakanta&quot; and its sequels are
-      better than LOTR as epic works of pure fantasy. Tolkien has created
-      an astoundingly bigger and largely more consistent fantasy world, not
-      to mention with much fewer arbitrary twists in the stories.
-
-      m4_end_post_rest
-      m4_end_post
+m4_define( `m4_post_date', `2004-12-04')m4_dnl
+m4_define( `m4_post_title', `&quot;The Silmarillion&quot;')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+&quot;The Silmarillion&quot; by J. R. R. Tolkien is a collection of
+tales that make up the epic mythology that forms the background of
+&quot;The Lord of the Rings&quot; (LOTR), this book and &quot;The
+Hobbit&quot; are a must-read for anyone who wishes to fully appreciate
+LOTR.
+m4_begin_post_rest
+<div class="book_display">
+<img src="m4_root_dir/books/images/sil.jpg" alt="The Silmarillion">
+<br>
+<a href="http://www.amazon.com/gp/product/0345325818?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0345325818">
+<img src="m4_root_dir/books/images/buyamz.gif"
+alt="Buy From Amazon.com">
+</a>
+<img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0345325818" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
+</div>
+<p>
+I liked it a lot, though it was a bit tiring in some places and
+the abundance of characters and places was quite overwhelming. Having
+read all the three books, I now take back my earlier claim that
+Devakinandan Khatri's &quot;Chandrakanta&quot; and its sequels are
+better than LOTR as epic works of pure fantasy. Tolkien has created
+an astoundingly bigger and largely more consistent fantasy world, not
+to mention with much fewer arbitrary twists in the stories.
+m4_end_post_rest
+m4_end_post

@@ -1,30 +1,28 @@
-      m4_define( `m4_post_date', `2001-11-19')m4_dnl
-      m4_define( `m4_post_title', `The Perils of Floating Point')m4_dnl
-      m4_include( `posttrans.m4')m4_dnl
+m4_define( `m4_post_date', `2001-11-19')m4_dnl
+m4_define( `m4_post_title', `The Perils of Floating Point')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
 <a href="m4_root_dir/software/index.html#vtaj">A programme I've been working on
-for some time now</a> is being butchered by floating-point rounding errors. 
-I need to either fix it or work around it real soon now, or I'll 
+for some time now</a> is being butchered by floating-point rounding errors.
+I need to either fix it or work around it real soon now, or I'll
 lose whatever is left of my sanity!
-
 m4_begin_post_rest
 <p>
-If you don't know what I'm 
-talking about, do take a look at the excellent article 
+If you don't know what I'm
+talking about, do take a look at the excellent article
 &quot;<a href="http://www.lahey.com/float.htm">The Perils of Floating
 Point</a>&quot;. If you're
 interested, you might also want to take a look at Section 4.2.2 of
-Donald Knuth's &quot;The Art of Computer Programming, Volume II: 
+Donald Knuth's &quot;The Art of Computer Programming, Volume II:
 Seminumerical Algorithms&quot;, Third Edition. And while you are at
-it, see also Goldberg's 
+it, see also Goldberg's
 &quot;<a href="http://citeseer.nj.nec.com/goldberg91what.html">What Every
 Computer Scientist Should Know About Floating
 Point Arithmetic</a>&quot;. Finally, if you feel like doing something
-about it, take a look at 
+about it, take a look at
 &quot;<a href="http://www-2.cs.cmu.edu/~quake/robust.html">Adaptive Precision
 Floating-Point Arithmetic</a>&quot;.
-
 <p>
 I have finally acquired <a href="http://www.riven.com/">Riven</a>, the second
 title in the excellent

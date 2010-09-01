@@ -1,46 +1,44 @@
-      m4_define( `m4_post_date', `2006-06-14')m4_dnl
-      m4_define( `m4_post_title', `&quot;V for Vendetta&quot;')m4_dnl
-      m4_include( `posttrans.m4')m4_dnl
-      m4_begin_post
-      <p>
-      &quot;V for Vendetta&quot; by Alan Moore and Dave Lloyd is the
-      graphic novel that was the inspiration for the eponymous movie by the
-      <a href="http://en.wikipedia.org/wiki/Wachowski_brothers">Wachowski
-      brothers</a>. I was quite impressed by the movie and was eager to read
-      the book. The book did not disappoint me at all. I found out that the
-      movie and the book had many differences in the plot and the characters,
-      but for once I did not mind it - in fact, I quite liked each of the
-      forks in both the media.
-
-      m4_begin_post_rest
-      <div class="book_display">
-        <img src="m4_root_dir/books/images/v4vendetta.jpg"
-          alt="V for Vendetta">
-        <br>
-        <a href="http://www.amazon.com/gp/product/0930289528?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0930289528">
-        <img src="m4_root_dir/books/images/buyamz.gif"
-          alt="Buy From Amazon.com">
-        </a>
-        <img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0930289528" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
-      </div>
-      <p>
-      The hero of the book is a masked anarchist, known only as
-      &quot;V&quot;, who rebels against the fascist and totalitarian regime
-      that has taken over England in the near future after a nuclear war.
-      The regime has killed, imprisoned or evicted nearly all dissidents,
-      blacks and homosexuals and tightly controls all media. The situation
-      is somewhat similar to that in George Orwell's &quot;1984&quot;. Those
-      of us outside England will have to know about <a
-      href="http://en.wikipedia.org/wiki/Guy_Fawkes">Guy Fawkes</a> and the 
-      <a href="http://en.wikipedia.org/wiki/Gunpowder_Plot">Gunpowder
-      Plot</a> to be able to appreciate the book better, though the movie
-      does a nice job of providing this background information in the
-      beginning.
-      <p>
-      This was my first graphic novel and I really liked it. The only
-      problems I had with it was that it was a bit too darkly drawn
-      (literally) and that it was coloured in what I consider to be a very
-      arbitrary and irritating style.
-
-      m4_end_post_rest
-      m4_end_post
+m4_define( `m4_post_date', `2006-06-14')m4_dnl
+m4_define( `m4_post_title', `&quot;V for Vendetta&quot;')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+&quot;V for Vendetta&quot; by Alan Moore and Dave Lloyd is the
+graphic novel that was the inspiration for the eponymous movie by the
+<a href="http://en.wikipedia.org/wiki/Wachowski_brothers">Wachowski
+brothers</a>. I was quite impressed by the movie and was eager to read
+the book. The book did not disappoint me at all. I found out that the
+movie and the book had many differences in the plot and the characters,
+but for once I did not mind it - in fact, I quite liked each of the
+forks in both the media.
+m4_begin_post_rest
+<div class="book_display">
+<img src="m4_root_dir/books/images/v4vendetta.jpg"
+alt="V for Vendetta">
+<br>
+<a href="http://www.amazon.com/gp/product/0930289528?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0930289528">
+<img src="m4_root_dir/books/images/buyamz.gif"
+alt="Buy From Amazon.com">
+</a>
+<img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0930289528" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
+</div>
+<p>
+The hero of the book is a masked anarchist, known only as
+&quot;V&quot;, who rebels against the fascist and totalitarian regime
+that has taken over England in the near future after a nuclear war.
+The regime has killed, imprisoned or evicted nearly all dissidents,
+blacks and homosexuals and tightly controls all media. The situation
+is somewhat similar to that in George Orwell's &quot;1984&quot;. Those
+of us outside England will have to know about <a
+href="http://en.wikipedia.org/wiki/Guy_Fawkes">Guy Fawkes</a> and the
+<a href="http://en.wikipedia.org/wiki/Gunpowder_Plot">Gunpowder
+Plot</a> to be able to appreciate the book better, though the movie
+does a nice job of providing this background information in the
+beginning.
+<p>
+This was my first graphic novel and I really liked it. The only
+problems I had with it was that it was a bit too darkly drawn
+(literally) and that it was coloured in what I consider to be a very
+arbitrary and irritating style.
+m4_end_post_rest
+m4_end_post

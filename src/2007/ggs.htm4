@@ -1,84 +1,82 @@
-      m4_define( `m4_post_date', `2007-02-16')m4_dnl
-      m4_define( `m4_post_title', `&quot;Guns`,' Germs`,' and Steel&quot;')m4_dnl
-      m4_include( `posttrans.m4')m4_dnl
-      m4_begin_post
-      <p>
-      Why was it that the Europeans came to dominate over the native
-      Americans, the Africans and the aboriginal Australians and not vice
-      versa? Why was it that civilisation flourished early on in places like
-      the Middle East, India and China while places like sub-Saharan Africa,
-      Australia and the Americas languished far behind for several thousand
-      years?
-
-      m4_begin_post_rest
-      <div class="book_display">
-        <img src="m4_root_dir/books/images/ggs.jpg"
-          alt="Guns, Germs, and Steel">
-        <br>
-        <a href="http://www.amazon.com/gp/product/0393061310?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0393061310">
-        <img src="m4_root_dir/books/images/buyamz.gif"
-          alt="Buy From Amazon.com">
-        </a>
-        <img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0393061310" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
-      </div>
-      <p>
-      In &quot;Guns, Germs, and Steel&quot;, Jared Diamond tries to answer
-      these questions based on the theory that environmental factors, rather
-      than innate racial superiority, account for the eventual dominance
-      of one set of people over another. He surveys the history of humans
-      over the last 13,000 years (after the last Ice Age) to conclude that
-      &quot;guns&quot; (superior weapons, armours, carriers and tactics),
-      &quot;germs&quot; (passing on of diseases to which the opponents have
-      no resistance) and &quot;steel&quot; (superior technology) have been
-      the proximate factors that allowed one set of people to dominate
-      another.
-      <p>
-      He then explores the ultimate factors that lead to some people having
-      these proximate factors in their favour and not others. He finds that
-      the rise of food production, the domestication of animals, the
-      east-west axis of Eurasia compared to the north-south axes of Africa
-      and the Americas and the absence of major geographical barriers
-      preventing a diffusion of ideas and materials led to the Eurasians
-      getting an early lead compared to other societies. He notes that the
-      rise of food production allowed primitive hunter-gatherer societies
-      to evolve into food producers and food consumers, the latter then
-      freed to become soldiers, craftsmen, bureaucrats, priests, kings, etc.
-      The domestication of animals allowed them to be used for ploughing
-      fields and producing manure (increasing food production),
-      transportation, mounting swift attacks on enemies from a vantage
-      position, etc. Domestic animals also passed on the germs for several
-      diseases to their masters, that their masters ultimately became
-      resistant to, but that proved fatal to their enemies who did not
-      possess such resistance. Only some of the wild plants and animals
-      could be domesticated and some regions had a great advantage over
-      others in this area. An east-west axis and the lack of major
-      geographical barriers allows more areas with similar climates to
-      exchange ideas and materials and this accelerates progress. These
-      factors ultimately led to writing developing early on in some regions
-      and much later, or not at all, in others. Writing permitted wide and
-      durable distribution of accurate descriptions of facts and ideas that
-      in turn allowed faster progress.
-      <p>
-      It must be said that the author presents very good arguments, though
-      not entirely convincing, to back his theory. However, the author seems
-      to gloss over other factors that might add to the explanation, in
-      particular the reasons for the dominance of Europeans in Eurasia
-      rather than, say, the Indians or the Chinese. He very briefly, that
-      too only towards the very end, touches upon the decline of farming and
-      the rise of deserts in the Middle East and the decline of China. He
-      mentions in passing that the caste system of India was a big factor
-      in crushing the progress it had achieved over the years. In a similar
-      manner he insists that the division of Europe by geographical
-      barriers that were nevertheless surmountable led to a continuing
-      disunity that fostered a competition to advance technology and
-      colonise other countries. I also felt that the author uses New Guinea
-      a bit too much as an example for many of his explanations, almost to
-      the point of causing fatigue, though it is to be expected since he
-      spent a significant portion of his professional life there.
-      <p>
-      On the whole though, I would highly recommend this book. It contains
-      a wealth of enlightening information and is undeniably
-      thought-provoking.
-
-      m4_end_post_rest
-      m4_end_post
+m4_define( `m4_post_date', `2007-02-16')m4_dnl
+m4_define( `m4_post_title', `&quot;Guns`,' Germs`,' and Steel&quot;')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+Why was it that the Europeans came to dominate over the native
+Americans, the Africans and the aboriginal Australians and not vice
+versa? Why was it that civilisation flourished early on in places like
+the Middle East, India and China while places like sub-Saharan Africa,
+Australia and the Americas languished far behind for several thousand
+years?
+m4_begin_post_rest
+<div class="book_display">
+<img src="m4_root_dir/books/images/ggs.jpg"
+alt="Guns, Germs, and Steel">
+<br>
+<a href="http://www.amazon.com/gp/product/0393061310?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0393061310">
+<img src="m4_root_dir/books/images/buyamz.gif"
+alt="Buy From Amazon.com">
+</a>
+<img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0393061310" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
+</div>
+<p>
+In &quot;Guns, Germs, and Steel&quot;, Jared Diamond tries to answer
+these questions based on the theory that environmental factors, rather
+than innate racial superiority, account for the eventual dominance
+of one set of people over another. He surveys the history of humans
+over the last 13,000 years (after the last Ice Age) to conclude that
+&quot;guns&quot; (superior weapons, armours, carriers and tactics),
+&quot;germs&quot; (passing on of diseases to which the opponents have
+no resistance) and &quot;steel&quot; (superior technology) have been
+the proximate factors that allowed one set of people to dominate
+another.
+<p>
+He then explores the ultimate factors that lead to some people having
+these proximate factors in their favour and not others. He finds that
+the rise of food production, the domestication of animals, the
+east-west axis of Eurasia compared to the north-south axes of Africa
+and the Americas and the absence of major geographical barriers
+preventing a diffusion of ideas and materials led to the Eurasians
+getting an early lead compared to other societies. He notes that the
+rise of food production allowed primitive hunter-gatherer societies
+to evolve into food producers and food consumers, the latter then
+freed to become soldiers, craftsmen, bureaucrats, priests, kings, etc.
+The domestication of animals allowed them to be used for ploughing
+fields and producing manure (increasing food production),
+transportation, mounting swift attacks on enemies from a vantage
+position, etc. Domestic animals also passed on the germs for several
+diseases to their masters, that their masters ultimately became
+resistant to, but that proved fatal to their enemies who did not
+possess such resistance. Only some of the wild plants and animals
+could be domesticated and some regions had a great advantage over
+others in this area. An east-west axis and the lack of major
+geographical barriers allows more areas with similar climates to
+exchange ideas and materials and this accelerates progress. These
+factors ultimately led to writing developing early on in some regions
+and much later, or not at all, in others. Writing permitted wide and
+durable distribution of accurate descriptions of facts and ideas that
+in turn allowed faster progress.
+<p>
+It must be said that the author presents very good arguments, though
+not entirely convincing, to back his theory. However, the author seems
+to gloss over other factors that might add to the explanation, in
+particular the reasons for the dominance of Europeans in Eurasia
+rather than, say, the Indians or the Chinese. He very briefly, that
+too only towards the very end, touches upon the decline of farming and
+the rise of deserts in the Middle East and the decline of China. He
+mentions in passing that the caste system of India was a big factor
+in crushing the progress it had achieved over the years. In a similar
+manner he insists that the division of Europe by geographical
+barriers that were nevertheless surmountable led to a continuing
+disunity that fostered a competition to advance technology and
+colonise other countries. I also felt that the author uses New Guinea
+a bit too much as an example for many of his explanations, almost to
+the point of causing fatigue, though it is to be expected since he
+spent a significant portion of his professional life there.
+<p>
+On the whole though, I would highly recommend this book. It contains
+a wealth of enlightening information and is undeniably
+thought-provoking.
+m4_end_post_rest
+m4_end_post

@@ -1,13 +1,13 @@
-      m4_define( `m4_post_date', `2001-03-31')m4_dnl
-      m4_define( `m4_post_title', `My Disassembler Released')m4_dnl
-      m4_include( `posttrans.m4')m4_dnl
+m4_define( `m4_post_date', `2001-03-31')m4_dnl
+m4_define( `m4_post_title', `My Disassembler Released')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
 I have released a simple disassembler that I wrote during my undergraduate
 days. It converts executable programmes (16-bit COM and EXE programmes
 for MS-DOS) into an equivalent ix86 assembly
 language programme. I am releasing the full source code to
-the programme under the 
+the programme under the
 <a href="http://www.gnu.org/copyleft/gpl.html">
 GNU General Public License (GPL)</a>, and with absolutely
 no warranties.

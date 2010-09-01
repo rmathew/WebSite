@@ -1,29 +1,26 @@
-      m4_define( `m4_post_date', `2001-08-20')m4_dnl
-      m4_define( `m4_post_title', `Whoa!')m4_dnl
-      m4_include( `posttrans.m4')m4_dnl
+m4_define( `m4_post_date', `2001-08-20')m4_dnl
+m4_define( `m4_post_title', `Whoa!')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
 <a href="http://www.lwn.net/">Linux Weekly News</a>
-(LWN) recently published my letter announcing 
-<a href="m4_root_dir/articles/intranet/index.html">The Hobbitware.com Intranet 
+(LWN) recently published my letter announcing
+<a href="m4_root_dir/articles/intranet/index.html">The Hobbitware.com Intranet
 Project</a>. I was quite overwhelmed by the extremely encouraging
 feedback I received from a lot of people spread across the world
 about the guide.
-
 m4_begin_post_rest
 <p>
-They wanted to see a Print Server setup, an NFS 
-Server setup, more about security, etc. All of this would be 
-somewhat difficult for me to do for the simple reason that I do not 
-know anything about these things. But one of the requests was easy 
-to satisfy: I have now uploaded <a 
-href="m4_root_dir/articles/intranet/Hobbitware_IntranetProject.pdf">a 
+They wanted to see a Print Server setup, an NFS
+Server setup, more about security, etc. All of this would be
+somewhat difficult for me to do for the simple reason that I do not
+know anything about these things. But one of the requests was easy
+to satisfy: I have now uploaded <a
+href="m4_root_dir/articles/intranet/Hobbitware_IntranetProject.pdf">a
 PDF version</a> of the guide, created using the free and cool
 <a href="http://www.easysw.com/htmldoc/">HTMLDOC</a>
 tool that converts HTML documents to decent PDFs.
-
 <p>
 Thanks to all of you for your encouraging comments!
-
 m4_end_post_rest
 m4_end_post

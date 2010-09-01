@@ -1,77 +1,74 @@
-      m4_define( `m4_post_date', `2008-12-19')m4_dnl
-      m4_define( `m4_post_title', `&quot;God is Not Great&quot;')m4_dnl
-      m4_include( `posttrans.m4')m4_dnl
-      m4_begin_post
-      <p>
-      &quot;God is Not Great&quot; by <a
-      href="http://en.wikipedia.org/wiki/Christopher_Hitchens">Christopher
-      Hitchens</a> might well become the little red book of modern <a
-      href="http://en.wikipedia.org/wiki/Antitheism">antitheism</a>. The
-      roughly 350 pages in this book are an erudite exposition of its
-      subtitle &quot;How Religion Poisons Everything&quot;. The book seeks
-      to show that it would do modern society a lot of good to get rid
-      of religion. If you are an atheist, you will find a lot of reaffirming
-      material in this book. If you are religious, this book might rekindle
-      some of the suppressed incredulity you probably felt when you were
-      first introduced to your particular dogma.
-
-      m4_begin_post_rest
-      <div class="book_display">
-        <img src="m4_root_dir/books/images/m4_post_id.jpg" alt="m4_post_title">
-        <br>
-        <a
-          href="http://www.amazon.com/gp/product/0446579807?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0446579807">
-          <img src="m4_root_dir/books/images/buyamz.gif"
-            alt="Buy From Amazon.com">
-        </a>
-        <img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0446579807" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
-
-      </div>
-      <p>
-      While Bertrand Russell's cogent essay &quot;<a
-      href="http://users.drew.edu/~jlenz/whynot.html">Why I am Not a
-      Christian</a>&quot; is a gentle introduction to atheism, this book is
-      an out-and-out attack on the evil effects of religion on society. The
-      description in the first couple of chapters of the terrible torture and
-      killing of the non-believers by the religious, over the millennia and
-      across the world, is quite chilling. The description in these chapters
-      of the genital mutiliation of hapless infants and children in the name
-      of religion and the sexual abuse of children by some of the clergy will
-      evoke revulsion in many a person. The remaining chapters in the book
-      systematically take apart some of the arguments advanced in support of
-      theism and against atheism.
-      <p>
-      The author focusses most of his attention on the major monotheistic
-      religions originating from the Middle East - Judaism, Christianity and
-      Islam. Major oriental religions like Buddhism, and most notably Hinduism,
-      receive much less attention. While the author spends some time
-      criticising the basic tenets of these religions, most of the derision
-      is reserved for the atrocities committed in the name of these
-      religions by their respective followers. Human progress has been set
-      back innumerable times because of the suppression of scientific and
-      philosophical ideas deemed antithetical to religious dogma.
-      <p>
-      If you have not read the first five books of the <a
-      href="http://en.wikipedia.org/wiki/Old_Testament">Old Testament</a>
-      forming the <a
-      href="http://en.wikipedia.org/wiki/Pentateuch">Pentateuch</a>, some of
-      the passages in this book might not be clear. If you have read these
-      books and were disgusted by a god who comes across as rather petty,
-      demanding and barbaric, you will find yourself in agreement with the
-      thrust of these passages. If you were dismissive of the ravings in the
-      <a href="http://en.wikipedia.org/wiki/Book_of_Revelation">Book of
-      Revelation</a>, you will find an empathetic voice in this book. In
-      general though, having read the Bible is not a pre-requisite for
-      understanding the message in this book.
-      <p>
-      It surely takes a lot of courage to write and publish such a book. Some
-      of the material in this book will attract the ire of religious fanatics
-      who will then want to harm the author. Despite the dangers, we have
-      been seeing an increasing number of such books published in recent
-      times, some of which (most notably this one) have become best-sellers.
-      We can probably surmise that more and more people are willing to be
-      sceptical of religion and its need in modern society. This can only
-      augur well for the future of mankind.
-
-      m4_end_post_rest
-      m4_end_post
+m4_define( `m4_post_date', `2008-12-19')m4_dnl
+m4_define( `m4_post_title', `&quot;God is Not Great&quot;')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+&quot;God is Not Great&quot; by <a
+href="http://en.wikipedia.org/wiki/Christopher_Hitchens">Christopher
+Hitchens</a> might well become the little red book of modern <a
+href="http://en.wikipedia.org/wiki/Antitheism">antitheism</a>. The
+roughly 350 pages in this book are an erudite exposition of its
+subtitle &quot;How Religion Poisons Everything&quot;. The book seeks
+to show that it would do modern society a lot of good to get rid
+of religion. If you are an atheist, you will find a lot of reaffirming
+material in this book. If you are religious, this book might rekindle
+some of the suppressed incredulity you probably felt when you were
+first introduced to your particular dogma.
+m4_begin_post_rest
+<div class="book_display">
+<img src="m4_root_dir/books/images/m4_post_id.jpg" alt="m4_post_title">
+<br>
+<a
+href="http://www.amazon.com/gp/product/0446579807?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0446579807">
+<img src="m4_root_dir/books/images/buyamz.gif"
+alt="Buy From Amazon.com">
+</a>
+<img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0446579807" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
+</div>
+<p>
+While Bertrand Russell's cogent essay &quot;<a
+href="http://users.drew.edu/~jlenz/whynot.html">Why I am Not a
+Christian</a>&quot; is a gentle introduction to atheism, this book is
+an out-and-out attack on the evil effects of religion on society. The
+description in the first couple of chapters of the terrible torture and
+killing of the non-believers by the religious, over the millennia and
+across the world, is quite chilling. The description in these chapters
+of the genital mutiliation of hapless infants and children in the name
+of religion and the sexual abuse of children by some of the clergy will
+evoke revulsion in many a person. The remaining chapters in the book
+systematically take apart some of the arguments advanced in support of
+theism and against atheism.
+<p>
+The author focusses most of his attention on the major monotheistic
+religions originating from the Middle East - Judaism, Christianity and
+Islam. Major oriental religions like Buddhism, and most notably Hinduism,
+receive much less attention. While the author spends some time
+criticising the basic tenets of these religions, most of the derision
+is reserved for the atrocities committed in the name of these
+religions by their respective followers. Human progress has been set
+back innumerable times because of the suppression of scientific and
+philosophical ideas deemed antithetical to religious dogma.
+<p>
+If you have not read the first five books of the <a
+href="http://en.wikipedia.org/wiki/Old_Testament">Old Testament</a>
+forming the <a
+href="http://en.wikipedia.org/wiki/Pentateuch">Pentateuch</a>, some of
+the passages in this book might not be clear. If you have read these
+books and were disgusted by a god who comes across as rather petty,
+demanding and barbaric, you will find yourself in agreement with the
+thrust of these passages. If you were dismissive of the ravings in the
+<a href="http://en.wikipedia.org/wiki/Book_of_Revelation">Book of
+Revelation</a>, you will find an empathetic voice in this book. In
+general though, having read the Bible is not a pre-requisite for
+understanding the message in this book.
+<p>
+It surely takes a lot of courage to write and publish such a book. Some
+of the material in this book will attract the ire of religious fanatics
+who will then want to harm the author. Despite the dangers, we have
+been seeing an increasing number of such books published in recent
+times, some of which (most notably this one) have become best-sellers.
+We can probably surmise that more and more people are willing to be
+sceptical of religion and its need in modern society. This can only
+augur well for the future of mankind.
+m4_end_post_rest
+m4_end_post

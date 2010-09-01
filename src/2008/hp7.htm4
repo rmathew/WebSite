@@ -1,86 +1,84 @@
-      m4_define( `m4_post_date', `2008-08-17')m4_dnl
-      m4_define( `m4_post_title', `&quot;Harry Potter and the Deathly Hallows&quot;')m4_dnl
-      m4_include( `posttrans.m4')m4_dnl
-      m4_begin_post
-      <p>
-      &quot;Harry Potter and the Deathly Hallows&quot; is the seventh book in
-      the &quot;Harry Potter&quot; series by <a
-      href="http://en.wikipedia.org/wiki/J._K._Rowling">J. K. Rowling</a>. At
-      least as of now, this book is supposed to be the final book in this
-      series. So it was natural for me to wonder before picking it up whether
-      it would provide a closure and a satisfactory resolution for this saga.
-
-      m4_begin_post_rest
-      <div class="book_display">
-        <img src="m4_root_dir/books/images/m4_post_id.jpg" alt="m4_post_title">
-        <br>
-        <a
-          href="http://www.amazon.com/gp/product/0545010225?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0545010225">
-          <img src="m4_root_dir/books/images/buyamz.gif"
-            alt="Buy From Amazon.com">
-          </a>
-          <img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0545010225" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
-      </div>
-      <p>
-      After having read the book, the answer seems to be a mixture of
-      &quot;yes&quot; and &quot;no&quot; - yes, the hero prevails and evil is
-      vanquished as expected; no, the resolution as it plays out cannot really
-      be called satisfactory.
-      <p>
-      Unlike the previous books, the action in this book starts right
-      away and the author more or less keeps the pace throughout (except for
-      some boring pages describing the preparations for a marriage and
-      perhaps too prolonged a description of the camping efforts of our heroes
-      while on the run). It was a gripping read for me almost all the way
-      through.
-      <p>
-      As the characters have aged, their thoughts and dialogues have matured.
-      As their circumstances have become worse, the narrative has also become
-      darker. The book has quite a bit of violence and several deaths. In fact
-      there are some seemingly-gratuitous deaths as well. What started off as
-      a series of books for children can no longer be called that.
-      <p>
-      For a plot that the author says has been forming in her head for
-      several years, it has several glaring holes that become difficult to
-      overlook. As has been the pattern in the previous books in this series,
-      the heroes overcome seemingly-insurmountable hurdles through some very
-      convenient and contrived turn of events. For example, magical objects
-      like wands or snitches that had one set of properties in the previous
-      books suddenly acquire new and very convenient properties in this book
-      that just happen to solve a particularly vexing problem facing our
-      heroes. As another example, the sword of Gryffindor becomes available
-      to our heroes through some very contrived twists in the plot that is
-      not even explained satisfactorily anywhere in the rest of the book. The
-      author shamelessly resorts to <a
-      href="http://en.wikipedia.org/wiki/Deus_ex_machina"><i>deus ex
-      machina</i></a> a bit too often for my comfort.
-      <p>
-      Just as with &quot;The Lord of the Rings&quot;, I felt that here too
-      the final battle with the main villain was a complete letdown. What is
-      the point of hyping up the primary villain throughout the series if in
-      the final battle he is vanquished without much of a fight? We should
-      have something like the &quot;<a
-      href="http://en.wikipedia.org/wiki/Boss_(video_games)">boss</a>&quot;
-      battles in video-games so that it feels really satisfying when the
-      hero finally conquers the villain.
-      <p>
-      As in &quot;The Chronicles of Narnia&quot;, the author's deep Christian
-      beliefs clearly show through towards the end of this book. This part
-      looks really weird and I found it even more jarring than the other
-      lacunae in the overall plot. As if this wasn't bad enough, the epilogue
-      seemed completely pointless to me, except perhaps to tell us who married
-      whom and what their children were called.
-      <p>
-      The &quot;Harry Potter&quot; series certainly makes for an interesting
-      read, but the tale could perhaps have been told in fewer books and with
-      a tighter plot without losing its charm. Granted that you have to
-      willingly suspend disbelief to enjoy such fantasies, but even within
-      that world there has to be a certain logical consistency for you to be
-      able to sustain that joy.
-      <p>
-      Of course, capturing the collective imagination of children and adults
-      alike and sustaining it over the course of ten years and about 3,500
-      pages is no small feat. Hats off to Joanne Rowling for pulling it off.
-
-      m4_end_post_rest
-      m4_end_post
+m4_define( `m4_post_date', `2008-08-17')m4_dnl
+m4_define( `m4_post_title', `&quot;Harry Potter and the Deathly Hallows&quot;')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+&quot;Harry Potter and the Deathly Hallows&quot; is the seventh book in
+the &quot;Harry Potter&quot; series by <a
+href="http://en.wikipedia.org/wiki/J._K._Rowling">J. K. Rowling</a>. At
+least as of now, this book is supposed to be the final book in this
+series. So it was natural for me to wonder before picking it up whether
+it would provide a closure and a satisfactory resolution for this saga.
+m4_begin_post_rest
+<div class="book_display">
+<img src="m4_root_dir/books/images/m4_post_id.jpg" alt="m4_post_title">
+<br>
+<a
+href="http://www.amazon.com/gp/product/0545010225?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0545010225">
+<img src="m4_root_dir/books/images/buyamz.gif"
+alt="Buy From Amazon.com">
+</a>
+<img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0545010225" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
+</div>
+<p>
+After having read the book, the answer seems to be a mixture of
+&quot;yes&quot; and &quot;no&quot; - yes, the hero prevails and evil is
+vanquished as expected; no, the resolution as it plays out cannot really
+be called satisfactory.
+<p>
+Unlike the previous books, the action in this book starts right
+away and the author more or less keeps the pace throughout (except for
+some boring pages describing the preparations for a marriage and
+perhaps too prolonged a description of the camping efforts of our heroes
+while on the run). It was a gripping read for me almost all the way
+through.
+<p>
+As the characters have aged, their thoughts and dialogues have matured.
+As their circumstances have become worse, the narrative has also become
+darker. The book has quite a bit of violence and several deaths. In fact
+there are some seemingly-gratuitous deaths as well. What started off as
+a series of books for children can no longer be called that.
+<p>
+For a plot that the author says has been forming in her head for
+several years, it has several glaring holes that become difficult to
+overlook. As has been the pattern in the previous books in this series,
+the heroes overcome seemingly-insurmountable hurdles through some very
+convenient and contrived turn of events. For example, magical objects
+like wands or snitches that had one set of properties in the previous
+books suddenly acquire new and very convenient properties in this book
+that just happen to solve a particularly vexing problem facing our
+heroes. As another example, the sword of Gryffindor becomes available
+to our heroes through some very contrived twists in the plot that is
+not even explained satisfactorily anywhere in the rest of the book. The
+author shamelessly resorts to <a
+href="http://en.wikipedia.org/wiki/Deus_ex_machina"><i>deus ex
+machina</i></a> a bit too often for my comfort.
+<p>
+Just as with &quot;The Lord of the Rings&quot;, I felt that here too
+the final battle with the main villain was a complete letdown. What is
+the point of hyping up the primary villain throughout the series if in
+the final battle he is vanquished without much of a fight? We should
+have something like the &quot;<a
+href="http://en.wikipedia.org/wiki/Boss_(video_games)">boss</a>&quot;
+battles in video-games so that it feels really satisfying when the
+hero finally conquers the villain.
+<p>
+As in &quot;The Chronicles of Narnia&quot;, the author's deep Christian
+beliefs clearly show through towards the end of this book. This part
+looks really weird and I found it even more jarring than the other
+lacunae in the overall plot. As if this wasn't bad enough, the epilogue
+seemed completely pointless to me, except perhaps to tell us who married
+whom and what their children were called.
+<p>
+The &quot;Harry Potter&quot; series certainly makes for an interesting
+read, but the tale could perhaps have been told in fewer books and with
+a tighter plot without losing its charm. Granted that you have to
+willingly suspend disbelief to enjoy such fantasies, but even within
+that world there has to be a certain logical consistency for you to be
+able to sustain that joy.
+<p>
+Of course, capturing the collective imagination of children and adults
+alike and sustaining it over the course of ten years and about 3,500
+pages is no small feat. Hats off to Joanne Rowling for pulling it off.
+m4_end_post_rest
+m4_end_post

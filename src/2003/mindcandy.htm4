@@ -1,6 +1,6 @@
-      m4_define( `m4_post_date', `2003-03-02')m4_dnl
-      m4_define( `m4_post_title', `The Art of Coding')m4_dnl
-      m4_include( `posttrans.m4')m4_dnl
+m4_define( `m4_post_date', `2003-03-02')m4_dnl
+m4_define( `m4_post_title', `The Art of Coding')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
 I recently received my copy of <a
@@ -11,9 +11,8 @@ Reality&quot; by Future Crew. This DVD is the result of an almost
 <a href="http://www.demodvd.org/">two year long project</a>
 and is truly a labour of love, especially considering the <a
 href="http://www.demodvd.org/technical/">technical
-hurdles</a> faced by the creators of this DVD in recording these 
-demos. If you ever thought you were a great coder, take a look at 
-some of these demos and consider the hardware they could run 
+hurdles</a> faced by the creators of this DVD in recording these
+demos. If you ever thought you were a great coder, take a look at
+some of these demos and consider the hardware they could run
 on - and be humbled!
-
 m4_end_post

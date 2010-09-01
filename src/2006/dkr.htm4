@@ -1,45 +1,43 @@
-      m4_define( `m4_post_date', `2006-08-02')m4_dnl
-      m4_define( `m4_post_title', `&quot;Batman: The Dark Knight Returns&quot;')m4_dnl
-      m4_include( `posttrans.m4')m4_dnl
-      m4_begin_post
-      <p>
-      &quot;Batman: The Dark Knight Returns&quot;, written by Frank Miller
-      and published in 1986, presents a Batman that is completely different
-      from the stupid television series of the 1960s. If you liked Tim
-      Burton's &quot;Batman&quot; and &quot;Batman Returns&quot; movies,
-      you will love this graphic novel.
-
-      m4_begin_post_rest
-      <div class="book_display">
-        <img src="m4_root_dir/books/images/dkr.jpg"
-          alt="The Dark Knight Returns">
-        <br>
-        <a href="http://www.amazon.com/gp/product/1563893428?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1563893428">
-        <img src="m4_root_dir/books/images/buyamz.gif"
-          alt="Buy From Amazon.com">
-        </a>
-        <img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=1563893428" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
-      </div>
-      <p>
-      Ten years after Batman has retired, Gotham city has deteriorated
-      into an utterly lawless and crime-ridden city and the US and the
-      Soviet Union are on the brink of war. Superman essentially works
-      for the government and most of the other superheroes have retired.
-      Batman comes back from retirement, fights crime once again and
-      ultimately ends up in a battle with Superman.
-      <p>
-      The usual superheroes are depicted very differently and are much
-      darker in this book than what I remember from my childhood. There is
-      plenty of violence and gore in this book and it is definitely not for
-      little children.
-      <p>
-      While I loved the book on the whole, I felt that the drawings were
-      rather crude and distracting. I was slightly confused by some of
-      the turn of events but things were much clearer once I read the
-      excerpts from the original &quot;script&quot; provided in the end.
-      It is still a great book to read and a definite must-read for people
-      scarred for life by the stupid television series or by that utterly
-      idiotic movie &quot;Batman and Robin&quot;.
-
-      m4_end_post_rest
-      m4_end_post
+m4_define( `m4_post_date', `2006-08-02')m4_dnl
+m4_define( `m4_post_title', `&quot;Batman: The Dark Knight Returns&quot;')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+&quot;Batman: The Dark Knight Returns&quot;, written by Frank Miller
+and published in 1986, presents a Batman that is completely different
+from the stupid television series of the 1960s. If you liked Tim
+Burton's &quot;Batman&quot; and &quot;Batman Returns&quot; movies,
+you will love this graphic novel.
+m4_begin_post_rest
+<div class="book_display">
+<img src="m4_root_dir/books/images/dkr.jpg"
+alt="The Dark Knight Returns">
+<br>
+<a href="http://www.amazon.com/gp/product/1563893428?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1563893428">
+<img src="m4_root_dir/books/images/buyamz.gif"
+alt="Buy From Amazon.com">
+</a>
+<img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=1563893428" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
+</div>
+<p>
+Ten years after Batman has retired, Gotham city has deteriorated
+into an utterly lawless and crime-ridden city and the US and the
+Soviet Union are on the brink of war. Superman essentially works
+for the government and most of the other superheroes have retired.
+Batman comes back from retirement, fights crime once again and
+ultimately ends up in a battle with Superman.
+<p>
+The usual superheroes are depicted very differently and are much
+darker in this book than what I remember from my childhood. There is
+plenty of violence and gore in this book and it is definitely not for
+little children.
+<p>
+While I loved the book on the whole, I felt that the drawings were
+rather crude and distracting. I was slightly confused by some of
+the turn of events but things were much clearer once I read the
+excerpts from the original &quot;script&quot; provided in the end.
+It is still a great book to read and a definite must-read for people
+scarred for life by the stupid television series or by that utterly
+idiotic movie &quot;Batman and Robin&quot;.
+m4_end_post_rest
+m4_end_post

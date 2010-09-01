@@ -1,6 +1,6 @@
-      m4_define( `m4_post_date', `2005-02-13')m4_dnl
-      m4_define( `m4_post_title', `Aero India 2005')m4_dnl
-      m4_include( `posttrans.m4')m4_dnl
+m4_define( `m4_post_date', `2005-02-13')m4_dnl
+m4_define( `m4_post_title', `Aero India 2005')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
 Yesterday we went to see the <a href="http://www.aeroindia.gov.in/">Aero
@@ -9,7 +9,6 @@ for aircrafts and related technologies, inviting participation from
 some of the bigwigs of the global aviation industry. The drive was
 painful and unduly long and the Air Force Station in Yelahanka was
 windy and quite dusty, but was it all worth it!
-
 m4_begin_post_rest
 <p>
 The sheer manoeuvrability of the Sukhoi fighters and the amazing agility
@@ -28,6 +27,5 @@ quite amazing with their ability to retain their formation at high
 speeds, their unbelievably close high-speed cris-crossing stunts and a
 really nicely done heart and cupid's arrow through it to celebrate
 Valentine's Day. A good and inspiring show on the whole.
-
 m4_end_post_rest
 m4_end_post

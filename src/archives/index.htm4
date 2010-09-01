@@ -4,16 +4,12 @@ m4_define(`m4_page_section',``Archives'')m4_dnl
 m4_dnl
 m4_include(`header.htm4')m4_dnl
 m4_dnl
-<!-- BEGIN: Page Body -->
 <div id="main-copy">
 m4_heading( `1', `archives', `News Archives')
-
 <p>
 You can find archives for news items here. These are listed here in reverse
 chronological order:
-
 <ul>
-
 <li><a href="m4_root_dir/2010/index.html">News Archive for 2010</a></li>
 <li><a href="m4_root_dir/2009/index.html">News Archive for 2009</a></li>
 <li><a href="m4_root_dir/2008/index.html">News Archive for 2008</a></li>
@@ -24,9 +20,7 @@ chronological order:
 <li><a href="m4_root_dir/2003/index.html">News Archive for 2003</a></li>
 <li><a href="m4_root_dir/2002/index.html">News Archive for 2002</a></li>
 <li><a href="m4_root_dir/2001/index.html">News Archive for 2001</a></li>
-
 </ul>
 </div>
-<!-- END: Page Body -->
 m4_dnl
 m4_include(`footer.htm4')m4_dnl

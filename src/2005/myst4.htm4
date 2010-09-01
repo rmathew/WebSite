@@ -1,6 +1,6 @@
-      m4_define( `m4_post_date', `2005-03-27')m4_dnl
-      m4_define( `m4_post_title', `&quot;Myst IV: Revelation&quot;')m4_dnl
-      m4_include( `posttrans.m4')m4_dnl
+m4_define( `m4_post_date', `2005-03-27')m4_dnl
+m4_define( `m4_post_title', `&quot;Myst IV: Revelation&quot;')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
 Anusha and I have finished playing &quot;<a
@@ -12,7 +12,6 @@ in-game action by live actors and it shows - it comes on 2 DVDs and you
 need a minimum
 of <i>3.5GB</i> of free disc space to install the game and around <i>8GB</i>
 for a full installation!
-
 m4_begin_post_rest
 <p>
 This game is by far the most beautifully rendered in the series and has
@@ -45,6 +44,5 @@ detail. I would very highly recommend this game to anyone interested
 in adventure gaming. A big thanks to Anusha who worked very hard
 to get this game in time as a gift for my birthday! For a long time,
 this game was quite impossible to get in Bangalore.
-
 m4_end_post_rest
 m4_end_post

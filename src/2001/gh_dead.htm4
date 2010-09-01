@@ -1,13 +1,12 @@
-      m4_define( `m4_post_date', `2001-12-03')m4_dnl
-      m4_define( `m4_post_title', `&quot;While My Guitar Gently Weeps&quot;')m4_dnl
-      m4_include( `posttrans.m4')m4_dnl
+m4_define( `m4_post_date', `2001-12-03')m4_dnl
+m4_define( `m4_post_title', `&quot;While My Guitar Gently Weeps&quot;')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-The quiet Beatle, George Harrison, passed away this weekend 
-and left me sad - very sad! Anyone who could create &quot;While 
-My Guitar Gently Weeps&quot;, &quot;Inner Light&quot;, 
-&quot;Within You, Without You&quot;, &quot;Octopuss's Garden&quot;, 
-etc. had to be a genius and yet had to live under the shadows of 
+The quiet Beatle, George Harrison, passed away this weekend
+and left me sad - very sad! Anyone who could create &quot;While
+My Guitar Gently Weeps&quot;, &quot;Inner Light&quot;,
+&quot;Within You, Without You&quot;, &quot;Octopuss's Garden&quot;,
+etc. had to be a genius and yet had to live under the shadows of
 the great Lennon and McCartney. I feel Life has been unfair to him...
-
 m4_end_post

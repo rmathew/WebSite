@@ -4,10 +4,8 @@ m4_define(`m4_page_section',``Articles'')m4_dnl
 m4_dnl
 m4_include(`header.htm4')m4_dnl
 m4_dnl
-<!-- BEGIN: Page Body -->
 <div id="main-copy">
 m4_toc
-
 m4_heading( `1', `intro', `Introduction')
 <p>
 In the year 1421 by the
@@ -22,42 +20,37 @@ href="http://www.glyphweb.com/arda/h/hobbiton.html">Hobbiton</a>, where in
 a short period of time more than 80 bright and young <a
 href="http://tolkien.cro.net/hobbits/hobbits.html">hobbits</a> were employed
 full-time to promote hobbitware on the world-wide-web.
-
 <p>
 <i>Hobbitware.com</i> was a forward looking company ably led
-by Frodo, and had a vibrant community of employees which 
+by Frodo, and had a vibrant community of employees which
 thrived on the company's Intranet, managed and nurtured by
 <a href="http://www.glyphweb.com/arda/s/samwisegamgee.html">Samwise
 Gamgee</a> (&quot;Sam&quot;), the system-administrator who was a trusted
 friend of Frodo and had loyally supported him on many a past adventure.
 Sam was passionate about gardening and had brought the same passion and
 loving care to system administration.
-
 <p>
 These pages recount how Sam went about building and maintaining
 this Intranet for <i>Hobbitware.com</i>. It is hoped that these
 prove useful to system administrators who are looking to building
 an Intranet for their organisations.
-
 <p>
 <div class="notice">
 <p>
 <b>NOTE:</b> These pages are not designed to be a step-by-step
 guide that spoon-feed the information needed to set things up.
-They merely serve as outlines of the processes involved and 
+They merely serve as outlines of the processes involved and
 provide pointers to useful information and software. They
 are a direct result of the author's frustration with the
-unavailability of guides, at least at the time of this writing, 
-that provided a useful summary of what is involved in setting up 
+unavailability of guides, at least at the time of this writing,
+that provided a useful summary of what is involved in setting up
 an Intranet for a small organisation with limited bandwidth.
-
 <p>
 By no means are these software, or the way they have been used,
 the only way to do things. A system administrator must evolve
 a process that works best for his setup, hopefully using
 these documents to get a head start.
 </div>
-
 m4_heading( `1', `setup', `The Setup')
 <p>
 It would be worthwhile to examine the general systems setup in
@@ -67,29 +60,26 @@ the hosting of their site to a service provider who managed the
 entire <i>hobbitware.com</i> domain for them on their servers,
 providing WWW, FTP and Email (SMTP/POP3) access to them, all
 easily administered by a secure web-based interface. Every hobbit
-in the company had been given an email account (with an address of 
+in the company had been given an email account (with an address of
 the form <i>xyz@hobbitware.com</i>) with which they could stay in
 touch with their friends and customers. The company's site could
 be accessed as <i>www.hobbitware.com</i>, where customers could
 view their catalogue of products, place orders, track orders, etc.
-
 <p>
-The company initially had a SLIP/PPP dial-up connection (56Kbps) to 
+The company initially had a SLIP/PPP dial-up connection (56Kbps) to
 their ISP, which they upgraded to 64Kbps ISDN, and later 128Kbps ISDN,
 as their size grew. Sam had the bright idea of using a hardware
 proxy, instead of wasting a machine for connecting to their ISP,
 which made connecting to the Internet a trivial matter for the
-hobbits - they just had to set the hardware proxy as their 
+hobbits - they just had to set the hardware proxy as their
 &quot;default gateway&quot; and they could access everything on
 the Internet transparently. The proxy also provided a limited
 amount of protection from external malicious crackers trying to
 connect to internal servers containing sensitive data.
-
-
 <br>
 m4_heading( `1', `probs', `The Problems')
 <p>
-This setup was not without problems however. The hobbits used 
+This setup was not without problems however. The hobbits used
 email as the primary means of communicating with each other
 (including for official communications) and wasted a lot of
 bandwidth unnecessarily when they sent mails to other hobbits
@@ -98,55 +88,50 @@ interests (being young, unmarried, nerdy hobbits) they ended
 up visiting the same sites on the Internet - each hobbit
 browsing the same site independently of the other hobbits -
 which resulted in a lot of unnecessary traffic.
-
 <p>
 Pretty soon, everyone was complaining about the lack of
 bandwidth. Frodo was appalled that there was not much
 bandwidth available for essential tasks (processing customer
 orders, etc.) and he asked Sam to do something about the
 whole mess.
-
-
 <br>
 m4_heading( `1', `soln', `The Solution')
 <p>
 Sam spent several days and nights analysing the problem and
 trying to come up with ways to solve it. He scoured countless
 Internet sites in search of a solution and was finally able to
-put together a proposal for an &quot;Intranet server&quot; that would 
+put together a proposal for an &quot;Intranet server&quot; that would
 try to eliminate extraneous traffic on their Internet link
 as much as possible. His idea was to cache as much information
-as possible locally, including web pages, common downloads, emails, 
-DNS queries, etc. He got the go-ahead from Frodo and was 
+as possible locally, including web pages, common downloads, emails,
+DNS queries, etc. He got the go-ahead from Frodo and was
 given a machine to host the Intranet server (whatever it meant),
 with a somewhat low-end configuration, but with ample disk space.
 Frodo promised him a better server if his idea proved useful and
 reliable.
-
 <p>
 Sam wanted to get the best deal: he wanted a super-reliable
 system that cost him as less as possible (because his allocated
 budget was next to <i>zilch</i>) and was easy to maintain.
 And because he was new to it all, he wanted a good support base.
-After much evaluation, he decided to use the 
+After much evaluation, he decided to use the
 <a href="http://www.linux.com/">Linux</a> operating
 system, which was a free, robust operating system supported by
 enthusiastic developers around the world, who contributed to the
-whole effort purely for the love of it. It was particularly 
+whole effort purely for the love of it. It was particularly
 suited to being a server for network services and ran extremely
 comfortably on low-end configurations. Moreover, Sam was able
 to find
-<a href="http://freshmeat.net/">stable, mature versions 
-of almost everything</a> he needed to implement his vision, with 
-<a href="http://www.linuxdoc.org/">a whole lot of 
+<a href="http://freshmeat.net/">stable, mature versions
+of almost everything</a> he needed to implement his vision, with
+<a href="http://www.linuxdoc.org/">a whole lot of
 supporting documentation</a>. What more could a hobbit ask for?
-
 <p>
 Sam chose the <a href="http://www.slackware.com/">Slackware</a>
 distribution for installing Linux on the server, as it featured
 extremely stable and tested versions of all the packages and was
 quite flexible, when compared to other Linux distributions. He
-also opted to have <a href="http://www.namesys.com/">ReiserFS</a> 
+also opted to have <a href="http://www.namesys.com/">ReiserFS</a>
 filesystems on the server for better tolerance to power failures
 that could otherwise corrupt the regular <i>ext2fs</i> Linux
 filesystem and, more importantly, for better performance. In this,
@@ -156,39 +141,30 @@ also decided to configure and set up a 2.4.2+ version of <a
 href="http://www.kernel.org/">the Linux kernel</a> because it featured
 immense performance improvements, native ReiserFS support and was even
 more stable than the previous versions.
-
 m4_heading( `1', `details', `Details')
 <p>
-With the operating system set up, Sam went about implementing the 
+With the operating system set up, Sam went about implementing the
 company Intranet following these steps:
-
 <ol>
-
 <li>
 <a href="dns.html">DNS Server</a>
 </li>
-
 <li>
 <a href="mail.html">Email Server</a>
 </li>
-
 <li>
 <a href="proxy.html">Caching Proxy Server</a>
 </li>
-
 <li>
 <a href="file.html">Shared Files Server (for MS Windows)</a>
 </li>
-
 <li>
 <a href="web.html">Intranet Web Server</a>
 </li>
-
 <li>
 <a href="news.html">Newsgroups Server</a>
 </li>
 </ol>
-
 m4_heading( `1', `alt', `Alternatives')
 <p>
 It is not as if Sam did not look at other operating systems
@@ -197,7 +173,7 @@ zealot, Sam in fact was most comfortable with Microsoft Windows
 NT, and the software available on it. However, with the kind of
 limited resources and budget that Sam had, Windows just did not
 work out for him. For example, the most natural choice for Sam
-was using 
+was using
 <a href="http://www.microsoft.com/iis/">Microsoft
 IIS</a> on Windows NT. However, it required him to get a Windows
 NT Server license, which was just out of question for him. He
@@ -205,19 +181,17 @@ just couldn't find <i>free</i> or cheap, yet reliable, server
 software on Windows. For example, the only reasonable caching
 web proxy servers that he could find for Windows were
 <a href="http://www.microsoft.com/proxy/">Microsoft
-Proxy Server</a> and 
+Proxy Server</a> and
 <a href="http://www.iplanet.com/products/iplanet_proxy/">iPlanet Proxy
 Server</a>, both of which were exorbitantly priced.
-
 <p>
 He also looked at the other operating systems for PCs, most notably
-<a href="http://www.freebsd.org/">FreeBSD</a>, and 
+<a href="http://www.freebsd.org/">FreeBSD</a>, and
 though he liked the stability and general robustness of this system,
 he just didn't find enough resources on the Internet to help him
 out with the setup. And to be really frank, Sam <i>did</i> have
 some experience with Linux, so he was a bit biased towards it.
 <code>;-)</code>
-
 <br>
 m4_heading( `1', `conclusion', `Conclusion')
 <p>
@@ -225,19 +199,16 @@ Sam's wisdom and effort helped the company make the maximum
 utilisation of their then scarce resources. The Intranet went
 beyond its original goals of helping save bandwidth and helped
 create a community of hobbits working for the company with a
-level of sharing and <i>camaraderie</i> hitherto unseen in 
+level of sharing and <i>camaraderie</i> hitherto unseen in
 the industry. <i>Hobbitware.com</i> became a model for other
 companies looking to improve resource utilisation and employee
 satisfaction. Frodo was immensely pleased with Sam and gave him a
-big bonus and a raise. 
-
+big bonus and a raise.
 <p>
 Over time the company grew in size and acquired
 a much fatter Internet connection, but the Intranet server continued
 to serve the community of hobbits merrily at work there, even though
 bandwidth-saving was no longer a primary requirement.
-
-
 <br>
 m4_heading( `1', `ack', `Acknowledgements')
 <p>
@@ -245,23 +216,20 @@ The author expresses his gratitude towards <a href="http://www.thbs.com/">Torry
 Harris Business Solutions</a>, his employers
 at the time of this writing, for providing the infrastructure
 and support needed to test the concepts given here.
-
 <p>
 Words can not do justice to the value of the effort of thousands
 of people from around the world who have provided us with software
 of such superior quality for free, and others who have written
 documentation that helps us use them effectively. The author
 hopes to contribute to this effort in his own small way.
-
 <p>
-And last, but not the least, the author wishes to specially thank 
-the late J.R.R. Tolkien for creating 
+And last, but not the least, the author wishes to specially thank
+the late J.R.R. Tolkien for creating
 &quot;<i>The Lord of The Rings</i>&quot; - quite possibly the best
 fantasy fiction ever penned - and Mark Fisher for creating the
-superb 
+superb
 <a href="http://www.glyphweb.com/arda/">Encyclopedia of Arda</a>, a
 fantastic guide to the worlds of Tolkien.
 </div>
-<!-- END: Page Body -->
 m4_dnl
 m4_include(`footer.htm4')m4_dnl

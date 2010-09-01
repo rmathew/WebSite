@@ -1,28 +1,25 @@
-      m4_define( `m4_post_date', `2005-01-26')m4_dnl
-      m4_define( `m4_post_title', `Goa')m4_dnl
-      m4_include( `posttrans.m4')m4_dnl
+m4_define( `m4_post_date', `2005-01-26')m4_dnl
+m4_define( `m4_post_title', `Goa')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
 To celebrate our first anniversary, Anusha and I went to <a
 href="http://www.goatourism.org/">Goa</a> for a short trip.
-
 m4_begin_post_rest
 <p>
 We stayed in Panjim - the capital of Goa - a small and clean city with many
 old buildings from the Portuguese era. We went to a few of the many beautiful
 beaches in Goa including the most popular (especially with western
 tourists) Calangute beach, the rocky Anjuna beach that was the erstwhile
-watering hole of the hippies and still is famous for its flea market and 
+watering hole of the hippies and still is famous for its flea market and
 Goan trance music, the huge and beautiful Colva beach and the clean Vagator
 beach.
-
 <div class="centred">
 <img src="m4_root_dir/images/calangute.jpg" alt="Anusha at the Calangute beach
 in Goa">
 <br>
 <i>Anusha at the Calangute beach in Goa</i>
 </div>
-
 <p>
 We also went to Fort Aguada and went on a night cruise down the
 Mandovi river. We should not be blamed if we had perhaps a bit too
@@ -30,13 +27,12 @@ many of the tasty cashew nuts readily available in Goa.
 <p>
 Three days is just not enough to explore the wonder that is Goa and
 we promised ourselves that we would come back for a much longer stay
-some time soon. We did not even have the time to visit Old Goa and 
+some time soon. We did not even have the time to visit Old Goa and
 see the majestic Se Cathedral and other famous churches and mansions.
 <p>
 We did find Goa a bit too expensive for the average Indian wallet
 and most things way overpriced. One must also either bring one's own vehicle
 or hire a car or a motorcycle to be able to explore Goa properly - the
 public transport takes too much time and is not always available.
-
 m4_end_post_rest
 m4_end_post

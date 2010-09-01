@@ -4,7 +4,6 @@ m4_define(`m4_page_section',``Articles'')m4_dnl
 m4_dnl
 m4_include(`header.htm4')m4_dnl
 m4_dnl
-<!-- BEGIN: Page Body -->
 <div id="main-copy">
 m4_toc
 m4_heading( `1', `file', `File Server')
@@ -15,7 +14,6 @@ Soon they were downloading freeware, shareware, trial
 programs, MP3s, etc. that very quickly saturated the bandwidth
 and slowed Internet access. Dismayed by this situation, Sam
 tried to figure out a way he could reduce the load.
-
 <p>
 Sam noticed that most hobbits downloaded the same programs,
 MP3 songs, etc. The bandwidth could be saved considerably if he could
@@ -26,17 +24,15 @@ of use to others, he could put it into the repository so that
 others could save themselves the trouble of having to download it.
 The repository could be organised into categories that could
 make searching simpler and faster.
-
 <p>
-Most of the hobbits worked on Microsoft Windows NT based 
+Most of the hobbits worked on Microsoft Windows NT based
 computers, while some worked with Microsoft Windows 98.
 The most natural way to access a repository on these
-machines was using Windows shares (using NetBIOS). Sam wanted 
+machines was using Windows shares (using NetBIOS). Sam wanted
 to set up the repository on his Intranet server that was running
 Linux. He wondered if there was a way the Windows machines
 could access this server as if it were another Windows
 machine.
-
 <p>
 Here is where the superlative <a href="http://www.samba.org/">Samba</a> came
 to Sam's rescue. He read up the
@@ -47,7 +43,6 @@ He also read the <a href="http://www.linuxdoc.org/HOWTO/SMB-HOWTO.html">Linux
 SMB HOWTO</a>, but it was not necessary
 this time - the other sources of information were more than
 sufficient for his purpose.
-
 <br>
 m4_heading( `1', `setup', `Setup')
 <p>
@@ -55,16 +50,14 @@ The workstations in the company did not belong to a particular
 Windows Domain - by convention, all of the workstations belonged
 to the &quot;<code>HOBBITWARE</code>&quot; Windows WorkGroup. This
 considerably eased the effort needed to set up the file server.
-
 <p>
 Sam downloaded Samba 2.2.0 sources from one of the mirrors,
 and compiled and installed it. By default, it installed itself
-in &quot;<code>/usr/local/samba</code>&quot;. The 
+in &quot;<code>/usr/local/samba</code>&quot;. The
 configuration file &quot;<code>smb.conf</code>&quot;, had
-to be provided in the &quot;<code>lib</code>&quot; sub-folder 
+to be provided in the &quot;<code>lib</code>&quot; sub-folder
 (he had to write one himself since there was no default, though
 there were a lot of sample configuration files).
-
 <p>
 Sam wrote the configuration file as given in the manual pages.
 There were a lot of options he could play with and tweak. Sam always
@@ -72,67 +65,56 @@ had the excellent Samba tool &quot;<code>testparm</code>&quot;
 that could verify the configuration file after a modification.
 After a bit of experimentation, Sam came up with the following
 working Samba configuration file:
-
 <p>
 <div class="notice">
 <pre>
-
 [global]
-    workgroup = HOBBITWARE
-    security = share
-    server string = Hobbitware Intranet Server
-    lm announce = yes
-    lm interval = 900
-    netbios name = INSERVER
-
+workgroup = HOBBITWARE
+security = share
+server string = Hobbitware Intranet Server
+lm announce = yes
+lm interval = 900
+netbios name = INSERVER
 [Downloads]
-    comment = Repository of downloaded files
-    path = /dump/Downloads
-    guest ok = yes
-    read only = yes
-
+comment = Repository of downloaded files
+path = /dump/Downloads
+guest ok = yes
+read only = yes
 [Uploads]
-    comment = Upload your files here
-    path = /dump/Uploads
-    guest ok = yes
-    writeable = yes
+comment = Upload your files here
+path = /dump/Uploads
+guest ok = yes
+writeable = yes
 </pre>
 </div>
-
 <p>
 This configuration file made the Intranet server advertise
 itself over NetBIOS as &quot;<code>INSERVER</code>&quot; belonging
 to the common workgroup. This enabled it to be visible
 in the &quot;Network Neighbourhood&quot; of the Windows
 workstations used by the hobbits.
-
 <p>
 The server exposed two shares - &quot;Downloads&quot;, through
-which the hobbits could access the repository, and 
+which the hobbits could access the repository, and
 &quot;Uploads&quot;, through which they could submit newly
 downloaded files. Sam requested them to supply a short
 description and a suggested category for cataloguing, whenever
 they uploaded a file. Sam periodically scanned the uploads
 area and moved the files into the appropriate category, except
 on the rare occasions that he rejected a file.
-
 <p>
 After Sam was satisfied with the way it worked, he added
-the Samba daemons 
+the Samba daemons
 &quot;<code>/usr/local/samba/bin/smbd</code>&quot; and
 &quot;<code>/usr/local/samba/bin/nmbd</code>&quot; to the
 system startup scripts.
-
-
 <br>
 m4_heading( `1', `maint', `Maintenance')
 <p>
 Aside from the maintenance of the repository itself, Samba
-required very little interference from Sam. He was very 
+required very little interference from Sam. He was very
 happy with the way it performed without adversely affecting
 the performance of the Intranet server itself.
-
-
 <br>
 m4_heading( `1', `conclusion', `Conclusion')
 <p>
@@ -141,38 +123,31 @@ get the files they wanted without having to wait for
 excruciatingly slow downloads, if the file was already there.
 The file server worked perfectly and once again, Internet
 access was speeded up.
-
 <br>
 m4_heading( `1', `resources', `Resources')
 <p>
 The following resources proved immensely helpful to Sam
 during the file server setup:
-
 <ol>
-
 <li>
 <a href="http://www.samba.org/">Samba</a>:
 The excellent server solution for Linux that helped the
 Intranet server masquerade as a Windows machine. Sam used
 the version 2.2.0 of this software.
 </li>
-
 <li>
 <a href="http://www.linuxdoc.org/HOWTO/SMB-HOWTO.html">Linux SMB HOWTO</a>:
 A good set of documents
 that explains how to set up Samba on Linux.
 </li>
-
 <li>
 <a href="http://www.oreilly.com/catalog/samba/">Using Samba</a>: The
-excellent book that 
+excellent book that
 explained how Windows shares worked, how Samba worked and
 how to set it up properly. Sam found this book immensely
 useful and practical.
 </li>
-
 </ol>
 </div>
-<!-- END: Page Body -->
 m4_dnl
 m4_include(`footer.htm4')m4_dnl

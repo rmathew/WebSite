@@ -1,6 +1,6 @@
-      m4_define( `m4_post_date', `2004-10-02')m4_dnl
-      m4_define( `m4_post_title', `Windows Hacking')m4_dnl
-      m4_include( `posttrans.m4')m4_dnl
+m4_define( `m4_post_date', `2004-10-02')m4_dnl
+m4_define( `m4_post_title', `Windows Hacking')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
 I decided to try out the demos of a few of the new games like <a
@@ -8,7 +8,6 @@ href="http://www.doom3.com/">Doom 3</a>, <a
 href="http://www.crytek.com/">Far Cry</a> and <a
 href="http://www.princeofpersiagame.com/">Prince of Persia:
 Sands of Time</a> on my home PC.
-
 m4_begin_post_rest
 <p>
 While the latter two didn't have any problems
@@ -28,6 +27,5 @@ has been released (as a DVD-only game!), but we still have not been able to
 lay our hands on it. Hopefully, unlike <a
 href="http://uru.ubisoft.com/">Uru</a>, this game would actually be available
 in the stores here.
-
 m4_end_post_rest
 m4_end_post

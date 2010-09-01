@@ -1,29 +1,26 @@
-      m4_define( `m4_post_date', `2001-12-17')m4_dnl
-      m4_define( `m4_post_title', `Virtual Taj Mahal Demo')m4_dnl
-      m4_include( `posttrans.m4')m4_dnl
+m4_define( `m4_post_date', `2001-12-17')m4_dnl
+m4_define( `m4_post_title', `Virtual Taj Mahal Demo')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
 After working on and off on it, I have finally completed the
 <a href="m4_root_dir/software/index.html#vtaj">VirtualTaj</a> interactive
 3D walkthrough of the famous Taj Mahal. The demo uses <a
-href="http://www.opengl.org/">OpenGL</a> 
-and <a href="http://www.libsdl.org/">SDL</a> and 
-runs on Windows and Linux. You would need a PC with 
+href="http://www.opengl.org/">OpenGL</a>
+and <a href="http://www.libsdl.org/">SDL</a> and
+runs on Windows and Linux. You would need a PC with
 a 3D accelerator card to enjoy this demo properly.
-
 m4_begin_post_rest
 <p>
 <div class="centred">
 <img src="m4_root_dir/software/images/vtscr.png" alt="VirtualTaj Screenshot">
 </div>
-
 <p>
 The original demo was published by <a href="http://www.intel.com/in">Intel
-India</a> - the DirectX code for the original demo 
+India</a> - the DirectX code for the original demo
 was written by <a href="mailto:dsanjit_AT_yahoo_DOT_com">D Sanjit</a>
-and the 3D models and textures were created by 
+and the 3D models and textures were created by
 <a href="http://www.vrrt.com">VR Real Technologies</a>.
 Thanks to all of them for making this demo possible.
-
 m4_end_post_rest
 m4_end_post

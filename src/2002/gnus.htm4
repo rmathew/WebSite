@@ -1,32 +1,29 @@
-      m4_define( `m4_post_date', `2002-09-23')m4_dnl
-      m4_define( `m4_post_title', `GNUs')m4_dnl
-      m4_include( `posttrans.m4')m4_dnl
+m4_define( `m4_post_date', `2002-09-23')m4_dnl
+m4_define( `m4_post_title', `GNUs')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
 I have been playing around with the <a href="http://gcc.gnu.org/java/">GNU
 Compiler for Java (GCJ)</a> and have been trying to
-get it to work reliably as a native compiler on Windows. I <a 
+get it to work reliably as a native compiler on Windows. I <a
 href="http://gcc.gnu.org/ml/java/2002-09/msg00072.html">finally succeeded</a>
 in this goal (sort of) - some
 of the pieces are still unfinished and some are plain missing, but
 as The Beatles put it: &quot;It's getting better all the time!&quot;.
-
 m4_begin_post_rest
 <p>
-The great thing about this effort is that the <a 
+The great thing about this effort is that the <a
 href="http://www.mingw.org/">MinGW</a> and the <a
 href="http://gcc.gnu.org/java/">GCJ</a> developers have been
 very helpful in getting a &quot;newbie&quot; like yours truly
 off the ground and wade through the morass of problems he faced. A big
 and sincere &quot;THANK YOU!&quot; goes out to all these cool guys!
-
 <p>
 Of course, without the ultra-cool <a href="http://www.gmane.org/">Gmane</a>
-<a href="news://news.gmane.org/">newsgroups 
-interface</a> to mailing lists, I could not even have dreamed of 
-subscribing to any of the developer mailing lists that are so 
-vital to community-based software development. Thanks a tonne to 
+<a href="news://news.gmane.org/">newsgroups
+interface</a> to mailing lists, I could not even have dreamed of
+subscribing to any of the developer mailing lists that are so
+vital to community-based software development. Thanks a tonne to
 Lars Magne Ingebrigtsen for Gmane!
-
 m4_end_post_rest
 m4_end_post

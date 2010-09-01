@@ -1,28 +1,25 @@
-      m4_define( `m4_post_date', `2002-07-24')m4_dnl
-      m4_define( `m4_post_title', `On The Other Hand...')m4_dnl
-      m4_include( `posttrans.m4')m4_dnl
+m4_define( `m4_post_date', `2002-07-24')m4_dnl
+m4_define( `m4_post_title', `On The Other Hand...')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-I just discovered the ultra-cool <a 
+I just discovered the ultra-cool <a
 href="http://www.gamepark.co.kr/english/main.asp">GP32</a>
 (&quot;GamePark 32&quot;) handheld gaming console that beats
-the <a href="http://www.gameboyadvance.com/">Game 
+the <a href="http://www.gameboyadvance.com/">Game
 Boy Advance</a> hands down in performance and supported
 features and is much friendlier to developers. It also has a
 growing <a href="http://www.devrs.com/gp32/">developer
 community</a> and supporting freeware tools (including <a
-href="http://users.skynet.be/firefly/gp32/">an 
-emulator</a>). The only problem is that at 
+href="http://users.skynet.be/firefly/gp32/">an
+emulator</a>). The only problem is that at
 <a href="http://www.lik-sang.com/catalog/product_list.php?category=126">$160
-(plus shipping charges)</a>, it is a tad too much 
+(plus shipping charges)</a>, it is a tad too much
 of an indulgence even for yours truly!
-
 m4_begin_post_rest
 <p>
-The GBA is just fine for me, thank you! 
-
+The GBA is just fine for me, thank you!
 <p>
 Well, for the moment at least...
-
 m4_end_post_rest
 m4_end_post

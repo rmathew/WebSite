@@ -1,62 +1,60 @@
-      m4_define( `m4_post_date', `2005-06-07')m4_dnl
-      m4_define( `m4_post_title', `&quot;Holy Blood Holy Grail&quot;')m4_dnl
-      m4_include( `posttrans.m4')m4_dnl
-      m4_begin_post
-      <p>
-      &quot;Holy Blood Holy Grail&quot; (HBHG) by Michael Baigent, Richard
-      Leigh and Henry Lincoln, was published in 1982 and contains a
-      <i>lot</i> of the interesting hypotheses that appear in &quot;The Da
-      Vinci Code&quot; (TDVC), down to the breaking of <i>Sangraal</i> to
-      either read &quot;Holy Grail&quot; or &quot;Royal Blood&quot;. I think
-      I would not have been so gripped by TDVC had I read HBHG before.
-
-      m4_begin_post_rest
-      <div class="book_display">
-        <img src="m4_root_dir/books/images/hbhg.gif"
-          alt="Holy Blood Holy Grail">
-        <br>
-        <a href="http://www.amazon.com/gp/product/0440136482?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0440136482">
-        <img src="m4_root_dir/books/images/buyamz.gif"
-          alt="Buy From Amazon.com">
-        </a>
-        <img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0440136482" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
-      </div>
-      <p>
-      This book is the result of <i>11 years</i> of rather meticulous research
-      by the authors into the mystery surrounding some documents discovered
-      a hundred years earlier in southern France and the mysterious
-      organisation that called itself <a
-      href="http://en.wikipedia.org/wiki/Priory_of_Sion">Priory of Sion</a>,
-      ultimately leading them to question the very foundations of
-      Christianity. This book caused a furore when it was released what with
-      its explosive hypotheses like that of Jesus's mortality, that the
-      crucifixion and the resurrection was staged, that Jesus was married
-      to Mary Magdalene and had at least one child with his bloodline
-      continuing to this day, etc. The authors present extensive cross
-      references and analyses to support these hypotheses unlike some of the
-      seedier books on such topics. If you have read The Bible with an open
-      mind and without considering it to be the literal word of God but a
-      set of interesting historical documents, this book would surely
-      interest you. You should not be shying away from this book even if you
-      are a rather pious and devoted Christian.
-      <p>
-      The book does get a bit tiring at times though and some of the
-      meanderings seem a bit baffling and ultimately pointless (quite like
-      in TDVC). In the end, I still do not know what was written in the
-      documents unearthed in southern France or what the mysterious
-      &quot;<i>Et in Arcadia Ego</i>&quot; is really supposed to signify.
-      The Priory of Sion has apparently been established as a rather
-      elaborate hoax, so the basic foundation on which this book builds its
-      hypotheses has now been badly shaken. There are also quite a few
-      dubious jumps of logical deduction (I do not see how their conclusion
-      follows from the presented &quot;facts&quot;) and to make matters
-      worse, these are taken to be the foundation for the next set of such
-      deductions! Small wonder then that this book was dismissed by a large
-      number of modern scholars. That did not stop it from becoming a
-      bestseller and it would not stop me from recommending it - it never
-      hurts to have an open mind and at least be aware of the alternative
-      theories to the accepted dogma (which itself has rather dubious
-      foundations).
-
-      m4_end_post_rest
-      m4_end_post
+m4_define( `m4_post_date', `2005-06-07')m4_dnl
+m4_define( `m4_post_title', `&quot;Holy Blood Holy Grail&quot;')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+&quot;Holy Blood Holy Grail&quot; (HBHG) by Michael Baigent, Richard
+Leigh and Henry Lincoln, was published in 1982 and contains a
+<i>lot</i> of the interesting hypotheses that appear in &quot;The Da
+Vinci Code&quot; (TDVC), down to the breaking of <i>Sangraal</i> to
+either read &quot;Holy Grail&quot; or &quot;Royal Blood&quot;. I think
+I would not have been so gripped by TDVC had I read HBHG before.
+m4_begin_post_rest
+<div class="book_display">
+<img src="m4_root_dir/books/images/hbhg.gif"
+alt="Holy Blood Holy Grail">
+<br>
+<a href="http://www.amazon.com/gp/product/0440136482?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0440136482">
+<img src="m4_root_dir/books/images/buyamz.gif"
+alt="Buy From Amazon.com">
+</a>
+<img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0440136482" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
+</div>
+<p>
+This book is the result of <i>11 years</i> of rather meticulous research
+by the authors into the mystery surrounding some documents discovered
+a hundred years earlier in southern France and the mysterious
+organisation that called itself <a
+href="http://en.wikipedia.org/wiki/Priory_of_Sion">Priory of Sion</a>,
+ultimately leading them to question the very foundations of
+Christianity. This book caused a furore when it was released what with
+its explosive hypotheses like that of Jesus's mortality, that the
+crucifixion and the resurrection was staged, that Jesus was married
+to Mary Magdalene and had at least one child with his bloodline
+continuing to this day, etc. The authors present extensive cross
+references and analyses to support these hypotheses unlike some of the
+seedier books on such topics. If you have read The Bible with an open
+mind and without considering it to be the literal word of God but a
+set of interesting historical documents, this book would surely
+interest you. You should not be shying away from this book even if you
+are a rather pious and devoted Christian.
+<p>
+The book does get a bit tiring at times though and some of the
+meanderings seem a bit baffling and ultimately pointless (quite like
+in TDVC). In the end, I still do not know what was written in the
+documents unearthed in southern France or what the mysterious
+&quot;<i>Et in Arcadia Ego</i>&quot; is really supposed to signify.
+The Priory of Sion has apparently been established as a rather
+elaborate hoax, so the basic foundation on which this book builds its
+hypotheses has now been badly shaken. There are also quite a few
+dubious jumps of logical deduction (I do not see how their conclusion
+follows from the presented &quot;facts&quot;) and to make matters
+worse, these are taken to be the foundation for the next set of such
+deductions! Small wonder then that this book was dismissed by a large
+number of modern scholars. That did not stop it from becoming a
+bestseller and it would not stop me from recommending it - it never
+hurts to have an open mind and at least be aware of the alternative
+theories to the accepted dogma (which itself has rather dubious
+foundations).
+m4_end_post_rest
+m4_end_post

@@ -4,81 +4,65 @@ m4_define(`m4_page_section',``Books'')m4_dnl
 m4_dnl
 m4_include(`header.htm4')m4_dnl
 m4_dnl
-<!-- BEGIN: Page Body -->
-    <div id="main-copy">
-
-    m4_toc
-
-    m4_heading( `1', `intro', `Introduction')
-
-    <p>
-    I enjoy reading good books. Through these pages I hope to share
-    with you some of the books I have read.
-
-    <div class="notice">
-    <b>NOTE</b>
-    <br>
-    When you read these reviews, do bear the following
-    in mind:
-    <ul>
-    <li>
-    I do not actually own all of these books.
-    </li>
-    <li>
-    Not all the books I own are listed here.
-    </li>
-    <li>
-    Not all the books I have ever read are listed here.
-    </li>
-    <li>
-    If you haven't been able to find a book listed here in a bookstore,
-    a library or on <a href="http://www.amazon.com/">Amazon.com</a>, I
-    would most likely not know where to find it either.
-    </li>
-    </ul>
-    </div>
-
-    <p>
-    You can find some of the book reviews as news items on either <a
-    href="m4_root_dir/index.html">the home page</a> or the <a
-    href="m4_root_dir/archives/index.html">news archives</a>. I write
-    these almost as soon as I finish reading the respective book.
-
-    <p>
-    I do not try to give these books any ratings. I only try to list the
-    more significant books (as I perceive it) in a given category before the
-    other books in that category.
-
-    m4_heading( `1', `cats', `Categories')
-
-    <p>
-    I have tentatively divided the books into the following main
-    categories:
-
-    <ul>
-
-    <li>
-    <a href="cs.html"><b>Computers</b></a>: Computer programming,
-    computer science, software engineering, software design and architecture,
-    etc.
-    </li>
-
-    <li>
-    <a href="fiction.html"><b>Fiction</b></a>: Novels, plays, long and short
-    stories, etc.
-    </li>
-
-    <li>
-    <a href="others.html"><b>Others</b></a>: Everything else - science and
-    technology, philosophy, economics, biographies, etc.
-    </li>
-
-    </ul>
-
-    <p>
-    I hope you enjoy reading the books in these selections as much
-    as I have.
-    </div>
-<!-- END: Page Body -->
+<div id="main-copy">
+m4_toc
+m4_heading( `1', `intro', `Introduction')
+<p>
+I enjoy reading good books. Through these pages I hope to share
+with you some of the books I have read.
+<div class="notice">
+<b>NOTE</b>
+<br>
+When you read these reviews, do bear the following
+in mind:
+<ul>
+<li>
+I do not actually own all of these books.
+</li>
+<li>
+Not all the books I own are listed here.
+</li>
+<li>
+Not all the books I have ever read are listed here.
+</li>
+<li>
+If you haven't been able to find a book listed here in a bookstore,
+a library or on <a href="http://www.amazon.com/">Amazon.com</a>, I
+would most likely not know where to find it either.
+</li>
+</ul>
+</div>
+<p>
+You can find some of the book reviews as news items on either <a
+href="m4_root_dir/index.html">the home page</a> or the <a
+href="m4_root_dir/archives/index.html">news archives</a>. I write
+these almost as soon as I finish reading the respective book.
+<p>
+I do not try to give these books any ratings. I only try to list the
+more significant books (as I perceive it) in a given category before the
+other books in that category.
+m4_heading( `1', `cats', `Categories')
+<p>
+I have tentatively divided the books into the following main
+categories:
+<ul>
+<li>
+<a href="cs.html"><b>Computers</b></a>: Computer programming,
+computer science, software engineering, software design and architecture,
+etc.
+</li>
+<li>
+<a href="fiction.html"><b>Fiction</b></a>: Novels, plays, long and short
+stories, etc.
+</li>
+<li>
+<a href="others.html"><b>Others</b></a>: Everything else - science and
+technology, philosophy, economics, biographies, etc.
+</li>
+</ul>
+<p>
+I hope you enjoy reading the books in these selections as much
+as I have.
+</div>
 m4_dnl
 m4_include(`footer.htm4')m4_dnl

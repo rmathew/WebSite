@@ -1,6 +1,6 @@
-      m4_define( `m4_post_date', `2003-11-09')m4_dnl
-      m4_define( `m4_post_title', `Crash Landing')m4_dnl
-      m4_include( `posttrans.m4')m4_dnl
+m4_define( `m4_post_date', `2003-11-09')m4_dnl
+m4_define( `m4_post_title', `Crash Landing')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
 This afternoon I saw &quot;The Matrix: Revolutions&quot; for the
@@ -8,14 +8,13 @@ second time in five days - I was so eager to watch this final
 installment in the series after the suspense created by the
 last one that I was there to see the movie first day, first show!
 I thought I might have missed out something the last time around.
-
 m4_begin_post_rest
 <p>
 However, I continue to be utterly disappointed by
 this movie - it does not provide any answers to many of the questions
 thrown up by the previous one and has a rather abrupt ending.
 There is also this jarring thing about this Indian family, thrown
-in for no good reason, that talks English in an Indian accent but 
+in for no good reason, that talks English in an Indian accent but
 pronounces Indian names and words with an awful American accent!
 I can rant on and on about this movie, but that will serve no
 purpose - thankfully I have &quot;The Lord of the Rings: Return
@@ -24,7 +23,7 @@ of the King&quot; to look forward to.
 I just finished Peter van der Linden's &quot;Expert C Programming:
 Deep C Secrets&quot;, the best book on the C programming language
 I have ever read after K&amp;R (2nd edition)! It is such a shame that
-this book is not as widely known and bought as it really ought 
+this book is not as widely known and bought as it really ought
 to be. I would very highly recommend this book to any programmer
 wishing to attain a proper command over this much maligned, but
 still wonderfully simple and powerful, programming language.
@@ -41,6 +40,5 @@ Rocket&quot; for the GameBoy Advance as a superb game that is
 both fun and quite challenging - I am half way through the
 &quot;Mania&quot; stage, after having finished all the 25 puzzles
 in each of &quot;Normal&quot;, &quot;Hard&quot; and &quot;Special&quot;.
-
 m4_end_post_rest
 m4_end_post

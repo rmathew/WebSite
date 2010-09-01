@@ -1,112 +1,110 @@
-      m4_define( `m4_post_date', `2007-01-21')m4_dnl
-      m4_define( `m4_post_title', `&quot;Concepts`,' Techniques`,' and Models of Computer Programming&quot;')m4_dnl
-      m4_include( `posttrans.m4')m4_dnl
-      m4_begin_post
-      <p>
-      Although &quot;Concepts, Techniques, and Models of Computer
-      Programming&quot; by Peter Van Roy and Seif Haridi looks
-      intimidatingly big at around 900 pages, I found it surprisingly easy
-      to read. It has a good balance of theoretical and practical
-      descriptions of the concepts covered by it. It has a cohesive
-      overview of the major programming styles in a manner that I have not
-      seen in any other book. I would rank it as a must-read for the serious
-      programmer along with classics like &quot;The Art of Computer
-      Programming&quot; and &quot;Structure and Interpretation of Computer
-      Programming&quot;.
-
-      m4_begin_post_rest
-      <div class="book_display">
-        <img src="m4_root_dir/books/images/ctmcp.jpg"
-          alt="Concepts, Techniques, and Models of Computer Programming">
-        <br>
-        <a href="http://www.amazon.com/gp/product/0262220695?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0262220695">
-        <img src="m4_root_dir/books/images/buyamz.gif"
-          alt="Buy From Amazon.com">
-        </a>
-        <img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0262220695" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
-      </div>
-      <p>
-      The authors introduce various models of computation that cover the
-      declarative and imperative styles of programming, including concurrent
-      variants of each style. The declarative (or stateless) models include
-      functional and logic programming while the imperative (or stateful)
-      models include object-oriented programming. The authors also introduce
-      some specialised models, for example, for distributed programming and
-      constraint programming. All of these models are introduced using a
-      <i>single</i> multi-paradigm programming language named &quot;<a
-      href="http://en.wikipedia.org/wiki/Oz_(programming_language)">Oz</a>&quot;,
-      that was developed by the research groups that the authors belong to
-      and that is implemented by the <a
-      href="http://www.mozart-oz.org/">Mozart</a> programming system. Oz
-      defines a small kernel language that provides the minimal support
-      needed for each model and then defines linguistic abstractions and
-      provides syntactic sugar that makes it convenient to programme in that
-      model. In addition, the authors also provide an overview of a
-      representative programming language for some of the models, including
-      Haskell, Erlang, Java and Prolog.
-      <p>
-      It is obvious that the authors prefer the declarative computational
-      model over the others, but they are honest and pragmatic enough to
-      admit that for at least some programmes, explicit state simplifies
-      the code and makes it more efficient. This is a refreshing change from
-      some authors who insist that functional programming, say, is all that
-      you should ever need and scoff at the mention of having the need to use
-      explicit state for some programming needs. I fully agree with the
-      authors that while explicit state cannot be avoided in some cases, one
-      should try to write as much code as possible using the declarative
-      model since it makes it easier to reason about the programme and
-      presents more opportunities for optimisation to the compiler or
-      interpreter.
-      <p>
-      One of the neat things I learnt from the declarative model presented
-      by the authors is the concept of a &quot;data-flow variable&quot;. A
-      variable is allowed to be unbound in addition to being bound to a
-      single value - if a part of a programme tries to access the value of
-      such an unbound variable in an expression, it is suspended till the
-      time that some other part of the computation binds a value to the
-      variable. This allows simple and reliable concurrency to be
-      programmed in a very neat manner. Another new thing for me was the
-      concept of a &quot;secure variable&quot;.
-      <p>
-      The authors make concurrent programming look much less intimidating
-      and more reliable using data-flow variables and message-passing,
-      though they also cover the kind of shared-state concurrent programming
-      using monitors provided by programming languages like Java. The book
-      also covers determining the space and time efficiency of procedures,
-      proving programme correctness, creating secure ADTs (Abstract Data
-      Types), implementing transactions, providing fault tolerance, etc.
-      You have to read the book to see how expansive the coverage really
-      is and how extensive the bibliography is (should you get curious and
-      decide to explore more about a given topic). This book is not for the
-      complete newcomer to programming though - you have to have had some
-      experience in programming and preferably some prior exposure to
-      different styles of programming to fully appreciate the material
-      presented in the book. As always for such a book, you should
-      definitely try out and play with the given examples in Mozart and
-      at least attempt some of the exercises to really benefit from the book.
-      <p>
-      There are some minor irritants in the book. For example, in the
-      preface and throughout the book the authors keep referring to
-      &quot;the book's web site&quot; but I could not find a single place
-      where the URL of the web site is provided! You have to use a search
-      engine to find out that <a
-      href="http://www.info.ucl.ac.be/~pvr/book.html">this page</a> is most
-      likely the intended place. The interactive development environment of
-      the Mozart programming system is based on <a
-      href="http://www.gnu.org/software/emacs/">Emacs</a> and I had to
-      first download and install this beast (that I had managed to avoid all
-      these years) before I could use Mozart. I am not sure if it is the
-      fault of <a href="http://www.latex-project.org/">LaTeX</a> or the way
-      the authors have used this tool, but most of the figures are not
-      close to the places from where they are referenced, making you
-      flip back and forth unnecessarily between pages. Lastly, I personally
-      thought that for at least some of the models (notably explicit-state
-      and object-oriented), the support in Oz looks awkward unlike that for
-      the other models.
-      <p>
-      All of these irritants can easily be overcome and I would therefore
-      recommend this book to anyone seriously interested in computer
-      programming.
-
-      m4_end_post_rest
-      m4_end_post
+m4_define( `m4_post_date', `2007-01-21')m4_dnl
+m4_define( `m4_post_title', `&quot;Concepts`,' Techniques`,' and Models of Computer Programming&quot;')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+Although &quot;Concepts, Techniques, and Models of Computer
+Programming&quot; by Peter Van Roy and Seif Haridi looks
+intimidatingly big at around 900 pages, I found it surprisingly easy
+to read. It has a good balance of theoretical and practical
+descriptions of the concepts covered by it. It has a cohesive
+overview of the major programming styles in a manner that I have not
+seen in any other book. I would rank it as a must-read for the serious
+programmer along with classics like &quot;The Art of Computer
+Programming&quot; and &quot;Structure and Interpretation of Computer
+Programming&quot;.
+m4_begin_post_rest
+<div class="book_display">
+<img src="m4_root_dir/books/images/ctmcp.jpg"
+alt="Concepts, Techniques, and Models of Computer Programming">
+<br>
+<a href="http://www.amazon.com/gp/product/0262220695?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0262220695">
+<img src="m4_root_dir/books/images/buyamz.gif"
+alt="Buy From Amazon.com">
+</a>
+<img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0262220695" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
+</div>
+<p>
+The authors introduce various models of computation that cover the
+declarative and imperative styles of programming, including concurrent
+variants of each style. The declarative (or stateless) models include
+functional and logic programming while the imperative (or stateful)
+models include object-oriented programming. The authors also introduce
+some specialised models, for example, for distributed programming and
+constraint programming. All of these models are introduced using a
+<i>single</i> multi-paradigm programming language named &quot;<a
+href="http://en.wikipedia.org/wiki/Oz_(programming_language)">Oz</a>&quot;,
+that was developed by the research groups that the authors belong to
+and that is implemented by the <a
+href="http://www.mozart-oz.org/">Mozart</a> programming system. Oz
+defines a small kernel language that provides the minimal support
+needed for each model and then defines linguistic abstractions and
+provides syntactic sugar that makes it convenient to programme in that
+model. In addition, the authors also provide an overview of a
+representative programming language for some of the models, including
+Haskell, Erlang, Java and Prolog.
+<p>
+It is obvious that the authors prefer the declarative computational
+model over the others, but they are honest and pragmatic enough to
+admit that for at least some programmes, explicit state simplifies
+the code and makes it more efficient. This is a refreshing change from
+some authors who insist that functional programming, say, is all that
+you should ever need and scoff at the mention of having the need to use
+explicit state for some programming needs. I fully agree with the
+authors that while explicit state cannot be avoided in some cases, one
+should try to write as much code as possible using the declarative
+model since it makes it easier to reason about the programme and
+presents more opportunities for optimisation to the compiler or
+interpreter.
+<p>
+One of the neat things I learnt from the declarative model presented
+by the authors is the concept of a &quot;data-flow variable&quot;. A
+variable is allowed to be unbound in addition to being bound to a
+single value - if a part of a programme tries to access the value of
+such an unbound variable in an expression, it is suspended till the
+time that some other part of the computation binds a value to the
+variable. This allows simple and reliable concurrency to be
+programmed in a very neat manner. Another new thing for me was the
+concept of a &quot;secure variable&quot;.
+<p>
+The authors make concurrent programming look much less intimidating
+and more reliable using data-flow variables and message-passing,
+though they also cover the kind of shared-state concurrent programming
+using monitors provided by programming languages like Java. The book
+also covers determining the space and time efficiency of procedures,
+proving programme correctness, creating secure ADTs (Abstract Data
+Types), implementing transactions, providing fault tolerance, etc.
+You have to read the book to see how expansive the coverage really
+is and how extensive the bibliography is (should you get curious and
+decide to explore more about a given topic). This book is not for the
+complete newcomer to programming though - you have to have had some
+experience in programming and preferably some prior exposure to
+different styles of programming to fully appreciate the material
+presented in the book. As always for such a book, you should
+definitely try out and play with the given examples in Mozart and
+at least attempt some of the exercises to really benefit from the book.
+<p>
+There are some minor irritants in the book. For example, in the
+preface and throughout the book the authors keep referring to
+&quot;the book's web site&quot; but I could not find a single place
+where the URL of the web site is provided! You have to use a search
+engine to find out that <a
+href="http://www.info.ucl.ac.be/~pvr/book.html">this page</a> is most
+likely the intended place. The interactive development environment of
+the Mozart programming system is based on <a
+href="http://www.gnu.org/software/emacs/">Emacs</a> and I had to
+first download and install this beast (that I had managed to avoid all
+these years) before I could use Mozart. I am not sure if it is the
+fault of <a href="http://www.latex-project.org/">LaTeX</a> or the way
+the authors have used this tool, but most of the figures are not
+close to the places from where they are referenced, making you
+flip back and forth unnecessarily between pages. Lastly, I personally
+thought that for at least some of the models (notably explicit-state
+and object-oriented), the support in Oz looks awkward unlike that for
+the other models.
+<p>
+All of these irritants can easily be overcome and I would therefore
+recommend this book to anyone seriously interested in computer
+programming.
+m4_end_post_rest
+m4_end_post

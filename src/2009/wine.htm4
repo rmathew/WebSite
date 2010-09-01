@@ -1,61 +1,59 @@
-      m4_define( `m4_post_date', `2009-09-12')m4_dnl
-      m4_define( `m4_post_title', `&quot;101 Essential Tips: Wine&quot;')m4_dnl
-      m4_include( `posttrans.m4')m4_dnl
-      m4_begin_post
-      <p>
-      &quot;101 Essential Tips: Wine&quot; by Tom Stevenson is an
-      introductory little book for those interested in wine. It is a
-      copiously-illustrated book with easy-to-read text and is so small that
-      it can be finished in just a single sitting. It serves its purpose
-      fairly well, though the title is a little misleading.
-
-      m4_begin_post_rest
-      <div class="book_display">
-        <img src="m4_root_dir/books/images/m4_post_id.jpg" alt="m4_post_title">
-        <br>
-        <a
-          href="http://www.amazon.com/gp/product/0789496852?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0789496852">
-          <img src="m4_root_dir/books/images/buyamz.gif"
-            alt="Buy From Amazon.com">
-        </a>
-        <img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0789496852" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
-      </div>
-      <p>
-      This book is supposed to be a collection of 101 tips, though most of
-      the text can hardly be described as &quot;tips&quot; - only part of
-      the text, for example the bits dealing with storing wine or what to
-      look for while purchasing wine, can really be thought of as containing
-      tips. The division into 101 tips looks entirely arbitrary and
-      shoe-horned to fit the title of this series of books from the publisher.
-      <p>
-      The book is not entirely suitable for absolute beginners to wine in
-      that it does not tell you just what is meant by terms like
-      &quot;body&quot;, &quot;tannin&quot;, etc. This is important for people
-      who have grown up in cultures (e.g. India) where wine consumption is
-      not prevalant. There are also some terms like &quot;terroir&quot; and
-      &quot;sommelier&quot; that are surprisingly missing from a text of this
-      nature.
-      <p>
-      The book would have benefited from a wine vintage chart (something like
-      <a href="http://www.thewinesocietyofindia.com/wine-vintage-guides/vintage-chart/">this
-      one</a> by the Wine Society of India) to help beginners select a good
-      wine while shopping. It would have also benefited from recommendations
-      for selecting wine that can pair well with Indian or Chinese food.
-      Those of us for whom the correct pronunciation of French or Italian
-      words doesn't come naturally would have appreciated a pronunciation
-      guide for some of the terms.
-      <p>
-      These quibbles aside, I liked the book for its welcoming, unpretentious
-      and non-condescending text. Numerous colourful photographs and figures
-      alongside the text ease the reading further (though I felt that the
-      colour reproduction was not entirely faithful to the respective
-      subjects) and mostly help in visualisation. Some of the tips are really
-      useful if you are not a connoisseur of wine.
-      <p>
-      A book like this can only help you get started with appreciating wine.
-      You need to sample a variety of different wines to really appreciate
-      what such books talk about. This book however is cheap and accessible
-      enough to merit a dekko.
-
-      m4_end_post_rest
-      m4_end_post
+m4_define( `m4_post_date', `2009-09-12')m4_dnl
+m4_define( `m4_post_title', `&quot;101 Essential Tips: Wine&quot;')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+&quot;101 Essential Tips: Wine&quot; by Tom Stevenson is an
+introductory little book for those interested in wine. It is a
+copiously-illustrated book with easy-to-read text and is so small that
+it can be finished in just a single sitting. It serves its purpose
+fairly well, though the title is a little misleading.
+m4_begin_post_rest
+<div class="book_display">
+<img src="m4_root_dir/books/images/m4_post_id.jpg" alt="m4_post_title">
+<br>
+<a
+href="http://www.amazon.com/gp/product/0789496852?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0789496852">
+<img src="m4_root_dir/books/images/buyamz.gif"
+alt="Buy From Amazon.com">
+</a>
+<img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0789496852" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
+</div>
+<p>
+This book is supposed to be a collection of 101 tips, though most of
+the text can hardly be described as &quot;tips&quot; - only part of
+the text, for example the bits dealing with storing wine or what to
+look for while purchasing wine, can really be thought of as containing
+tips. The division into 101 tips looks entirely arbitrary and
+shoe-horned to fit the title of this series of books from the publisher.
+<p>
+The book is not entirely suitable for absolute beginners to wine in
+that it does not tell you just what is meant by terms like
+&quot;body&quot;, &quot;tannin&quot;, etc. This is important for people
+who have grown up in cultures (e.g. India) where wine consumption is
+not prevalant. There are also some terms like &quot;terroir&quot; and
+&quot;sommelier&quot; that are surprisingly missing from a text of this
+nature.
+<p>
+The book would have benefited from a wine vintage chart (something like
+<a href="http://www.thewinesocietyofindia.com/wine-vintage-guides/vintage-chart/">this
+one</a> by the Wine Society of India) to help beginners select a good
+wine while shopping. It would have also benefited from recommendations
+for selecting wine that can pair well with Indian or Chinese food.
+Those of us for whom the correct pronunciation of French or Italian
+words doesn't come naturally would have appreciated a pronunciation
+guide for some of the terms.
+<p>
+These quibbles aside, I liked the book for its welcoming, unpretentious
+and non-condescending text. Numerous colourful photographs and figures
+alongside the text ease the reading further (though I felt that the
+colour reproduction was not entirely faithful to the respective
+subjects) and mostly help in visualisation. Some of the tips are really
+useful if you are not a connoisseur of wine.
+<p>
+A book like this can only help you get started with appreciating wine.
+You need to sample a variety of different wines to really appreciate
+what such books talk about. This book however is cheap and accessible
+enough to merit a dekko.
+m4_end_post_rest
+m4_end_post

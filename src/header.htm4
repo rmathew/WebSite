@@ -1,85 +1,79 @@
 m4_include(`common.m4')m4_dnl
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
-  "http://www.w3.org/TR/html4/strict.dtd">
-<!-- BEGIN: Page Header -->
+"http://www.w3.org/TR/html4/strict.dtd">
 <html>
-  <head>
-    <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <META http-equiv="Cache-Control" content="max-age=86400">
-    <META name="author" content="Ranjit Mathew">
-
-    <link rel="icon" href="m4_root_dir/favicon.ico" type="image/x-icon">
-
-    <link rel="alternate" href="http://rmathew.com/atom.xml"
-      type="application/atom+xml" title="Atom Feed for rmathew.com">
-
-    <link rel="stylesheet" type="text/css" href="m4_root_dir/default.css"
-      media="screen">
-    <link rel="stylesheet" type="text/css" href="m4_root_dir/custom.css">
-    <link rel="stylesheet" type="text/css" href="m4_root_dir/print.css"
-      media="print">
-
-    <title>m4_page_title</title>
-  </head>
-  <body>
-    <div id="header">
-      <div class="superHeader">
-        m4_include( `sitesrch.htm4')
-	<div class="right">
-	  <span class="doNotDisplay">Related Sites:</span>
-          <a href="http://rmathew.com/atom.xml" title="&quot;News&quot; Feed">
-          <img src="m4_root_dir/images/feed.png"
-            alt="Feed Icon">&nbsp;<b>Feed</b></a>
-          |
-	  <a href="http://rmathew.blogspot.com/"
-	    title="Weblog"><b>Blog</b></a>
-	</div>
-      </div>
-      <div class="midHeader">
-	<h1 class="headerTitle">m4_page_title</h1>
-      </div>
-      <div class="subHeader">
-	<span class="doNotDisplay">Sections:</span>
-	<a href="m4_root_dir/index.html"
-	  m4_ifelse(m4_page_section,`Home',`class="highlight"')
-	  title="Home page">Home</a> |
-	<a href="m4_root_dir/articles/index.html"
-	  m4_ifelse(m4_page_section,`Articles',`class="highlight"')
-	  title="Articles on various topics">Articles</a> |
-	<a href="m4_root_dir/software/index.html"
-	  m4_ifelse(m4_page_section,`Software',`class="highlight"')
-	  title="Software for download">Software</a> |
-	<a href="m4_root_dir/books/index.html"
-	  m4_ifelse(m4_page_section,`Books',`class="highlight"')
-	  title="Reviews of books">Book Reviews</a> |
-	<a href="m4_root_dir/archives/index.html"
-	  m4_ifelse(m4_page_section,`Archives',`class="highlight"')
-	  title="Older news entries">News Archives</a>
-      </div>
-    </div>
-    <div id="side-bar">
-      <p class="sideBarTitle">Advertisements
-      <div class="centred">
-        <p>
-        <script type="text/javascript"><!--
-        google_ad_client = "pub-0741944146979582";
-        //rmathew.com
-        google_ad_slot = "5311360670";
-        google_ad_width = 160;
-        google_ad_height = 600;
-        //--></script>
-        <script type="text/javascript"
-        src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-        </script>
-      </div>
-      <p class="sideBarTitle">Acknowledgements
-      <p class="sideBarText">
-      Free hosting provided by <a href="http://www.50webs.com/">50webs</a>.
-      <br>
-      &nbsp;
-      <br>
-      Design based on <a
-      href="http://haran.freeshell.org/oswd/sinorca/">Sinorca 2.0</a>
-      by Haran Sivakumaran.
-    </div>
-<!-- END: Page Header -->
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Cache-Control" content="max-age=86400">
+<META name="author" content="Ranjit Mathew">
+<link rel="icon" href="m4_root_dir/favicon.ico" type="image/x-icon">
+<link rel="alternate" href="http://rmathew.com/atom.xml"
+type="application/atom+xml" title="Atom Feed for rmathew.com">
+<link rel="stylesheet" type="text/css" href="m4_root_dir/default.css"
+media="screen">
+<link rel="stylesheet" type="text/css" href="m4_root_dir/custom.css">
+<link rel="stylesheet" type="text/css" href="m4_root_dir/print.css"
+media="print">
+<title>m4_page_title</title>
+</head>
+<body>
+<div id="header">
+<div class="superHeader">
+m4_include( `sitesrch.htm4')
+<div class="right">
+<span class="doNotDisplay">Related Sites:</span>
+<a href="http://rmathew.com/atom.xml" title="&quot;News&quot; Feed">
+<img src="m4_root_dir/images/feed.png"
+alt="Feed Icon">&nbsp;<b>Feed</b></a>
+|
+<a href="http://rmathew.blogspot.com/"
+title="Weblog"><b>Blog</b></a>
+</div>
+</div>
+<div class="midHeader">
+<h1 class="headerTitle">m4_page_title</h1>
+</div>
+<div class="subHeader">
+<span class="doNotDisplay">Sections:</span>
+<a href="m4_root_dir/index.html"
+m4_ifelse(m4_page_section,`Home',`class="highlight"')
+title="Home page">Home</a> |
+<a href="m4_root_dir/articles/index.html"
+m4_ifelse(m4_page_section,`Articles',`class="highlight"')
+title="Articles on various topics">Articles</a> |
+<a href="m4_root_dir/software/index.html"
+m4_ifelse(m4_page_section,`Software',`class="highlight"')
+title="Software for download">Software</a> |
+<a href="m4_root_dir/books/index.html"
+m4_ifelse(m4_page_section,`Books',`class="highlight"')
+title="Reviews of books">Book Reviews</a> |
+<a href="m4_root_dir/archives/index.html"
+m4_ifelse(m4_page_section,`Archives',`class="highlight"')
+title="Older news entries">News Archives</a>
+</div>
+</div>
+<div id="side-bar">
+<p class="sideBarTitle">Advertisements
+<div class="centred">
+<p>
+<script type="text/javascript"><!--
+google_ad_client = "pub-0741944146979582";
+//rmathew.com
+google_ad_slot = "5311360670";
+google_ad_width = 160;
+google_ad_height = 600;
+//--></script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+<p class="sideBarTitle">Acknowledgements
+<p class="sideBarText">
+Free hosting provided by <a href="http://www.50webs.com/">50webs</a>.
+<br>
+&nbsp;
+<br>
+Design based on <a
+href="http://haran.freeshell.org/oswd/sinorca/">Sinorca 2.0</a>
+by Haran Sivakumaran.
+</div>

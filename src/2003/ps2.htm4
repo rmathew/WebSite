@@ -1,6 +1,6 @@
-      m4_define( `m4_post_date', `2003-11-16')m4_dnl
-      m4_define( `m4_post_title', `PlayStation Too?')m4_dnl
-      m4_include( `posttrans.m4')m4_dnl
+m4_define( `m4_post_date', `2003-11-16')m4_dnl
+m4_define( `m4_post_title', `PlayStation Too?')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
 The <a href="http://www.playstation2.com/">PlayStation 2</a>
@@ -10,7 +10,6 @@ in India</a> now. However, not only is the console exorbitantly
 priced, <a href="http://www.ps2.indiatimes.com/game.html">the
 games available for it now</a> are also priced way beyond the average
 enthusiast's reach.
-
 m4_begin_post_rest
 <p>
 At 2000-3000 rupees per game, it is almost like
@@ -23,7 +22,6 @@ rather than the 45 rupees/dollar exchange rate in the currency markets.
 Interestingly, the Indian economy is the 12th largest in the world in
 terms of exchange rates but becomes the 4th largest in the world when
 PPP rates are taken into account!)
-
 <p>
 To make matters worse, the available games are non-descript at best and
 do not include the real PS2 hits like Gran Turismo 3, Grand Theft Auto,
@@ -31,12 +29,10 @@ Metal Gear Solid 2, etc. How in the heavens do these guys expect this
 console to be hit in India if they price games like this and do not even
 make the really good games available? And then they beat their chests over
 how the Indian market is not really ready for game consoles! Sheesh!
-
 <p>
 The PC games scene in India was also this dismal till some time
 back - thankfully, better sense prevailed among the distributors and most
 games are now priced at 500-700 rupees, although you still run into
 outlandish prices for <i>some</i> of them.
-
 m4_end_post_rest
 m4_end_post

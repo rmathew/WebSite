@@ -1,72 +1,70 @@
-      m4_define( `m4_post_date', `2009-03-20')m4_dnl
-      m4_define( `m4_post_title', `&quot;Computer Organization and Design&quot;')m4_dnl
-      m4_include( `posttrans.m4')m4_dnl
-      m4_begin_post
-      <p>
-      &quot;Computer Organization and Design&quot; by David Patterson and
-      John Hennessy is an introductory text on this subject for budding
-      computer scientists and computer engineers. The field has been
-      in a state of constant flux in recent times and this book serves as an
-      excellent reference even for professionals, since its authors have kept
-      it up-to-date with all the latest developments. The downside is that
-      such a book becomes dated pretty quickly by its very nature, assuming
-      the field continues its breakneck pace of development even into the near
-      future.
-
-      m4_begin_post_rest
-      <div class="book_display">
-        <img src="m4_root_dir/books/images/m4_post_id.jpg" alt="m4_post_title">
-        <br>
-        <a
-          href="http://www.amazon.com/gp/product/0123744938?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0123744938">
-          <img src="m4_root_dir/books/images/buyamz.gif"
-            alt="Buy From Amazon.com">
-        </a>
-        <img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0123744938" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
-      </div>
-      <p>
-      The authors are the designers of two early and successful RISC
-      microprocessor architectures (MIPS and SPARC) and this expertise is
-      demonstrated very well in the book. They do not shy from providing
-      details that other authors might have omitted in an introductory text.
-      The flip side is that the book spends a lot of time on the architecture
-      of a microprocessor and very little on the other aspects of computer
-      architecture and design.
-      <p>
-      The book primarily uses the MIPS architecture to illustrate the concepts.
-      It also uses the x86 architecture in places to illustrate more
-      complex implementations of the basic ideas. The MIPS instruction set
-      and architecture turns out to be fairly regular and minimal, making it
-      a good example from the real world for teaching, unlike the x86
-      instruction set and architecture with its overwhelming complexity and
-      idiosyncracies.
-      <p>
-      The book describes the basics of the MIPS instruction set and then shows
-      how programmes in a high-level language are translated into this
-      instruction set. It describes how instructions are decoded and executed,
-      how arithmetic is implemented, how pipelining works, how caches work,
-      etc. With each chapter, you explore the relevant parts of the MIPS
-      instruction set and architecture. Throughout the book, the authors
-      maintain their &quot;quantitative approach&quot; to this field by
-      showing how to measure various things rather than just describing the
-      concepts.
-      <p>
-      Quite a bit of the book's material has been moved to a companion CD
-      making it a bit cumbersome to refer to that material, especially since
-      the book makes references to this material throughout. This also means
-      that the book is not as bulky as it would have been without the CD and
-      that the authors have been able to provide more information on the CD
-      than would have otherwise been possible in a regular book. I would have
-      personally preferred the &quot;Computers in the Real World&quot; sections
-      after each chapter on the CD rather than in the book since they are so
-      incongruent to the material described in the book.
-      <p>
-      The book stands quite tall compared to the other books on this subject
-      and its current popularity is entirely justified. I wish this book was
-      available when I was studying computer science. If you are a practising
-      computer programmer who graduated quite a while ago, you must get this
-      book and go through it to keep up with the advances in modern
-      microprocessors.
-
-      m4_end_post_rest
-      m4_end_post
+m4_define( `m4_post_date', `2009-03-20')m4_dnl
+m4_define( `m4_post_title', `&quot;Computer Organization and Design&quot;')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+&quot;Computer Organization and Design&quot; by David Patterson and
+John Hennessy is an introductory text on this subject for budding
+computer scientists and computer engineers. The field has been
+in a state of constant flux in recent times and this book serves as an
+excellent reference even for professionals, since its authors have kept
+it up-to-date with all the latest developments. The downside is that
+such a book becomes dated pretty quickly by its very nature, assuming
+the field continues its breakneck pace of development even into the near
+future.
+m4_begin_post_rest
+<div class="book_display">
+<img src="m4_root_dir/books/images/m4_post_id.jpg" alt="m4_post_title">
+<br>
+<a
+href="http://www.amazon.com/gp/product/0123744938?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0123744938">
+<img src="m4_root_dir/books/images/buyamz.gif"
+alt="Buy From Amazon.com">
+</a>
+<img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0123744938" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
+</div>
+<p>
+The authors are the designers of two early and successful RISC
+microprocessor architectures (MIPS and SPARC) and this expertise is
+demonstrated very well in the book. They do not shy from providing
+details that other authors might have omitted in an introductory text.
+The flip side is that the book spends a lot of time on the architecture
+of a microprocessor and very little on the other aspects of computer
+architecture and design.
+<p>
+The book primarily uses the MIPS architecture to illustrate the concepts.
+It also uses the x86 architecture in places to illustrate more
+complex implementations of the basic ideas. The MIPS instruction set
+and architecture turns out to be fairly regular and minimal, making it
+a good example from the real world for teaching, unlike the x86
+instruction set and architecture with its overwhelming complexity and
+idiosyncracies.
+<p>
+The book describes the basics of the MIPS instruction set and then shows
+how programmes in a high-level language are translated into this
+instruction set. It describes how instructions are decoded and executed,
+how arithmetic is implemented, how pipelining works, how caches work,
+etc. With each chapter, you explore the relevant parts of the MIPS
+instruction set and architecture. Throughout the book, the authors
+maintain their &quot;quantitative approach&quot; to this field by
+showing how to measure various things rather than just describing the
+concepts.
+<p>
+Quite a bit of the book's material has been moved to a companion CD
+making it a bit cumbersome to refer to that material, especially since
+the book makes references to this material throughout. This also means
+that the book is not as bulky as it would have been without the CD and
+that the authors have been able to provide more information on the CD
+than would have otherwise been possible in a regular book. I would have
+personally preferred the &quot;Computers in the Real World&quot; sections
+after each chapter on the CD rather than in the book since they are so
+incongruent to the material described in the book.
+<p>
+The book stands quite tall compared to the other books on this subject
+and its current popularity is entirely justified. I wish this book was
+available when I was studying computer science. If you are a practising
+computer programmer who graduated quite a while ago, you must get this
+book and go through it to keep up with the advances in modern
+microprocessors.
+m4_end_post_rest
+m4_end_post

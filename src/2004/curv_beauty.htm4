@@ -1,6 +1,6 @@
-      m4_define( `m4_post_date', `2004-07-10')m4_dnl
-      m4_define( `m4_post_title', `Curvaceous Beauty')m4_dnl
-      m4_include( `posttrans.m4')m4_dnl
+m4_define( `m4_post_date', `2004-07-10')m4_dnl
+m4_define( `m4_post_title', `Curvaceous Beauty')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
 So Srikanth prefers the gorgeous new <a href="http://www.n-gage.com/qd/">N-Gage
@@ -9,7 +9,6 @@ his otherwise new N-Gage and get the N-Gage QD instead! The N-Gage QD
 made its debut, at least here in Bangalore, last week and is available
 at a price of 11,600 Rupees (around 256 US dollars). This would be his
 <i>fourth</i> phone in less than two years.
-
 m4_begin_post_rest
 <p>
 The new &quot;<a href="http://www.animax-asia.com/">Animax
@@ -17,19 +16,16 @@ Asia</a>&quot; channel made its debut here just this week. It is a
 channel dedicated to just showing anime from Japan! A couple
 of years ago, it would have been hard for me to imagine such a thing
 becoming available here in India.
-
 <p>
 I was similarly surprised to see that a lot of new Gotham Comics is now
 being drawn in India! However, I was disgusted to see Spiderman's new
 <a href="http://www.gothamcomics.com/spiderman_india/">Indian
 avatar</a> as &quot;Pavitra Prabhakar&quot; (instead of Peter Parker)
 and clad in a dhoti and shod in jootis when Spiderman! <i>Uggghhh!</i>
-
 <p>
 Hey I did not know that <a href="http://www.moserbaer.com/">Moser Baer</a>
 is actually an Indian company - they make
 very good writable CDs, easily comparable to the best out there!
-
 <p>
 I recently rediscovered the excellent online resource <a
 href="http://en.wikipedia.org/">Wikipedia</a> - I had seen
@@ -39,6 +35,5 @@ in the intervening period. I was also quite sceptical of a wiki producing
 anything useful, considering just how much it can be abused, but I seem
 to be wrong after all. Wikipedia is quickly becoming the de-facto starting
 place for me to find out about something. Very highly recommended.
-
 m4_end_post_rest
 m4_end_post

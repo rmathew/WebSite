@@ -1,67 +1,65 @@
-      m4_define( `m4_post_date', `2004-08-01')m4_dnl
-      m4_define( `m4_post_title', `&quot;The Da Vinci Code&quot;')m4_dnl
-      m4_include( `posttrans.m4')m4_dnl
-      m4_begin_post
-      <p>
-      &quot;<a href="http://www.davincicode.com/">The Da Vinci
-      Code</a>&quot; by <a href="http://www.danbrown.com/">Dan Brown</a> has
-      action, pace and intrigue sustained right throughout and not since
-      &quot;Harry Potter and The Chamber of Secrets&quot; have I wanted to
-      finish a novel in one day and enjoyed it all along! The plot can be
-      summed up as one big treasure hunt (with cryptic clues leading to more
-      clues, as in the eponymous game) for that ultimate Christian quest -
-      the <a href="http://en.wikipedia.org/wiki/Holy_Grail">Holy Grail</a>.
-
-      m4_begin_post_rest
-      <div class="book_display">
-        <img src="m4_root_dir/books/images/tdvc.jpg" alt="The Da Vinci Code">
-        <br>
-        <a href="http://www.amazon.com/gp/product/1400079179?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1400079179">
-        <img src="m4_root_dir/books/images/buyamz.gif"
-          alt="Buy From Amazon.com">
-        </a>
-        <img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=1400079179" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
-      </div>
-      <p>
-      To that end, the author manages to weave a tale involving almost every
-      famous Occidental Christian persona, myth, legend or secret society
-      including the Divine Proportion (also known as &Phi; or the <a
-      href="http://mathworld.wolfram.com/GoldenRatio.html">Golden
-      Ratio</a>), the <a
-      href="http://en.wikipedia.org/wiki/Pentagram">Pentacle</a>, the <a
-      href="http://en.wikipedia.org/wiki/Star_of_David">Star of David</a>,
-      <a href="http://en.wikipedia.org/wiki/Temple_of_Solomon">Solomon's
-      Temple</a>, <a href="http://en.wikipedia.org/wiki/Mary_Magdalene">Mary
-      Magdalene</a> and her alleged relationship with Jesus Christ, the <a
-      href="http://www.earlychristianwritings.com/gnostics.html">Gnostic
-      Gospels</a>, the <a
-      href="http://en.wikipedia.org/wiki/Dead_Sea_Scrolls">Dead Sea
-      Scrolls</a>, <a
-      href="http://en.wikipedia.org/wiki/Constantine_I_of_the_Roman_Empire">Constantine</a>'s
-      massaging of the Old and New Testaments, the <a
-      href="http://www.thebiblecode.com/">Bible Code</a>, the <a
-      href="http://en.wikipedia.org/wiki/Crusade">Crusade</a>, the <a
-      href="http://en.wikipedia.org/wiki/Merovingian">Merovingians</a>, <a
-      href="http://en.wikipedia.org/wiki/Leonardo_da_Vinci">Leonardo da
-      Vinci</a>, <a href="http://en.wikipedia.org/wiki/Isaac_Newton">Isaac
-      Newton</a>, the <a
-      href="http://en.wikipedia.org/wiki/Holy_See">Vatican</a>, the <a
-      href="http://en.wikipedia.org/wiki/Opus_Dei">Opus Dei</a>, the <a
-      href="http://en.wikipedia.org/wiki/Priory_of_Sion">Priory of Sion</a>,
-      the <a href="http://en.wikipedia.org/wiki/Freemasonry">Freemasons</a>,
-      the <a href="http://en.wikipedia.org/wiki/Knights_Templar">Knights
-      Templar</a>, etc. Along the way, one also learns about the surprising
-      etymology of common words like &quot;villain&quot;,
-      &quot;sinister&quot;, &quot;pagan&quot;, etc. Quite a lot for one
-      little novel!
-      <p>
-      Though the novel alleges that the Catholic Church did everything in
-      its power to sideline and almost vilify the role of women, especially
-      Mary Magdalene, I could not help but notice that the author seems to
-      forget about Mary, the mother of Jesus altogether and how she is
-      revered far more than what would be reasonable by just reading the
-      Gospels! Anyway, the book is one hell of a read and I would highly
-      recommend it to anyone.
-
-      m4_end_post_rest
-      m4_end_post
+m4_define( `m4_post_date', `2004-08-01')m4_dnl
+m4_define( `m4_post_title', `&quot;The Da Vinci Code&quot;')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+&quot;<a href="http://www.davincicode.com/">The Da Vinci
+Code</a>&quot; by <a href="http://www.danbrown.com/">Dan Brown</a> has
+action, pace and intrigue sustained right throughout and not since
+&quot;Harry Potter and The Chamber of Secrets&quot; have I wanted to
+finish a novel in one day and enjoyed it all along! The plot can be
+summed up as one big treasure hunt (with cryptic clues leading to more
+clues, as in the eponymous game) for that ultimate Christian quest -
+the <a href="http://en.wikipedia.org/wiki/Holy_Grail">Holy Grail</a>.
+m4_begin_post_rest
+<div class="book_display">
+<img src="m4_root_dir/books/images/tdvc.jpg" alt="The Da Vinci Code">
+<br>
+<a href="http://www.amazon.com/gp/product/1400079179?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1400079179">
+<img src="m4_root_dir/books/images/buyamz.gif"
+alt="Buy From Amazon.com">
+</a>
+<img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=1400079179" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
+</div>
+<p>
+To that end, the author manages to weave a tale involving almost every
+famous Occidental Christian persona, myth, legend or secret society
+including the Divine Proportion (also known as &Phi; or the <a
+href="http://mathworld.wolfram.com/GoldenRatio.html">Golden
+Ratio</a>), the <a
+href="http://en.wikipedia.org/wiki/Pentagram">Pentacle</a>, the <a
+href="http://en.wikipedia.org/wiki/Star_of_David">Star of David</a>,
+<a href="http://en.wikipedia.org/wiki/Temple_of_Solomon">Solomon's
+Temple</a>, <a href="http://en.wikipedia.org/wiki/Mary_Magdalene">Mary
+Magdalene</a> and her alleged relationship with Jesus Christ, the <a
+href="http://www.earlychristianwritings.com/gnostics.html">Gnostic
+Gospels</a>, the <a
+href="http://en.wikipedia.org/wiki/Dead_Sea_Scrolls">Dead Sea
+Scrolls</a>, <a
+href="http://en.wikipedia.org/wiki/Constantine_I_of_the_Roman_Empire">Constantine</a>'s
+massaging of the Old and New Testaments, the <a
+href="http://www.thebiblecode.com/">Bible Code</a>, the <a
+href="http://en.wikipedia.org/wiki/Crusade">Crusade</a>, the <a
+href="http://en.wikipedia.org/wiki/Merovingian">Merovingians</a>, <a
+href="http://en.wikipedia.org/wiki/Leonardo_da_Vinci">Leonardo da
+Vinci</a>, <a href="http://en.wikipedia.org/wiki/Isaac_Newton">Isaac
+Newton</a>, the <a
+href="http://en.wikipedia.org/wiki/Holy_See">Vatican</a>, the <a
+href="http://en.wikipedia.org/wiki/Opus_Dei">Opus Dei</a>, the <a
+href="http://en.wikipedia.org/wiki/Priory_of_Sion">Priory of Sion</a>,
+the <a href="http://en.wikipedia.org/wiki/Freemasonry">Freemasons</a>,
+the <a href="http://en.wikipedia.org/wiki/Knights_Templar">Knights
+Templar</a>, etc. Along the way, one also learns about the surprising
+etymology of common words like &quot;villain&quot;,
+&quot;sinister&quot;, &quot;pagan&quot;, etc. Quite a lot for one
+little novel!
+<p>
+Though the novel alleges that the Catholic Church did everything in
+its power to sideline and almost vilify the role of women, especially
+Mary Magdalene, I could not help but notice that the author seems to
+forget about Mary, the mother of Jesus altogether and how she is
+revered far more than what would be reasonable by just reading the
+Gospels! Anyway, the book is one hell of a read and I would highly
+recommend it to anyone.
+m4_end_post_rest
+m4_end_post

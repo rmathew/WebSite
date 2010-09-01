@@ -1,6 +1,6 @@
-      m4_define( `m4_post_date', `2001-08-12')m4_dnl
-      m4_define( `m4_post_title', `Lost Worlds')m4_dnl
-      m4_include( `posttrans.m4')m4_dnl
+m4_define( `m4_post_date', `2001-08-12')m4_dnl
+m4_define( `m4_post_title', `Lost Worlds')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
 I am reading the excellent Hindi novel <i>Chandrakanta Santati</i>
@@ -10,29 +10,26 @@ a few years later by another massive, six-volume novel named
 <i>Bhootnath</i>. These novels were written sometime in the late 1800s,
 and are arguably some of the best fantasy fiction ever written in
 any language. I find them way superior to Tolkien's, and definitely
-Ms Rowling's, works. Some day I shall write more about them in 
+Ms Rowling's, works. Some day I shall write more about them in
 these pages.
-
 m4_begin_post_rest
 <p>
 For some time, I was completely lost to the beautiful game
 <a href="http://www.myst3.com/">Myst 3: Exile</a>,
-an eagerly awaited sequel in the best-selling 
-<a href="http://www.mystworlds.com/">Myst</a> 
+an eagerly awaited sequel in the best-selling
+<a href="http://www.mystworlds.com/">Myst</a>
 series of games. This game is definitely the most beautiful game
 I have ever seen and was a lot fun to play. It is lacking somewhat
 in technical finesse, but the gameplay and the imagery more than
 made up for it. Heartily recommended, especially to women,
 who are quite put off by the mindless action in the majority of
-the games in the market today. Oh my God! What a game! Now that 
+the games in the market today. Oh my God! What a game! Now that
 I have finished the game, I feel somewhat sad...
-
 <p>
 The site has been reorganised slightly. You will now see the pages
 rendered in whatever colours and fonts you have chosen as the
 defaults in your browser. I have removed all frames and
 JavaScript from the site. I have also added a couple
 of new ones to my bad puns collection.
-
 m4_end_post_rest
 m4_end_post

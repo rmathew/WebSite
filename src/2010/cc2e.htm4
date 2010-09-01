@@ -1,137 +1,135 @@
-      m4_define( `m4_post_date', `2010-02-24')m4_dnl
-      m4_define( `m4_post_title', `&quot;Code Complete&quot;')m4_dnl
-      m4_include( `posttrans.m4')m4_dnl
-      m4_begin_post
-      <p>
-      Books filled with good practical advice about <em>constructing</em>
-      software are rare. <a href="http://cc2e.com/">Code Complete</a> by
-      Steve McConnell is a well-written rarity in this field and has a
-      well-deserved reputation as a classic. It is one of those books that
-      every computer programmer ought to have read. I had read the first
-      edition, published in 1993, as a budding programmer and the book left
-      a lasting impression on me. With the benefit of several years of
-      experience, I find myself agreeing almost entirely with the updated
-      second edition, published in 2004. When someone asks me &quot;How do
-      I write good code?&quot;, I point them to this book without hesitation.
-
-      m4_begin_post_rest
-      <div class="book_display">
-        <img src="m4_root_dir/books/images/m4_post_id.jpg" alt="m4_post_title">
-        <br>
-        <a
-          href="http://www.amazon.com/gp/product/0735619670?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0735619670">
-          <img src="m4_root_dir/books/images/buyamz.gif"
-            alt="Buy From Amazon.com">
-        </a>
-        <img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0735619670" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
-      </div>
-      <p>
-      The book is about &quot;software construction&quot; - as the author
-      notes, this includes coding and debugging, detailed design, construction
-      planning, unit testing, integration, integration testing, etc. The bulk
-      of the book focusses on coding since most of the effort in construction
-      is spent in coding. The emphasis of the book is towards creating a
-      toolbox of effective software construction techniques and on the
-      importance of using the right tool for a given job. In particular,
-      the author repeatedly advises you to programme <em>into</em> a
-      language rather than <em>in</em> it.
-      <p>
-      An endearing quality of the book is that instead of pontificating, the
-      author offers copious references to papers, articles and books to back
-      up his claims. The tone of the book is entirely non-condescending and
-      you can see that the advice is coming from a wary professional with
-      years of experience working on real projects with real people rather
-      than a wily snake-oil salesman. Rookie programmers will do well to heed
-      the advice in the book and experienced programmers will find themselves
-      nodding every now and then as they read the book.
-      <p>
-      At around 960 pages the book might seem intimidatingly big, but it is
-      worth spending the time needed to read it from cover to cover. The book
-      is divided into several parts, each part comprising several cohesive
-      chapters. Each chapter begins with an overview of the material covered
-      in the chapter and ends with pointers to additional resources, a summary
-      of the key points of the chapter and a check-list to help you verify if
-      your code adheres to the guidelines prescribed in the chapter. The
-      side-margins of a page are used to provide cross-references to material
-      covered elsewhere in the book, insightful or funny quotes, a short URL
-      on the book's web-site that contains additional material and icons to
-      bring something to your attention. These icons are &quot;Hard
-      Data&quot; (typically a reference to a study backing some claim),
-      &quot;Key Point&quot; and &quot;Coding Horror&quot; (an example of
-      badly-written code). This structure makes it easy to find the material
-      you're looking for as you refer to the book from time to time.
-      <p>
-      The focus of the book is on imperative programming and it mainly uses
-      code in Visual Basic, C, C++ and Java as examples. Functional
-      programming enthusiasts might particularly take offence to the material
-      on recursion where the author seems quite disinclined to use it and
-      advises minimising its usage. The author gives an example of a recursive
-      implementation of a factorial function and says that it is slow and has
-      an unpredictable impact on memory. In fact, the code uses a <a
-      href="http://en.wikipedia.org/wiki/Tail_call">tail-call</a> and is
-      therefore a prime candidate for tail-call optimisation using a decent
-      compiler. A good programmer can use recursion to create neat functions
-      without adverse effects in many a case.
-      <p>
-      The author rightly points out the perils of <em>premature</em>
-      optimisation of programmes, especially that done without proper
-      measurements to identify the real bottlenecks. The primary emphasis
-      should be on creating correct and maintainable code with performance
-      improvements taken up at the end, <em>if</em> it is needed. I generally
-      agree with this, but would point out that many a time you would barely
-      have time to tackle performance in the end if you're working on a tight
-      schedule (as most of us are forced to do). Many programmes also have a
-      flat profile in that there are no obvious bottlenecks and yet the
-      programme is unacceptably slow. If you have automated regression-testing
-      set up with comprehensive code-coverage (as the author recommends
-      elsewhere in the book), performance becomes important even if it doesn't
-      matter during a single run of the programme or during a typical
-      user-interaction. In such cases, it might be better to keep an eye on
-      the performance of a programme during most of its construction.
-      <p>
-      There are at least three important aspects of software construction
-      that the author unfortunately leaves out of this otherwise excellent
-      and comprehensive book: security, supportability and concurrency.
-      Writing secure code is difficult, but very important and precious few
-      programmers are aware of the necessary techniques. The supportability of
-      software determines how effectively you are able to diagnose problems
-      encountered during its deployment - logging, state-dumps, etc. are
-      techniques that help here. Concurrency is important but is made
-      difficult by constructs available in mainstream programming languages.
-      To be fair to the author, it is only relatively-recently that security
-      and concurrency have come into increased focus with the Internet and
-      many-core CPUs being the prime drivers respectively.
-      <p>
-      With an additional 10 years of experience gained before the publication
-      of the second edition of this book, the author has slightly revised some
-      of his earlier recommendations and freely admits it. For example, the
-      first edition recommended a pretty-formatting of code where the
-      &quot;=&quot; operators of consecutive assignment statements line up
-      like this:
-      <pre>
-        int foo       = bar;
-        boolean snafu = wombat;
-      </pre>
-      <p>
-      It turns out that while this looks pretty in the beginning, it leads
-      to additional effort as the code changes (e.g. variables change names)
-      during subsequent maintenance. It is not much worse to have a simpler
-      formatting that does not place unnecessary burden on maintenance. The
-      second edition also covers object-oriented programming and agile
-      development methods, but presents them in an even-handed pragmatic
-      manner. Much of the advice from the first edition remains intact in
-      the second edition.
-      <p>
-      The quality of the Indian reprint, published by <a
-      href="http://www.wppublishers.com/">WP Publishers</a>, is unfortunately
-      quite disappointing. It has very thin pages because of which some of the
-      text and graphics on the opposite side of a page show through. The ink
-      doesn't have a good consistency and fades a bit in some places. These
-      make it a bit hard to read this reprint. At a price of Rs 600, they
-      could have done a better job.
-      <p>
-      If you are a computer programmer and wish to improve yourself, get this
-      book and read it.
-
-      m4_end_post_rest
-      m4_end_post
+m4_define( `m4_post_date', `2010-02-24')m4_dnl
+m4_define( `m4_post_title', `&quot;Code Complete&quot;')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+Books filled with good practical advice about <em>constructing</em>
+software are rare. <a href="http://cc2e.com/">Code Complete</a> by
+Steve McConnell is a well-written rarity in this field and has a
+well-deserved reputation as a classic. It is one of those books that
+every computer programmer ought to have read. I had read the first
+edition, published in 1993, as a budding programmer and the book left
+a lasting impression on me. With the benefit of several years of
+experience, I find myself agreeing almost entirely with the updated
+second edition, published in 2004. When someone asks me &quot;How do
+I write good code?&quot;, I point them to this book without hesitation.
+m4_begin_post_rest
+<div class="book_display">
+<img src="m4_root_dir/books/images/m4_post_id.jpg" alt="m4_post_title">
+<br>
+<a
+href="http://www.amazon.com/gp/product/0735619670?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0735619670">
+<img src="m4_root_dir/books/images/buyamz.gif"
+alt="Buy From Amazon.com">
+</a>
+<img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0735619670" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
+</div>
+<p>
+The book is about &quot;software construction&quot; - as the author
+notes, this includes coding and debugging, detailed design, construction
+planning, unit testing, integration, integration testing, etc. The bulk
+of the book focusses on coding since most of the effort in construction
+is spent in coding. The emphasis of the book is towards creating a
+toolbox of effective software construction techniques and on the
+importance of using the right tool for a given job. In particular,
+the author repeatedly advises you to programme <em>into</em> a
+language rather than <em>in</em> it.
+<p>
+An endearing quality of the book is that instead of pontificating, the
+author offers copious references to papers, articles and books to back
+up his claims. The tone of the book is entirely non-condescending and
+you can see that the advice is coming from a wary professional with
+years of experience working on real projects with real people rather
+than a wily snake-oil salesman. Rookie programmers will do well to heed
+the advice in the book and experienced programmers will find themselves
+nodding every now and then as they read the book.
+<p>
+At around 960 pages the book might seem intimidatingly big, but it is
+worth spending the time needed to read it from cover to cover. The book
+is divided into several parts, each part comprising several cohesive
+chapters. Each chapter begins with an overview of the material covered
+in the chapter and ends with pointers to additional resources, a summary
+of the key points of the chapter and a check-list to help you verify if
+your code adheres to the guidelines prescribed in the chapter. The
+side-margins of a page are used to provide cross-references to material
+covered elsewhere in the book, insightful or funny quotes, a short URL
+on the book's web-site that contains additional material and icons to
+bring something to your attention. These icons are &quot;Hard
+Data&quot; (typically a reference to a study backing some claim),
+&quot;Key Point&quot; and &quot;Coding Horror&quot; (an example of
+badly-written code). This structure makes it easy to find the material
+you're looking for as you refer to the book from time to time.
+<p>
+The focus of the book is on imperative programming and it mainly uses
+code in Visual Basic, C, C++ and Java as examples. Functional
+programming enthusiasts might particularly take offence to the material
+on recursion where the author seems quite disinclined to use it and
+advises minimising its usage. The author gives an example of a recursive
+implementation of a factorial function and says that it is slow and has
+an unpredictable impact on memory. In fact, the code uses a <a
+href="http://en.wikipedia.org/wiki/Tail_call">tail-call</a> and is
+therefore a prime candidate for tail-call optimisation using a decent
+compiler. A good programmer can use recursion to create neat functions
+without adverse effects in many a case.
+<p>
+The author rightly points out the perils of <em>premature</em>
+optimisation of programmes, especially that done without proper
+measurements to identify the real bottlenecks. The primary emphasis
+should be on creating correct and maintainable code with performance
+improvements taken up at the end, <em>if</em> it is needed. I generally
+agree with this, but would point out that many a time you would barely
+have time to tackle performance in the end if you're working on a tight
+schedule (as most of us are forced to do). Many programmes also have a
+flat profile in that there are no obvious bottlenecks and yet the
+programme is unacceptably slow. If you have automated regression-testing
+set up with comprehensive code-coverage (as the author recommends
+elsewhere in the book), performance becomes important even if it doesn't
+matter during a single run of the programme or during a typical
+user-interaction. In such cases, it might be better to keep an eye on
+the performance of a programme during most of its construction.
+<p>
+There are at least three important aspects of software construction
+that the author unfortunately leaves out of this otherwise excellent
+and comprehensive book: security, supportability and concurrency.
+Writing secure code is difficult, but very important and precious few
+programmers are aware of the necessary techniques. The supportability of
+software determines how effectively you are able to diagnose problems
+encountered during its deployment - logging, state-dumps, etc. are
+techniques that help here. Concurrency is important but is made
+difficult by constructs available in mainstream programming languages.
+To be fair to the author, it is only relatively-recently that security
+and concurrency have come into increased focus with the Internet and
+many-core CPUs being the prime drivers respectively.
+<p>
+With an additional 10 years of experience gained before the publication
+of the second edition of this book, the author has slightly revised some
+of his earlier recommendations and freely admits it. For example, the
+first edition recommended a pretty-formatting of code where the
+&quot;=&quot; operators of consecutive assignment statements line up
+like this:
+<pre>
+int foo       = bar;
+boolean snafu = wombat;
+</pre>
+<p>
+It turns out that while this looks pretty in the beginning, it leads
+to additional effort as the code changes (e.g. variables change names)
+during subsequent maintenance. It is not much worse to have a simpler
+formatting that does not place unnecessary burden on maintenance. The
+second edition also covers object-oriented programming and agile
+development methods, but presents them in an even-handed pragmatic
+manner. Much of the advice from the first edition remains intact in
+the second edition.
+<p>
+The quality of the Indian reprint, published by <a
+href="http://www.wppublishers.com/">WP Publishers</a>, is unfortunately
+quite disappointing. It has very thin pages because of which some of the
+text and graphics on the opposite side of a page show through. The ink
+doesn't have a good consistency and fades a bit in some places. These
+make it a bit hard to read this reprint. At a price of Rs 600, they
+could have done a better job.
+<p>
+If you are a computer programmer and wish to improve yourself, get this
+book and read it.
+m4_end_post_rest
+m4_end_post

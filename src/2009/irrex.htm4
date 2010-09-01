@@ -1,64 +1,62 @@
-      m4_define( `m4_post_date', `2009-02-19')m4_dnl
-      m4_define( `m4_post_title', `&quot;Irrational Exuberance&quot;')m4_dnl
-      m4_include( `posttrans.m4')m4_dnl
-      m4_begin_post
-      <p>
-      <a href="http://en.wikipedia.org/wiki/Robert_Shiller">Robert Shiller</a>
-      (of the <a
-      href="http://en.wikipedia.org/wiki/Case-Shiller_index">Case-Shiller
-      housing index</a> fame) is one of the few level-headed economists who
-      have been able to recognise and point out market bubbles in the making
-      and who have had the courage to stand by their analyses even in the face
-      of ridicule. His book &quot;Irrational Exuberance&quot; became famous
-      for calling out the stock-market bubble in the US when it was published
-      in early 2000, just some time before the bubble burst. The second
-      edition of the book has again been remarkable for pointing out the
-      housing-market bubble in the US when it was published in 2005, though
-      this time it took a little over a year since then for the bubble to
-      burst.
-
-      m4_begin_post_rest
-      <div class="book_display">
-        <img src="m4_root_dir/books/images/m4_post_id.jpg" alt="m4_post_title">
-        <br>
-        <a
-          href="http://www.amazon.com/gp/product/0767923634?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0767923634">
-          <img src="m4_root_dir/books/images/buyamz.gif"
-            alt="Buy From Amazon.com">
-        </a>
-        <img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0767923634" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
-      </div>
-      <p>
-      The book starts off by providing a historical perspective of the stock
-      market and the housing market in various cities. It then examines the
-      structural, cultural and psychological factors that result in market
-      bubbles, followed by some of rationalisations that people usually resort
-      to when they find themselves in the midst of such bubbles. It ends with
-      examining the ways in which influential people can prevent such bubbles
-      from forming and hurting a lot of people when they burst.
-      <p>
-      The author has been able to strike a fine balance between academic
-      rigour and prose interesting to the lay person. Almost all the
-      assertions are backed by the relevant data, method of collection,
-      references, etc. There are quite a few endnotes in the book for each
-      chapter so that the serious reader can get more details. At the same
-      time, an intelligent non-economist should also be able to follow and
-      appreciate most of the arguments in this book. This is a rare
-      accomplishment.
-      <p>
-      If you believe in the efficient market hypothesis or that stocks are
-      always good investments for the long run or that real-estate is a sure
-      way of significant capital appreciation, you <i>must</i> read this
-      book and consider the arguments and data provided here. If you were
-      already sceptical of one or more of these theories, you will obtain
-      substantial ammunition here for your debates with people who believe
-      otherwise. The author provides cogent arguments against each of these
-      beliefs that have now become a part of conventional wisdom.
-      <p>
-      The book is somewhat biased towards examining the irrational
-      expectations that people have from the stock market. The book talks
-      about the housing market in detail only in the beginning and in the
-      end. I would have preferred a more uniform treatment of the two.
-
-      m4_end_post_rest
-      m4_end_post
+m4_define( `m4_post_date', `2009-02-19')m4_dnl
+m4_define( `m4_post_title', `&quot;Irrational Exuberance&quot;')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+<a href="http://en.wikipedia.org/wiki/Robert_Shiller">Robert Shiller</a>
+(of the <a
+href="http://en.wikipedia.org/wiki/Case-Shiller_index">Case-Shiller
+housing index</a> fame) is one of the few level-headed economists who
+have been able to recognise and point out market bubbles in the making
+and who have had the courage to stand by their analyses even in the face
+of ridicule. His book &quot;Irrational Exuberance&quot; became famous
+for calling out the stock-market bubble in the US when it was published
+in early 2000, just some time before the bubble burst. The second
+edition of the book has again been remarkable for pointing out the
+housing-market bubble in the US when it was published in 2005, though
+this time it took a little over a year since then for the bubble to
+burst.
+m4_begin_post_rest
+<div class="book_display">
+<img src="m4_root_dir/books/images/m4_post_id.jpg" alt="m4_post_title">
+<br>
+<a
+href="http://www.amazon.com/gp/product/0767923634?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0767923634">
+<img src="m4_root_dir/books/images/buyamz.gif"
+alt="Buy From Amazon.com">
+</a>
+<img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0767923634" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
+</div>
+<p>
+The book starts off by providing a historical perspective of the stock
+market and the housing market in various cities. It then examines the
+structural, cultural and psychological factors that result in market
+bubbles, followed by some of rationalisations that people usually resort
+to when they find themselves in the midst of such bubbles. It ends with
+examining the ways in which influential people can prevent such bubbles
+from forming and hurting a lot of people when they burst.
+<p>
+The author has been able to strike a fine balance between academic
+rigour and prose interesting to the lay person. Almost all the
+assertions are backed by the relevant data, method of collection,
+references, etc. There are quite a few endnotes in the book for each
+chapter so that the serious reader can get more details. At the same
+time, an intelligent non-economist should also be able to follow and
+appreciate most of the arguments in this book. This is a rare
+accomplishment.
+<p>
+If you believe in the efficient market hypothesis or that stocks are
+always good investments for the long run or that real-estate is a sure
+way of significant capital appreciation, you <i>must</i> read this
+book and consider the arguments and data provided here. If you were
+already sceptical of one or more of these theories, you will obtain
+substantial ammunition here for your debates with people who believe
+otherwise. The author provides cogent arguments against each of these
+beliefs that have now become a part of conventional wisdom.
+<p>
+The book is somewhat biased towards examining the irrational
+expectations that people have from the stock market. The book talks
+about the housing market in detail only in the beginning and in the
+end. I would have preferred a more uniform treatment of the two.
+m4_end_post_rest
+m4_end_post

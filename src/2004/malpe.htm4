@@ -1,34 +1,32 @@
-      m4_define( `m4_post_date', `2004-11-16')m4_dnl
-      m4_define( `m4_post_title', `Malp&eacute;')m4_dnl
-      m4_include( `posttrans.m4')m4_dnl
-    m4_begin_post
-    <p>
-    Due to a rare and happy juxtaposition of Diwali, the weekend and Eid, we
-    got five consecutive holidays from the 11th to the 15th of November. We put
-    most of these days to good use by staying at <a
-    href="http://www.theparadiseisle.com">The Paradise Isle Beach
-    Resort</a> on Malpe Beach 7 kilometres off the town of Udupi.
-
-    m4_begin_post_rest
-    <p>
-    While the beach in Malpe is quite nice and largely unspoilt, it is 
-    St Mary's Island (or <i>Tonse Par</i> as the locals call it) near this 
-    beach which can justly be termed &quot;Paradise Isle&quot;!
-    <div class="centred">
-    <img src="m4_root_dir/images/stmarys.jpg"
-    alt="The Beautiful St Mary's Island">
-    <br>
-    <i>The Beautiful St Mary's Island</i>
-    </div>
-    <p>
-    This is supposedly the place where <a
-    href="http://en.wikipedia.org/wiki/Vasco_da_Gama">Vasco da
-    Gama</a> first set foot, but then for some reason continued South
-    and touched mainland India only in Calicut
-    instead of in Malpe. The island is volcanic in origin and has these amazing
-    basalt rocks crystalised into a fantastic hexagonal mosaic reminding us of
-    the <i>Amateria</i> age in <i>Myst 3: Exile</i>. I would not mind terribly
-    if I were to be marooned on this island.
-
-    m4_end_post_rest
-    m4_end_post
+m4_define( `m4_post_date', `2004-11-16')m4_dnl
+m4_define( `m4_post_title', `Malp&eacute;')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+Due to a rare and happy juxtaposition of Diwali, the weekend and Eid, we
+got five consecutive holidays from the 11th to the 15th of November. We put
+most of these days to good use by staying at <a
+href="http://www.theparadiseisle.com">The Paradise Isle Beach
+Resort</a> on Malpe Beach 7 kilometres off the town of Udupi.
+m4_begin_post_rest
+<p>
+While the beach in Malpe is quite nice and largely unspoilt, it is
+St Mary's Island (or <i>Tonse Par</i> as the locals call it) near this
+beach which can justly be termed &quot;Paradise Isle&quot;!
+<div class="centred">
+<img src="m4_root_dir/images/stmarys.jpg"
+alt="The Beautiful St Mary's Island">
+<br>
+<i>The Beautiful St Mary's Island</i>
+</div>
+<p>
+This is supposedly the place where <a
+href="http://en.wikipedia.org/wiki/Vasco_da_Gama">Vasco da
+Gama</a> first set foot, but then for some reason continued South
+and touched mainland India only in Calicut
+instead of in Malpe. The island is volcanic in origin and has these amazing
+basalt rocks crystalised into a fantastic hexagonal mosaic reminding us of
+the <i>Amateria</i> age in <i>Myst 3: Exile</i>. I would not mind terribly
+if I were to be marooned on this island.
+m4_end_post_rest
+m4_end_post

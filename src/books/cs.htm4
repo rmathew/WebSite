@@ -4,27 +4,23 @@ m4_define(`m4_page_section',``Books'')m4_dnl
 m4_dnl
 m4_include(`header.htm4')m4_dnl
 m4_dnl
-<!-- BEGIN: Page Body -->
-    <div id="main-copy">
-      m4_heading( `1', `csbooks', `Computer Books')
-      m4_define( `m4_show_post_date', `false')m4_dnl
-
-      m4_include_post(`2010', `pp2e')
-      m4_include_post(`2007', `ctmcp')
-      m4_include_post(`2010', `cc2e')
-      m4_include_post(`2006', `dromey')
-      m4_include_post(`2010', `tpop')
-      m4_include_post(`2009', `ca')
-      m4_include_post(`2009', `coad')
-      m4_include_post(`2009', `dsna')
-      m4_include_post(`2010', `clrs3e')
-      m4_include_post(`2009', `db')
-      m4_include_post(`2009', `cn')
-      m4_include_post(`2009', `osc')
-      m4_include_post(`2010', `cdk2e')
-      m4_include_post(`2006', `proglang')
-
-    </div>
-<!-- END: Page Body -->
+<div id="main-copy">
+m4_heading( `1', `csbooks', `Computer Books')
+m4_define( `m4_show_post_date', `false')m4_dnl
+m4_include_post(`2010', `pp2e')
+m4_include_post(`2007', `ctmcp')
+m4_include_post(`2010', `cc2e')
+m4_include_post(`2006', `dromey')
+m4_include_post(`2010', `tpop')
+m4_include_post(`2009', `ca')
+m4_include_post(`2009', `coad')
+m4_include_post(`2009', `dsna')
+m4_include_post(`2010', `clrs3e')
+m4_include_post(`2009', `db')
+m4_include_post(`2009', `cn')
+m4_include_post(`2009', `osc')
+m4_include_post(`2010', `cdk2e')
+m4_include_post(`2006', `proglang')
+</div>
 m4_dnl
 m4_include(`footer.htm4')m4_dnl
