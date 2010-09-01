@@ -1,0 +1,66 @@
+m4_define( `m4_post_date', `2010-09-01')m4_dnl
+m4_define( `m4_post_title', `&quot;The Tipping Point&quot;')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+&quot;The Tipping Point&quot; by <a href="http://www.gladwell.com/">Malcolm
+Gladwell</a> is a book that expands upon <a
+href="http://www.gladwell.com/1996/1996_06_03_a_tipping.htm">an article by
+the author in the New Yorker</a> published in 1996. It seeks to explore
+how ideas, products, messages and behaviours &quot;tip over&quot; and suddenly
+spread through or recede from society, just like pathological epidemics
+through a population. These are termed &quot;social epidemics&quot; by the
+author.  Understanding such phenomena can help us effect a desired change in
+society (e.g. market a product or spread a message).
+m4_begin_post_rest
+m4_display_book( `0316346624', `tipping-point-malcolm-gladwell-book-0349113467')
+<p>
+The book is full of several interesting anecdotes on a wide range of topics.
+These include the sudden rise in popularity of Hush Puppies shoes, the sudden
+fall in the crime-rate in New York in the 1990s, the spread of syphilis
+through Baltimore, the midnight ride of <a
+href="http://en.wikipedia.org/wiki/Paul_Revere">Paul Revere</a> in 1775, the
+continued rise in smoking among teens despite several measures by the
+government and social workers, etc. All these anecdotes are presented to
+support various points of the author's thesis, though it is not evident how
+you can decisively conclude anything from these given the lack of hard data.
+Nevertheless the anecdotes do enliven the book preventing it from becoming a
+dry and dull read.
+<p>
+The author presents three &quot;rules of social epidemics&quot;:
+<ol>
+<li>The Law of the Few - a few people with rare social gifts are key
+to spreading epidemics. &quot;Connectors&quot; are the bridges that link a
+lot of people from different groups, &quot;Mavens&quot; actively seek
+knowledge and spread it to others and &quot;Salesmen&quot; persuade people to
+adopt new things that they otherwise would be reluctant to try.</li>
+<li>The Stickiness Factor - an idea or a product should have an essence that
+makes it memorable for people and helps it stay on their mind beyond their
+initial exposure to it.</li>
+<li>The Power of Context - a social epidemic is sensitive to the time and
+place in which it occurs. Without the right context, it will fizzle out.</li>
+</ol>
+<p>
+These are intriguing ideas to be sure, but there is no conclusive evidence
+in the book to support them or to indicate that they are the only ones that
+matter. There are also several leaps of logic in making deductions (&quot;X
+happened and it was because of Y&quot;) that are not at all clear to me. For
+example, the author ultimately attributes the fall in the crime-rate in New
+York in 1990s to &quot;<a
+href="http://en.wikipedia.org/wiki/Broken_windows_theory">fixing broken
+windows</a>&quot;, while &quot;<a
+href="m4_root_dir/2006/freako.html">Freakonomics</a>&quot; demonstrates
+otherwise (and attributes it to the freedom of abortion of unwanted
+pregnancies resulting in fewer unwanted babies).
+<p>
+The book thus appears flawed to me, though it is a must-read simply to
+make sense of what many people keep talking about. If you hear phrases like
+&quot;tipping point&quot;, &quot;social epidemic&quot;, &quot;broken windows
+theory&quot;, &quot;<a
+href="http://en.wikipedia.org/wiki/Bystander_effect">bystander
+effect</a>&quot;, &quot;smoking is not cool - smokers are&quot;, etc.
+dropped into your conversations, this is the book that can give you the
+necessary background. It is light and quick reading and available at a
+cheap price.
+m4_end_post_rest
+m4_end_post
