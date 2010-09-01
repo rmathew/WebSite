@@ -10,16 +10,7 @@ surprisingly-broad set of topics considering its size. It is fairly
 dated now but it still has all the essential data structures, algorithms
 and algorithm analysis techniques.
 m4_begin_post_rest
-<div class="book_display">
-<img src="m4_root_dir/books/images/m4_post_id.jpg" alt="m4_post_title">
-<br>
-<a
-href="http://www.amazon.com/gp/product/0201000237?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0201000237">
-<img src="m4_root_dir/books/images/buyamz.gif"
-alt="Buy From Amazon.com">
-</a>
-<img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0201000237" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
-</div>
+m4_display_book( `0201000237', `data-structures-algorithms-alfred-aho-book-8177588265')
 <p>
 Early on in the book the authors describe algorithm analysis techniques
 and the effect of badly-designed algorithms on performance as the size

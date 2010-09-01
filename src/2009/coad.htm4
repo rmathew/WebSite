@@ -13,16 +13,7 @@ such a book becomes dated pretty quickly by its very nature, assuming
 the field continues its breakneck pace of development even into the near
 future.
 m4_begin_post_rest
-<div class="book_display">
-<img src="m4_root_dir/books/images/m4_post_id.jpg" alt="m4_post_title">
-<br>
-<a
-href="http://www.amazon.com/gp/product/0123744938?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0123744938">
-<img src="m4_root_dir/books/images/buyamz.gif"
-alt="Buy From Amazon.com">
-</a>
-<img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0123744938" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
-</div>
+m4_display_book( `0123744938', `computer-organization-design-patterson-hardware-book-8131222748')
 <p>
 The authors are the designers of two early and successful RISC
 microprocessor architectures (MIPS and SPARC) and this expertise is

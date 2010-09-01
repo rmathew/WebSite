@@ -3,15 +3,15 @@
 # Prints out the m4 macros to include an ordered list of posts from a given
 # year.
 
-if test "$#" -lt "2"
+if [ "$#" != "2" ]
 then
-  echo "ERROR: Output option (\"-html\"/\"-xml\") and year missing!" 1>&2
+  echo "ERROR: Output option (\"-html\"/\"-xml\") and year missing." 1>&2
   exit 1
 fi
 
-if test "$1" != "-html" -a "$1" != "-xml"
+if [ "$1" != "-html" -a "$1" != "-xml" ]
 then
-  echo "ERROR: Output option should be one of \"-html\" and \"-xml\"!" 1>&2
+  echo "ERROR: Output option should be one of \"-html\" or \"-xml\"." 1>&2
   exit 1
 fi
 
@@ -26,7 +26,7 @@ do
   POST_DATE=`echo $i | cut -f1 -d:`
   POST_ID=`echo $i | cut -f2 -d:`
 
-  if test "$1" = "-html"
+  if [ "$1" = "-html" ]
   then
     echo m4_include_post\( \`$2\', \`$POST_ID\'\)
   else

@@ -14,5 +14,4 @@ m4_changequote( `[', `]')m4_dnl
   <updated>m4_esyscmd( [date "+%Y-%m-%dT%H:%M:%S%:z[]m4_dnl"])</updated>
 m4_changequote( [`], ['])m4_dnl
 m4_collect_posts( `xml', `2010')m4_dnl
-m4_collect_posts( `xml', `2009')m4_dnl
 </feed>

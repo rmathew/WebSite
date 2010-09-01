@@ -14,16 +14,7 @@ because of the many recent Indian novels based on life at the IITs and
 the IIMs. However it is certainly one of the better-written novels of
 the lot.
 m4_begin_post_rest
-<div class="book_display">
-<img src="m4_root_dir/books/images/m4_post_id.jpg" alt="m4_post_title">
-<br>
-<a
-href="http://www.amazon.com/gp/product/8172236530?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=8172236530">
-<img src="m4_root_dir/books/images/buyamz.gif"
-alt="Buy From Amazon.com">
-</a>
-<img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=8172236530" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
-</div>
+m4_display_book( `8172236530', `above-average-bagchi-amitabh-book-8172236530')
 <p>
 The comparison with the other popular novel based on life at IIT,
 &quot;<a href="../2004/fps.html">Five Point Someone</a>&quot; by Chetan

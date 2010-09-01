@@ -1,16 +1,16 @@
 # AWK script to convert a post so that it can be included in the site feed.
 
-/m4_end_post/ { trans = "false" }
-
-/m4_post_date/ {
-  year_ind = match( $0, /[0-9][0-9][0-9][0-9]/)
-  post_year = substr( $0, year_ind, 4)
-}
+/m4_end_post/ { emit = "false" }
 
 # NOTE: Uncomment the following for summarised feed.
 #
+# /m4_post_date/ {
+#   year_ind = match( $0, /[0-9][0-9][0-9][0-9]/)
+#   post_year = substr( $0, year_ind, 4)
+# }
+#
 # /m4_begin_post_rest/ {
-#   trans = "false"
+#   emit = "false"
 #   n = split( FILENAME, tmp, "/")
 #   split( tmp[n], tmp, ".")
 #   post_id = tmp[1]
@@ -19,21 +19,14 @@
 # }
 
 {
-  if (trans == "true" && NF > 0)
-  {
+  if (emit == "true" && NF > 0) {
     line = $0
-    gsub( /^[ ]+/, "", line)
-    gsub( /&/, "\\&amp;", line)
-    gsub( /"/, "\\&quot;", line)
-    gsub( /</, "\\&lt;", line)
-    gsub( />/, "\\&gt;", line)
 
     # NOTE: Remove the following condition for summarised feed.
-    if (line != "m4_begin_post_rest" && line != "m4_end_post_rest")
-    {
+    if (line != "m4_begin_post_rest" && line != "m4_end_post_rest") {
       print line
     }
   }
 }
 
-/m4_begin_post$/ { trans = "true" }
+/m4_begin_post$/ { emit = "true" }

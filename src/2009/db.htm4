@@ -15,16 +15,7 @@ database management systems. This is not surprising since most of the
 popular database management systems today are based on this model and
 the author too clearly prefers this data model over all the others.
 m4_begin_post_rest
-<div class="book_display">
-<img src="m4_root_dir/books/images/m4_post_id.jpg" alt="m4_post_title">
-<br>
-<a
-href="http://www.amazon.com/gp/product/0321197844?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0321197844">
-<img src="m4_root_dir/books/images/buyamz.gif"
-alt="Buy From Amazon.com">
-</a>
-<img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0321197844" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
-</div>
+m4_display_book( `0321197844', `introduction-database-systems-date-kannan-book-8177585568')
 <p>
 Almost all of the text in this book is a wistful reflection on the pure
 relational data model and its imperfect implementation in real database

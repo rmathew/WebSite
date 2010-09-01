@@ -27,8 +27,8 @@ $(PUB_DIR)/%.html: %.htm4
 
 # Ditto for ".xml" from ".xm4". Also validate the generated XML.
 $(PUB_DIR)/%.xml: %.xm4
-	m4 --include=$(SRC_DIR) $(M4_DEBUG) --prefix-builtins $< | $(BIN_DIR)/defluff.sh >$@
-	xmllint --noout $@
+	m4 --include=$(SRC_DIR) $(M4_DEBUG) --prefix-builtins $< | $(BIN_DIR)/defluff.sh | awk -f $(BIN_DIR)/eschtml.awk >$@
+	xmllint --noout $@ || rm -i $@
 
 .PHONY: all html xml deps clean
 

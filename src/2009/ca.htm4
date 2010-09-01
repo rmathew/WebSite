@@ -12,16 +12,7 @@ upon these topics. Even then there is a fair amount of overlap among
 these books that is a bit irritating if you have only recently read the
 other book.
 m4_begin_post_rest
-<div class="book_display">
-<img src="m4_root_dir/books/images/m4_post_id.jpg" alt="m4_post_title">
-<br>
-<a
-href="http://www.amazon.com/gp/product/0123704901?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0123704901">
-<img src="m4_root_dir/books/images/buyamz.gif"
-alt="Buy From Amazon.com">
-</a>
-<img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0123704901" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
-</div>
+m4_display_book( `0123704901', `computer-architecture-quantitative-apporoach-fourth-book-8131207269')
 <p>
 The book covers the exploitation of instruction-level parallelism and
 thread-level parallelism in modern microprocessors in great detail. It

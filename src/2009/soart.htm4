@@ -10,16 +10,7 @@ the art books that I have seen in my life), it is a book that I wish I
 had read much earlier in my life. It would make a great gift for a
 teenager to gently initiate them into the wonderful world of art.
 m4_begin_post_rest
-<div class="book_display">
-<img src="m4_root_dir/books/images/m4_post_id.jpg" alt="m4_post_title">
-<br>
-<a
-href="http://www.amazon.com/gp/product/0714832472?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0714832472">
-<img src="m4_root_dir/books/images/buyamz.gif"
-alt="Buy From Amazon.com">
-</a>
-<img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0714832472" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
-</div>
+m4_display_book( `0714832472', `story-art-e-h-gombrich-book-0714832472')
 <p>
 The book mostly covers paintings, sculptures and architecture in its
 coverage of art. The period covered begins from pre-historic times and

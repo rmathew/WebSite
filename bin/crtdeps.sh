@@ -91,7 +91,7 @@ do
 
   if [ -n "$HTML_FILE" ]
   then
-    DEPS=""
+    DEPS="common.m4"
     
     # Find files directly included using "m4_include".
     for j in `grep m4_include\( $i | sed 's/ //g'`
@@ -134,11 +134,8 @@ do
       done
     done
 
-    if [ -n "$DEPS" ]
-    then
-      echo >>$OUTFILE
-      echo $TGT_DIR/$HTML_FILE: $DEPS >>$OUTFILE
-    fi
+    echo >>$OUTFILE
+    echo $TGT_DIR/$HTML_FILE: $DEPS >>$OUTFILE
   fi
 done
 

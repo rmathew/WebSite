@@ -12,16 +12,7 @@ the horrible attrocities of its past either. This is a book written
 by someone who clearly loves the city for what it is and what it has
 been.
 m4_begin_post_rest
-<div class="book_display">
-<img src="m4_root_dir/books/images/m4_post_id.jpg" alt="m4_post_title">
-<br>
-<a
-href="http://www.amazon.com/gp/product/0143036718?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0143036718">
-<img src="m4_root_dir/books/images/buyamz.gif"
-alt="Buy From Amazon.com">
-</a>
-<img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0143036718" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
-</div>
+m4_display_book( `0143036718', `paris-colin-jones-biography-city-book-0140282920')
 <p>
 The coverage of the 2,000-year period is not uniform, with the author
 understandably concentrating on some intervals longer than others
