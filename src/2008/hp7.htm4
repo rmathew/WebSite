@@ -10,16 +10,7 @@ least as of now, this book is supposed to be the final book in this
 series. So it was natural for me to wonder before picking it up whether
 it would provide a closure and a satisfactory resolution for this saga.
 m4_begin_post_rest
-<div class="book_display">
-<img src="m4_root_dir/books/images/m4_post_id.jpg" alt="m4_post_title">
-<br>
-<a
-href="http://www.amazon.com/gp/product/0545010225?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0545010225">
-<img src="m4_root_dir/books/images/buyamz.gif"
-alt="Buy From Amazon.com">
-</a>
-<img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0545010225" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
-</div>
+m4_display_book( `0545010225', `harry-potter-deathly-hallows-rowling-book-0747595836')
 <p>
 After having read the book, the answer seems to be a mixture of
 &quot;yes&quot; and &quot;no&quot; - yes, the hero prevails and evil is

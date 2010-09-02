@@ -15,16 +15,7 @@ black swans in the newly-discovered land of Australia. The book is a
 warning against using induction to derive conclusions that are then
 prone to Black Swans.
 m4_begin_post_rest
-<div class="book_display">
-<img src="m4_root_dir/books/images/m4_post_id.jpg" alt="m4_post_title">
-<br>
-<a
-href="http://www.amazon.com/gp/product/1400063515?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1400063515">
-<img src="m4_root_dir/books/images/buyamz.gif"
-alt="Buy From Amazon.com">
-</a>
-<img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=1400063515" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
-</div>
+m4_display_book( `1400063515', `black-swan-nassim-nicholas-taleb-book-0141034599')
 <p>
 The author divides our observations of the world around us into those
 belonging to &quot;Mediocristan&quot; and &quot;Extremistan&quot;. In

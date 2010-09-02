@@ -12,15 +12,7 @@ I kept postponing it, though I could not help but notice how rapidly
 popular it was becoming. Now that I have finally read it, I
 wholeheartedly agree with almost every praise showered on this book.
 m4_begin_post_rest
-<div class="book_display">
-<img src="m4_root_dir/books/images/freako.jpg" alt="Freakonomics">
-<br>
-<a href="http://www.amazon.com/gp/product/0061234001?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0061234001">
-<img src="m4_root_dir/books/images/buyamz.gif"
-alt="Buy From Amazon.com">
-</a>
-<img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0061234001" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
-</div>
+m4_display_book( `0061234001', `freakonomics-steven-levitt-stephen-dubner-book-0141019018')
 <p>
 This book shows how useful Economics and its tools can be in providing
 us insights into all that is around us. Steven D. Levitt is a maverick

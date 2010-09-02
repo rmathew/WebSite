@@ -9,13 +9,7 @@ it&quot;. This book explores how good problem-solving techniques can
 be applied in computer programming to come up with efficient
 algorithms for many problems.
 m4_begin_post_rest
-<div class="book_display">
-<a href="http://www.amazon.com/gp/product/0134340019?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0134340019">
-<img src="m4_root_dir/books/images/buyamz.gif"
-alt="Buy From Amazon.com">
-</a>
-<img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0134340019" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
-</div>
+m4_display_book( `0134340019', `solve-computer-dromey-book-8131705625')
 <p>
 The problems discussed range from the trivial (&quot;summing up the
 elements of an array&quot;, for example) to the more interesting

@@ -17,16 +17,7 @@ to the field of investing via the influential textbook &quot;Security
 Analysis&quot; that he co-authored with David Dodd and that was
 first published in 1934.
 m4_begin_post_rest
-<div class="book_display">
-<img src="m4_root_dir/books/images/tii.jpg"
-alt="The Intelligent Investor">
-<br>
-<a href="http://www.amazon.com/gp/product/0060555661?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0060555661">
-<img src="m4_root_dir/books/images/buyamz.gif"
-alt="Buy From Amazon.com">
-</a>
-<img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0060555661" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
-</div>
+m4_display_book( `0060555661', `intelligent-investor-benjamin-graham-jason-book-0060555661')
 <p>
 For the laymen, he wrote &quot;The Intelligent Investor&quot;, first
 published in 1949, that lays out the principles of value investing

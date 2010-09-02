@@ -7,16 +7,7 @@ m4_begin_post
 the kind of book everyone who is even remotely interested in science,
 or even slightly intrigued by it, should read.
 m4_begin_post_rest
-<div class="book_display">
-<img src="m4_root_dir/books/images/bbshort.jpg"
-alt="A Short History of Nearly Everything">
-<br>
-<a href="http://www.amazon.com/gp/product/076790818X?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=076790818X">
-<img src="m4_root_dir/books/images/buyamz.gif"
-alt="Buy From Amazon.com">
-</a>
-<img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=076790818X" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
-</div>
+m4_display_book( `076790818X', `short-history-nearly-everything-bill-book-0552997048')
 <p>
 Like most of us, he
 was also intrigued as a kid by the claims of scientists and was

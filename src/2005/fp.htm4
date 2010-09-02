@@ -9,19 +9,10 @@ novel that features a complete program in BASIC for generating all the
 permutations of the letters of God's name in Hebrew
 (&quot;<i>Yahveh</i>&quot;) <i>has</i> to be interesting.
 m4_begin_post_rest
-<div class="book_display">
-<img src="m4_root_dir/books/images/fp.jpg" alt="Foucault's Pendulum">
-<br>
-<a href="http://www.amazon.com/gp/product/015603297X?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=015603297X">
-<img src="m4_root_dir/books/images/buyamz.gif"
-alt="Buy From Amazon.com">
-</a>
-<img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=015603297X" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
-</div>
+m4_display_book( `015603297X', `foucault-s-pendulum-umberto-eco-book-0099287153')
 <p>
-Three rather
-clever editors in a little publishing house invent a plan, just for
-the kicks of it, supposedly of the Knights Templar scattered
+Three rather clever editors in a little publishing house invent a plan,
+just for the kicks of it, supposedly of the Knights Templar scattered
 throughout the world after their trial, after having read through
 several manuscripts of dubious merit on occult and esoterica submitted
 for a forthcoming compilation to be published by the publishing house.

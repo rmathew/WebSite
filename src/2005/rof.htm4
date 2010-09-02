@@ -9,15 +9,7 @@ around cracking the code in the 500 year old obscure book &quot;<a
 href="http://en.wikipedia.org/wiki/Hypnerotomachia_Poliphili">Hypnerotomachia
 Poliphili</a>&quot;.
 m4_begin_post_rest
-<div class="book_display">
-<img src="m4_root_dir/books/images/rof.jpg" alt="The Rule of Four">
-<br>
-<a href="http://www.amazon.com/gp/product/0440241359?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0440241359">
-<img src="m4_root_dir/books/images/buyamz.gif"
-alt="Buy From Amazon.com">
-</a>
-<img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0440241359" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
-</div>
+m4_display_book( `0440241359', `rule-four-ian-caldwell-dustin-book-0099451956')
 <p>
 <a href="http://mitpress.mit.edu/e-books/HP/">That
 book</a> is written in a mixture of many languages by an unknown

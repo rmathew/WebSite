@@ -13,21 +13,12 @@ href="http://en.wikipedia.org/wiki/Hugo_Award">Hugo Award</a> (given
 every year to the best work in science fiction and fantasy). It has
 also won numerous other awards for its creators.
 m4_begin_post_rest
-<div class="book_display">
-<img src="m4_root_dir/books/images/watchmen.jpg" alt="Watchmen">
-<br>
-<a href="http://www.amazon.com/gp/product/0930289234?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0930289234">
-<img src="m4_root_dir/books/images/buyamz.gif"
-alt="Buy From Amazon.com">
-</a>
-<img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0930289234" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
-</div>
+m4_display_book( `0930289234', `watchmen-moore-alan-book-1401222668')
 <p>
-I have to say that I
-fully agree with all the accolades that have been heaped upon this
-fantastic piece of work. You really have to read it yourself to see
-what all the fuss is about - you will never be able to dismiss comics
-as just being for kids after reading this.
+I have to say that I fully agree with all the accolades that have been
+heaped upon this fantastic piece of work. You really have to read it
+yourself to see what all the fuss is about - you will never be able to
+dismiss comics as just being for kids after reading this.
 <p>
 &quot;Watchmen&quot; tells the story of retired and active costumed
 adventurers (masked superheroes) in 1985 in an alternate history

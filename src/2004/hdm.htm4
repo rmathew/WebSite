@@ -14,15 +14,7 @@ released as I cannot imagine how I would have borne the agony of
 having to wait for a couple of years to find out how this delicious
 saga unfolds.
 m4_begin_post_rest
-<div class="book_display">
-<img src="m4_root_dir/books/images/hdm.jpg" alt="His Dark Materials">
-<br>
-<a href="http://www.amazon.com/gp/product/0440238609?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0440238609">
-<img src="m4_root_dir/books/images/buyamz.gif"
-alt="Buy From Amazon.com">
-</a>
-<img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0440238609" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
-</div>
+m4_display_book( `0440238609', `his-dark-materials-philip-pullman-book-0440238609')
 <p>
 Pullman combines the <i>multiverse</i> and <i>dark matter</i> theories
 from modern physics with theology and pure fantasy to create a gripping

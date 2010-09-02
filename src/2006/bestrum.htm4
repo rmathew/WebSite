@@ -8,16 +8,7 @@ m4_begin_post
 personally selected by the author John Mortimer and considered by him
 to be the best among those he has written so far.
 m4_begin_post_rest
-<div class="book_display">
-<img src="m4_root_dir/books/images/bestrum.jpg"
-alt="The Best of Rumpole">
-<br>
-<a href="http://www.amazon.com/gp/product/0140176845?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0140176845">
-<img src="m4_root_dir/books/images/buyamz.gif"
-alt="Buy From Amazon.com">
-</a>
-<img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0140176845" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
-</div>
+m4_display_book( `0140176845', `best-rumpole-john-mortimer-book-0140176845')
 <p>
 Horace Rumpole is an old barrister practising at <a
 href="http://en.wikipedia.org/wiki/The_Old_Bailey">The Old Bailey</a>,

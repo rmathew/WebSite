@@ -10,16 +10,7 @@ Famous</a>&quot; series of books (the first one was on William
 Shakespeare). It is a light book written in a humourous manner and
 is loaded with comic illustrations.
 m4_begin_post_rest
-<div class="book_display">
-<img src="m4_root_dir/books/images/wattt.jpg"
-alt="Writers and Their Tall Tales">
-<br>
-<a href="http://www.amazon.com/gp/product/0439982294?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0439982294">
-<img src="m4_root_dir/books/images/buyamz.gif"
-alt="Buy From Amazon.com">
-</a>
-<img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0439982294" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
-</div>
+m4_display_book( `0439982294', `dead-famous-tracey-turner-writers-book-0439982294')
 <p>
 It talks about some famous authors
 like William Shakespeare, Charles Dickens, Jane Austen, etc. and

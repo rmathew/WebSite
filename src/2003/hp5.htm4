@@ -10,16 +10,7 @@ in the series &quot;Harry Potter and the Goblet of Fire&quot;! It is
 the biggest book in the series and yet manages to keep the reader
 interested throughout by various turns in the plot.
 m4_begin_post_rest
-<div class="book_display">
-<img src="m4_root_dir/books/images/hp5.jpg"
-alt="Harry Potter and the Order of the Phoenix">
-<br>
-<a href="http://www.amazon.com/gp/product/0439358078?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0439358078">
-<img src="m4_root_dir/books/images/buyamz.gif"
-alt="Buy From Amazon.com">
-</a>
-<img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0439358078" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
-</div>
+m4_display_book( `0439358078', `harry-potter-order-phoenix-rowling-book-0747591261')
 <p>
 The biggest complaint I have against this series as a whole is the
 character of Lord Voldemort - apparently so feared by every wizard

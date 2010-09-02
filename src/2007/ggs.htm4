@@ -10,16 +10,7 @@ the Middle East, India and China while places like sub-Saharan Africa,
 Australia and the Americas languished far behind for several thousand
 years?
 m4_begin_post_rest
-<div class="book_display">
-<img src="m4_root_dir/books/images/ggs.jpg"
-alt="Guns, Germs, and Steel">
-<br>
-<a href="http://www.amazon.com/gp/product/0393061310?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0393061310">
-<img src="m4_root_dir/books/images/buyamz.gif"
-alt="Buy From Amazon.com">
-</a>
-<img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0393061310" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
-</div>
+m4_display_book( `0393061310', `guns-germs-steel-jared-diamond-book-0099302780')
 <p>
 In &quot;Guns, Germs, and Steel&quot;, Jared Diamond tries to answer
 these questions based on the theory that environmental factors, rather

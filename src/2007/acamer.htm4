@@ -10,16 +10,7 @@ history of the USA, this is the book that can provide great
 perspectives on the events that shaped the country and wonderful
 insights into the character of its people.
 m4_begin_post_rest
-<div class="book_display">
-<img src="m4_root_dir/books/images/acamer.jpg"
-alt="Alistair Cooke's America">
-<br>
-<a href="http://www.amazon.com/gp/product/1841882291?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1841882291">
-<img src="m4_root_dir/books/images/buyamz.gif"
-alt="Buy From Amazon.com">
-</a>
-<img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=1841882291" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
-</div>
+m4_display_book( `1841882291', `alistair-cooke-s-america-book-0141036087')
 <p>
 If you find yourself
 wondering just how the country was able to achieve so much progress

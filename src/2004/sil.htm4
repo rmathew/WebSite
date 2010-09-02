@@ -9,15 +9,7 @@ tales that make up the epic mythology that forms the background of
 Hobbit&quot; are a must-read for anyone who wishes to fully appreciate
 LOTR.
 m4_begin_post_rest
-<div class="book_display">
-<img src="m4_root_dir/books/images/sil.jpg" alt="The Silmarillion">
-<br>
-<a href="http://www.amazon.com/gp/product/0345325818?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0345325818">
-<img src="m4_root_dir/books/images/buyamz.gif"
-alt="Buy From Amazon.com">
-</a>
-<img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0345325818" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
-</div>
+m4_display_book( `0345325818', `silmarillion-j-r-tolkien-christopher-book-0345325818')
 <p>
 I liked it a lot, though it was a bit tiring in some places and
 the abundance of characters and places was quite overwhelming. Having

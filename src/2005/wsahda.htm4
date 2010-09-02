@@ -8,16 +8,7 @@ by Andrew Donkin in the &quot;Dead Famous&quot; series. It is a great
 little book that is very well-researched and packed with loads of
 interesting nuggets about Elizabethan England.
 m4_begin_post_rest
-<div class="book_display">
-<img src="m4_root_dir/books/images/wsahda.jpg"
-alt="William Shakespeare and His Dramatic Acts">
-<br>
-<a href="http://www.amazon.com/gp/product/0439982693?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0439982693">
-<img src="m4_root_dir/books/images/buyamz.gif"
-alt="Buy From Amazon.com">
-</a>
-<img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0439982693" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
-</div>
+m4_display_book( `0439982693', `dead-famous-andrew-donkin-william-book-0439982693')
 <p>
 It is very easy to
 dismiss this book as frivilous or for the children when you see it in

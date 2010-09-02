@@ -7,15 +7,7 @@ m4_begin_post
 is a book about the life of Linus Torvalds, the creator of Linux,
 till the year 2001. It has been written by Linus and David Diamond.
 m4_begin_post_rest
-<div class="book_display">
-<img src="m4_root_dir/books/images/just4fun.jpg" alt="Just for Fun">
-<br>
-<a href="http://www.amazon.com/gp/product/0066620732?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0066620732">
-<img src="m4_root_dir/books/images/buyamz.gif"
-alt="Buy From Amazon.com">
-</a>
-<img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0066620732" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
-</div>
+m4_display_book( `0066620732', `just-fun-linus-torvalds-david-book-0066620732')
 <p>
 I was eagerly looking forward to reading this book, but it has turned
 out to be a disappointment. It begins awfully and ends even more

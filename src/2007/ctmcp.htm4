@@ -14,16 +14,7 @@ programmer along with classics like &quot;The Art of Computer
 Programming&quot; and &quot;Structure and Interpretation of Computer
 Programming&quot;.
 m4_begin_post_rest
-<div class="book_display">
-<img src="m4_root_dir/books/images/ctmcp.jpg"
-alt="Concepts, Techniques, and Models of Computer Programming">
-<br>
-<a href="http://www.amazon.com/gp/product/0262220695?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0262220695">
-<img src="m4_root_dir/books/images/buyamz.gif"
-alt="Buy From Amazon.com">
-</a>
-<img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0262220695" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
-</div>
+m4_display_book( `0262220695', `concepts-techniques-models-computer-programming-book-8120326857')
 <p>
 The authors introduce various models of computation that cover the
 declarative and imperative styles of programming, including concurrent

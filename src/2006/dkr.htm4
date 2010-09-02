@@ -9,16 +9,7 @@ from the stupid television series of the 1960s. If you liked Tim
 Burton's &quot;Batman&quot; and &quot;Batman Returns&quot; movies,
 you will love this graphic novel.
 m4_begin_post_rest
-<div class="book_display">
-<img src="m4_root_dir/books/images/dkr.jpg"
-alt="The Dark Knight Returns">
-<br>
-<a href="http://www.amazon.com/gp/product/1563893428?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1563893428">
-<img src="m4_root_dir/books/images/buyamz.gif"
-alt="Buy From Amazon.com">
-</a>
-<img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=1563893428" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
-</div>
+m4_display_book( `1563893428', `batman-frank-miller-klaus-janson-book-1563893428')
 <p>
 Ten years after Batman has retired, Gotham city has deteriorated
 into an utterly lawless and crime-ridden city and the US and the

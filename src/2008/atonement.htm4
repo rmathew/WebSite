@@ -13,16 +13,7 @@ downside of having watched the film based on a novel before having read
 it is that it constrains your imagination to be based on the scenes and
 the actors in the film.
 m4_begin_post_rest
-<div class="book_display">
-<img src="m4_root_dir/books/images/m4_post_id.jpg" alt="m4_post_title">
-<br>
-<a
-href="http://www.amazon.com/gp/product/0307387151?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0307387151">
-<img src="m4_root_dir/books/images/buyamz.gif"
-alt="Buy From Amazon.com">
-</a>
-<img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0307387151" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">
-</div>
+m4_display_book( `0307387151', `atonement-ian-mcewan-book-0099507382')
 <p>
 The novel does not disappoint at all. The very first chapter is written
 in a delightfully colourful language that shows how a skilled writer can
