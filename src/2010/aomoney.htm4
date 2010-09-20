@@ -1,0 +1,69 @@
+m4_define( `m4_post_date', `2010-09-20')m4_dnl
+m4_define( `m4_post_title', `&quot;The Ascent of Money&quot;')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I wanted to read &quot;The Ascent of Money&quot; by <a
+href="http://www.niallferguson.com/">Niall Ferguson</a> after having watched
+a local broadcast of <a
+href="http://www.channel4.com/programmes/the-ascent-of-money">the eponymous
+documentary-series from Channel 4</a>. Each episode of the documentary-series
+was about an aspect of finance and was presented by the author himself. As they
+were broadcast around the time of the latest financial crisis (called the
+&quot;Great Recession&quot; by many people), it made for some very interesting
+viewing. Hoping to find more depth and greater detail in the book, I have to
+report that I was mildly disappointed after reading it. If you are totally new
+to the world of finance though, you will very likely find the the
+documentary-series (or the book) entertaining and insightful.
+m4_begin_post_rest
+m4_display_book( `0143116177', `ascent-money-niall-ferguson-financial-book-014103548x')
+<p>
+Apart from the Introduction and the Afterword, the chapters of the book
+follow the same themes as the episodes in the documentary-series and are
+similarly-named. They are:
+<ol>
+<li>Dreams of Avarice - on the rise of credit and the banking system.</li>
+<li>Human Bondage - on the rise of the bond market.</li>
+<li>Blowing Bubbles - on the rise of the stock market.</li>
+<li>Risky Business - on the insurance industry.</li>
+<li>Safe as Houses - on the real-estate market.</li>
+<li>Chimerica - on the symbiotic relationship between China and America and
+how inextricably-linked they are these days.</li>
+</ol>
+<p>
+So closely do most of the chapters follow the corresponding episodes that
+at times I felt as if I was reading the script for the series instead of a
+book proper. The book does not add significantly to the series and is only
+somewhat more detailed. It does provide lots of notes and references
+though that will help you research more on a topic should you so desire. This
+is <em>not</em> to say that the material is not worth your time, but merely
+that if you've either seen all the episodes or read the book, it will probably
+be a waste of time to then go for the other medium of presentation.
+<p>
+The material is quite entertaining and quite revealing at times, perhaps even
+for a seasoned professional in finance. I for one did not know of the
+important role played by financial factors in the French Revolution, the
+defeat of Napolean, the American Civil War, the First World War, etc. Popular
+history, and I dare suspect even academic history, just does not illuminate
+such important aspects of historical events. The author must be commended for
+carrying out the research to unearth these factors and the corresponding
+players.
+<p>
+It is quite clear from the presentation that the author does not really
+believe in the &quot;rational actor&quot; model or the &quot;efficient markets
+hypothesis&quot; that are a staple of mainstream economics. He wants us to
+be aware of the follies of men and economic mishaps of the past as we look
+into the future. This level-headed approach to finance enabled him to make
+predictions at the time of preparing this material that have since played
+out more or less as he had predicted.
+<p>
+I would really have liked a more structured look into the historical origins
+of the monetary system from its barter-based origins. The material focuses
+almost exclusively on the Western world, mentioning innovations in the
+Middle East, India and China almost in passing. This is a glaring omission
+that makes it somewhat lopsided. In each area of finance, the author focuses
+on a few entertaining or insightful events and characters, again making it a
+lopsided presentation. These omissions might have been justified given the
+constraints of a documentary-series, but not in a book.
+m4_end_post_rest
+m4_end_post
