@@ -9,6 +9,7 @@ m4_define( `m4_show_post_date', `false')m4_dnl
 m4_toc
 m4_heading( `1', `art', `Art')
 m4_include_post(`2009', `soart')
+m4_include_post(`2010', `onbeauty')
 m4_heading( `1', `biography', `Biography')
 m4_include_post(`2006', `softwar')
 m4_include_post(`2005', `wsahda')

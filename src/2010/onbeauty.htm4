@@ -1,0 +1,45 @@
+m4_define( `m4_post_date', `2010-10-12')m4_dnl
+m4_define( `m4_post_title', `&quot;On Beauty&quot;')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+&quot;On Beauty&quot; is a lavishly-illustrated book by Umberto Eco and
+Girolamo de Michele (translated from the original Italian into English by
+Alastair McEwen) that explores the depiction of beauty in western art
+through the ages. It uses the art of a period as a reflection of the
+standards of beauty in that period and shows how these standards have
+evolved over time. The discussion excludes beauty in nature or literature
+as well as the depiction of beauty in the art produced by the eastern
+cultures.
+m4_begin_post_rest
+m4_display_book( `0847835308', `beauty-umberto-eco-book-0436205173')
+<p>
+From the idealised depiction of proportions and harmony by the Greek
+artists to the exploration of light and colour in the Middle Ages and
+the abstract depiction of beauty in modern times, the idea of what
+constitutes the beautiful has certainly come a long way, though not
+necessarily to everyone's liking. The authors explore the &quot;beauty
+of the bad&quot; (monsters, demons, etc.) in addition to the &quot;beauty
+of the good&quot; (gods, women, etc.) as they evolved over the centuries.
+<p>
+There is no doubt that this is a well-researched book painstakingly put
+together by the authors and the editors. Apart from copious reproductions of
+relevant art, the book also has extensive quotes from various texts of the
+respective period that reinforce the points made by the authors. The art and
+the quotes are peppered throughout the text <i>in situ</i> instead of being
+collected together in plates or endnotes as in some other books.
+<p>
+The text seems somewhat of a letdown considering that the subject is so
+promising. It comes across as somewhat dull and dry, very unlikely to be just
+an artefact of poor translation. Perhaps it is due to the philosophical
+undertone adopted by the authors throughout the text. The inclusion of beauty
+as depicted in mass-media in the final chapters on modern times is quite
+jarring compared to the rest of the text.
+<p>
+You have to be somewhat familiar with the history of western art and
+the various artistic movements to make sense of some of the text. Ditto for
+western philosophy, though to a far smaller degree. Even without this
+background a reader should be able to follow and appreciate most of the
+discussion.
+m4_end_post_rest
+m4_end_post
