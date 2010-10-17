@@ -1,0 +1,4 @@
+syntax: regexp
+
+^deps.mk$
+^pub/
