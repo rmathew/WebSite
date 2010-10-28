@@ -1,0 +1,65 @@
+m4_define( `m4_post_date', `2010-10-28')m4_dnl
+m4_define( `m4_post_title', `&quot;Predictably Irrational&quot;')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+&quot;Predictably Irrational&quot; is an entertaining and insightful book by <a
+href="http://danariely.com/">Dan Ariely</a> that seeks to show how irrational
+we humans are, in sharp contrast to standard economic theory that assumes
+that people are perfectly rational beings acting in self-interest (<i><a
+href="http://en.wikipedia.org/wiki/Homo_economicus">Homo Economicus</a></i>).
+This realisation forms the basis for the relatively-new field of <a
+href="http://en.wikipedia.org/wiki/Behavioral_economics">Behavioural
+Economics</a> that marries psychology with economics in an attempt to create
+better models for human economic behaviour. Even if you're not interested
+in the study of economics, this is a great book to help you understand how
+your behaviour impacts your ability to take rational decisions and use this
+awareness to minimise the effect of irrational decisions on your life.
+m4_begin_post_rest
+m4_display_book( `0061353248', `predictably-irrational-dan-ariely-book-0007368542')
+<p>
+The book uses the results from several studies to point out that not only are
+we quite irrational while taking economic decisions, contrary to conventional
+economic theory, but we are also irrational in a very predictable way. This
+predictability can help us make better economic choices in our lives. (I must
+point out that most of these studies seem to have been conducted on students
+at MIT and MBA students from some other universities. I wonder how
+representative they are of the human population in general. The author
+himself suggests at one point that MIT has a lot of social misfits.)
+<p>
+This book offers many, many insights into human behaviour - how we are wired
+to make comparisons even when the items under consideration are not readily
+comparable and how clever marketers use this to nudge us into buying something,
+how we are swayed by &quot;FREE!&quot; offers into buy something that we didn't
+want or into pay more for it, how we tend to value things that we own more than
+what others judge them to be worth, how we consider a more expensive item to
+be better than a cheaper alternative, etc. Each of the chapters focusses on an
+insight like this. The author encourages us to pause after reading each
+chapter and reflect upon how some of our past behaviour can be explained by
+the respective insight and how we can change our future behaviour to benefit
+from the insight.
+<p>
+The book is quite well-written and easily accessible to the lay person.
+Bibliographic references direct curious readers to books or papers where they
+can find more information. The amazing thing is that the author manages to
+explain the structure of his experiments, control groups for each experiment
+and elimination of confounding factors in such a way that it does not feel
+burdensome or distracting at all. The text is also peppered with several witty
+remarks by the author that make it even more interesting to read. The author
+must be commended for pulling off such a feat with deceptive ease.
+<p>
+For the more serious reader, the book does not quite explain just how
+economics should be updated to account for the predictably irrational
+behaviour of real humans compared to those of idealised humans with rational
+behaviour. Some of this is implicitly contained in each chapter, but I was
+expecting something like a grand overview of which classic economic theories
+need to be modified and how, based on the research of the authors and
+his associates. I have a feeling that this could have been achieved without
+making the book too taxing for the lay reader, though I do suspect that it
+would have bloated the book without providing much benefit to the vast
+majority of its target audience. Perhaps the intent of the author was to
+merely ask economists to abandon <i>Homo Economicus</i> in favour of <i>Homo
+Sapiens</i> and adjust their theories accordingly without undertaking such
+a venture himself.
+m4_end_post_rest
+m4_end_post

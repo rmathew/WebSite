@@ -1,8 +1,10 @@
 #!/bin/bash
-# For a book-review post, generates only the necessary pages on
-# the web-site. Usage:
+# Generates only the necessary pages on the web-site for a given post.
+# (FIXME: Works only for book-review posts at the moment.)
 #
-#   genbkpgs.sh <page_id> [<cat_id>]
+# Usage:
+#
+#   genminpgs.sh <page_id> [<cat_id>]
 #
 # <cat_id> is the category identifier and has the default value "others".
 
@@ -12,7 +14,7 @@ then
 else
   echo ERROR: Missing book-review page id.
   echo
-  echo Usage: genbkpgs.sh \<page_id\> \[\<cat_id\>\]
+  echo Usage: genminpgs.sh \<page_id\> \[\<cat_id\>\]
   echo
   echo "  If unspecified, <cat_id> has the default value \"others\"."
   exit 1
