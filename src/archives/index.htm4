@@ -10,6 +10,7 @@ m4_heading( `1', `archives', `News Archives')
 You can find archives for news items here. These are listed here in reverse
 chronological order:
 <ul>
+<li><a href="m4_root_dir/2011/index.html">News Archive for 2011</a></li>
 <li><a href="m4_root_dir/2010/index.html">News Archive for 2010</a></li>
 <li><a href="m4_root_dir/2009/index.html">News Archive for 2009</a></li>
 <li><a href="m4_root_dir/2008/index.html">News Archive for 2008</a></li>
