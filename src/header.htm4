@@ -15,6 +15,16 @@ media="screen">
 <link rel="stylesheet" type="text/css" href="m4_root_dir/print.css"
 media="print">
 <title>m4_page_title</title>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2383717-2']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
 </head>
 <body>
 <div id="header">
@@ -23,11 +33,9 @@ m4_include( `sitesrch.htm4')
 <div class="right">
 <span class="doNotDisplay">Related Sites:</span>
 <a href="http://rmathew.com/atom.xml" title="&quot;News&quot; Feed">
-<img src="m4_root_dir/images/feed.png"
-alt="Feed Icon">&nbsp;<b>Feed</b></a>
+<img src="m4_root_dir/images/feed.png" alt="Feed Icon">&nbsp;<b>Feed</b></a>
 |
-<a href="http://rmathew.blogspot.com/"
-title="Weblog"><b>Blog</b></a>
+<a href="http://rmathew.blogspot.com/" title="Weblog"><b>Blog</b></a>
 </div>
 </div>
 <div class="midHeader">
@@ -58,7 +66,6 @@ title="Older news entries">News Archives</a>
 <p>
 <script type="text/javascript"><!--
 google_ad_client = "pub-0741944146979582";
-//rmathew.com
 google_ad_slot = "5311360670";
 google_ad_width = 160;
 google_ad_height = 600;
@@ -74,6 +81,6 @@ Free hosting provided by <a href="http://www.50webs.com/">50webs</a>.
 &nbsp;
 <br>
 Design based on <a
-href="http://haran.freeshell.org/oswd/sinorca/">Sinorca 2.0</a>
-by Haran Sivakumaran.
+href="http://haran.freeshell.org/oswd/sinorca/">Sinorca 2.0</a> by Haran
+Sivakumaran.
 </div>
