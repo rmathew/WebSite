@@ -10,7 +10,7 @@
 body {
   color: black;
   background-color: white;
-  font-family: verdana, helvetica, arial, sans-serif;
+  font-family: sans-serif;
   font-size: 71%;  /* Enables font size scaling in MSIE */
   margin: 0;
   padding: 0;

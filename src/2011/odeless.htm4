@@ -1,0 +1,110 @@
+m4_define( `m4_post_date', `2011-03-03')m4_dnl
+m4_define( `m4_post_title', `&quot;The Ode Less Travelled&quot;')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+&quot;The Ode Less Travelled&quot; by <a
+href="http://www.stephenfry.com/">Stephen Fry</a> is a book that attempts to
+teach you how to write poetry. He introduces the reader to variations of
+metre, rhyme and form in poetry and tries to dispel the myth that in poetry
+these days &quot;anything goes&quot;. Even if you never plan to write poetry,
+this is a good book to read as it illustrates the various techniques and
+constraints that poets work with and will very likely make you appreciate
+poetry more. If you do write poetry, or plan to, this is an indispensible
+book.
+m4_begin_post_rest
+m4_display_book( `1592403115', `ode-less-travelled-stephen-fry-book-0099509342')
+<p>
+The very opening lines of this book are a delight, holding the promise of a
+very interesting read ahead:
+<blockquote>
+<p>I have a dark and dreadful secret. I write poetry.
+</blockquote>
+<p>
+The book is written in a charmingly non-condescending and honest tone. The
+prose sparkles at times with a wit that makes this an enjoyable read.
+Right at the start the author tells you that you must practise every step of
+the way in order to benefit from this book. He introduces the three golden
+rules for making the book work for you, at least two of which apply to reading
+poetry as well:
+<ol>
+<li>Savour a poem - read it as slowly as possible, re-reading it to feel its
+rhythm, balance and shape. If you can, read it out loud.</li>
+<li>Don't be afraid - do not worry about &quot;meaning&quot; while reading
+a poem. Most of the times the meaning will emerge at its own pace.</li>
+<li>Keep a notebook - be ready to write out (<i>not</i> type) a line or a poem
+as inspiration strikes you or as you play with words and techniques in your
+free time.</li>
+</ol>
+<p>
+He presents these rules as the &quot;End User Licence Agreement&quot; for
+reading the book and insists that you agree to them before proceeding with
+reading the rest of the book.
+<p>
+The book is divided into four chapters dealing with metre, rhyme, form and
+diction respectively. The one on metre is the longest, which is somewhat
+understandable as it is the defining characteristic of traditional English
+verse. (It does get a <i>little</i> tedious at times to be honest though.)
+This chapter starts off by explaining how the accentuated manner of speaking
+by native English speakers gives rise to the metre or rhythm of verse. This is
+especially important to understand for non-native speakers of English whose
+native languages are unaccented (as is the case for us Indians). The chapter
+describes all sorts of metre that are found in English verse, providing the
+technical name (invariably Greek) for each variant and several examples from
+the poems of famous and not-so-famous poets.
+<p>
+The chapters on rhyme and form similarly show the respective variants using
+several examples. A nice touch by the author is the liberal use of a poem to
+describe a variant of rhyme or form that is itself written in that form. The
+author not only shows examples of good use of poetic techniques, but also
+several examples of bad use of poetic technique, sometimes by very famous
+poets like Wordsworth. Poetic forms shown here include not just the ones
+found in English, but also &quot;exotic&quot; forms like <i>Haiku</i> and
+<i>Ghazal</i>. <i>Haiku</i> in particular seems to be quite popular as a
+form for English poems on the Internet, but the author shows how in its native
+Japanese it does not quite have the commonly-believed 5-7-5 syllabic form
+and how it is not just about counting syllables.
+<p>
+The last chapter on diction and the current state of poetry is one where
+taste and talent understandably matter much more than for the ones on metre,
+rhyme and form. The author tries bravely to explain why the diction in the
+phrase:
+<blockquote>
+<p>...the sea-shouldering whale.
+</blockquote>
+<p>
+from <i>Faerie Queene</i> by Edmund Spenser enraptured the young Keats or why:
+<blockquote>
+<p>And Madeline asleep in the lap of legends old.
+</blockquote>
+<p>
+from <i>The Eve of Saint Agnes</i> by Keats in turn made the author fall in
+love with poetry. As he admits, it is largely inexplicable how the diction in
+a sentence or phrase works for some and doesn't for others. I can relate to
+this feeling as I have sometimes struggled to explain what is so great about:
+<blockquote>
+<p>...I laid my heart open to the benign indifference of the universe.
+</blockquote>
+<p>
+from <i>The Stranger</i> by Albert Camus, which is from a novel and which
+retains its power even after translation into English.
+<p>
+The evocative power of diction in poetry, while subject to the restrictions of
+metre, rhyme and form, is what makes poetry magical for the author (and for
+me). He particularly derides the &quot;anything goes&quot; style of budding
+poets these days who don't want to be constrained by metre, rhyme or form
+and just want to <i>express</i> themselves, irrespective of whether that
+expression is enjoyable for, or even makes sense to, their readers. He cautions
+that you need a great mastery of poetry to be able to write effective free
+verse, without which you just end up with an inglorious mess.
+<p>
+I wish this book were available several decades ago, so that I could read it
+as a young boy. I wish someone writes similar books for Urdu and Hindi poetry
+as well (there have been some <i>amazing</i> lines written in Urdu verse in
+the last 170 years or so). The way poetry was taught and asked about in school
+nearly killed it for me (and I suspect for many, many other people) and made
+me skip poems wherever possible. Such a shame. I was thankfully able to
+overcome this handicap over time, though free verse still makes me gloss over
+it most of the time.
+m4_end_post_rest
+m4_end_post
