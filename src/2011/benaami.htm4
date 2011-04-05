@@ -1,0 +1,69 @@
+m4_define( `m4_post_date', `2011-04-05')m4_dnl
+m4_define( `m4_post_title', `&quot;Benaami&quot;')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I picked up <a href="http://www.facebook.com/Benaami">Benaami</a>, a debut
+novel by Anish Sarkar, despite having read <a
+href="http://www.business-standard.com/india/news/jingo-lit/425249/">a brutal
+review by Rrishi Raote in Business Standard</a> because the author happens to
+be a friend of a good friend. There are many positive reviews of the book for
+sure (e.g. <a
+href="http://drvbanerjee.blogspot.com/2011/02/book-review-benaami.html">this
+one</a> or <a href="http://www.asianage.com/books/unaccustomed-028">this
+one</a>), but I'm afraid I'll have to side with <a
+href="http://raote.wordpress.com/">Rrishi</a> on this one.
+m4_begin_post_rest
+m4_display_book( `_dummy_', `benaami-anish-sarkar-book-8191067323')
+<p>
+The plot revolves around Arjun Chatterjee, who has recurring flashes from
+his previous birth about 150 years ago when he was Kartik, the founder of a
+secret society named <i>Benaami</i> (&quot;nameless&quot; in Hindi) that set
+out to drive the East India Company out of India with the revolt of 1857. He
+takes the help of Sheila Guha, a professor of history, to get more details of
+this society and of his own past life. A crazy billionaire named Ratikant
+Gupta wants to eliminate them and use the <i>brahmastra</i> (&quot;ultimate
+weapon&quot;) of the secret society for his own nefarious purpose of
+overthrowing the government.
+<p>
+There are two threads of narration in the book - one following Arjun in
+modern times and the other following Kartik in the mid-nineteenth century,
+the latter appearing in italics just in case the inattentive reader gets
+confused. These narratives almost always appear in different chapters to make
+it even simpler. The chapters themselves are very short and are further
+divided into little sections, perhaps to cater to easily-distracted readers.
+Some times the chapters end abruptly, only for the narrative to pick up from
+where it left off in the very next chapter.
+<p>
+The narrative itself is in third person and a little too direct and simple.
+This made reading the book feel a little awkward for me and I just couldn't
+shake off the nagging thought that the writing could have been a whole lot
+better. As someone once put it, it is the difference between writing &quot;She
+left the room in anger&quot; and &quot;She slammed the door shut behind
+her&quot; - both convey the same meaning, but the latter engages the
+imagination of the reader just a little bit more to make it more interesting
+to read.
+<p>
+There are also some bizarre details thrown in (as in novels by Dan Brown) that
+do not, as far as I can tell, add in <i>any</i> way to the story. For example,
+how is it relevant that Arjun worked on an IBM ThinkPad (not a Sony Vaio) or
+drives a Honda City (not a Hyundai Accent) or was being chased in a Tata Sumo
+(not a Mahindra Scorpio)? Are these awkward attempts at product-placements?
+Then there is the whole thing about Arjun being an IIT graduate and a software
+engineer that sheds absolutely no light on his character for the purpose of
+the story. (Incidentally the blurb on the cover of the book mentions that the
+author is an IIT-IIM graduate working in Capgemini - <i>why</i> is this
+relevant to his credentials as an author and <i>why</i> do the publishers
+think this would make someone want to read this book?)
+<p>
+This is supposed to be a thriller, but the suspense is mostly imagined - the
+plot plays out in a highly-predictable manner and there are times when you
+want to hit the characters with a giant clue-bat for being so slow. It feels
+more like watching a bad film than reading a good book.
+<p>
+On the other hand, this book is just one of the many &quot;easy-reads&quot;
+being published these days in India, where literary merit gives way to a
+more marketable formula based on tried and tested plot-lines. So it might
+well succeed for the publisher and the author despite all these shortcomings.
+m4_end_post_rest
+m4_end_post
