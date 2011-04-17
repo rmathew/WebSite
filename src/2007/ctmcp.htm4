@@ -1,18 +1,18 @@
 m4_define( `m4_post_date', `2007-01-21')m4_dnl
-m4_define( `m4_post_title', `&quot;Concepts`,' Techniques`,' and Models of Computer Programming&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;Concepts`,' Techniques`,' and Models of Computer Programming&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-Although &quot;Concepts, Techniques, and Models of Computer
-Programming&quot; by Peter Van Roy and Seif Haridi looks
+Although &ldquo;Concepts, Techniques, and Models of Computer
+Programming&rdquo; by Peter Van Roy and Seif Haridi looks
 intimidatingly big at around 900 pages, I found it surprisingly easy
 to read. It has a good balance of theoretical and practical
 descriptions of the concepts covered by it. It has a cohesive
 overview of the major programming styles in a manner that I have not
 seen in any other book. I would rank it as a must-read for the serious
-programmer along with classics like &quot;The Art of Computer
-Programming&quot; and &quot;Structure and Interpretation of Computer
-Programming&quot;.
+programmer along with classics like &ldquo;The Art of Computer
+Programming&rdquo; and &ldquo;Structure and Interpretation of Computer
+Programming&rdquo;.
 m4_begin_post_rest
 m4_display_book( `0262220695', `concepts-techniques-models-computer-programming-book-8120326857')
 <p>
@@ -23,8 +23,8 @@ functional and logic programming while the imperative (or stateful)
 models include object-oriented programming. The authors also introduce
 some specialised models, for example, for distributed programming and
 constraint programming. All of these models are introduced using a
-<i>single</i> multi-paradigm programming language named &quot;<a
-href="http://en.wikipedia.org/wiki/Oz_(programming_language)">Oz</a>&quot;,
+<i>single</i> multi-paradigm programming language named &ldquo;<a
+href="http://en.wikipedia.org/wiki/Oz_(programming_language)">Oz</a>&rdquo;,
 that was developed by the research groups that the authors belong to
 and that is implemented by the <a
 href="http://www.mozart-oz.org/">Mozart</a> programming system. Oz
@@ -49,14 +49,14 @@ presents more opportunities for optimisation to the compiler or
 interpreter.
 <p>
 One of the neat things I learnt from the declarative model presented
-by the authors is the concept of a &quot;data-flow variable&quot;. A
+by the authors is the concept of a &ldquo;data-flow variable&rdquo;. A
 variable is allowed to be unbound in addition to being bound to a
 single value - if a part of a programme tries to access the value of
 such an unbound variable in an expression, it is suspended till the
 time that some other part of the computation binds a value to the
 variable. This allows simple and reliable concurrency to be
 programmed in a very neat manner. Another new thing for me was the
-concept of a &quot;secure variable&quot;.
+concept of a &ldquo;secure variable&rdquo;.
 <p>
 The authors make concurrent programming look much less intimidating
 and more reliable using data-flow variables and message-passing,
@@ -77,7 +77,7 @@ at least attempt some of the exercises to really benefit from the book.
 <p>
 There are some minor irritants in the book. For example, in the
 preface and throughout the book the authors keep referring to
-&quot;the book's web site&quot; but I could not find a single place
+&ldquo;the book's web site&rdquo; but I could not find a single place
 where the URL of the web site is provided! You have to use a search
 engine to find out that <a
 href="http://www.info.ucl.ac.be/~pvr/book.html">this page</a> is most

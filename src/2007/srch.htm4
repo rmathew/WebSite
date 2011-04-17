@@ -1,11 +1,11 @@
 m4_define( `m4_post_date', `2007-05-21')m4_dnl
-m4_define( `m4_post_title', `&quot;The Search&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;The Search&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-&quot;The Search&quot; is a book by John Battelle that seeks to
-explain &quot;How Google and Its Rivals Rewrote the Rules of Business
-and Transformed Our Culture&quot;. The book highlights how searching
+&ldquo;The Search&rdquo; is a book by John Battelle that seeks to
+explain &ldquo;How Google and Its Rivals Rewrote the Rules of Business
+and Transformed Our Culture&rdquo;. The book highlights how searching
 for something or someone on the Internet is becoming such an integral
 part of our lives and how companies are trying to profit from this
 opportunity.
@@ -15,7 +15,7 @@ m4_display_book( `1591841410', `search-john-battelle-google-its-book-1857883624'
 The book starts off rather badly with unnecessary verbiage comprising
 the author's pontification on the importance of search, the
 contribution of the combined search histories of Internet users
-towards creating a &quot;Database of Intentions&quot; that essentially
+towards creating a &ldquo;Database of Intentions&rdquo; that essentially
 represents what the world is looking for at a given point in time, the
 immense value of such a database and the great responsibility that
 rests with a company like Google that has such data. I have a feeling
@@ -33,7 +33,7 @@ view of Google. I was a bit surprised that he didn't find anything
 repulsive about Overture's method of sneaking in paid links among
 genuine search results that are hard to discern for normal users. One
 of the things that irritated me was that the footnotes for each
-page were moved to a separate &quot;Notes&quot; section at the end
+page were moved to a separate &ldquo;Notes&rdquo; section at the end
 of the book, rather than at the bottom of the page, which made it a
 bit difficult to read the chapters, as I had to keep flipping back
 and forth.

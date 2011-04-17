@@ -1,9 +1,9 @@
 m4_define( `m4_post_date', `2005-07-15')m4_dnl
-m4_define( `m4_post_title', `&quot;Eats`,' Shoots and Leaves&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;Eats`,' Shoots and Leaves&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-Lynne Truss's &quot;Eats, Shoots &amp; Leaves&quot; is a delightful
+Lynne Truss's &ldquo;Eats, Shoots &amp; Leaves&rdquo; is a delightful
 read about using punctuation correctly in English sentences.
 m4_begin_post_rest
 m4_display_book( `1592402038', `eats-shoots-leaves-lynne-truss-book-0007368410')

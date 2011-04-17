@@ -1,5 +1,5 @@
 m4_define( `m4_post_date', `2010-07-12')m4_dnl
-m4_define( `m4_post_title', `&quot;Head First Statistics&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;Head First Statistics&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
@@ -12,8 +12,8 @@ depth than what was afforded by an introductory course I took in college
 ages ago. The first step towards that goal has now been precipitated due
 to the nature of my current work. Unfortunately for me, most of the
 books on this subject looked too dull or intimidating
-to serve as a useful review of the basic concepts. &quot;Head First
-Statistics&quot; by Dawn Griffiths presented a welcome contrast with
+to serve as a useful review of the basic concepts. &ldquo;Head First
+Statistics&rdquo; by Dawn Griffiths presented a welcome contrast with
 its pages full of informal text and fun pictures, though I was sceptical
 at first of its utility. I am happy to report that my scepticism was
 entirely misplaced.
@@ -21,11 +21,11 @@ m4_begin_post_rest
 m4_display_book( `0596527586', `head-first-statistics-dawn-griffiths-book-8184045824')
 <p>
 The book is another in the series of <a
-href="http://headfirstlabs.com/">&quot;Head First&quot; books by
+href="http://headfirstlabs.com/">&ldquo;Head First&rdquo; books by
 O'Reilly</a>. True to its pedigree, this book uses lots of little
 stories, pictures and exercises to provide a gentle introduction to
 otherwise complicated-looking topics. Each chapter asks you to help
-denizens of the fictional town of &quot;Statsville&quot; with their
+denizens of the fictional town of &ldquo;Statsville&rdquo; with their
 sundry problems using increasingly-complicated statistical techniques.
 Unlike most text-books where the exercises are lumped together at the
 end of each chapter or section, sometimes without solutions or hints,
@@ -43,7 +43,7 @@ her for making most of it so accessible to the lay reader.
 Of course, despite her valiant efforts the author loses her grip
 on lucidity in the latter half of the book that covers advanced topics
 and where many a formula or statement is left hanging with an implicit
-&quot;Just take my word for it&quot;. This could be deeply dissatisfying
+&ldquo;Just take my word for it&rdquo;. This could be deeply dissatisfying
 if you are of an enquiring disposition. There are no references to
 books, papers, articles or web-sites where the reader can go to find
 more information or get a deeper understanding of the concepts. There
@@ -52,7 +52,7 @@ understanding, with the solutions perhaps available from a web-site. One
 of my major grudges was the sudden switch to probability from statistics
 in the early chapters without any explanation - only if you persist do
 you discover in the later chapters how closely the two are linked to
-each other and get your &quot;Aha!&quot; moment of understanding.
+each other and get your &ldquo;Aha!&rdquo; moment of understanding.
 Finally I really believe that the book could have been thinner given
 the ground that it covers.
 <p>

@@ -1,11 +1,11 @@
 m4_define( `m4_post_date', `2005-09-29')m4_dnl
-m4_define( `m4_post_title', `&quot;Harry Potter and The Half-Blood Prince&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;Harry Potter and The Half-Blood Prince&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
 The sixth book in the Harry Potter series also manages to keep one
 interested throughout. It has a rather sad ending though and, unlike
-the previous books, doesn't achieve &quot;closure&quot; (in my
+the previous books, doesn't achieve &ldquo;closure&rdquo; (in my
 opinion, also shared by Ananth) - one longs to read the seventh book to
 find out what happens to Harry after the terrible tragedy. Be that as
 it may, I would still highly recommend it to anyone who hasn't read
@@ -18,7 +18,7 @@ exorbitant pricing adopted by the publishers of this series in India.
 The books are usually priced around four times their worth. For example,
 this particular book is priced at <i>900 rupees</i> right now! Does it
 really surprise anyone then that the unauthorised editions
-(&quot;pirated copies&quot;) of these books sell so well? Why should
+(&ldquo;pirated copies&rdquo;) of these books sell so well? Why should
 we be made to pay for the publisher's greed, their insane marketing
 budgets and Ms Rowling's ever-ballooning coffers? Sheesh!
 <p>

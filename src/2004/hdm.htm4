@@ -1,14 +1,14 @@
 m4_define( `m4_post_date', `2004-12-26')m4_dnl
-m4_define( `m4_post_title', `&quot;His Dark Materials&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;His Dark Materials&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-&quot;Unputdownable&quot; is how I would describe <a
+&ldquo;Unputdownable&rdquo; is how I would describe <a
 href="http://www.philip-pullman.com/">Philip Pullman</a>'s superb
-&quot;<a href="http://www.hisdarkmaterials.com/">His Dark
-Materials</a>&quot; trilogy comprising &quot;The Golden Compass&quot;
-(released as &quot;The Northern Lights&quot; in the UK), &quot;The
-Subtle Knife&quot; and &quot;The Amber Spyglass&quot;. I am so glad
+&ldquo;<a href="http://www.hisdarkmaterials.com/">His Dark
+Materials</a>&rdquo; trilogy comprising &ldquo;The Golden Compass&rdquo;
+(released as &ldquo;The Northern Lights&rdquo; in the UK), &ldquo;The
+Subtle Knife&rdquo; and &ldquo;The Amber Spyglass&rdquo;. I am so glad
 that I picked them up <i>after</i> all the three books had been
 released as I cannot imagine how I would have borne the agony of
 having to wait for a couple of years to find out how this delicious
@@ -50,7 +50,7 @@ that it is not as popular as it ought to be. But for Ananth who pushed
 me to read it, I would probably never have known about this epic.
 Thank you Ananth! (By the way, he has named the hard disc partitions
 on his computer Pantalaimon and Lyra, with the former being the boot
-partition, as &quot;the boot has the sole (soul)&quot;. Yes, that
+partition, as &ldquo;the boot has the sole (soul)&rdquo;. Yes, that
 <i>is</i> awfully corny.)
 m4_end_post_rest
 m4_end_post

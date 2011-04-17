@@ -1,10 +1,10 @@
 m4_define( `m4_post_date', `2002-05-02')m4_dnl
-m4_define( `m4_post_title', `Getting &quot;Chandrakanta&quot;')m4_dnl
+m4_define( `m4_post_title', `Getting &ldquo;Chandrakanta&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
 A lot of people have asked me about obtaining the great
-&quot;Chandrakanta&quot; and &quot;Chandrakanta Santati&quot; written
+&ldquo;Chandrakanta&rdquo; and &ldquo;Chandrakanta Santati&rdquo; written
 by Devakinandan Khatri.
 m4_begin_post_rest
 <p>
@@ -21,8 +21,8 @@ New Delhi (INDIA).
 </pre>
 <p>
 Their ISBN for the seven volume set is <tt>81-7178-113-6</tt>.
-Alternatively, you can also obtain it from &quot;Lahari Book
-Depot&quot;, who
+Alternatively, you can also obtain it from &ldquo;Lahari Book
+Depot&rdquo;, who
 <a href="http://dir.indiamart.com/indianexporters/book.html">claim to
 specialise in stocking this</a>.
 <p>

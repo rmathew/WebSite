@@ -1,9 +1,9 @@
 m4_define( `m4_post_date', `2006-06-14')m4_dnl
-m4_define( `m4_post_title', `&quot;V for Vendetta&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;V for Vendetta&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-&quot;V for Vendetta&quot; by Alan Moore and Dave Lloyd is the
+&ldquo;V for Vendetta&rdquo; by Alan Moore and Dave Lloyd is the
 graphic novel that was the inspiration for the eponymous movie by the
 <a href="http://en.wikipedia.org/wiki/Wachowski_brothers">Wachowski
 brothers</a>. I was quite impressed by the movie and was eager to read
@@ -15,11 +15,11 @@ m4_begin_post_rest
 m4_display_book( `0930289528', `vendetta-alan-moore-david-lloyd-book-140120841x')
 <p>
 The hero of the book is a masked anarchist, known only as
-&quot;V&quot;, who rebels against the fascist and totalitarian regime
+&ldquo;V&rdquo;, who rebels against the fascist and totalitarian regime
 that has taken over England in the near future after a nuclear war.
 The regime has killed, imprisoned or evicted nearly all dissidents,
 blacks and homosexuals and tightly controls all media. The situation
-is somewhat similar to that in George Orwell's &quot;1984&quot;. Those
+is somewhat similar to that in George Orwell's &ldquo;1984&rdquo;. Those
 of us outside England will have to know about <a
 href="http://en.wikipedia.org/wiki/Guy_Fawkes">Guy Fawkes</a> and the
 <a href="http://en.wikipedia.org/wiki/Gunpowder_Plot">Gunpowder

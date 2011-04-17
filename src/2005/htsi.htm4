@@ -1,9 +1,9 @@
 m4_define( `m4_post_date', `2005-05-15')m4_dnl
-m4_define( `m4_post_title', `&quot;How to Solve It&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;How to Solve It&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-&quot;How to Solve It&quot; is <i>the</i> classic book on
+&ldquo;How to Solve It&rdquo; is <i>the</i> classic book on
 problem-solving by G. Polya that shows how to approach and attack
 problems in a way that you are ultimately able to solve them as well
 as verify your solutions. Polya provides heuristics for mathematical
@@ -14,7 +14,7 @@ m4_display_book( `069111966X', `solve-george-polya-book-0140124993')
 <p>
 The basic approach is described in a short chapter at the beginning of
 the book. The bulk of the book is taken up by a quaint
-&quot;dictionary&quot; which is a collection of articles each
+&ldquo;dictionary&rdquo; which is a collection of articles each
 explaining a particular term or phrase that is referenced (in
 uppercase letters) elsewhere in the book, including within other
 articles of the dictionary. There are a few problems given towards the

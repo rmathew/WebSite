@@ -1,5 +1,5 @@
 m4_define( `m4_post_date', `2009-02-19')m4_dnl
-m4_define( `m4_post_title', `&quot;Irrational Exuberance&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;Irrational Exuberance&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
@@ -9,7 +9,7 @@ href="http://en.wikipedia.org/wiki/Case-Shiller_index">Case-Shiller
 housing index</a> fame) is one of the few level-headed economists who
 have been able to recognise and point out market bubbles in the making
 and who have had the courage to stand by their analyses even in the face
-of ridicule. His book &quot;Irrational Exuberance&quot; became famous
+of ridicule. His book &ldquo;Irrational Exuberance&rdquo; became famous
 for calling out the stock-market bubble in the US when it was published
 in early 2000, just some time before the bubble burst. The second
 edition of the book has again been remarkable for pointing out the

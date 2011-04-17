@@ -1,5 +1,5 @@
 m4_define( `m4_post_date', `2009-01-06')m4_dnl
-m4_define( `m4_post_title', `&quot;The New Cambridge History of India: Vijayanagara&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;The New Cambridge History of India: Vijayanagara&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
@@ -10,8 +10,8 @@ href="http://en.wikipedia.org/wiki/Vijayanagara_empire">Vijayanagara
 empire</a>. Our high-school text-books on history barely touched upon
 the rise and the fall of this great empire that ruled over almost all of
 southern India for about three centuries beginning in the 14<sup>th</sup>
-century. We picked up Burton Stein's &quot;The New Cambridge History of
-India: Vijayanagara&quot; mainly because at about 150 pages it looked
+century. We picked up Burton Stein's &ldquo;The New Cambridge History of
+India: Vijayanagara&rdquo; mainly because at about 150 pages it looked
 like a more manageable read than the other such books. It was also far
 more recent than the other books and therefore had a much better chance
 of incorporating the findings from recent research into this aspect of

@@ -1,9 +1,9 @@
 m4_define( `m4_post_date', `2010-10-12')m4_dnl
-m4_define( `m4_post_title', `&quot;On Beauty&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;On Beauty&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-&quot;On Beauty&quot; is a lavishly-illustrated book by Umberto Eco and
+&ldquo;On Beauty&rdquo; is a lavishly-illustrated book by Umberto Eco and
 Girolamo de Michele (translated from the original Italian into English by
 Alastair McEwen) that explores the depiction of beauty in western art
 through the ages. It uses the art of a period as a reflection of the
@@ -18,9 +18,9 @@ From the idealised depiction of proportions and harmony by the Greek
 artists to the exploration of light and colour in the Middle Ages and
 the abstract depiction of beauty in modern times, the idea of what
 constitutes the beautiful has certainly come a long way, though not
-necessarily to everyone's liking. The authors explore the &quot;beauty
-of the bad&quot; (monsters, demons, etc.) in addition to the &quot;beauty
-of the good&quot; (gods, women, etc.) as they evolved over the centuries.
+necessarily to everyone's liking. The authors explore the &ldquo;beauty
+of the bad&rdquo; (monsters, demons, etc.) in addition to the &ldquo;beauty
+of the good&rdquo; (gods, women, etc.) as they evolved over the centuries.
 <p>
 There is no doubt that this is a well-researched book painstakingly put
 together by the authors and the editors. Apart from copious reproductions of
@@ -29,7 +29,7 @@ respective period that reinforce the points made by the authors. The art and
 the quotes are peppered throughout the text <i>in situ</i> instead of being
 collected together in plates or endnotes as in some other books.
 <p>
-While setting out to explore &quot;beauty in art&quot;, the book takes
+While setting out to explore &ldquo;beauty in art&rdquo;, the book takes
 a surprising detour into the beauty of machines and the beauty of
 abstractions. The research is sorely lacking here, omitting some important
 material and the treatment of the subjects is insipid. For example, a

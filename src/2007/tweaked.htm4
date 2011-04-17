@@ -14,15 +14,15 @@ of these files cached by your web browser.)
 m4_begin_post_rest
 <p>
 Instead of showing just the most recent post on a given page in full,
-I now show a summary for each post followed by a &quot;Read More...&quot;
+I now show a summary for each post followed by a &ldquo;Read More...&rdquo;
 link that expands the rest of the body of the post if the reader finds
 the summary interesting. I have implemented this feature for the main
-page, the &quot;<a href="m4_root_dir/archives/index.html">News
-Archives</a>&quot; pages and the &quot;<a
-href="m4_root_dir/books/index.html">Book Reviews</a>&quot; pages.
+page, the &ldquo;<a href="m4_root_dir/archives/index.html">News
+Archives</a>&rdquo; pages and the &ldquo;<a
+href="m4_root_dir/books/index.html">Book Reviews</a>&rdquo; pages.
 <p>
 I have also removed the books for which there were no reviews yet and
-the website used to show a silly &quot;To be reviewed&quot; text. This
+the website used to show a silly &ldquo;To be reviewed&rdquo; text. This
 should reduce unwarranted disappointments on account of missing
 reviews.
 m4_end_post_rest

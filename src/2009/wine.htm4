@@ -1,9 +1,9 @@
 m4_define( `m4_post_date', `2009-09-12')m4_dnl
-m4_define( `m4_post_title', `&quot;101 Essential Tips: Wine&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;101 Essential Tips: Wine&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-&quot;101 Essential Tips: Wine&quot; by Tom Stevenson is an
+&ldquo;101 Essential Tips: Wine&rdquo; by Tom Stevenson is an
 introductory little book for those interested in wine. It is a
 copiously-illustrated book with easy-to-read text and is so small that
 it can be finished in just a single sitting. It serves its purpose
@@ -12,7 +12,7 @@ m4_begin_post_rest
 m4_display_book( `0789496852', `101-essential-tips-wine-dorling-book-1405301686')
 <p>
 This book is supposed to be a collection of 101 tips, though most of
-the text can hardly be described as &quot;tips&quot; - only part of
+the text can hardly be described as &ldquo;tips&rdquo; - only part of
 the text, for example the bits dealing with storing wine or what to
 look for while purchasing wine, can really be thought of as containing
 tips. The division into 101 tips looks entirely arbitrary and
@@ -20,10 +20,10 @@ shoe-horned to fit the title of this series of books from the publisher.
 <p>
 The book is not entirely suitable for absolute beginners to wine in
 that it does not tell you just what is meant by terms like
-&quot;body&quot;, &quot;tannin&quot;, etc. This is important for people
+&ldquo;body&rdquo;, &ldquo;tannin&rdquo;, etc. This is important for people
 who have grown up in cultures (e.g. India) where wine consumption is
-not prevalant. There are also some terms like &quot;terroir&quot; and
-&quot;sommelier&quot; that are surprisingly missing from a text of this
+not prevalant. There are also some terms like &ldquo;terroir&rdquo; and
+&ldquo;sommelier&rdquo; that are surprisingly missing from a text of this
 nature.
 <p>
 The book would have benefited from a wine vintage chart (something like

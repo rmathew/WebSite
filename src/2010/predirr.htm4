@@ -1,9 +1,9 @@
 m4_define( `m4_post_date', `2010-10-28')m4_dnl
-m4_define( `m4_post_title', `&quot;Predictably Irrational&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;Predictably Irrational&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-&quot;Predictably Irrational&quot; is an entertaining and insightful book by <a
+&ldquo;Predictably Irrational&rdquo; is an entertaining and insightful book by <a
 href="http://danariely.com/">Dan Ariely</a> that seeks to show how irrational
 we humans are, in sharp contrast to standard economic theory that assumes
 that people are perfectly rational beings acting in self-interest (<i><a
@@ -30,7 +30,7 @@ himself suggests at one point that MIT has a lot of social misfits.)
 This book offers many, many insights into human behaviour - how we are wired
 to make comparisons even when the items under consideration are not readily
 comparable and how clever marketers use this to nudge us into buying something,
-how we are swayed by &quot;FREE!&quot; offers into buy something that we didn't
+how we are swayed by &ldquo;FREE!&rdquo; offers into buy something that we didn't
 want or into pay more for it, how we tend to value things that we own more than
 what others judge them to be worth, how we consider a more expensive item to
 be better than a cheaper alternative, etc. Each of the chapters focusses on an

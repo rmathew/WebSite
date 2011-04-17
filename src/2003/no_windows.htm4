@@ -1,5 +1,5 @@
 m4_define( `m4_post_date', `2003-06-07')m4_dnl
-m4_define( `m4_post_title', `Saying &quot;No!&quot; to Windows')m4_dnl
+m4_define( `m4_post_title', `Saying &ldquo;No!&rdquo; to Windows')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
@@ -9,7 +9,7 @@ m4_begin_post_rest
 I could empathise with Danny Smith (even as I tried to dissuade him)
 when he expressed <a
 href="http://article.gmane.org/gmane.comp.gnu.mingw.user/7197">his wish to
-work with &quot;a real OS&quot;</a> for
+work with &ldquo;a real OS&rdquo;</a> for
 a change - I have also been exposed to all sorts of Windows ugliness in
 trying to make <a href="http://gcc.gnu.org/java/">GCJ</a>
 work on Windows and have been disgusted by some of the design choices
@@ -21,13 +21,13 @@ have admired the ability of the motley crew of hackers to come up with
 such an elegant and efficient system that provides such a wonderful
 alternative to the monstrosity that is Windows.
 <p>
-The final &quot;WTF?&quot; occured to me when I read
+The final &ldquo;WTF?&rdquo; occured to me when I read
 <a href="http://www.oreilly.com/catalog/freedom/">the
 biography of Richard Stallman</a> a couple of days ago and realised
 how utterly, totally and completely idiotic it was of me to code
 for a system that I loathe and not for a system that I love - especially
 one for which so many great hackers had made so much personal sacrifice
-just so that all of us could have a great Free (as in &quot;Freedom&quot;)
+just so that all of us could have a great Free (as in &ldquo;Freedom&rdquo;)
 system.
 <p>
 So I will only code for Linux for my personal projects from now
@@ -40,7 +40,7 @@ to be written entirely in Java!
 Speaking of games, I recently spent a <i>huge</i> amount of
 time playing <a href="http://www.gameboyadvance.com/goldensun/">Golden Sun for
 the GameBoy Advance</a> only to get sick
-of it and quit just before the final &quot;Boss&quot; battle!
+of it and quit just before the final &ldquo;Boss&rdquo; battle!
 Meanwhile I eagerly await the release of <a
 href="http://hl2hc.halflife.org/">Half-Life 2</a>,
 the awesomely promising sequel to the best game I have

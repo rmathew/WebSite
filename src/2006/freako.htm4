@@ -1,10 +1,10 @@
 m4_define( `m4_post_date', `2006-04-18')m4_dnl
-m4_define( `m4_post_title', `&quot;Freakonomics&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;Freakonomics&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-I wanted to read &quot;<a
-href="http://www.freakonomics.com/">Freakonomics</a>&quot; by Steven D.
+I wanted to read &ldquo;<a
+href="http://www.freakonomics.com/">Freakonomics</a>&rdquo; by Steven D.
 Levitt and Stephen J. Dubner since the time I read <a
 href="http://www.economist.com/books/displayStory.cfm?story_id=3960469">a
 review of the book in The Economist</a>. For some reason or the other
@@ -16,7 +16,7 @@ m4_display_book( `0061234001', `freakonomics-steven-levitt-stephen-dubner-book-0
 <p>
 This book shows how useful Economics and its tools can be in providing
 us insights into all that is around us. Steven D. Levitt is a maverick
-economist who does not shy from asking &quot;absurd&quot; questions and
+economist who does not shy from asking &ldquo;absurd&rdquo; questions and
 then sifting through and analysing lots of data to find out the answers.
 Some of the answers are quite surprising, if not completely shocking.
 <p>

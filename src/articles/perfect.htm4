@@ -9,8 +9,8 @@ m4_toc
 m4_heading( `1', `intro', `Introduction')
 <p>
 This article is my attempt to collect and list interesting
-&quot;proofs&quot; that demonstrate why certain types of
-&quot;perfect&quot; software tools are impossible to create.
+&ldquo;proofs&rdquo; that demonstrate why certain types of
+&ldquo;perfect&rdquo; software tools are impossible to create.
 <p>
 I plan to add more when I can recollect them or if I come across
 more such demonstrations.
@@ -67,16 +67,16 @@ such that a corresponding decompressor will always be able to
 decompress the compressed file to exactly the same data that was
 present in the original file <i>without using any extra information</i>.
 <p>
-<b>Notes:</b> We will use the &quot;pigeon hole&quot; principle to
+<b>Notes:</b> We will use the &ldquo;pigeon hole&rdquo; principle to
 demonstrate the impossibility of such a tool. I do not know who
 came up with this proof first, but it is seen frequently on the
 <tt>comp.compression</tt> newsgroup.
 <p>
 <b>Proof:</b> A compressor will have to compress a given
 sequence of <tt>n</tt> bytes to a sequence of <i>at most</i>
-<tt>(n-1)</tt> bytes to be called a &quot;compressor&quot; and
+<tt>(n-1)</tt> bytes to be called a &ldquo;compressor&rdquo; and
 will have to always do it for <i>any</i> such sequence to be
-even considered for being called &quot;perfect&quot;.
+even considered for being called &ldquo;perfect&rdquo;.
 <p>
 Let us suppose that such a tool exists.
 <p>

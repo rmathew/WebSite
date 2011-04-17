@@ -1,13 +1,13 @@
 m4_define( `m4_post_date', `2011-03-03')m4_dnl
-m4_define( `m4_post_title', `&quot;The Ode Less Travelled&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;The Ode Less Travelled&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-&quot;The Ode Less Travelled&quot; by <a
+&ldquo;The Ode Less Travelled&rdquo; by <a
 href="http://www.stephenfry.com/">Stephen Fry</a> is a book that attempts to
 teach you how to write poetry. He introduces the reader to variations of
 metre, rhyme and form in poetry and tries to dispel the myth that in poetry
-these days &quot;anything goes&quot;. Even if you never plan to write poetry,
+these days &ldquo;anything goes&rdquo;. Even if you never plan to write poetry,
 this is a good book to read as it illustrates the various techniques and
 constraints that poets work with and will very likely make you appreciate
 poetry more. If you do write poetry, or plan to, this is an indispensible
@@ -30,14 +30,14 @@ poetry as well:
 <ol>
 <li>Savour a poem - read it as slowly as possible, re-reading it to feel its
 rhythm, balance and shape. If you can, read it out loud.</li>
-<li>Don't be afraid - do not worry about &quot;meaning&quot; while reading
+<li>Don't be afraid - do not worry about &ldquo;meaning&rdquo; while reading
 a poem. Most of the times the meaning will emerge at its own pace.</li>
 <li>Keep a notebook - be ready to write out (<i>not</i> type) a line or a poem
 as inspiration strikes you or as you play with words and techniques in your
 free time.</li>
 </ol>
 <p>
-He presents these rules as the &quot;End User Licence Agreement&quot; for
+He presents these rules as the &ldquo;End User Licence Agreement&rdquo; for
 reading the book and insists that you agree to them before proceeding with
 reading the rest of the book.
 <p>
@@ -59,7 +59,7 @@ describe a variant of rhyme or form that is itself written in that form. The
 author not only shows examples of good use of poetic techniques, but also
 several examples of bad use of poetic technique, sometimes by very famous
 poets like Wordsworth. Poetic forms shown here include not just the ones
-found in English, but also &quot;exotic&quot; forms like <i>Haiku</i> and
+found in English, but also &ldquo;exotic&rdquo; forms like <i>Haiku</i> and
 <i>Ghazal</i>. <i>Haiku</i> in particular seems to be quite popular as a
 form for English poems on the Internet, but the author shows how in its native
 Japanese it does not quite have the commonly-believed 5-7-5 syllabic form
@@ -91,7 +91,7 @@ retains its power even after translation into English.
 <p>
 The evocative power of diction in poetry, while subject to the restrictions of
 metre, rhyme and form, is what makes poetry magical for the author (and for
-me). He particularly derides the &quot;anything goes&quot; style of budding
+me). He particularly derides the &ldquo;anything goes&rdquo; style of budding
 poets these days who don't want to be constrained by metre, rhyme or form
 and just want to <i>express</i> themselves, irrespective of whether that
 expression is enjoyable for, or even makes sense to, their readers. He cautions

@@ -12,7 +12,7 @@ In the year 1421 by the
 <a href="http://www.glyphweb.com/arda/s/shirereckoning.html">Shire
 Reckoning</a>, <a
 href="http://www.glyphweb.com/arda/f/frodobaggins.html">Frodo Baggins</a>
-(&quot;Frodo&quot;) set up a small company <i>Hobbitware.com</i>, to sell
+(&ldquo;Frodo&rdquo;) set up a small company <i>Hobbitware.com</i>, to sell
 stuff made by <a href="http://www.glyphweb.com/arda/h/hobbits.html">the
 Hobbits</a> to <a href="http://www.glyphweb.com/arda/m/men.html">Men</a>.
 Along with some of his friends, he established an office in <a
@@ -25,7 +25,7 @@ full-time to promote hobbitware on the world-wide-web.
 by Frodo, and had a vibrant community of employees which
 thrived on the company's Intranet, managed and nurtured by
 <a href="http://www.glyphweb.com/arda/s/samwisegamgee.html">Samwise
-Gamgee</a> (&quot;Sam&quot;), the system-administrator who was a trusted
+Gamgee</a> (&ldquo;Sam&rdquo;), the system-administrator who was a trusted
 friend of Frodo and had loyally supported him on many a past adventure.
 Sam was passionate about gardening and had brought the same passion and
 loving care to system administration.
@@ -72,7 +72,7 @@ as their size grew. Sam had the bright idea of using a hardware
 proxy, instead of wasting a machine for connecting to their ISP,
 which made connecting to the Internet a trivial matter for the
 hobbits - they just had to set the hardware proxy as their
-&quot;default gateway&quot; and they could access everything on
+&ldquo;default gateway&rdquo; and they could access everything on
 the Internet transparently. The proxy also provided a limited
 amount of protection from external malicious crackers trying to
 connect to internal servers containing sensitive data.
@@ -100,7 +100,7 @@ m4_heading( `1', `soln', `The Solution')
 Sam spent several days and nights analysing the problem and
 trying to come up with ways to solve it. He scoured countless
 Internet sites in search of a solution and was finally able to
-put together a proposal for an &quot;Intranet server&quot; that would
+put together a proposal for an &ldquo;Intranet server&rdquo; that would
 try to eliminate extraneous traffic on their Internet link
 as much as possible. His idea was to cache as much information
 as possible locally, including web pages, common downloads, emails,
@@ -225,7 +225,7 @@ hopes to contribute to this effort in his own small way.
 <p>
 And last, but not the least, the author wishes to specially thank
 the late J.R.R. Tolkien for creating
-&quot;<i>The Lord of The Rings</i>&quot; - quite possibly the best
+&ldquo;<i>The Lord of The Rings</i>&rdquo; - quite possibly the best
 fantasy fiction ever penned - and Mark Fisher for creating the
 superb
 <a href="http://www.glyphweb.com/arda/">Encyclopedia of Arda</a>, a

@@ -1,9 +1,9 @@
 m4_define( `m4_post_date', `2008-02-10')m4_dnl
-m4_define( `m4_post_title', `&quot;The Little Book That Beats the Market&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;The Little Book That Beats the Market&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-With a title like &quot;The Little Book That Beats the Market&quot;,
+With a title like &ldquo;The Little Book That Beats the Market&rdquo;,
 this book might appear to be peddling nothing more than snake oil to
 gullible people looking to make money from the stock market. It
 still merits a look since the author <a
@@ -17,16 +17,16 @@ m4_begin_post_rest
 m4_display_book( `0471733067', `little-book-beats-market-joel-book-8126507977')
 <p>
 The book recommends a very simple strategy - buying good companies at
-bargain prices. A &quot;good company&quot; is defined as one that has
+bargain prices. A &ldquo;good company&rdquo; is defined as one that has
 provided an above-average return on capital in the recent past. A stock
-has a &quot;bargain price&quot; if the earnings per share is much more
+has a &ldquo;bargain price&rdquo; if the earnings per share is much more
 than that from a relatively risk-free investment like US Treasury bonds.
-The book provides a &quot;magic formula&quot; that ranks companies
+The book provides a &ldquo;magic formula&rdquo; that ranks companies
 according these critera so that the reader can build a suitable
 portfolio based on the principles given in the book. There is also a
-website called &quot;<a
+website called &ldquo;<a
 href="http://www.magicformulainvesting.com/">Magic Formula
-Investing</a>&quot; that makes it very easy to apply the magic formula
+Investing</a>&rdquo; that makes it very easy to apply the magic formula
 to US stocks.
 <p>
 The author shows that this strategy has worked consistenly over the long
@@ -69,7 +69,7 @@ come up with as you read the chapters.
 The only major complaint I have with the book is that the tone of the
 writing seems to be a bit condescending. I would also have liked each
 chapter to have a title. The title of the book as well as the term
-&quot;magic formula&quot; are a bit too provocative for my tastes. Be
+&ldquo;magic formula&rdquo; are a bit too provocative for my tastes. Be
 that as it may, I would still highly recommend this book if you are
 interested in investing in the stock market.
 <p>

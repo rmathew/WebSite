@@ -1,5 +1,5 @@
 m4_define( `m4_post_date', `2001-06-23')m4_dnl
-m4_define( `m4_post_title', `&quot;Look What I Found Ma!&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;Look What I Found Ma!&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
@@ -21,7 +21,7 @@ programmes. I started off with the excellent, though somewhat simplistic,
 I also discovered the superlative <a href="http://www.mozilla.org/">Mozilla</a>
 browser that beats the pants off other
 browsers even though it is still in a beta phase. Check out the
-cool selective image blocking (read &quot;blocking banner ads&quot;),
+cool selective image blocking (read &ldquo;blocking banner ads&rdquo;),
 cookie barring, ultra-fast rendering, near perfect standards
 compliance, and other features of this wonderful piece of software.
 <a href="http://www.gimp.org/">The GIMP</a> is an

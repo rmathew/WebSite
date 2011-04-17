@@ -1,5 +1,5 @@
 m4_define( `m4_post_date', `2008-11-20')m4_dnl
-m4_define( `m4_post_title', `&quot;The Design of Everyday Things&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;The Design of Everyday Things&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
@@ -7,9 +7,9 @@ As I struggle with opening a fruit-juice pack by tugging at its
 inconveniently-placed pastic ring (that hurts your finger if you pull it
 too hard or for too long) or try to open a cola can by trying to get
 my thick finger under the metal ring that is placed too close to the
-surface of the can, I think to myself: &quot;Who designs such things?
-What <i>were</i> they thinking?&quot; In &quot;The Design of Everyday
-Things&quot; by <a
+surface of the can, I think to myself: &ldquo;Who designs such things?
+What <i>were</i> they thinking?&rdquo; In &ldquo;The Design of Everyday
+Things&rdquo; by <a
 href="http://en.wikipedia.org/wiki/Donald_Norman">Donald Norman</a> I
 find a kindred spirit who is frustrated by the apparent lack of thought
 put into the design of most of the things around us and who suggests
@@ -22,7 +22,7 @@ on your remote control, DVD player or music-system? When you arrive
 at a door are you forced to wonder if you are supposed to push it or
 pull it and whether on the left or the right? Do you find most software
 bewildering? Do you blame yourself for being clumsy with such things?
-If your answer is &quot;yes&quot; to any of these questions, the bad
+If your answer is &ldquo;yes&rdquo; to any of these questions, the bad
 design of the thing in question is most likely to be blamed.
 <p>
 The charm of this book is that it is very easy for most of us to relate
@@ -33,12 +33,12 @@ that a designer must keep in mind when working on a product. The book
 has quite a few pictures and diagrams that illustrate the author's
 points.
 <p>
-The book was initially called &quot;The Psychology of Everyday
-Things&quot;, which made for a nice acronym (&quot;POET&quot;). To make
+The book was initially called &ldquo;The Psychology of Everyday
+Things&rdquo;, which made for a nice acronym (&ldquo;POET&rdquo;). To make
 it more accessible to lay readers and to prevent miscategorisation in
-bookshops and libraries, it was renamed to &quot;The Design of Everyday
-Things&quot;. Some of the illustrations and passages still refer to
-&quot;POET&quot; though, which is a bit disconcerting.
+bookshops and libraries, it was renamed to &ldquo;The Design of Everyday
+Things&rdquo;. Some of the illustrations and passages still refer to
+&ldquo;POET&rdquo; though, which is a bit disconcerting.
 <p>
 The book is required reading for every designer. It is also required
 reading for software developers since software presents some of the

@@ -1,12 +1,12 @@
 m4_define( `m4_post_date', `2010-03-22')m4_dnl
-m4_define( `m4_post_title', `&quot;Introduction to Algorithms&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;Introduction to Algorithms&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
 I put off reading <a
 href="http://mitpress.mit.edu/algorithms/">Introduction to
 Algorithms</a> by Thomas Cormen, Charles Leiserson, Ronald Rivest and
-Clifford Stein (popularly known as &quot;CLRS&quot;) for
+Clifford Stein (popularly known as &ldquo;CLRS&rdquo;) for
 quite some time because I was somewhat intimidated by its bulk. The
 recent release of the third edition of this tome finally made me get a
 copy and give it a dekko. This compendium of a number of algorithms and
@@ -40,8 +40,8 @@ they need to study so many data structures and algorithms and how to
 choose an appropriate data structure or algorithm. Somewhat surprisingly
 for a book on the subject, it does not tell you what is an <a
 href="http://en.wikipedia.org/wiki/Abstract_data_type">Abstract Data
-Type</a> (ADT). The authors use the term &quot;dynamic set&quot; instead
-of the more common &quot;collection&quot; and this might unnecessarily
+Type</a> (ADT). The authors use the term &ldquo;dynamic set&rdquo; instead
+of the more common &ldquo;collection&rdquo; and this might unnecessarily
 confuse some people.
 <p>
 I was surprised to find many a commonly-encountered data structure or
@@ -73,7 +73,7 @@ merely testing the reader's comprehension, some times providing
 more details or introducing a variant. Some of the problems use
 mostly-funny names for professors - the authors provide <a
 href="http://mitpress.mit.edu/algorithms/profjokes3e.asp">explanations
-for these names</a> in case you don't &quot;get it&quot;. The
+for these names</a> in case you don't &ldquo;get it&rdquo;. The
 bibliography is quite extensive and useful when you want to find more
 information about a given topic.
 m4_end_post_rest

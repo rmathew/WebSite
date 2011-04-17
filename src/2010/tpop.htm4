@@ -1,5 +1,5 @@
 m4_define( `m4_post_date', `2010-01-23')m4_dnl
-m4_define( `m4_post_title', `&quot;The Practice of Programming&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;The Practice of Programming&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
@@ -8,7 +8,7 @@ Programming</a>, Brian Kernighan and Rob Pike aim to advise computer
 programmers on things like testing, debugging, style, performance,
 design, portability, etc. that they are not usually taught in computer
 science classes or programming courses. This is what they call the
-&quot;practice&quot; of programming. Many pick these up over the
+&ldquo;practice&rdquo; of programming. Many pick these up over the
 course of their careers with some trial and error; many simply don't.
 This is the kind of book that has lessons for both rookie and seasoned
 programmers and that deserves multiple readings over the course of
@@ -29,7 +29,7 @@ a book <i>immediately</i> after learning the basics, you might not
 really understand the reasons behind the advice in the book and will
 have to just take the words of the authors at face value.
 <p>
-This book is a typical &quot;Kernighan book&quot; - it is short and
+This book is a typical &ldquo;Kernighan book&rdquo; - it is short and
 to the point, the language is clear and simple, the material is
 logically ordered with a natural progression and some of the examples
 show that it is simple to implement things (e.g. a regular
@@ -86,8 +86,8 @@ philosophy</a>. As an example, the authors create scripts for
 getting the document for a given URL, removing HTML tags from a document
 and formatting a text document into 60-character lines (written in
 Tcl, Perl and AWK respectively). They then combine these scripts
-to create a very simple, command-line-based, &quot;web
-browser&quot; that shows a web-page as formatted plain-text.
+to create a very simple, command-line-based, &ldquo;web
+browser&rdquo; that shows a web-page as formatted plain-text.
 <p>
 In short, read this book if you want to be a better programmer. If
 you have read it in the distant past, read it once again - you might

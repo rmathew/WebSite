@@ -12,7 +12,7 @@ m4_begin_post_rest
 <p>
 While the latter two didn't have any problems
 running on my machine, Doom 3 refused to run on the Windows 98 that is
-installed on this machine. I had to write an &quot;ersatz DLL&quot; (as
+installed on this machine. I had to write an &ldquo;ersatz DLL&rdquo; (as
 Ananth puts it) to overcome this and the game now runs on my machine! The
 hacking turned out to be more fun than the game itself, which is just
 lots and lots of darkness punctuated by hideous monsters jumping at you

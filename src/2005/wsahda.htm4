@@ -1,10 +1,10 @@
 m4_define( `m4_post_date', `2005-11-07')m4_dnl
-m4_define( `m4_post_title', `&quot;William Shakespeare and His Dramatic Acts&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;William Shakespeare and His Dramatic Acts&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-&quot;William Shakespeare and His Dramatic Acts&quot; is a book written
-by Andrew Donkin in the &quot;Dead Famous&quot; series. It is a great
+&ldquo;William Shakespeare and His Dramatic Acts&rdquo; is a book written
+by Andrew Donkin in the &ldquo;Dead Famous&rdquo; series. It is a great
 little book that is very well-researched and packed with loads of
 interesting nuggets about Elizabethan England.
 m4_begin_post_rest

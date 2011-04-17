@@ -11,10 +11,10 @@ m4_begin_post_rest
 <p>
 Hard core nerds might want to check out the recent
 <a href="http://www.nethack.org/">3.4.0 release
-of &quot;NetHack&quot;</a>, the ultimate adventure game that
+of &ldquo;NetHack&rdquo;</a>, the ultimate adventure game that
 has been in active development for around 15 years! Now there
 is also a very nice graphical interface available for this
-game called &quot;<a href="http://www.hut.fi/~jtpelto2/nethack.html">Falcon's
-Eye</a>&quot;.
+game called &ldquo;<a href="http://www.hut.fi/~jtpelto2/nethack.html">Falcon's
+Eye</a>&rdquo;.
 m4_end_post_rest
 m4_end_post

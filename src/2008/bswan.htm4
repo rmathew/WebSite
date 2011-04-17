@@ -1,12 +1,12 @@
 m4_define( `m4_post_date', `2008-12-08')m4_dnl
-m4_define( `m4_post_title', `&quot;The Black Swan&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;The Black Swan&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-&quot;The Black Swan&quot; by <a
+&ldquo;The Black Swan&rdquo; by <a
 href="http://en.wikipedia.org/wiki/Nassim_Nicholas_Taleb">Nassim
-Nicholas Taleb</a> is a follow-up to his last book &quot;Fooled by
-Randomness&quot;. A Black Swan is a completely unforeseen event with
+Nicholas Taleb</a> is a follow-up to his last book &ldquo;Fooled by
+Randomness&rdquo;. A Black Swan is a completely unforeseen event with
 significant consequences. It could be the sudden crash of the stock
 market after a prolonged bull phase or the unexpected success of a
 book by a previously-unknown author. The term refers to the shattering
@@ -18,7 +18,7 @@ m4_begin_post_rest
 m4_display_book( `1400063515', `black-swan-nassim-nicholas-taleb-book-0141034599')
 <p>
 The author divides our observations of the world around us into those
-belonging to &quot;Mediocristan&quot; and &quot;Extremistan&quot;. In
+belonging to &ldquo;Mediocristan&rdquo; and &ldquo;Extremistan&rdquo;. In
 Mediocristan, there are no very large deviations from the normal over
 many observations. In Extremistan, you might run into observations
 deviating significantly from the normal. For example, the height or
@@ -62,8 +62,8 @@ really possible to do so.
 <p>
 Of course, this could simply mean that I am not that well-read. There
 are also discussions about the confusion between correlation and
-causation and between &quot;absence of evidence&quot; and &quot;evidence
-of absence&quot;, which commonly lead people into deriving the wrong
+causation and between &ldquo;absence of evidence&rdquo; and &ldquo;evidence
+of absence&rdquo;, which commonly lead people into deriving the wrong
 conclusions from data.
 <p>
 The author warns against the increasing globalisation of finance and

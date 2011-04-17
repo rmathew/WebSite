@@ -1,9 +1,9 @@
 m4_define( `m4_post_date', `2009-04-19')m4_dnl
-m4_define( `m4_post_title', `&quot;Operating System Concepts&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;Operating System Concepts&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-&quot;Operating System Concepts&quot; by Abraham Silberschatz, Peter
+&ldquo;Operating System Concepts&rdquo; by Abraham Silberschatz, Peter
 Galvin and Greg Gagne is a text-book that teaches the basics of
 operating systems design. As is implied by the title, the book focuses
 more on the concepts than their implementation. Almost all the concepts
@@ -31,9 +31,9 @@ look at the code you realise that it does not take black magic to write
 an operating system. The tinkering of fearless programmers with such code
 creates a breeding ground for fresh breakthroughs in this field - after
 all, Linux is the result of such tinkering by a very talented hacker.
-This focus on implementation is what makes &quot;<a
+This focus on implementation is what makes &ldquo;<a
 href="http://www.amazon.com/gp/product/0131429388?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0131429388">Operating
-Systems Design and Implementation</a>&quot;<img
+Systems Design and Implementation</a>&rdquo;<img
 src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0131429388"
 width="1" height="1" alt="" style="border:none !important; margin:0px
 !important;"> by Andrew Tanenbaum such a valuable book when compared
@@ -43,7 +43,7 @@ This book has gone through several editions over the years, gaining a
 couple of co-authors and losing one. It refrains from passing
 judgement over design alternatives. The language is simple and
 non-condescending. Some of the topics should perhaps have been dropped
-and some moved to an &quot;advanced&quot; text-book. For example, the
+and some moved to an &ldquo;advanced&rdquo; text-book. For example, the
 chapters on networking, transaction processing and distributed systems
 really belong to other text-books devoted to the respective subjects.
 <p>

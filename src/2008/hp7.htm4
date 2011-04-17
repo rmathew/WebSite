@@ -1,10 +1,10 @@
 m4_define( `m4_post_date', `2008-08-17')m4_dnl
-m4_define( `m4_post_title', `&quot;Harry Potter and the Deathly Hallows&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;Harry Potter and the Deathly Hallows&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-&quot;Harry Potter and the Deathly Hallows&quot; is the seventh book in
-the &quot;Harry Potter&quot; series by <a
+&ldquo;Harry Potter and the Deathly Hallows&rdquo; is the seventh book in
+the &ldquo;Harry Potter&rdquo; series by <a
 href="http://en.wikipedia.org/wiki/J._K._Rowling">J. K. Rowling</a>. At
 least as of now, this book is supposed to be the final book in this
 series. So it was natural for me to wonder before picking it up whether
@@ -13,7 +13,7 @@ m4_begin_post_rest
 m4_display_book( `0545010225', `harry-potter-deathly-hallows-rowling-book-0747595836')
 <p>
 After having read the book, the answer seems to be a mixture of
-&quot;yes&quot; and &quot;no&quot; - yes, the hero prevails and evil is
+&ldquo;yes&rdquo; and &ldquo;no&rdquo; - yes, the hero prevails and evil is
 vanquished as expected; no, the resolution as it plays out cannot really
 be called satisfactory.
 <p>
@@ -45,23 +45,23 @@ author shamelessly resorts to <a
 href="http://en.wikipedia.org/wiki/Deus_ex_machina"><i>deus ex
 machina</i></a> a bit too often for my comfort.
 <p>
-Just as with &quot;The Lord of the Rings&quot;, I felt that here too
+Just as with &ldquo;The Lord of the Rings&rdquo;, I felt that here too
 the final battle with the main villain was a complete letdown. What is
 the point of hyping up the primary villain throughout the series if in
 the final battle he is vanquished without much of a fight? We should
-have something like the &quot;<a
-href="http://en.wikipedia.org/wiki/Boss_(video_games)">boss</a>&quot;
+have something like the &ldquo;<a
+href="http://en.wikipedia.org/wiki/Boss_(video_games)">boss</a>&rdquo;
 battles in video-games so that it feels really satisfying when the
 hero finally conquers the villain.
 <p>
-As in &quot;The Chronicles of Narnia&quot;, the author's deep Christian
+As in &ldquo;The Chronicles of Narnia&rdquo;, the author's deep Christian
 beliefs clearly show through towards the end of this book. This part
 looks really weird and I found it even more jarring than the other
 lacunae in the overall plot. As if this wasn't bad enough, the epilogue
 seemed completely pointless to me, except perhaps to tell us who married
 whom and what their children were called.
 <p>
-The &quot;Harry Potter&quot; series certainly makes for an interesting
+The &ldquo;Harry Potter&rdquo; series certainly makes for an interesting
 read, but the tale could perhaps have been told in fewer books and with
 a tighter plot without losing its charm. Granted that you have to
 willingly suspend disbelief to enjoy such fantasies, but even within

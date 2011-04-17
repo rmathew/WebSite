@@ -1,12 +1,12 @@
 m4_define( `m4_post_date', `2004-07-25')m4_dnl
-m4_define( `m4_post_title', `&quot;Five Point Someone&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;Five Point Someone&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
 This short novel by <a href="http://www.chetanbhagat.com/">Chetan Bhagat</a>
 tells the story of the narrator and his two friends and their stay in <a
 href="http://www.iitd.ac.in/">IIT Delhi</a>. While some of the lines did make
-me chuckle and some made me say &quot;So true!&quot;, I still do not feel
+me chuckle and some made me say &ldquo;So true!&rdquo;, I still do not feel
 that all the hype over this novel is justified. Some of the stuff was a bit
 of an exaggeration too - this is <i>not</i> what generally happens in
 the IITs people (the coke bottles episode, the making out with a
@@ -41,6 +41,6 @@ decent females, the pathetic living conditions and the delusional
 and dictatorial faculty members!
 <p>
 Oh by the way, apart from being IIT alumni, Chetan and I also happen
-to have wives with the same name (&quot;Anusha&quot;).
+to have wives with the same name (&ldquo;Anusha&rdquo;).
 m4_end_post_rest
 m4_end_post

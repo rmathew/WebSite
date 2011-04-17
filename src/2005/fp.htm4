@@ -1,13 +1,13 @@
 m4_define( `m4_post_date', `2005-07-15')m4_dnl
-m4_define( `m4_post_title', `&quot;Foucault'`''`s Pendulum&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;Foucault'`''`s Pendulum&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-Umberto Eco's &quot;Foucault's Pendulum&quot; is another of the books
+Umberto Eco's &ldquo;Foucault's Pendulum&rdquo; is another of the books
 recommended to me by <a href="http://www.yumpee.org/">Yumpee</a>. Any
 novel that features a complete program in BASIC for generating all the
 permutations of the letters of God's name in Hebrew
-(&quot;<i>Yahveh</i>&quot;) <i>has</i> to be interesting.
+(&ldquo;<i>Yahveh</i>&rdquo;) <i>has</i> to be interesting.
 m4_begin_post_rest
 m4_display_book( `015603297X', `foucault-s-pendulum-umberto-eco-book-0099287153')
 <p>

@@ -9,7 +9,7 @@ m4_heading( `1', `bind', `Binding Windows Executables')
 <p>
 This small program illustrates how to bind Windows executables to the DLLs
 they use so that their loading times are reduced and hence they start up
-faster. This is somewhat similar to the concept of &quot;pre-linking&quot;
+faster. This is somewhat similar to the concept of &ldquo;pre-linking&rdquo;
 in Linux. It is used by several application installers to speed up the
 application startup times.
 <p>
@@ -56,7 +56,7 @@ ZeroMemory (&amp;osInfo, sizeof (osInfo));
 osInfo.dwOSVersionInfoSize = sizeof (osInfo);
 GetVersionEx (&amp;osInfo);
 if ((osInfo.dwMajorVersion == 4)
-&& ((osInfo.dwMinorVersion == 0)
+&amp;&amp; ((osInfo.dwMinorVersion == 0)
 || (osInfo.dwMinorVersion == 10)
 || (osInfo.dwMinorVersion == 90)))
 {

@@ -1,10 +1,10 @@
 m4_define( `m4_post_date', `2005-03-27')m4_dnl
-m4_define( `m4_post_title', `&quot;Myst IV: Revelation&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;Myst IV: Revelation&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-Anusha and I have finished playing &quot;<a
-href="http://www.mystrevelation.com/">Myst IV: Revelation</a>&quot;,
+Anusha and I have finished playing &ldquo;<a
+href="http://www.mystrevelation.com/">Myst IV: Revelation</a>&rdquo;,
 the latest in the <a href="http://www.mystworlds.com/">Myst</a> series
 of games.
 The game is heavy on gorgeously beautiful content and lots of
@@ -30,11 +30,11 @@ active at certain spots in the game world and that replays events that had
 happened at the spot, possibly containing useful clues. We did get
 stuck at some points in the game, but the help system rescued us
 before we could get frustrated and either look for a walkthrough or
-abandon the game. This is in sharp contrast to &quot;<a
-href="http://uru.ubi.com/">Uru</a>&quot;, which we
+abandon the game. This is in sharp contrast to &ldquo;<a
+href="http://uru.ubi.com/">Uru</a>&rdquo;, which we
 are yet to finish completely (we have finished the original game
-and the &quot;To D'ni&quot; expansion pack, but not &quot;The Path
-of the Shell&quot; expansion pack).
+and the &ldquo;To D'ni&rdquo; expansion pack, but not &ldquo;The Path
+of the Shell&rdquo; expansion pack).
 <p>
 The actors are convincing most of a time, though their diction does
 get a bit weird at places (sub-titles are still quite useful, but work

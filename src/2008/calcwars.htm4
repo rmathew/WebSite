@@ -1,10 +1,10 @@
 m4_define( `m4_post_date', `2008-04-29')m4_dnl
-m4_define( `m4_post_title', `&quot;The Calculus Wars&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;The Calculus Wars&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-In &quot;<a href="http://www.calculuswars.com/">The Calculus
-Wars</a>&quot;, Jason Bardi writes about the bitter fight in the
+In &ldquo;<a href="http://www.calculuswars.com/">The Calculus
+Wars</a>&rdquo;, Jason Bardi writes about the bitter fight in the
 beginning of the 18<sup>th</sup> century between Isaac Newton and
 Gottfried Leibniz over the right to be known as the inventor of
 calculus. Since this episode paints an extremely unflattering picture
@@ -16,7 +16,7 @@ m4_display_book( `1560259922', `calculus-wars-jason-bardi-book-1843440369')
 The book provides a brief biography of each of the two men, including
 the background in each case that led them to independently invent
 calculus. It attempts to explain why Newton did not publish his papers
-on his version of calculus (&quot;fluxions and fluents&quot;) even
+on his version of calculus (&ldquo;fluxions and fluents&rdquo;) even
 though he had mentioned it in some of his letters to a few of his
 contemporaries and had invented it about <i>two decades</i> before
 Leibniz published his first paper on calculus. It shows how the pride

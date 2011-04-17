@@ -1,5 +1,5 @@
 m4_define( `m4_post_date', `2010-03-03')m4_dnl
-m4_define( `m4_post_title', `&quot;Programming Pearls&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;Programming Pearls&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
@@ -44,7 +44,7 @@ The author ends the book with a couple of amusing epilogues presented
 as interviews with himself. He takes a dig at himself for the frequent
 references in the book to his colleagues from Bell Labs. One of the
 appendices contains rules for code tuning adapted from his
-now-out-of-print book &quot;Writing Efficient Programs&quot;. I suspect
+now-out-of-print book &ldquo;Writing Efficient Programs&rdquo;. I suspect
 that an absolute beginner would have some trouble understanding these
 recommendations since they are presented here without much elaboration
 or examples, though there are references to related material elsewhere
@@ -60,16 +60,16 @@ book is timeless and will definitely help you become a better
 programmer.
 <p>
 Note that the web-site for the book as given in it,
-&quot;<tt>www.programmingpearls.com</tt>&quot;, is not valid any more as
+&ldquo;<tt>www.programmingpearls.com</tt>&rdquo;, is not valid any more as
 a domain squatter has snatched control of it - the correct web-site is <a
 href="http://www.cs.bell-labs.com/cm/cs/pearls/">http://www.cs.bell-labs.com/cm/cs/pearls/</a>.
 <p>
-The sequel to this book was published as &quot;<a
+The sequel to this book was published as &ldquo;<a
 href="http://www.amazon.com/gp/product/0201118890?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0201118890">More
 Programming Pearls: Confessions of a Coder</a><img
 src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0201118890"
 width="1" height="1" alt="" style="border:none !important; margin:0px
-!important;">&quot;. That book is a little hard to find in most
+!important;">&rdquo;. That book is a little hard to find in most
 book-shops as it did not become as famous as this one.
 m4_end_post_rest
 m4_end_post

@@ -1,10 +1,10 @@
 m4_define( `m4_post_date', `2010-01-10')m4_dnl
-m4_define( `m4_post_title', `&quot;Economics: Private and Public Choice&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;Economics: Private and Public Choice&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
 If you are looking for a comprehensive and accessible introduction to
-economics, &quot;Economics: Private and Public Choice&quot; by James D.
+economics, &ldquo;Economics: Private and Public Choice&rdquo; by James D.
 Gwartney, Richard L. Stroup, Russell S. Sobel and David Macpherson is
 the book for you. It covers both microeconomics and macroeconomics in
 addition to the core principles of economics. Though it is a textbook
@@ -14,7 +14,7 @@ the tenth edition of this book that was published in 2003.
 m4_begin_post_rest
 m4_display_book( `0324580185', `economics-james-gwartney-richard-stroup-book-0324580185')
 <p>
-This is a &quot;modern&quot; textbook in every sense. It is quite
+This is a &ldquo;modern&rdquo; textbook in every sense. It is quite
 colourful and is richly illustrated with several pictures, graphs and
 icons. The chapters are not too big and are written in a simple
 language. They begin with an overview of the chapter and end with a
@@ -26,8 +26,8 @@ either talk about applications of economics or introduce a noted
 economist. Teaching aids for the book like presentation slides,
 instructor's manual, etc. can be separately obtained from the publisher.
 The book comes with a ridiculous CD-ROM containing <i>a single HTML
-file</i> that in turn redirects you to the &quot;<a
-href="http://gwartneyxtra.swcollege.com/">Gwartney Xtra!</a>&quot;
+file</i> that in turn redirects you to the &ldquo;<a
+href="http://gwartneyxtra.swcollege.com/">Gwartney Xtra!</a>&rdquo;
 web-site containing supplementary material for the book. I cannot help
 but wonder why the publishers could not just provide the URL for the
 web-site in the book.

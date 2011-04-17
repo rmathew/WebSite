@@ -1,13 +1,13 @@
 m4_define( `m4_post_date', `2008-11-18')m4_dnl
-m4_define( `m4_post_title', `&quot;Fooled by Randomness&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;Fooled by Randomness&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-It is not easy to put &quot;<a
-href="http://www.fooledbyrandomness.com/">Fooled by Randomness</a>&quot;
+It is not easy to put &ldquo;<a
+href="http://www.fooledbyrandomness.com/">Fooled by Randomness</a>&rdquo;
 by <a href="http://en.wikipedia.org/wiki/Nassim_Nicholas_Taleb">Nassim
 Nicholas Taleb</a> into one of the standard book categories like
-&quot;Business&quot; or &quot;Science&quot; or &quot;Philosophy&quot;.
+&ldquo;Business&rdquo; or &ldquo;Science&rdquo; or &ldquo;Philosophy&rdquo;.
 This is because the book is about all of these and more. The main
 message of the book is that humans have an innate tendency to overlook
 the randomness of most of the events in their lives and they must learn
@@ -26,15 +26,15 @@ probabilities people tend to take the wrong decisions because they
 forget to calculate the expected value of the possible outcomes. Many
 of the examples used to illustrate these statements are taken from the
 financial markets since the author is an options trader. The story of
-&quot;Nero Tulip&quot; seems somewhat autobiographical.
+&ldquo;Nero Tulip&rdquo; seems somewhat autobiographical.
 <p>
 The author makes no attempt to hide his contempt for many people
-and for several commonly-accepted ideas. His motto is &quot;to tease
+and for several commonly-accepted ideas. His motto is &ldquo;to tease
 those who take themselves and the quality of their knowledge too
-seriously&quot;. He reserves particular contempt for economists and
-journalists. The book has many &quot;warnings against economists and
+seriously&rdquo;. He reserves particular contempt for economists and
+journalists. The book has many &ldquo;warnings against economists and
 finance professors as they tend to believe that they know something,
-and something useful at that&quot;. He does not shy from rubbishing
+and something useful at that&rdquo;. He does not shy from rubbishing
 the typical MBA even though he holds an MBA himself. He thinks that
 journalists are primarily entertainers and asks you to stay away from
 those who are deluded into believing that they are thinkers.

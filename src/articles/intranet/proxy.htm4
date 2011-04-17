@@ -17,7 +17,7 @@ atrocious wastage of the bandwidth in downloading the same
 set of pages (and the associated images) as each hobbit
 individually visited a site. Sam wondered if there was a
 way to store the contents of these sites locally, so that
-precious bandwidth could be saved. This &quot;caching&quot;
+precious bandwidth could be saved. This &ldquo;caching&rdquo;
 could tremendously reduce the load on the Internet connection
 and could provide a much better response time for content that
 hardly changed over time.
@@ -34,9 +34,9 @@ the software.
 m4_heading( `1', `setup', `Proxy Server Setup')
 <p>
 By default, Squid installed itself in the folder
-&quot;<code>/usr/local/squid</code>&quot;. The configuration
-file was called &quot;<code>squid.conf</code>&quot; and
-was installed in the &quot;<code>etc</code>&quot; sub-folder.
+&ldquo;<code>/usr/local/squid</code>&rdquo;. The configuration
+file was called &ldquo;<code>squid.conf</code>&rdquo; and
+was installed in the &ldquo;<code>etc</code>&rdquo; sub-folder.
 The configuration file was very well documented (through
 in-file comments) and Sam found it very easy to figure out
 how to configure the server.
@@ -49,16 +49,16 @@ one as the value to the <code>cache_dir</code> parameter (along
 with the total space used under this folder and the total
 number of level-1 and level-2 sub-directories to create in this
 folder). To allow everyone to use the proxy, he had to put in
-a line saying &quot;<code>http_access allow all</code>&quot;.
-He also set the value of the &quot;<code>cache_mgr</code>&quot;
-parameter to &quot;<code>sam@internal.hobbitware.com</code>&quot;,
+a line saying &ldquo;<code>http_access allow all</code>&rdquo;.
+He also set the value of the &ldquo;<code>cache_mgr</code>&rdquo;
+parameter to &ldquo;<code>sam@internal.hobbitware.com</code>&rdquo;,
 so that the users of the proxy servers would know who to contact
 in case of an error or some other problem.
 <p>
 Squid prefers to run
 as a non-root user and therefore Sam had to give the appropriate
-values for the &quot;<code>cache_effective_user</code>&quot; and
-the &quot;<code>cache_effective_group</code>&quot; parameters.
+values for the &ldquo;<code>cache_effective_user</code>&rdquo; and
+the &ldquo;<code>cache_effective_group</code>&rdquo; parameters.
 He chose to run Squid under his own identity (<code>sam</code>).
 Of course he had to then ensure that his user-id had enough
 quota for storing the cached objects as well as his own mails
@@ -66,8 +66,8 @@ quota for storing the cached objects as well as his own mails
 designated cache dir had to have read-write-execute permissions
 for his user id.
 <p>
-He set the value of the &quot;<code>append_domain</code>&quot;
-parameter to &quot;<code>.internal.hobbitware.com</code>&quot;, so
+He set the value of the &ldquo;<code>append_domain</code>&rdquo;
+parameter to &ldquo;<code>.internal.hobbitware.com</code>&rdquo;, so
 that hostnames that were not fully-qualified could be resolved.
 (There were a host of other parameters that would have enabled
 Sam to further tweak Squid to his needs, but he did not bother
@@ -83,16 +83,16 @@ structure used by Squid under this folder, Sam had to run the command:
 </div>
 <p>
 That was it! Sam then added
-&quot;<code>/usr/local/squid/bin/squid</code>&quot; to the startup
+&ldquo;<code>/usr/local/squid/bin/squid</code>&rdquo; to the startup
 scripts so that Squid automatically started when the system
 booted up. Then he asked the hobbits to configure their browsers
-to use the intranet server as the &quot;HTTP Proxy&quot; and the
-&quot;FTP Proxy&quot; (both on the same port 3128). The hobbits
+to use the intranet server as the &ldquo;HTTP Proxy&rdquo; and the
+&ldquo;FTP Proxy&rdquo; (both on the same port 3128). The hobbits
 could then immediately benefit from the immense speedups brought
 about by the caching proxy server.
 <p>
 If Sam wished, he could have added filters to the proxy server
-to prohibit the hobbits from visiting &quot;offensive&quot; sites.
+to prohibit the hobbits from visiting &ldquo;offensive&rdquo; sites.
 However, being a liberal person valuing individual freedom, he
 refrained from doing anything like this.
 <p>

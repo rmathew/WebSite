@@ -1,5 +1,5 @@
 m4_define( `m4_post_date', `2005-06-21')m4_dnl
-m4_define( `m4_post_title', `&quot;A Heap of Broken Images&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;A Heap of Broken Images&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>

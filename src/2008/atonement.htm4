@@ -1,9 +1,9 @@
 m4_define( `m4_post_date', `2008-06-02')m4_dnl
-m4_define( `m4_post_title', `&quot;Atonement&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;Atonement&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-I was tempted to read &quot;Atonement&quot; by <a
+I was tempted to read &ldquo;Atonement&rdquo; by <a
 href="http://en.wikipedia.org/wiki/Ian_McEwan">Ian McEwan</a> after
 having watched <a
 href="http://en.wikipedia.org/wiki/Atonement_(film)">the eponymous

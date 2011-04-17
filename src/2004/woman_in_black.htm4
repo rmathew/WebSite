@@ -1,5 +1,5 @@
 m4_define( `m4_post_date', `2004-08-21')m4_dnl
-m4_define( `m4_post_title', `&quot;The Woman in Black&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;The Woman in Black&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>

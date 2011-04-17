@@ -1,9 +1,9 @@
 m4_define( `m4_post_date', `2006-07-11')m4_dnl
-m4_define( `m4_post_title', `&quot;Year'`''`s Best Graphic Novels`,' Comics and Manga&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;Year'`''`s Best Graphic Novels`,' Comics and Manga&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-&quot;Year's Best Graphic Novels, Comics, and Manga&quot;, edited by
+&ldquo;Year's Best Graphic Novels, Comics, and Manga&rdquo;, edited by
 Byron Preiss and Howard Zimmerman, is a collection of short snippets
 from graphic novels, comics and manga published between May 2003 and
 December 2004.

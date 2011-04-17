@@ -1,9 +1,9 @@
 m4_define( `m4_post_date', `2006-05-29')m4_dnl
-m4_define( `m4_post_title', `&quot;Softwar&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;Softwar&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-I did not want to read &quot;Softwar&quot; by Matthew Symonds at first.
+I did not want to read &ldquo;Softwar&rdquo; by Matthew Symonds at first.
 I thought it would be just like the numerous other biographies endorsed
 by their subjects that are so common these days and that are utterly
 banal and filled with nauseating flattery of their subjects. I also
@@ -19,8 +19,8 @@ editor of <a href="http://www.economist.com/">The Economist</a>. The
 Economist is about the only general magazine I have a very high regard
 for and surely one of its editors cannot possibly write something
 completely trashy. So I picked up the book curious to see if it really
-delivers on its promise of &quot;an intimate portrait of Larry Ellison
-and Oracle&quot;.
+delivers on its promise of &ldquo;an intimate portrait of Larry Ellison
+and Oracle&rdquo;.
 <p>
 It does. Sometimes it's uncomfortably frank and a bit too intimate.
 Matthew travelled with Larry for over a year and was allowed to attend
@@ -44,7 +44,7 @@ could have easily been reduced to about half its size without losing
 anything. I personally found the chronology of events a bit hard to
 track and the detailed descriptions of yachting and boat racing rather
 boring. I thought the book spent an unfair amount of time on the Oracle
-E-Business Suite (&quot;Apps&quot;) compared to the RDBMS server and
+E-Business Suite (&ldquo;Apps&rdquo;) compared to the RDBMS server and
 the Application Server. Perhaps that was because Apps was the primary
 focus of Oracle's marketing thrust during the time this book was
 written and Larry must have been obsessed with it at that time. Written
@@ -59,7 +59,7 @@ faced in marketing such a beast especially when its integrated suite
 approach is so different from the best-of-breed approach favoured by
 conventional wisdom (and system integrators who make tonnes of money
 this way). I also learnt about some Oracle gods like Dirk
-&quot;Derry&quot; Kabcenell and Andy Mendelsohn. I found out that
+&ldquo;Derry&rdquo; Kabcenell and Andy Mendelsohn. I found out that
 Larry was actually technically involved in the database for a long
 time and that could be the reason he was listed as a co-inventor in
 some patents on database technologies instead of pure vanity as I had

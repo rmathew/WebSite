@@ -1,15 +1,15 @@
 m4_define( `m4_post_date', `2010-07-30')m4_dnl
-m4_define( `m4_post_title', `&quot;Above Average&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;Above Average&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-&quot;<a href="http://www.aboveaveragebook.com/">Above Average</a>&quot;
+&ldquo;<a href="http://www.aboveaveragebook.com/">Above Average</a>&rdquo;
 by <a href="http://www.cse.iitd.ac.in/~bagchi/">Amitabha Bagchi</a> is
 a novel about a smart boy with a middle-class background and his life
 before, during and after his stay at <a
 href="http://www.iitd.ac.in/">IIT Delhi</a>. It is the story of
 friendships forged and lost, love blossoming and withering. It is a
-coming-of-age novel that has also been termed a &quot;campus book&quot;
+coming-of-age novel that has also been termed a &ldquo;campus book&rdquo;
 because of the many recent Indian novels based on life at the IITs and
 the IIMs. However it is certainly one of the better-written novels of
 the lot.
@@ -17,15 +17,15 @@ m4_begin_post_rest
 m4_display_book( `8172236530', `above-average-bagchi-amitabh-book-8172236530')
 <p>
 The comparison with the other popular novel based on life at IIT,
-&quot;<a href="../2004/fps.html">Five Point Someone</a>&quot; by Chetan
+&ldquo;<a href="../2004/fps.html">Five Point Someone</a>&rdquo; by Chetan
 Bhagat, is inevitable. This book is surely the better of the two, while
 retaining the simplicity of language and a reasonable price. There is no
 straight narrative in this book as it keeps going back and forth in
 time and place. I was reminded of the writing-style of <a
 href="http://en.wikipedia.org/wiki/Amitav_Ghosh">Amitav Ghosh</a> while
-reading this book - &quot;<a
+reading this book - &ldquo;<a
 href="http://en.wikipedia.org/wiki/The_Shadow_Lines">The Shadow
-Lines</a>&quot; does in fact make an appearance in the novel and the
+Lines</a>&rdquo; does in fact make an appearance in the novel and the
 narrator praises its writing-style.
 <p>
 Our hero is an above-average academic achiever from a middle-class
@@ -41,22 +41,22 @@ a little exaggeration here and there.
 <p>
 Some of the details in book were a little jarring for me. For example,
 our hero, majoring in Computer Science, takes a class on Algorithms only
-in the third year and describes it as the &quot;toughest of all the
-theory classes we were required to take&quot;. Algorithms is usually
+in the third year and describes it as the &ldquo;toughest of all the
+theory classes we were required to take&rdquo;. Algorithms is usually
 taught right at the beginning of the second year (if not within the first
 year itself), is one of the easier courses and is full of practical
 material. As another example, the hero is a boy in his late teens and
 has thoughts that are a little too mature for his age - it's not
 impossible, but it's unlikely. Finally, the usual confusion between
-&quot;invariably&quot; and &quot;inevitably&quot; is on display here,
+&ldquo;invariably&rdquo; and &ldquo;inevitably&rdquo; is on display here,
 which is a little out of character for someone who is supposedly good
 at writing in English.
 <p>
 Despite what <a
 href="http://www.tribuneindia.com/2007/20070429/spectrum/book6.htm">another
 reviewer would have you believe</a>, this is not in the same league as
-&quot;A Portrait of the Artist as a Young Man&quot; by James Joyce or
-&quot;In Search of Lost Time&quot; by Marcel Proust. It is however a
+&ldquo;A Portrait of the Artist as a Young Man&rdquo; by James Joyce or
+&ldquo;In Search of Lost Time&rdquo; by Marcel Proust. It is however a
 good read, well worth the time and money spent on it.
 m4_end_post_rest
 m4_end_post

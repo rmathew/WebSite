@@ -1,9 +1,9 @@
 m4_define( `m4_post_date', `2011-03-26')m4_dnl
-m4_define( `m4_post_title', `&quot;Superfreakonomics&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;Superfreakonomics&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-&quot;<a href="http://www.superfreakonomicsbook.com/">Superfreakonomics</a>&quot;
+&ldquo;<a href="http://www.superfreakonomicsbook.com/">Superfreakonomics</a>&rdquo;
 by Steven Levitt and Stephen Dubner is a sequel to their successful book <a
 href="m4_root_dir/2006/freako.html">Freakonomics</a>. Like that book, this one
 too uses some of the principles from economics to answer a number of questions
@@ -14,9 +14,9 @@ book came out and that explore very similar topics.
 m4_begin_post_rest
 m4_display_book( `0060889578', `superfreakonomics-steven-levitt-stephen-dubner-book-0713999918')
 <p>
-Some of the chapters have intriguing titles like &quot;How is a street
-prostitute like a department-store Santa?&quot; or &quot;Why should
-suicide-bombers buy life-insurance?&quot; and manage fairly well to apply
+Some of the chapters have intriguing titles like &ldquo;How is a street
+prostitute like a department-store Santa?&rdquo; or &ldquo;Why should
+suicide-bombers buy life-insurance?&rdquo; and manage fairly well to apply
 data and economic principles to justify their conclusions. Unlike the first
 book however, none of the results presented here are startling enough. The
 effect is like reading a second-rate story where you can predict pretty
@@ -52,7 +52,7 @@ As another example, they note that one of the ways to boost your longevity is
 to get a Nobel prize if you can, since prize-winners have been observed to live
 very long. A much simpler explanation for the longevity of Nobel-prize-winners
 could be that since these prizes are not awarded posthumously and are only
-awarded for innovations that have &quot;stood the test of time&quot;
+awarded for innovations that have &ldquo;stood the test of time&rdquo;
 (translating into a gap of 20 years or more between the innovation and the
 prize), only those who live long enough usually manage to get this prize.
 <p>

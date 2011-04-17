@@ -1,5 +1,5 @@
 m4_define( `m4_post_date', `2010-02-24')m4_dnl
-m4_define( `m4_post_title', `&quot;Code Complete&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;Code Complete&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
@@ -11,12 +11,12 @@ every computer programmer ought to have read. I had read the first
 edition, published in 1993, as a budding programmer and the book left
 a lasting impression on me. With the benefit of several years of
 experience, I find myself agreeing almost entirely with the updated
-second edition, published in 2004. When someone asks me &quot;How do
-I write good code?&quot;, I point them to this book without hesitation.
+second edition, published in 2004. When someone asks me &ldquo;How do
+I write good code?&rdquo;, I point them to this book without hesitation.
 m4_begin_post_rest
 m4_display_book( `0735619670', `code-complete-2nd-steve-mcconnel-book-8178530856')
 <p>
-The book is about &quot;software construction&quot; - as the author
+The book is about &ldquo;software construction&rdquo; - as the author
 notes, this includes coding and debugging, detailed design, construction
 planning, unit testing, integration, integration testing, etc. The bulk
 of the book focusses on coding since most of the effort in construction
@@ -45,9 +45,9 @@ your code adheres to the guidelines prescribed in the chapter. The
 side-margins of a page are used to provide cross-references to material
 covered elsewhere in the book, insightful or funny quotes, a short URL
 on the book's web-site that contains additional material and icons to
-bring something to your attention. These icons are &quot;Hard
-Data&quot; (typically a reference to a study backing some claim),
-&quot;Key Point&quot; and &quot;Coding Horror&quot; (an example of
+bring something to your attention. These icons are &ldquo;Hard
+Data&rdquo; (typically a reference to a study backing some claim),
+&ldquo;Key Point&rdquo; and &ldquo;Coding Horror&rdquo; (an example of
 badly-written code). This structure makes it easy to find the material
 you're looking for as you refer to the book from time to time.
 <p>
@@ -96,7 +96,7 @@ With an additional 10 years of experience gained before the publication
 of the second edition of this book, the author has slightly revised some
 of his earlier recommendations and freely admits it. For example, the
 first edition recommended a pretty-formatting of code where the
-&quot;=&quot; operators of consecutive assignment statements line up
+&ldquo;=&rdquo; operators of consecutive assignment statements line up
 like this:
 <pre>
 int foo       = bar;

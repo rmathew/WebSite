@@ -1,5 +1,5 @@
 m4_define( `m4_post_date', `2004-08-22')m4_dnl
-m4_define( `m4_post_title', `&quot;Uru: Ages Beyond Myst&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;Uru: Ages Beyond Myst&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
@@ -15,7 +15,7 @@ which is the expansion pack for this game.
 <div class="centred">
 <img src="m4_root_dir/images/uru1.jpg" alt="Uru Screenshot">
 <br>
-<i>Our Avatar inside an Age (&quot;Gahreesan&quot;) in Uru</i>
+<i>Our Avatar inside an Age (&ldquo;Gahreesan&rdquo;) in Uru</i>
 </div>
 <p>
 I liked the game on the whole but just <i>hated</i> some of the elements -

@@ -1,9 +1,9 @@
 m4_define( `m4_post_date', `2010-04-15')m4_dnl
-m4_define( `m4_post_title', `&quot;Distributed Systems&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;Distributed Systems&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-&quot;Distributed Systems: Concepts and Design&quot; by George
+&ldquo;Distributed Systems: Concepts and Design&rdquo; by George
 Coulouris, Jean Dollimore and Tim Kindberg is an introductory text-book
 on distributed computing. It provides a broad overview of the basic
 principles as well as the major issues in building such systems. Since

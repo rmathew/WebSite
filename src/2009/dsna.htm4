@@ -1,9 +1,9 @@
 m4_define( `m4_post_date', `2009-03-15')m4_dnl
-m4_define( `m4_post_title', `&quot;Data Structures and Algorithms&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;Data Structures and Algorithms&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-&quot;Data Structures and Algorithms&quot; by Alfred Aho, Jeffrey Ullman
+&ldquo;Data Structures and Algorithms&rdquo; by Alfred Aho, Jeffrey Ullman
 and John Hopcroft is a relatively-short introductory text for data
 structures and algorithms useful for computer programming. It covers a
 surprisingly-broad set of topics considering its size. It is fairly
@@ -30,7 +30,7 @@ reader. There are no solutions provided for the exercises given in the
 book. Many a time the book uses unnecessarily formal descriptions when
 a much simpler language would have sufficed.
 <p>
-Some of the &quot;advanced&quot; data structures like red-black trees,
+Some of the &ldquo;advanced&rdquo; data structures like red-black trees,
 AVL trees, splay trees, etc. are either not described here or are just
 alluded to without any details. An important and basic algorithm like
 binary search through sorted data is only mentioned in passing. There

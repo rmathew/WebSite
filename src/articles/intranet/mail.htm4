@@ -14,7 +14,7 @@ emails for these, even though some (or all) of the recipients
 sat in the same office. In addition, all the official
 communications happened over email (hobbits did not quite
 like the idea of cutting down trees to produce paper and
-tried to aim for a &quot;paperless office&quot; long before the
+tried to aim for a &ldquo;paperless office&rdquo; long before the
 term became a fashionable buzzword). Sending and receiving
 these mails consumed most of the limited bandwidth that the
 company had, and therefore Sam had to find some way of reducing
@@ -58,12 +58,12 @@ servers that come with the <a href="http://www.washington.edu/pine/">PINE</a>
 distribution.)
 <p>
 In the DNS server configuration, the Intranet server
-was listed as an &quot;MX (Mail Exchanger)&quot; entry for the
-&quot;<code>internal.hobbitware.com</code>&quot; domain, so that
+was listed as an &ldquo;MX (Mail Exchanger)&rdquo; entry for the
+&ldquo;<code>internal.hobbitware.com</code>&rdquo; domain, so that
 the email address did not have to explicitly contain the address
 of the mail server (i.e. instead of having to specify
-&quot;<i>merry@dns.internal.hobbitware.com</i>&quot;, they could
-just write &quot;<i>merry@internal.hobbitware.com</i>&quot;). This
+&ldquo;<i>merry@dns.internal.hobbitware.com</i>&rdquo;, they could
+just write &ldquo;<i>merry@internal.hobbitware.com</i>&rdquo;). This
 enabled location transparency for the addresses - Sam could now
 easily move the email server to a different machine if needed, without
 asking everyone to update their address books - all he had to do
@@ -84,17 +84,17 @@ now most hobbits had to deal with at least two email
 accounts - the internal mail account and the externally
 visible account - not to mention other accounts, mostly
 hosted by free web-based email services. The least Sam could
-do was to link the &quot;official&quot; mail accounts.
+do was to link the &ldquo;official&rdquo; mail accounts.
 <p>
 The first step for Sam was to ensure that the hobbits also
-get to see their &quot;external&quot; mails when they checked
+get to see their &ldquo;external&rdquo; mails when they checked
 their internal mails. He used the really nifty
 <a href="http://tuxedo.org/~esr/fetchmail/">Fetchmail</a> program to enable
 this. He just
 installed the version that came with his distribution and
 then configured it. His Fetchmail configuration (stored in the
 home directory of the super-user as the file
-&quot;<code>.fetchmailrc</code>&quot;) looked something like this:
+&ldquo;<code>.fetchmailrc</code>&rdquo;) looked something like this:
 <p>
 <div class="notice">
 <pre>
@@ -109,7 +109,7 @@ password \x70\x61\x73\x73\x77\x6f\x72\x64
 </div>
 <p>
 The first line of the configuration file asked Fetchmail to run
-in the &quot;daemon mode&quot; and wake up every 900 seconds (or
+in the &ldquo;daemon mode&rdquo; and wake up every 900 seconds (or
 15 minutes) to check user mails. The next line asked it to
 connect to the company's external POP3 server and retrieve the user
 mails. Each user's external id with the relevant password was
@@ -164,7 +164,7 @@ emails in one place.
 This setup was not without problems however. The default
 configuration of the SMTP server on the Intranet server
 did allow mails to be sent to external users, but almost always
-resulted in &quot;<code>Sender domain must exist</code>&quot;
+resulted in &ldquo;<code>Sender domain must exist</code>&rdquo;
 style errors. And for the mails that <i>did</i> get through,
 the recipients could not reply to the message as the sender
 address was the internal email address of the form
@@ -179,14 +179,14 @@ correct mapping to the external id. Thus mails sent by
 to have come from <i>Frodo_Baggins@hobbitware.com</i>.
 <p>
 Sendmail usually reads its configuration information from the
-file &quot;<code>/etc/sendmail.cf</code>&quot;, but this is
+file &ldquo;<code>/etc/sendmail.cf</code>&rdquo;, but this is
 usually too complex for the average person to tweak himself.
 Therefore it comes with scripts that automate the generation
 of this configuration file. Sam's Linux distribution placed
 these scripts and sample configuration files in the
-&quot;<code>/usr/src/sendmail</code>&quot; folder. Under the
-folder &quot;<code>cf/cf</code>&quot; in this folder, was a
-sample configuration file named &quot;<code>linux.smtp.mc</code>&quot;.
+&ldquo;<code>/usr/src/sendmail</code>&rdquo; folder. Under the
+folder &ldquo;<code>cf/cf</code>&rdquo; in this folder, was a
+sample configuration file named &ldquo;<code>linux.smtp.mc</code>&rdquo;.
 Sam tweaked this file until it looked something like this:
 <div class="notice">
 <pre>
@@ -212,7 +212,7 @@ Of course, this was all according to the instructions given in the
 life-saving Sendmail FAQ. The reference to the server
 <code>smtp.shirenet.com</code> was there to ensure that all external
 mails were processed and delivered by the ISP's SMTP server rather than
-the Intranet server. This process was called &quot;relaying&quot; and
+the Intranet server. This process was called &ldquo;relaying&rdquo; and
 helped save the bandwidth further. Sam ran the <code>m4</code> macro
 processor on this file to generate the final Sendmail configuration
 file like this:
@@ -220,11 +220,11 @@ file like this:
 <code>m4 &lt;linux.smtp.mc &gt;/etc/sendmail.cf</code>
 </div>
 <p>
-The next step was to create the &quot;generics table&quot; and the
-&quot;virtual users map&quot; (refer to the Sendmail FAQ)
-in the &quot;<code>/etc/mail</code>&quot; folder
+The next step was to create the &ldquo;generics table&rdquo; and the
+&ldquo;virtual users map&rdquo; (refer to the Sendmail FAQ)
+in the &ldquo;<code>/etc/mail</code>&rdquo; folder
 (Sam had to create this folder). These were in-file databases
-and were created using the &quot;<code>updatemaildbs</code>&quot;
+and were created using the &ldquo;<code>updatemaildbs</code>&rdquo;
 shell script that Sam wrote:
 <div class="notice">
 <pre>
@@ -234,7 +234,7 @@ makemap btree genericstable &lt;genericusermaps
 </pre>
 </div>
 <p>
-The &quot;<code>virtualusermaps</code>&quot; file looked like
+The &ldquo;<code>virtualusermaps</code>&rdquo; file looked like
 this:
 <div class="notice">
 <pre>
@@ -244,7 +244,7 @@ Samwise_Gamgee@hobbitware.com	sam
 </pre>
 </div>
 <p>
-And the &quot;<code>genericusermaps</code>&quot; file looked like
+And the &ldquo;<code>genericusermaps</code>&rdquo; file looked like
 this:
 <div class="notice">
 <pre>
@@ -253,7 +253,7 @@ sam Samwise_Gamgee
 </pre>
 </div>
 <p>
-Finally, the &quot;<code>generics-domain</code>&quot; file looked like
+Finally, the &ldquo;<code>generics-domain</code>&rdquo; file looked like
 this:
 <div class="notice">
 <pre>
@@ -274,7 +274,7 @@ to the external SMTP server.
 <p>
 This was a setup as close to the ideal as possible - no mail would
 waste the available bandwidth if it could somehow be routed internally.
-And the hobbits got a single convenient &quot;magical&quot; mail
+And the hobbits got a single convenient &ldquo;magical&rdquo; mail
 account that made the best use of the bandwidth and could be used
 for both internal as well as external communications.
 <br>
@@ -285,7 +285,7 @@ configuration up to date. He had to create the account for the new
 employee, update the Fetchmail configuration file, update the generic
 users table and the virtual users map for Sendmail. He had to ensure
 that the servers read the modified configuration (by sending them
-the &quot;<code>HUP</code>&quot; signal through the <code>kill</code>
+the &ldquo;<code>HUP</code>&rdquo; signal through the <code>kill</code>
 command).
 <p>
 From time to time, he looked at the messages produced via
@@ -297,7 +297,7 @@ m4_heading( `1', `conclusion', `Conclusion')
 The mail server setup considerably reduced the load on the
 available bandwidth. Further, the linking of the external
 and internal accounts provided a convenient single interface to
-the hobbits to access all of their &quot;official&quot;
+the hobbits to access all of their &ldquo;official&rdquo;
 mails.
 <p>
 Since sending and receiving mails had become so easy, the

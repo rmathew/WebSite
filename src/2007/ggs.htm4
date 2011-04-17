@@ -1,5 +1,5 @@
 m4_define( `m4_post_date', `2007-02-16')m4_dnl
-m4_define( `m4_post_title', `&quot;Guns`,' Germs`,' and Steel&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;Guns`,' Germs`,' and Steel&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
@@ -12,14 +12,14 @@ years?
 m4_begin_post_rest
 m4_display_book( `0393061310', `guns-germs-steel-jared-diamond-book-0099302780')
 <p>
-In &quot;Guns, Germs, and Steel&quot;, Jared Diamond tries to answer
+In &ldquo;Guns, Germs, and Steel&rdquo;, Jared Diamond tries to answer
 these questions based on the theory that environmental factors, rather
 than innate racial superiority, account for the eventual dominance
 of one set of people over another. He surveys the history of humans
 over the last 13,000 years (after the last Ice Age) to conclude that
-&quot;guns&quot; (superior weapons, armours, carriers and tactics),
-&quot;germs&quot; (passing on of diseases to which the opponents have
-no resistance) and &quot;steel&quot; (superior technology) have been
+&ldquo;guns&rdquo; (superior weapons, armours, carriers and tactics),
+&ldquo;germs&rdquo; (passing on of diseases to which the opponents have
+no resistance) and &ldquo;steel&rdquo; (superior technology) have been
 the proximate factors that allowed one set of people to dominate
 another.
 <p>

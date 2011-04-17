@@ -1,5 +1,5 @@
 m4_define( `m4_post_date', `2006-04-06')m4_dnl
-m4_define( `m4_post_title', `ZINC (&quot;ZINC Is Not CoreWar&quot;)')m4_dnl
+m4_define( `m4_post_title', `ZINC (&ldquo;ZINC Is Not CoreWar&rdquo;)')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>

@@ -19,12 +19,12 @@ have also verified that it works in at least <a
 href="http://www.mozilla.com/thunderbird/">Thunderbird</a> and <a
 href="http://reader.google.com/">Google Reader</a>.
 <p>
-Each &quot;News&quot; post now has its own dedicated page. This makes
+Each &ldquo;News&rdquo; post now has its own dedicated page. This makes
 it easier to link to it, especially in the web-site feed. Instead of
 using expandable and collapsible sections to summarise posts on
-aggregating pages (the main page and the &quot;News Archive&quot;
+aggregating pages (the main page and the &ldquo;News Archive&rdquo;
 pages), I now put only the first paragraph of a post on an aggregating
-page. For longer posts, I insert a &quot;Read More...&quot; text linking
+page. For longer posts, I insert a &ldquo;Read More...&rdquo; text linking
 to the dedicated page for the post. This considerably reduces the size
 of the aggregating pages.
 <p>
@@ -36,7 +36,7 @@ to web-site maintenance as I could. This includes automatically creating
 aggregating pages with post-summaries in the right order, automatically
 creating the web-site feed, automatically creating a table of contents,
 automatically determining the dependencies between the various files
-with HTML fragments and using it in a &quot;Makefile&quot;, etc.
+with HTML fragments and using it in a &ldquo;Makefile&rdquo;, etc.
 Maintaining this web-site is now less of a chore.
 <p>
 The time and effort I spend maintaining this web-site might seem to be

@@ -1,12 +1,12 @@
 m4_define( `m4_post_date', `2009-03-30')m4_dnl
-m4_define( `m4_post_title', `&quot;Computer Architecture&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;Computer Architecture&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-&quot;Computer Architecture&quot; by John Hennessy and David Patterson
+&ldquo;Computer Architecture&rdquo; by John Hennessy and David Patterson
 is an advanced text on the subject that is a sequel to their other
-book &quot;<a href="m4_root_dir/2009/coad.html">Computer Organization
-and Design</a>&quot;. The authors assume in this book that the reader is
+book &ldquo;<a href="m4_root_dir/2009/coad.html">Computer Organization
+and Design</a>&rdquo;. The authors assume in this book that the reader is
 already familiar with the topics introduced in the other book and build
 upon these topics. Even then there is a fair amount of overlap among
 these books that is a bit irritating if you have only recently read the
@@ -40,7 +40,7 @@ expertise to bear on specialised topics like floating-point arithmetic,
 embedded systems, etc.
 <p>
 Throughout the two books the authors have stuck with their
-&quot;quantitative approach&quot; to this field. Instead of making
+&ldquo;quantitative approach&rdquo; to this field. Instead of making
 hand-waving statements like many others, they provide concrete formulae
 to measure various aspects of a computer's performance and extensively
 use various benchmarks to test existing systems. These benchmarks include

@@ -1,9 +1,9 @@
 m4_define( `m4_post_date', `2006-11-09')m4_dnl
-m4_define( `m4_post_title', `&quot;The Best of Rumpole&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;The Best of Rumpole&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-&quot;The Best of Rumpole&quot; is a collection of seven
+&ldquo;The Best of Rumpole&rdquo; is a collection of seven
 <a href="http://en.wikipedia.org/wiki/Rumpole">Rumpole</a> stories
 personally selected by the author John Mortimer and considered by him
 to be the best among those he has written so far.
@@ -14,7 +14,7 @@ Horace Rumpole is an old barrister practising at <a
 href="http://en.wikipedia.org/wiki/The_Old_Bailey">The Old Bailey</a>,
 the criminal court in London, who is willing to defend anyone at all,
 who loves to quote verse and who secretly refers to his wife Hilda as
-&quot;She Who Must Be Obeyed&quot;.
+&ldquo;She Who Must Be Obeyed&rdquo;.
 <p>
 The stories presented in this book are really nice and are
 particularly enjoyable if you appreciate the British style of subtle

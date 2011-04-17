@@ -21,13 +21,13 @@ m4_begin_post_rest
 For those already familiar with <a href="http://www.mozilla.org/">Mozilla</a>,
 do you know that you
 can change the splash screen shown by Mozilla on start-up by dropping a
-bitmap (BMP) image of your choice named &quot;<tt>mozilla.bmp</tt>&quot;
+bitmap (BMP) image of your choice named &ldquo;<tt>mozilla.bmp</tt>&rdquo;
 (on Windows) into the Mozilla installation folder? My personal favourite
-is this one that goes very well with the &quot;Modern&quot; theme
+is this one that goes very well with the &ldquo;Modern&rdquo; theme
 of Mozilla:
 <p>
 <div class="centred">
-<a href="http://www.lotekk.net/index.php?page=moz&sub=splash">
+<a href="http://www.lotekk.net/index.php?page=moz&amp;sub=splash">
 <img src="http://www.lotekk.net/mozilla/splash/splash_modern_chrome.png"
 alt="Mozilla Splash Screen">
 </a>

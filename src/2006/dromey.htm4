@@ -1,20 +1,20 @@
 m4_define( `m4_post_date', `2006-08-10')m4_dnl
-m4_define( `m4_post_title', `&quot;How to Solve it by Computer&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;How to Solve it by Computer&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-&quot;How to Solve it by Computer&quot; by R. G. Dromey is inspired
-by George Polya's classic book on problem-solving &quot;How to Solve
-it&quot;. This book explores how good problem-solving techniques can
+&ldquo;How to Solve it by Computer&rdquo; by R. G. Dromey is inspired
+by George Polya's classic book on problem-solving &ldquo;How to Solve
+it&rdquo;. This book explores how good problem-solving techniques can
 be applied in computer programming to come up with efficient
 algorithms for many problems.
 m4_begin_post_rest
 m4_display_book( `0134340019', `solve-computer-dromey-book-8131705625')
 <p>
-The problems discussed range from the trivial (&quot;summing up the
-elements of an array&quot;, for example) to the more interesting
-(&quot;finding a given sub-string in a line of text in sub-linear
-time&quot;, for example). For almost every problem, the author first
+The problems discussed range from the trivial (&ldquo;summing up the
+elements of an array&rdquo;, for example) to the more interesting
+(&ldquo;finding a given sub-string in a line of text in sub-linear
+time&rdquo;, for example). For almost every problem, the author first
 helps the reader come up with a quick and dirty solution and then
 refine it in stages to make it very efficient. If possible, you should
 stop after reading the description of a problem and try to come up

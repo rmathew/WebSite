@@ -1,10 +1,10 @@
 m4_define( `m4_post_date', `2010-12-23')m4_dnl
-m4_define( `m4_post_title', `&quot;The Art of Computer Systems Performance Analysis&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;The Art of Computer Systems Performance Analysis&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-&quot;<a href="http://www1.cse.wustl.edu/~jain/books/perfbook.htm">The Art of
-Computer Systems Performance Analysis</a>&quot; is a comprehensive book by
+&ldquo;<a href="http://www1.cse.wustl.edu/~jain/books/perfbook.htm">The Art of
+Computer Systems Performance Analysis</a>&rdquo; is a comprehensive book by
 <a href="http://www1.cse.wustl.edu/~jain/">Raj Jain</a> on a topic that is
 often ignored by computer programmers and architects or is approached in a
 haphazard manner: the analysis of the performance of computer systems. Such
@@ -65,8 +65,8 @@ As computer programmers we tend to think of performance analysis as, say,
 measuring the execution time of our programme on a large data-set or the
 average of running it several times over an input data-set. Such
 grossly-misdirected efforts have prompted rants like the infamous
-&quot;<a href="http://www.zedshaw.com/essays/programmer_stats.html">Programmers
-Need to Learn Statistics or I Will Kill Them All</a>&quot; by Zed Shaw. Even
+&ldquo;<a href="http://www.zedshaw.com/essays/programmer_stats.html">Programmers
+Need to Learn Statistics or I Will Kill Them All</a>&rdquo; by Zed Shaw. Even
 if you are not a performance analyst by profession, as an engineer you need to
 know what to measure, how to measure it, how to analyse the measurements and
 how to model a system in order to predict its behaviour. This is a book that

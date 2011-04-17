@@ -1,5 +1,5 @@
 m4_define( `m4_post_date', `2008-05-22')m4_dnl
-m4_define( `m4_post_title', `&quot;Granta 100&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;Granta 100&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
@@ -14,7 +14,7 @@ m4_begin_post_rest
 m4_display_book( `1929001304', `granta-100-william-boyd-magazine-book-1929001304')
 <p>
 Most of the entries are samples from soon-to-be-published works of the
-respective authors. They are thus &quot;teaser trailers&quot; of the
+respective authors. They are thus &ldquo;teaser trailers&rdquo; of the
 authors' upcoming works. They give you a fair idea of what to expect
 from your favourite authors. They also make you aware of the work of
 an author you might have otherwise ignored.
@@ -25,9 +25,9 @@ I'm afraid, went straight over my head. On the whole though, I liked
 most of the entries. Even after you have read this book once, some of
 the material here provides enough fodder for rumination later.
 <p>
-I was particularly charmed by the entries from the book &quot;<a
+I was particularly charmed by the entries from the book &ldquo;<a
 href="http://www.questionformyself.com/">My Question For
-Myself</a>&quot; that are interspersed throughout this book. These
+Myself</a>&rdquo; that are interspersed throughout this book. These
 feature a question posed, as well as answered, by a writer that they
 wished had been asked of them during an interview with the literary
 journalist Tobias Wenzel. Each of these is accompanied by a wonderful

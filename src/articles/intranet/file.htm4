@@ -48,20 +48,20 @@ m4_heading( `1', `setup', `Setup')
 <p>
 The workstations in the company did not belong to a particular
 Windows Domain - by convention, all of the workstations belonged
-to the &quot;<code>HOBBITWARE</code>&quot; Windows WorkGroup. This
+to the &ldquo;<code>HOBBITWARE</code>&rdquo; Windows WorkGroup. This
 considerably eased the effort needed to set up the file server.
 <p>
 Sam downloaded Samba 2.2.0 sources from one of the mirrors,
 and compiled and installed it. By default, it installed itself
-in &quot;<code>/usr/local/samba</code>&quot;. The
-configuration file &quot;<code>smb.conf</code>&quot;, had
-to be provided in the &quot;<code>lib</code>&quot; sub-folder
+in &ldquo;<code>/usr/local/samba</code>&rdquo;. The
+configuration file &ldquo;<code>smb.conf</code>&rdquo;, had
+to be provided in the &ldquo;<code>lib</code>&rdquo; sub-folder
 (he had to write one himself since there was no default, though
 there were a lot of sample configuration files).
 <p>
 Sam wrote the configuration file as given in the manual pages.
 There were a lot of options he could play with and tweak. Sam always
-had the excellent Samba tool &quot;<code>testparm</code>&quot;
+had the excellent Samba tool &ldquo;<code>testparm</code>&rdquo;
 that could verify the configuration file after a modification.
 After a bit of experimentation, Sam came up with the following
 working Samba configuration file:
@@ -89,14 +89,14 @@ writeable = yes
 </div>
 <p>
 This configuration file made the Intranet server advertise
-itself over NetBIOS as &quot;<code>INSERVER</code>&quot; belonging
+itself over NetBIOS as &ldquo;<code>INSERVER</code>&rdquo; belonging
 to the common workgroup. This enabled it to be visible
-in the &quot;Network Neighbourhood&quot; of the Windows
+in the &ldquo;Network Neighbourhood&rdquo; of the Windows
 workstations used by the hobbits.
 <p>
-The server exposed two shares - &quot;Downloads&quot;, through
+The server exposed two shares - &ldquo;Downloads&rdquo;, through
 which the hobbits could access the repository, and
-&quot;Uploads&quot;, through which they could submit newly
+&ldquo;Uploads&rdquo;, through which they could submit newly
 downloaded files. Sam requested them to supply a short
 description and a suggested category for cataloguing, whenever
 they uploaded a file. Sam periodically scanned the uploads
@@ -105,8 +105,8 @@ on the rare occasions that he rejected a file.
 <p>
 After Sam was satisfied with the way it worked, he added
 the Samba daemons
-&quot;<code>/usr/local/samba/bin/smbd</code>&quot; and
-&quot;<code>/usr/local/samba/bin/nmbd</code>&quot; to the
+&ldquo;<code>/usr/local/samba/bin/smbd</code>&rdquo; and
+&ldquo;<code>/usr/local/samba/bin/nmbd</code>&rdquo; to the
 system startup scripts.
 <br>
 m4_heading( `1', `maint', `Maintenance')

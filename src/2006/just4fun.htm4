@@ -1,9 +1,9 @@
 m4_define( `m4_post_date', `2006-04-29')m4_dnl
-m4_define( `m4_post_title', `&quot;Just for Fun&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;Just for Fun&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-&quot;Just for Fun: The Story of an Accidental Revolutionary&quot;
+&ldquo;Just for Fun: The Story of an Accidental Revolutionary&rdquo;
 is a book about the life of Linus Torvalds, the creator of Linux,
 till the year 2001. It has been written by Linus and David Diamond.
 m4_begin_post_rest

@@ -1,9 +1,9 @@
 m4_define( `m4_post_date', `2009-05-17')m4_dnl
-m4_define( `m4_post_title', `&quot;Computer Networks&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;Computer Networks&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-&quot;Computer Networks&quot; by <a
+&ldquo;Computer Networks&rdquo; by <a
 href="http://en.wikipedia.org/wiki/Andrew_S._Tanenbaum">Andrew S.
 Tanenbaum</a> is a comprehensive text-book on the topic written by an
 author with many popular text-books to his credit. There are more than

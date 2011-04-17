@@ -15,9 +15,9 @@ The hobbits of the company
 assigned IP addresses to their machines according to their
 whim and availability of the chosen address. The only saving grace
 here was that by convention, all the IP addresses had the
-form &quot;<code>192.168.1.x</code>&quot;. Since IP addresses were
+form &ldquo;<code>192.168.1.x</code>&rdquo;. Since IP addresses were
 too cumbersome to use to refer to machines, each hobbit's
-machine had a &quot;<code>/etc/hosts</code>&quot; file populated
+machine had a &ldquo;<code>/etc/hosts</code>&rdquo; file populated
 according to his needs, and sooner than later, containing incorrect
 entries as the IP addresses changed for some servers. And of course,
 everyone had a different idea of what domain name the machines
@@ -26,10 +26,10 @@ belonged to: some configured their machines to belong to the
 <code>local.hobbitware.com</code> as their domain, and so on.
 <p>
 Sam pretty much decreed that thenceforth all the internal machines
-shall belong to the &quot;<code>internal.hobbitware.com</code>&quot;
+shall belong to the &ldquo;<code>internal.hobbitware.com</code>&rdquo;
 domain. All the machines were configured to use the Intranet server
 (which was assigned the IP address 192.168.1.1) for host name
-lookups (DNS Server) and the &quot;<code>/etc/hosts</code>&quot;
+lookups (DNS Server) and the &ldquo;<code>/etc/hosts</code>&rdquo;
 files were banished. Everyone had to get their machine name
 registered with Sam and get an IP address, which Sam configured
 into the server.
@@ -46,8 +46,8 @@ place</a>, but there really was no point to it.) Sam still swears by
 the DNS-HowTo and recommends that everyone read it before attempting
 to configure a DNS server.
 <p>
-First Sam had to get the list of all the &quot;root servers&quot;
-in the DNS hierarchy - the &quot;know-all&quot; servers that knew
+First Sam had to get the list of all the &ldquo;root servers&rdquo;
+in the DNS hierarchy - the &ldquo;know-all&rdquo; servers that knew
 how to contact the next level DNS servers. He just ran the command
 <p>
 <div class="centred">
@@ -56,14 +56,14 @@ how to contact the next level DNS servers. He just ran the command
 <p>
 to get this list in the proper format. (Of course he had to use the
 ISP's DNS server to get to this root server in the first place.)
-He saved this &quot;<code>root.hints</code>&quot; file in the
+He saved this &ldquo;<code>root.hints</code>&rdquo; file in the
 <code>/var/named</code> folder, where he planned to keep all his
 zone configuration. And he made a note to himself to update this
 file periodically (even though it didn't change much over time).
 <p>
 Next, Sam needed to tell the DNS server <code>bind</code> where to
 look for the domain configuration information. Now <code>bind</code>
-looks in the file &quot;<code>/etc/named.conf</code>&quot; for
+looks in the file &ldquo;<code>/etc/named.conf</code>&rdquo; for
 configuration information, so Sam went about creating this file
 using his favourite text editor. His configuration file looked
 something like this:
@@ -100,7 +100,7 @@ file "zone/192.168.1";
 </div>
 <p>
 Sam told <code>bind</code> to look for all the other files
-relative to the &quot;<code>/var/named</code>&quot; folder.
+relative to the &ldquo;<code>/var/named</code>&rdquo; folder.
 He instructed it to first forward all non-local host name
 lookups to his ISP's DNS servers (202.54.1.30 and 202.54.12.17),
 and attempt to resolve the name itself only if these servers
@@ -115,9 +115,9 @@ extraneous name lookups over the slow Internet link as most
 hobbits used to go to the same sites.
 <p>
 The interesting entries were those for the zones
-&quot;<code>internal.hobbitware.com</code>&quot; and for
-&quot;<code>1.168.192.in-addr.arpa</code>&quot; - for both
-these zones, this server was going to be the &quot;master&quot;
+&ldquo;<code>internal.hobbitware.com</code>&rdquo; and for
+&ldquo;<code>1.168.192.in-addr.arpa</code>&rdquo; - for both
+these zones, this server was going to be the &ldquo;master&rdquo;
 server (or the authoritative source), and the zone
 configuration files specified contained the respective zone data.
 The former zone helped resolve host names to IP addresses and
@@ -127,11 +127,11 @@ internal domain.
 <br>
 m4_heading( `1', `zones', `Zones Configuration')
 <p>
-Sam now created the folder &quot;<code>/var/named/zone</code>&quot;.
+Sam now created the folder &ldquo;<code>/var/named/zone</code>&rdquo;.
 Here he placed three files named
-&quot;<code>127.0.0</code>&quot;,
-&quot;<code>internal.hobbitware.com</code>&quot; and
-&quot;<code>192.168.1</code>&quot;. The first file merely
+&ldquo;<code>127.0.0</code>&rdquo;,
+&ldquo;<code>internal.hobbitware.com</code>&rdquo; and
+&ldquo;<code>192.168.1</code>&rdquo;. The first file merely
 contained the following:
 <p>
 <div class="notice">
@@ -150,10 +150,10 @@ NS  dns.internal.hobbitware.com.
 </div>
 <p>
 This was of course as dictated by the DNS-HowTo. It was merely a fancy
-way of resolving &quot;<code>127.0.0.1</code>&quot; to
-&quot;<code>localhost</code>&quot;.
+way of resolving &ldquo;<code>127.0.0.1</code>&rdquo; to
+&ldquo;<code>localhost</code>&rdquo;.
 <p>
-The next file (&quot;<code>internal.hobbitware.com</code>&quot;)
+The next file (&ldquo;<code>internal.hobbitware.com</code>&rdquo;)
 was more interesting and contained something like this:
 <p>
 <div class="notice">
@@ -190,14 +190,14 @@ sam     A   192.168.1.13
 Again, in accordance with the guidelines set in the DNS HowTo, this
 file defined the domain <code>internal.hobbitware.com</code>. It
 designated this server as the primary DNS as well as the mail server
-for this domain. It also defined several aliases (&quot;www&quot;,
-&quot;pop&quot;, etc.) to this server so that one could access this
+for this domain. It also defined several aliases (&ldquo;www&rdquo;,
+&ldquo;pop&rdquo;, etc.) to this server so that one could access this
 server as <code>www.internal.hobbitware.com</code> or as
 <code>pop.internal.hobbitware.com</code>, etc. After that were
 just name to IP address mappings for hosts. As a convention, Sam
 decided to keep these names in alphabetic order.
 <p>
-Finally the last file (&quot;<code>192.168.1</code>&quot;)
+Finally the last file (&ldquo;<code>192.168.1</code>&rdquo;)
 contained stuff like this:
 <p>
 <div class="notice">
@@ -227,9 +227,9 @@ the entries here in numerically sorted (ascending) order.
 m4_heading( `1', `server', `Server Startup and Shutdown')
 <p>
 Sam could very easily manage the DNS server using the
-<code>ndc</code> command: &quot;<code>ndc start</code>&quot;
-would stard the DNS server, while &quot;<code>ndc stop</code>&quot;
-would stop it (duh!). &quot;<code>ndc restart</code>&quot;
+<code>ndc</code> command: &ldquo;<code>ndc start</code>&rdquo;
+would stard the DNS server, while &ldquo;<code>ndc stop</code>&rdquo;
+would stop it (duh!). &ldquo;<code>ndc restart</code>&rdquo;
 restarted the DNS server.
 <p>
 Sam added an entry in the server startup scripts so that the DNS
@@ -244,12 +244,12 @@ a suitable name and an IP address to the machine and then
 update the last two files listed above in a suitable manner.
 He could ask the DNS server to update the zone configuration
 information by just issuing the command
-&quot;<code>ndc reload</code>&quot;.
+&ldquo;<code>ndc reload</code>&rdquo;.
 <p>
-Once in a month, Sam updated the &quot;<code>root.hints</code>&quot;
+Once in a month, Sam updated the &ldquo;<code>root.hints</code>&rdquo;
 file as shown above. He also used to examine the files
-&quot;<code>/var/adm/messages</code>&quot; and
-&quot;<code>/var/adm/debug</code>&quot; for diagnostic or
+&ldquo;<code>/var/adm/messages</code>&rdquo; and
+&ldquo;<code>/var/adm/debug</code>&rdquo; for diagnostic or
 error messages, so that he could fix them before they became
 serious.
 <br>

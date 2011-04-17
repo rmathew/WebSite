@@ -1,14 +1,14 @@
 m4_define( `m4_post_date', `2008-12-19')m4_dnl
-m4_define( `m4_post_title', `&quot;God is Not Great&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;God is Not Great&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-&quot;God is Not Great&quot; by <a
+&ldquo;God is Not Great&rdquo; by <a
 href="http://en.wikipedia.org/wiki/Christopher_Hitchens">Christopher
 Hitchens</a> might well become the little red book of modern <a
 href="http://en.wikipedia.org/wiki/Antitheism">antitheism</a>. The
 roughly 350 pages in this book are an erudite exposition of its
-subtitle &quot;How Religion Poisons Everything&quot;. The book seeks
+subtitle &ldquo;How Religion Poisons Everything&rdquo;. The book seeks
 to show that it would do modern society a lot of good to get rid
 of religion. If you are an atheist, you will find a lot of reaffirming
 material in this book. If you are religious, this book might rekindle
@@ -17,9 +17,9 @@ first introduced to your particular dogma.
 m4_begin_post_rest
 m4_display_book( `0446579807', `god-not-great-christopher-hitchens-book-0446500704')
 <p>
-While Bertrand Russell's cogent essay &quot;<a
+While Bertrand Russell's cogent essay &ldquo;<a
 href="http://users.drew.edu/~jlenz/whynot.html">Why I am Not a
-Christian</a>&quot; is a gentle introduction to atheism, this book is
+Christian</a>&rdquo; is a gentle introduction to atheism, this book is
 an out-and-out attack on the evil effects of religion on society. The
 description in the first couple of chapters of the terrible torture and
 killing of the non-believers by the religious, over the millennia and

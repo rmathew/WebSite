@@ -1,13 +1,13 @@
 m4_define( `m4_post_date', `2005-06-07')m4_dnl
-m4_define( `m4_post_title', `&quot;Holy Blood Holy Grail&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;Holy Blood Holy Grail&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-&quot;Holy Blood Holy Grail&quot; (HBHG) by Michael Baigent, Richard
+&ldquo;Holy Blood Holy Grail&rdquo; (HBHG) by Michael Baigent, Richard
 Leigh and Henry Lincoln, was published in 1982 and contains a
-<i>lot</i> of the interesting hypotheses that appear in &quot;The Da
-Vinci Code&quot; (TDVC), down to the breaking of <i>Sangraal</i> to
-either read &quot;Holy Grail&quot; or &quot;Royal Blood&quot;. I think
+<i>lot</i> of the interesting hypotheses that appear in &ldquo;The Da
+Vinci Code&rdquo; (TDVC), down to the breaking of <i>Sangraal</i> to
+either read &ldquo;Holy Grail&rdquo; or &ldquo;Royal Blood&rdquo;. I think
 I would not have been so gripped by TDVC had I read HBHG before.
 m4_begin_post_rest
 m4_display_book( `0440136482', `holy-blood-grail-michael-baigent-book-0440136482')
@@ -34,12 +34,12 @@ The book does get a bit tiring at times though and some of the
 meanderings seem a bit baffling and ultimately pointless (quite like
 in TDVC). In the end, I still do not know what was written in the
 documents unearthed in southern France or what the mysterious
-&quot;<i>Et in Arcadia Ego</i>&quot; is really supposed to signify.
+&ldquo;<i>Et in Arcadia Ego</i>&rdquo; is really supposed to signify.
 The Priory of Sion has apparently been established as a rather
 elaborate hoax, so the basic foundation on which this book builds its
 hypotheses has now been badly shaken. There are also quite a few
 dubious jumps of logical deduction (I do not see how their conclusion
-follows from the presented &quot;facts&quot;) and to make matters
+follows from the presented &ldquo;facts&rdquo;) and to make matters
 worse, these are taken to be the foundation for the next set of such
 deductions! Small wonder then that this book was dismissed by a large
 number of modern scholars. That did not stop it from becoming a

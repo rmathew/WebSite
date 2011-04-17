@@ -1,9 +1,9 @@
 m4_define( `m4_post_date', `2009-06-05')m4_dnl
-m4_define( `m4_post_title', `&quot;An Introduction to Database Systems&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;An Introduction to Database Systems&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-&quot;An Introduction to Database Systems&quot; by <a
+&ldquo;An Introduction to Database Systems&rdquo; by <a
 href="http://en.wikipedia.org/wiki/Christopher_J._Date">Christopher J.
 Date</a> is a classic text-book on database concepts by one of the
 foremost writers and thinkers in the field. The book has been kept
@@ -40,7 +40,7 @@ database normalisation, query optimisation, transactions, concurrency,
 recovery, security, etc.
 <p>
 The book provides most of the examples in a weird language called
-&quot;Tutorial D&quot; instead of SQL. It does not tell you much about
+&ldquo;Tutorial D&rdquo; instead of SQL. It does not tell you much about
 the data models and database systems prevalent before the relational
 data model, depriving the student of a useful perspective on the
 historical significance of this model. The book does not provide any

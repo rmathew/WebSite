@@ -21,9 +21,9 @@ under <a href="http://bitbucket.org/rmathew/"><b>bitbucket.org/rmathew</b></a>.
 </div>
 m4_heading( `1', `zinc', `ZINC')
 <p>
-ZINC (&quot;ZINC Is Not CoreWar&quot;) is a variant of the game of
+ZINC (&ldquo;ZINC Is Not CoreWar&rdquo;) is a variant of the game of
 <a href="http://en.wikipedia.org/wiki/Core_War">Core War</a>
-in which programmes (called &quot;warriors&quot;) fight in a battle to take
+in which programmes (called &ldquo;warriors&rdquo;) fight in a battle to take
 control of a virtual computer. The warriors are written in a simple language
 called Redcode and are run by a tool called Memory Array Redcode Simulator
 (MARS). The ZINC User Manual includes a short tutorial that teaches

@@ -1,11 +1,11 @@
 m4_define( `m4_post_date', `2005-01-08')m4_dnl
-m4_define( `m4_post_title', `&quot;Angels and Demons&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;Angels and Demons&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-&quot;Angels and Demons&quot; was written by <a
+&ldquo;Angels and Demons&rdquo; was written by <a
 href="http://www.danbrown.com/">Dan Brown</a> before he wrote his
-bestseller novel &quot;The Da Vinci Code&quot;. As such it shares the
+bestseller novel &ldquo;The Da Vinci Code&rdquo;. As such it shares the
 same protagonist Harvard symbologist Robert Langdon and a plot
 revolving around medieval Christian mysteries. The story is about an
 ancient brotherhood named <i>Illuminati</i> and its alleged attempt to
@@ -19,6 +19,6 @@ If you liked the sequel, you'll most probably like this one too. <a
 href="http://www.johnlangdon.net/">John Langdon</a> has created some
 really nice <a
 href="http://en.wikipedia.org/wiki/Ambigram">ambigrams</a> for this
-novel including an &quot;ambigram of ambigrams&quot;.
+novel including an &ldquo;ambigram of ambigrams&rdquo;.
 m4_end_post_rest
 m4_end_post

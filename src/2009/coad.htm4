@@ -1,9 +1,9 @@
 m4_define( `m4_post_date', `2009-03-20')m4_dnl
-m4_define( `m4_post_title', `&quot;Computer Organization and Design&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;Computer Organization and Design&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-&quot;Computer Organization and Design&quot; by David Patterson and
+&ldquo;Computer Organization and Design&rdquo; by David Patterson and
 John Hennessy is an introductory text on this subject for budding
 computer scientists and computer engineers. The field has been
 in a state of constant flux in recent times and this book serves as an
@@ -37,7 +37,7 @@ instruction set. It describes how instructions are decoded and executed,
 how arithmetic is implemented, how pipelining works, how caches work,
 etc. With each chapter, you explore the relevant parts of the MIPS
 instruction set and architecture. Throughout the book, the authors
-maintain their &quot;quantitative approach&quot; to this field by
+maintain their &ldquo;quantitative approach&rdquo; to this field by
 showing how to measure various things rather than just describing the
 concepts.
 <p>
@@ -47,7 +47,7 @@ the book makes references to this material throughout. This also means
 that the book is not as bulky as it would have been without the CD and
 that the authors have been able to provide more information on the CD
 than would have otherwise been possible in a regular book. I would have
-personally preferred the &quot;Computers in the Real World&quot; sections
+personally preferred the &ldquo;Computers in the Real World&rdquo; sections
 after each chapter on the CD rather than in the book since they are so
 incongruent to the material described in the book.
 <p>

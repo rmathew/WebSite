@@ -1,16 +1,16 @@
 m4_define( `m4_post_date', `2010-09-20')m4_dnl
-m4_define( `m4_post_title', `&quot;The Ascent of Money&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;The Ascent of Money&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-I wanted to read &quot;The Ascent of Money&quot; by <a
+I wanted to read &ldquo;The Ascent of Money&rdquo; by <a
 href="http://www.niallferguson.com/">Niall Ferguson</a> after having watched
 a local broadcast of <a
 href="http://www.channel4.com/programmes/the-ascent-of-money">the eponymous
 documentary-series from Channel 4</a>. Each episode of the documentary-series
 was about an aspect of finance and was presented by the author himself. As they
 were broadcast around the time of the latest financial crisis (called the
-&quot;Great Recession&quot; by many people), it made for some very interesting
+&ldquo;Great Recession&rdquo; by many people), it made for some very interesting
 viewing. Hoping to find more depth and greater detail in the book, I have to
 report that I was mildly disappointed after reading it. If you are totally new
 to the world of finance though, you will very likely find the the
@@ -50,8 +50,8 @@ carrying out the research to unearth these factors and the corresponding
 players.
 <p>
 It is quite clear from the presentation that the author does not really
-believe in the &quot;rational actor&quot; model or the &quot;efficient markets
-hypothesis&quot; that are a staple of mainstream economics. He wants us to
+believe in the &ldquo;rational actor&rdquo; model or the &ldquo;efficient markets
+hypothesis&rdquo; that are a staple of mainstream economics. He wants us to
 be aware of the follies of men and economic mishaps of the past as we look
 into the future. This level-headed approach to finance enabled him to make
 predictions at the time of preparing this material that have since played

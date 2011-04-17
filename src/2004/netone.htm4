@@ -4,8 +4,8 @@ m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
 Only last week did I discover that even <a
-href="http://www.bsnl.co.in/">BSNL</a> has an &quot;account
-free&quot; dial-up connection scheme called <a
+href="http://www.bsnl.co.in/">BSNL</a> has an &ldquo;account
+free&rdquo; dial-up connection scheme called <a
 href="http://netoneblr.bsnl.co.in/">NetOne</a> that
 authenticates based on Caller Line Identification (CLI) and is reasonable
 at 10 paise per minute. This is apart from the normal outgoing call

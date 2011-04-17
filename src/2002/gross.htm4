@@ -1,5 +1,5 @@
 m4_define( `m4_post_date', `2002-04-25')m4_dnl
-m4_define( `m4_post_title', `&quot;Get Rid Of Slimy Scumware&quot; (G.R.O.S.S.)')m4_dnl
+m4_define( `m4_post_title', `&ldquo;Get Rid Of Slimy Scumware&rdquo; (G.R.O.S.S.)')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
@@ -20,8 +20,8 @@ m4_begin_post_rest
 You are particularly likely to be affected
 if you are a regular user of Internet Explorer on Windows
 (i.e. 90% of the web surfing population) and keep downloading
-&quot;neat&quot; utilities like music players, file
-&quot;sharing&quot; clients, download managers, etc.
+&ldquo;neat&rdquo; utilities like music players, file
+&ldquo;sharing&rdquo; clients, download managers, etc.
 <p>
 Examples of particularly widespread scumware include
 <a href="http://www.gator.com/">Gator</a>,
@@ -37,7 +37,7 @@ this menace (very likely). Some of the programs might complain
 or even stop working if their pet scumware is removed - just get
 an alternative utility that does not. Do not forget to keep
 your <a href="http://www.lavasoftusa.com/">Ad-Aware</a>
-up to date by downloading the latest &quot;reference file&quot;
+up to date by downloading the latest &ldquo;reference file&rdquo;
 (similar to updating an antivirus utility with the latest
 virus signatures).
 m4_end_post_rest

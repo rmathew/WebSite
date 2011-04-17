@@ -1,12 +1,12 @@
 m4_define( `m4_post_date', `2006-04-27')m4_dnl
-m4_define( `m4_post_title', `&quot;Writers and Their Tall Tales&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;Writers and Their Tall Tales&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-&quot;Writers and Their Tall Tales&quot; is the second book I have
-read in the &quot;<a
+&ldquo;Writers and Their Tall Tales&rdquo; is the second book I have
+read in the &ldquo;<a
 href="http://www.scholastic.co.uk/zone/book_dead-famous.htm">Dead
-Famous</a>&quot; series of books (the first one was on William
+Famous</a>&rdquo; series of books (the first one was on William
 Shakespeare). It is a light book written in a humourous manner and
 is loaded with comic illustrations.
 m4_begin_post_rest
@@ -17,7 +17,7 @@ like William Shakespeare, Charles Dickens, Jane Austen, etc. and
 discusses a couple of their respective works in brief. I enjoyed it,
 but not as much as I did the first one, probably because the novelty
 has worn off. They only seem to consider British authors and the
-&quot;secret diary&quot; entries get a bit tiresome after a while. It
+&ldquo;secret diary&rdquo; entries get a bit tiresome after a while. It
 is still a decent quick introduction to these authors for young
 teenagers.
 m4_end_post_rest

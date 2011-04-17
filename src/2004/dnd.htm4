@@ -1,9 +1,9 @@
 m4_define( `m4_post_date', `2004-12-04')m4_dnl
-m4_define( `m4_post_title', `&quot;Dungeons and Dragons&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;Dungeons and Dragons&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-I came across the game &quot;Dungeons and Dragons&quot;
+I came across the game &ldquo;Dungeons and Dragons&rdquo;
 in Landmark (at The Forum, Bangalore). I was quite surprised, to say
 the least, as I didn't know people here would be willing to play
 the elaborate and never-ending sessions that D&amp;D inevitably leads to.

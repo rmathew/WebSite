@@ -1,11 +1,11 @@
 m4_define( `m4_post_date', `2006-08-18')m4_dnl
-m4_define( `m4_post_title', `&quot;Programming Languages: Concepts and Constructs&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;Programming Languages: Concepts and Constructs&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-&quot;Programming Languages: Concepts and Constructs&quot; (Second
+&ldquo;Programming Languages: Concepts and Constructs&rdquo; (Second
 Edition) by Ravi Sethi is a book desgined to be used as one of the
-text books in a &quot;Principles of Programming Languages&quot; CS
+text books in a &ldquo;Principles of Programming Languages&rdquo; CS
 course. To that end, it covers all the major programming styles
 (imperative, functional and declarative) and variants (object-oriented
 and concurrent), basic lambda calculus, a short tour of a

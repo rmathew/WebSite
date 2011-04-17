@@ -1,26 +1,26 @@
 m4_define( `m4_post_date', `2005-04-22')m4_dnl
-m4_define( `m4_post_title', `&quot;The Rule of Four&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;The Rule of Four&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-&quot;<a href="http://www.ruleoffour.com/">The Rule of Four</a>&quot;
+&ldquo;<a href="http://www.ruleoffour.com/">The Rule of Four</a>&rdquo;
 is a novel written by Ian Caldwell and Dustin Thomason that revolves
-around cracking the code in the 500 year old obscure book &quot;<a
+around cracking the code in the 500 year old obscure book &ldquo;<a
 href="http://en.wikipedia.org/wiki/Hypnerotomachia_Poliphili">Hypnerotomachia
-Poliphili</a>&quot;.
+Poliphili</a>&rdquo;.
 m4_begin_post_rest
 m4_display_book( `0440241359', `rule-four-ian-caldwell-dustin-book-0099451956')
 <p>
 <a href="http://mitpress.mit.edu/e-books/HP/">That
 book</a> is written in a mixture of many languages by an unknown
 author and is rather weird and dense. Strangely, the acrostic formed
-by the first letters of each chapter reads &quot;Brother Francesco
-Colonna Dearly Loved Polia&quot; in Latin. This is what sets off the
+by the first letters of each chapter reads &ldquo;Brother Francesco
+Colonna Dearly Loved Polia&rdquo; in Latin. This is what sets off the
 protagonist and his friend Paul on a mission to crack the code and
 make the book reveal its secret.
 <p>
 I liked the book a lot and found it engaging though not gripping
-<i>per se</i>. Comparisons with &quot;The Da Vinci Code&quot; are
+<i>per se</i>. Comparisons with &ldquo;The Da Vinci Code&rdquo; are
 inevitable, but I would say that this book is neither as fast-paced
 nor as heady with an overdose of information as that one. Moreover,
 the narrative is not linear and goes back and forth in time, which

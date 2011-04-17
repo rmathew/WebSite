@@ -1,9 +1,9 @@
 m4_define( `m4_post_date', `2009-11-08')m4_dnl
-m4_define( `m4_post_title', `&quot;The Story of Art&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;The Story of Art&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-&quot;The Story of Art&quot; by E. H. Gombrich is a classic and popular
+&ldquo;The Story of Art&rdquo; by E. H. Gombrich is a classic and popular
 book that charts the evolution of art through the ages. Using a plain
 language and written in a non-condescending style (sadly quite rare for
 the art books that I have seen in my life), it is a book that I wish I
@@ -55,12 +55,12 @@ look elsewhere for a fuller exposition. This is understandable in a book
 on the <i>history</i> of art. It is also understandable when you consider
 that these are not considered sacrosanct in modern art.
 <p>
-If you read this book looking to &quot;understand&quot; <a
+If you read this book looking to &ldquo;understand&rdquo; <a
 href="http://en.wikipedia.org/wiki/Abstract_art">abstract art</a>, you
 will be disappointed; I certainly was. The author uses a somewhat vague
 language to describe such art and very carefully tries to not pass a
 judgement on such art. His defence is somewhat credible in that enough
-time has not passed for us to judge &quot;modern art&quot; and to sort
+time has not passed for us to judge &ldquo;modern art&rdquo; and to sort
 its place out in the grand history of art.
 <p>
 There is an essay in the final chapter of the book where the author
@@ -68,7 +68,7 @@ ponders over the current state of art. He highlights the shift
 away from representationalism possibly as a reaction to the fidelity
 with which a camera captures a picture in modern times. He notes the
 widespread non-conformist attitudes of modern artists and a
-&quot;rebellion against the rebellion&quot; of some of the modern
+&ldquo;rebellion against the rebellion&rdquo; of some of the modern
 artists in going back to representationalism.
 <p>
 This is the sort of book that every person ought to have on their

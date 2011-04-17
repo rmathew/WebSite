@@ -18,11 +18,11 @@ example.
 m4_begin_post_rest
 <p>
 To create or update the information about the dependencies among the
-source-files (stored in &quot;<tt>deps.mk</tt>&quot; and included by
-the <tt>Makefile</tt>), run &quot;<tt>make deps</tt>&quot;. To generate
-the content, run &quot;<tt>make all</tt>&quot;. The content is
-generated in the &quot;<tt>pub</tt>&quot; folder. The source for the
-content is in the &quot;<tt>src</tt>&quot; folder, while the
-&quot;<tt>bin</tt>&quot; folder contains some helper scripts.
+source-files (stored in &ldquo;<tt>deps.mk</tt>&rdquo; and included by
+the <tt>Makefile</tt>), run &ldquo;<tt>make deps</tt>&rdquo;. To generate
+the content, run &ldquo;<tt>make all</tt>&rdquo;. The content is
+generated in the &ldquo;<tt>pub</tt>&rdquo; folder. The source for the
+content is in the &ldquo;<tt>src</tt>&rdquo; folder, while the
+&ldquo;<tt>bin</tt>&rdquo; folder contains some helper scripts.
 m4_end_post_rest
 m4_end_post

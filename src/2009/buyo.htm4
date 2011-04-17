@@ -1,9 +1,9 @@
 m4_define( `m4_post_date', `2009-11-02')m4_dnl
-m4_define( `m4_post_title', `&quot;Buyology&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;Buyology&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-&quot;Buyology&quot; by <a href="http://www.martinlindstrom.com/">Martin
+&ldquo;Buyology&rdquo; by <a href="http://www.martinlindstrom.com/">Martin
 Lindstrom</a> is a book that purports to show that our subconscious
 drives our buying decisions in ways that we rarely suspect. Marketers
 can successfully sell products to their target consumers by
@@ -18,15 +18,15 @@ brain-mapping with <a
 href="http://en.wikipedia.org/wiki/Functional_magnetic_resonance_imaging">Functional
 Magnetic Resonance Imaging</a> (fMRI) to study their reactions to
 products and marketing messages. By noting the parts of a volunteer's
-brain that &quot;light up&quot; when presented with a test, the
+brain that &ldquo;light up&rdquo; when presented with a test, the
 researchers draw various conclusions about how the product or marketing
 message affects their subconscious.
 <p>
 This is where the studies seem to be flawed, as far as I can tell. It
 seems to be a case of the classic logical fallacy usually known as
 <a href="http://en.wikipedia.org/wiki/Affirming_the_consequent">affirming
-the consequent</a> - &quot;A implies B&quot; does not necessarily mean
-that &quot;B implies A&quot;. In other words, suppose a part of my brain
+the consequent</a> - &ldquo;A implies B&rdquo; does not necessarily mean
+that &ldquo;B implies A&rdquo;. In other words, suppose a part of my brain
 lights up under fMRI when, say, I'm hungry. If you now observe that the
 same part of my brain lights up when I see a product, it does not
 necessarily follow that the product makes me feel hungry. Maybe it does;

@@ -1,9 +1,9 @@
 m4_define( `m4_post_date', `2006-05-14')m4_dnl
-m4_define( `m4_post_title', `&quot;A Short History of Nearly Everything&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;A Short History of Nearly Everything&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-&quot;A Short History of Nearly Everything&quot; by Bill Bryson is
+&ldquo;A Short History of Nearly Everything&rdquo; by Bill Bryson is
 the kind of book everyone who is even remotely interested in science,
 or even slightly intrigued by it, should read.
 m4_begin_post_rest

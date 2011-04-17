@@ -1,9 +1,9 @@
 m4_define( `m4_post_date', `2007-03-24')m4_dnl
-m4_define( `m4_post_title', `&quot;Alistair Cooke'`''`s America&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;Alistair Cooke'`''`s America&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-&quot;Alistair Cooke's America&quot; is a book derived from an
+&ldquo;Alistair Cooke's America&rdquo; is a book derived from an
 eponymous 13-part television series about the United States of
 America and its history. If you are even vaguely familiar with the
 history of the USA, this is the book that can provide great
@@ -20,7 +20,7 @@ the world or even how Chicago came to be the centre of the world trade
 in commodities, this is the book for you. It was written by a long-time
 correspondent for the BBC who came to the country before the Second
 World War, fell in love with it and settled there. For several decades,
-his weekly radio programme &quot;Letter from America&quot; about life
+his weekly radio programme &ldquo;Letter from America&rdquo; about life
 in America was popular with audiences in Britain and elsewhere - it
 ran for <i>58 years</i> with only three interruptions in between.
 <p>

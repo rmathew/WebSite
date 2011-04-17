@@ -1,9 +1,9 @@
 m4_define( `m4_post_date', `2008-08-28')m4_dnl
-m4_define( `m4_post_title', `&quot;The Undercover Economist&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;The Undercover Economist&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-&quot;The Undercover Economist&quot; by <a
+&ldquo;The Undercover Economist&rdquo; by <a
 href="http://en.wikipedia.org/wiki/Tim_Harford">Tim Harford</a> attempts
 to explain some of the basic principles of economics using a jargon-free
 language that is easy to understand for the lay person. He provides

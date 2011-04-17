@@ -1,9 +1,9 @@
 m4_define( `m4_post_date', `2010-08-06')m4_dnl
-m4_define( `m4_post_title', `&quot;Train to Pakistan&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;Train to Pakistan&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-&quot;Train to Pakistan&quot; is a short and deeply moving novel by
+&ldquo;Train to Pakistan&rdquo; is a short and deeply moving novel by
 Khushwant Singh. It shows the effect of the partition of India, as the
 British left the country, on the simple folks of Mano Majra, a small
 Indian village on the banks of the river Sutlej near the border of India
@@ -44,7 +44,7 @@ the phrases might seem a little strange in English without the knowledge
 of the corresponding phrases in Hindi or Punjabi. To his credit, the
 author shows no bias in laying bare the evil that overtook both sides. I
 am a little puzzled by the missing article in the title - surely it
-ought to be &quot;<i>The</i> Train to Pakistan&quot;, no?
+ought to be &ldquo;<i>The</i> Train to Pakistan&rdquo;, no?
 <p>
 The book leaves a lingering sadness in its wake. It is however a useful
 aid in understanding the deep injuries that have left permenant scars on

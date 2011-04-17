@@ -14,7 +14,7 @@ idea of an active community of the hobbits working for him,
 Frodo wanted them to be able to air their views, discuss issues,
 share news, etc. in a forum accessible to all.
 <p>
-Sam found the equivalent of forums in &quot;newsgroups&quot;.
+Sam found the equivalent of forums in &ldquo;newsgroups&rdquo;.
 With a suitable server, he could host his own newsgroups and
 even connect to external servers on the network called
 USENET and get newsgroups hosted by them. For example,
@@ -38,31 +38,31 @@ m4_heading( `1', `internal', `Hosting Internal Forums')
 <p>
 After INN was compiled and installed, Sam followed the excellent
 step-by-step configuration document (a text file called
-&quot;<code>INSTALL</code>&quot;) that came with it to set up
+&ldquo;<code>INSTALL</code>&rdquo;) that came with it to set up
 the forums. Instead of using the default location, he chose to
-install it in &quot;<code>/dump/news</code>&quot;, since he had
+install it in &ldquo;<code>/dump/news</code>&rdquo;, since he had
 a separate high-capacity hard disk mounted at
-&quot;<code>/dump</code>&quot;.
+&ldquo;<code>/dump</code>&rdquo;.
 <p>
 As recommended by the document, Sam verified that there was a
-user named &quot;<code>news</code>&quot; belonging to a group
-called &quot;<code>news</code>&quot; on the system. He didn't
+user named &ldquo;<code>news</code>&rdquo; belonging to a group
+called &ldquo;<code>news</code>&rdquo; on the system. He didn't
 have to do anything special, as his Linux distribution already
 came with this user set up appropriately. He just made the home
 directory for this user the same as the folder where he installed
 INN. This was purely for convenience, as he had to do everything
 as this user rather than the root super-user. All of INN's
 configuration files were inside a folder called
-&quot;<code>etc</code>&quot; within the main installation
+&ldquo;<code>etc</code>&rdquo; within the main installation
 folder.
 <p>
-Sam chose the &quot;CNFS&quot; format for article storage for
+Sam chose the &ldquo;CNFS&rdquo; format for article storage for
 the various advantages it had over the other methods and
 because it matched his requirements closely. The document
 clearly explained each method and its advantages as well
 as disadvantages.
 <p>
-Sam first had to edit the &quot;<code>inn.conf</code>&quot;
+Sam first had to edit the &ldquo;<code>inn.conf</code>&rdquo;
 file. This file was already filled in with reasonable
 defaults for most parameters and Sam just had to enter
 information like the organisation name, his email address
@@ -72,37 +72,37 @@ instead of the default 10 days.
 <p>
 Sam skipped over the next few recommended configuration steps
 as he first wanted to set up an internal newsgroups server.
-He updated the &quot;<code>incoming.conf</code>&quot; file
+He updated the &ldquo;<code>incoming.conf</code>&rdquo; file
 to list all the names of the Intranet Server for the
-self-referential peer entry named &quot;<code>ME</code>&quot;.
+self-referential peer entry named &ldquo;<code>ME</code>&rdquo;.
 <p>
 Since he was using CNFS, Sam next had to edit the
-&quot;<code>cycbuff.conf</code>&quot; file. He configured
+&ldquo;<code>cycbuff.conf</code>&rdquo; file. He configured
 this appropriately, setting aside two storage areas - one
 for hosting internal forums and another for caching external
-newsgroups. He updated the &quot;<code>storage.conf</code>&quot;
+newsgroups. He updated the &ldquo;<code>storage.conf</code>&rdquo;
 file to reflect this configuration.
 <p>
-Sam then had to update the &quot;<code>expire.ctl</code>&quot;
+Sam then had to update the &ldquo;<code>expire.ctl</code>&rdquo;
 file to reflect the fact that he wanted articles to be
 retained for 30 days instead of the default 10 days.
 <p>
 The next important configuration file to update was the
-&quot;<code>readers.conf</code>&quot; file that told INN
+&ldquo;<code>readers.conf</code>&rdquo; file that told INN
 how to respond to the newsreader clients that the hobbits
 used. Apart from the default entry, Sam added the following
 entry:
 <div class="notice">
 <pre>
-auth &quot;Hobbitware_Employees&quot; {
-hosts: &quot;192.168.1.*,*.internal.hobbitware.com&quot;
-default: &quot;&lt;Hobbit&gt;&quot;
-default-domain: &quot;internal.hobbitware.com&quot;
+auth &ldquo;Hobbitware_Employees&rdquo; {
+hosts: &ldquo;192.168.1.*,*.internal.hobbitware.com&rdquo;
+default: &ldquo;&lt;Hobbit&gt;&rdquo;
+default-domain: &ldquo;internal.hobbitware.com&rdquo;
 }
-access &quot;Hobbitware_Employees&quot; {
-users: &quot;&lt;Hobbit&gt;@internal.hobbitware.com&quot;
-newsgroups: &quot;hobbitware.*,ibm.*,comp.*,alt.*,rec.*,weblogic.*&quot;
-newsmaster: &quot;sam@internal.hobbitware.com&quot;
+access &ldquo;Hobbitware_Employees&rdquo; {
+users: &ldquo;&lt;Hobbit&gt;@internal.hobbitware.com&rdquo;
+newsgroups: &ldquo;hobbitware.*,ibm.*,comp.*,alt.*,rec.*,weblogic.*&rdquo;
+newsmaster: &ldquo;sam@internal.hobbitware.com&rdquo;
 access: RPA
 }
 </pre>
@@ -110,36 +110,36 @@ access: RPA
 <p>
 This effectively allowed all hobbits accessing the server to
 read and post articles to the newsgroups. Apart from the default
-&quot;<code>junk</code>&quot; and &quot;<code>control.*</code>&quot;
+&ldquo;<code>junk</code>&rdquo; and &ldquo;<code>control.*</code>&rdquo;
 newsgroups, Sam wanted the server to host all internal newsgroups
-under the &quot;<code>hobbitware.*</code>&quot; hierarchy, while
+under the &ldquo;<code>hobbitware.*</code>&rdquo; hierarchy, while
 importing a few other newsgroups relevant to the hobbits' work.
-Since he had not listed the &quot;<code>junk</code>&quot; and
-&quot;<code>control.*</code>&quot; newsgroups explicitly in the
+Since he had not listed the &ldquo;<code>junk</code>&rdquo; and
+&ldquo;<code>control.*</code>&rdquo; newsgroups explicitly in the
 entry above, these newsgroups were not visible to the newsreaders
 used by the hobbits - these were administrative groups used by INN,
 not meant for general use.
 <p>
 After this, Sam created the actual files to be used by the
-CNFS article storage format, using the &quot;<code>dd</code>&quot;
+CNFS article storage format, using the &ldquo;<code>dd</code>&rdquo;
 command as explained by the document. Then he initialised the
-INN history database by using the &quot;<code>makedbz</code>&quot;
+INN history database by using the &ldquo;<code>makedbz</code>&rdquo;
 command as recommended by the document. He also created the
 separate <code>syslog</code> files used by INN, as explained by
 the document.
 <p>
 Finally, Sam set up scripts to automate certain jobs for INN.
 For example, he had to set up a <code>cron</code> job that ran
-the &quot;<code>news.daily</code>&quot; script once in the middle
+the &ldquo;<code>news.daily</code>&rdquo; script once in the middle
 of the night every day, that performed daily server maintenance.
-He added a call to the &quot;<code>rc.news</code>&quot; script
+He added a call to the &ldquo;<code>rc.news</code>&rdquo; script
 to the system startup scripts, so that the news server was
 automatically started when the machine came up. All of this was
 clearly explained in the document.
 <p>
 Sam started the server manually by invoking the
-&quot;<code>rc.news</code>&quot; script. He then used the
-&quot;<code>ctlinnd</code>&quot; command to add some locally
+&ldquo;<code>rc.news</code>&rdquo; script. He then used the
+&ldquo;<code>ctlinnd</code>&rdquo; command to add some locally
 hosted newsgroups to the server.
 <p>
 The hobbits could then use their favourite newsreader software,
@@ -155,9 +155,9 @@ unnecessary connections to external news servers, Sam decided
 to use a separate newsgroups updater called
 <a href="http://home.att.net/~bobyetman/index.html">SUCK</a>, rather than
 configuring INN to directly retrieve the newsfeed from these servers. Besides,
-some of these servers only accepted a &quot;POST&quot; from a newsreader and
+some of these servers only accepted a &ldquo;POST&rdquo; from a newsreader and
 rejected incoming direct newsfeeds. For some reason, Sam could not
-connect to the &quot;official&quot; site and had to get SUCK from
+connect to the &ldquo;official&rdquo; site and had to get SUCK from
 <a href="ftp://sunsite.unc.edu/pub/Linux/system/news/transport/">sunsite.unc.edu</a>.
 (He could have also retrieved it from <a
 href="ftp://tsx-11.mit.edu/pub/linux/sources/sbin/">tsx-11.mit.edu</a>.)
@@ -175,14 +175,14 @@ following newsgroups, based on the interests of the hobbits:
 </ol>
 <p>
 Sam first added these groups to the INN server by using the
-&quot;<code>ctlinnd</code>&quot; command with the
-&quot;<code>newgroup</code>&quot; parameter. The only problem
+&ldquo;<code>ctlinnd</code>&rdquo; command with the
+&ldquo;<code>newgroup</code>&rdquo; parameter. The only problem
 was that these groups were served by three different newsgroup
 servers, one of them being the newsgroup server provided by
 their ISP. After reading the manual pages that came with
 SUCK and after a bit of experimentation, Sam had the answer.
 <p>
-Sam created a file named &quot;<code>myisp.cfg</code>&quot;
+Sam created a file named &ldquo;<code>myisp.cfg</code>&rdquo;
 that contained options for SUCK to connect to their ISP's
 newsgroup server and download newsgroups. This file looked
 like this:
@@ -223,12 +223,12 @@ like this:
 </pre>
 </div>
 <p>
-&quot;<code>news.myisp.com</code>&quot; was the newsgroup server
+&ldquo;<code>news.myisp.com</code>&rdquo; was the newsgroup server
 provided by the ISP. Sam designated the folder
-&quot;<code>/dump/news/ext_feed</code>&quot; and sub-folders
+&ldquo;<code>/dump/news/ext_feed</code>&rdquo; and sub-folders
 within it to serve as working folders for SUCK, as given in
-the file above. In the &quot;<code>data</code>&quot; sub-folder,
-Sam created a file called &quot;<code>active-ignore.myisp</code>&quot;
+the file above. In the &ldquo;<code>data</code>&rdquo; sub-folder,
+Sam created a file called &ldquo;<code>active-ignore.myisp</code>&rdquo;
 that contained the groups that SUCK should avoid downloading
 while connecting to this server. This file looked something
 like this:
@@ -248,7 +248,7 @@ similar pairs of these files for the newsgroup servers of IBM and
 BEA, that respectively excluded all but the groups that were to
 be retrieved from these servers.
 <p>
-SUCK came with a script named &quot;<code>getnews.inn</code>&quot;
+SUCK came with a script named &ldquo;<code>getnews.inn</code>&rdquo;
 that downloaded articles from a remote server and posted articles,
 if any, to the server using the <code>rpost</code> program that
 came with the SUCK distribution. Sam modified this script a bit
@@ -257,19 +257,19 @@ the server configuration file as parameters. The script had
 code that recovered gracefully in the event that the remote
 server was down for some reason. An important modification that
 Sam made to this script was to make it use the
-&quot;<code>put.news.sm</code>&quot; output filter that came
+&ldquo;<code>put.news.sm</code>&rdquo; output filter that came
 with it, as he was using the CNFS method of storage for articles -
-the default filter &quot;<code>put.news</code>&quot; assumed
+the default filter &ldquo;<code>put.news</code>&rdquo; assumed
 that each article was stored in a separate file, which was
 not a valid assumption for CNFS.
 <p>
 Sam then updated the <code>crontab</code> for the <code>news</code>
-user so that the &quot;<code>getnews.inn</code>&quot; script was called
+user so that the &ldquo;<code>getnews.inn</code>&rdquo; script was called
 with these configuration files twice every day, for each of
 the remote servers. All of this was explained properly in the
 documentation that accompanied SUCK.
 <p>
-Sam had to update the &quot;<code>newsfeeds</code>&quot; INN
+Sam had to update the &ldquo;<code>newsfeeds</code>&rdquo; INN
 configuration file so that the articles locally posted by the
 hobbits to external newsgroups were uploaded to the appropriate
 remote servers whenever SUCK connected to them, rather than
@@ -294,18 +294,18 @@ myisp/news.myisp.com\
 </pre>
 </div>
 <p>
-As a result, INN updated files named &quot;<code>ibm</code>&quot;,
-&quot;<code>bea</code>&quot; and &quot;<code>myisp</code>&quot;
-respectively in the &quot;<code>spool/outgoing</code>&quot;
+As a result, INN updated files named &ldquo;<code>ibm</code>&rdquo;,
+&ldquo;<code>bea</code>&rdquo; and &ldquo;<code>myisp</code>&rdquo;
+respectively in the &ldquo;<code>spool/outgoing</code>&rdquo;
 sub-folder of the INN installation folder, with the indices of
 the articles to be uploaded. Whenever SUCK connected to a remote
 server, it posted the articles indicated in the respective file
-and &quot;flushed&quot; the file after successfully posting them.
-The file names indicated the &quot;server codes&quot;, that were
+and &ldquo;flushed&rdquo; the file after successfully posting them.
+The file names indicated the &ldquo;server codes&rdquo;, that were
 also used to name the respective SUCK configuration files (with
-a &quot;<code>.cfg</code>&quot; extension)
+a &ldquo;<code>.cfg</code>&rdquo; extension)
 mentioned earlier - this (artificial) relation enabled the
-&quot;<code>getnews.inn</code>&quot; script to correctly locate
+&ldquo;<code>getnews.inn</code>&rdquo; script to correctly locate
 all the files needed to synchronise with a remote news server.
 <p>
 The effect of this setup was that SUCK automatically synchronised

@@ -1,30 +1,30 @@
 m4_define( `m4_post_date', `2007-04-25')m4_dnl
-m4_define( `m4_post_title', `&quot;The Intelligent Investor&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;The Intelligent Investor&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
 <a href="http://en.wikipedia.org/wiki/Benjamin_Graham">Benjamin
-Graham</a>, known as &quot;The Dean of Wall Street&quot; and as
-&quot;The Father of Value Investing&quot;, was one of the greatest
+Graham</a>, known as &ldquo;The Dean of Wall Street&rdquo; and as
+&ldquo;The Father of Value Investing&rdquo;, was one of the greatest
 investors and teachers of investing principles. His disciples include
 some of the most famous investors, including Warren Buffett, and his
-approach of &quot;value investing&quot; still retains a dedicated
+approach of &ldquo;value investing&rdquo; still retains a dedicated
 following despite the advent of fancier and more popular approaches
-like &quot;<a
+like &ldquo;<a
 href="http://en.wikipedia.org/wiki/Modern_Portfolio_Theory">Modern
-Portfolio Theory</a>&quot;. He is credited with bringing discipline
-to the field of investing via the influential textbook &quot;Security
-Analysis&quot; that he co-authored with David Dodd and that was
+Portfolio Theory</a>&rdquo;. He is credited with bringing discipline
+to the field of investing via the influential textbook &ldquo;Security
+Analysis&rdquo; that he co-authored with David Dodd and that was
 first published in 1934.
 m4_begin_post_rest
 m4_display_book( `0060555661', `intelligent-investor-benjamin-graham-jason-book-0060555661')
 <p>
-For the laymen, he wrote &quot;The Intelligent Investor&quot;, first
+For the laymen, he wrote &ldquo;The Intelligent Investor&rdquo;, first
 published in 1949, that lays out the principles of value investing
 and that has proved to be quite popular ever since. In 2003, about
 27 years after his death, the fourth
 edition of this book was published along with extensive commentaries
-by Jason Zweig, a senior writer at &quot;Money&quot; magazine, and a
+by Jason Zweig, a senior writer at &ldquo;Money&rdquo; magazine, and a
 preface and an appendix by Warren Buffett. The commentaries serve the
 useful purpose of putting Graham's text in today's perspective, mostly
 illustrating just how relevant Graham's words remain even today,
@@ -32,18 +32,18 @@ adapting them for the type of securities currently available and the
 prevailing taxation laws (in the US).
 <p>
 Graham clarifies right in the beginning that the book is not about
-how you can &quot;beat the market&quot; (since there is <i>no</i>
+how you can &ldquo;beat the market&rdquo; (since there is <i>no</i>
 reliable way of doing that). It is about how you can minimise the
 chances of suffering losses, maximise the chances of getting
 sustainable returns and control your behaviour in the face of market
 fluctuations. It is a conservative approach rooted in common sense
 that is not likely to fare well with people used to the sustained bull
 markets of recent years (in the US and much more so in India). Graham
-makes a distinction between &quot;investment&quot; and
-&quot;speculation&quot; and bemoans the use of the former term, even
+makes a distinction between &ldquo;investment&rdquo; and
+&ldquo;speculation&rdquo; and bemoans the use of the former term, even
 in his day, for activities that are really described by the latter. He
-says that &quot;An investment operation is one which, upon thorough
-analysis, promises safety of principal and an adequate return&quot;.
+says that &ldquo;An investment operation is one which, upon thorough
+analysis, promises safety of principal and an adequate return&rdquo;.
 Anything else is speculation. He divides investors into two
 categories - defensive and aggressive - based their appetite for risk
 and willingness to thoroughly research investment opportunities. Much
@@ -70,13 +70,13 @@ unscrupulous accounting practices used in juggling numbers in financial
 statements to show profits in some years even when the business really
 suffered a loss or to transfer losses to lean years so as to mark a
 profit in other years. He shows how to spot some of these shenanigans.
-He also favours keeping a reasonable &quot;margin of safety&quot;
+He also favours keeping a reasonable &ldquo;margin of safety&rdquo;
 while investing to minimise the chances of a loss. There are quite a
 few case studies and comparative analyses throughout the book that
 illustrate these principles.
 <p>
-To help one deal with the market, Graham uses the allegory of &quot;Mr
-Market&quot;, an obliging and persistent person who turns up every
+To help one deal with the market, Graham uses the allegory of &ldquo;Mr
+Market&rdquo;, an obliging and persistent person who turns up every
 day and offers to trade with you. You trade with him <i>only</i> if you
 find him offering a good deal and ignore him otherwise. Since there
 are a lot of very smart people constantly analysing securities and
@@ -97,7 +97,7 @@ for the studies quoted by Graham, spells out the names of the
 companies and individuals omitted by Graham and provides a brief
 history of a company used in a case study since the time Graham wrote
 about it. Graham's own footnotes have been moved to an
-&quot;Endnotes&quot; section towards the end of the book. This makes
+&ldquo;Endnotes&rdquo; section towards the end of the book. This makes
 it a bit difficult to find a footnote when you see a superscripted
 number, asterisk, dagger or a double-dagger. Some times Zweig's
 footnotes take up more than half of a page or overflow into the next

@@ -1,5 +1,5 @@
 m4_define( `m4_post_date', `2001-12-07')m4_dnl
-m4_define( `m4_post_title', `Can you say &quot;DUH&quot;?')m4_dnl
+m4_define( `m4_post_title', `Can you say &ldquo;DUH&rdquo;?')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
@@ -8,6 +8,6 @@ Corporate idiocy taken to the extremes -
 enter into a formal agreement with them to be able to link to their
 site from your web page. See <a
 href="http://www.wired.com/news/business/0,1367,48874,00.html">the relevant
-Wired article on this</a>. Corporates and &quot;suits&quot; never cease to
+Wired article on this</a>. Corporates and &ldquo;suits&rdquo; never cease to
 amaze me with their Utter, Total and Complete (UTC&trade;) idiocy!
 m4_end_post

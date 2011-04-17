@@ -1,12 +1,12 @@
 m4_define( `m4_post_date', `2004-08-01')m4_dnl
-m4_define( `m4_post_title', `&quot;The Da Vinci Code&quot;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;The Da Vinci Code&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-&quot;<a href="http://www.davincicode.com/">The Da Vinci
-Code</a>&quot; by <a href="http://www.danbrown.com/">Dan Brown</a> has
+&ldquo;<a href="http://www.davincicode.com/">The Da Vinci
+Code</a>&rdquo; by <a href="http://www.danbrown.com/">Dan Brown</a> has
 action, pace and intrigue sustained right throughout and not since
-&quot;Harry Potter and The Chamber of Secrets&quot; have I wanted to
+&ldquo;Harry Potter and The Chamber of Secrets&rdquo; have I wanted to
 finish a novel in one day and enjoyed it all along! The plot can be
 summed up as one big treasure hunt (with cryptic clues leading to more
 clues, as in the eponymous game) for that ultimate Christian quest -
@@ -42,8 +42,8 @@ href="http://en.wikipedia.org/wiki/Priory_of_Sion">Priory of Sion</a>,
 the <a href="http://en.wikipedia.org/wiki/Freemasonry">Freemasons</a>,
 the <a href="http://en.wikipedia.org/wiki/Knights_Templar">Knights
 Templar</a>, etc. Along the way, one also learns about the surprising
-etymology of common words like &quot;villain&quot;,
-&quot;sinister&quot;, &quot;pagan&quot;, etc. Quite a lot for one
+etymology of common words like &ldquo;villain&rdquo;,
+&ldquo;sinister&rdquo;, &ldquo;pagan&rdquo;, etc. Quite a lot for one
 little novel!
 <p>
 Though the novel alleges that the Catholic Church did everything in
