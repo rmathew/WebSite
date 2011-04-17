@@ -1,0 +1,65 @@
+m4_define( `m4_post_date', `2011-04-17')m4_dnl
+m4_define( `m4_post_title', `&ldquo;The Visual Display of Quantitative Information&rdquo;')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+&ldquo;The Visual Display of Quantitative Information&rdquo; is
+<a href="http://www.edwardtufte.com/">Edward Tufte</a>'s classic book on
+the principles behind creating effective data graphics. This is the area
+where graphic design and statistics meet to present a lot of information in a
+manner that readily provides viewers valuable insights, without them having to
+wade through and analyze a swarm of numbers. Charts, graphs and other
+visualizations of data fall into this category. With the vast amount of data
+created these days, effective analyses of these data using statistics and
+digestible presentation of these analyses using graphics become very
+important.
+m4_begin_post_rest
+m4_display_book( `0961392142', `visual-display-quantitative-informations-edward-book-0961392142')
+<p>
+The book is divided into two parts: the first part gives an overview of the
+current and historical practice of creating data graphics, while the second
+provides principles for creating good data graphics. The sample provided in the
+first part include examples of good data graphics from real publications,
+including the works of <a
+href="http://en.wikipedia.org/wiki/William_Playfair">William Playfair</a> and
+the remarkable flow-map of <a
+href="http://en.wikipedia.org/wiki/Charles_Joseph_Minard">Charles Joseph
+Minard</a> showing the disastrous march of Napoleon's army across Russia in
+1812, as well as examples of bad data graphics. There is also some analysis of
+the possible reasons why several reputable publications produce bad data
+graphics. These reasons include considering statistics as boring for the lay
+reader, using people with (only) creative arts backgrounds to create data
+graphics, trying to make graphics look pretty rather than accurate, etc.
+<p>
+The second part of the book presents a theory of data graphics. This
+includes the definition of terms like &ldquo;data-ink&rdquo; (ink directly
+used to represent data), &ldquo;chartjunk&rdquo; (decorative elements of
+data graphics that do not directly present data) and &ldquo;data-density&rdquo;
+(the amount of data presented per square inch) and principles for creating
+effective data graphics. These principles include maximization of data-ink,
+minimization of chartjunk, increasing of data-density, etc. Once again there
+are several examples from real publications presented to illustrate these
+principles.
+<p>
+The central idea of the book is to show how to create data graphics that
+present a large amount of information to the viewer with the least amount
+of effort needed on part of the viewer to grasp the intention of the graphics.
+This leads to a minimal, straightforward and data-intense style that might not
+go down well with some people (just like the prose of Ernst Hemingway). It
+nevertheless forces you to think about a subject that is usually considered as
+just putting a pretty picture instead of lots of numbers in order to not
+intimidate viewers.
+<p>
+The great thing about this book is that it practises what it preaches - the
+chapters of the book are short and to the point and the text is lucid. The
+book itself is relatively slim at about 200 pages of richly-illustrated and
+nicely-typeset text printed on non-glossy paper. (The author co-designed and
+self-published the book because he was dissatisfied with the approach of
+traditional publishers.)
+<p>
+Almost all of us, at some point or the other, need to present data to others
+using graphics. The principles presented in this book can help us maximize the
+effect of such graphics in clearly communicating our ideas to our target
+viewers.
+m4_end_post_rest
+m4_end_post

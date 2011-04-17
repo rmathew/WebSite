@@ -32,7 +32,7 @@ media="print">
 m4_include( `sitesrch.htm4')
 <div class="right">
 <span class="doNotDisplay">Related Sites:</span>
-<a href="http://rmathew.com/atom.xml" title="&quot;News&quot; Feed">
+<a href="http://rmathew.com/atom.xml" title="&ldquo;News&rdquo; Feed">
 <img src="m4_root_dir/images/feed.png" alt="Feed Icon">&nbsp;<b>Feed</b></a>
 |
 <a href="http://rmathew.blogspot.com/" title="Weblog"><b>Blog</b></a>
