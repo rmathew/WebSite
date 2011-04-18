@@ -41,9 +41,14 @@ minimization of chartjunk, increasing of data-density, etc. Once again there
 are several examples from real publications presented to illustrate these
 principles.
 <p>
-The central idea of the book is to show how to create data graphics that
-present a large amount of information to the viewer with the least amount
-of effort needed on part of the viewer to grasp the intention of the graphics.
+The central idea of the book is to show how to achieve <i>graphical
+excellence</i>:
+<blockquote>
+<p>&ldquo;Graphical excellence is that which gives to the viewer the
+greatest number of ideas in the shortest time with the least ink in the
+smallest space.&rdquo;
+</blockquote>
+<p>
 This leads to a minimal, straightforward and data-intense style that might not
 go down well with some people (just like the prose of Ernst Hemingway). It
 nevertheless forces you to think about a subject that is usually considered as
@@ -57,9 +62,18 @@ nicely-typeset text printed on non-glossy paper. (The author co-designed and
 self-published the book because he was dissatisfied with the approach of
 traditional publishers.)
 <p>
+There is a brochure that comes with the book promoting all the works of
+Edward Tufte, including other books, posters, classes, sculptures, etc. One
+quibble I have with this brochure is that it was not at all clear to me how
+his books are different from each other going just by the blurb presented here
+for each one. This was a little ironical accompanying a book that promotes
+clear and concise communication.
+<p>
 Almost all of us, at some point or the other, need to present data to others
-using graphics. The principles presented in this book can help us maximize the
-effect of such graphics in clearly communicating our ideas to our target
-viewers.
+using graphics. This is not the book for you if you are looking for
+instructions on which type of graphic to use for presenting a given type of
+data. Once you <em>have</em> picked the graphic though, the principles
+presented in this book can help you maximize the effect of such graphics in
+clearly communicating your ideas to your target viewers.
 m4_end_post_rest
 m4_end_post
