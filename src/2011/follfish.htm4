@@ -1,0 +1,54 @@
+m4_define( `m4_post_date', `2011-05-09')m4_dnl
+m4_define( `m4_post_title', `&ldquo;Following Fish&rdquo;')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+&ldquo;Following Fish&rdquo; by <a href="http://samanth.in/">Samanth
+Subramanian</a> is one of those rare English books published from India that
+are not banal attempts at aping the success of the last block-buster book or
+lame attempts at becoming a &ldquo;published author&rdquo;. It is a travelogue
+and a food-guide that is very well-written and has also been very
+well-received, hopefully encouraging others to write good non-fiction books of
+their own.
+m4_begin_post_rest
+m4_display_book( `0143064479', `following-fish-samanth-subramanian-travels-book-0143064479')
+<p>
+The book is a collection of nine essays that describe the author's travels
+through the coast of India in pursuit of the ways in which fish are caught
+and prepared, as well as the lives of the people who catch the fish. He
+travels to West Bengal, Andhra Pradesh, Tamil Nadu, Kerala, Karnataka, Goa,
+Maharashtra and Gujarat in his quest, each of which features in an essay
+(except for Goa, which features in two). The author puts life into these essays
+by displaying a keen eye for details, a great sense of humor and a flair for
+the English language. He seems to have charmingly few hang-ups that allow him
+to get close to his subjects without alienating them.
+<p>
+The essays are wide-ranging in the topics they cover, but are all related in
+one way or the other to fish. These include the preparation of the famed hilsa
+(or <i>ilish</i>) in Kolkata, the purported cure for asthma that is delivered
+by shoving a live medicine-carrying fish down patients' throats in Hyderabad,
+the toddy shops of Kerala, the pursuit of the sailfish, one of the fastest
+fish in the oceans, somewhere near Goa and boat-building in Gujarat. Each
+essay is largely self-contained and with a distinctive feel of its own, making
+it easy to savor this book in easily-digestible pieces.
+<p>
+It is not very clear just <em>why</em> the author sets out on these journeys,
+especially since he seems to have taken a dislike to eating fish as a young
+boy coming from a vegetarian family, but he does show a remarkable passion for
+his mission and an amazing perseverance. He has a curious penchant for noting
+brand names (a Mirinda bottle holding oil for a church's lamps, empty Servo
+bottles used as flotation devices, etc.). I was mildly disappointed that the
+author does not mention having tasted <i>matthi</i> (sardine) in Kerala,
+especially since most of the people who have tasted it seem to fall in love
+with it as far as I have seen, despite its abundance of slender bones that are
+hard to separate from its flesh. Finally it would be nice to have a list of
+fish mentioned in the book along with their local names and a sketch or a
+photograph, for people who are not well-versed in the different types of fish
+commonly eaten in our country.
+<p>
+Even if you have never tasted fish, these essays make for very interesting
+reads since they are as much about people and places as about fish. If you
+love fish, then you owe it to yourself to read this fantastic little book that
+has just under 170 pages in all.
+m4_end_post_rest
+m4_end_post
