@@ -66,7 +66,7 @@ m4_define(
       _dummy_,
       `',
       <br>
-      <a href="http://www.flipkart.com/$2?affid=INRanjit">
+      <a href="http://www.flipkart.com/books/$2?affid=INRanjit">
       <img src="m4_root_dir/books/images/buyfkart.png" alt="Buy from Flipkart.com">
       </a>
     )

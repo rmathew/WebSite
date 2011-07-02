@@ -14,7 +14,7 @@ programmer along with classics like &ldquo;The Art of Computer
 Programming&rdquo; and &ldquo;Structure and Interpretation of Computer
 Programming&rdquo;.
 m4_begin_post_rest
-m4_display_book( `0262220695', `concepts-techniques-models-computer-programming-book-8120326857')
+m4_display_book( `0262220695', `8120326857')
 <p>
 The authors introduce various models of computation that cover the
 declarative and imperative styles of programming, including concurrent

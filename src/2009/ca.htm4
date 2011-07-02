@@ -12,7 +12,7 @@ upon these topics. Even then there is a fair amount of overlap among
 these books that is a bit irritating if you have only recently read the
 other book.
 m4_begin_post_rest
-m4_display_book( `0123704901', `computer-architecture-quantitative-apporoach-fourth-book-8131207269')
+m4_display_book( `0123704901', `8131207269')
 <p>
 The book covers the exploitation of instruction-level parallelism and
 thread-level parallelism in modern microprocessors in great detail. It

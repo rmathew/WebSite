@@ -14,7 +14,7 @@ experience, I find myself agreeing almost entirely with the updated
 second edition, published in 2004. When someone asks me &ldquo;How do
 I write good code?&rdquo;, I point them to this book without hesitation.
 m4_begin_post_rest
-m4_display_book( `0735619670', `code-complete-2nd-steve-mcconnel-book-8178530856')
+m4_display_book( `0735619670', `8178530856')
 <p>
 The book is about &ldquo;software construction&rdquo; - as the author
 notes, this includes coding and debugging, detailed design, construction

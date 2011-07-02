@@ -17,7 +17,7 @@ it still remains relevant and useful. It would perhaps not be hyperbolic on my
 part to term this book as one of the under-appreciated classics of computer
 programming.
 m4_begin_post_rest
-m4_display_book( `0471503363', `art-computer-systems-performance-analysis-book-8126519053')
+m4_display_book( `0471503363', `8126519053')
 <p>
 It is usually quite important to know the performance of a computer system.
 A high-performance system generally does more work with fewer resources

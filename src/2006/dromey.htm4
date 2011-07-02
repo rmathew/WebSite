@@ -9,7 +9,7 @@ it&rdquo;. This book explores how good problem-solving techniques can
 be applied in computer programming to come up with efficient
 algorithms for many problems.
 m4_begin_post_rest
-m4_display_book( `0134340019', `solve-computer-dromey-book-8131705625')
+m4_display_book( `0134340019', `8131705625')
 <p>
 The problems discussed range from the trivial (&ldquo;summing up the
 elements of an array&rdquo;, for example) to the more interesting

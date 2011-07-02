@@ -8,7 +8,7 @@ m4_begin_post
 personally selected by the author John Mortimer and considered by him
 to be the best among those he has written so far.
 m4_begin_post_rest
-m4_display_book( `0140176845', `best-rumpole-john-mortimer-book-0140176845')
+m4_display_book( `0140176845', `0140176845')
 <p>
 Horace Rumpole is an old barrister practising at <a
 href="http://en.wikipedia.org/wiki/The_Old_Bailey">The Old Bailey</a>,

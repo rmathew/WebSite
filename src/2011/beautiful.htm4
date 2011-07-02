@@ -1,0 +1,62 @@
+m4_define( `m4_post_date', `2011-06-30')m4_dnl
+m4_define( `m4_post_title', `&ldquo;Beautiful Thing&rdquo;')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+&ldquo;Beautiful Thing&rdquo; is a poignant book by <a
+href="http://www.soniafaleiro.com/">Sonia Faleiro</a> on the lives of
+bar-dancers in Mumbai, based on research done by the author over a period of
+five years. The book tells the story of Leela, a beautiful nineteen year old
+girl who works as a dancer in a dance-bar in Mumbai called &ldquo;Night
+Lovers&rdquo;. It traces her life as a much-exploited young teenager from
+Meerut who manages to escape from her home only to become a bar-dancer in
+Mumbai. There she earns good money, achieves independence and is fussed over
+by a steady stream of men.
+m4_begin_post_rest
+m4_display_book( `0670084050', `9780670084050')
+<p>
+The book is brutally frank and surprisingly intimate, a result of the author
+being close to her subject and winning her confidence, having followed her
+subject almost everywhere and having directly interacted with her friends,
+customers and what passed for her family. Only a woman could have done justice
+to this subject and it shows in the empathetic tone of the narrative. At the
+same time, it was remarkably courageous of a woman to spend time in dance-bars,
+in brothels, in seedy lodges, in the company of petty criminals and
+not-so-petty ones, with lecherous customers of the girls, etc.
+<p>
+Even though the book is a work of non-fiction, it has a narrative and a cast
+of characters that rival those in good fiction - it even has a cliff-hanger
+of an ending, where we are left wondering what becomes of Leela who has taken
+a big leap of faith. There is beautiful and young Leela who is at the peak of
+her profession as a bar-dancer at the beginning of the book and has a steady
+relationship with the (married) owner of the dance-bar. There is the extremely
+beautiful and somewhat-narcissistic Priya who is Leela's best friend and a
+bar-dancer as well. There is Leela's submissive mother Apsara who decides to
+move in with her, much to her irritation. There is Leela's abusive and drunk
+father Manohar, who regularly beats his wife and in an instance of spite gets
+the police to repeatedly rape his barely-teenaged daughter. There is Leela's
+adopted mother Masti who presents the rare case of a eunuch accepted by her
+family. And so on. The epigraph for the book, quoting Leela, aptly reads:
+<blockquote>
+<p>
+&ldquo;My story is the best you will ever hear. The best, understand? Now come
+close. Closer! Okay, ready?&rdquo;
+</blockquote>
+<p>
+There are some minor irritants in book that are a bit distracting. For example,
+reading &ldquo;non-wedge&rdquo; and &ldquo;kushtomer&rdquo; looks authentic
+and amusing once or twice, but not so repeatedly throughout the book. The
+author has a certain fascination for naming brands that seems superfluous
+in the text at best and irritating at worst - we are told again and again about
+the Gold Flake cigarettes that Leela smokes and the LG refrigerator she keeps
+her rotting vegetables in.
+<p>
+That aside, this is one of those books that make you feel sad or angry at one
+time and laugh out at another. It makes you contrast your ensconced life and
+good luck, your relatively petty problems notwithstanding, with that of those
+far less fortunate, caught in the grip of circumstances beyond their control
+and living with a constant hope for a better tomorrow. It is in other words a
+thought-provoking and insightful book that is a must-read. It is arguably one
+of the best non-fiction books to have come out of India in recent times.
+m4_end_post_rest
+m4_end_post

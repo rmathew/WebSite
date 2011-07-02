@@ -11,7 +11,7 @@ and a food-guide that is very well-written and has also been very
 well-received, hopefully encouraging others to write good non-fiction books of
 their own.
 m4_begin_post_rest
-m4_display_book( `0143064479', `following-fish-samanth-subramanian-travels-book-0143064479')
+m4_display_book( `0143064479', `0143064479')
 <p>
 The book is a collection of nine essays that describe the author's travels
 through the coast of India in pursuit of the ways in which fish are caught

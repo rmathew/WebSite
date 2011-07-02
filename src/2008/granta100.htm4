@@ -11,7 +11,7 @@ special issue celebrating the 100<sup>th</sup> edition of this magazine
 featuring contributions from the likes of Martin Amis, Salman Rushdie,
 Doris Lessing, Hanif Kureishi, Ian McEwan, etc.
 m4_begin_post_rest
-m4_display_book( `1929001304', `granta-100-william-boyd-magazine-book-1929001304')
+m4_display_book( `1929001304', `1929001304')
 <p>
 Most of the entries are samples from soon-to-be-published works of the
 respective authors. They are thus &ldquo;teaser trailers&rdquo; of the

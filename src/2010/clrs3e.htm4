@@ -18,7 +18,7 @@ Somewhat surprisingly, it does manage to leave out some
 commonly-encountered data structures and algorithms, so it is not
 <i>as</i> comprehensive and up-to-date as I would have liked.
 m4_begin_post_rest
-m4_display_book( `0262033844', `introduction-algorithms-3rd-thomas-cormen-book-8120340078')
+m4_display_book( `0262033844', `8120340078')
 <p>
 With 35 chapters and four appendices, this book packs in a lot of
 material. The main content is divided into eight parts, beginning with

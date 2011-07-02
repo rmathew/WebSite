@@ -12,7 +12,7 @@ same, though much less interesting in my honest opinion. Of course, this could
 well be due to the number of books that have been published since the original
 book came out and that explore very similar topics.
 m4_begin_post_rest
-m4_display_book( `0060889578', `superfreakonomics-steven-levitt-stephen-dubner-book-0713999918')
+m4_display_book( `0060889578', `0713999918')
 <p>
 Some of the chapters have intriguing titles like &ldquo;How is a street
 prostitute like a department-store Santa?&rdquo; or &ldquo;Why should

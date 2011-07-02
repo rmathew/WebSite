@@ -14,7 +14,7 @@ created these days, effective analyses of these data using statistics and
 digestible presentation of these analyses using graphics become very
 important.
 m4_begin_post_rest
-m4_display_book( `0961392142', `visual-display-quantitative-informations-edward-book-0961392142')
+m4_display_book( `0961392142', `0961392142')
 <p>
 The book is divided into two parts: the first part gives an overview of the
 current and historical practice of creating data graphics, while the second

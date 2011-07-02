@@ -10,7 +10,7 @@ Famous</a>&rdquo; series of books (the first one was on William
 Shakespeare). It is a light book written in a humourous manner and
 is loaded with comic illustrations.
 m4_begin_post_rest
-m4_display_book( `0439982294', `dead-famous-tracey-turner-writers-book-0439982294')
+m4_display_book( `0439982294', `0439982294')
 <p>
 It talks about some famous authors
 like William Shakespeare, Charles Dickens, Jane Austen, etc. and

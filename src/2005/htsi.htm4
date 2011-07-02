@@ -10,7 +10,7 @@ as verify your solutions. Polya provides heuristics for mathematical
 problems but I think the approach applies quite well to problems in
 other domains as well.
 m4_begin_post_rest
-m4_display_book( `069111966X', `solve-george-polya-book-0140124993')
+m4_display_book( `069111966X', `0140124993')
 <p>
 The basic approach is described in a short chapter at the beginning of
 the book. The bulk of the book is taken up by a quaint

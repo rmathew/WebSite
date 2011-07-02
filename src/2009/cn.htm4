@@ -14,7 +14,7 @@ now and then, the book on the whole is fairly up-to-date and still quite
 relevant. It is therefore a great text-book from which to teach yourself
 about computer networks.
 m4_begin_post_rest
-m4_display_book( `0130661023', `computer-networks-fourth-andrew-tanenbaum-book-8177581651')
+m4_display_book( `0130661023', `8177581651')
 <p>
 While the book talks about the seven-layered <a
 href="http://en.wikipedia.org/wiki/OSI_model">OSI model</a> for computer

@@ -13,7 +13,7 @@ such a book becomes dated pretty quickly by its very nature, assuming
 the field continues its breakneck pace of development even into the near
 future.
 m4_begin_post_rest
-m4_display_book( `0123744938', `computer-organization-design-patterson-hardware-book-8131222748')
+m4_display_book( `0123744938', `8131222748')
 <p>
 The authors are the designers of two early and successful RISC
 microprocessor architectures (MIPS and SPARC) and this expertise is

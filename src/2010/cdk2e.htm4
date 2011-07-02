@@ -14,7 +14,7 @@ href="http://www.cdk5.net/">fifth edition</a> is in the works), as the
 two editions didn't seem to differ significantly. This turned out to be
 not that bad a decision.
 m4_begin_post_rest
-m4_display_book( `0321263545', `distributed-systems-george-coulouris-tim-book-8131718409')
+m4_display_book( `0321263545', `8131718409')
 <p>
 There is a great amount of overlap between the foundational chapters
 of this book and decent books on computer networks and operating

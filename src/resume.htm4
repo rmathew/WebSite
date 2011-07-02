@@ -63,11 +63,6 @@ padding: 0.5ex;
 <td align="left">rmathew@gmail.com</td>
 </tr>
 <tr>
-<td class="label" valign="top">Education</td>
-<td align="left">Bachelor of Technology (CSE), 1992-1996,<br>
-Indian Institute of Technology (IIT), Kanpur</td>
-</tr>
-<tr>
 <td class="label" valign="top">Professional Experience</td>
 <td align="left">
 <script type="text/javascript">
@@ -108,66 +103,35 @@ document.write( years.toFixed( 1) + " Years");
 </table>
 </td>
 </tr>
-</table>
-<p>
-<table class="sumtab">
 <tr>
-<th align="center" colspan="2">Summary of Skills</th>
-</tr>
-<tr>
-<td class="label" valign="top">Programming Languages</td>
-<td align="left" valign="top">Java, C, C++, x86-32 Assembly Language</td>
-</tr>
-<tr>
-<td class="label" valign="top">Platforms</td>
-<td align="left" valign="top">
-Linux, MS-DOS, Windows 9x/NT4/2000/XP (on x86 PCs)<br>
-AIX 4.x (on IBM RS/6000 workstations)<br>
-Solaris 2.x, 8, 9 (on Sun SPARC workstations)<br>
-HP-UX 10.x (on HP PA-RISC workstations)<br>
-DEC OSF/1 (now Tru64) (on DEC Alpha workstations)<br>
-BBC Microcomputer
-</td>
-</tr>
-<tr>
-<td class="label" valign="top">Development Methodologies</td>
-<td align="left" valign="top">
-Object-Oriented Analysis and Design (OOAD)<br>
-Structured Analysis, Structured Design (SASD)
-</td>
-</tr>
-<tr>
-<td class="label" valign="top">Modelling Languages</td>
-<td align="left" valign="top">Unified Modelling Language (UML)</td>
-</tr>
-<tr>
-<td class="label" valign="top">Distributed Computing</td>
-<td align="left" valign="top">SOA (SOAP/BPEL/etc.), CORBA, DCE, Java/RMI</td>
-</tr>
-<tr>
-<td class="label" valign="top">Databases</td>
-<td align="left" valign="top">Oracle, DB2, MySQL</td>
-</tr>
-<tr>
-<td class="label" valign="top">Graphics</td>
-<td align="left" valign="top">OpenGL, SDL</td>
-</tr>
-<tr>
-<td class="label" valign="top">Others</td>
-<td align="left" valign="top">Design Patterns, J2EE, XML, SQL, PL/SQL,
-HTML/CSS/JavaScript</td>
+<td class="label" valign="top">Education</td>
+<td align="left">Bachelor of Technology (CSE), 1992-1996,<br>
+Indian Institute of Technology (IIT), Kanpur</td>
 </tr>
 </table>
 <p>
-<h3>Experience Summary</h3>
+<h3>Summary</h3>
+Computer programmer and architect with a long and varied experience. At ease
+with both system and enterprise application development. Good written and oral
+communication skills.
+<p>
+<h3>Experience</h3>
 <p>
 <b>At Yahoo:</b>
 <ul>
 <li>
-Apache Hadoop: A fault-tolerant and open-source infrastructure for
-performing large-scale distributed computing on commodity hardware. Member
-of the team that owns GridMix3, a production-load simulator and stress-tester
-for Hadoop clusters.
+Starling: A tool to populate a data-warehouse using different types of logs
+collected from various Apache Hadoop clusters in order to analyze utilization,
+performance and usage. Data collected using Oozie work-flows, stored via Apache
+HCatalog on Apache Hadoop HDFS and analyzed using Apache Hive and Apache Pig.
+Principal designer and implementor.
+</li>
+<li>
+GridSim: A collection of tools for evaluating the performance of Apache
+Hadoop clusters, including GridMix3, a MapReduce load-simulator and
+stress-tester that uses traces obtained from production-clusters to emulate
+various types of loads, and PigMix2, a load-simulator and stress-tester for
+Apache Pig. Team member.
 </li>
 </ul>
 <p>
@@ -237,6 +201,14 @@ became a part of IBM alphaBeans. This effort spanned four countries
 <li>
 AIX Server Support: Provided &ldquo;Level-3&rdquo; (L3) support on
 the command-line programmes available to AIX customers.
+</li>
+</ul>
+<h3>Papers and Presentations</h3>
+<p>
+<ul>
+<li>
+&ldquo;Hadoop Simulation and Performance&rdquo; at the Apache Hadoop
+India Summit 2011.
 </li>
 </ul>
 <h3>Personal Projects</h3>

@@ -10,7 +10,7 @@ surprisingly-broad set of topics considering its size. It is fairly
 dated now but it still has all the essential data structures, algorithms
 and algorithm analysis techniques.
 m4_begin_post_rest
-m4_display_book( `0201000237', `data-structures-algorithms-alfred-aho-book-8177588265')
+m4_display_book( `0201000237', `8177588265')
 <p>
 Early on in the book the authors describe algorithm analysis techniques
 and the effect of badly-designed algorithms on performance as the size

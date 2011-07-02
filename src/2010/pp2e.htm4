@@ -16,7 +16,7 @@ the clarity and brevity of the book. I have read the book at least
 three times over the years and I continue to learn new things from it -
 no wonder this book is considered a classic in computer programming.
 m4_begin_post_rest
-m4_display_book( `0201657880', `programming-pearls-joe-bentley-book-8177588583')
+m4_display_book( `0201657880', `8177588583')
 <p>
 The book is divided into three parts with five chapters per part. The
 first part presents the fundamentals of programming, from programme

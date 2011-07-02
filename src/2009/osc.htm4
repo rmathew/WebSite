@@ -10,7 +10,7 @@ more on the concepts than their implementation. Almost all the concepts
 that you need to know to appreciate the working of an operating system
 are explained here and illustrated with numerous case studies.
 m4_begin_post_rest
-m4_display_book( `0470128720', `operating-system-concepts-8th-ed-book-8126520515')
+m4_display_book( `0470128720', `8126520515')
 <p>
 The book covers all the operating systems concepts that you find in a
 standard text-book like process management, memory management,

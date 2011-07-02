@@ -9,7 +9,7 @@ around cracking the code in the 500 year old obscure book &ldquo;<a
 href="http://en.wikipedia.org/wiki/Hypnerotomachia_Poliphili">Hypnerotomachia
 Poliphili</a>&rdquo;.
 m4_begin_post_rest
-m4_display_book( `0440241359', `rule-four-ian-caldwell-dustin-book-0099451956')
+m4_display_book( `0440241359', `0099451956')
 <p>
 <a href="http://mitpress.mit.edu/e-books/HP/">That
 book</a> is written in a mixture of many languages by an unknown
