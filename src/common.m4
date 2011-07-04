@@ -135,12 +135,31 @@ m4_define(
     m4_ifelse(
       m4_standalone_post,
       `true',
+        <table style="border: 0px; margin-left: auto; margin-right: auto;">
+        <tr style="border: 0px;">
+        <td style="border: 0px;">
+	  <div id="fb-root"></div>
+	  <fb:like href="" send="false" layout="button_count" width="110"
+	    show_faces="false" font=""></fb:like>
+        </td>
+        <td style="border: 0px;">
+	  <a href="http://twitter.com/share" class="twitter-share-button"
+	    data-count="horizontal" data-via="rmathew4tw">Tweet</a>
+        </td>
+        <td style="border: 0px;">
+	  <g:plusone size="medium"></g:plusone>
+        </td>
+        </tr>
+        </table>
 	<div class="right_justified">
 	  <b><a
 	    href="m4_root_dir/m4_substr( m4_post_date, 0, 4)/index.html">Other
 	    News from m4_substr( m4_post_date, 0, 4)</a></b>
 	</div>
       </div>
+      <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
+      <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+      <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
       m4_include( footer.htm4)
     )
   ]]
