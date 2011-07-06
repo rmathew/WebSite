@@ -6,6 +6,7 @@ m4_include(`common.m4')m4_dnl
 <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Cache-Control" content="max-age=86400">
 <META name="author" content="Ranjit Mathew">
+<META property="fb:admins" content="100001929392934" />
 <link rel="icon" href="m4_root_dir/favicon.ico" type="image/x-icon">
 <link rel="alternate" href="http://rmathew.com/atom.xml"
 type="application/atom+xml" title="Atom Feed for rmathew.com">
