@@ -17,7 +17,7 @@ h1 {
 text-align: center;
 }
 table.sumtab {
-margin-left: 2em;
+margin-left: 4em;
 border-collapse: collapse;
 border-style: solid;
 border-width: 1px;
@@ -67,11 +67,12 @@ padding: 0.5ex;
 <td align="left">
 <script type="text/javascript">
 <!--
-var startDate = new Date( 1996, 7, 1);
-var today = new Date( );
-var yearMillis = 1000 * 3600 * 24 * 365;
-var years = (today.getTime( ) - startDate.getTime( )) / yearMillis;
-document.write( years.toFixed( 1) + " Years");
+// Started my career on 01-Aug-1996; note that months are numbered 0-11.
+var startDate = new Date(1996, 7, 1);
+var today = new Date();
+var yearMillis = 1000 * 60 * 60 * 24 * 365;
+var years = (today.getTime() - startDate.getTime()) / yearMillis;
+document.write(years.toFixed(1) + " Years");
 //-->
 </script>
 <br>
@@ -109,171 +110,150 @@ document.write( years.toFixed( 1) + " Years");
 Indian Institute of Technology (IIT), Kanpur</td>
 </tr>
 </table>
+<h2>Summary</h2>
 <p>
-<h3>Summary</h3>
 Computer programmer and architect with a long and varied experience. At ease
 with both system and enterprise application development. Good written and oral
 communication skills.
-<p>
-<h3>Experience</h3>
-<p>
-<b>At Yahoo:</b>
+<h2>Experience</h2>
+<h3>At Yahoo:</h3>
 <ul>
 <li>
-Starling: A tool to populate a data-warehouse using different types of logs
-collected from various Apache Hadoop clusters in order to analyze utilization,
-performance and usage. Data collected using Oozie work-flows, stored via Apache
-HCatalog on Apache Hadoop HDFS and analyzed using Apache Hive and Apache Pig.
-Principal designer and implementor.
+<b>Starling:</b> A tool to populate a data-warehouse by processing different
+types of logs collected from various Apache Hadoop clusters in order to analyze
+utilization, performance and usage of these clusters. The data are collected
+and processed using Oozie work-flows, stored via Apache HCatalog on Apache
+Hadoop HDFS and analyzed using Apache Hive and Apache Pig. Principal designer
+and implementor.
 </li>
 <li>
-GridSim: A collection of tools for evaluating the performance of Apache
+<b>GridSim:</b> A collection of tools for evaluating the performance of Apache
 Hadoop clusters, including GridMix3, a MapReduce load-simulator and
 stress-tester that uses traces obtained from production-clusters to emulate
 various types of loads, and PigMix2, a load-simulator and stress-tester for
 Apache Pig. Team member.
 </li>
 </ul>
-<p>
-<b>At Oracle:</b>
+<h3>At Oracle:</h3>
 <ul>
 <li>
-Oracle Enterprise Manager: A product used to manage and monitor systems
+<b>Oracle Enterprise Manager:</b> A product used to manage and monitor systems
 deployed in an organisation. Member of the team that maintains the patching
 feature. Security Point of Contact (SPoC) for the team.
 </li>
 <li>
-Oracle Software Packager and Universal Installer: The tool-set used to
-create installers for Oracle's products like the RDBMS and the
-Application Server. Team member.
+<b>Oracle Software Packager and Universal Installer:</b> The tool-set used to
+create installers for Oracle's server products. Team member.
 </li>
 </ul>
-<p>
-<b>At Headstrong:</b>
+<h3>At Headstrong:</h3>
 <ul>
 <li>
-TradePort: An order-management system
-for brokerage firms and trading houses that supports multiple
-order destinations and has a comprehensive risk management
-system. Principal designer of the Common Service Framework
-for TradePort Server services.
+<b>TradePort:</b> An order-management system for brokerage firms and trading
+houses that supports multiple order destinations and has a comprehensive
+risk-management system. Principal designer of the Common Service Framework for
+TradePort Server services.
 </li>
 </ul>
-<p>
-<b>At Torry Harris:</b>
+<h3>At Torry Harris:</h3>
 <ul>
 <li>
-ASPizer:
-Provided an infrastructure over a J2EE-based application server that
-let Application Service Providers (ASPs) manage their users, security,
-licensing, billing, etc. Completely distributed environment with
-remote administration capabilities and a handy web-based administration
+<b>dotFlow:</b> A distributed work-flow engine for Java that also provided a
+studio to design work-flows. Principal designer and implementor.
+</li>
+<li>
+<b>ASPizer:</b> A framework that provided an infrastructure over a J2EE-based
+application server that let Application Service Providers (ASPs) manage their
+users, security, licensing, billing, etc. Completely distributed environment
+with remote administration capabilities and a handy web-based administration
 application. Principal architect and designer.
 </li>
 <li>
-WebOBlocks:
-Provided a component-based methodology for rapidly building
-web applications to be hosted on J2EE-based application servers. Based
-on the Model-View-Controller (MVC) architectural pattern. Principal
-designer and implementor.
-</li>
-<li>
-Other: dotFlow - a Java-based distributed workflow engine,
-EazyCache - a Java-based object cache, a Work-Load Management (WLM)
-tool for Distributed CICS, enabling Java/IIOP for Distributed CICS, etc.
-</li>
-</ul>
-<p>
-<b>At IBM:</b>
-<ul>
-<li>
-CTF: Designed and built some extensions (a personal finance
-management framework, a TN3270 emulator and a WhiteBoard) for the
-IBM Consumer Transaction Framework (CTF) developed by IBM Hursley, UK.
+<b>WebOBlocks:</b> A framework that provided a component-based methodology for
+rapidly building web-applications to be hosted on J2EE-based application
+servers. Based on the Model-View-Controller (MVC) architectural pattern.
 Principal designer and implementor.
 </li>
 <li>
-alphaBeans:
-Designed and developed some JavaBeans that ultimately
-became a part of IBM alphaBeans. This effort spanned four countries
-(China, India, Latvia and Belarus) and was managed by IBM USA.
-</li>
-<li>
-AIX Server Support: Provided &ldquo;Level-3&rdquo; (L3) support on
-the command-line programmes available to AIX customers.
+<b>Others:</b> EazyCache - an object cache for Java, WLM - a Work-load
+Management tool for Distributed CICS, Java/IIOP for Distributed CICS, etc.
 </li>
 </ul>
-<h3>Papers and Presentations</h3>
-<p>
+<h3>At IBM:</h3>
+<ul>
+<li>
+<b>Consumer Transaction Framework:</b> Designed and built some extensions (a
+personal finance management framework, a TN3270 emulator and a WhiteBoard) for
+the IBM Consumer Transaction Framework (CTF). Principal designer and
+implementor.
+</li>
+<li>
+<b>alphaBeans:</b> Designed and developed some JavaBeans that ultimately
+became a part of IBM alphaBeans.
+</li>
+<li>
+<b>AIX Server Support:</b> Provided &ldquo;Level-3&rdquo; (L3) support for
+the command-line programs available to AIX users.
+</li>
+</ul>
+<h2>Papers and Presentations</h2>
 <ul>
 <li>
 &ldquo;Hadoop Simulation and Performance&rdquo; at the Apache Hadoop
 India Summit 2011.
 </li>
 </ul>
-<h3>Personal Projects</h3>
-<p>
-Here is a list of some of my personal projects:
+<h2>Personal Projects</h2>
 <ul>
 <li>
-GCJ: I have been a contributing hacker to the GNU Compiler for Java
-(GCJ) in particular and the GNU Compiler Collection (GCC) in general since
-2002.
+<b>GCJ:</b> I was a contributer to the GNU Compiler for Java (GCJ) and the GNU
+Compiler Collection (GCC). Among other things, I helped create a Windows-native
+port of GCJ using MinGW (based on the work of Adam Megacz) and fixed several
+bugs in the Java front-end of GCC.
 </li>
 <li>
-GCJ for MinGW: A Windows-native port of the GNU Compiler for Java
-(GCJ) using the GNU tool-set as provided by the Minimalist GNU for Windows
-(MinGW) project. Based on the work of Adam Megacz.
+<b>GDB:</b> I helped create a Windows-native port of the GNU Debugger (GDB)
+version 5.2.1 using MinGW (based on the work of Artem Khodush).
 </li>
 <li>
-GDB for MinGW: A Windows-native port of the GNU Debugger (GDB) version 5.2.1
-using the GNU tool-set as provided by the MinGW project. Based on the patches
-from Artem Khodush.
+<b>ZINC:</b> A simulator-cum-assembler for playing a variant of Core War, a
+game where programs fight each other inside a virtual machine.
 </li>
 <li>
-ZINC: A simulator-cum-assembler for playing a variant of Core War.
+<b>VirtualTaj:</b> An interactive 3D walkthrough of the famous Taj Mahal that
+runs on Windows and Linux and was developed using OpenGL and SDL.
 </li>
 <li>
-VirtualTaj: A 3D interactive walkthrough of the famous Taj Mahal for
-Windows and Linux, developed using OpenGL and SDL.
+<b>The Hobbitware.com Intranet Project:</b> A guide to setting up a complete
+intranet for a small organization using free server software on Linux, based
+on personal experience.
 </li>
 <li>
-The Hobbitware.com Intranet Project: A guide to setting up a
-complete intranet for a small organisation using free server software on
-Linux, based on personal experience.
+<b>Disasm:</b> An intelligent disassembler for x86 that produced valid
+assembly-language programs from MS-DOS executables.
 </li>
 <li>
-x86 Disassembler: An intelligent disassembler for producing valid assembly
-language programmes from MS-DOS executables.
+<b>Fox3D:</b> A simple ray-casting 3D engine for walking through a maze,
+somewhat similar to the game Wolfenstein 3D by id Software.
 </li>
 <li>
-Fox3D: A simple raycasting 3D engine for walking through a
-maze, similar to the legendary game Wolfenstein 3D by id Software.
+<b>PMars:</b> A simple voxel landscape engine inspired by the
+&ldquo;Mars&rdquo; demo by T. J. Clarke, written almost entirely in x86
+assembly-language and using the x86 Protected Mode under MS-DOS.
 </li>
 <li>
-PMars: A simple voxel landscape engine inspired by the legendary
-&ldquo;Mars&rdquo; demo by T. J. Clarke, written almost entirely in assembler
-and using the x86 Protected Mode under MS-DOS.
+<b>Core War:</b> Another assembler and simulator created earlier for working
+with Core War programs as described by A. K. Dewdney.
 </li>
 <li>
-Core War: Another assembler and simulator created earlier for working
-with Core War programmes as described by A. K. Dewdney.
-</li>
-<li>
-Others: An assembler/simulator for Knuth's MIX, a fast Mandelbrot set
+<b>Others:</b> An assembler/simulator for Knuth's MIX, a fast Mandelbrot set
 explorer, etc.
 </li>
 </ul>
-<h3>Miscellaneous Comments</h3>
+<h2>Disclosure</h2>
 <p>
-I am equally at ease with systems and enterprise application development.
-I am skilled in object-oriented design and development, especially in Java on
-J2EE-based application servers. I have a fairly strong knowledge of C
-programming.
-<p>
-<b>Disclosure:</b> I have signed copyright assignment papers with the
-Free Software Foundation (FSF) that assign the copyright for all my past and
-future contributions to the GNU Compiler Collection (GCC) and GNU Classpath
-to the FSF.
+I have signed copyright-assignment papers with the Free Software Foundation
+(FSF) that assign the copyright for all my past and future contributions to
+the GNU Compiler Collection (GCC) and GNU Classpath to the FSF.
 </body>
 </html>
