@@ -1,0 +1,44 @@
+m4_define( `m4_post_date', `2011-08-15')m4_dnl
+m4_define( `m4_post_title', `&ldquo;Khushwant Singh Selects Best Indian Short Stories (Volume 2)&rdquo;')m4_dnl
+m4_include( `posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+&ldquo;Khushwant Singh Selects Best Indian Short Stories (Volume 2)&rdquo; is
+the second part of a collection of short stories written by various Indian
+authors and selected by <a
+href="http://en.wikipedia.org/wiki/Khushwant_Singh">Khushwant Singh</a>. I was
+looking forward to reading this volume after having read <a
+href="m4_root_dir/2011/ksbestind1.html">the first volume</a>. Most of the
+stories in the first volume were of a good quality and I had hoped the same
+for this volume - unfortunately for me this volume is quite disappointing and
+the stories vary wildly in quality.
+m4_begin_post_rest
+m4_display_book( `8172234643', `8172234643')
+<p>
+The first six stories in this book are awful in my opinion, even though they
+they were written by some big-shots (not necessarily in literature though).
+It's only from the seventh story onwards (&ldquo;An Accident&rdquo; by R. K.
+Laxman) that things start looking up for this book, though they again start
+to scrape the bottom by the end of the book. I'm a little befuddled by the
+vast difference in overall quality between the two books, since the stories
+have ostensibly been selected by the same person for the same collection of
+which these two books are the constituent parts. Perhaps the publisher
+should have just published a single volume of great stories, saving readers
+some money as well as saving a lot of trees.
+<p>
+As with the first book, the stories in this book are short enough to be
+completed in a single sitting and do not, mercifully, represent obtuse high
+literature. This makes the book ideal to be picked up during a short break
+or for a little unwinding, for example. The stories represent a fair
+cross-section of authors from across the country, including Manohar Malgonkar,
+Saadat Hasan Manto, Mohan Rakesh, Khushwant Singh, Bhisham Sahni, etc. As is
+to be expected, some of the flavor of the original language for a story is
+lost in the translation to English (at least for the stories in Hindi or Urdu),
+but thankfully much of the original character is retained.
+<p>
+If you have read the first volume, keep your expectations low for this one and
+you won't be disappointed. If you haven't read the first volume, go ahead and
+read it - it is well worth the little time and effort you will put into it;
+this one, I'm afraid not so much.
+m4_end_post_rest
+m4_end_post
