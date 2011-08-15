@@ -149,6 +149,9 @@ m4_define(
         <td style="border: 0px;">
 	  <g:plusone size="medium"></g:plusone>
         </td>
+        <td style="border: 0px;">
+	  <script type="text/javascript" src="http://www.reddit.com/static/button/button1.js"></script>
+        </td>
         </tr>
         </table>
 	<div class="right_justified">
