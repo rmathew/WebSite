@@ -1,0 +1,51 @@
+m4_define(`m4_post_date', `2011-08-26')m4_dnl
+m4_define(`m4_post_title', `&ldquo;Liar&rsquo;s Poker&rdquo;')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+<a href="http://en.wikipedia.org/wiki/Liar%27s_Poker">Liar&rsquo;s Poker</a>
+is a book by <a
+href="http://en.wikipedia.org/wiki/Michael_Lewis_%28author%29">Michael
+Lewis</a> that describes his time during the late 1980s at <a
+href="http://en.wikipedia.org/wiki/Salomon_Brothers">Salomon Brothers</a>, a
+Wall Street investment bank. It also tells the story of the firm itself,
+especially its hits (with mortgage bonds) and misses (with junk bonds), as it
+rose to become a mighty power in the financial markets and subsequently fell
+into disgrace from that position. The book provides an interesting look into
+the mad, testosterone-filled world of financial traders as it was during a
+crucial turning point for Wall Street.
+m4_begin_post_rest
+m4_display_book( `039333869X', `0340839961')
+<p>
+The author weaves two narrative threads into the book: his own experience at
+Salomon Brothers and the story of the rise and fall of Salomon Brothers,
+peppering these with commentaries on crucial events that shaped the financial
+markets during the 1980s. The feel of the book changes as the author switches
+between the two threads - autobiographical in some places, journalistic in
+others. I found this a little jarring, though the prose remains highly
+entertaining throughout.
+<p>
+Some of the characters and events described in this book are incredible. These
+include John Gutfreund, the firm's CEO, Lewis Ranieri, the head of the
+mortgage department who started off in the mail-room, John Meriwether, the head
+of the fixed-income arbitrage group and one of the finest bond traders, etc.
+If you have always cringed at the astonishing paychecks and bonuses given to
+many traders at Wall Street or if you despise the way they seem to actively
+misguide their customers to further their own interests, you will find a wealth
+of material here to support your theses. If you have ever worked in a large
+organization, you will have much to empathize with in this book.
+<p>
+The author has a knack for simplifying financial jargon and making it
+accessible to the lay reader. He explains how bonds work, how mortgage bonds
+are created, what is meant by Collateralized Mortgage Obligation (CMO), what
+are junk bonds, how traders exploit opportunities for arbitrage, etc. This is
+crucial as the creation and usage of some of these financial products is
+central to some of the parts of the narrative. What make the book truly
+readable though are the author's sense of humor, sharp observational skills and
+a consistent focus on key people and their interactions.
+<p>
+Read this book to get a good insight into why Wall Street behaves the way it
+does and why global financial markets have grown so big so fast in the last
+few decades.
+m4_end_post_rest
+m4_end_post
