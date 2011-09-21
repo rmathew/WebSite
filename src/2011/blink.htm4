@@ -1,0 +1,44 @@
+m4_define(`m4_post_date', `2011-09-21')m4_dnl
+m4_define(`m4_post_title', `&ldquo;Blink&rdquo;')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+&ldquo;Blink&rdquo; is a book by <a href="http://www.gladwell.com/">Malcom
+Gladwell</a> on rapid cognition, that is, our ability and tendency to take
+decisions and form opinions in the blink of an eye, without taking the time
+needed to fully evaluate the matter at hand using all the available evidence.
+We are usually not conscious of such behavior and cannot normally explain it,
+if forced to do so. This &ldquo;thin-slicing&rdquo; (as the author calls it)
+helps us a lot in our lives, but we need to be aware of its disadvantages and
+work towards turning it into an advantage.
+m4_begin_post_rest
+m4_display_book( `0316010669', `0141014598')
+<p>
+There are quite a few and varied anecdotes that the author manages to stuff
+into this little book to illustrate his points. The breadth of these anecdotes
+is amazing - I have no idea how the author manages to find so many of them
+from different fields in support of his points. However anecdotes, being what
+they are, are hardly conclusive evidence that can prove the author's points.
+They usually fail to mention or account for another factor that could provide
+an alternate explanation. In some of the cases, the anecdote in question
+doesn't even seem to support the author's point (most notably the story of the
+military war-games between the Red and the Blue teams, where the Red team's
+behavior appears more deliberate than the author cares to admit), except if
+you just take his word for it.
+<p>
+In fact there doesn't seem to be much of a point in the book. The author
+initially seems to argue that we take quite a few decisions in the blink of an
+eye without much data to support them, which turn out to be the right thing to
+do. Then the author seems to argue that many a time these decisions and
+judgements go awfully wrong and we'd really be better off resisting our
+irrational urges to go with them. Finally the author seems to show that snap
+decisions work best for experts in their area of expertise or when it is backed
+by deliberate and sustained practice.
+<p>
+Why does one need a book to tell them this?
+<p>
+In other words, get this book as a light read that tells some interesting
+stories, but don't expect to get any big insights. As they say here in India,
+this is a &ldquo;time-pass&rdquo; book.
+m4_end_post_rest
+m4_end_post
