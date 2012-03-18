@@ -36,7 +36,7 @@ m4_include( `sitesrch.htm4')
 <a href="http://rmathew.com/atom.xml" title="&ldquo;News&rdquo; Feed">
 <img src="m4_root_dir/images/feed.png" alt="Feed Icon">&nbsp;<b>Feed</b></a>
 |
-<a href="http://rmathew.blogspot.com/" title="Weblog">
+<a href="http://rmathew.blogspot.com/ncr" title="Weblog">
 <img src="m4_root_dir/images/blogger.png" alt="Blogger Icon">&nbsp;<b>Blog</b></a>
 |
 <a href="http://twitter.com/rmathew4tw" title="Tweets">

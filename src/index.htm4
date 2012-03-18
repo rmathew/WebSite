@@ -30,7 +30,7 @@ title="Get Public Key"><tt>0x6C114B8F</tt></a>
 </div>
 m4_heading( `1', `news', `News')
 m4_define( `m4_show_post_date', `true')m4_dnl
-m4_collect_posts( `html', `2011')
+m4_collect_posts( `html', `2012')
 <div class="right_justified">
 &nbsp;
 <br>
