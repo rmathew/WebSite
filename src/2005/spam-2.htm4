@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2005-01-20')m4_dnl
+m4_define(`m4_post_title', `Spam')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+My Hotmail account with its tiny 2MB of storage is getting spammed real hard these days by some idiot peddling male organ enhancement pills. The situation is so bad that my account exceeds its storage limit <i>overnight</i> and leads to bounced genuine messages!  The messages are routed through different SMTP servers (most likely compromised boxes) and have different "From" and "To" headers. They do however have the same "Subject" and message body on a given day. This makes it well nigh impossible for me to create any filter to weed these out.  I don't know what will happen as I proceed on a week long vacation. <tt>:-(</tt> If you wish to reach me, please use my Gmail account instead of the Hotmail account.
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/52.html">Originally posted on Advogato</a>.)
+m4_end_post

@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2004-05-19')m4_dnl
+m4_define(`m4_post_title', `www.advogato.org server woes')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+Even the <a href="http://www.advogato.org/">Advogato</a> server has been having <a href="http://www.advogato.org/article/774.html">problems</a> lately! The result is that I've not been able to post diary entries for around a week now. (Not that I have anything insanely useful or profoundly interesting to say, but still...)  The following is what I intended to post around a week ago: 
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/25.html">Originally posted on Advogato</a>.)
+m4_end_post

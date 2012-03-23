@@ -1,0 +1,11 @@
+m4_define(`m4_post_date', `2006-06-03')m4_dnl
+m4_define(`m4_post_title', `GCJ and ECJ')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+RMS has finallly <a href="http://gcc.gnu.org/ml/java/2006-06/msg00009.html">agreed</a> to using ECJ to generate bytecode for GCJ!
+<p>
+That sound you hear is the huge collective sigh of relief heaved by Free Java hackers everywhere.
+<p>
+(<a href="http://rmathew.blogspot.com/2006/06/gcj-and-ecj.html">Originally posted on Blogspot</a>.)
+m4_end_post

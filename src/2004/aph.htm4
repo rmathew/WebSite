@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2004-03-29')m4_dnl
+m4_define(`m4_post_title', `aph')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+<a href="http://people.redhat.com/~aph/aph.jpg">A cool, though shy, Andrew Haley</a>.
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/16.html">Originally posted on Advogato</a>.)
+m4_end_post

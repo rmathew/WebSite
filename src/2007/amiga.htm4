@@ -1,0 +1,27 @@
+m4_define(`m4_post_date', `2007-08-01')m4_dnl
+m4_define(`m4_post_title', `The Amiga')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+Ars Technica has just published <a href="http://arstechnica.com/articles/culture/a-history-of-the-amiga-part-1.ars">Part 1</a> of what looks like a very interesting series of articles on the history of the <a href="http://en.wikipedia.org/wiki/Amiga">Amiga</a> series of personal computers.
+m4_begin_post_rest
+<p>
+The Amiga was quite unlike the other PCs of its time and could supposedly handle multimedia with an ease that put the IBM PCs of that time to shame. Sadly, I never had the chance to work with an Amiga myself. As is usual in the computer industry however, mere technical brilliance does not guarantee survival and popularity and in the end the IBM PC prevailed, while Commodore, makers of the Amiga, went bankrupt. Being an early user and fan of the <a href="http://en.wikipedia.org/wiki/BBC_Micro">BBC Micro</a>, I can also bitterly attest to this sad turn of events that made the IBM PC the overwhelmingly dominant PC. Even though the Intel 8086 CPU was awkward to work with, DOS was an abomination for an operating system and the IBM PC was quite limited in its capabilities, none of this could hold the IBM PC back from reigning supreme and from killing off other personal computers (the Apple Macintosh being a notable exception).
+<p>
+Some time back, I saw the second volume of <a href="http://www.mindcandydvd.com/">MindCandy</a>. This volume was about the Amiga <a href="http://en.wikipedia.org/wiki/Demoscene">demo-scene</a> while the first volume was about the IBM PC demo-scene. I had been following the IBM PC demo-scene since about 1993 to about 2000, so the first volume also evoked nostalgia apart from being fun and awe-inspiring. The second volume was no less awe-inspiring - watch <a href="http://www.youtube.com/watch?v=2aoIsWxGWHQ">Lapsuus</a> by Maturefurk and then consider the fact that it was running on an Amiga with a <a href="http://en.wikipedia.org/wiki/Motorola_68060">Motorola 68060</a> CPU that was running at 75 MHz at best! Amazing coding skills at display on an amazing piece of hardware.
+<p>
+<b>Update (2007-08-14):</b> <a href="http://arstechnica.com/articles/culture/a-history-of-the-amiga-part-2.ars">Part 2</a> is now on-line.
+<p>
+<b>Update (2007-08-22):</b> <a href="http://arstechnica.com/articles/culture/a-history-of-the-amiga-part-3.ars">Part 3</a> is now on-line.
+<p>
+<b>Update (2007-10-22):</b> <a href="http://arstechnica.com/articles/culture/amiga-history-4-commodore-years.ars">Part 4</a> is now on-line.
+<p>
+<b>Update (2007-12-12):</b> <a href="http://arstechnica.com/articles/culture/amiga-history-part-5.ars">Part 5</a> is now on-line.
+<p>
+<b>Update (2008-02-11):</b> <a href="http://arstechnica.com/articles/culture/amiga-history-part-6.ars">Part 6</a> is now on-line.
+<p>
+<b>Update (2008-05-13):</b> <a href="http://arstechnica.com/articles/culture/amiga-history-part-7.ars">Part 7</a> is now on-line.<br />
+<p>
+(<a href="http://rmathew.blogspot.com/2007/08/amiga.html">Originally posted on Blogspot</a>.)
+m4_end_post_rest
+m4_end_post

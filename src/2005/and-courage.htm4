@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2005-05-11')m4_dnl
+m4_define(`m4_post_title', `&ldquo;Technology and Courage&rdquo;')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+<a href="http://research.sun.com/techrep/Perspectives/smli_ps-1.pdf">"Technology and Courage"</a> (PDF) by Ivan Sutherland. (Thanks Prakash!)
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/86.html">Originally posted on Advogato</a>.)
+m4_end_post

@@ -1,0 +1,15 @@
+m4_define(`m4_post_date', `2009-09-01')m4_dnl
+m4_define(`m4_post_title', `&ldquo;Capital Gains&rdquo;')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+The latest issue of <a href="http://www.granta.com/">Granta</a> has an article by Rana Dasgupta titled "<a href="http://www.granta.com/Magazine/107/Capital-Gains/1">Capital Gains</a>". It talks about the <i>huge</i> wealth and power recently accumulated by a few in Delhi, their unabashed flaunting of this new-found wealth and power, their displacement of the previous elite who are now disgusted and the resulting class divisions in the society. It is a long article, but well worth the read.
+m4_begin_post_rest
+<p>
+Bangalore too has its share of the newly-created ultra-rich class (mainly through real-estate, mining, politics and I.T.) - just take a walk around B.T.M. Layout or J.P. Nagar to see the evidence - but they are apparently far fewer in number and thankfully far less ostentatious.
+<p>
+(<a href="http://www.business-standard.com/india/news/endless-freedom/368406/">Via Business Standard</a>.)
+<p>
+(<a href="http://rmathew.blogspot.com/2009/09/capital-gains.html">Originally posted on Blogspot</a>.)
+m4_end_post_rest
+m4_end_post

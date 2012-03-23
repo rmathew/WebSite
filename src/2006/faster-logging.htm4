@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2006-05-05')m4_dnl
+m4_define(`m4_post_title', `Faster Logging')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+When you have an application that must log information (for auditing, debugging, etc.) but still run as fast as possible, it is rather wasteful to always dump fully-formatted human-readable trace records. It's far better to dump a short binary record indicating the message identifier, parameters for the message (if any), timestamp, process/thread identifier, etc. that can be processed later for human consumption using a separate "trace formatter" tool. This way you save on processing time and disc space but make it <i>slightly</i> inconvenient to view the log files.  On UNIX-like systems, utmp and wtmp records are created and processed this way. I have also seen this kind of logging in IBM's AIX operating system and its CICS transaction processing monitor. Why then do several modern "high-performance" applications still insist on using the slower and more bloated method?
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/166.html">Originally posted on Advogato</a>.)
+m4_end_post

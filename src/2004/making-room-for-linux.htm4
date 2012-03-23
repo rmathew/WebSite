@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2004-12-14')m4_dnl
+m4_define(`m4_post_title', `Making Room for Linux')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+Without <a href="http://mlf.linux.rulez.org/mlf/ezaz/ntfsresize.html">ntfsresize</a> to help us out, we could not have made room for a Linux installation on an unfortunate PC that had a complete Windows 2000 infestation on its entire hard disc. All hail Free software!
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/50.html">Originally posted on Advogato</a>.)
+m4_end_post

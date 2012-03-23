@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2005-07-31')m4_dnl
+m4_define(`m4_post_title', `Prelinking')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I have now become yet another fan of <a href="http://www.crast.us/james/articles/prelink.php">pre-linking</a>. It works wonders on the startup times of most applications. Many thanks to Jakub Jelinek for creating <tt>prelink</tt> for Linux.
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/101.html">Originally posted on Advogato</a>.)
+m4_end_post

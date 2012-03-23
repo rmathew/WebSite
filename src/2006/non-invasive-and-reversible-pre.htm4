@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2006-01-16')m4_dnl
+m4_define(`m4_post_title', `A Non-Invasive and Reversible Pre-processor for Java')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I really like <a href="http://gcc.gnu.org/ml/java/2006-01/msg00040.html">Per's implementation of a Java pre-processor</a>. 
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/139.html">Originally posted on Advogato</a>.)
+m4_end_post

@@ -1,0 +1,17 @@
+m4_define(`m4_post_date', `2007-02-02')m4_dnl
+m4_define(`m4_post_title', `LibraryThing')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+If you are a bibliophile with a non-trivial collection of books, sooner or later you would feel the urge to catalogue it. If you use a computer, you would either use a software like <a href="http://www.delicious-monster.com/">Delicious Library</a> or hack up something yourself if you have the skills, the time and the enthusiasm.
+<p>
+<a href="http://www.librarything.com/">LibraryThing</a> is a web site that allows you to maintain this catalogue online, with your catalogue being either publicly visible or being private. With a free account, you can catalogue up to 200 books. Since many users catalogue their books like this, you can also use the web site to meet other people who have a taste similar to yours in books and you can also get suggestions about new books you might want to check out based on your existing collection. You can also find lots of reviews about books you actually intend to check out.
+<p>
+This is not all. Since the most boring part of cataloguing your books is entering in all the data (even if you only enter the ISBNs and then the software looks up the details itself), they provide a <a href="http://www.librarything.com/cuecat.php">CueCat</a> bar-code scanner for automating this job at a price that is cheap even by Indian standards. I ordered one as a way of showing my support for the site. It is surprisingly easy to get it working - under Linux, if you have <a href="http://www.linux-usb.org/USB-guide/x194.html">USB HID</a> enabled (quite likely), any application can read the scanned-in bar-codes as if they were directly typed in at the keyboard. Of course, the <a href="http://en.wikipedia.org/wiki/CueCat">CueCat</a> obfuscates its output so that applications cannot readily make sense of the data, but it is very easy to get back the plain text or to "<a href="http://cexx.org/cuecat.htm">declaw</a>" it altogether.
+<p>
+LibraryThing understands the obfuscated output of the CueCat and it supports a "bulk import" feature - you scan in the ISBN bar-codes of your books into a text file, upload it and LibraryThing uses Amazon.com, the Library of Congress, etc. to query the details of the books and automatically add them to your online library. The process is so simple that I was able to scan in two shelves of books in under 10 minutes, upload it to LibraryThing and see my online library populated automatically over the next three days! The reason it took three days was that LibraryThing is nice enough to throttle its querying of free online catalogues so as to not overwhelm them with such requests.
+<p>
+When she saw that I had bought a funny-looking bar-code scanner just for cataloguing my books, Anusha gave me one of those "What a weirdo!" looks. She had earlier burst out laughing when I had said that I was toying with the idea of getting one for myself. However, bar-code scanning is so much fun that she was soon merrily scanning in books with me. Her criticism is considerably muted now.
+<p>
+(<a href="http://rmathew.blogspot.com/2007/02/librarything.html">Originally posted on Blogspot</a>.)
+m4_end_post

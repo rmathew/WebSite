@@ -1,0 +1,13 @@
+m4_define(`m4_post_date', `2007-05-19')m4_dnl
+m4_define(`m4_post_title', `Firefox 3 and Linux')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+<a href="http://steelgryphon.com/blog/?p=101">Mike Connor blogs</a> about <a href="http://wiki.mozilla.org/Linux/Runtime_Requirements">the proposed requirements for Firefox 3 to run on Linux</a>. A nasty surprise for me was the inclusion of <a href="http://www.gnome.org/">GNOME</a> as a dependency. While the GTK/Pango/Cairo/etc. requirements are quite understandable, I don't understand why it should need GNOME. Many of us are happy with <a href="http://www.kde.org/">KDE</a> or <a href="http://www.xfce.org/">Xfce</a> and would like to avoid the bloat and the dependency hell of GNOME for the sake of running a browser.
+m4_begin_post_rest
+<p>
+As an aside, Firefox on Linux also seems to behave quite differently from Firefox on Windows. For example, on Linux Firefox seems to consistently consume more CPU time and memory than on Windows. Some pages are rendered differently on Windows and Linux (perhaps due to the availability, or otherwise, of the fonts requested by the page designer and the rendering infrastructure). I have personally also noticed <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=337093">bug-337093</a> on Windows but not on Linux.
+<p>
+(<a href="http://rmathew.blogspot.com/2007/05/firefox-3-and-linux.html">Originally posted on Blogspot</a>.)
+m4_end_post_rest
+m4_end_post

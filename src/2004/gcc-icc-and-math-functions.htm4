@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2004-03-15')m4_dnl
+m4_define(`m4_post_title', `GCC``,'' ICC and Math Functions')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+Who would have thought <a href="http://gcc.gnu.org/ml/gcc/2004-03/msg00642.html">this</a> was the reason for <a href="http://gcc.gnu.org/ml/gcc/2004-03/msg00634.html">this</a>!
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/13.html">Originally posted on Advogato</a>.)
+m4_end_post

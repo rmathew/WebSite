@@ -1,0 +1,17 @@
+m4_define(`m4_post_date', `2007-08-09')m4_dnl
+m4_define(`m4_post_title', `Blog Tweaks')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I tweaked this blog in the last couple of days in the hopes of making it a little better - a little better-looking and a little better-behaved. Read on for the details.
+m4_begin_post_rest
+<p>
+The tweaks include:<br /><ul><br /><li>Using a better-looking template. The old template was a bit boring and quite minimal. It made it hard for most people to read all the text I was spewing. The new template looks better (at least to me). It has a narrower column width to display the text, somewhat similar to those in newspapers and magazines, which makes it easier for most people to read the text.</li><br /><li>Showing only the initial paragraph from each post on the main page. You can read the full post using the "Read More..." link at the bottom of each such paragraph. This makes it easier to skip over posts that you are not interested in reading.</li><br /><li>Showing only a preview of the post in the feeds. I used to feel bad about my banal verbiage eating up lots of space on <a href="http://planet.classpath.org/">Planet Classpath</a> and other such "planets". This change should let people easily skip over my posts if they don't care for what they see in the preview and navigate to the page containing the full post if they do. It should also benefit people who have subscribed to this blog using a blog aggregator. To do this a bit better than what was possible with Blogger's own feed mechanism (but still not entirely satisfactorily), I have had to redirect the Blogger feed for this blog to <a href="http://feeds.feedburner.com/rmathew">the FeedBurner feed for this blog</a>.</li><br /><li>Giving at least <i>something</i> back to Google for providing this great service for free. I used to feel bad about being yet another leech on Google's resources. I signed up for <a href="http://www.google.com/adsense">Google AdSense</a> via Blogger. Now each page on this blog shows textual advertisements relevant to the context of the page.</li><br /></ul>I do realise that there are negative aspects of each of these changes that some folks are not going to appreciate. However, I believe that each of these changes is for the better, all things considered.
+<p>
+<b>Update (2007-08-10):</b> Anusha did not like the fact that you navigate to a different page when you click on "Read More...". It is also not fair to the reader since the entire post is already there on the main page, but hidden from view. So now I have changed the blog template to expand and collapse the rest of the post in place using a combination of techniques shown <a href="http://help.blogger.com/bin/answer.py?answer=42215">here</a>, <a href="http://help.blogger.com/bin/answer.py?answer=42214">here</a> and <a href="http://hackosphere.blogspot.com/2006/09/expandable-posts-with-peekaboo-view.html">here</a>, with a few adjustments of my own.
+<p>
+<b>Update (2007-08-29):</b> The feeds now have the full contents of the posts once again.
+<p>
+(<a href="http://rmathew.blogspot.com/2007/08/blog-tweaks.html">Originally posted on Blogspot</a>.)
+m4_end_post_rest
+m4_end_post

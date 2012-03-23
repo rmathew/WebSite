@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2005-05-11')m4_dnl
+m4_define(`m4_post_title', `gmane.comp.java.harmony.devel')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+Some kind soul has helped the Harmony mailing list be available on <a href="http://news.gmane.org/">Gmane</a> as the newsgroup <tt>"gmane.comp.java.harmony.devel"</tt>. Thank you!  As was also observed by someone else, I find it rather amusing, and sad, that several years of effort on GCJ, Kaffe and Classpath did not seem to generate as much buzz as a single announcement of an <i>intention</i> by the ASF to create a J2SE 5 implementation.
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/86.html">Originally posted on Advogato</a>.)
+m4_end_post

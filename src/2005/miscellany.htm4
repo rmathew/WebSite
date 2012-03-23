@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2005-09-23')m4_dnl
+m4_define(`m4_post_title', `Miscellany')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I have been granted write access to the CVS repositories of <a href="http://www.classpath.org/">GNU Classpath</a> and <a href="http://sources.redhat.com/mauve/">Mauve</a>. I have also started messing with <a href="http://gcc.gnu.org/wiki/GCJX">GCJX</a> (again) that was <a href="http://www.peakpeak.com/~tromey/blog/2004/01/03/">started</a> by <a href="http://www.peakpeak.com/~tromey/">Tom Tromey</a>. It <a href="http://gcc.gnu.org/wiki/GCJX status">has come a long way</a> since the last time I had taken a look, but it sure can use some help from willing hackers. Would <i>you</i> like to help develop a first-class Java compiler?  By the way, Tom <a href="http://gcc.gnu.org/ml/gcc/2005-09/msg00422.html">has become</a> one of the Java front-end maintainers for GCC.
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/112.html">Originally posted on Advogato</a>.)
+m4_end_post

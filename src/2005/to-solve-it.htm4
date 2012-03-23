@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2005-05-15')m4_dnl
+m4_define(`m4_post_title', `&ldquo;How to Solve it&rdquo;')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I found this classic book on problem-solving by G. Polya to be worthy of every praise that has been heaped on it by generations of budding mathematicians and programmers. It requires a bit of perseverance and suspension of cynicism to fully benefit from this book. As with most self-help books (if I may use the term), the basic approach and the given heuristics are rather simple and "obvious", but the real benefit for the reader lies in appreciating their significance and in applying them consistently to solving problems. Very highly recommended.
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/87.html">Originally posted on Advogato</a>.)
+m4_end_post

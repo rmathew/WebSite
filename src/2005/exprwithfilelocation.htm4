@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2005-09-04')m4_dnl
+m4_define(`m4_post_title', `EXPR_WITH_FILE_LOCATION')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I <i>hate</i> EWFL tree nodes in GCJ. So many of the ICEs (internal compiler errors) I have seen in GCJ are because some piece of code expects or doesn't expect an EWFL node. To put it simply,  the current front-end wants a WFL-wrapped expression node whenever there is a need to emit a warning or an error about that expression, but <i>not</i> otherwise.  This can easily frustrate anyone wishing to fix some of these ICEs in the hopes of making GCJ better. For example, here I am discovering that many ICEs in the Jacks testsuite are because the body of an empty block (<tt>{}</tt>) or statement is not being wrapped in an EWFL for diagnostics about unreachable statements, finding that it is trivially fixed and <i>then</i> discovering that doing this creates a whole mess of new ICEs on other tests, which have to be individually addressed in this manner potentially creating yet other ICEs in other places, <i>ad nauseum</i>.   To quote Jeff Law (<tt>gcc/ChangeLog.tree-ssa</tt>), "Death to WFL nodes"! 
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/108.html">Originally posted on Advogato</a>.)
+m4_end_post

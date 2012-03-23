@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2004-09-03')m4_dnl
+m4_define(`m4_post_title', `GCC')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+The pressure at work to meet the project deadline is not letting me spend any time on GCC hacking. <tt>:-(</tt> A quick perusal of the lists show that some very exciting things are happening with GCC and with GCJ. GCC will soon be entering Stage 3 and a lot of people are working hard to get their stuff in before that. Jan Hubicka seems to be on a mission to reduce the memory taken up by GCC after the tree-ssa merge. Sebastian Pop has actually implemented <a href="http://gcc.gnu.org/ml/gcc-patches/2004-09/msg00162.html">loop  interchanging</a> for code that ought to have been written properly in the first place - I am happy that GCC is becoming smarter but sad that this would let sloppy code go unpunished.  Tom and Andrew are back at hacking furiously at the BC-ABI for GCJ while Michael has finally liberated GCJ from the clutches of a hacked automake. Bryce seems have taken on the role of the GCJ PR man while triaging (and fixing) a lot of GCJ bugs.  I can't wait to get back...
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/38.html">Originally posted on Advogato</a>.)
+m4_end_post

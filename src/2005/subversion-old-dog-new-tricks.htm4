@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2005-11-15')m4_dnl
+m4_define(`m4_post_title', `Subversion``,'' Old Dog``,'' New Tricks')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+It turns out that I do not need too much of extra disc space for working on trunk and <tt>gcjx-branch</tt> using SVN compared to CVS after all. This is because I used to always create a snapshot of GCC sources and use it as a working copy for fear of messing up my checked-out sources. Since SVN always keeps a copy of the pristine sources around (which is the major cause of the increased disc space usage) and it is easy and fast to use <tt>svn diff</tt> to figure out the damage and to use <tt>svn revert</tt> to restore sanity, I no longer need to continue with my weird model of development. It is also quite simple to just ignore everything from the GCC SVN repository except for the interesting stuff - for the <tt>gcjx-branch</tt>, my checkout only has the bare minimum stuff needed to bootstrap  C, C++ and Java and run the libjava testsuite, while for trunk I have removed all the Ada stuff since I can't build Ada anyways. Of course, all this would probably have been possible with CVS as well, but there weren't <a href="http://gcc.gnu.org/wiki/SvnHelp">nice instructions in the GCC Wiki</a> for lazy souls like me for doing this with CVS. 
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/122.html">Originally posted on Advogato</a>.)
+m4_end_post

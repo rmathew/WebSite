@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2003-07-07')m4_dnl
+m4_define(`m4_post_title', `Long GCC Bootstrap Times')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+Yikes! GCC 3.4 takes 3 hrs 35 mins to bootstrap C/C++/Java on my machine compared to 2 hrs 30 mins for GCC 3.3 - that's an increase of 40% in compilation times between adjacent releases! Not good.  That said, improving compilation times is already a high priority item identified by the GCC maintainers, so by the time 3.4 is released, we should hope to see much better times.  Two clean bootstraps and a libjava testsuite run - and more than 8 hours of my weekend were gone. Uggghhh! <tt>:-(</tt>
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/4.html">Originally posted on Advogato</a>.)
+m4_end_post

@@ -1,0 +1,19 @@
+m4_define(`m4_post_date', `2006-08-07')m4_dnl
+m4_define(`m4_post_title', `The Suez Crisis and The IBM PC')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+"Those who cannot remember the past are condemned to repeat it."<br /><div style="text-align: right;">- <a href="http://en.wikipedia.org/wiki/George_Santayana">George Santayana</a><br /></div><br />A recent issue of The Economist featured the article "<a href="http://www.economist.com/world/displaystory.cfm?story_id=7218678">An Affair to Remember</a>" about the <a href="http://en.wikipedia.org/wiki/Suez_Crisis">Suez crisis</a> (also known as the Sinai War) of 50 years ago. I found it to be a very interesting read. It provides some great insights into the events precipitating the formation of the European Union, the establishment of the US and the Soviet Union as the only superpowers, the reasons for the different way that the British and the French view the US, etc. I also found it a bit surprising how the then British prime minister Anthony Eden and his foreign secretary blatantly lied to the House of Commons about the sinister collusion between Britain, France and Israel that led to the war.
+<p>
+In the light of the recent events, it is amusing to find out that at that time the US actually went via the UN to put a stop to this uncalled-for agression by the Israelis, the British and the French against the Egyptians. It was apparently also the last time that the US actually acted against Israel while intervening in a war.
+<p>
+How times change.
+<p>
+The same issue of The Economist also featured  the article "<a href="http://www.economist.com/business/displaystory.cfm?story_id=7226000">Getting Personal</a>" about the 25th anniversary of the introduction of the <a href="http://en.wikipedia.org/wiki/IBM_PC">IBM PC</a>. The first IBM PC was apparently priced at USD 1,565, had 16K of RAM, used audio cassettes for storage (a floppy drive was optional) and featured ?green phosphor characters for reading comfort? (i.e. text-only, no graphics). It wasn't until <a href="http://en.wikipedia.org/wiki/Lotus_1-2-3">Lotus 1-2-3</a> was introduced about 1.5 years later that the PC really took off. These days you are overwhelmingly more likely to see a PC than an Apple Macintosh or any other kind of personal computer.
+<p>
+I first got to work on an (8086-based) IBM PC in 1990. It struck me as rather ugly and severely lacking. I was used to the excellent <a href="http://en.wikipedia.org/wiki/BBC_Micro">BBC Micro</a> and the primitive <a href="http://en.wikipedia.org/wiki/Color_Graphics_Adapter">CGA</a> display of the IBM PC and the PC speaker were nothing compared to what was available on the Beeb. As a novice programmer, it was also very irritating to find how different <a href="http://en.wikipedia.org/wiki/BASICA">BASICA</a> was from <a href="http://en.wikipedia.org/wiki/BBC_BASIC">BBC BASIC</a>. All the "VDU" (graphics) and "ENVELOPE" (sound) tricks I had learnt on the Beeb were also useless on the PC.
+<p>
+It was not until I got to work on the 80386-based IBM PCs and play <a href="http://en.wikipedia.org/wiki/Prince_of_Persia">Prince of Persia</a> and <a href="http://en.wikipedia.org/wiki/Wolfenstein_3D">Wolfenstein 3D</a> that I really began to enjoy working on the PC. Borland's <a href="http://en.wikipedia.org/wiki/Turbo_Pascal">Turbo Pascal</a> and <a href="http://en.wikipedia.org/wiki/Turbo_C%2B%2B">Turbo C/C++</a> were excellent tools that made programming on the PC much easier. After the advent of Linux, there was no question about what my first personal computer was going to be.
+<p>
+(<a href="http://rmathew.blogspot.com/2006/08/suez-crisis-and-ibm-pc.html">Originally posted on Blogspot</a>.)
+m4_end_post

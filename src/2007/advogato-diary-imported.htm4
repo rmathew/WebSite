@@ -1,0 +1,19 @@
+m4_define(`m4_post_date', `2007-08-15')m4_dnl
+m4_define(`m4_post_title', `Advogato Diary Imported')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I have imported all the old entries from <a href="http://www.advogato.org/person/rmathew/">my Advogato diary</a> into this blog. These entries are labelled "<a href="http://rmathew.blogspot.com/search/label/advogato%20diary">advogato diary</a>".
+m4_begin_post_rest
+<p>
+It was very simple to do since Advogato used to provide <a href="http://www.advogato.org/article/897.html#24">a simple way to export all my entries as an XML file</a> (it does not work any more) and <a href="http://code.google.com/apis/blogger/overview.html">Blogger has a nice and simple API</a> that allows me to post entries automatically, even allowing me to back-date and label them appropriately.  
+<p>
+However, I did encounter an unexpected problem during this import. It turns out that if you post too many entries in a single day (in my case the limit seems to be 50), Blogger thinks that you are creating a SPAM blog and turns on "word verification" for posts (a <a href="http://en.wikipedia.org/wiki/CAPTCHA">CAPTCHA</a>). While you can still post entries manually, the API provides you no way of retrieving and resolving the CAPTCHA using human input. After 24 hours the word verification is automatically switched off and you can again post using a programme. I had to therefore spread out the import over 5 days since I had 231 entries to import.
+<p>
+By the way, if you worry about search engine rankings for your pages, you might want to note that such mass imports cause Google to downgrade your site for having <a href="http://www.google.com/support/webmasters/bin/answer.py?answer=66359">duplicate content</a> if the old blog is still accessible.
+<p>
+Finally, <a href="http://www.advogato.org/article/903.html">Advogato is still alive</a> and being maintained.
+<p>
+(<a href="http://rmathew.blogspot.com/2007/08/advogato-diary-imported.html">Originally posted on Blogspot</a>.)
+m4_end_post_rest
+m4_end_post

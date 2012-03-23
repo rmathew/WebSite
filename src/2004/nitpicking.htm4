@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2004-04-07')m4_dnl
+m4_define(`m4_post_title', `Nitpicking')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+Please do not say or write "Mr Foo Bar" on first mention - just say "Foo Bar" the first time you refer to a person - after that, you can call him "Mr Bar". The Economist's Style Guide <a href="http://www.economist.com/research/styleGuide/index.cfm?page=805691"> spells it out nicely.</a> In fact, the "Mr Foo Bar" form is not proper at all, but is sadly used almost universally by (at least) English speaking Indians - just use the surnames with "Mr/Mrs/Miss" as in "Mr Bar".  This is not to say that I speak/write perfect English (I strive to, but mostly fail), but there are <i>some</i> things that irritate me more than others and this is one of them.
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/19.html">Originally posted on Advogato</a>.)
+m4_end_post

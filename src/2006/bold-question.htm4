@@ -1,0 +1,13 @@
+m4_define(`m4_post_date', `2006-08-28')m4_dnl
+m4_define(`m4_post_title', `A Bold Question')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+Does anyone <b>know</b> why comics writers put one or two words in <b>every</b> sentence in <b>every</b> dialogue in <b>bold</b> typeface?
+<p>
+For example, &quot;<a href="http://en.wikipedia.org/wiki/Watchmen">Watchmen</a>&quot; is <b>perfect</b> in every other way <b>except</b> for this flaw. I tend to translate bold typeface as indicating <b>an emphasis</b> on a word or a phrase, so it is rather <b>jarring</b> to read dialogues mouthed by characters in comics.
+<p>
+Why do they <b>do</b> this?
+<p>
+(<a href="http://rmathew.blogspot.com/2006/08/bold-question.html">Originally posted on Blogspot</a>.)
+m4_end_post

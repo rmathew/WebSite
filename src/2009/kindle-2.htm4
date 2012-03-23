@@ -1,0 +1,17 @@
+m4_define(`m4_post_date', `2009-02-10')m4_dnl
+m4_define(`m4_post_title', `The Kindle 2')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+As was widely <a href="http://arstechnica.com/gadgets/news/2009/01/amazon-may-be-set-to-launch-kindle-20.ars">anticipated</a>, Amazon launched the <a href="http://www.amazon.com/gp/product/B00154JDAI?tag=rmathew-20">Kindle 2</a> yesterday at an initial price of about $360. Though the new Kindle has many improvements over its predecessor (and some surprising regressions), it still falls short of what I wish for in an <a href="m4_root_dir/2008/electronic-book-readers.html">electronic book reader</a>. Despite its shortcomings, the Kindle 2 provides a great overall package compared to other electronic book readers, but <i>only if</i> you live in the US.
+m4_begin_post_rest
+<p>
+The first thing I noticed was that <a href="http://www.boygeniusreport.com/2008/10/03/amazon-kindle-2-ebooks-its-way-to-bgr/">the pictures of the Kindle 2 leaked last October</a> were right on the mark. This means that Amazon does not seem to have done much to improve the look and the design of the Kindle. The Kindle 2 seems to have a faster and sharper display that can now display 16 shades of grey (instead of just 4). It sports a faster wireless connection, more built-in memory, longer battery life and is lighter and slimmer than its predecessor. If you are curious, Ars Technica has <a href="http://arstechnica.com/gadgets/news/2009/02/hands-on-with-kindle2-what-a-difference-a-screen-makes.ars">a quick review of the Kindle 2</a>, while <a href="http://www.amazon.com/gp/product/B00154JDAI?tag=rmathew-20">the Amazon.com page for Kindle 2</a> has more details and some promotional videos to give you a feel of the Kindle 2.
+<p>
+The removal of the SD-card slot seems like a surprising regression to me. Why would Amazon want to remove the capability to store more books on the Kindle than what its built-in memory can support? The text-to-speech feature that reads out a book to you seems like a specious add-on, especially after having listened to the weird robotic voice from the demonstration in one of the promotional videos that would quite likely get very irritating very fast. I think the display is smaller than what it ought to be - it looks especially small in the new design because of the wide margins and the keyboard.
+<p>
+Note that the well-integrated overall package of the Kindle is still available to you only if you live in the US. I wonder why Amazon continues to omit Wi-Fi connectivity for the Kindle to connect to its on-line store. I also wonder why many of the electronic books are still priced quite unfairly compared to their dead-tree cousins, especially when you consider the very low cost of providing them and the DRM-laden format used by the Kindle.
+<p>
+(<a href="http://rmathew.blogspot.com/2009/02/kindle-2.html">Originally posted on Blogspot</a>.)
+m4_end_post_rest
+m4_end_post

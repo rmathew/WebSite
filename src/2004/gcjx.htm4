@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2004-10-08')m4_dnl
+m4_define(`m4_post_title', `GCJX')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+Tom has been having <a href="http://www.peakpeak.com/~tromey/blog/2004/10/04/#gcjx8">great</a> <a href="http://www.peakpeak.com/~tromey/blog/2004/10/06/#success">sucesses</a> with <a href="http://sourceforge.net/projects/gcjx/">GCJX</a> lately. He <a href="http://gcc.gnu.org/ml/gcc/2004-10/msg00298.html">announced his intentions</a> to start a branch on <tt>gcc.gnu.org</tt> to continue with its development. He also wanted to take suggestions for an alternative name for this project. The straightforward one in the grand hacker tradition of recursive acronyms would perhaps be "GING" for "GING Is Not GCJ" or maybe "GRAG" for "GCJ Rewritten As GRAG". Or perhaps "JAC4J" for "Just Another Compiler For Java", though that one almost looks like it has come from a marketroid.
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/42.html">Originally posted on Advogato</a>.)
+m4_end_post

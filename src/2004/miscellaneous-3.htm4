@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2004-08-09')m4_dnl
+m4_define(`m4_post_title', `Miscellaneous')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+<a href="http://sources.redhat.com/gdb/">GDB</a> 6.2 is out finally and so is <a href="http://www.kernel.org/">Linux Kernel</a> 2.4.27. 
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/37.html">Originally posted on Advogato</a>.)
+m4_end_post

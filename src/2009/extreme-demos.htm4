@@ -1,0 +1,13 @@
+m4_define(`m4_post_date', `2009-05-10')m4_dnl
+m4_define(`m4_post_title', `Extreme Demos')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+One of the goals in creating a <a href="http://en.wikipedia.org/wiki/Demo_(computer_programming)">demo</a> is to push hardware to its limits. With PC hardware getting more and more powerful, watching a demo on a PC is getting more and more underwhelming. Some demo coders seem to have decided to go back to minimal platforms where you can readily appreciate the effort and skills needed to produce the respective demo.
+m4_begin_post_rest
+<p>
+For example, <a href="http://www.linusakesson.net/scene/craft/">Craft</a> is a demo by Linus Akesson running on a minimal custom board based on the <a href="http://en.wikipedia.org/wiki/ATmega88">ATmega88</a> micro-controller. <p><object width="425" height="344"><param name="movie" value="http://www.youtube.com/v/sNCqrylNY-0&color1=0xb1b1b1&color2=0xcfcfcf&feature=player_embedded&fs=1"></param><param name="allowFullScreen" value="true"></param><embed src="http://www.youtube.com/v/sNCqrylNY-0&color1=0xb1b1b1&color2=0xcfcfcf&feature=player_embedded&fs=1" type="application/x-shockwave-flash" allowfullscreen="true" width="425" height="344"></embed></object> <p>As another example, Youscope is a demo by "<a href="http://koodaa.mine.nu/tvt/">TVT</a>" that uses the <a href="http://en.wikipedia.org/wiki/Oscilloscope#X-Y_mode">X-Y mode of an oscilloscope</a> to show the demo - use a PC to play the corresponding soundtrack and you see the demo on the oscilloscope when you connect the right channel to the X input and the left channel to the Y input. <p><object width="425" height="344"><param name="movie" value="http://www.youtube.com/v/s1eNjUgaB-g&hl=en&fs=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/s1eNjUgaB-g&hl=en&fs=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="344"></embed></object> <p>Very impressive.
+<p>
+(<a href="http://rmathew.blogspot.com/2009/05/extreme-demos.html">Originally posted on Blogspot</a>.)
+m4_end_post_rest
+m4_end_post

@@ -1,0 +1,19 @@
+m4_define(`m4_post_date', `2008-04-06')m4_dnl
+m4_define(`m4_post_title', `Stop Taxing the Interest from a Savings Account')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+It is utterly unfair for the Indian government to impose an income tax on the interest earned by an individual on a savings account. The government merely adds insult to an injury caused by low rates of interest, lower effective yields and high inflation.
+m4_begin_post_rest
+<p>
+The <a href="http://www.rbi.org.in/">Reserve Bank of India</a> (RBI) has currently <a href="http://www.rbi.org.in/scripts/NotificationUser.aspx?Mode=0&Id=3654#annex1">fixed</a> the rate of interest on savings accounts at 3.5% per annum. The <i>effective</i> rate of interest for a savings account is actually even lower. This is because a bank pays you the interest on the <i>minimum balance</i> that you maintain between the 10th of a month and the last day of the month. In the worst case, if you deposit money into your account on the 11th of a month and withdraw it on the last day of the month, you get <i>nothing</i> by way of interest even though the bank has profited from your money for two-thirds of the month! The average effective rate of interest seems to be about 2.8%. (See the paper "<a href="http://www.isid.ac.in/~ashish/workshop/SBrate.pdf">Savings Bank Accounts - 'Interest'ing Issues</a>" by Ashish Das for details.)
+<p>
+This is quite low considering that <a href="http://mospi.nic.in/mospi_cpi.htm">the rate of inflation</a> has been quite a bit higher - almost 7% per annum for a city like Bangalore. This means that your money <i>loses value</i> by being in a savings account. This is why financial advisers ask you to keep only a minimal amount of money (about three months of normal expenses, as a rule of thumb) in your savings account and invest the rest elsewhere.
+<p>
+So your money has lost value but the Indian government still insists that you pay income tax on it and reduce its value even further. How fair is that?
+<p>
+Here are some suggestions:<br /><ul><li>The RBI should let the banks decide the rates of interest they want to offer on savings accounts, just as it does for fixed deposits.</li><li>The Indian government should only impose an income tax on the amount, if any, that is in excess of the erosion in value due to inflation when considering the income from the yield on an investment.</li></ul>
+<p>
+(<a href="http://rmathew.blogspot.com/2008/04/stop-taxing-interest-from-savings.html">Originally posted on Blogspot</a>.)
+m4_end_post_rest
+m4_end_post

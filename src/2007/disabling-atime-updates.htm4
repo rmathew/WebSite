@@ -1,0 +1,15 @@
+m4_define(`m4_post_date', `2007-08-08')m4_dnl
+m4_define(`m4_post_title', `Disabling atime Updates')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+<a href="http://kerneltrap.org/node/14148">A recent article on KernelTrap</a> highlights the high cost of supporting <a href="http://en.wikipedia.org/wiki/Stat_(Unix)"><code>atime</code></a> ("last-accessed time") updates on Linux file-systems. It has been suggested that desktop machines should just mount their file-systems using the "<code>noatime</code>" option to avoid this overhead.
+m4_begin_post_rest
+<p>
+Each time you read a file, its <code>atime</code> has to be updated. This can quickly become costly if you have applications that access a lot of small files. Most modern desktop environments, office suites, compilers (think of C/C++ headers), browsers, etc. fall into this category, so Linux takes a lot of unnecessary performance hit for data that is of interest only to a very small set of applications like <a href="http://linux.about.com/cs/linux101/g/tmpwatch.htm"><code>tmpwatch</code></a>. (Apparently even Windows has <a href="http://www.pctools.com/guides/registry/detail/50/">the same issue with NTFS</a>.)
+<p>
+I have now changed the "<code>/etc/fstab</code>" on my PC to mount its file-systems using the "<code>noatime</code>" option. It does seem to have slightly improved the responsiveness of the desktop, though this could just be a <a href="http://en.wikipedia.org/wiki/Placebo">placebo effect</a>. On the other hand, in the KernelTrap article people have presented measurements that demonstrate the actual performance improvements brought about by using this option.
+<p>
+(<a href="http://rmathew.blogspot.com/2007/08/disabling-atime-updates.html">Originally posted on Blogspot</a>.)
+m4_end_post_rest
+m4_end_post

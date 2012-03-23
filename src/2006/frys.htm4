@@ -1,0 +1,13 @@
+m4_define(`m4_post_date', `2006-10-23')m4_dnl
+m4_define(`m4_post_title', `Fry&rsquo;s')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+Ryan and I went to the <a href="http://www.frys.com/">Fry's</a> store in Sunnyvale yesterday. Our original plan was to spend about half an hour there, move on to the <a href="http://www.dswshoes.com/">DSW</a> store in Milpitas and then to San Francisco - we ended up spending about 6 hours just in Fry's!
+<p>
+To a bumpkin coming from India, Fry's is just incredibly big and has an amazing variety of items. The very idea of being able to take a shopping cart through aisles upon aisles of hardware components and picking up just the right components to build my dream computer would have been enough to make me wet my pants in my days as an avid gamer. I am sure that electronics enthusiasts back home would have a similar feeling if they see how easily they can get all sorts of electronic components and related hardware in this store. Awesome!
+<p>
+If I were younger, I would have filled my cart with all sorts of cool stuff, including the <a href="http://mindstorms.com/">Lego Mindstorms NXT</a> robotics kit. I did not because I realise that I would simply not have the time to play with all that cool stuff and it would therefore just be a waste of money. Sad.
+<p>
+(<a href="http://rmathew.blogspot.com/2006/10/frys.html">Originally posted on Blogspot</a>.)
+m4_end_post

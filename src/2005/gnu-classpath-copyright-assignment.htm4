@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2005-09-01')m4_dnl
+m4_define(`m4_post_title', `GNU Classpath Copyright Assignment')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+My copyright assignment papers for <a href="http://www.gnu.org/software/classpath/">GNU Classpath</a> were cleared by the FSF today.
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/107.html">Originally posted on Advogato</a>.)
+m4_end_post

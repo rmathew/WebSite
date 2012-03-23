@@ -1,0 +1,13 @@
+m4_define(`m4_post_date', `2008-08-19')m4_dnl
+m4_define(`m4_post_title', `Investment Basics for Indians')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+My colleague Ryan stumbled upon a nice guide that explains the basics of equity and debt investment for Indians. It is available via the web-site for the <a href="http://www.nseindia.com/">National Stock Exchange</a> (NSE) as <a href="http://www.nseindia.com/content/ncfm/ncfm_modules.htm#14">the study material for the &quot;Financial Markets (Beginners)&quot; module</a> of its certification programme.
+m4_begin_post_rest
+<p>
+I had read this guide before since it has been passed around for some time in emails, but I never knew its origin. If you want to begin investing in the Indian markets, you can learn the fundamentals through this guide. Even if you have been investing for a while, it never hurts to brush up your basics.<br /><p>If you do invest, Deepak Shenoy has <a href="http://blog.investraction.com/2008/08/rules-for-investing-discipline.html">some advice</a> for you.
+<p>
+(<a href="http://rmathew.blogspot.com/2008/08/investment-basics-for-indians.html">Originally posted on Blogspot</a>.)
+m4_end_post_rest
+m4_end_post

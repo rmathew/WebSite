@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2004-07-13')m4_dnl
+m4_define(`m4_post_title', `Emaciated``,'' yet Emancipated')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+<a href="http://www.lwn.net/">Linux Weekly News (LWN)</a> is an online resource of superb quality - dare I say it is <a href="http://www.economist.com/">The Economist</a> of the Free Software journalism world - well researched and mostly thorough articles, quite up to date and fairly balanced content and a simple yet effective layout. I have enjoyed it for quite some time now and would highly recommend it to anyone who cares to listen.  For some time now however, the "crown jewel" of LWN,  "<a href="http://lwn.net/current/">The LWN.net Weekly Edition</a>" has been immediately available only to subscribers (though it is made freely accessible to everyone else after a week) as even the LWN guys need to feed themselves, just like everyone else. So I decided to subscribe to it, if nothing to show my support for these wonderful guys, but found out that except for the "starving hacker" level of subscription, everything else would be a bit of an indulgence for me when the fact that a US Dollar is around 45 Indian Rupees is considered. So that is what I opted for and now I get all the LWN stuff as soon as it is published. Cool! 
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/31.html">Originally posted on Advogato</a>.)
+m4_end_post

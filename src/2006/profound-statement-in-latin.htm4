@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2006-01-13')m4_dnl
+m4_define(`m4_post_title', `Profound Statement in Latin')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+Courtesy Anirban: "<i>Quidquid Latine dictum sit, altum viditur</i>" ("Whatever is said in Latin sounds profound"). 
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/138.html">Originally posted on Advogato</a>.)
+m4_end_post

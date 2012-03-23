@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2003-11-01')m4_dnl
+m4_define(`m4_post_title', `APM and Graphics Card Again')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+Since APM was a nice feature to have, especially given the ability to properly power-off the machine with a "shutdown -h now" under APM, I enabled it again in the kernel but turned off the "Enable console blanking using APM" option - this seems to work perfectly well.
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/11.html">Originally posted on Advogato</a>.)
+m4_end_post

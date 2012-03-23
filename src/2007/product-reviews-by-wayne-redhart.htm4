@@ -1,0 +1,13 @@
+m4_define(`m4_post_date', `2007-10-03')m4_dnl
+m4_define(`m4_post_title', `Product Reviews by &ldquo;Wayne Redhart&rdquo;')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+Kingshuk pointed out <a href="http://www.amazon.co.uk/gp/cdp/member-reviews/AZN3ZSQQU3WW5/ref=cm_pdp_about_see_review/203-8113897-9633565?ie=UTF8&sort%5Fby=MostRecentReview">the amusing reviews of products posted by a "Wayne Redhart" to the website of Amazon UK</a>.
+m4_begin_post_rest
+<p>
+For some of the products reviewed by him, I found the product on offer more amusing than the review itself.
+<p>
+(<a href="http://rmathew.blogspot.com/2007/10/product-reviews-by-wayne-redhart.html">Originally posted on Blogspot</a>.)
+m4_end_post_rest
+m4_end_post

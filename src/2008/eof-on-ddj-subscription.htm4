@@ -1,0 +1,15 @@
+m4_define(`m4_post_date', `2008-10-16')m4_dnl
+m4_define(`m4_post_title', `EOF on the DDJ Subscription')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I have let <a href="m4_root_dir/2008/dr-dobbs-journal.html">my subscription to Dr Dobb's Journal (DDJ)</a> expire, even though I liked the magazine a lot.
+m4_begin_post_rest
+<p>
+Despite repeated complaints, my copies would either not arrive or arrive erratically. The irritating renewal notice that they used to send me almost every month, beginning just <i>two months</i> into the annual subscription, didn't help matters either. Finally, their spam filter would reject all emails sent through my personal email account and I had to create a separate email account just to be able to communicate with them.
+<p>
+In contrast, I have had a subscription to <a href="http://www.economist.com/">The Economist</a> for over five years and I have never faced such problems with them, even though they deliver 51 issues in a year versus just 12 issues for <a href="http://www.ddj.com/">DDJ</a>.
+<p>
+(<a href="http://rmathew.blogspot.com/2008/10/eof-on-ddj-subscription.html">Originally posted on Blogspot</a>.)
+m4_end_post_rest
+m4_end_post

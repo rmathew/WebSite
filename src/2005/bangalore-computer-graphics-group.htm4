@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2005-09-28')m4_dnl
+m4_define(`m4_post_title', `Bangalore Computer Graphics Group')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+<a href="http://www.geocities.com/prizmaweb/">Anirban Deb</a>, who is a colleague of mine, has started the <a href="http://cgbangalore.blogspot.com/">Bangalore Computer Graphics Group</a> along with like-minded enthusiasts, which aims to bring together people in Bangalore who are interested in computer graphics (not the Photoshop or Maya stuff). If you are interested in such things, or know of someone who is, spread the word. Their initial plan is to meet at least once a month to discuss interesting stuff and to get to know like-minded people and to eventually become the local SIGGRAPH chapter.  In other news, <a href="http://www.advogato.org/person/aph/">look who's blogging</a>! Now that Andrew and Tom are blogging, Bryce is the only one in the Red Hat GCJ Triumvirate who doesn't. Who wants to persuade him to blog? 
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/113.html">Originally posted on Advogato</a>.)
+m4_end_post

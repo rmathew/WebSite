@@ -157,7 +157,7 @@ m4_define(
 	<div class="right_justified">
 	  <b><a
 	    href="m4_root_dir/m4_substr( m4_post_date, 0, 4)/index.html">Other
-	    News from m4_substr( m4_post_date, 0, 4)</a></b>
+	    Posts from m4_substr( m4_post_date, 0, 4)</a></b>
 	</div>
       </div>
       <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>

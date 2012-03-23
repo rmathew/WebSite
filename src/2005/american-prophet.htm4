@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2005-10-07')m4_dnl
+m4_define(`m4_post_title', `The American Prophet')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+When the leader of the most powerful nation on this planet talks like <a href="http://www.bbc.co.uk/pressoffice/pressreleases/stories/2005/10_october/06/bush.shtml#startcontent">this</a>, you desperately wish it is not true. 
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/116.html">Originally posted on Advogato</a>.)
+m4_end_post

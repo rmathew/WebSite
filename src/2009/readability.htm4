@@ -1,0 +1,15 @@
+m4_define(`m4_post_date', `2009-05-31')m4_dnl
+m4_define(`m4_post_title', `Readability')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I get to read a lot of articles on-line thanks to feeder web-sites like <a href="http://slashdot.org/">Slashdot</a>, <a href="http://www.reddit.com/">Reddit</a>, <a href="http://news.ycombinator.com/">Hacker News</a> and <a href="http://www.aldaily.com/">Arts &amp; Letters Daily</a>. Many of these articles have web-pages that are very "noisy" in that they have advertisements, logos, unrelated links, snippets of arbitrary text, etc. In addition they often have uncomfortably small fonts and are broken into several short web-pages. These make it quite difficult to read such articles. Fortunately there is now a magic wand I can wave over them to make them more readable.
+m4_begin_post_rest
+<p>
+Switching to a "printer-friendly" or "single-page" view helps, as does using <a href="http://adblockplus.org/">Adblock Plus</a> to suppress obnoxious advertisements. The biggest benefit however comes from using <a href="http://lab.arc90.com/experiments/readability/">Readability</a>, a customisable <a href="http://en.wikipedia.org/wiki/Bookmarklet">bookmarklet</a> from the fine folks at <a href="http://www.arc90.com/">arc90</a>. It works surprisingly well on a <i>lot</i> (though not all) of web-pages. It was inspired by <a href="http://www.instapaper.com/">Instapaper</a>, a similar tool that you can use to queue readable versions of articles to read later at leisure. It works by showing only the "main" portion of a web-page, in a large font and with wide margins.
+<p>
+Incidentally Arts &amp; Letters Daily is a fantastic resource for finding thought-provoking and well-written articles on society, culture, literature, etc. (thanks Ananth). <a href="http://www.scitechdaily.com/">SciTech Daily</a> is a similar web-site focussing on science and technology. <a href="http://arstechnica.com/">Ars Technica</a> is another web-site that provides well-written and well-researched original articles on technology. These are web-sites that have maintained their quality over the years, unlike Slashdot, Reddit and Hacker News that have steadily been going downhill as they have become more and more popular.
+<p>
+(<a href="http://rmathew.blogspot.com/2009/05/readability.html">Originally posted on Blogspot</a>.)
+m4_end_post_rest
+m4_end_post

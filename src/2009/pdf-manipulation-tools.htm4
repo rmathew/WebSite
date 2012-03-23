@@ -1,0 +1,21 @@
+m4_define(`m4_post_date', `2009-09-23')m4_dnl
+m4_define(`m4_post_title', `PDF Manipulation Tools')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I wanted to manipulate a few PDF files recently and was on the lookout for suitable tools. More specifically, I wanted to convert a few double-page PDF files (containing two pages of text on a single page) into single-page PDF files. I also wanted to drop some of the pages in order to have the files contain just the text that I was interested in. Fortunately for me, there are several freely-available tools that do the job well.
+m4_begin_post_rest
+<p>
+The Perl <a href="http://pdfapi2.sourceforge.net/">PDF::API2</a> CPAN module is fairly versatile and quite handy if you know a bit of programming. For example, <a href="http://snipplr.com/view/18924/split-crop-double-page-pdfs-in-two/">this script</a> by "iblis" converts a double-page PDF into a single-page PDF. (There is a slight bug in that script - you should remove the quotes on line #28 or your output files will always literally be named "$newfilename".) According to its web-site the PDF::API2 is unfortunately no longer being maintained, though that certainly does not diminish its utility.
+<p>
+The <a href="http://www.pdftk.com/">pdftk</a> command-line tool is quite useful for a number of tasks on PDF files. For example, to extract pages 2 to 10 and 15 to 23 from a PDF file named "foo.pdf" and create a PDF file named "bar.pdf", you can execute:
+<p>
+&nbsp;&nbsp;<code>pdftk A=foo.pdf cat A2-10 A15-23 output bar.pdf</code>
+<p>
+See its web-site for a number of other examples that show its power. Its command-line syntax takes a little while to get used to, but that's worth the effort. Note that the author of the tool uses <a href="http://gcc.gnu.org/java/">GCJ</a> to create standalone executables, especially on Windows - it is gratifying to realise that yours truly had a part to play, however small, in making this happen.
+<p>
+I also looked at some other tools, notably <a href="http://www.pdfsam.org/">PDF Split and Merge</a> (PDFsam) and <a href="http://www.pdfill.com/">PDFill</a>. PDFsam is written in Java and looks promising; unfortunately for me, a warning tone was all that I could get out of it as I tried out its different plug-ins. I didn't get around to trying PDFill as pdftk and PDF::API2 were more than enough for my purpose.
+<p>
+(<a href="http://rmathew.blogspot.com/2009/09/pdf-manipulation-tools.html">Originally posted on Blogspot</a>.)
+m4_end_post_rest
+m4_end_post

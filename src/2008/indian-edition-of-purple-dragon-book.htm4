@@ -1,0 +1,13 @@
+m4_define(`m4_post_date', `2008-10-13')m4_dnl
+m4_define(`m4_post_title', `Indian Edition of the Purple Dragon Book')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+<a href="m4_root_dir/2006/where-is-purple-dragon-book.html">After a long wait</a>, the low-priced Indian edition of the Purple <a href="http://en.wikipedia.org/wiki/Dragon_book">Dragon Book</a> ("Compilers: Principles, Techniques and Tools", 2<sup>nd</sup> Edition, by Alfred Aho and others) is finally available in bookshops. The ISBN for this edition of the book is 9788131721018.
+m4_begin_post_rest
+<p>
+I was a bit disappointed to note that <a href="https://www.pearsoned.co.in/">Pearson Education</a> has chosen to release this book with a generic blue-and-yellow cover instead of its original cover. After all, this series derives its nickname from the illustrations on the cover of the books.
+<p>
+(<a href="http://rmathew.blogspot.com/2008/10/indian-edition-of-purple-dragon-book.html">Originally posted on Blogspot</a>.)
+m4_end_post_rest
+m4_end_post

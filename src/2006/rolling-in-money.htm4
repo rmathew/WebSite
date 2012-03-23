@@ -1,0 +1,13 @@
+m4_define(`m4_post_date', `2006-06-25')m4_dnl
+m4_define(`m4_post_title', `Rolling in Money')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+"<a href="http://infotech.indiatimes.com/articleshow/1672908.cms">Is Indian IT getting too expensive?</a>" is an article in The Times of India that is a perfect example of the reckless and utterly irresponsible journalism that is increasingly becoming the norm for this newspaper. While the general thrust of the article is more or less correct, either the reporters in question or the "analysts" they consulted seem to have simply made up all these numbers. Believe me, it is <span style="font-style: italic;">not at all</span> the norm to pay a guy with 10 to 15 years of experience an annual salary of 1.5 to 2 crores Rupees (about 330,000 to 440,000 USD)! The numbers are off by about an order of magnitude. I also think a salary of 70,000 USD for a middle-level manager in the US as stated in the article is a bit on the lower side, though I cannot be sure. As a couple of us were joking upon reading this article, these guys should have published the names of the companies which supposedly pay such salaries so that all of us can apply for a job with such suckers. On the other hand, such a company will not last long because it will quickly drain out its cash reserves doling out such largesse.
+<p>
+Unfortunately, these are precisely the kind of stories that unnecessarily widen the divide between software engineers and other sections of the society. They also unnecessarily make software engineers a lucrative target for robbers and other criminals. They create frustration among gullible engineers who think they are never paid enough for their job, even if they are already being paid far more than they deserve. They cause engineers returning to India from the US and elsewhere to demand really outlandish salaries for a job.
+<p>
+Pathetic.
+<p>
+(<a href="http://rmathew.blogspot.com/2006/06/rolling-in-money.html">Originally posted on Blogspot</a>.)
+m4_end_post

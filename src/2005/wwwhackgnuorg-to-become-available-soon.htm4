@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2005-12-08')m4_dnl
+m4_define(`m4_post_title', `www.hackgnu.org To Become Available Soon')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+Ramakrishnan is <a href="http://www.hackgnu.org/cgi-bin/pyblosxom.cgi/life/2005-11-24-website-changes.html">giving up</a> his domain <a href="http://www.hackgnu.org/">www.hackgnu.org</a>. Any Free Software hacker who wants to take it over should contact Ramakrishnan before it lands in the hands of domain squatters.
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/129.html">Originally posted on Advogato</a>.)
+m4_end_post

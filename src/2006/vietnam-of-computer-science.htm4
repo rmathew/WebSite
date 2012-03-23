@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2006-09-19')m4_dnl
+m4_define(`m4_post_title', `&ldquo;The Vietnam of Computer Science&rdquo;')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+Via <a href="http://reddit.com/">reddit.com</a>, &quot;<a href="http://blogs.tedneward.com/2006/06/26/The+Vietnam+Of+Computer+Science.aspx">The Vietnam of Computer Science</a>&quot;:<br /><blockquote><br />&quot;Although it may seem trite to say it, Object/Relational Mapping is the Vietnam of Computer Science. It represents a quagmire which starts well, gets more complicated as time passes, and before long entraps its users in a commitment that has no clear demarcation point, no clear win conditions, and no clear exit strategy.&quot;<br /></blockquote><br />A nice albeit verbose article on why using Object/Relational Mapping to store objects in relational database systems sounds like a good idea at first but then becomes a quagmire once you start trying to resolve more and more of the inherent differences between the two approaches.
+<p>
+(<a href="http://rmathew.blogspot.com/2006/09/vietnam-of-computer-science.html">Originally posted on Blogspot</a>.)
+m4_end_post

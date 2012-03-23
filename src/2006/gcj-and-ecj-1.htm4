@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2006-03-06')m4_dnl
+m4_define(`m4_post_title', `GCJ and ECJ')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+<a href="http://www.peakpeak.com/~tromey/">Tom</a> has <a href="http://gcc.gnu.org/ml/java/2006-03/msg00031.html">asked</a> the GCC Steering Committee to provide their verdict on the proposed use of the Eclipse compiler for Java in GCJ. This follows his earlier <a href="http://gcc.gnu.org/ml/java/2006-01/msg00187.html">proposal</a> to abandon GCJX for GCJ and adopt ECJ instead. As of this writing, there has been no response from the GCC SC yet. 
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/150.html">Originally posted on Advogato</a>.)
+m4_end_post

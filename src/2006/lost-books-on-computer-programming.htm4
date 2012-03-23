@@ -1,0 +1,23 @@
+m4_define(`m4_post_date', `2006-08-10')m4_dnl
+m4_define(`m4_post_title', `Lost Books on Computer Programming')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I am not into old books on computers the way <a href="http://graydon.livejournal.com/">Graydon</a> seems to be, but I still feel sad that the current generation of programmers will most likely never get exposed to some of the great books on computer programming that I was able to read when I was young.
+<p>
+At least here in Bangalore, it is almost impossible to buy these books from a bookshop unless they have either retained very old stock or are selling second-hand books. For example, here are a few books that seem to be very difficult to buy these days in Bangalore:<br /><ol><li>"The Elements of Programming Style", Brian Kernighan and P. J. Plauger.</li><li>"Algorithms + Data Structures = Programs", Niklaus Wirth.</li><li>"A Discipline of Programming", Edsger Dijkstra.</li><li>"The Science of Programming", David Gries.</li><li>"Communicating Sequential Processes", C. A. R. Hoare.<br /></li><li>"How to Solve it by Computer", R. G. Dromey.</li><li>"Microprocessors: A Programmer's View", Robert B. K. Dewar and Matthew Smosna.</li></ol>(I am sure I have not listed a lot of other interesting and important books here, but these are the names that readily spring to my mind.)
+<p>
+Of these, I have only been able to buy Dromey's book so far. In my opinion, it is one of the most under-appreciated books in computer science and deserves to be read by every novice programmer. It is a perfect complement to the usual textbooks for a Data Structures and Algorithms course.
+<p>
+A kind soul has <a href="http://www.walenz.org/Dijkstra/index.html">scanned in</a> the pages from "A Discipline of Programming" and made them freely available to everyone. <a href="http://www.usingcsp.com/">The electronic version of "Communicating Sequential Processes"</a> is now freely available for download.  But I still wish I had these books "for real".
+<p>
+By the way, Robert Dewar <a href="http://gcc.gnu.org/ml/gcc/2004-12/msg00451.html">hopes</a> to produce an updated version of "Microprocessors: A Programmer's View" sometime soon.
+<p>
+Alarmingly, some relatively recent books are also becoming difficult to find these days. For example:<br /><ol><li>"Programming Pearls", Jon Bentley.</li><li>"The Practice of Programming", Brian Kernighan and Rob Pike.</li></ol>I also note rather sadly that the "<span style="font-style: italic;">XYZ</span> Unleashed" and "Learn <span style="font-style: italic;">ABC</span> in 3 Days" type books are still going strong even after almost a decade.
+<p>
+Thankfully, the "The Art of Computer Programming" (TAOCP) series by Donald Knuth is still easily available. "Structure and Interpretation of Computer Programs" (SICP) by Harold Abelson, Gerald Jay Sussman and Julie Sussman is also visible in bookshops from time to time.
+<p>
+I think the strong sales of TAOCP are more due to the "classic book" effect than anything else. To quote Mark Twain, "A classic is a book that everyone wants to have read but no one wants to read".  If there are people who have actually read TAOCP, they seem to have been rather successful at avoiding to meet me. To quote Bill Gates, "If you have read <span style="font-style: italic;">The Art of Computer Programming</span> from cover to cover, send me your resume!".
+<p>
+(<a href="http://rmathew.blogspot.com/2006/08/lost-books-on-computer-programming.html">Originally posted on Blogspot</a>.)
+m4_end_post

@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2004-12-15')m4_dnl
+m4_define(`m4_post_title', `A Tinkertoy Computer That Plays Tic-Tac-Toe')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I came across <a href="http://www.rci.rutgers.edu/~cfs/472_html/Intro/TinkertoyComputer/TinkerToy.html">this</a> reproduction of an article by A. K. Dewdney in his "Computer Recreations" series in <a href="http://www.sciam.com/">Scientific American</a>. I am not exaggerating when I say that this was the series that fundamentally altered the way I looked at computers and programming. I long to read such articles now... <i>~sigh~</i> Of course, I already own copies of "<a href="http://www.amazon.com/exec/obidos/tg/detail/-/0716719398">Armchair Universe</a>" and "<a href="http://www.amazon.com/exec/obidos/ASIN/0262561271/">The Computational Beauty of Nature</a>", but a regular series like this would be quite welcome.
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/51.html">Originally posted on Advogato</a>.)
+m4_end_post

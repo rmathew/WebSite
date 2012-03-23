@@ -1,0 +1,23 @@
+m4_define(`m4_post_date', `2006-07-06')m4_dnl
+m4_define(`m4_post_title', `Pricing Your Time')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+We often hear clich&eacute;s like "Time is Money" or "Lost Time is Lost Money". Most of us generally agree with these assertions but do not actually try to quantify the money associated with our time. We therefore rely on our intuition or mood to decide whether it is worth it to do something ourselves or pay someone else to do it on our behalf.
+<p>
+For example, does it make sense for us to fill out the relevant form and file our income tax returns ourselves or should we just pay the fees to an agent who will do it for us?
+<p>
+Suppose the agent charges 200 rupees for this service, you drive a motorcycle that gives you about 48 kilometres per litre of petrol in city traffic conditions, the price of petrol is 55 rupees per litre, the distance to the income tax office is about 15 kilometres and the parking attendant there charges 2 rupees. If you were to file the returns yourselves (filing income tax returns online is not yet fully available in India), you will directly incur a cost of about 36 rupees in fuel and parking charges. Assuming that it takes about 15 minutes for you to fill the form yourself and about 60 minutes for the trip to the income tax office and back, is it worth saving this time and pay the agent an extra 164 rupees for his service?
+<p>
+A couple of my friends and I used to amuse ourselves by trying to calculate our time's worth using our salary as a guide. Assume that your annual salary is about 4,00,000 rupees, your employer expects you to work about 8 hours every day from Monday to Friday and grants you a leave of 15 days in a year. With about 52 weeks in a year, that is about 246 working days or 1,968 working hours. This means that your employer is willing to pay you about 203 rupees for every working hour.
+<p>
+So in this particular case, at least from your employer's perspective, it is better for you to pay the agent the extra 164 rupees that he is asking for rather than waste about 254 rupees in lost (hopefully productive) time.
+<p>
+Technically we should also consider other factors like the price we are willing to pay to save ourselves the effort (in addition to the time) involved in the task, the amount of trust we place in the agent to do the job correctly and on time, our willingness to share the information about our income with a third party, the amount of masochistic desire we have to do our job ourselves, etc. This is therefore a very crude measure of the monetary value of your time.
+<p>
+A professor of Economics has come up with <a href="http://archives.cnn.com/2002/TECH/science/05/29/time.money/">another formula to calculate the monetary value of your time</a> and you might have your own method of calculating this value. Whatever method you use, these methods can be used to quickly tell if it could be worthwhile to do something ourselves or pay someone else to do it for us.
+<p>
+(I wrote this piece purely for its amusement value - it should not be taken too seriously and should merely be used as an indicator in the spirit of <a href="http://economist.com/markets/bigmac/">Burgernomics</a>.)
+<p>
+(<a href="http://rmathew.blogspot.com/2006/07/pricing-your-time.html">Originally posted on Blogspot</a>.)
+m4_end_post

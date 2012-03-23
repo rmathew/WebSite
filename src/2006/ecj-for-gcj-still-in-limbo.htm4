@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2006-04-03')m4_dnl
+m4_define(`m4_post_title', `ECJ for GCJ: Still in limbo')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+It has been almost a <i>month</i> since <a href="http://gcc.gnu.org/ml/gcc/2006-03/msg00158.html">Tom formally proposed integrating ECJ in GCJ</a> to the <a href="http://gcc.gnu.org/steering.html">GCC Steering Committee</a> (SC). There has been no word from the SC yet on this request. However, the SC did ask the GCC developers to <a href="http://gcc.gnu.org/ml/gcc/2006-03/msg00558.html">avoid gratuitously including source code from external projects in GCC</a>. One consequence of this for GCJ was <a href="http://gcc.gnu.org/ml/java-patches/2006-q1/msg00381.html">the removal of fastjar from the GCC source tree</a>. I'm not sure if the SC's decision was coincidental or in fact a result of deliberations triggered by Tom's request. 
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/157.html">Originally posted on Advogato</a>.)
+m4_end_post

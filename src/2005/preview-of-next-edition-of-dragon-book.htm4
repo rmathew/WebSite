@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2005-12-15')m4_dnl
+m4_define(`m4_post_title', `Preview of the Next Edition of The Dragon Book')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+Addison Wesley have put up <a href="http://wps.aw.com/aw_aho_compilers_2/0,11227,2663889-,00.html">a sneak preview</a> of what is in the long overdue and much anticipated updated edition of The Dragon Book (a.k.a. "Compilers: Principles, Tools and Techniques" by Aho, Ullman and Sethi). For some insane reason, they have decided to use JavaScript, Flash and pop-ups to show these chapters, prompting instant revulsion in yours truly. I'd rather wait for the dead-tree edition than subject myself to such torture.
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/130.html">Originally posted on Advogato</a>.)
+m4_end_post

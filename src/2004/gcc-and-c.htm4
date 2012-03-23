@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2004-07-13')m4_dnl
+m4_define(`m4_post_title', `GCC and C++')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+The GCC Steering Committee published <a href="http://gcc.gnu.org/ml/gcc/2004-07/msg00588.html">its decision (and that of RMS)</a> on <a href="http://gcc.gnu.org/ml/gcc/2004-06/msg01466.html">Nathan Sidwell's proposal</a> to rewrite GCC in a useful subset of C++. In short, they have turned it down though they are open to the idea of making GCC sources compile correctly with a C++ compiler. What I didn't quite get was this: <blockquote> In addition, RMS stated that the use of C++ was unacceptable for the GNU Project, at least for programs that are presently written in C. </blockquote> This is quite weird and without more of the context in which this was uttered or clarifications, I don't understand this at all. In particular, this doesn't bode well for <a href="http://sourceforge.net/projects/gcjx/">Tom's rewrite of the GCJ front end</a> in C++, which by the way, is coming along pretty well for a one man project.  RMS also <a href="http://gcc.gnu.org/ml/gcc/2001-02/msg00895.html">considers GCJ's capabilities to compile Java bytecode bad</a>, considering it a way for malicious vendors to bypass GCC's GPL to use it as a compiler backend!  Whatever...
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/31.html">Originally posted on Advogato</a>.)
+m4_end_post

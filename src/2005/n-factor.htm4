@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2005-09-06')m4_dnl
+m4_define(`m4_post_title', `n Factor')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I just found out that my blog (as well as those of many GCJ/Classpath hackers) is also <a href="http://www.nfactor.org/?q=aggregator/sources/141">being aggregated by n Factor</a> besides <a href="http://planet.classpath.org/">Planet Classpath</a>.
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/109.html">Originally posted on Advogato</a>.)
+m4_end_post

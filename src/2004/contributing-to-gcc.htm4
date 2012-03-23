@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2004-07-09')m4_dnl
+m4_define(`m4_post_title', `Contributing to GCC')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+Roger Sayle <a href="http://gcc.gnu.org/ml/gcc-patches/2004-07/msg00792.html">sums it up</a> nicely. I agree with him 100%. Even though I am a fringe and quite erratic contributor to GCJ (much less the core GCC), it has helped me <i>immensely</i> as a software developer. To paraphrase <a href="http://www.ucomics.com/calvinandhobbes/characters.phtml">Calvin's Dad</a>, "It helps build character". 
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/30.html">Originally posted on Advogato</a>.)
+m4_end_post

@@ -1,0 +1,17 @@
+m4_define(`m4_post_date', `2006-07-08')m4_dnl
+m4_define(`m4_post_title', `Books on C and C++')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+<a href="http://tarandeep.livejournal.com/">Tarandeep</a> asked me what books on C and C++ I would recommend for someone who knows a bit of each of  these programming languages. My problem is that I do not generally like reading books specific to a given programming language. In addition, I do not know C++ properly enough to be able to discern a genuinely good book on C++ from a mere pretender. He still insists that I write down a list of such books. I am therefore putting this list as a blog post in the hopes that people more knowledgeable about such things would help him out. We did search for such lists on the web but I was frankly not satisfied with the lists that we could readily find.
+<p>
+Here are the books on C that I would readily recommend:<br /><ol><li>"<a href="http://cm.bell-labs.com/cm/cs/cbook/">The C Programming Language</a>", Second Edition, by Brian Kernighan and Dennis Ritchie.<br /></li><li>"<a href="http://www.amazon.com/gp/product/0131774298/">Expert C Programming - Deep C Secrets</a>" by Peter van der Linden.</li><li>"<a href="http://www.amazon.com/gp/product/0201179288/">C Traps and Pitfalls</a>" by Andrew Koenig.<br /></li></ol>(See also: <a href="http://c-faq.com/resources/books.html">List of books recommended in the <tt>comp.lang.c</tt> FAQ</a>.)
+<p>
+Here are the books on C++ that I think should be useful:<br /><ol><li>"<a href="http://www.research.att.com/%7Ebs/3rd.html">The C++ Programming Language</a>", Third Edition, by Bjarne Stroustrup.</li><li>"<a href="http://www.aristeia.com/books.html">Effective C++</a>", Third Edition", by Scott Meyers.</li><li>"<a href="http://staff.develop.com/slip/">Essential C++</a>" by Stanley Lippman.</li></ol>I did not particularly like Stroustrup's book, but it served as a useful reference when programming in C++.
+<p>
+By the way, many people do not like "The C Programming Language" but I am one of those who just <span style="font-style: italic;">love</span> this book. It is a short book that is always to the point and has examples that teach you a lot about computer programming techniques and style. I agree that you should already know a bit about computer programming to fully appreciate this book. It was the book that I used to learn C. I love all of Brian Kernighan's books in general. He is one of the very few authors who have actually imbibed the lessons from "<a href="http://en.wikipedia.org/wiki/The_Elements_of_Style">The Elements of Style</a>".
+<p>
+In India, we have a few books on C and C++ written by some Indian authors that are terrible in my opinion but that unfortunately have been mandated as text books in several colleges here. The result is that many of the graduates who have not been exposed to other books form extremely warped ideas about these programming languages and about things like pointers. Sad.
+<p>
+(<a href="http://rmathew.blogspot.com/2006/07/books-on-c-and-c.html">Originally posted on Blogspot</a>.)
+m4_end_post

@@ -1,0 +1,17 @@
+m4_define(`m4_post_date', `2007-01-11')m4_dnl
+m4_define(`m4_post_title', `Generics in Java and Return Types')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+Consider a class <code>C</code> that implements an interface <code>I</code>.
+<p>
+While the following is allowed:<br /><pre><br />  I foo( )<br />  {<br />    return new C( );<br />  }<br /></pre><br />the following is not:<br /><pre><br />  ArrayList&lt;I> foo( )<br />  {<br />    return new ArrayList&lt;C>( );<br />  }<br /></pre><br />In the first case, callers expect to get an object implementing the interface <code>I</code> and therefore it is correct for <code>foo( )</code> to return an object of class <code>C</code>. In the second case, callers expect to get an <code>ArrayList</code> containing objects implementing the interface <code>I</code> and therefore it should again be correct for <code>foo( )</code> to return an <code>ArrayList</code> containing objects of class <code>C</code>, right?
+<p>
+Consider what happens if the compiler were to allow such code to compile. Callers can then add objects of another class <code>X</code>, which also implements the interface <code>I</code>, to the returned <code>ArrayList</code> with the result that the original <code>ArrayList</code>, which is only supposed to contain objects of class <code>C</code>, now also contains objects of an incompatible class <code>X</code>!
+<p>
+A better way to define the second case is:<br /><pre><br />  ArrayList&lt;? extends I> foo( )<br />  {<br />    return new ArrayList&lt;C>( );<br />  }<br /></pre><br />(You can also return an <code>ArrayList&lt;I&gt;</code> instead, but that loosens up the definition of the returned object.)
+<p>
+Thanks to <a href="http://www.myspace.com/steveonorato">Steve</a> for clearing up my muddied thinking.
+<p>
+(<a href="http://rmathew.blogspot.com/2007/01/generics-in-java-and-return-types.html">Originally posted on Blogspot</a>.)
+m4_end_post

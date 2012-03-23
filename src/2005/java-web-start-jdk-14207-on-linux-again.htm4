@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2005-03-29')m4_dnl
+m4_define(`m4_post_title', `Java Web Start (JDK 1.4.2_07) on Linux (Again)')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I found a neater way of working around the bug in Sun's javaws in JDK 1.4.2_07 on a Linux system running kernel 2.6.x and glibc 2.3.3+ that I referred to in my previous blog entry - I wrote a wrapper for <tt>waitid()</tt> that tolerates the bogus options passed by <tt>javawsbin</tt> and calls the real <tt>waitid()</tt> with saner options. With this code, I am finally able to run javaws without problems. Note that <a href="http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=6188963">this bug</a> seems to have been fixed by Sun in JDK 1.5.0_02. <blockquote><pre> /* Quick and dirty pre-loaded DSO to make buggy javawsbin    in JDK 1.4.2_07 work on Linux with kernel 2.6.x and    glibc 2.3.4.      Compilation:      gcc -O2 -fPIC -g0 -shared -o mywait.so mywait.c      Usage (Bash):      LD_PRELOAD=/path/to/mywait.so /path/to/javaws &lt;Launcher URL&gt;    */ #include &lt;dlfcn.h&gt; #include &lt;sys/wait.h&gt;   int (*real_waitid)( idtype_t, id_t, siginfo_t *, int);   int waitid( idtype_t idtype, id_t id, siginfo_t *infop, int options) {   int retVal = -1;     void *handle = dlopen( "/lib/libc.so.6", RTLD_LAZY);   real_waitid = dlsym( handle, "waitid");     options = (options == 0) ? WEXITED : options;   retVal = (*real_waitid)( idtype, id, infop, options);     dlclose( handle);     return retVal; } /* End pseudo-waitid() */ </pre></blockquote>
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/71.html">Originally posted on Advogato</a>.)
+m4_end_post

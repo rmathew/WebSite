@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2005-08-01')m4_dnl
+m4_define(`m4_post_title', `GoF Honoured by ACM SIGPLAN')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+The authors of "<a href="http://www.amazon.com/exec/obidos/ASIN/0201633612">Design Patterns</a>" have been <a href="http://www.acm.org/sigs/sigplan/awards.htm">honoured by ACM SIGPLAN</a> this year with the "Programming Languages Achievement Award". I personally think that this award is justly deserved. Their book has had a strong influence on the way I approach designing a program. I would gladly recommend this book to any programmer - you do yourself a disservice if you haven't read this book yet, for whatever reason.  Unfortunately, I see either a rampant abuse of Design Patterns ("Let's see how many design patterns we can fit into our design for this project") or a refusal to accept that they can have any merit besides being useful in impressing your PHB. Whether by diktat or by choice, if you are trying to come up with an object-oriented design for a project, it helps tremendously to know how other people have solved some of the specific problems in a way that allows the design to remain flexible while solving the immediate constraints. The flexibilities are precisely what come in handy in the face of ever-changing requirements. A secondary benefit is being able to use a common vocabulary to describe  parts of your design to others, who can then immediately grasp what you are trying to do. 
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/102.html">Originally posted on Advogato</a>.)
+m4_end_post

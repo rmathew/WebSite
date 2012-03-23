@@ -1,0 +1,13 @@
+m4_define(`m4_post_date', `2007-05-23')m4_dnl
+m4_define(`m4_post_title', `ICFP Contest 2007')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+The 10th <a href="http://www.icfpcontest.org/">ICFP Contest</a> is scheduled for the weekend of 20<sup>th</sup> July 2007. I hope it turns out to be as <a href="m4_root_dir/2006/icfpc-2006.html">fun</a> as <a href="http://www.boundvariable.org/">the one held last year</a>.
+m4_begin_post_rest
+<p>
+There is already <a href="http://johanjeuring.blogspot.com/">a blog written by one of the organisers</a> that contains some teaser puzzles. (Do these images use some form of <a href="http://en.wikipedia.org/wiki/Steganography">steganography</a> or can we simply work out the graphical transformations applied to the original image and apply them in reverse to obtain the desired image? I wonder.)
+<p>
+(<a href="http://rmathew.blogspot.com/2007/05/icfp-contest-2007.html">Originally posted on Blogspot</a>.)
+m4_end_post_rest
+m4_end_post

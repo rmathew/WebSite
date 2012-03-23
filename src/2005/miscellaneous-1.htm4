@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2005-02-24')m4_dnl
+m4_define(`m4_post_title', `Miscellaneous')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+<a href="http://www.stallman.org/">RMS</a> has a <a href="http://www.fsf.org/blogs/rms/">blog</a> too!  Congratulations to Tom for <a href="http://www.peakpeak.com/~tromey/blog/2005/02/23/#first-code">getting GCJX to generate code</a>!
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/61.html">Originally posted on Advogato</a>.)
+m4_end_post

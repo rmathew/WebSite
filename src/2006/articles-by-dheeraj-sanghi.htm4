@@ -1,0 +1,13 @@
+m4_define(`m4_post_date', `2006-12-14')m4_dnl
+m4_define(`m4_post_title', `Articles by Dheeraj Sanghi')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+<a href="http://www.cse.iitk.ac.in/users/dheeraj/">Dheeraj Sanghi</a> is a professor in the <a href="http://www.cse.iitk.ac.in/">Computer Science and Engineering</a> (CSE) department at <a href="http://www.iitk.ac.in/">IIT Kanpur</a>. Our batch, the CSE class of 1996, studied "Computer Networks" under him and he was an active patron of the <a href="http://www.cse.iitk.ac.in/users/aca/">Association of Computer Activities</a> (ACA).
+<p>
+Recently I stumbled upon a collection of his articles on various topics, including career counselling for students who want to study CS in India, improvements to the undergraduate programme in IIT Kanpur, views on the recent move by the Indian government to impose quotas in the IITs, etc.
+<p>
+Though I found myself disagreeing with some of his points, I found these articles quite interesting as they touch upon topics that I have been thinking about in recent times.
+<p>
+(<a href="http://rmathew.blogspot.com/2006/12/articles-by-dheeraj-sanghi.html">Originally posted on Blogspot</a>.)
+m4_end_post

@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2004-05-12')m4_dnl
+m4_define(`m4_post_title', `gcc.gnu.org/sources.redhat.com overseers list')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+Finally there is <a href="http://sources.redhat.com/ml/overseers/2004-q2/msg00272.html">a backup</a> for <a href="http://sources.redhat.com/ml/overseers/">the overseers list</a> for this very important server for Free software. 
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/24.html">Originally posted on Advogato</a>.)
+m4_end_post

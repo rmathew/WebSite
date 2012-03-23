@@ -1,0 +1,15 @@
+m4_define(`m4_post_date', `2009-01-12')m4_dnl
+m4_define(`m4_post_title', `The Return of Priya Ganapathy')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+Priya Ganapathy, one of the best radio jockeys that Bangalore has ever had, returns to Bangalore after a hiatus. She now hosts a programme called "Playback" on <a href="http://www.radioindigo.fm/">Radio Indigo</a> (91.9 FM) from 9 AM to 12 noon on Sundays. She played a lot of good music on the first programme - as one of the callers to the programme gushed: "How do you know all of our favourite songs?"
+m4_begin_post_rest
+<p>
+Priya (<a href="http://www.voices.com/people/priyaganapathy">@Voices</a>, <a href="http://www.linkedin.com/in/priyaganapathy">@LinkedIn</a>) used to host one of my favourite programmes on <a href="http://www.radiocity.in/">Radio City</a>, "The Retro Show", back in the days when that radio station was worth listening to. She also used to host another great programme called "The Late Show" and was the voice behind the hilarious filler shorts "Lingo Leela" and "Sister Stella". She is quite obviously very talented. She has an awesome taste in music and peppers her programmes with interesting trivia about the featured bands and artists.
+<p>
+Radio Indigo is one of the better radio stations in Bangalore that plays good music from time to time, especially on weekends. I hope they stay this way.
+<p>
+(<a href="http://rmathew.blogspot.com/2009/01/return-of-priya-ganapathy.html">Originally posted on Blogspot</a>.)
+m4_end_post_rest
+m4_end_post

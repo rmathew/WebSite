@@ -1,0 +1,15 @@
+m4_define(`m4_post_date', `2006-07-21')m4_dnl
+m4_define(`m4_post_title', `Validating XML Documents')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I was writing a couple of XML documents conforming to certain XML Schemata the other day. I was looking for a simple command-line tool that would take an XML document and an XML Schema and check if the document was well-formed and really conformed to the given XML Schema (I did not want to use web-based validation). I could have written a tool like this myself but I was feeling rather lazy and just wanted to quickly download a tool from somewhere to do this.
+<p>
+It turned out to be a surprisingly frustrating task and eventually took more time than what I would have taken to write it myself. Perhaps my Google queries were not good enough, perhaps people are just happy with their respective IDEs, perhaps everyone just writes their own little tool around the usual XML parsing libraries, perhaps people are not so anal about writing XML documents that strictly conform to the applicable XML Schema, etc. - I don't know why, but it took me a while to locate such a tool.
+<p>
+I first used Sun's <a href="http://www.sun.com/software/xml/developers/multischema/">Multi-Schema XML Validator</a> (MSV) and it worked for me for a while but then tripped with a StackOverflowError on a particular XML Schema that I had to use so I had to abandon it. I next tried <a href="http://xmlstar.sourceforge.net/">XMLStarlet</a> but the error messages it spewed were a bit confusing and it did not fully support XML Schemata so I abandoned it as well. I am now using a little tool called "DOMCount" that is included with Apache <a href="http://xerces.apache.org/">Xerces</a> and that ostensibly parses a document and prints out the number of DOM elements it has encountered but that also works fairly well as a document validator. The error messages shown by this tool, while better than those from XMLStarlet, can still confuse some times but I can live with it for the moment.
+<p>
+While creating these documents from the appropriate XML Schemata, I found <a href="http://titanium.dstc.edu.au/xml/xs3p/">xs3p</a> [link currently seems broken] to be really useful. This is a stylesheet that takes an XML Schema and generates a pretty HTML document from it that you can use to understand the original XML Schema and easily navigate through its structure. I used Apache <a href="http://xalan.apache.org/">Xalan</a> to generate the HTML documents.
+<p>
+(<a href="http://rmathew.blogspot.com/2006/07/validating-xml-documents.html">Originally posted on Blogspot</a>.)
+m4_end_post

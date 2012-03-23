@@ -1,0 +1,15 @@
+m4_define(`m4_post_date', `2006-07-31')m4_dnl
+m4_define(`m4_post_title', `Decadence')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I complete 10 years in the software industry today.
+<p>
+Ten years ago, as a lad fresh out of college and fascinated with computer programming, I felt tremendously excited that I had got a job where I could write computer programmes all the time.
+<p>
+That delusion was rather short-lived. I soon discovered that programming is actually a very small part of software engineering. Much of my time is spent writing specifications, communicating with my teammates and clients via email, conference calls and meetings, writing documentation, fixing bugs, giving demonstrations and presentations, etc. I spend more time within Microsoft Word than within Vim.
+<p>
+When I do get to write code, I have to write the simplest of programmes. The requirements almost never merit anything sophisticated. On the rare occasions where better data structures and algorithms can help, I still cannot use them since the code then becomes unmaintainable by the "average" software engineer. For an underperforming application, the standard solution seems to be to use a bigger machine instead of making the application more efficient. Developing "enterprise" software can be really dull and depressing for someone even mildly interested in programming.
+<p>
+(<a href="http://rmathew.blogspot.com/2006/07/decadence.html">Originally posted on Blogspot</a>.)
+m4_end_post

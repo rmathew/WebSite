@@ -1,0 +1,17 @@
+m4_define(`m4_post_date', `2007-10-19')m4_dnl
+m4_define(`m4_post_title', `Lossy Marvels')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+<a href="http://en.wikipedia.org/wiki/JPEG">JPEG</a> and <a href="http://en.wikipedia.org/wiki/MP3">MP3</a> are very popular formats for storing photographs and music respectively. They are both <a href="http://en.wikipedia.org/wiki/Lossy_compression">lossy</a> formats and yet achieve amazing compression ratios without a loss of quality that is easily perceptible by normal people. I have always wondered how this is achieved.
+m4_begin_post_rest
+<p>
+The respective technical specifications are unfortunately too complicated to follow for a layman. Purportedly "explanatory" articles elsewhere gloss too much over the important points leaving me quite unsatisfied. I have fortunately come across two articles recently that seem to strike the perfect balance between these extremes.
+<p>
+"<a href="http://arstechnica.com/articles/paedia/the-audiofile-understanding-mp3-compression.ars">The Audiofile: Understanding MP3 Compression</a>" was published in Ars Technica some time back and very nicely explains the compression algorithm behind MP3 as well as shedding some light over some of the apparent idiosyncrasies of this format. "<a href="http://www.ams.org/featurecolumn/archive/image-compression.html">Image Compression: Seeing What's Not There</a>" was published by the American Mathematical Society and does a similar service for JPEG, including its successor <a href="http://en.wikipedia.org/wiki/JPEG_2000">JPEG 2000</a>. (Come to think of it, these articles are "lossy" marvels in their own right.)
+<p>
+Now let us see if I can find an article with a similar depth that explains the <a href="http://en.wikipedia.org/wiki/Moving_Picture_Experts_Group">MPEG</a> video formats.
+<p>
+(<a href="http://rmathew.blogspot.com/2007/10/lossy-marvels.html">Originally posted on Blogspot</a>.)
+m4_end_post_rest
+m4_end_post

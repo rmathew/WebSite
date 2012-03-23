@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2005-12-21')m4_dnl
+m4_define(`m4_post_title', `Planet GCC')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I set up <a href="http://gcc.gnu.org/wiki/Planet_GCC">a simple Wiki page</a> listing the weblogs of various GCC hackers as a temporary measure till such a time that we have a "Planet GCC" weblog feed aggregator of our own. Please feel free to update it with links to weblogs of GCC hackers that you find missing.
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/131.html">Originally posted on Advogato</a>.)
+m4_end_post

@@ -1,0 +1,31 @@
+m4_define(`m4_post_date', `2006-06-23')m4_dnl
+m4_define(`m4_post_title', `Mathematical Digressions')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+In my <a href="m4_root_dir/2006/calculating-emis.html">previous post</a>, I said that the sum of the <a href="http://en.wikipedia.org/wiki/Geometric_progression">geometric series</a>:
+<p>
+<div style="text-align: center;">1 + x + x<sup>2</sup> + ... + x<sup>n-1</sup><br /></div><br />is (x<sup>n</sup> - 1)/(x - 1). One of my beliefs (as also shown by that post) is that you should never take a formula at its face value. Here I quickly attempt to show why this particular formula should be correct using a very commonly used proof. Let us assume that <span style="font-weight: bold;">S</span> denotes the desired sum. That is:
+<p>
+<div style="text-align: center;">S = 1 + x + x<sup>2</sup> + ... + x<sup>n-1</sup><br /><div style="text-align: left;"><br />If we multiply both sides of this equation by x, we get:
+<p>
+<div style="text-align: center;">x&times;S = x + x<sup>2</sup> + x<sup>3</sup> + ... + x<sup>n</sup><br /></div><br />If we subtract each side of the first equation from the corresponding side of the second equation we get:
+<p>
+<div style="text-align: center;">(x - 1)&times;S = x + x<sup>2</sup> + x<sup>3</sup> + ... + x<sup>n</sup> - 1 - x - x<sup>2</sup> - ... - x<sup>n-1</sup><br /></div><br />This simplifies to:
+<p>
+<div style="text-align: center;">(x - 1)&times;S = x<sup>n</sup> - 1<br /></div><br />which gives:
+<p>
+<div style="text-align: center;">S = (x<sup>n</sup> - 1)/(x - 1)<br /></div><br />as we had claimed.
+<p>
+By the way, while attending a conference call last night where it was particularly hard to concentrate on what was being discussed, I began to doodle and stumbled upon a simple result which might have been interesting about a millennium ago and is probably just an idle curiosity now. I am also sure it is contained somewhere in our high school text books for mathematics, but I cannot recall seeing it before. (Despite what might be indicated by these blog posts, I do not have much of an interest in mathematics itself and have never pursued it for its own sake.)
+<p>
+Anyways, looking at the factorisation of (x<sup>2</sup> - y<sup>2</sup>) into (x - y)&times;(x + y) and (x<sup>3</sup> - y<sup>3</sup>) into (x - y)&times;(x<sup>2</sup> + x&times;y + y<sup>2</sup>), I wondered if (x - y) is always a factor of (x<sup>n</sup> - y<sup>n</sup>). By playing around a little bit with the terms, I could write:
+<p>
+<div style="text-align: center;">x<sup>n</sup> - y<sup>n</sup> = (x - y)&times;(x<sup>n-1</sup> + x<sup>n-2</sup>&times;y + ... + x&times;y<sup>n-2</sup> + y<sup>n-1</sup>)<br /></div><br />confirming my hypothesis. If you set y=1, this reduces to:
+<p>
+<div style="text-align: center;">x<sup>n</sup> - 1<sup></sup> = (x - 1)&times;(x<sup>n-1</sup> + x<sup>n-2</sup> + ... + x + 1<sup></sup>)<br /></div><br />which can be rewritten as:
+<p>
+<div style="text-align: center;">(x<sup>n</sup> - 1)/(x - 1) = x<sup>n-1</sup> + x<sup>n-2</sup> + ... + x + 1<br /></div><br />which is the same formula that we derived just a while back for calculating the sum of a geometric series!<br /></div></div>
+<p>
+(<a href="http://rmathew.blogspot.com/2006/06/mathematical-digressions.html">Originally posted on Blogspot</a>.)
+m4_end_post

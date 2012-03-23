@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2004-05-19')m4_dnl
+m4_define(`m4_post_title', `GCC Gets Tree-SSA')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+After almost 4 years of development, the <a href="http://gcc.gnu.org/projects/tree-ssa/">tree-ssa</a> project has finally been <a href="http://gcc.gnu.org/ml/gcc/2004-05/msg00679.html">merged</a> into the GCC mainline!  The Static Single Assignment (SSA) form enables all sorts of funky optimisations to be implemented in GCC, making it possible for it to compete effectively with commercial optimising compilers.  Thanks in large part to Jeff Sturm and <a href="http://people.redhat.com/~aph/">Andrew Haley</a>, GCJ starts off as a first class citizen in this new avatar of GCC, that too with no libjava testsuite regressions. In fact, the <a href="http://www.ibm.com/developerworks/oss/jacks/">Jacks</a> testsuite now <a href="http://gcc.gnu.org/ml/java/2004-05/msg00096.html">shows</a> 30 unexpected successes (XPASSes) with GCJ and only 5 new failures (FAILs)!  The GCC bootstrap time seems to have regressed by around 20% percent, but one should not forget that quite a bit of new code has been added, not to mention the increased number of Trees that are created and the now redundant RTL optimisers.  And oh, by the way, say "Hello!" to <a href="http://gcc.gnu.org/projects/tree-ssa/tree-browser.html">Tree Browser</a>! 
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/25.html">Originally posted on Advogato</a>.)
+m4_end_post

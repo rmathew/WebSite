@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2005-06-01')m4_dnl
+m4_define(`m4_post_title', `Government Bonds')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+<a href="http://www.joelonsoftware.com/articles/WallSt101.html">Be careful</a> when you buy that government bond. 
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/90.html">Originally posted on Advogato</a>.)
+m4_end_post

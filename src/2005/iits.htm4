@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2005-05-09')m4_dnl
+m4_define(`m4_post_title', `IITs')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+<i>(Disclaimer: I am an alumnus [B.Tech.] of <a href="http://www.iitk.ac.in/">IIT Kanpur</a> with <a href="http://www.cse.iitk.ac.in/">Computer Science</a> as my major, so read the following rant with this fact in mind and your preferred measure of salt.)</i> I feel that in the last few years the Indian government, irrespective of the party that comes to power, seems hell-bent on killing these awesome engineering institutions which have a largely justified and well-earned reputation worldwide. They started by almost doubling <a href="http://in.rediff.com/money/2004/jan/20guest1.htm">the number of available seats</a> in some departments, notably Computer Science, then by <a href="http://in.rediff.com/news/2003/nov/20kak.htm">increasing the number of institutes branded "IIT"</a> (from the original 5 to a current target of 11 in total) and finally by <a href="http://economictimes.indiatimes.com/cms.dll/articleshow.asp?artid=18101707&sType=1">making the entrance exams (JEE) much easier for students to crack</a>!   In the short term, they will be able to boast of a <i>much</i> larger number of IIT graduates but will they be able to ensure the quality as well? Are they not killing by dilution the very brand that they wish to exploit? Sheesh! 
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/85.html">Originally posted on Advogato</a>.)
+m4_end_post

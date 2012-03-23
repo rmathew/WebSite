@@ -1,0 +1,25 @@
+m4_define(`m4_post_date', `2008-06-15')m4_dnl
+m4_define(`m4_post_title', `Firefox 3')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I have been using the release candidates of <a href="http://www.mozilla.com/en-US/firefox/3.0/releasenotes/">Firefox 3</a> on Linux for some time now. The experience has been quite good so far. I would encourage you to try it out for yourself - in fact, download it on the 17<sup>th</sup> of June and <a href="http://www.spreadfirefox.com/en-US/worldrecord/">help Mozilla set a world record</a>.
+m4_begin_post_rest
+<p>
+Firefox 3 comes with <i>quite a lot</i> of fixes and improvements. The "<a href="http://www.dria.org/wordpress/archives/2008/06/12/655/">Field Guide to Firefox 3</a>" is a nice page summarising the more important improvements. It seems to have improved a lot in terms of memory usage and speed. You just have to use <a href="https://mail.google.com/">Gmail</a> to see the difference in speed for yourself. Since I never open too many tabs, use too many extensions or keep the browser open for too long, I have never personally run into memory-usage issues with previous releases of Firefox and I can't really say if the improvements in this area are that drastic.
+<p>
+One of the more important fixes for Indian users of Firefox on Linux is its improved support for <a href="http://en.wikipedia.org/wiki/Complex_Text_Layout">complex text layout</a>, which is used in quite a few Indic scripts. <a href="m4_root_dir/2007/indic-scripts-and-linux.html">I have complained about it before</a> and I am happy to report that it now seems to work fairly well:
+<p>
+<div style="text-align: center;"><br /><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://3.bp.blogspot.com/_glrEiI4xsDc/SFULHlIV_rI/AAAAAAAAAZ4/ZOE30W_CMPM/s1600-h/ff2vsff3.png"><img style="margin: 0px auto 10px; display: block; text-align: center; cursor: pointer;" src="http://3.bp.blogspot.com/_glrEiI4xsDc/SFULHlIV_rI/AAAAAAAAAZ4/ZOE30W_CMPM/s400/ff2vsff3.png" alt="" id="BLOGGER_PHOTO_ID_5212084368605314738" border="0" /></a><br />Devanagari Text Rendering on Linux: Firefox 2 (left) v/s Firefox 3 (right)
+<p>
+The composite screen-shot above shows the difference between Firefox 2 and Firefox 3 when rendering <a href="http://en.wikipedia.org/wiki/Devanagari">Devanagari</a> text (from <a href="http://www.josh18.com/">Josh18</a>) under Linux. I have circled some of the words that were rendered incorrectly by Firefox 2 and correctly by Firefox 3. (Click on the image above to see a larger version.)
+<p>
+It has not been all wonderful though. There are still some issues that make my experience with Firefox 3 less than ideal. The most egregious of these is how some web pages using Flash either <a href="https://bugs.adobe.com/jira/browse/FP-146">cause Firefox 3 to freeze up</a> or just crash with a segmentation fault (of course, this could be due to a badly-written Flash Player plug-in). The other issue that has persisted from Firefox 2 but now seems to have become worse for me is how Firefox would just freeze for a second or so every now and then, especially noticeable while scrolling up and down large web pages. This might be related to <a href="http://en.wikipedia.org/wiki/Garbage_collection_(computer_science)">garbage-collection</a> cycles, but I am not sure about it.
+<p>
+Incidentally while Firefox 3 itself mercifully does not require <a href="http://www.gnome.org/">GNOME</a> (I am a happy <a href="http://www.kde.org/">KDE</a>-only user), its new crash-reporting tool does need a few of the GNOME libraries. This tool is now based on <a href="http://code.google.com/p/google-breakpad/">Google Breakpad</a>. I found that the crash reporting tool itself would crash while trying to send a crash report to Mozilla. That was fixed only after I installed <a href="http://www.gnome.org/projects/gconf/">GConf</a>, <a href="http://www.gnome.org/projects/ORBit2/">ORBit</a>, <a href="http://andrewtv.org/libIDL">libIDL</a>, <a href="http://dbus.freedesktop.org/">D-Bus</a> and <a href="http://dbus.freedesktop.org/releases/dbus-glib/">dbus-glib</a>. It still failed to send the crash reports and it turned out that I must also install and configure <a href="http://curl.haxx.se/">Curl</a>. Of course, ordinary Linux users with a typically-bloated Linux distribution would not run into such issues.
+<p>
+By the way, there is now a new pseudo-URL named "<tt>about:crashes</tt>" that would let you to lovingly admire the crash reports that your instance of Firefox has generated and submitted to Mozilla.
+<p>
+(<a href="http://rmathew.blogspot.com/2008/06/firefox-3.html">Originally posted on Blogspot</a>.)
+m4_end_post_rest
+m4_end_post

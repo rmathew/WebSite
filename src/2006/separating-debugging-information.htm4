@@ -1,0 +1,13 @@
+m4_define(`m4_post_date', `2006-06-30')m4_dnl
+m4_define(`m4_post_title', `Separating Debugging Information')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+Debugging information in an executable usually takes up a lot of space so developers usually "strip" an executable before shipping it. This however makes it difficult to diagnose problems in your programme reported by the users, especially when a problem is only reproducible in the reporting user's environment.
+<p>
+Microsoft's development tools support creating a separate "Program Database" (PDB) file for an executable containing debugging information for the executable. Its diagnostic tools support reading a PDB file for an executable , if one is available, to generate a more usable diagnostic report for a fault. You ship stripped executables to your users and when they report a fault, you ask them to install the corresponding PDB files to help you get a better diagnostic report. I think that this is a nice idea and I used to wonder if the GNU toolchain would ever support something like this.
+<p>
+Danny Smith pointed out to me that something similar is already supported by recent versions of GDB and binutils. You can use the <tt>--only-keep-debug</tt> option of <tt>objcopy</tt> for this purpose. For example:<br /><tt><br /><blockquote><br />gcc -g hello.c<br />objcopy --only-keep-debug a.out a.dbg<br />strip --strip-debug a.out<br /></blockquote><br /></tt><br /><tt>a.dbg</tt> now has the debugging symbols and <tt>a.out</tt> has been stripped of debugging symbols. When you want to debug <tt>a.out</tt> you can use:<br /><tt><br /><blockquote><br />gdb -s a.dbg -e a.out<br /></blockquote><br /></tt><br />Simple.
+<p>
+(<a href="http://rmathew.blogspot.com/2006/06/separating-debugging-information.html">Originally posted on Blogspot</a>.)
+m4_end_post

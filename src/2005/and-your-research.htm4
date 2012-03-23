@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2005-04-26')m4_dnl
+m4_define(`m4_post_title', `&ldquo;You and Your Research&rdquo;')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+Today I read <a href="http://www.cs.virginia.edu/~robins/YouAndYourResearch.html">the transcription</a> of a greatly inspiring speech given by <a href="http://en.wikipedia.org/wiki/Richard_Hamming">Richard Hamming</a>, courtesy <a href="http://www.lambda-the-ultimate.org/">Lambda the Ultimate</a>.
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/79.html">Originally posted on Advogato</a>.)
+m4_end_post

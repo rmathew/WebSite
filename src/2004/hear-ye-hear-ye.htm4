@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2004-04-05')m4_dnl
+m4_define(`m4_post_title', `Hear Ye``,'' Hear Ye!')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+<a href="http://classpath.wildebeest.org/planet/">Planet Classpath</a> has started collecting entries from <a href="http://www.advogato.org/person/rmathew/">my diary</a>! 
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/17.html">Originally posted on Advogato</a>.)
+m4_end_post

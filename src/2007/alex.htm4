@@ -1,0 +1,13 @@
+m4_define(`m4_post_date', `2007-10-16')m4_dnl
+m4_define(`m4_post_title', `Alex')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+The Economist carried <a href="http://www.economist.com/obituary/displaystory.cfm?story_id=9828615">an obituary for Alex</a> some time back. <a href="http://www.alexfoundation.org/alex.htm">Alex</a> was an African Grey parrot that Irene Pepperberg had trained to actually understand what it was talking about, unlike the parrots raised as pets which merely repeat whatever they hear.
+m4_begin_post_rest
+<p>
+For a parrot, Alex had impressive linguistic capabilities. It could describe objects, materials, shapes, colours, etc. It could express its desires. It could also ask questions. It could also count up to six and even had a notion of "zero". Very impressive.
+<p>
+(<a href="http://rmathew.blogspot.com/2007/10/alex.html">Originally posted on Blogspot</a>.)
+m4_end_post_rest
+m4_end_post

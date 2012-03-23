@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2005-10-25')m4_dnl
+m4_define(`m4_post_title', `SPAM')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I made the mistake of inadvertently posting a single message to <tt>comp.compilers</tt> using my office email address and within a day I was being spammed hard! That account had remained SPAM free for almost three years and it is rather painful to see it in the hands of these idiots. Thankfully, Thunderbird is getting better and better every day at detecting this SPAM, so there is some relief.
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/119.html">Originally posted on Advogato</a>.)
+m4_end_post

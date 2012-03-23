@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2004-04-15')m4_dnl
+m4_define(`m4_post_title', `NV40 a.k.a. NVIDIA GeForce6')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+<a href="http://germanjulian.com/open/unreal3_0002.wmv">Wow!</a>
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/20.html">Originally posted on Advogato</a>.)
+m4_end_post

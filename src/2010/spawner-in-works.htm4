@@ -1,0 +1,21 @@
+m4_define(`m4_post_date', `2010-01-23')m4_dnl
+m4_define(`m4_post_title', `Spawner in the Works')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I have started using <a href="http://www.mozilla.com/en-US/firefox/">Firefox</a> 3.6 and it <i>does</i> feel a little faster than its predecessor, though it's definitely not as snappy as <a href="http://www.google.com/chrome/">Chrome</a>. I should note that this is how Firefox 3.0 and 3.5 also felt at the time of their release, only to not feel that fast as time wore on and we received successive security and stability updates. I wonder why.
+m4_begin_post_rest
+<p>
+For Firefox 3.5, one of the reasons could be that my perception was altered by <a href="m4_root_dir/2009/google-chrome-on-slackware.html">having used Chrome and then having gone back to using Firefox</a>. Another reason could be that the <a href="http://www.sqlite.org/">SQLite</a> databases used by Firefox bloat up over time and need to be "<a href="http://www.sqlite.org/lang_vacuum.html">vacuumed</a>" periodically - I use <a href="http://cid-65b7c3a02dd61662.skydrive.live.com/self.aspx/.Public/compff">a simple script</a> to do this for me, though it doesn't seem to have that much of an effect on Firefox (except on the disc-usage of my profile).
+<p>
+Firefox also consumes a lot of memory after several hours of browsing, thus slowing it further. This is not that bad a problem for me since I close my browser and log off when I'm done at the end of the day, but some people apparently like to keep their browsers running for days on end while keeping tens of tabs open. For such people, the problem is exacerbated and using Firefox can be frustrating. They seem to have a much better experience with Chrome.
+<p>
+The Firefox developers have been relentlessly plugging memory leaks and improving its <a href="http://blog.pavlov.net/2008/03/11/firefox-3-memory-usage/">memory usage</a>. It is sobering to note that even if they have absolutely no memory leaks, they will still have to contend with <a href="http://blog.pavlov.net/2007/11/10/memory-fragmentation/">memory fragmentation</a>. They have been using a better memory allocator (<a href="http://people.freebsd.org/~jasone/jemalloc/bsdcan2006/jemalloc.pdf">jemalloc</a>) since Firefox 3.0 that reduces fragmentation but does not eliminate it entirely. Short of using a compacting <a href="http://en.wikipedia.org/wiki/Garbage_collection_%28computer_science%29">garbage collector</a>, the only way out seems to be to use <a href="http://www.chromium.org/developers/design-documents/multi-process-architecture">a multi-process architecture like that in Chrome</a>.
+<p>
+While a multi-process model might seem good for UI responsiveness and shielding against misbehaving add-ons and plug-ins, its benefit in reining in memory usage seems to be under-appreciated. The benefit of such a model was first pointed out to me by my friend Kingshuk who noted it in the architecture of the <a href="http://httpd.apache.org/">Apache HTTP server</a>. The <a href="http://httpd.apache.org/docs/trunk/mod/mpm_common.html#maxrequestsperchild">MaxRequestsPerChild</a> directive in the server configuration file controls how many requests a child server process can handle before it is killed. This limits the amount of memory such a process can consume due to memory leakage. Once the process dies, the operating system will reclaim all the memory that was allocated to it.
+<p>
+It seems that the Firefox developers are already moving in that direction with a project code-named <a href="https://wiki.mozilla.org/Electrolysis">Electrolysis</a>. I hope that this results in a better browser for those of us who have decided to stick with Firefox.
+<p>
+(<a href="http://rmathew.blogspot.com/2010/01/spawner-in-works.html">Originally posted on Blogspot</a>.)
+m4_end_post_rest
+m4_end_post

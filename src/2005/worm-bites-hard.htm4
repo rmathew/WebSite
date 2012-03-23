@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2005-05-04')m4_dnl
+m4_define(`m4_post_title', `Worm Bites Hard')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+Once again, my Hotmail account is being hammered really hard by a burst of spam <i>almost all of it</i> containing the payload for the <a href="http://www.trendmicro.com/vinfo/virusencyclo/default5.asp?VName=WORM%5FSOBER%2ES">WORM_SOBER.S</a> worm! Unlike Gmail, Hotmail doesn't show me the IP address from where the message was received unless there is an explicit "<tt>X-Originating-IP</tt>" header, so I can't trace it to its origins. The irritating thing is that Hotmail already knows that the payload is a worm and thus refuses to let me download the attachment. Why can't they give me an option to tell them to delete such mails immediately upon receipt?  The rate of incoming junk is <i>far higher</i> than previous such bursts and I have to constantly keep cleaning my mailbox. Interestingly, some of the forged sender addresses indicate that someone reading the GCC list has been infected hard - I can't imagine how else the worm would have got hold of the email addresses of such a disproportionately large number of GCC hackers as well as so many CS-related sites. 
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/84.html">Originally posted on Advogato</a>.)
+m4_end_post

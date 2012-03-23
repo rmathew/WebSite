@@ -1,0 +1,19 @@
+m4_define(`m4_post_date', `2008-05-24')m4_dnl
+m4_define(`m4_post_title', `ACM')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I received a mass-mailed letter this week from the <a href="http://www.acm.org/">ACM</a> (Association for Computing Machinery) asking me to join it. The ACM is an organisation of computer scientists and professionals. It publishes several magazines, journals and newsletters related to computer science and engineering. It organises conferences, has several <a href="http://www.acm.org/sigs">Special Interest Groups</a> (SIGs), conducts programming competitions and provides a network for seeking jobs. The <a href="http://acmbangalore.org/">ACM Bangalore</a> chapter in particular has been quite active in recent times.
+m4_begin_post_rest
+<p>
+The letter offered a discount for the first year on the annual subscription fee. It offered a "Professional Membership" for $84 (instead of $99) and a "Professional Membership Plus Digital Library" for $183 (instead of $198). These included a print subscription to the <a href="http://www.acm.org/cacm/">Communications of the ACM</a> magazine as well as on-line access to the <a href="http://www.acmqueue.org/">ACM Queue</a> magazine. I found the offered rates a bit misleading because <a href="https://campus.acm.org/public/ProfLevel/proflevel_control.cfm?level=3&country=India&form_type=Professional">the ACM web-site offers the same memberships to professionals in India for just $25 and $43 respectively</a>. At about Rs 1,850 for the full membership, it certainly looks attractive for someone seriously interested in computer science.
+<p>
+Despite all these benefits, I do not want to join the ACM because I <i>hate</i> two things in particular that the ACM does, which are at odds with its proclaimed status as an "educational society":<br /><ol><li>It <a href="m4_root_dir/2005/wants-to-be-free.html">locks up</a> valuable research in computer science behind its <a href="http://portal.acm.org/dl.cfm">Digital Library</a> even when the research is publicly-funded and the researchers are not paid for publishing their papers. If you are not a member of the ACM, it becomes quite expensive to refer to these papers.</li><li>It sponsors conferences in such a way that non-members are <a href="m4_root_dir/2006/expensive-conferences.html">charged exorbitantly</a> for attending such conferences. The difference is quite often <i>far more</i> than an annual subscription to the ACM.</li></ol><br />The ACM appears to be interested more in making profit than in promoting computer science. <a href="http://www.nhplace.com/kent/PFAQ/acm.html">Kent Pitman elaborates on these and other reasons</a> for pulling out of the ACM. The merits of such a membership was also <a href="http://discuss.fogcreek.com/joelonsoftware4/default.asp?cmd=show&ixPost=134632">discussed some time back on Joel on Software</a>.
+<p>
+Before the advent of the Internet, organisations like the ACM provided an opportunity to meet your peers and a platform for sharing your research. This has now become much simpler due to the Internet (albeit with a far lower signal-to-noise ratio). The Internet cannot beat in-person interactions of the sort afforded by conferences, but even there "<a href="http://barcampbangalore.org/wiki/Main_Page">Barcamps</a>" and "<a href="http://en.wikipedia.org/wiki/Unconference">Unconferences</a>" prove to be better and far cheaper.
+<p>
+In other words, there just isn't a compelling reason for me to join the ACM.
+<p>
+(<a href="http://rmathew.blogspot.com/2008/05/acm.html">Originally posted on Blogspot</a>.)
+m4_end_post_rest
+m4_end_post

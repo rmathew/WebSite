@@ -1,0 +1,15 @@
+m4_define(`m4_post_date', `2006-09-08')m4_dnl
+m4_define(`m4_post_title', `Good Bye Advogato!')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+<a href="http://www.advogato.org/article/897.html">Advogato is going offline</a>.
+<p>
+I feel a bit sad about it even though I had stopped updating <a href="http://www.advogato.org/person/rmathew/">my Advogato diary</a> and have been using Blogger for blogging for the last three months. After all, Advogato is where I started blogging regularly.
+<p>
+<a href="http://www.advogato.org/article/897.html#24">mibus provides a nice tip</a>: You can access all your Advogato diary entries in a convenient XML format by appending "diary.xml" to your normal diary URL. For example:
+<p>
+<div style="text-align: center;"><code>http://www.advogato.org/person/rmathew/diary.xml</code><br /></div><br />There is a "<a href="http://advogato.ev-en.org/">Planet (Former) Advogato</a>" for aggregating the blogs of all those who used to blog on Advogato but have moved elsewhere for one reason or the other.
+<p>
+(<a href="http://rmathew.blogspot.com/2006/09/good-bye-advogato.html">Originally posted on Blogspot</a>.)
+m4_end_post

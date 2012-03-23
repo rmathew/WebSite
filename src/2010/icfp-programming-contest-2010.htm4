@@ -1,0 +1,29 @@
+m4_define(`m4_post_date', `2010-06-22')m4_dnl
+m4_define(`m4_post_title', `ICFP Programming Contest 2010')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+As has become customary for me, I participated in the annual <a href="http://icfpcontest.org/">ICFP programming contest</a> this weekend. I participated as a lone coder this time with the team name "rmathew". The contest this year was irritating and frustrating, not to mention quite humbling (as usual).
+m4_begin_post_rest
+<p>
+The <a href="http://icfpcontest.org/2010/task/">task description</a> was obtuse and it took me at least a couple of readings to even understand what we were supposed to do. Even after understanding it, I didn't feel motivated to solve it as it seemed to have been devised simply to frustrate people. I still went ahead with it as I had already set aside some time for this year's contest.
+<p>
+The overall task was to create cars and fuel for such cars. You had to create cars for which it would be difficult for others to supply fuel and you had to supply fuel to as many other cars as possible. The engines of the cars were provided as streams of "trits" (ternary, or base-3, digits) for which you had to figure out the encoding. Fuel had to be created using circuits that used ternary logic gates for which you had to figure out the encoding of the circuits, the logic used by the gates, the input stream provided to the circuits by the server and the validating key in the output stream without which your circuits were rejected.
+<p>
+The worst part was that you had figure all this out by using educated guesses and by looking at the error messages spewed by the server hosted by the organisers. Needless to say, the server didn't stay up for long and had issues throughout the contest.
+<p>
+The gates took two input trits (left and right) and produced two output trits (left and right). My guess about the format used for encoding the circuits turned out to be right and after a couple of trials it became apparent that there was only one type of gate. I could not figure out a programmatic way of determining the logic used by the gates, so I used pen and paper with a few simple circuits to figure out the logic using the error messages from the server as a guide. The truth-tables (left-input varies by rows, right-input by columns) turned out to be:
+<p>
+<div class="separator" style="clear: both; text-align: center;"><a href="http://4.bp.blogspot.com/_glrEiI4xsDc/TCDfMkq3u7I/AAAAAAAAA6s/1ajShXsFWAg/s1600/logic.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/_glrEiI4xsDc/TCDfMkq3u7I/AAAAAAAAA6s/1ajShXsFWAg/s320/logic.png" /></a></div>Which boils down to:<br /><tt><br />&nbsp;&nbsp;&nbsp;&nbsp;LO = (LI - RI + 3) mod 3<br />&nbsp;&nbsp;&nbsp;&nbsp;RO = (LI * RI + 2) mod 3<br /></tt><br />The nice structure of the left-output table also allows you to then determine the input stream used by the server. Using this information, I coded a simple circuit simulator that I then used on the key circuit given in the task description to find out the key sequence desired in every output stream.
+<p>
+To proceed further, I needed to figure out how to create a circuit that can convert a given input stream into a given output stream. This is where I hit a dead-end - I just could not work out how to approach this problem without using brute force and that seemed quite prohibitive considering the possibilities. To distract myself I created a simple circuit visualisation tool that converted a description like this:<br /><tt><br />&nbsp;&nbsp;&nbsp;&nbsp;0L:<br />&nbsp;&nbsp;&nbsp;&nbsp;X3R0#1R2L,<br />&nbsp;&nbsp;&nbsp;&nbsp;1L0L0#1L3L,<br />&nbsp;&nbsp;&nbsp;&nbsp;0R2R0#3R2R,<br />&nbsp;&nbsp;&nbsp;&nbsp;1R2L0#X0R:<br />&nbsp;&nbsp;&nbsp;&nbsp;3L<br /></tt><br />into a file that could then be converted by <a href="http://www.graphviz.org/">Graphviz</a> into this image:
+<p>
+<div class="separator" style="clear: both; text-align: center;"><a href="http://2.bp.blogspot.com/_glrEiI4xsDc/TCDjQGT_61I/AAAAAAAAA60/oAgd83I3DE8/s1600/l2l_4.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://2.bp.blogspot.com/_glrEiI4xsDc/TCDjQGT_61I/AAAAAAAAA60/oAgd83I3DE8/s320/l2l_4.png" /></a></div>Coming back to the circuit-construction problem, I noticed that because of the structure of the left-output truth-table, you can work out the right-input and right-output streams for a gate for fixed left-input and left-output (LILO) streams. I toyed with the idea of stitching such "Lilo" nodes together to construct a solution using a solver programme named "Stitch" (<a href="http://en.wikipedia.org/wiki/Lilo_%26_Stitch">Ha!</a>), but that didn't get me anywhere.
+<p>
+I then decided to give up on this year's contest. I hope next year's contest is better. (I still fondly remember the contests for <a href="http://www.boundvariable.org/">2006</a> and <a href="http://save-endo.cs.uu.nl/">2007</a>.)
+<p>
+If you're interested, you can see the <a href="http://bitbucket.org/rmathew/icfpc">source-code on Bitbucket</a>.
+<p>
+(<a href="http://rmathew.blogspot.com/2010/06/icfp-programming-contest-2010.html">Originally posted on Blogspot</a>.)
+m4_end_post_rest
+m4_end_post

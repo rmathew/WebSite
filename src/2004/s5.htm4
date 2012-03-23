@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2004-11-26')m4_dnl
+m4_define(`m4_post_title', `S5')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+As a standards-based slide presentation framework for browsers, <a href="http://www.meyerweb.com/eric/tools/s5/">S5</a> is quite impressive!
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/48.html">Originally posted on Advogato</a>.)
+m4_end_post

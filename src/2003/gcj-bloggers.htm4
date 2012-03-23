@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2003-06-09')m4_dnl
+m4_define(`m4_post_title', `GCJ Bloggers')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+For some wonderful and happy reason, <a href="http://www.advogato.org/person/tromey/">tromey</a>, <a href="http://www.advogato.org/person/mjw/">mjw</a>, <a href="http://www.advogato.org/person/Anthony/">Anthony</a> and Jeff have all suddenly become active on <a href="http://www.advogato.org/proj/GNU%20gcj/">GCJ</a> again, all at the same time, after being dormant for  several weeks! For some weird reason, they had also all gone  dormant at about the same time.  This weekend I finally found out that the intermittent and increasingly irritating crashes on my home PC while  building GCC on Linux was actually <a href="http://www.bitwizard.nl/sig11/">due to a defective RAM module</a> - after removing the offending module, everything was back to normal, even after extended stress testing.
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/1.html">Originally posted on Advogato</a>.)
+m4_end_post

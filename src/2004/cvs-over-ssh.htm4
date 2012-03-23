@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2004-04-07')m4_dnl
+m4_define(`m4_post_title', `CVS over SSH')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+Sean Middleditch points out that I should ask SSH to compress the transmitted data by using the "<tt>-C</tt>" flag. The SSH manual says that I can also set the variables "<tt>Compression</tt>" and "<tt>CompressionLevel</tt>" to achieve the same effect. Thanks a lot Sean! 
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/19.html">Originally posted on Advogato</a>.)
+m4_end_post

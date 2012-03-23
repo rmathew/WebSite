@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2005-08-12')m4_dnl
+m4_define(`m4_post_title', `Sabbatical')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+<a href="http://vikgup.blogspot.com/2005/08/lets-get-serious.html">VikGup takes a sabbatical</a> for three months starting next week. I really envy him and I wish I could do the same.  Sabbaticals might be quite common in the west, but here in India they are very rare. Even when people want to take sabbaticals, many a time they are discouraged. I hope more people take off on sabbaticals like VikGup has done so that employers and family realise that it is OK, and actually quite healthy, to take a sabbatical.   Have fun VikGup!   PS: Is Mohan <a href="http://gcc.gnu.org/ml/java/2005-08/msg00034.html">back</a>? 
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/104.html">Originally posted on Advogato</a>.)
+m4_end_post

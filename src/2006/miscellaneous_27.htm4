@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2006-03-27')m4_dnl
+m4_define(`m4_post_title', `Miscellaneous')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+<a href="http://steve-yegge.blogspot.com/">Steve Yegge is now on Blogger</a> for those of you who can't seem to have enough of his rants.   Ranjit Madampath pointed me to <a href="http://discuss.joelonsoftware.com/default.asp?joel.3.219431.12">a rather hilarious entry on Frameworks in the Joel on Software discussion group</a>.   Planet Scheme used to be available as <a href="http://planet-scheme.yi.org/">planet-scheme.yi.org</a>, but it seems to be dead now. I used to like reading the aggregated weblogs of a lot of smart Scheme hackers, <a href="http://jaortega.wordpress.com/">the weblog of Jose Antonio Ortega Ruiz</a> in particular. 
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/155.html">Originally posted on Advogato</a>.)
+m4_end_post

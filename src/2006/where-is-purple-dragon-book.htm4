@@ -1,0 +1,19 @@
+m4_define(`m4_post_date', `2006-09-06')m4_dnl
+m4_define(`m4_post_title', `Where is The Purple Dragon Book?')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+The "second" edition of the <a href="http://en.wikipedia.org/wiki/Dragon_Book">Dragon Book</a> (a.k.a. "Compilers: Principles, Techniques and Tools" by Alfred Aho and others) has already been delayed a lot, considering that the previous edition was published twenty years ago in 1986 and the new edition was supposed to be published "soon" years ago. The final publishing date was supposed to be 31<sup>st</sup> August 2006 and the corresponding <a href="http://www.amazon.com/gp/product/0321486811/">Amazon.com page </a>and the <a href="http://www.aw-bc.com/catalog/academic/product/0,1144,0321486811,00.html">Addison-Wesley page</a> continue to stick to the same date as of this writing and yet proclaim the title to be unavailable. <a href="http://www-db.stanford.edu/%7Eullman/">Jeffrey Ullman</a> says that the book is finally done and that they handed it over to the publisher at the end of June 2006, so I wonder what is causing all these delays and whether the wait would be worth it. Note that <a href="http://wps.aw.com/aw_aho_compilers_2/0,11227,2663889-,00.html">an online preview of some of the revised as well as newly-added chapters</a> is still available, though the site uses an awful amount of Flash, JavaScript and pop-ups for some weird reason.
+<p>
+I put "second" in quotes since the publisher says that this is the second edition, though coming after the Green Dragon Book and the Red Dragon Book, I think this should be called the <span style="font-style: italic;">third</span> edition of the book. However, I do realise that there was a change in the title of the book and it was thoroughly revised when it was published as the Red Dragon Book, so this is just nitpicking on my part. It has already been nicknamed the Purple Dragon Book based on <a href="http://www.strangetonic.com/current/dragonbook/">its cover</a>, continuing the convention for giving nicknames to its predecessors.
+<p>
+I read parts of the Red Dragon Book when I took the Compilers course in my college about twelve years ago. It was a bit boring (as are almost all textbooks I have ever read), but it was the only book I could lay my hands on that covered bits of everything about compiler construction. Even to this day, <span style="font-style: italic;">20 years</span> after it was published, it still seems to be a recommended book if you want to know about the basics of compiler construction. However, it is acknowledged to be terribly out-of-date with the current techniques, so a major revision was long overdue.
+<p>
+I have been meaning to brush up on the fundamentals of compiler construction techniques for several years now, especially since the time I was introduced to the development of GCC, but my excuse was that I wanted to postpone it till the time the new edition of the Dragon Book becomes available (which was always marked to be released "any time now"). Now that the Purple Dragon Book would become available "soon", my excuse is that I would at least wait for the second printing so that all the readily-apparent errors are corrected and I don't have to read the book with a thick errata in hand. I would also wait for the low-priced Indian edition to become available since the international editions are atrociously priced in my opinion.
+<p>
+Yes, I do make up really silly excuses for what is ultimately procrastination driven by plain old sloth.
+<p>
+<b>Update (2006-06-07):</b> As luck would have it, just a day after I write about the unavailability of this book, both Amazon.com and Addison-Wesley now show it as in-stock and ready for shipping.
+<p>
+(<a href="http://rmathew.blogspot.com/2006/09/where-is-purple-dragon-book.html">Originally posted on Blogspot</a>.)
+m4_end_post

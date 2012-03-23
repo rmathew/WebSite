@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2005-03-28')m4_dnl
+m4_define(`m4_post_title', `PDF Viewer Under Linux')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+<a href="http://gnu.wildebeest.org/diary/index.php?p=60">Mark</a>: Honeymoon? Congratulations!  As for <a href="http://www.gnome.org/projects/evince/">Evince</a>, my PC only has KDE and therefore I don't think I can use it. In any case, I like the way Adobe Acrobat Reader cleanly renders PDFs and I especially like the navigation and zoom controls. The last I checked, both XPDF and KPDF were rather lacking in this area.
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/69.html">Originally posted on Advogato</a>.)
+m4_end_post

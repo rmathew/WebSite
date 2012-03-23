@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2005-10-03')m4_dnl
+m4_define(`m4_post_title', `Madness')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+After "7/7", Britain seems to have <a href="http://www.guardian.co.uk/attackonlondon/story/0,16132,1575532,00.html">gone bonkers</a> just like the US did after "9/11". If you have access to the latest issue of The Economist, also read "<a href="http://www.economist.com/displaystory.cfm?story_id=E1_QQGGDGG">Conference kick-out</a>" in the "Britain" section. Sheesh!
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/115.html">Originally posted on Advogato</a>.)
+m4_end_post

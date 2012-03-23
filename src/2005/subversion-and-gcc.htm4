@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2005-10-25')m4_dnl
+m4_define(`m4_post_title', `Subversion and GCC')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+<a href="http://gcc.gnu.org/ml/gcc/2005-10/msg00758.html">GCC would be moving to Subversion</a> around this weekend. In general, I feel this is a good move and will probably help our prolific developers a lot. I do have concerns about <a href="http://gcc.gnu.org/ml/gcc/2005-10/msg00575.html">its alarming usage of disc space relative to CVS</a> though. As it is, my home PC is under a bit of a strain trying to squeeze in GCC mainline and <tt>gcjx-branch</tt> copies, not to mention snapshots of these that I actually use as working copies, on the hard disc partitions that I have provided to Linux. After the move to Subversion, I will have to make some adjustments to the disc partitions to fit all this stuff in.  However, this will probably have to wait as I would be on vacation in <a href="http://www.ootyindia.com/">Ooty</a> most of next week.
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/119.html">Originally posted on Advogato</a>.)
+m4_end_post

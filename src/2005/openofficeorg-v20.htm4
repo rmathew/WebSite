@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2005-10-25')m4_dnl
+m4_define(`m4_post_title', `OpenOffice.org v2.0')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I have been waiting for this release for quite some time now, so as soon as it came out, I downloaded the Linux tarball. To my horror, I find that unlike previous releases it does not contain a simple installer but <i>many</i> RPMs! Why did they have to do this? It is so silly. An alternative for me is to build it from sources, but I do not have the energy or the enthusiasm to do it. Sheesh! 
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/119.html">Originally posted on Advogato</a>.)
+m4_end_post

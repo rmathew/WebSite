@@ -33,11 +33,8 @@ media="print">
 m4_include( `sitesrch.htm4')
 <div class="right">
 <span class="doNotDisplay">Related Sites:</span>
-<a href="http://rmathew.com/atom.xml" title="&ldquo;News&rdquo; Feed">
+<a href="http://rmathew.com/atom.xml" title="Feed for posts">
 <img src="m4_root_dir/images/feed.png" alt="Feed Icon">&nbsp;<b>Feed</b></a>
-|
-<a href="http://rmathew.blogspot.com/ncr" title="Weblog">
-<img src="m4_root_dir/images/blogger.png" alt="Blogger Icon">&nbsp;<b>Blog</b></a>
 |
 <a href="http://twitter.com/rmathew4tw" title="Tweets">
 <img src="m4_root_dir/images/twitter.png" alt="Twitter Icon">&nbsp;<b>Twitter</b></a>
@@ -62,7 +59,7 @@ m4_ifelse(m4_page_section,`Books',`class="highlight"')
 title="Reviews of books">Book Reviews</a> |
 <a href="m4_root_dir/archives/index.html"
 m4_ifelse(m4_page_section,`Archives',`class="highlight"')
-title="Older news entries">News Archives</a>
+title="Older posts">Archives</a>
 </div>
 </div>
 <div id="side-bar">

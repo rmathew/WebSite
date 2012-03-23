@@ -1,0 +1,19 @@
+m4_define(`m4_post_date', `2009-01-19')m4_dnl
+m4_define(`m4_post_title', `The End of DDJ')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+Just after <a href="m4_root_dir/2008/eof-on-ddj-subscription.html">my DDJ subscription ran out</a>, I got to know <a href="http://herbsutter.wordpress.com/2008/12/31/the-2008-media-inflection-meet-dr-web-the-new-gorilla/">via Herb Sutter's blog</a> that <a href="http://www.ddj.com/linux-open-source/212700891">DDJ will no longer have a print edition</a>. The sad part was that the last print issue of DDJ had <a href="http://www.ericsink.com/entries/rip_dr_dobbs.html">a big grammatical error on its cover page</a>.
+m4_begin_post_rest
+<p>
+As <a href="m4_root_dir/2008/dr-dobbs-journal.html">I have noted before</a>, DDJ had become really thin compared to its former self. It had become sickly in that most of the articles were about fads appealing to the lowest common denominator in software development rather than about timeless programming techniques. It had also dropped considerably in price - folks in the US could even get it for free. I guess I should have foreseen its death.
+<p>
+My other favourite computer print magazine, <a href="http://en.wikipedia.org/wiki/Byte_(magazine)">Byte</a>, has been dead since 1998. I don't know of any other non-academic general-purpose print magazine of a good quality for programmers.
+<p>
+Many people argue that the web is a much better substitute for such tree-devouring print magazines. I would only agree with this somewhat. The web is an extremely haphazard and huge collection of knowledge, most of it of dubious quality and written for people with very short attention spans. A print magazine is far more organised and has the benefit of an editor ensuring focus and quality. It is also far more comfortable, at least for me, to read a long article on paper rather than on a monitor.
+<p>
+Unfortunately most content now seems destined for the web. Even print magazines now have lots of "web-only" content, something that I find quite irritating. I love the web and use it almost every day. I also support on-line access to the contents of a magazine. But I don't support all useful content being available only via the web.
+<p>
+(<a href="http://rmathew.blogspot.com/2009/01/end-of-ddj.html">Originally posted on Blogspot</a>.)
+m4_end_post_rest
+m4_end_post

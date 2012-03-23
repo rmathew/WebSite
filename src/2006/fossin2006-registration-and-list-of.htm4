@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2006-11-09')m4_dnl
+m4_define(`m4_post_title', `FOSS.IN/2006 Registration and List of Talks')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+You can now <a href="https://foss.in/2006/cfp/delegates/">register as a delegate for FOSS.IN/2006</a>. The <a href="http://foss.in/2006/info/02-Nov-2006_Final_List_of_talks">final list of talks for FOSS.IN/2006</a> has also been released.
+<p>
+(<a href="http://rmathew.blogspot.com/2006/11/fossin2006-registration-and-list-of.html">Originally posted on Blogspot</a>.)
+m4_end_post

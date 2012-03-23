@@ -1,0 +1,53 @@
+m4_define(`m4_post_date', `2006-06-23')m4_dnl
+m4_define(`m4_post_title', `Calculating EMIs')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+Most of the software engineers I know here in Bangalore have either already bought a house or are planning to buy one. The biggest incentives are perhaps the easy availability of home loans at interest rates far lower than that available to the previous generation and the tax-breaks one gets here in India on the principal and the interest paid on home loans. Our generation is also not averse to taking on a debt unlike the previous generation. In addition, many of us feel that it is better to take the plunge now and enjoy the comforts of your own house than to diligently save all the required money for years and then buy a house, only to find out that the dream was realised a bit too late in your life.
+m4_begin_post_rest
+<p>
+When one takes a loan, a natural question that comes to mind is how much would the EMI (Equated Monthly Installment) be that one has to pay back to the bank every month. Finding out the EMI for different tenures of the home loan allows one to select the best tenure based on one's current and projected income and expenses and possibly other factors.
+<p>
+What I find is that most software engineers would rather construct or borrow elaborate spreadsheets for this purpose or use a web-based EMI calculator rather than calculating it themselves. Some brave souls ask around for the formula to calculate EMIs and then try to write a programme that calculates the EMIs for them. I find it particularly appalling that very few bother to figure it out for themselves, especially since it involves elementary algebra that most of us have surely learnt in high school. It either reflects the creeping sloth and sloppiness in our generation or the rote learning and regurgitating of formulae that our system of education seems to encourage. In any case, I attempt to show in this post how simple it really is to figure out how to calculate EMIs on your own and to hopefully encourage my fellow engineers into applying the basic mathematics they learn in school to real-life problems themselves instead of looking around to see if someone else has solved it for them.
+<p>
+For the sake of simplicity, assume that the loan is offered on a "monthly rest" basis. That is, the bank calculates the interest at the end of every month on the amount you still owe to the bank at the beginning of the month, adds it to the amount you already owe and then deducts your EMI from this to calculate the total amount you still owe to the bank at the beginning of the next month. Some banks offer loans on a "daily rest" basis, where the outstanding amount and the interest is recalculated every day, but you still pay back on a monthly basis. The older "annual rest" basis is no longer in use as far as I can tell. Note that it is easy to adapt the formula given here to the "daily rest" basis and that is, of course, left as an exercise for the reader.
+<p>
+Suppose you take on a loan for <span style="font-weight: bold;">P</span> Rupees, the tenure of the loan is <span style="font-weight: bold;">n</span> months (for example, n=240 for a 20-year loan), the <span style="font-style: italic;">monthly rate</span> of interest is <span style="font-weight: bold;">r</span> (usually calculated by dividing the annual rate of interest quoted by the bank by 12, the number of months in a year, and dividing that by 100 as the rate is usually quoted as a percentage) and <span style="font-weight: bold;">E</span> Rupees is the EMI you have to pay every month. Let us use P<sub>i</sub> to denote the amount you still owe to the bank at the end of the i-th month. At the very beginning of the tenure, i=0 and P<sub>0</sub>=P, the principal amount you took on as a loan.
+<p>
+At the end of the first month, you owe the bank the original amount P, the interest accrued at the end of the month r&times;P and you pay back E. In other words:  
+<p>
+<div style="text-align: center;">P<sub>1</sub> = P + r&times;P - E <br /></div><br />or to rewrite it slightly differently:
+<p>
+<div style="text-align: center;">P<sub>1</sub> = P&times;(1 + r) - E <br /></div><br />Similarly, at the end of the second month the amount you still owe to the bank is:
+<p>
+<div style="text-align: center;">P<sub>2</sub> = P<sub>1</sub>&times;(1 + r) - E <br /></div><br />or substituting the value of P<sub>1</sub> we calculated earlier:
+<p>
+<div style="text-align: center;">P<sub>2</sub> = (P&times;(1 + r) - E)&times;(1 + r) - E <br /></div><br />and once again expanding it and rewriting it slightly differently:
+<p>
+<div style="text-align: center;">P<sub>2</sub> = P&times;(1 + r)<sup>2</sup> - E&times;((1 + r) + 1) <br /></div><br />where "x<sup>y</sup>" denotes "x raised to the power y" or "x multiplied by itself y times". To make this look slightly simpler, we substitute "(1 + r)" by "t" and now it looks like this:
+<p>
+<div style="text-align: center;">P<sub>2</sub> = P&times;t<sup>2</sup> - E&times;(1 + t) <br /></div><br />Continuing in this fashion and calculating P<sub>3</sub>, P<sub>4</sub>, etc. we quickly see that P<sub>i</sub> is given by:
+<p>
+<div style="text-align: center;">P<sub>i</sub> = P&times;t<sup>i</sup> - E&times;(1 + t + t<sup>2</sup> + ... + t<sup>i-1</sup>) <br /></div><br />At the end of n months (that is, at the end of the tenure of the loan), the total amount you owe to the bank should have become zero. In other words, P<sub>n</sub>=0. This implies that:
+<p>
+<div style="text-align: center;">P<sub>n</sub> = P&times;t<sup>n</sup> - E&times;(1 + t + t<sup>2</sup> + ... + t<sup>n-1</sup>) = 0 <br /></div><br />which means that:
+<p>
+<div style="text-align: center;">P&times;t<sup>n</sup> = E&times;(1 + t + t<sup>2</sup> + ... + t<sup>n-1</sup>) <br /></div><br />We can simplify this further by noticing that we have a <a href="http://en.wikipedia.org/wiki/Geometric_progression">geometric series</a> of n terms here with a common ratio of t and a scale factor of 1. The sum of such a series is given by "(t<sup>n</sup> - 1)/(t - 1)", which we substitute in the above equation to yield:
+<p>
+<div style="text-align: center;">P&times;t<sup>n</sup> = E&times;(t<sup>n</sup> - 1)/(t - 1) <br /></div><br />which can be rewritten as:
+<p>
+<div style="text-align: center;">E = P&times;t<sup>n</sup>&times;(t - 1)/(t<sup>n</sup> - 1) <br /></div><br />which can again be rewritten by substituting the value of t back as "(1 + r)" as:
+<p>
+<div style="text-align: center;">E = P&times;r&times;(1 + r)<sup>n</sup>/((1 + r)<sup>n</sup> - 1) <br /></div><br />and <span style="font-style: italic;">this</span> is the formula for calculating your EMI. This formula can also be rendered more clearly as:
+<p>
+<div class="separator" style="clear: both; text-align: center;"><img border="0" src="http://4.bp.blogspot.com/_glrEiI4xsDc/S0WLhz4JllI/AAAAAAAAA44/kQsk1bEY7Lk/s320/emiform.png" /><br /></div><br />Suppose you take a loan from a bank of 10,00,000 Rupees for 15 years at 8.5% annual rate of interest calculated on a monthly rest basis. In that case, <span style="font-weight: bold;">P</span> = 10,00,000, <span style="font-weight: bold;">n</span> = 15&times;12 = 180 and <span style="font-weight: bold;">r</span> = (8.5/12)/100 = 0.0070833333. Putting these values into the formula given above gives us <span style="font-weight: bold;">E</span> = 9847.40 (approximately).
+<p>
+When you write a programme to calculate your EMI using the formula given above, be careful to structure your computations to accommodate loss of precision and rounding errors. For more information, read "<a href="http://cch.loria.fr/documentation/IEEE754/ACM/goldberg.pdf">What Every Computer Scientist Should Know About Floating-Point Arithmetic</a>" (PDF) by David Goldberg or section 4.2, "Floating Point Arithmetic", in "The Art of Computer Programming, Volume 2: Seminumerical Algorithms" (3rd Edition) by Donald Knuth.
+<p>
+<span style="font-weight: bold;">Update (2006-12-19):</span> Clarified how "r" is calculated from the quoted interest rate and added an example to illustrate the application of the formula. Added references to Goldberg's article and Knuth's book for the caveats to bear in mind while using floating-point arithmetic.
+<p>
+<span style="font-weight: bold;">Update (2007-02-01):</span> The only intent of this post was to show how basic mathematics can be used to calculate EMIs. I am just an ordinary computer programmer and not a financial consultant. Please stop asking me for advice on your loan plans!
+<p>
+(<a href="http://rmathew.blogspot.com/2006/06/calculating-emis.html">Originally posted on Blogspot</a>.)
+m4_end_post_rest
+m4_end_post

@@ -1,0 +1,13 @@
+m4_define(`m4_post_date', `2008-07-02')m4_dnl
+m4_define(`m4_post_title', `Major Programming Contests This Month')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+There are a couple of major programming contests coming up this month. The first one is the <a href="http://www.icfpcontest.org/">ICFP Programming Contest 2008</a> (11-14 July). The second one is the <a href="http://code.google.com/codejam/">Google Code Jam 2008</a> (qualification round on 16 July).
+m4_begin_post_rest
+<p>
+There was also <a href="http://www.ddj.com/architect/207404123">an article in DDJ about programming contests</a> a couple of months back. It is an interesting read, but there is nothing new in there for those who are already familiar with <a href="http://www.topcoder.com/">TopCoder</a>.
+<p>
+(<a href="http://rmathew.blogspot.com/2008/07/major-programming-contests-this-month.html">Originally posted on Blogspot</a>.)
+m4_end_post_rest
+m4_end_post

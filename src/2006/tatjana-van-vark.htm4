@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2006-03-28')m4_dnl
+m4_define(`m4_post_title', `Tatjana van Vark')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+<a href="http://www.tatjavanvark.nl/">Tatjana van Vark</a> looks like an amazing Dutch inventor and machinist. Just look at her works and you'll know what I mean. My favourites were the <a href="http://www.tatjavanvark.nl/tvvc/scop.html">oscilloscope</a> that she created when she was just 14 years old and an Enigma-like "<a href="http://www.tatjavanvark.nl/tvv1/pht10.html">Coding Machine</a>". I just wish they had put up some more information about the devices than just the pictures. Another of those humbling experiences for yours truly.
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/156.html">Originally posted on Advogato</a>.)
+m4_end_post

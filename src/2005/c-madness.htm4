@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2005-09-13')m4_dnl
+m4_define(`m4_post_title', `C++ Madness')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+Compile the following program with "<tt>g++ -fno-implicit-templates foo.cpp</tt>" and admire the error message that you get. Just <i>how</i> is a mortal programmer supposed to make sense of this? <tt> #include &lt;string&gt;  #include &lt;map&gt;  using namespace std;  int main( void) {   map&lt;string,string&gt; foo;   return 0; }</tt> The example might look bogus, but consider this: you have been told that explicit template instantiations can some times considerably speed up your build process, not to mention save space used up by the object files, so you begin by creating an explicit instantiation file that you try to populate with template instantiations that are actually used by your program. You compile all other source files using "<tt>-fno-implicit-templates</tt>", but not the one special file. If you have not caught all template instantiations however, you will hit the monster of an error message that I sought to show <i>per missing template instantiation</i>. You are supposed to then figure out from these error messages which of the template instantiations you have missed out. Should anyone be surprised if you lose all hope at this point and just ditch the idea?
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/111.html">Originally posted on Advogato</a>.)
+m4_end_post

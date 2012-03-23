@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2005-11-15')m4_dnl
+m4_define(`m4_post_title', `FOSS.in 2005')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+<a href="http://research.operationaldynamics.com/blogs/andrew/">Andrew Cowie</a> has bullied me into attending <a href="http://foss.in/2005/">FOSS.in 2005</a> after all. He made me realise what a shame it would be to miss this once-a-year opportunity to meet like-minded Free Software hackers from all over the place when it is happening right here in Bangalore. Of course it also helps to have supportive bosses to grant you leave from work for the period. So here's looking forward to meeting kindred souls. Thanks Andrew! 
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/122.html">Originally posted on Advogato</a>.)
+m4_end_post

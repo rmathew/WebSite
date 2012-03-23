@@ -1,0 +1,37 @@
+m4_define(`m4_post_date', `2007-03-11')m4_dnl
+m4_define(`m4_post_title', `Investing For Retirement')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+(<span style="font-weight: bold;">Note:</span> This post might not be of interest to those not from India.)
+<p>
+Most of us do not even think about planning for retirement until we reach the age of 30. Some of us "live for the moment" and don't care for the future, some of us feel uncomfortable thinking about retirement and pretend like the proverbial cat that closing our eyes to the problem will make it go away and some of us just do not know how to assess our financial requirements three decades into the future.
+<p>
+Unfortunately for us, there is not much of a government-provided social security in India for old folks, we cannot realistically expect our children to take care of all our expenses, inflation constantly lessens the value of our savings and interests on assured-return investments (fixed-deposits, EPFs, etc.) keep falling. We must have some idea of our needs at the time of our retirement and know how much to invest now to be able to afford the same lifestyle that we are currently used to.
+<p>
+The good news is that we can use basic mathematics to calculate these figures. We will make use of two equations. The first equation (call it "E<sub>1</sub>") tells us the final amount "S" that an initial amount "P" grows to if it grows at a compounded rate of "r" over "n" years:
+<p>
+<div style="text-align: center;">S = P &times; (1 + r)<sup>n</sup><br /></div>
+<p>
+The second equation (call it "E<sub>2</sub>") tells us the final amount "S" that a regular annual investment of "P" over "n" years gives if it grows at a compounded rate of "r":
+<p>
+<div style="text-align: center;">S = P &times; ((1 + r)<sup>n</sup> - 1) / r<br /></div>
+<p>
+Note that since the rates are usually quoted as percentages, you need to divide them by 100 to get the value of "r" usable in these equations. For example, a quoted rate of 8% translates to "r" equal to 0.08.
+<p>
+Now assume that you are aged 30 years, plan to retire at the age of 60 years, have a montly expenditure of 20,000 rupees and the rate of inflation is about 5% on the average. Using E<sub>1</sub>, you can see that at the time of your retirement 30 years hence, your monthly expenditure would become about 86,438.85 rupees simply because of inflation! That translates to about 10,37,266 rupees in annual expenditure. With old age come many an ailment for which you would need to spend money - at about 1,00,000 rupees per year at today's rates, you would need about 4,32,194 rupees at the time of your retirement to meet medical expenses. So you would need an annual income of at least 14,69,460 rupees at the time of your retirement just to sustain your current lifestyle and cope with the inevitable medical expenses!
+<p>
+How will you generate an income like this at that time? It is very likely that your appetite for risk would have considerably diminished at that time and you would only be willing to invest for assured-returns and thus lower rates of interest, say, about 5%. This in turn means that you would need a sum of 2,93,89,200 rupees (5% of which is the amount you need per year) at the time of your retirement. You need to have raised about 3 crore rupees by the time you retire just to be able to afford your current lifestyle!
+<p>
+To raise this kind of money, you either need to invest a certain amount annually till the time you retire or do a one-time investment. If you assume an annual return of 8% on your investments, you either need to invest about 2,59,431 rupees annually for the next 30 years (using E<sub>2</sub>) or about 29,20,620 rupees at a single shot (using E<sub>1</sub>). If you assume a more aggressive (though riskier) annual return of 15% on your investments, the amounts change to about 67,601 rupees and about 4,43,867 rupees respectively.
+<p>
+If you had started at the age of 25 years, you would have had 35 years to raise the money. At a per-annum return of 8%, you would have either invested about 1,70,533 rupees annually or about 19,87,725 rupees at a single shot. At a per-annum return of 15%, these figures become about 33,352 rupees and about 2,20,680 rupees respectively.
+<p>
+If you postpone investing for your retirement by another five years, you would have 25 years to raise the money. At a per-annum return of 8%, you would need to either invest about 4,02,008 rupees annually or about 42,91,349 rupees at a single shot. At a per-annum return of 15%, these figures become about 1,38,112 rupees and about 8,92,774 rupees respectively.
+<p>
+So the earlier you start investing for your retirement, the better it is for you. The folks at <a href="http://www.personalfn.com/">Personalfn.com</a> have a report titled "<a href="http://www.personalfn.com/investment/ms/targetbook.asp?title=Retirement%20Planning%20and%20YOU&filename=RetPlan06.html&bookId=20">Retirement Planning and You</a>" that provides a more detailed analysis of this situation as well as the available investment options suitable for retirement planning.
+<p>
+Of course, these are simplified calculations. They do not take into account the fact that you will very likely have to pay income tax on the returns from this investment. They also do not take into account the fact that because of inflation, you would need slightly more and more every year after you retire instead of the fixed amount assumed here. Hopefully the average rate of inflation for India for the next 30 years will be less than the 5% assumed here.
+<p>
+(<a href="http://rmathew.blogspot.com/2007/03/investing-for-retirement.html">Originally posted on Blogspot</a>.)
+m4_end_post

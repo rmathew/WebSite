@@ -1,0 +1,25 @@
+m4_define(`m4_post_date', `2010-01-11')m4_dnl
+m4_define(`m4_post_title', `Underwater Blues')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+The New York Times now encourages you to <a href="http://www.nytimes.com/2010/01/10/magazine/10FOB-wwln-t.html">walk away</a> if you have an "underwater mortgage" on a house, that is, you owe more money on the mortgage for the house than its value in the current housing market. I find such analysis based on the <a href="http://en.wikipedia.org/wiki/Negative_equity">negative equity</a> of a house somewhat puzzling. It might make sense if you have bought a house purely for investment, but not if you call it a home that provides you protection against the elements. If you give up your house, you still have to find an alternative accommodation and very likely pay rent for it.
+m4_begin_post_rest
+<p>
+So how <i>do</i> you value a house in which you plan to stay? A method that I have found useful is to consider the alternative cost of renting an accommodation. Suppose an equivalent house has an annual rental cost of <b>R</b> and you expect the rent to increase every year at the rate of <b>i</b> due to inflation. So <b>k</b> years from now, you can expect the rent to be:
+<p>
+<div style="text-align: center;">R &times; (1 + i)<sup>k</sup><br /></div><br />This future sum however is worth <i>less</i> today because you can obtain the same amount of money in the future by putting a lesser amount today into risk-free investments. The <a href="http://en.wikipedia.org/wiki/Present_value">present value</a> of that inflated rent is therefore:
+<p>
+<div style="text-align: center;">R<sub>k</sub> = R &times; (1 + i)<sup>k</sup> / (1 + d)<sup>k</sup><br /></div><br />where <b>d</b> is the applicable discount rate. Over the course of <b>n</b> years, the total cost of the house in today's money can be obtained by summing up the terms R<sub>k</sub> for values of k from 1 to n. This sum is equal to:
+<p>
+<div style="text-align: center;">R &times; t &times; (1 - t<sup>n</sup>) / (1 - t)<br /></div><br />where <b>t</b>, the common ratio for the corresponding <a href="http://en.wikipedia.org/wiki/Geometric_series">geometric series</a>, is equal to "(1 + i) / (1 + d)". (This ratio would be less than 1 if we assume that i &lt; d.)
+<p>
+As an example, suppose you are wondering whether to buy a house when an equivalent house would cost Rs 15,000 per month in rent (so R = 12 &times; 15,000 = 180,000). Suppose further that you are looking forward to staying in the house for 20 years (n = 20), the average rate of inflation during this period is 5% (i = 0.05) and the discount rate is 8% (d = 0.08) based on interest rates available on risk-free investments like fixed-deposits. Then t is roughly equal to 0.9722 and the total cost of the rented house comes out to about Rs 2,713,660.32 or about Rs 27 lakhs. So the house under consideration is worth at least Rs 27 lakhs today <i>plus</i> the present value of the amount you can get by selling it off at the end of the 20-year period.
+<p>
+Of course, our calculation is rather simplistic. It doesn't take into account the property taxes that you have to pay on your house, the security-deposit that you have to typically provide before taking a house on rent, etc. Rents do not necessarily keep increasing over such long periods. We cannot put a definite price on things like freedom from the whims of a landlord who might ask you to vacate your rented house at a short notice or potential lack of mobility to pursue better career prospects due to owning a house. Despite these flaws, our calculation is still a useful approximation of the net worth of a house.
+<p>
+The point is that negative equity does not apply in a straightforward manner to a house in which you plan to stay for a while. It might not always be prudent to walk away from such a house.
+<p>
+(<a href="http://rmathew.blogspot.com/2010/01/underwater-blues.html">Originally posted on Blogspot</a>.)
+m4_end_post_rest
+m4_end_post

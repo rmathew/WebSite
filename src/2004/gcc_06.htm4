@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2004-04-06')m4_dnl
+m4_define(`m4_post_title', `GCC')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+<a href="http://gcc.gnu.org/ml/gcc-patches/2004-04/msg00273.html">Baby's first GCC CVS commit</a>.  "<tt>cvs update</tt>" over SSH is <i>so slow</i>! Why? Is there anything I can do to help matters?
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/18.html">Originally posted on Advogato</a>.)
+m4_end_post

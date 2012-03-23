@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2003-07-04')m4_dnl
+m4_define(`m4_post_title', `GCC Mainline Snapshots')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+Oh Joy! <a href="http://gcc.gnu.org/ml/gcc/2003-07/msg00109.html">Mainline snapshots of GCC</a> have also become available now apart from the normal release branch snapshots. This means that people on slow and unreliable links like me can keep up with GCC development.  On the other hand, trying to wade through two large underdocumented code bases - one at work and the other at home (GCC) - is somewhat taxing and I invariably end up too tired to hack on GCJ on a weekday by the time I reach home. <tt>:-(</tt> Michael Tiemann's <a href="http://www.oreilly.com/catalog/opensources/book/tiemans.html">account of how Cygnus was created and sustained itself</a> makes for fascinating reading! IMHO this company, now merged with RedHat, singlehandedly contributed immensely to the GCC/binutils/GDB projects and really laid the foundation for them to become what they have - we in the Free Software world really owe them a lot. Kudos to these cool guys.
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/3.html">Originally posted on Advogato</a>.)
+m4_end_post

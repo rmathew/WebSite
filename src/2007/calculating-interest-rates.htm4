@@ -1,0 +1,31 @@
+m4_define(`m4_post_date', `2007-08-20')m4_dnl
+m4_define(`m4_post_title', `Calculating Interest Rates')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+You want to buy that fancy LCD TV that costs Rs 60,000 but you do not have that much money with you. You see an advertisement in a newspaper for the TV from a dealer who offers to sell it to you if you make a down-payment of Rs 10,000 and pay Rs 4,380 every month for one year. You see another advertisement in the newspaper for the same TV from another dealer who offers to sell it to you if you make a down-payment of Rs 20,000 and pay Rs 1,330 every month for three years. How do you calculate the rate of interest each dealer is charging you for what is, in effect, a loan?
+m4_begin_post_rest
+<p>
+In "<a href="m4_root_dir/2006/calculating-emis.html">Calculating EMIs</a>", we derived the formula for calculating the "Equated Monthly Installment" (EMI) on a loan. If "E" represents the EMI, "P" represents the principal amount in the loan, "r" represents the <i>monthly rate</i> of interest (one way of arriving at it is to divide the annual rate of interest, quoted as a percentage, by 1,200) and "n" represents the number of months in the tenure of the loan, then:
+<p>
+&nbsp;&nbsp;&nbsp;&nbsp;  E = P &times; r &times; (1 + r)<sup>n</sup> / ((1 + r)<sup>n</sup> - 1)
+<p>
+In the current example, we know the values for "E", "P" and "n" and wish to calculate "r". Unfortunately it is not that simple to calculate "r" using just the high-school algebra that most of us manage to remember. Fortunately there is a simple algorithm that can help us in this situation.
+<p>
+Let us first rewrite the formula above as an equation:
+<p>
+&nbsp;&nbsp;&nbsp;&nbsp;  P &times; r &times; (1 + r)<sup>n</sup> / ((1 + r)<sup>n</sup> - 1) - E = 0
+<p>
+Our task now is to find the roots of this equation - that is, the values of "r" that will make the left-hand-side (LHS) of this equation evaluate to zero.
+<p>
+To find the roots of a given equation "f(x) = 0", the algorithm in question can be described as follows:<br /><ol><br /><li>Find a value "a" for which "f(a)" evaluates to a negative value.</li><br /><li>Find a value "b" for which "f(b)" evaluates to a positive value.</li><br /><li>Let "c" be the average of "a" and "b".</li><br /><li>If "f(c)" is close enough to zero, "c" is the desired root.</li><br /><li>Otherwise, if "f(c)" is a negative value, substitute "c" for "a" and repeat the procedure from step #3 and if "f(c)" is a positive value, substitute "c" for "b" and repeat the procedure from step #3.</li><br /></ol><br />Note that this is just <a href="http://en.wikipedia.org/wiki/Binary_search_algorithm">a binary search algorithm</a>. By "close enough to zero", we mean that the absolute value of "f(c)" is less than some value, usually called "epsilon", that can be as small as we please. The algorithm given above can be rewritten as a function in a pseudo-language as follows:<br /><pre><br />  guessRoot( f, a, b)<br />  {<br />    c := (a + b) / 2;
+<p>
+    if( absoluteValue( f( c)) < EPSILON)<br />      return c;<br />    else if( f(c) < 0)<br />      return guessRoot( f, c, b);<br />    else<br />      return guessRoot( f, a, c);<br />  }<br /></pre><br />You can implement this in your favourite programming language along with a function that calculates the LHS of the equation given earlier. You can choose a value of "epsilon" according to your preference - the smaller the value of "epsilon", the more accurate is the result and the longer it takes to compute it. The time taken for the computation is also affected by how wide is the range between "a" and "b". Note that <a href="http://en.wikipedia.org/wiki/Newton_method">Newton's method</a> is a much faster way of computing the roots of such equations, though it involves calculating derivatives.
+<p>
+How do you arrive at the values for "a" and "b"? This differs for each function. For our example, we can start with a low guess of "0.001%" ("0%" gives an undefined result) as the annual rate of interest and a high guess of "100%" and this gives us a negative and a positive value for the LHS respectively. With an "epsilon" of "0.00001", a C programme computes the answer in around 25 iterations.
+<p>
+In our example, the first dealer is offering us an effective loan of Rs 50,000 for 12 months with an EMI of Rs 4,380 and the effective annual rate of interest comes to about 9.32%. The second dealer is offering us an effective loan of Rs 40,000 for 36 months with an EMI of Rs 1,330 and the effective annual rate of interest comes to about 12.08%. In terms of the interest rates being charged by the dealers, you should now be able to tell that the first dealer has a better proposition for you when compared to the second dealer.
+<p>
+(<a href="http://rmathew.blogspot.com/2007/08/calculating-interest-rates.html">Originally posted on Blogspot</a>.)
+m4_end_post_rest
+m4_end_post

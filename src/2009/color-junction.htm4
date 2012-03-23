@@ -1,0 +1,13 @@
+m4_define(`m4_post_date', `2009-02-21')m4_dnl
+m4_define(`m4_post_title', `Color Junction')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I came across an interesting and addictive puzzle game recently called <a href="http://www.google.com/ig/directory?url=www.google.com/ig/modules/colorjunction.xml">Color Junction</a>. It was created by <a href="http://www.persistent.info/">Mihai Parparita</a> of Google and is based on <a href="http://en.wikipedia.org/wiki/SameGame">SameGame</a> (formerly <a href="http://www.asahi-net.or.jp/~ky6k-mrb/chainsht.htm">Chain Shot!</a>) by <a href="http://www.asahi-net.or.jp/~ky6k-mrb/">Kuniaki Moribe</a>.
+m4_begin_post_rest
+<p>
+The objective of the game is quite simple: clear as many coloured tiles as possible from the board. You can clear tiles by clicking on them, but only when two or more tiles of the same colour are connected. The tiles are attracted to the bottom left corner of the board - when a tile is cleared, the tiles above it fall down; if there are no tiles above it then the tiles to its right move to the left to fill in the space. <div style="text-align: center;"><script src="http://www.gmodules.com/ig/ifr?url=http://www.google.com/ig/modules/colorjunction.xml&amp;up_difficulty=4&amp;up_size=15&amp;up_bestScores=00%3A20%7C00%3A35%7C01%3A00%7C00%3A35%7C01%3A15%7C02%3A00%7C01%3A00%7C02%3A00%7C03%3A15&amp;up_boardStyle=1&amp;up_lastScores=00%3A00%7C00%3A00%7C00%3A00%7C00%3A00%7C00%3A00%7C00%3A00%7C00%3A00%7C00%3A00%7C00%3A00&amp;synd=open&amp;w=320&amp;h=300&amp;title=Color+Junction+by+Mihai+Parparita&amp;lang=all&amp;country=ALL&amp;border=%23ffffff%7C3px%2C1px+solid+%23999999&amp;output=js"></script></div>You can control the difficulty level and the board size in this version of the game. There is also a version of Color Junction <a href="http://tibulle.com/colorjunction/">in Flash</a> and as a standalone programme <a href="http://www.svidersky.net/colorjunction/">for Windows</a>, in case you like additional control over the game.  I have not been able to come up with a strategy that consistently clears the board. Quite embarrassingly, none of my strategies perform significantly better than random clearing of tiles.
+<p>
+(<a href="http://rmathew.blogspot.com/2009/02/color-junction.html">Originally posted on Blogspot</a>.)
+m4_end_post_rest
+m4_end_post

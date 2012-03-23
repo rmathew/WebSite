@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2004-11-18')m4_dnl
+m4_define(`m4_post_title', `Reality Bytes')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+While trying to help a friend's Mom with sending emails, I realised how much we programmers assume of the ordinary user's ability to think of computers the way we do and how unhelpful computers really are even today. It also provided me with a couple of amusing exchanges that I thought I'd share.  I asked her if she uses Netscape to check her mail. She said: "No, I use VSNL to check mails!" (<a href="http://www.vsnl.com/">VSNL</a> is the ISP she uses and the corresponding Dial-up connection icon has the same name.)  She said: "Who is this 'SMTP' and why is he bothering me?" After a while, I figured out that she was saying this because her mail client used to show an error message like "smtp.vsnl.net responded: Please enter your correct username/password". For someone who only knows about "The Internet" and nothing of mail protocols or server hostnames, I think her indignation was somewhat justified. <tt>;-)</tt>
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/47.html">Originally posted on Advogato</a>.)
+m4_end_post

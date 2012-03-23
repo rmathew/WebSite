@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2005-02-22')m4_dnl
+m4_define(`m4_post_title', `GCJ``,'' Eclipse``,'' Glade')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+While reading <a href="http://www.osnews.com/comment.php?news_id=9776">the user comments on an OSNews story</a> about "<a href="http://www.gnu.org/software/classpath/events/escape_fosdem05.html">Escape the Java Trap!</a>", I came across <a href="http://people.redhat.com/overholt/nativeeclipse/">this wonderful Flash demo by Andrew Overholt</a> showing off Eclipse running with GCJ and using Glade! It's a different thing to read about this in the mailing lists but an entirely different thing to actually see it in action! Cool!
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/60.html">Originally posted on Advogato</a>.)
+m4_end_post

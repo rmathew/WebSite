@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2005-04-28')m4_dnl
+m4_define(`m4_post_title', `Miscellany')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+<a href="http://fabrice.bellard.free.fr/qemu/">QEMU</a> 0.7.0 is available now.   "<a href="http://research.sun.com/projects/plrg/fortress0618.pdf">Fortress</a>" (PDF) is a new language from Sun. (Yes, courtesy <a href="http://www.lambda-the-ultimate.org/">LtU</a> once more.) 
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/80.html">Originally posted on Advogato</a>.)
+m4_end_post

@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2007-07-04')m4_dnl
+m4_define(`m4_post_title', `Expiry Dates')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+If medicines and food items become dangerous to consume after their expiry dates, shouldn't pesticides become more powerful <i>after</i> their expiry dates?
+<p>
+(<a href="http://rmathew.blogspot.com/2007/07/expiry-dates.html">Originally posted on Blogspot</a>.)
+m4_end_post

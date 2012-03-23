@@ -1,0 +1,19 @@
+m4_define(`m4_post_date', `2007-12-04')m4_dnl
+m4_define(`m4_post_title', `The Golden Compass')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+Some days back, I saw the trailer for the film "<a href="http://www.goldencompassmovie.com/">The Golden Compass</a>". I am eagerly looking forward to watching this film, as it is based on the eponymous book that is the first in the fantastic "<a href="http://www.amazon.com/gp/product/0440238609?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0440238609">His Dark Materials</a>"<img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=0440238609" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"> trilogy by <a href="http://www.philip-pullman.com/">Philip Pullman</a>.
+m4_begin_post_rest
+<p>
+"<a href="http://en.wikipedia.org/wiki/His_Dark_Materials">His Dark Materials</a>" sadly does not seem to have achieved as much popularity as some of the other less-deserving sagas. I for one didn't even know that such a series existed until Ananth had pointed it out to me and given me his copies of the books to read. Once I had read it though, I liked it immensely (<a href="http://www.amazon.com/review/R1RBQXIF58LDU5/ref=cm_cr_rdp_perm/">my review of the series on Amazon.com</a>; <a href="http://rmathew.com/books/fiction.html#hdm">the same on my web-site</a>). I some times even use the names "Lyra" and "Pantalaimon" in my code and scripts instead of the prosaic "foo" and "bar", much to the bewilderment of the reviewers.
+<p>
+Ananth is so excited about watching the film and its sequels that he has already re-read the books to refresh his memory. He plans to watch the first show of the first day for the film. He eagerly laps up <a href="http://film.guardian.co.uk/interview/interviewpages/0,,2219107,00.html">articles about Dakota Blue Richards</a>, the young girl who will play the role of "Lyra", the charming protagonist of the books.
+<p>
+I always have a mixture of excitement and dread when I learn of a film based on a book that I have liked - for me, the Lord of the Rings trilogy of films are the only such films that haven't left me disappointed. When you read a book, you imagine the characters and the scenes in a certain way that might not be shared by the director of a film. A film is also constrained by a limit on the duration of the film, which might not be enough to develop all the characters to the extent the book has done. When those who have not read the book watch the film, they usually either get confused or miss a lot of (what you consider) important references in the dialogues. You still look forward to watching the films because you want to see how the directors have realised the books as films, because you want to revisit the characters and the story and because you hope that the films will get more people interested in reading the respective books.
+<p>
+I will keep my fingers and my toes crossed.
+<p>
+(<a href="http://rmathew.blogspot.com/2007/12/golden-compass.html">Originally posted on Blogspot</a>.)
+m4_end_post_rest
+m4_end_post

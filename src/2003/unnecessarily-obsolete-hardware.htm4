@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2003-07-25')m4_dnl
+m4_define(`m4_post_title', `Unnecessarily Obsolete Hardware')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+The PC Hardware scene is crazy - my home PC is around 3.5 years old and it is already very difficult to find upgrades for it, especially CPU and RAM. I thought I finally got a great deal on two PC133 256MB RAM modules off eBay, but  to my utter dismay found out that my PC recognised only <i>half</i> the capacity of each module!  After much research on the web, I found out that <a href="http://www.elhvb.com/info/i440bx-RAM.html">not all PC133 256 MB RAM modules are the same</a> as far  as the Intel 440BX chipset, that lies at the heart of  my ASUS P3B-F motherboard, is concerned.  The most irritating thing about this is that there is <i>no easy way</i> of telling whether a particular PC133 256 MB RAM module is suitable for the 440BX or not, even  by looking at the normal module details given on the  site of the vendors.  When I had bought my ASUS P3B-F motherboard, it was one of the best and most scalable motherboards I could afford and it has already been obsoleted and has become the primary bottleneck in my system. This is so sad.  My PC is <i>still immensely useful</i> to me and performs most of the tasks that I throw at it quite well.
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/5.html">Originally posted on Advogato</a>.)
+m4_end_post

@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2006-05-17')m4_dnl
+m4_define(`m4_post_title', `Google and Maths')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+"<a href="http://www.economist.com/science/displaystory.cfm?story_id=6911096">Fuzzy Maths</a>", an article on Google in the latest edition of The Economist, contains this interesting bit: <blockquote> Google constantly leaves numerical puns and riddles for those who care to look in the right places. When it filed the regulatory documents for its stockmarket listing in 2004, it said that it planned to raise $2,718,281,828, which is $e billion to the nearest dollar. A year later, it filed again to sell another batch of shares -- precisely 14,159,265, which represents the first eight digits after the decimal in the number pi (3.14159265). </blockquote> Their famous <a href="http://mathworld.wolfram.com/news/2004-10-13/google/">recruitment campaign</a> and <a href="http://www.google.com/corporate/history.html">their very name</a> further reinforce the impression of their obsession with Mathematics.
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/168.html">Originally posted on Advogato</a>.)
+m4_end_post

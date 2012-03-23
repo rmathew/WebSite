@@ -1,0 +1,33 @@
+m4_define(`m4_post_date', `2012-03-23')m4_dnl
+m4_define(`m4_post_title', `Blogspot Blog Imported')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I have imported into this web-site all the posts from <a
+href="http://rmathew.blogspot.com/ncr">my Blogspot blog</a> (into which I had
+<a href="m4_root_dir/2007/advogato-diary-imported.html">previously imported</a>
+the entries from <a href="http://www.advogato.org/person/rmathew/">my Advogato
+diary</a>). I feel it is better to have a single infrequently-updated web-site
+rather than a couple of such web-sites. It also consolidates into a single
+web-site most of what I have been polluting the World Wide Web with since the
+year 2001.
+m4_begin_post_rest
+<p>
+Blogspot allows you to <a
+href="http://support.google.com/blogger/bin/answer.py?hl=en&answer=97416">export
+the entire contents of your blog</a> as a handy XML file. I wrote a small
+program to transform this XML into appropriately-dated posts in this web-site.
+The program would have been simple but for the code to handle many of the
+quirks of the way I used to write the HTML for the Blogspot blog and the
+Advogato diary, as well as the idiosyncracies of the respective hosting
+platforms. The end-result should be fairly readable, though possibly not
+formatted in the most desirable manner.
+<p>
+As an aside, this import from Blogspot into my web-site as well as the previous
+import from Advogato into Blogspot was fairly straightforward to do using the
+respective exported dumps and custom programs. It would have been very
+difficult if these hosting platforms were not liberal enough to make it easy
+to migrate off them (or if I had not known programming). Kudos to Advogato and
+Blogspot for being so open.
+m4_end_post_rest
+m4_end_post

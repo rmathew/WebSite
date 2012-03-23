@@ -1,0 +1,11 @@
+m4_define(`m4_post_date', `2006-09-04')m4_dnl
+m4_define(`m4_post_title', `&ldquo;If You Come Today&rdquo;')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+"If you come today, it's too early. If you come tomorrow, it's too late. You pick the time."
+<p>
+Sriram pointed out <a href="http://youtube.com/watch?v=-PFURM9eA_Q">a video of the (English) song "If You Come Today"</a> sung by and featuring <a href="http://en.wikipedia.org/wiki/Rajkumar">Rajkumar</a>. The <a href="http://www.cse.iitb.ac.in/%7Esangramraje/Lyrics-IfYouComeToday.html">lyrics</a> of the song are rather confounding, but my favourite parts are the "Tick, Tick, Tick, Tick..." and the "DOHLING!".
+<p>
+(<a href="http://rmathew.blogspot.com/2006/09/if-you-come-today.html">Originally posted on Blogspot</a>.)
+m4_end_post

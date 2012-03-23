@@ -1,0 +1,19 @@
+m4_define(`m4_post_date', `2007-07-02')m4_dnl
+m4_define(`m4_post_title', `Dragon Ball Z')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+Many years ago, a cartoon TV channel in India started showing <a href="http://en.wikipedia.org/wiki/Dragon_Ball_Z">Dragon Ball Z</a>. They showed 53 episodes of this series comprising the <a href="http://en.wikipedia.org/wiki/Vegeta_Saga">Vegeta Saga</a> and the <a href="http://en.wikipedia.org/wiki/Namek_Saga">Namek Saga</a>. Just as the series got <i>really</i> interesting, they yanked it off the air without notice and without even a word of apology.
+m4_begin_post_rest
+<p>
+Loyal viewers of the series were aghast. They pleaded with the channel to show them the rest of the series as well, rather than leaving them on tenterhooks. The channel could not care less. The viewers were frustrated and cursed the channel using the choicest of expletives. They did not have much choice.
+<p>
+Several years later, the same cartoon channel starts showing Dragon Ball Z once again. Some of the old viewers hope the channel would show the entire series this time and watch the episodes once again to revive their memories.
+<p>
+They were na&iuml;ve. The channel showed the same 53 episodes of the series and then abandoned it yet again at the same critical point in the story.
+<p>
+They were idiots. The channel as well as the viewers.
+<p>
+(<a href="http://rmathew.blogspot.com/2007/07/dragon-ball-z.html">Originally posted on Blogspot</a>.)
+m4_end_post_rest
+m4_end_post

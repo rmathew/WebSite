@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2006-03-03')m4_dnl
+m4_define(`m4_post_title', `Google Code Jam India 2006')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+<a href="http://www.google.com/indiacodejam/">Google Code Jam India</a> is back. It was quite popular here in India the last  time around. I still haven't decided whether I should participate. I haven't been participating in <a href="http://www.topcoder.com/tc">TopCoder</a> matches for a while now and even while I was, my rating was steadily and embarrassingly declining with every match. I can blame it on <a href="http://www.economist.com/business/displaystory.cfm?story_id=5519055">a brain that deteriorates with age</a> or more honestly admit that even though I like coding and computer science in general, I'm not really as good at it as I would like to believe.
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/149.html">Originally posted on Advogato</a>.)
+m4_end_post

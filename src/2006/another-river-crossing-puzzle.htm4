@@ -1,0 +1,15 @@
+m4_define(`m4_post_date', `2006-08-04')m4_dnl
+m4_define(`m4_post_title', `Another River Crossing Puzzle')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+Most of us would have seen <a href="http://alloy.mit.edu/tutorial3/sidenote-RC-puzzle.html">the standard river crossing puzzle</a>. However, Prasadini recently sent me <a href="http://www.smallcampus.net/upload/html/maths_games/2001-05-03/riverIQGame.swf">another river crossing puzzle</a> (<a href="http://www.adobe.com/products/flashplayer/">Flash</a> animation) that I think is far more challenging.
+<p>
+A father and his two sons, a mother and her two daughters, a thief and a policeman are on one side of a river. There is a boat by the river bank, but it can only take two people at a time. Only the father, the mother and the policeman know how to operate the boat. The father can not be with any of the girls without their mother around. The mother can not be with any of the boys without their father around. The thief can not be with anyone else without the policeman around. How can you get everyone across to the other side of the river?
+<p>
+Start the game by clicking on the big round blue button. Click on a person to get him or her on or off the boat. Click on the levers to get the boat to move.
+<p>
+It took me a fair bit of time to crack it and here is my solution (obfuscated using <a href="http://www.rot13.com/">rot-13</a>):<br /><ol><li>Gur Guvrs naq gur Cbyvprzna pebff bire.</li><li>Gur Cbyvprzna pbzrf onpx (Gur Guvrs qbrf abg eha njnl jura yrsg nybar!).</li><li>Gur Cbyvprzna naq n obl pebff bire.</li><li>Gur Cbyvprzna naq gur Guvrs pbzr onpx.</li><li>Gur Sngure naq gur bgure obl pebff bire.</li><li>Gur Sngure pbzrf onpx.</li><li>Gur Sngure naq gur Zbgure pebff bire.</li><li>Gur Zbgure pbzrf onpx.</li><li>Gur Guvrs naq gur Cbyvprzna pebff bire.</li><li>Gur Sngure pbzrf onpx.</li><li>Gur Sngure naq gur Zbgure pebff bire.</li><li>Gur Zbgure pbzrf onpx.</li><li>Gur Zbgure naq n qnhtugre pebff bire.</li><li>Gur Guvrs naq gur Cbyvprzna pbzr onpx.</li><li>Gur Cbyvprzna naq gur bgure qnhtugre pebff bire.</li><li>Gur Cbyvprzna pbzrf onpx.</li><li>Gur Cbyvprzna naq gur Guvrs pebff bire.</li></ol>See if you can come up with a better solution.
+<p>
+(<a href="http://rmathew.blogspot.com/2006/08/another-river-crossing-puzzle.html">Originally posted on Blogspot</a>.)
+m4_end_post

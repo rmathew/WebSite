@@ -1,0 +1,17 @@
+m4_define(`m4_post_date', `2008-01-05')m4_dnl
+m4_define(`m4_post_title', `A Taste of Haskell')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+"<a href="http://research.microsoft.com/~simonpj/papers/haskell-tutorial/index.htm">A Taste of Haskell</a>" was a tutorial given by <a href="http://research.microsoft.com/~simonpj/">Simon Peyton Jones</a> during the <a href="http://conferences.oreillynet.com/os2007/">OSCON 2007</a> conference. It introduces programmers to the <a href="http://www.haskell.org/">Haskell</a> programming language using the <a href="http://xmonad.org/">xmonad</a> window manager for X. The complete video of the tutorial is available in two parts (<a href="http://blip.tv/file/324976">Part 1</a>; <a href="http://blip.tv/file/325646">Part 2</a>; about 798 MB in total) and lasts for about three hours. <a href="http://research.microsoft.com/~simonpj/papers/haskell-tutorial/TasteOfHaskell.pdf">The slides for the tutorial</a> are also available (PDF; about 7 MB; 119 slides). The first time I read about this tutorial was in <a href="http://jaortega.wordpress.com/2007/08/04/a-taste-of-haskell/trackback/">a post on Jao Ortega's blog</a>. I have been meaning to check the video out ever since, but only now have I been able to finish watching it completely.
+m4_begin_post_rest
+<p>
+It is amazing to see Simon in action. He shows a lot of infectious enthusiasm and passion about Haskell and is an engaging and witty speaker. My only complaints with the video are that the voices of the members of the audience were not audible when they were asking numerous questions and that the projected slides were barely visible in the video, making it a bit irritating to have to shuffle back and forth between the video and the slides in a separate reader application.
+<p>
+Haskell comes across as a language well worth learning. It is a <a href="http://en.wikipedia.org/wiki/Functional_programming">functional programming</a> language that emphasises purity and laziness, while making it seemingly simple to interface with native code and embrace state. "<a href="http://research.microsoft.com/~simonpj/papers/history-of-haskell/history.pdf">A History of Haskell</a>" (PDF; about 1 MB; 55 pages) gives an interesting account of the genesis of this programming language. It is difficult to miss Haskell if you read <a href="http://programming.reddit.com/">programming.reddit.com</a>.
+<p>
+My resolve to learn Haskell has become stronger after having watched this video. If you are interested in computer programming, you owe it to yourself to check out this video.
+<p>
+(<a href="http://rmathew.blogspot.com/2008/01/taste-of-haskell.html">Originally posted on Blogspot</a>.)
+m4_end_post_rest
+m4_end_post

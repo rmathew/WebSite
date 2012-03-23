@@ -1,0 +1,13 @@
+m4_define(`m4_post_date', `2007-05-14')m4_dnl
+m4_define(`m4_post_title', `Mohan Embar')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I met <a href="http://www.thisiscool.com/">Mohan Embar</a> this weekend. He used to maintain <a href="http://www.thisiscool.com/gcc_mingw.htm">the Windows port of GCJ</a>. It was nice to finally be able to associate a face and a voice with the name, since our interaction so far had only been over email. He turned out to be much thinner, more soft-spoken and more boyish than I had imagined.
+m4_begin_post_rest
+<p>
+I think I ended up asking him a bit too much about how he managed to remain a freelance programmer for so long, that too in Milwaukee, since it is something that interests (as well as scares) me.
+<p>
+(<a href="http://rmathew.blogspot.com/2007/05/mohan-embar.html">Originally posted on Blogspot</a>.)
+m4_end_post_rest
+m4_end_post

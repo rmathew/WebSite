@@ -1,0 +1,11 @@
+m4_define(`m4_post_date', `2007-01-21')m4_dnl
+m4_define(`m4_post_title', `&ldquo;Concepts``,'' Techniques``,'' and Models of Computer Programming&rdquo;')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I just finished reading "<a href="http://www.info.ucl.ac.be/%7Epvr/book.html">Concepts, Techniques, and Models of Computer Programming</a>" by Peter Van Roy and Seif Haridi. If you are the kind of person who thinks that "<a href="http://www-cs-faculty.stanford.edu/%7Eknuth/taocp.html">The Art of Computer Programming</a>" and "<a href="http://mitpress.mit.edu/sicp/">Structure and Interpretation of Computer Programs</a>" are good books, then you owe it to yourself to check this book out.
+<p>
+There is <a href="http://www.ulb.ac.be/di/rwuyts/INFO020_2003/vanRoyHaridi2003-book.pdf">a slightly-dated version of the book available online</a> (PDF, 3.4 MB), if you want to preview some of the content before buying it. There is also an Indian edition of the book published by Prentice Hall of India (ISBN: <a href="http://www.phindia.com/bookdetail.php?isbn=81-203-2685-7">81-203-2685-7</a>) and priced at Rs 450. The book's web site links to some reviews and you can also read <a href="http://rmathew.com/books/cs.html#ech_ctmcp">my  review of the book</a>.
+<p>
+(<a href="http://rmathew.blogspot.com/2007/01/concepts-techniques-and-models-of.html">Originally posted on Blogspot</a>.)
+m4_end_post

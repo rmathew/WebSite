@@ -1,0 +1,35 @@
+m4_define(`m4_post_date', `2007-06-23')m4_dnl
+m4_define(`m4_post_title', `Data Visualisation with Gnuplot')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+Visualisation of data using charts and other types of plots is immensely helpful in getting a feel for it without carrying out detailed analyses. <a href="http://www.gnuplot.info/">Gnuplot</a> is a freely-available tool for data visualisation that is also very simple to use. The article "<a href="http://www.ibm.com/developerworks/library/l-gnuplot/">Visualize your data with gnuplot</a>" is a nice introduction to this tool. Gnuplot proved to be quite handy for me recently.
+m4_begin_post_rest
+<p>
+I wanted to find out whether the Unit Price of a particular fund varies in line with the popular equity market indices in India, the NSE <a href="http://en.wikipedia.org/wiki/S&P_CNX_Nifty">S&P CNX Nifty</a> and the BSE <a href="http://en.wikipedia.org/wiki/Sensex">Sensex</a>. The current values of these indices are always readily available in the newspapers and on television channels, while I have to use the web-site of the fund to get its current Unit Price. If the Unit Price of the fund varied in line with the values of the equity market indices, it would save me some effort in determining its current worth.
+<p>
+The portfolio of the fund in question is almost entirely based on equities. It holds the shares of some of the biggest and the most stable companies across a variety of industry sectors. It was therefore reasonable to suspect that its Unit Price would vary in line with the values of the indices. However, it is not as diversified as the indices and it might not have invested across sectors in the same proportion as that represented by either of the indices.
+<p>
+It was easy to obtain the historical closing prices of the two indices and the Unit Prices of the fund. To keep things simple, I only considered the current month for making this comparison. To simplify things further and to improve the visualisation, I normalised the first value in each series to "100" by scaling all the values appropriately. (This is a technique that I have often seen put to good use in <a href="http://www.economist.com/">The Economist</a>.)
+<p>
+Using Gnuplot, I obtained the following chart:
+<p>
+<a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://3.bp.blogspot.com/_glrEiI4xsDc/Rn1aoyWEaII/AAAAAAAAABU/tUYWQUxikbA/s1600-h/plot.png"><img style="display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;" src="http://3.bp.blogspot.com/_glrEiI4xsDc/Rn1aoyWEaII/AAAAAAAAABU/tUYWQUxikbA/s320/plot.png" border="0" alt=""id="BLOGGER_PHOTO_ID_5079315611499391106" /></a>
+<p>
+This gave me the desired answer right away!
+<p>
+In case you're curious, here are the Gnuplot commands I used for creating the chart above:<br /><pre><br /># We want PNG output.<br />set terminal png<br />set output "plot.png"
+<p>
+# Specify how and where the key (legend) for the chart should<br /># appear.<br />set key bottom right<br />set key width 2 box
+<p>
+# Tweak the look of the chart.<br />set title "Fluctuations in Unit Prices Relative to Market Indices"<br />set xlabel "June 2007"<br />set ylabel "Normalised Value"<br />set grid
+<p>
+# The data on the X axis represent time values.<br />set format x "%d"<br />set xtics "01-Jun-2007", 3600*24<br />set xdata time<br />set timefmt "%d-%b-%y"<br />set xrange ["01-Jun-2007":"22-Jun-2007"]<br />set yrange [95:100]
+<p>
+# Plot the chart using data files normalising the values in<br /># each case.<br />plot \<br />  'nifty.dat' using 1:($5)/42.9705 \<br />    title 'NIFTY' with lines linewidth 2, \<br />  'sensex.dat' using 1:($7)/145.7075 \<br />    title 'SENSEX' with lines linewidth 2, \<br />  'fund.dat' using 1:($2)*100.00/57.0337 \<br />    title 'FUND' with lines linewidth 2<br /></pre>
+<p>
+By the way "<a href="http://junkcharts.typepad.com/junk_charts/">Junk Charts</a>" seems to be a blog devoted to criticising charts that appear in various magazines and web-sites in general and in The Economist in particular.
+<p>
+(<a href="http://rmathew.blogspot.com/2007/06/data-visualisation-with-gnuplot.html">Originally posted on Blogspot</a>.)
+m4_end_post_rest
+m4_end_post

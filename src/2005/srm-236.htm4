@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2005-04-04')m4_dnl
+m4_define(`m4_post_title', `SRM-236')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+Yet another miserable performance from yours truly. The first problem was to find out the task finally left from a set of tasks after the n-th task (assuming the list is circular) is removed and the process repeatedly applied till there is only one left. I took too much time on this one, all because of a rather silly off-by-one error. The second problem was to find the n-th smallest Hamming number given a set of factors. If <tt>X1,..,Xn</tt> are the given factors, a Hamming number is <tt>X1^P1 * ...  * Xn^Pn</tt>, where <tt>Pi &gt;= 0</tt>. For example, for <tt>2 and 3</tt>, the Hamming numbers are <tt>1,2,3,4,6,8,9,...</tt>. My brute-force solution was too slow and timed out for large values. I could not finish this one before the deadline and thus could not attempt the third problem.  Naturally, my rating fell yet again, but the good thing is that I'm back in Division 2 where I should at least get easier problems. 
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/72.html">Originally posted on Advogato</a>.)
+m4_end_post

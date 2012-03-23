@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2005-11-10')m4_dnl
+m4_define(`m4_post_title', `Videos of SICP Lectures')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+Most of the coders who have read <a href="http://mitpress.mit.edu/sicp/">Structure and Interpretation of Computer Programs</a> (SICP) would agree that it is a profoundly insightful book that teaches you a whole new way of coding. So when I found out that the videos of the SICP lectures given by Abelson and Sussman <a href="http://swiss.csail.mit.edu/classes/6.001/abelson-sussman-lectures/">are now available for download</a>, I was excited. However, my excitement turned to dismay when I found out that the videos were <i>huge</i> - even a single DivX-compressed video of a lecture would bring me perilously close to my monthly broadband download quota, not to mention take an awful amount of time.  So if any of you out there have all these videos already downloaded, would you be willing to burn it to a DVD-R and send it to me? I am of course willing to pay for the cost of the media, package, postage and reasonable labour charges. Drop a message to <tt>rmathew AT gmail DOT com</tt> if you can. I would prefer the DivX-compressed versions. I had already written to Hal Abelson to know if they provided such a service and they indicated that they don't. 
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/121.html">Originally posted on Advogato</a>.)
+m4_end_post

@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2003-07-01')m4_dnl
+m4_define(`m4_post_title', `Package-Private Access in Java and GCJ')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I managed to get package-private access checking partially working again in GCJ - as Tom <a href="http://www.advogato.org/person/tromey/">tromey</a> had predicted, this did turn up <a href="http://gcc.gnu.org/ml/java/2003-06/msg00300.html">a bunch of illegal accesses in libgcj</a> that were not being caught all this while! Some of them are trivial to overcome, some not so.  Things like <tt>foo.Bar.snafu( )</tt> still manage to slip through GCJ though if <tt>foo.Bar</tt> is a class in a different package with package-private access and <tt>snafu( )</tt> is a method with public access. Ditto for fields.  This made me try to go through the front-end code to figure out where to make the change for checking this and Tom was proved right once again - though the parser proper is simple to understand, the analysis stage went straight over my head and repeated attempts to comprehend it have proved futile.  That doesn't mean that I am going to give up yet, but it does mean that I am filled with immense respect for  people who have been able to work their way through the front-end code and actually improve it!  It also tells me how mistaken I was about my  programming capabilities. <tt>:-(</tt>
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/2.html">Originally posted on Advogato</a>.)
+m4_end_post

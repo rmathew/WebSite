@@ -1,0 +1,15 @@
+m4_define(`m4_post_date', `2009-06-21')m4_dnl
+m4_define(`m4_post_title', `Up and Down')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+Are you better off if your investment first gains 10% of its value and then loses 10% or if it first loses 10% in value and then gains 10%? Many of us immediately tend to think that we're back to where we started in both the cases, but a little thought would reveal that we have <i>lost</i> money in both the cases.
+m4_begin_post_rest
+<p>
+Suppose you put in Rs 10,000 into an investment vehicle. When it gains 10% in value, it becomes worth Rs 11,000; a loss of 10% after that makes it worth Rs 9,900. If it instead starts by losing 10% in value, it becomes worth Rs 9,000; a gain of 10% after that makes it worth Rs 9,900. Its worth is the same (lower) value in both the cases. In fact, you can easily calculate that a sum "S" becomes "S&times;(1 - x<sup>2</sup>)" if it first increases/decreases "x" times (0 &le; x &le; 1) and then decreases/increases "x" times. Note that if your investment loses 50% of its value, you subsequently need a gain of 100% just to get your original investment back. A gain of 100% "merely" doubles your investment, while a loss of 100% completely wipes it out.
+<p>
+In other words, decreases usually have a disproportionate effect on us compared to the corresponding increases. This applies to their emotional impact on us as well. For example, compare your feeling on finding a 100 rupees note on the road to your feeling on discovering that a 100 rupees note has slipped through a hole in your pocket. You generally feel a lot worse on losing money than on gaining the same amount of money.
+<p>
+(<a href="http://rmathew.blogspot.com/2009/06/up-and-down.html">Originally posted on Blogspot</a>.)
+m4_end_post_rest
+m4_end_post

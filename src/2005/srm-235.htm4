@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2005-03-23')m4_dnl
+m4_define(`m4_post_title', `SRM-235')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+This morning I took part in my second <a href="http://www.topcoder.com/tc">TopCoder</a> Single Round Match (SRM) - "SRM-235". Because of my rating from the previous match, I got to compete in Division 1 this time, which translated to tougher problems and competitors. Alas, I did pathetically in this match with my final score being zero!  Once again, the two problems that I had a chance to try out were not that difficult, but sloppy coding and muddled thinking made sure that my submissions would fail. The 300-point problem was to find out the minimum positive or negative steps needed by a stepping motor to reach any of the given target positions from a given current position. On this problem, integer overflow and underflow proved to be my undoing.  The 400-point problem was to find out the centre of gravity of a perforated rectangular sheet with rectangular holes. Here my solution just did not come close enough to the official solutions and I kept tweaking the multiplications and casts in my solution to match the results. After some time I even converted my solution over to fixed-point instead of floating-point, but it was still a bit off the mark. Such fiddling around ensured that I could not submit the solution in time, let alone attempt the 900-point problem.  My rating has dropped after this match, but still not enough to get me out of the darn Division 1. I look forward to being mauled once again in the next SRM on April 2.
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/66.html">Originally posted on Advogato</a>.)
+m4_end_post

@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2003-10-31')m4_dnl
+m4_define(`m4_post_title', `APM and Graphics Card')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+The graphics card upgrade caused me immense trouble with Linux - the machine would  freeze whenever the X server exited or when virtual console blanking kicked in.  After <i>much</i> troubleshooting and hunting over the Net, I finally managed to solve the problem by disabling APM in the kernel. Phew!  I was not terribly excited by the knowledge that the card is made by "Robanton", apparently a Taiwanese company whose  <a href="http://www.robanton.com/">site</a> works no more.
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/10.html">Originally posted on Advogato</a>.)
+m4_end_post

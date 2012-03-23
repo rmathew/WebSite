@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2005-04-08')m4_dnl
+m4_define(`m4_post_title', `Code Coverage')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I hate having to write meaningless tests merely to improve arbitrarily-fixed code-coverage metrics in regression suites.
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/73.html">Originally posted on Advogato</a>.)
+m4_end_post

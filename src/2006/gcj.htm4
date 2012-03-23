@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2006-04-07')m4_dnl
+m4_define(`m4_post_title', `GCJ')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I seemed to be in my elements on the GCJ list this week, provoking <a href="http://gcc.gnu.org/ml/java/2006-04/threads.html#00006">a thread on the lack of good support in GCJ for Windows</a> and eliciting <a href="http://gcc.gnu.org/ml/java/2006-04/msg00004.html">a reply from the GCC Steering Committee</a> on the status of the proposal to integrate ECJ into GCJ. 
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/158.html">Originally posted on Advogato</a>.)
+m4_end_post

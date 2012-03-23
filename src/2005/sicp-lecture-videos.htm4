@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2005-11-21')m4_dnl
+m4_define(`m4_post_title', `SICP Lecture Videos')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+Thanks to <a href="http://www.hackgnu.org/">Ramakrishnan</a> (a.k.a. "VU3RDD" on <a href="http://www.hackgnu.org/amateur.html">Amateur Radio</a>), I now have the complete set of <a href="http://swiss.csail.mit.edu/classes/6.001/abelson-sussman-lectures/">SICP Lecture Videos</a>. Now I need to burn these videos to DVDs and then take the time to watch them. Thanks a lot to all the others as well who offered to help me get these videos.  By the way, my first attempt to burn these to DVDs failed because I had not realised the <a href="http://www.videohelp.com/dvd">sundry incompatible formats</a> in which DVDs come. I had access to a DVD+RW drive and I had initially bought DVD-R discs. Thankfully, I could get a refund on all the discs except the one that I had opened.
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/123.html">Originally posted on Advogato</a>.)
+m4_end_post

@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2005-11-21')m4_dnl
+m4_define(`m4_post_title', `More Improvements to GCC')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+Apart from the projects already <a href="http://gcc.gnu.org/wiki/GCC%204.2%20Projects">planned for GCC 4.2</a>, we now have proposals for <a href="http://gcc.gnu.org/ml/gcc/2005-11/msg00735.html">Link-time Optimisation</a>, <a href="http://gcc.gnu.org/ml/gcc/2005-11/msg00783.html">New Register Allocation Method</a> and <a href="http://gcc.gnu.org/ml/gcc/2005-11/msg00888.html">LLVM Integration</a>. The integration with <a href="http://llvm.cs.uiuc.edu/">LLVM</a>, should it happen, would be the most significant change to GCC since <a href="http://gcc.gnu.org/projects/tree-ssa/">Tree-SSA</a>. Pretty exciting times for a hacker to be involved with GCC! 
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/123.html">Originally posted on Advogato</a>.)
+m4_end_post

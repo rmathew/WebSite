@@ -1,0 +1,57 @@
+m4_define(`m4_post_date', `2006-09-15')m4_dnl
+m4_define(`m4_post_title', `Terminal Sickness')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I have a simple requirement: I want my programme to be able to spawn another programme on the same machine and talk to it using the simplest possible means of communication, that is, via the spawned programme's standard input and output streams.
+<p>
+The driving programme is written in C and the spawned programme could have been written in any programming language (hence the need for using as simple a form of communication as possible). The messages exchanged between the programmes are terminated by newline characters.
+<p>
+This should have been a relatively simple task with code somewhat like the following (error-handling has been omitted for clarity):<br /><pre><br />  /* File descriptors for pipes connecting driver and inferior<br />     processes. */<br />  int drv2inf[2], inf2drv[2];<br />  <br />  /* Create communication pipes. */<br />  pipe (drv2inf); pipe (inf2drv);
+<p>
+  if (fork () == 0) {<br />    /* In child process - close "other" ends of pipes first. */<br />    close (drv2inf[1]); close (inf2drv[0]);
+<p>
+    /* Redirect stdin and stdout. */<br />    close (0); dup (drv2inf[0]); close (drv2inf[0]);<br />    close (1); dup (inf2drv[1]); close (inf2drv[1]);
+<p>
+    /* Spawn inferior process - should never return. */<br />    char *args[] = { prog, NULL};<br />    execv (prog, args);<br />  } else {<br />    /* In parent process - close "other" ends of pipes first. */<br />    close (drv2inf[0]); close (inf2drv[1]);<br />  }<br /></pre><br />However, running this with a test programme (written in C) revealed a problem: messages sent by the spawned programme were not reaching the driving programme!
+<p>
+The reason is that <code>stdout</code> is normally &quot;line-buffered&quot; - i.e. output is buffered till either the buffer becomes full or till a newline character is encountered. When <code>stdout</code> is not connected to a terminal however (for example, when output is redirected to a file), it becomes &quot;block-buffered&quot; - i.e. output is buffered till the buffer becomes full. Of course, you can force the output buffer to be flushed out using <code>fflush()</code> at any time. This behaviour of the C runtime is a reasonable tradeoff that seeks to optimise throughput and response under different conditions. In my case the C runtime determined that <code>stdout</code> was not connected to a terminal and therefore should be block-buffered. The messages sent by the spawned process were therefore still sitting in its output buffer while the driving process waited to hear from it.
+<p>
+My knee-jerk reaction was to insert a call to <code>setvbuf()</code> with a mode of <code>_IOLBF</code> just before the call to <code>execv()</code> in order to force a line-buffered mode for the spawned process. Of course, this does not work for the simple reason that the C runtime is re-initialised after the call to <code>execv()</code>.
+<p>
+A possible solution is to mandate that the spawned programme force a line-buffered mode for <code>stdout</code> using something like <code>setvbuf()</code>. Another solution is to mandate that the spawned programme always use the equivalent of <code>fflush()</code> to flush its output buffers after every message. However, these just work around the problem rather than solving it. I also do not want to place unnecessary restrictions on spawned programmes.
+<p>
+So it seems the only solution left is to use a <a href="http://en.wikipedia.org/wiki/Pseudo_terminal">pseudo terminal</a> to fool the spawned programme's runtime into thinking that it is attached to a terminal. A glance through the sample code given in my copy of Stevens's &quot;Advanced Programming in the UNIX Environment&quot; reveals that some ugly code is needed to make it work properly. It also makes my programme even less portable than it currently is. I am therefore a bit loath to take this approach.
+<p>
+Does anyone know of a better solution to this problem?
+<p>
+<b>Update (2006-09-16):</b> Thanks to all who responded. Using a pseudo terminal solved my problem. The <code>forkpty()</code> function from <code>libutil</code> provided by the GNU C Library (thank you Scott) conveniently wraps everything I need into a single function. The only problem is that it also redirects <code>stderr</code> to the newly-created pseudo terminal and this robs the spawned programme of a simple method of debugging. To work around this issue, I had to save the <code>stderr</code> stream using a <code>dup()</code> before calling <code>forkpty()</code> and then restore it using a <code>dup2()</code> in the child process.
+<p>
+One of the problems with using a pseudo terminal that initially stumped me was the fact that the spawned programme seemed to send the driver programme all the messages it was sent by the latter in addition to sending messages of its own. It took me a while to realise that this was because of terminal echo. Switching terminal echo off resolved this problem.
+<p>
+<b>Update (2007-10-18):</b> Here is the relevant portion of the programme that finally worked for me:<br /><pre><br />#include &lt;stdio.h&gt;<br />#include &lt;stdlib.h&gt;
+<p>
+#include &lt;errno.h&gt;<br />#include &lt;sys/types.h&gt;<br />#include &lt;sys/stat.h&gt;<br />#include &lt;unistd.h&gt;<br />#include &lt;termios.h&gt;<br />#include &lt;pty.h&gt;
+<p>
+/* Spawns a process with redirected standard input and output<br />   streams. ARGV is the set of arguments for the process,<br />   terminated by a NULL element. The first element of ARGV<br />   should be the command to invoke the process.<br />   Returns a file descriptor that can be used to communicate<br />   with the process. */<br />int<br />spawn (char *argv[]) {<br />  int ret_fd = -1;
+<p>
+  /* Find out if the intended programme really exists and<br />     is accessible. */<br />  struct stat stat_buf;<br />  if (stat (argv[0], &stat_buf) != 0) {<br />    perror ("ERROR accessing programme");<br />    return -1;<br />  }
+<p>
+  /* Save the standard error stream. */<br />  int saved_stderr = dup (STDERR_FILENO);<br />  if (saved_stderr &lt; 0) {<br />    perror ("ERROR saving old STDERR");<br />    return -1;<br />  }
+<p>
+  /* Create a pseudo terminal and fork a process attached<br />     to it. */<br />  pid_t pid = forkpty (&ret_fd, NULL, NULL, NULL);<br />  if (pid == 0) {<br />    /* Inside the child process. */
+<p>
+    /* Ensure that terminal echo is switched off so that we<br />       do not get back from the spawned process the same<br />       messages that we have sent it. */<br />    struct termios orig_termios;<br />    if (tcgetattr (STDIN_FILENO, &orig_termios) &lt; 0) {<br />      perror ("ERROR getting current terminal's attributes");<br />      return -1;<br />    }
+<p>
+    orig_termios.c_lflag &= ~(ECHO | ECHOE | ECHOK | ECHONL);<br />    orig_termios.c_oflag &= ~(ONLCR);
+<p>
+    if (tcsetattr (STDIN_FILENO, TCSANOW, &orig_termios) &lt; 0) {<br />      perror ("ERROR setting current terminal's attributes");<br />      return -1;<br />    }
+<p>
+    /* Restore stderr. */<br />    if (dup2 (saved_stderr, STDERR_FILENO) &lt; 0) {<br />      perror ("ERROR restoring STDERR");<br />      return -1;<br />    }
+<p>
+    /* Now spawn the intended programme. */<br />    if (execv (argv[0], argv)) {<br />      /* execv() should not return. */<br />      perror ("ERROR spawning programme");<br />      return -1;<br />    }<br />  } else if (pid &lt; 0) {<br />    perror ("ERROR spawning programme");<br />    return -1;<br />  } else {<br />    close (saved_stderr);<br />  }
+<p>
+  return ret_fd;<br />}<br /></pre>
+<p>
+(<a href="http://rmathew.blogspot.com/2006/09/terminal-sickness.html">Originally posted on Blogspot</a>.)
+m4_end_post

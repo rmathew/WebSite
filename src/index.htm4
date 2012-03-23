@@ -12,9 +12,6 @@ style="float: right; margin-left: 10px;">
 This is the personal web-site of <b>Ranjit Mathew</b>.
 <p>
 I am a <a href="resume.html">professional computer programmer</a>.
-<p>
-I also maintain a blog at <b><a
-href="http://rmathew.blogspot.com/">rmathew.blogspot.com</a></b>.
 <div class="notice" style="clear: right;">
 <div class="centred">
 <b>
@@ -34,7 +31,7 @@ m4_collect_posts( `html', `2012')
 <div class="right_justified">
 &nbsp;
 <br>
-<b><a href="archives/index.html">Older News</a></b>
+<b><a href="archives/index.html">Older Posts</a></b>
 </div>
 </div>
 m4_dnl

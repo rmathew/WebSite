@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2004-10-25')m4_dnl
+m4_define(`m4_post_title', `Jacks Migrated')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+<a href="http://www-124.ibm.com/pipermail/jacks/2004-October/000921.html">Jacks has migrated to its new home within Mauve</a>! Thank you Tom and Mark.
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/44.html">Originally posted on Advogato</a>.)
+m4_end_post

@@ -1,0 +1,19 @@
+m4_define(`m4_post_date', `2006-06-29')m4_dnl
+m4_define(`m4_post_title', `Tales of Human Resources')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+In an organisation that I once worked for, the Human Resources department was particularly prone to engaging in activities and issuing diktats that were rather Dilbert-esque. Here I recount a couple of egregious examples of this behaviour that unnecessarily damaged the careers of several employees for absolutely no fault of their own.
+<p>
+At that time, the employees in that organisation were awarded grades every year reflecting their perceived performance based on appraisals by their peers, their seniors and anyone working under them. The grades ranged from A (exceptional) to D (unsatisfactory) and affected how much of a hike in salary (if any) you get when the next round of salary hikes takes place. They also affected the chances of your promotion.
+<p>
+Someone in the HR department read somewhere that the distribution of these grades in a large organisation usually follows the bell curve of a <a href="http://en.wikipedia.org/wiki/Normal_distribution">normal distribution</a> with a few employees being graded exceptionally good or marked unsatisfactory and most employees being graded good or merely satisfactory. This person then made the leap of logic in deciding that the distribution of these grades <span style="font-style: italic;">must necessarily</span> look like a bell curve and that too for <span style="font-style: italic;">each team</span> in the organisation!
+<p>
+Needless to say, this had a very bad effect on some teams and our team was affected especially badly. Our team was assembled by hand-picking the best people from a lot of teams across the organisation to work on a particular project that the company perceived to have a lot of potential at the time. It was natural for almost everyone in the team to perform well and the managers mostly awarded Bs and As. The HR department, of course, would have none of this. The distribution must be "normal" across the team and all the pleas of the managers fell on deaf ears. The result was that some of our team members were awarded a D even though they had done good work throughout the year! This had a predictable effect on employee morale. A lot of people from the team left the company very soon.
+<p>
+The same organisation also had an unwritten rule of letting go of the bottom 5% of the employees of the organisation every year judged by their performance. The merits of this kind of a rule is, of course, debatable but once again a diktat from HR made it even more damaging. They decreed that <span style="font-style: italic;">every team</span> should let go of the bottom 5% (rounded <span style="font-style: italic;">up</span> to the nearest whole number), irrespective of whether there was actually anything unsatisfactory about the affected employees. Once again managers pleaded in vain with HR and were helpless as useful team members of a project were unnecessarily laid off. The crazy thing is that hiring continued to go in full swing during this period. Some managers thought they could take advantage of this and hire back the laid-off workers but HR nipped their plans by reminding them of the policy that an employee could not join the company after leaving it for a period of at least six months.
+<p>
+These incidents were not only devastating for the morale of the employees directly affected, but they were also depressing for the rest of us. Ironically, one of the purported aims of the HR department was to devise ways of boosting employee morale. Their actions however had the exact opposite effect.
+<p>
+(<a href="http://rmathew.blogspot.com/2006/06/tales-of-human-resources.html">Originally posted on Blogspot</a>.)
+m4_end_post

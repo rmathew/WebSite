@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2004-10-25')m4_dnl
+m4_define(`m4_post_title', `QEMU Rocks!')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+At work, we needed to test out our project on as many machines as possible, but we could not get access to enough machines that we could maul as and when we pleased. <a href="http://www.vmware.com/">VMWare</a> would have helped, but we didn't have enough licenses. <a href="http://bochs.sourceforge.net/">Bochs</a> was good but was too slow for practical purposes. Fortunately for us, we found <a href="http://fabrice.bellard.free.fr/qemu/">QEMU</a> and it fit the bill quite well. It has been written primarily by <a href="http://fabrice.bellard.free.fr/">Fabrice Bellard</a> and is quite fast and works surprisingly well - we could get an entire installation of Red Hat Enterprise Linux 3 Advanced Server running under QEMU without any problems!  For the adventurous, quite a few QEMU-ready images can be found at <a href="http://www.freeoszoo.org/">FreeOSZoo</a>. QEMU also comes with a utility to convert VMWare disc images to the raw disc images used by both QEMU and Bochs. Very cool stuff and highly recommended! Thanks Fabrice!
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/44.html">Originally posted on Advogato</a>.)
+m4_end_post

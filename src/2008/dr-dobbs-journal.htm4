@@ -1,0 +1,29 @@
+m4_define(`m4_post_date', `2008-05-08')m4_dnl
+m4_define(`m4_post_title', `Dr Dobb&rsquo;s Journal')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I have had a subscription of the print edition of <a href="http://www.ddj.com/">Dr Dobb's Journal</a> (DDJ) for a little over six months now. This renewed relationship with my favourite professional magazine has been a mixed experience so far.
+m4_begin_post_rest
+<p>
+I first came across DDJ in the <a href="http://library.iitk.ac.in/">IIT Kanpur Library</a> about 15 years ago. For someone interested in computer programming, it was a fantastic magazine. Along with <a href="http://www.byte.com/">BYTE</a> (published only on-line after 1998), which was a fantastic magazine for people interested in microcomputers, it became regular reading for me at the library. I used to read new issues as soon as they became available in the library and would try to read as many of the old issues as I could lay my hands on (the library used to have bound volumes of old issues of these magazines dating back several years). The early issues provide a fascinating insight into the evolution of the personal computer.
+<p>
+When I started my career as a software engineer, I tried to subscribe to DDJ myself. At  about Rs 3,000, the annual cost of the subscription at the time was a bit too much for me. This situation did not improve for several years after that. I had to console myself by ordering "Dr Dobb's CD Release 6", a CD that contained electronic versions of all the DDJ issues from January 1988 to June 1998.
+<p>
+When I noticed recently that the print issues of DDJ were available internationally at just $30 (about Rs 1,200) a year, I jumped at the opportunity to order a subscription for myself. Even though an electronic edition of an issue is immediately made available to subscribers, I always prefer to read the "dead-tree" (print) edition when possible. I eagerly waited for my copy of the print edition to arrive in my mailbox. I was setting myself up for frustration.
+<p>
+My copy of the November 2007 issue of DDJ arrived <i>two and a half months</i> after it was announced! To top that, the December 2007 issue did not arrive at all. To add insult to injury, my email to them inquiring about this problem was rejected by their "Barracuda Spam Firewall" with a terse message stating that "Message content rejected". As if to then really irritate me, they sent a letter in January 2008 asking me to renew my subscription <i>ten months</i> before it was set to expire!
+<p>
+Fortunately for me, the situation improved considerably from January 2008 and the issues started arriving regularly and well in time (as was the case many years ago, an issue of DDJ arrives about a fortnight before the corresponding month - for example, the issue for May 2008 was delivered in mid-April).
+<p>
+The first thing I noticed about these issues was that they were really <i>thin</i> - they seem to be about one-third the thickness of the old issues of DDJ from what I remember. Could that be the reason for the drop in prices? The second thing I noticed in the initial issues was that many of the articles were about web development and other such things in which I do not have that much interest. Was it going to be like this for the rest of the year?
+<p>
+Once again, fortunately for me, the more recent issues have featured some really nice articles.  Articles like "<a href="http://www.ddj.com/hpc-high-performance-computing/206903527">Fast String Search on Multicore Processors</a>" and "<a href="http://www.ddj.com/cpp/206104422">Detecting Bugs in Safety-Critical Code</a>", for example, provide insights into areas beyond the realm of run-of-the-mill software development. <a href="http://www.gotw.ca/">Herb Sutter</a>'s "Effective Concurrency" is a really nice column. The issues for April 2008 (Algorithms) and for May 2008 (Programming Languages) in particular were quintessential DDJ.
+<p>
+Most elements of DDJ have not changed much over the years. The articles still have the same feel to them and most of the advertisements for software products are still embarrassingly corny.  The <a href="http://www.gimpel.com/html/bugs.htm">PC-lint Bug of the Month</a> series of advertisements are <i>still</i> there, though they are about C++ instead of C as a reflection of the changing times.
+<p>
+So would I still recommend this magazine to a programmer in India? Yes, definitely. Even with the cost of international shipping included, this magazine costs the same or less than comparable Indian magazines (such as they are) and the quality and the depth of the articles is usually much better.
+<p>
+(<a href="http://rmathew.blogspot.com/2008/05/dr-dobbs-journal.html">Originally posted on Blogspot</a>.)
+m4_end_post_rest
+m4_end_post

@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2005-08-16')m4_dnl
+m4_define(`m4_post_title', `Scratching An Itch: Terry Laurenzo``,'' GCJ and Generics')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+One of the stumbling blocks in supporting generics in native programs created by GCJ is the fact that the C++ method-name-mangling used by GCJ does not encode the return type of the method and thus cannot support the Java 1.5 kludge for implementing generics (<a href="http://gcc.gnu.org/bugzilla/show_bug.cgi?id=9861">PR9861</a>).  Terry was just another bloke who was trying to make his program work with GCJ when he hit this issue. Unlike most other blokes however, <a href="http://tjlaurenzo.blogspot.com/2005/08/adventures-with-java-5-and-gcj.html">he has decided to do something about it</a>. Cool! 
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/105.html">Originally posted on Advogato</a>.)
+m4_end_post

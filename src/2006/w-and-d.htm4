@@ -1,0 +1,25 @@
+m4_define(`m4_post_date', `2006-06-07')m4_dnl
+m4_define(`m4_post_title', `&ldquo;W&rdquo;``,'' &ldquo;A&rdquo; and &ldquo;D&rdquo;')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+<a href="http://tarandeep.livejournal.com/">Tarandeep</a> gave a short presentation on JavaServer Faces the other day and I couldn't help but wonder how similar it was to the "W" web-application development framework that we had developed about seven years ago when I used to work for "T".
+<p>
+"W" was an <a href="http://en.wikipedia.org/wiki/Model-view-controller">MVC</a>-based framework written in Java that encouraged you to build your web-applications as a composition of reusable components rather than as monolithic one-time efforts. Since "T" used to build a lot of web-applications for its clients, we found ourselves doing some things over and over again, with only slight changes in look-and-feel and functionality for different applications. To save ourselves time and effort (which meant you could do the same stuff for lesser money - a big advantage over your competitors in the cut-throat software services industry), we developed the "W" framework and used it in our work.
+<p>
+"A" was a similar framework developed around the same time to provide a set of services that were needed by almost all the Java web-applications we were developing (user management, security, licensing, accounting, logging, caching, etc.). This framework provided the infrastructure that an Application Service Provider (ASP) could utilise to quickly build and deploy web-applications, provide detailed reports on their usage by its customers and create invoices based on the pricing scheme applicable to a customer. Its name however was an unfortunate misnomer since most of the framework was useful for almost all Java web application developers, not just ASPs. ASPs also quickly went out of fashion and many people didn't want to touch anything related to ASPs with a barge pole.
+<p>
+"D" was yet another Java application framework we had developed for implementing simple distributed workflows. Once again, it was born out of a necessity to reliably and quickly implement workflows that were a part of many web-applications we developed for our clients. It supported a simple and straightforward XML-based format for defining workflows, several out-of-box actions, a graphical workflow designer application, etc.
+<p>
+The sad thing is that none of this really went anywhere. We tried to turn "A" and "D" into products ("W" was deemed "too fundamental"), but being a company primarily focussed on software services and struggling to survive in the post-dot-com-boom era and the havoc caused by the events of 11 September 2001, we just couldn't devote enough resources to polish these and effectively market them. We also tried to donate "A" to the Apache Jakarta project (yes, the approach was extremely naive of us) with disastrous results. "A" was used by one ASP. These frameworks were used in a few applications for the company intranet and in a few applications developed for its clients, but as far as I can tell, they are no longer in use. In fact, I couldn't even locate the blurb on these frameworks and the associated white-papers on the website for "T". I think they are dead for all practical purposes.
+<p>
+R.I.P.
+<p>
+I am not saying that any of this was insanely great and necessarily deserved to succeed. In fact some of the aspects of the design of these frameworks reflected the naivete of its inexperienced designers (yours truly being one of the prime culprits) that can only be cured by years of experience with solving hard problems in real applications. I am also not saying that no one else had thought of these things at that time or had built frameworks or products around these ideas. What I am saying is that there were aspects of these frameworks that could have helped a lot of people save time and effort on building Java-based web-applications, much before the tools that are now available made their appearance, if only we had created a better awareness of these frameworks and promoted them differently.
+<p>
+There were several good things that did come out of these frameworks though. I learnt a lot about proper object-oriented design and architecture by working on them. I found out just how completely different creating a software product is compared to providing turnkey solutions for your clients. While promoting "A", I got a chance to experience the wonderful city of Amsterdam for over a week. Most of the people in the team that created "A" have become some of the best friends I've ever had - one of them, Anusha, is now my wife. There is a silver lining to every dark cloud in life.
+<p>
+<b>Update (2007-08-06):</b> Replaced the actual names of the products and the company with their initials on a request from "T" - Google was ranking this page too highly for their comfort.
+<p>
+(<a href="http://rmathew.blogspot.com/2006/06/w-and-d.html">Originally posted on Blogspot</a>.)
+m4_end_post

@@ -1,0 +1,21 @@
+m4_define(`m4_post_date', `2007-07-11')m4_dnl
+m4_define(`m4_post_title', `&ldquo;Finance``,'' Investments &rsquo;n&rsquo; Trading&rdquo;')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+"<a href="http://invest-n-trade.blogspot.com/">Finance, Investments 'n' Trading</a>" is a weblog by Shobhit that tries to bring some sanity to the general mania currently surrounding the Indian stock markets.
+m4_begin_post_rest
+<p>
+You should read his articles in chronological order (he provides a helpful "<a href="http://invest-n-trade.blogspot.com/2007/07/table-of-contents.html">Table of Contents</a>" article for this purpose). He might sound too pessimistic to some and I do not necessarily agree with everything that he says, but the articles are still a good and recommended read, particularly if you actively buy and sell stocks or are thinking of getting into it.
+<p>
+The Indian stock markets have been in a prolonged and an almost-continuous bull run for about three to four years. So many people have apparently made so much money with such ease that everyone from students and housewives to army men and retired government workers want to jump into the bandwagon for fear of being left out. It does not help that newspapers, magazines and TV channels provide a disproportionate coverage of the "excitement" surrounding the Indian stock markets as if it is a form of sport.
+<p>
+When caution and rational reason are abandoned in times of general euphoria, many people are likely to get their hands burnt (some times without even realising that they have made a net loss, taking inflation, taxes and trading charges into account). The only people who consistently make money in such situations are the stockbrokers (for example, read <a href="http://www.berkshirehathaway.com/letters/2005ltr.pdf">Warren Buffett's "Chairman's Letter" to Berkshire Hathaway Shareholders for 2005</a> (PDF) from page 17 onwards).
+<p>
+I don't think that investing in stocks is necessarily a bad thing or that the current bull run is not backed by a real growth in the Indian economy. I just wish that people think a bit more rationally, keep realistic expectations of returns and figure out how to calculate their real loss or gain from trading, before jumping in.
+<p>
+I wish that more people read and understand the advice given in Benjamin Graham's superb book "The Intelligent Investor".
+<p>
+(<a href="http://rmathew.blogspot.com/2007/07/finance-investments-n-trading.html">Originally posted on Blogspot</a>.)
+m4_end_post_rest
+m4_end_post

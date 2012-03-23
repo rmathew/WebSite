@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2003-07-28')m4_dnl
+m4_define(`m4_post_title', `PC Upgrade')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+Yay!  I upgraded my home PC with some RAM (512MB that should have been recognised as 784MB - see my previous diary entry)  and a 750MHz P3 bought off eBay and I can see the  dramatic improvement this upgrade has brought to my system compared  to the 128MB RAM and a 450MHz P2 that I had on this PC.  My system now scores 1280 on <a href="http://www.futuremark.com/products/3dmark2001/">3DMark 2001</a> compared to 585 before the upgrade! More importantly, GCC 3.4 now does a clean bootstrap in ~2 hours instead  ~3.5 hours earlier!  I now eagerly await my GeForce 3 graphics card, also bought off eBay, so that I can enjoy <a href="http://www.halflife2.net/">Half Life 2</a>!
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/6.html">Originally posted on Advogato</a>.)
+m4_end_post

@@ -1,0 +1,17 @@
+m4_define(`m4_post_date', `2008-12-25')m4_dnl
+m4_define(`m4_post_title', `&ldquo;Dimensions&rdquo;')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I came across the "<a href="http://www.dimensions-math.org/">Dimensions</a>" video <a href="http://www.reddit.com/r/science/comments/7ldpz/this_science_video_will_blow_your_mind_dimensions/">via Reddit</a>. It tries to help you visualise four-dimensional objects via their projections onto ordinary three-dimensional space. If you have even the slightest interest in mathematics, you should check it out. You can either view it on-line or order a reasonably-priced DVD. The video is about two hours long.
+m4_begin_post_rest
+<p>
+If you have never thought about the difficulty of <tt>n</tt>-dimensional beings perceiving <tt>(n+1)</tt>-dimensional objects, I would recommend that you first read the short but excellent book "<a href="http://en.wikipedia.org/wiki/Flatland">Flatland</a>" (an on-line version available <a href="http://xahlee.org/flatland/index.html">here</a>). For example, if you are a two-dimensional being constrained to live on a two-dimensional plane, you cannot perceive three-dimensional beings except as two-dimensional projections onto your plane.
+<p>
+If the projection used is the cross-section, if any, obtained by the intersection of the three-dimensional beings with the two-dimensional plane of your world, then the projection of a three-dimensional being can even spontaneously appear in, and disappear from, fully-enclosed areas in your world as the three-dimensional being moves around in three-dimensional space. The shape of the projection might also change depending on the position and the orientation of the three-dimensional being. These shape-shifting three-dimensional beings will then appear magical to you since they do not seem to obey the natural laws of your world.
+<p>
+The "Dimensions" video uses the <a href="http://en.wikipedia.org/wiki/Stereographic_projection">stereographic projection</a>, which preserves shapes, to help us visualise four-dimensional objects in three-dimensional space. It uses some amazing graphics created using <a href="http://www.povray.org/">POV-Ray</a> to illustrate the ideas. Though the narrative could have been a bit faster and the background music a bit less jarring at times, this is an excellent effort by some very talented folks with a lot of love for mathematics.
+<p>
+(<a href="http://rmathew.blogspot.com/2008/12/dimensions.html">Originally posted on Blogspot</a>.)
+m4_end_post_rest
+m4_end_post

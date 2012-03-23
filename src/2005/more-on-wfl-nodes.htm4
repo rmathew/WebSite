@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2005-09-06')m4_dnl
+m4_define(`m4_post_title', `More on WFL Nodes')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I found <a href="http://gcc.gnu.org/ml/gcc-patches/2003-01/msg00954.html">the original patch from Jeff Law</a> that removed WFL nodes from the rest of GCC and includes an analysis of why WFL nodes are bad. Note in particular his analysis of the Java front-end, where 30% of all generated tree nodes are EWFL nodes! WFL nodes are thus a waste of space and time, not to mention a source of unnecessarily-added complexity in the front-end that ultimately only frustrates hackers. So I repeat my war cry, "Death to WFL nodes"!  By the way, GCJ already gets the column numbers pretty wrong on almost all diagnostics, so it's not as if we lose much by losing EWFL nodes.
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/109.html">Originally posted on Advogato</a>.)
+m4_end_post

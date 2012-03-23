@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2004-04-21')m4_dnl
+m4_define(`m4_post_title', `Illegal Package-Private Accesses Checking')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+...in the current <a href="http://gcc.gnu.org/java/">GCJ</a> is just plain broken. I have had a simple patch for fixing this for <a href="http://gcc.gnu.org/bugzilla/show_bug.cgi?id=9685">accesses to package-private members</a> for a long time now, but the bug had let in a few instances of wrong code to creep into libgcj that were sometimes trivial, sometimes not so trivial, to fix. Yesterday, Michael Koch committed the fix for the last of these problems and therefore I promptly submitted <a href="http://gcc.gnu.org/ml/java-patches/2004-q2/msg00120.html">a revised version of my patch</a> for review.   Unfortunately, this still does not fix illegal access to package-private <i>classes</i> though.   Sadder still is that GCJ still has <a href="http://gcc.gnu.org/bugzilla/show_bug.cgi?id=13607">a bunch of problems related to access control</a>. <tt>:-(</tt>
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/21.html">Originally posted on Advogato</a>.)
+m4_end_post

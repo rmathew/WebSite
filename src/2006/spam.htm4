@@ -1,0 +1,13 @@
+m4_define(`m4_post_date', `2006-06-16')m4_dnl
+m4_define(`m4_post_title', `Spam')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+<a href="http://mail.google.com/">Gmail</a> is pretty good at detecting and filtering out spam, but these days a lot of spam is making its way past Gmail's filters. Spammers have started sending emails where <span style="font-style: italic;">images</span> show the text of the email, leaving no hope for Gmail's filters to process the text to determine if its spam or not (unless of course they use an <a href="http://en.wikipedia.org/wiki/Optical_character_recognition">OCR</a> software, in which case the spammers might resort to using <a href="http://en.wikipedia.org/wiki/CAPTCHA">captcha</a>-like text in the images, <span style="font-style: italic;">ad nauseum</span>). I have also started receiving a lot of spam in languages like Chinese and Spanish (perhaps Portuguese, I can't tell), again something that Gmail's filters apparently can't process.
+<p>
+A big irritant on Gmail is <a href="http://arstechnica.com/news.ars/post/20060120-6022.html">its single biggest misfeature</a> (in my opinion) - mails delivered to, say, "r.mathew" are delivered to me ("rmathew"), filling my inbox with random (sometimes personal) mails. They try to <a href="http://mail.google.com/support/bin/answer.py?answer=10313&amp;topic=1564">justify</a> it as a feature, but since they let people register usernames with a period for a while, this can either get very amusing or very irritating for a lot of people depending on their disposition. Why can't they just stop implementing this "feature"?
+<p>
+Anyway, I have now become used to quickly scanning the subjects and senders of the mails in my inbox to select and "Report Spam" the ones that are obviously spam and then proceeding to read the mails in my inbox.
+<p>
+(<a href="http://rmathew.blogspot.com/2006/06/spam.html">Originally posted on Blogspot</a>.)
+m4_end_post

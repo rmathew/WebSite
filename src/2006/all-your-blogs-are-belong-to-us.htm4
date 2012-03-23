@@ -1,0 +1,15 @@
+m4_define(`m4_post_date', `2006-07-19')m4_dnl
+m4_define(`m4_post_title', `All Your Blogs Are Belong To Us')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+We in India are no longer able to directly view blogs hosted on Blogspot, Typepad, Geocities, etc. This is because <a href="http://in.rediff.com/news/2006/jul/17blog.htm">ISPs in India are blocking access to these popular sites</a> acting on a government diktat to block some blogs "within the provisions of the Fundamental Right to free speech and expression granted in India's constitution" [<span style="font-style: italic;">sic</span>]. <a href="http://www.gonomad.com/traveltalesfromindia/2006/07/what-is-up-with-blogspot-blogger-sites.html">Mridula</a> was one of the first ones to notice and write about this blockade and the story has already made it to <a href="http://yro.slashdot.org/article.pl?sid=06/07/17/1732209">Slashdot</a> and some of the mainstream media in India.
+<p>
+The government's diktat was to block a specific set of blogs ("to ensure a balanced flow of information") but since all the Blogspot URLs resolve to the same IP address, the blockade ends up blocking <span style="font-style: italic;">all</span> blogs hosted on Blogspot. Ditto for Typepad, Geocities, etc. Since blogger.com is not blocked, I am able to post to my blog. I can also view my blog from my office since the Internet connection there is routed via a corporate proxy server located in the US. Using <a href="http://www.pkblogs.com/">pkblogs.com</a>, which was set up to allow people in Pakistan to view Blogspot blogs since they have a similar blockade in place, is another workaround, as is using a public proxy server or the <a href="http://en.wikipedia.org/wiki/Tor_%28anonymity_network%29">Tor</a> network using something like <a href="http://en.wikipedia.org/wiki/Torpark">Torpark</a>.
+<p>
+In 2003, a similar <a href="http://www.rediff.com/netguide/2003/sep/23yahoo.htm">government diktat to block a specific Yahoo! Group</a> had caused <span style="font-style: italic;">all</span> Yahoo! Groups to become inaccessible from India. Thankfully that situation was resolved quickly and let's hope this issue is too.
+<p>
+A clueless bureaucracy eagerly assisted by a servile and clueless set of ISPs is not good news. Where is a cluebat when you need one?<span class="" style="display: block;" id="formatbar_CreateLink" title="Link" onmouseover="ButtonHoverOn(this);" onmouseout="ButtonHoverOff(this);" onmouseup="" onmousedown="CheckFormatting(event);FormatbarButton('richeditorframe', this, 8);ButtonMouseDown(this);"></span>
+<p>
+(<a href="http://rmathew.blogspot.com/2006/07/all-your-blogs-are-belong-to-us.html">Originally posted on Blogspot</a>.)
+m4_end_post

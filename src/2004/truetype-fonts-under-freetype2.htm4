@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2004-04-15')m4_dnl
+m4_define(`m4_post_title', `TrueType Fonts Under FreeType2')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+If you are in a country where software patents do not (yet) apply - or if you just do not believe in them - you should always compile FreeType2 with <tt>TT_CONFIG_OPTION_BYTECODE_INTERPRETER</tt> defined in the file "<tt>include/freetype/config/ftoption.h</tt>". This improves the display of TrueType fonts. However, "Times New Roman" and "Courier New" still do not render nicely enough under Mozilla for me. <tt>:-(</tt> (Yes, I <i>do</i> have the Xft/Gtk2/Pango enabled build of Mozilla.) 
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/20.html">Originally posted on Advogato</a>.)
+m4_end_post

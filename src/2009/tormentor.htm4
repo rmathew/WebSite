@@ -1,0 +1,57 @@
+m4_define(`m4_post_date', `2009-03-01')m4_dnl
+m4_define(`m4_post_title', `The Tormentor')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+About ten years ago, I was assigned as a mentor for the "Data Structures and Algorithms" course in a boot camp for freshers who had joined the company that I was working for at the time. My task was to answer any queries that the students might have had about the concepts taught in the course and then to test their understanding by giving them a related assignment. Looking back at one of these assignments, I can understand why I was nicknamed the "tor-mentor".
+m4_begin_post_rest
+<p>
+For some reason, <a href="http://ommh.blogspot.com/">Manju</a> has preserved one of these assignments that I am now reproducing below. The students were expected to finish this assignment in the post-lunch half of the day and were divided into groups of three to four for this task. At least two groups chose the problem in Section B (Manju was in one of them, as was <a href="http://sriki77.blogspot.com/">Sriki</a>) and demonstrated a working implementation within the assigned time. <pre>                      Data Structures and Algorithms<br />                      ==============================
+<p>
+Instructions:<br />-------------
+<p>
+    1) Solve either the three problems in Section A or the<br />       single problem in Section B. You must implement your<br />       algorithms as working programs in the C language.
+<p>
+    2) Try to keep your programs as simple as possible.<br />       Take care of proper program layout and embellish it<br />       with useful comments at the appropriate places.
+<p>
+    3) Make your programs as robust as possible. All borderline<br />       cases should be handled properly and the program should<br />       exit gracefully under all circumstances.
+<p>
+<br />Section A<br />=========
+<p>
+Problem A1: Prime Number Generation<br />-----------------------------------
+<p>
+Given a positive number N, generate all the prime numbers<br />from 2 to N. The primary emphasis in the solution to this<br />problem should be on speed. In addition, you must not consume<br />an inordinate amount of memory.
+<p>
+Problem A2: Arbitrary Precision Arithmetic<br />------------------------------------------
+<p>
+Implement an arbitrary precision arithmetic calculator.<br />You should implement addition, subtraction, multiplication<br />and division in the respective order. Try to make your<br />program as fast as possible and keep memory usage to the<br />bare minimum.
+<p>
+Problem A3: Sub-string Search<br />-----------------------------
+<p>
+Given two strings S1 and S2, determine whether S2 occurs<br />as a substring in S1 and if so, find the first occurrence<br />of S2 in S1. Your program should be extremely fast. Try<br />to come up with a linear solution to the problem.
+<p>
+<br />Section B<br />=========
+<p>
+Problem B1: Simple File-system Implementation<br />---------------------------------------------
+<p>
+Implement a simple filesystem within a normal file on the<br />hard disk, i.e. treat the file as a virtual disk and<br />implement the filesystem by manipulating records within the<br />file.
+<p>
+You are free to devise your own scheme for the file system<br />but it should minimally support the following operations:
+<p>
+   1) Create - Create a virtual hard disk on a file of the<br />      specified size and "format" it. Formatting would<br />      essentially involve initialising disk allocation<br />      structures and whatever else you need to do before<br />      you can have a valid filesystem.
+<p>
+   2) Open, Read, Write, Close - All the normal file operations<br />      to use the files.
+<p>
+   3) Delete, Rename - Remove unwanted files or rename existing<br />      files.
+<p>
+Do not place artificial restrictions on file names, sizes, etc.
+<p>
+In addition, if you can, provide support for folders (also known<br />as directories) which can be arbitrarily nested. Provide all<br />the common operations for folders.
+<p>
+You should implement this as a library of routines that can be<br />used by anyone wanting to treat a file as a filesystem.<br />Demonstrate the correctness of your routines by writing a demo<br />program that lets one manipulate files interactively.
+<p>
+                             --- X ---<br /></pre>
+<p>
+(<a href="http://rmathew.blogspot.com/2009/03/tormentor.html">Originally posted on Blogspot</a>.)
+m4_end_post_rest
+m4_end_post

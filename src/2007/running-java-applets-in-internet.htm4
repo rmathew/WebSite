@@ -1,0 +1,29 @@
+m4_define(`m4_post_date', `2007-04-13')m4_dnl
+m4_define(`m4_post_title', `Running Java Applets in Internet Explorer on Linux')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+One of the unfortunate things about the current state of the internet is that some web sites refuse to work with anything other than Internet Explorer (IE). Some of these also require you to run Adobe Flash Player and/or Sun's JVM within IE. Most of these sites can be happily avoided, but some of them just can't, especially when they run important applications within a corporate intranet. This can seriously dampen the enthusiasm of people willing to try out Linux as their primary desktop.
+m4_begin_post_rest
+<p>
+<a href="http://www.winehq.com/">WINE</a> allows you to run many a Windows application natively on Linux, including IE (albeit with a few tweaks). <a href="http://www.tatanka.com.br/ies4linux/page/Main_Page">IEs4Linux</a> makes it really simple to install one <i>or more</i> versions of IE on your Linux system, something that is very difficult on Windows itself, if not impossible! You can also view Flash content and run Java applets within such an IE. The latter requires a bit of tweaking with the current release of WINE (0.9.34), if you want to use Sun's JVM instead of that provided by Microsoft, as explained below.
+<p>
+Install a version of IE using IEs4Linux into, say, <tt>$HOME/.ies4linux</tt> (the default). Assuming that you choose to install only IE 6.0 SP1, IEs4Linux will create a WINE "bottle" named "<tt>ie6</tt>" within "<tt>$HOME/.ies4linux</tt>", separate from your regular WINE bottle (which is present by default in "<tt>$HOME/.wine</tt>"). IEs4Linux can also automatically install Adobe Flash Player along with IE. Run IE at least once to verify that it is working.
+<p>
+Now install the Java Runtime Environment (JRE) making sure that you correctly specify the <tt>WINEPREFIX</tt> environment variable by pointing it to the IE WINE bottle. For example:<br /><pre><br />export WINEPREFIX=$HOME/.ies4linux/ie6<br />wine jre-1_5_0_11-windows-i586-p.exe<br /></pre><br />For some reason, <tt>RegUtils.dll</tt> is not correctly copied during the installation of the JRE and therefore you must copy this file from a Windows machine that has exactly the same version of the JRE. This file is usually found in the "bin" sub-folder of the JRE installation folder. Without this file, the Java Control Panel applet will not be able to register Sun's JRE with IE.
+<p>
+Now run the "javacpl" programme found in the "bin" sub-folder of the JRE installation folder. With the current WINE release, this would cause your display to flicker or black out since it does not yet fully support DirectX-based acceleration (but where the maximum development effort currently seems to be directed). To avoid this, you can also invoke the Java Control Panel applet alternatively like this in the "lib" sub-folder of the JRE installation folder:<br /><pre><br />java -classpath deploy.jar \<br />  -Dsun.java2d.noddraw com.sun.deploy.panel.ControlPanel<br /></pre><br />Go to the "Advanced" tab and <i>uncheck</i> the check-box for "&lt;APPLET&gt; tag support" for "Internet Explorer", apply your changes and close the applet. Restart the applet once again and this time <i>check</i> the check-box, apply your changes and close the applet. You should now be able to see Java applets within IE using Sun's JRE.
+<p>
+If you wish to avoid the flicker/blacking-out of the display whenever you run Java GUI applications, you can either pass the JVM option <tt>-Dsun.java2d.noddraw</tt> to Java applications and applets or disable DirectX-based acceleration for Java 2D completely by looking for a registry key like:<br /><pre><br />HKEY_CURRENT_USER\Software\JavaSoft\Java2D\1.5.0_11<br /></pre><br />and setting the value of "DXAcceleration" to "0". (WINE includes a "regedit" programme just like its Windows counterpart.)
+<p>
+With IE, Flash and Java Applets with you, you are now ready to savour the worst of the internet first-hand on your Linux desktop instead of hearing about it from your friends who use Windows.
+<p>
+(The method outlined here seems to work with WINE 0.9.34 on Fedora Core 6, IE 6.0 SP1 as installed by IEs4Linux 2.0.5 and Sun's JRE 1.5.0_11 - your mileage might vary.)
+<p>
+<b>Update (2007-07-03):</b> With WINE 0.9.40 on Fedora 7 and Sun's JRE 1.5.0_12, I don't see the problem with "RegUtils.dll" and the JRE installs just fine. Another way of avoiding the blackening of the entire desktop while using Java Swing applications (and for getting a much more accurate display) is to enable a "virtual desktop" that will hold your Windows applications. To do this, invoke "winecfg", select "Enable a virtual desktop" under the "Graphics" tab and provide a size for the virtual desktop (say, 800 by 600 or 1024 by 768).
+<p>
+<b>Update (2007-10-31):</b> The default location used by IEs4Linux is <tt>$HOME/.ies4linux</tt> (notice the period in front of the directory name). Changed the post to use this location instead as people were getting confused by the location used earlier.
+<p>
+(<a href="http://rmathew.blogspot.com/2007/04/running-java-applets-in-internet.html">Originally posted on Blogspot</a>.)
+m4_end_post_rest
+m4_end_post

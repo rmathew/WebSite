@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2004-04-15')m4_dnl
+m4_define(`m4_post_title', `Awed by GRUB/Linux')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I had heard of the "loop" capabilities of <tt>mount</tt> and the Linux kernel, but I experienced its full utility only yesterday - very, very cool!  We needed to install SuSE Linux apart from the existing Red Hat installation on our machine at the office, but neither was the floppy drive enabled nor was it possible to get a bootable CD burned from the corresponding ISO image from SuSE due to the existing "IT policies". (Yes, big corporations are like this some times.)  So we first reformatted our swap partition as a regular ext3 filesystem, "loop" mounted the ISO image and copied over all the files into the newly created filesystem. Then we used the cool edit-boot-parameters-before-booting feature of GRUB to temporarily boot using this filesystem and proceeded to the actual installation. No floppy or CD required!  SuSE Linux 9.0 has a lot more eye candy than a default installation of Red Hat Enterprise Linux 9.0 and also has a couple of cool extra features. I look forward to exploring this variant of my favourite OS.  But I still love <a href="http://www.slackware.com/">Slackware</a> and yearn for its simple methods.
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/20.html">Originally posted on Advogato</a>.)
+m4_end_post

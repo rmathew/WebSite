@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2005-02-16')m4_dnl
+m4_define(`m4_post_title', `this.ego( ).puncture( )')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+Intrigued by <a href="http://kodesunitha.tripod.com/">Sunitha</a>'s comments, I checked out a couple of problems in one of the practice rooms in <a href="http://www.topcoder.com/tc">TopCoder</a>. I performed abyssmally - I only got 179 points on a 250 points problem, 242 on a 500 points problem and couldn't even finish a 1000 points problem!  The problems were not difficult <i>per se</i>, but 8 years of "enterprise" software development have blunted whatever little ability I used to have to solve such problems.  On the two problems that I did manage to finish, I was stuck for a while with my mind drawing a complete blank on how to solve them - just jammed. Only after a while did my mind clear up a bit and I could code the solutions, but by then I had lost precious time that cost me points.  On the other hand, these are the sort of problems that someone who has absorbed R. G. Dromey's excellent book "<a href="http://www.amazon.com/exec/obidos/ASIN/0134340019/">How to Solve It by Computer</a>" will find easy to approach and solve well in time. That book seems utterly underrated, as does the classic problem-solving book that was its inspiration, "<a href="http://www.amazon.com/exec/obidos/ASIN/069111966X/">How to Solve It</a>" by G. Polya. The problems also had guaranteed "good" inputs, so that one does not have to worry about input validation or boundary conditions.
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/58.html">Originally posted on Advogato</a>.)
+m4_end_post

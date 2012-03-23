@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2005-04-20')m4_dnl
+m4_define(`m4_post_title', `Java Language Specification: Finally Updated')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+JLS3 is finally <a href="http://java.sun.com/docs/books/jls/">available</a>, though only as one big PDF right now. It took them quite a while to update it to reflect the new features introduced with JDK1.5.  I think it is really weird that the specifications for C and C++ are not freely available and that you have to shell out moolah to get them from ISO. Every programming language meant for general developers must have its language specification freely available. On that count, Java fares much better and full marks to Sun for ensuring that. 
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/76.html">Originally posted on Advogato</a>.)
+m4_end_post

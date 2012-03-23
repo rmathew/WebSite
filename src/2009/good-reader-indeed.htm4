@@ -1,0 +1,17 @@
+m4_define(`m4_post_date', `2009-09-24')m4_dnl
+m4_define(`m4_post_title', `A Good Reader Indeed')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I was looking for an application for the iPhone which could display PDF files on this device, especially those containing images, in a way better than that provided by the built-in support for PDF files on the iPhone. I stumbled upon an application imaginatively named "<a href="http://www.goodiware.com/goodreader.html">GoodReader</a>" that does this job very well. It is not free, but at the current price of 99 cents (versus the usual USD 4.99), it's a bargain.
+m4_begin_post_rest
+<p>
+GoodReader displays PDF files almost as well as a desktop application. It has very good zooming facilities ("50x") that let you read text and look at images without much loss of fidelity. Its "tap zones" make navigating through PDF files easier than what I expected within the constraints of the iPhone form-factor. The best feature is its decent ability to extract text out of such files and "reflow" them in order to make most PDF documents very easy to read on the iPhone.
+<p>
+GoodReader also makes it very easy to transfer documents to the iPhone. For example, in the Wi-Fi transfer mode you start a built-in web-server and then connect to the displayed URL via an ordinary browser on a desktop machine within the same network - you can then easily upload documents from the machine into your iPhone using a simple web-based interface. There is also a built-in web-browser that lets you download files directly from the Internet.
+<p>
+This application is a must-have if you want to read PDF files on the iPhone. Before using this application, I tried to convert PDF files to the <a href="http://en.wikipedia.org/wiki/EPUB">EPUB</a> format using <a href="http://calibre.kovidgoyal.net/">Calibre</a> and then reading them using <a href="http://www.lexcycle.com/">Stanza</a>. This method is outlined <a href="http://www.mobileread.com/forums/showthread.php?p=391919">here</a>. I had problems using the built-in content server of Calibre and the text was mangled when viewed in Stanza. The GoodReader approach was much simpler and produced far superior results.
+<p>
+(<a href="http://rmathew.blogspot.com/2009/09/good-reader-indeed.html">Originally posted on Blogspot</a>.)
+m4_end_post_rest
+m4_end_post

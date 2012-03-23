@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2004-12-08')m4_dnl
+m4_define(`m4_post_title', `Hosting Zero')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+For some reason, the guys at <a href="http://www.hostingzero.com/">Hosting Zero</a> suddenly offered to host my site for free! So I moved my web site <a href="http://ranjitmathew.hostingzero.com/">there</a>. They seem to have <i>far more</i> facilities than <a href="http://www.tripod.com/">Tripod</a> where I used to host my site and have no irritating advertisements and popup windows.  Let us see how this works out. A <i>big</i> thanks to the guys at <a href="http://www.hostingzero.com/">Hosting Zero</a> - do check them out.
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/49.html">Originally posted on Advogato</a>.)
+m4_end_post

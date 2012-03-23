@@ -1,0 +1,9 @@
+m4_define(`m4_post_date', `2005-05-03')m4_dnl
+m4_define(`m4_post_title', `R.I.P. JumpDrive Secure (16 Sep 2003 - 2 May 2005)')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+After <a href="http://www.advogato.org/person/rmathew/diary/8.html">over 1.5 years of continuous service</a>, my JumpDrive Secure 256MB USB drive has gone dead after I dropped it on hard floor in a moment of unpardonable carelessness yesterday. It was a good buy and it was <i>tremendously</i> useful. On <a href="http://www.lexarmedia.com/jumpdrive/jd_secure.html">Lexar's site for the JumpDrive Secure</a>, there are incredible testimonials of this drive having survived various ordeals, including being washed with a person's laundry, and emerging unscathed. Alas, no such luck for me!  I even tried to pry it open and see if there was an obviously loose component anywhere that I could set right, but it's literally a couple of chips soldered onto a small PCB connected to a USB plug. As with almost all purely electronic devices, I cannot do anything here. This is rather unlike mechanical or simple electrical devices where I usually can figure out the problem and sometimes rectify the problem. 
+<p>
+(<a href="http://www.advogato.org/person/rmathew/diary/83.html">Originally posted on Advogato</a>.)
+m4_end_post
