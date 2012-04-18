@@ -78,9 +78,14 @@ document.write(years.toFixed(1) + " Years");
 <br>
 <table border="0" cellpadding="0">
 <tr>
+<td class="compr">Google</td>
+<td class="compr">&nbsp;</td>
+<td class="compr">&nbsp;(Apr 2012 - Present)</td>
+</tr>
+<tr>
 <td class="compr">Yahoo</td>
 <td class="compr">&nbsp;</td>
-<td class="compr">&nbsp;(May 2010 - Present)</td>
+<td class="compr">&nbsp;(May 2010 - Apr 2012)</td>
 </tr>
 <tr>
 <td class="compr">Oracle</td>
@@ -116,6 +121,13 @@ Computer programmer and architect with a long and varied experience. At ease
 with both system and enterprise application development. Good written and oral
 communication skills.
 <h2>Experience</h2>
+<h3>At Google:</h3>
+<ul>
+<li>
+<b>PageSpeed:</b> A web-server module and a hosting service to automatically
+speed up a web-site by optimizing its content. Team member.
+</li>
+</ul>
 <h3>At Yahoo:</h3>
 <ul>
 <li>

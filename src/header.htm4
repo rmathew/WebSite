@@ -8,8 +8,8 @@ m4_include(`common.m4')m4_dnl
 <META name="author" content="Ranjit Mathew">
 <META property="fb:admins" content="100001929392934" />
 <link rel="icon" href="m4_root_dir/favicon.ico" type="image/x-icon">
-<link rel="alternate" href="http://rmathew.com/atom.xml"
-type="application/atom+xml" title="Atom Feed for rmathew.com">
+<link rel="alternate" href="http://feeds.feedburner.com/rmathew"
+type="application/atom+xml" title="Feed for rmathew.com">
 <link rel="stylesheet" type="text/css" href="m4_root_dir/default.css"
 media="screen">
 <link rel="stylesheet" type="text/css" href="m4_root_dir/custom.css">
@@ -33,7 +33,7 @@ media="print">
 m4_include( `sitesrch.htm4')
 <div class="right">
 <span class="doNotDisplay">Related Sites:</span>
-<a href="http://rmathew.com/atom.xml" title="Feed for posts">
+<a href="http://feeds.feedburner.com/rmathew" title="Feed for posts">
 <img src="m4_root_dir/images/feed.png" alt="Feed Icon">&nbsp;<b>Feed</b></a>
 |
 <a href="http://twitter.com/rmathew4tw" title="Tweets">
