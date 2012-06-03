@@ -1,0 +1,112 @@
+m4_define(`m4_post_date', `2012-06-03')m4_dnl
+m4_define(`m4_post_title', `&ldquo;Steve Jobs&rdquo;')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+Walter Isaacson's &ldquo;Steve Jobs&rdquo; is the authorized biography of <a
+href="http://en.wikipedia.org/wiki/Steve_Jobs">Steve Jobs</a>, finished just
+before his death and released shortly afterwards. Steve was the creator of
+some of the most iconic (and best-selling) products of our times, as well as
+the person who rescued Apple from near-death upon his return there and built it
+into the biggest company in the world by market-capitalization. It is natural
+for us to look for insights from this book on just how he managed such feats.
+While the book succeeds in showing us his human side, revealing aspects of his
+personal life that were otherwise well-guarded this far, it does not quite
+throw much light into his design-sensibilities or business-acumen or how they
+helped him create such a spectacular turn-around at Apple.
+m4_begin_post_rest
+m4_display_book( `1451648537', `9781408703748')
+<p>
+To put the following review into context, I should note that my interest in
+reading this book was not as much to learn about the personal life of Steve
+Jobs as to gain insights into how he was able to achieve what he did (at both
+Apple and Pixar) despite his well-known failings. This book provides a peek
+into the real person behind the image of Steve Jobs and a poignant account of
+his struggle with cancer, but that is not what I am looking for in a biography.
+<p>
+The book tells the story of Steve's life in a more or less chronological order.
+It assumes that the reader is already familiar with the broad story-line, so
+it tends to jump back and forth a little bit at times. Even with close to 600
+pages though, it skims through most events - this is somewhat understandable
+as Steve seems to have led an extremely eventful life and created quite a few
+remarkable products.
+<p>
+There is no doubt that this book is well-researched - it is apparent that the
+author has interviewed several people, some of them many a time (more than 40
+times for Steve himself), and has read extensively about his subject. Apart
+from being an authorized biographer with access to his subject's family and
+personal material, the author also seems to have relatively-easy access to the
+rich and the powerful (some of who figure at crucial points in Steve's life),
+no doubt helped by his stints at Time, CNN and the Aspen Institute. This placed
+him well to do a good biography of his subject.
+<p>
+However, the author seems to have over-corrected himself in trying not to
+appear too enamored by his subject or seem glossing over his faults - Steve
+comes across throughout the book as tactless, abusive, moody, neglectful,
+emotional and with nutty ideas of diet and health. At several points in the
+book, Steve would recall a set of events in one way and the author would gather
+a different recollection from the other participants and he seems to always
+side with the latter. This treatment seems quite unfair. According to the
+author, Steve wanted to get this biography done in order to give a better
+picture of his life to his children so that they could understand him better
+as a person. It seems unlikely to me that this book will give them a fair
+perspective of their father.
+<p>
+There are some jarring omissions. <a
+href="http://daringfireball.net/2012/02/walter_isaacson_steve_jobs">As John
+Gruber points out</a>, this book seems to miss just what <em>design</em> is
+all about (not mere appearances, whether external or internal, but how a
+product affords its functions) and the importance of well-designed
+<em>software</em> (not just hardware) in making Apple's products popular. The
+biggest omission for me was any decent mention of Mac OS X, which was largely
+based on the NeXT OS and which brought a beautiful, robust and well-performing
+OS to Apple's computers. The same could be said for iOS and Apple's portable
+devices. The software in Apple's devices is what makes the hardware such a joy
+to use. Similarly the author keeps telling us about Steve's disdain for
+presentations based on PowerPoint, but omits to tell us anything about how he
+created Keynote embodying his ideal for a presentation-software.
+<p>
+At different points in the book, Steve keeps insisting that Apple's mission is
+to build great products, not to chase profits. The author seems to take this
+on face-value and does not try to probe why it is then that Apple insists on
+such high margins on its products or has such <a
+href="http://tech.fortune.cnn.com/2012/01/18/inside-apple-adam-lashinsky/">a
+super-secretive company-culture</a>. (As an example of its ability to charge
+high margins on its products, the author himself notes that Apple got just 7%
+of the revenue in the PC market in 2010, but captured 35% of the profits. As
+another example, <a
+href="http://arstechnica.com/business/2012/05/apple-dominates-global-handset-profits-as-smartphone-sales-shoot-up/">Apple
+got just 9% of the mobile handset market in Q1 2012, but captured 73% of the
+profits</a>.)
+<p>
+There were a few blatant contradictions about Steve's life that the book sadly
+doesn't provide much insight into: his ascetic life-style and $1 salary versus
+his haggling over the number of stock-options granted to him and their
+back-dating, as well as the high-margins on Apple's products; the
+&ldquo;inspiration&rdquo; he took from the then-revolutionary GUI developed by
+Xerox PARC to create the Macintosh UI versus his early battles against Windows
+for copying the Macintosh or his later battles against Android for copying iOS.
+<p>
+Why did Steve fail during his first stint at Apple to grow it as a company
+but succeed (and succeed very well) during his second stint there? What did he
+learn during the interim period when he was at NeXT and Pixar that made him
+successful upon his return? Once again, we fail to get such crucial insights
+about the subject of this book by reading it.
+<p>
+Quite a lot has been written about Steve and will most likely continue to be
+written about him. Ditto for Apple. Much of the material in this book will
+therefore not appear to be new for those of us who have been reading about
+Apple, Steve and the early days of the PC industry. (For example, the book
+&ldquo;Insanely Great&rdquo; by Steven Levy contains more information about
+the early Apple and the birth of the Macintosh, while the book &ldquo;Fire In
+The Valley&rdquo; by Paul Freiberger and Michael Swaine tells a better story
+of the birth of PC industry in Silicon Valley.) This book is for you if you
+want to know more about Steve Jobs the person or if you only have a
+superficial familiarity with the remarkable story of Apple and its creator.
+<p>
+Oh and you'll also get to read  about the (closed for now) <a
+href="http://www.konavillage.com/">Kona Village</a> resort in Hawaii, which is
+apparently such a great place that Steve kept going there again and again
+throughout his life.
+m4_end_post_rest
+m4_end_post
