@@ -1,0 +1,72 @@
+m4_define(`m4_post_date', `2012-07-27')m4_dnl
+m4_define(`m4_post_title', `ICFPC 2012')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I took a stab at completing the task presented in <a
+href="http://icfpcontest2012.wordpress.com/">ICFPC 2012</a> a couple of weeks
+back. The task was to guide a miner in collecting as many lambdas as possible
+from an underground mine while avoiding falling rocks and expending the least
+amount of energy (quite like <a
+href="http://en.wikipedia.org/wiki/Digger_%28video_game%29">the old Digger
+video-game</a>). As usual, this task had to be completed within three days and
+once again, I was far from done by the time the deadline arrived. It was
+however a fair amount of fun for me.
+m4_begin_post_rest
+<p>
+Since it was simpler and provided instant-gratification, I spent the first
+day creating an <a href="http://www.libsdl.org/">SDL</a>-based visualizer that
+allowed you to navigate and solve a given map using the arrow keys. This
+implied simulating the rules of the game correctly and verifying that the
+scores I obtained in various scenarios matched those produced by the web-based
+validator provided by the organizers. The given set of maps revealed some of
+the complexities of the task at hand, including having to proactively prevent
+an already-falling rock from blocking the miner's exit from the mine.
+<p>
+<img src="m4_root_dir/images/icfpc12.png" width="642" height="501"
+  style="display: block; margin: auto;"/>
+<p>
+On the second day I had a very bad case of &ldquo;programmer's block&rdquo; - I
+just could not come up with an algorithm good enough to properly complete the
+given task while scoring the maximum. To side-step this issue, I tried to
+reduce the complexity of the task by implementing a mode where rocks remain
+pinned instead of falling down and creating problems for the miner. I also
+created a set of test-cases to verify that the simulator worked correctly under
+various scenarios as I modified it.
+<p>
+On the third day I implemented a naive approach based on <a
+href="http://en.wikipedia.org/wiki/A*_search_algorithm">the A-Star
+algorithm</a> to find and navigate to the nearest lambda and then the exit
+when all had been collected, but only if all the rocks remained pinned. (I
+modified it later to find the lambda with the shortest path to it at each step,
+as the miner had to some times go around walls to reach the nearest lambda.)
+This is all I had time to implement in the end.
+<p>
+I chose C as the implementation language because I don't get to program in it
+any more and I wanted to refresh my programming skills in C. This however
+proved to be a little counter-productive as I spent a few hours debugging
+subtle errors in my heap-based priority-queue implementation and in my A-Star
+algorithm implementation that a higher-level language would have exposed much
+earlier. As usual you can see the source-code for my attempt <a
+href="https://bitbucket.org/rmathew/icfpc/">here</a>.
+<p>
+This was yet another instance of a task in ICFPC requiring an algorithm that
+could be described as &ldquo;a heuristic-based path-planning algorithm
+minimizing costs in a dynamic environment&rdquo;. Every time I encounter such
+a task, I resolve to read about possible approaches and implement some of them
+before the next year and every time I end up not doing it by then. I hope this
+time I actually keep my resolution. I plan to start with the excellent overview
+paper <a
+href="http://www.cs.cmu.edu/~maxim/files/hsplanguide_icaps05ws.pdf">A Guide to
+Heuristic-based Path Planning</a> (PDF).
+<p>
+By the way, as has been the case in recent years the response from contestants
+once again seemed somewhat muted this year. I am not sure if it was because
+the task wasn't novel enough, especially after <a
+href="http://www.boundvariable.org/">the high-point reached in 2006</a>, which
+in my opinion was the very best.
+<p>
+If you want to read other write-ups on this year's contest, check out <a
+href="http://www.reddit.com/r/icfpcontest/">the ICFPC sub-reddit</a>.
+m4_end_post_rest
+m4_end_post
