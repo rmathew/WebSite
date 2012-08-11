@@ -1,0 +1,68 @@
+m4_define(`m4_post_date', `2012-08-11')m4_dnl
+m4_define(`m4_post_title', `&ldquo;Buddha&rdquo;')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+&ldquo;<a href="http://en.wikipedia.org/wiki/Buddha_%28manga%29">Buddha</a>&rdquo;
+is an eight-volume <a href="http://en.wikipedia.org/wiki/Manga">manga</a>
+created by <a href="http://en.wikipedia.org/wiki/Osamu_Tezuka">Osamu Tezuka</a>,
+perhaps more famous as the creator of <a
+href="http://en.wikipedia.org/wiki/Astro_Boy">Astro Boy</a>. This magnum opus
+is a fictional account of the life of <a
+href="http://en.wikipedia.org/wiki/Gautama_Buddha">Gautama Buddha</a> and has
+more than <em>3,000 pages</em> that took over ten years to create. Despite its
+length and the time it took to create it, the volumes read as a coherent whole,
+with the stories of several characters interleaving with that of Buddha. It is
+a joy to read this set of books and one cannot help but marvel at the amount
+of love, effort and discipline that must have gone into creating something
+like this.
+m4_begin_post_rest
+m4_display_book( `193223456X', `9780007251674')
+<p>
+When you line up the volumes of the English edition of this book as available
+in India, the spines combine to show snapshots of Buddha from three different
+stages of his life. This little touch is what attracted me to the book
+the first time I spotted it in a bookshop, though the combined price of the
+volumes (each priced at INR 350) put me off buying them right away. Now that I
+am a member of a <a href="m4_root_dir/2011/just-books.html">library</a>, I can
+finally read these books without worrying about their price.
+<p>
+The book is easy to read and the frames are drawn in the characteristic
+style of manga; every now and then however, a frame depicting a landscape or a
+forest would dazzle you with its shear beauty and the amount of detail shown by
+the artist. The language has quite a bit of modern slang and conscious
+self-references to the artist and the art-form. There are quite a few
+anachronistic elements (like a watch or a radio or references to modern
+baseball teams), but somehow it just ends up being fun instead of being
+irritating. The topless depiction of almost every female might be somewhat
+shocking if you are prudish.
+<p>
+There are quite a few characters who keep appearing at different points in the
+story and the author has tried to show what drives them into doing what they
+do. Some of it might appear a little distracting and a little puzzling. For
+example, in the very first volume we read about the adventures of Tatta, a
+<a href="http://en.wikipedia.org/wiki/Paraiyar">pariah</a> boy with the ability
+to possess animals - it is not very clear in this volume what he has to do with
+the story of Buddha, who is born only towards the end of the volume. Of
+course, his effect on the life of Buddha is revealed over the course of the
+rest of the book as the story unravels.
+<p>
+A few of these characters (e.g. <a
+href="http://en.wikipedia.org/wiki/Bimbisara">King Bimbisara</a>, <a
+href="http://en.wikipedia.org/wiki/Devadatta">Devadatta</a>, <a
+href="http://en.wikipedia.org/wiki/Angulimala">Angulimala</a>, etc.) would be
+familiar to those who have heard the story of Buddha, but not in the way they
+are depicted here. A few of the other characters (e.g. Tatta the pariah,
+Naradatta the monk who is condemned to live the life of a beast, etc.) would
+most likely be completely unfamiliar. In other words, this book is a very
+different telling of the story of Buddha from what you get to hear in this
+part of the world.
+<p>
+While the story might be different here, the messages are still the same: the
+essential similarity and connection between all creatures, the rejection of
+violence, the rejection of the abhorrent caste-system in Hinduism, the
+conquering of all desires in order to achieve true happiness, etc. The book
+therefore is a great introduction to the basic tenets of Buddhism told in a
+very light manner, likely to appeal to the young folks.
+m4_end_post_rest
+m4_end_post

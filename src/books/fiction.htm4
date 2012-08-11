@@ -10,6 +10,7 @@ m4_define( `m4_show_post_date', `false')m4_dnl
 m4_include_post(`2012', `wolfhall')
 m4_include_post(`2004', `hdm')
 m4_include_post(`2004', `sil')
+m4_include_post(`2012', `buddha')
 m4_include_post(`2008', `atonement')
 m4_include_post(`2006', `watchmen')
 m4_include_post(`2006', `bestrum')
