@@ -1,0 +1,84 @@
+m4_define(`m4_post_date', `2012-10-18')m4_dnl
+m4_define(`m4_post_title', `&ldquo;In The Plex&rdquo;')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+&ldquo;In The Plex&rdquo; is a book by <a
+href="http://www.stevenlevy.com/">Steven Levy</a> on <a
+href="http://www.google.com/">Google</a> that attempts to explain the factors
+behind its rapid growth and spectacular success and what makes it really
+different from other companies. It differs from the other such books on the
+company in that the author was granted unprecedented access by the
+normally-secretive company. This makes the contents of the book fairly
+accurate and turns it into a great book to read if you are curious about the
+inner workings of this company.
+m4_begin_post_rest
+m4_display_book( `B0054U53WG', `9781416596585')
+<p>
+(<b>Disclosure:</b> I am an employee of Google at the time of this writing,
+albeit a fairly new one.)
+<p>
+I am still amazed at the extent of the access the author seems to have had in
+the company over the years that he has been covering it (first for
+<em>Newsweek</em>, then for <em>Wired</em> and then for this book). He wasn't
+just able to talk to people at almost all levels and roles in the company, but
+he was also allowed into the top-level Google Product Strategy (GPS) meetings,
+internal product-launch and product-review meetings, the weekly
+&ldquo;TGIF&rdquo; all-hands meetings, <a
+href="http://www.wired.com/wiredenterprise/2012/10/ff-inside-google-data-center/all/">inside
+a data-center</a>, an incubation <a
+href="http://www.thedailybeast.com/newsweek/2007/11/03/google-goes-globe-trotting.html">trip
+for newly-recruited Associate Product Managers (APMs)</a>, etc. This is what makes the book so authoritative on the company,
+though it also calls the objectivity of the author into question. Happily
+enough the author does not shy from criticizing the company for its missteps
+and oversights, though the indulgence in a few places is somewhat grating.
+<p>
+Of course, the company has been providing some insights over the years into its
+workings via <a href="http://research.google.com/pubs/papers.html">research
+papers</a>, <a href="http://www.google.com/about/company/">spiel on its
+web-site</a>, books like <a
+href="http://www.morganclaypool.com/doi/abs/10.2200/S00193ED1V01Y200905CAC006">The
+Data Center as a Computer</a>, tech-talks and presentations, etc. Those who
+have been keenly following the company over the years will therefore find much
+of the material familiar, though there is surely some new material here
+especially the behind-the-scenes accounts of crucial periods in the company's
+history (e.g. the tweaking of search-results to divine user-intent and deliver
+satisfaction, the creation of the AdWords and AdSense programs, the launch
+of Google Books and its subsequent tribulations, the launch of the China
+offices and the pull-out from China later, etc.). The book was therefore
+particularly interesting and insightful to me, even as an employee working at
+the company.
+<p>
+Apart from the indulgence towards the company or its founders shown by the
+author at times, one of the minor irritants in the book for me was his
+insistence on bringing up the <a
+href="http://en.wikipedia.org/wiki/Montessori_education">Montessori
+education</a> of the founders again and again as the reason for their
+approach to building things and running a company that is so different from
+their peers elsewhere. There is no concrete evidence provided to make one
+believe this assertion, so the fixation is a little puzzling for me. As far as
+I can tell, there is no correlation between Montessori education and audacious
+creativity of the type shown by the two founders.
+<p>
+The author covers a lot of the important products, but some of the omissions
+are still a little jarring. For example, <a
+href="http://news.google.com/">News</a> barely merits a brief mention here,
+while <a href="http://maps.google.com/">Maps</a> and <a
+href="http://www.orkut.com/">Orkut</a> are mentioned almost in passing, even
+though each of them is (or has been) a significant product on its own. News is
+used by a lot of people to keep up with their world and provides a clutter-free
+gateway to accessing a lot of newspapers on the Internet. Maps
+<a
+href="http://www.theatlantic.com/technology/archive/2012/09/how-google-builds-its-maps-and-what-it-means-for-the-future-of-everything/261913/">requires
+a fair amount of manpower and technology</a> to be really useful. Orkut was
+very popular outside of US, especially in Brazil and India. (<a
+href="http://plus.google.com/">Plus</a> was apparently being launched just as
+the author was wrapping up writing the book - he mentions the war-like effort
+to launch it in a very short time to catch up with Facebook, but does not cover
+its differentiating features or subsequent reception.)
+<p>
+Get this book if you want to know how Google works, what it really believes in
+and what has made it so successful. To know any more than this, you'll have to
+<a href="http://www.google.com/about/jobs/">take up a job there</a>.
+m4_end_post_rest
+m4_end_post
