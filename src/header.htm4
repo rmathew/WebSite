@@ -63,6 +63,19 @@ title="Older posts">Archives</a>
 </div>
 </div>
 <div id="side-bar">
+<p class="sideBarTitle">Advertisements
+<div class="centred">
+<p>
+<script type="text/javascript"><!--
+google_ad_client = "pub-0741944146979582";
+google_ad_slot = "5311360670";
+google_ad_width = 160;
+google_ad_height = 600;
+//--></script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
 <p class="sideBarTitle">Acknowledgements
 <p class="sideBarText">
 Free hosting provided by <a href="http://www.50webs.com/">50webs</a>.
