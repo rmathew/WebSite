@@ -36,6 +36,10 @@ m4_include( `sitesrch.htm4')
 <a href="http://feeds.feedburner.com/rmathew" title="Feed for posts">
 <img src="m4_root_dir/images/feed.png" alt="Feed Icon">&nbsp;<b>Feed</b></a>
 |
+<a href="https://plus.google.com/111471032971282015374?rel=author"
+title="Google+ Profile"><img src="m4_root_dir/images/gplus.png" alt="Google+
+Icon">&nbsp;<b>Google+</b></a>
+|
 <a href="http://twitter.com/rmathew4tw" title="Tweets">
 <img src="m4_root_dir/images/twitter.png" alt="Twitter Icon">&nbsp;<b>Twitter</b></a>
 </div>
