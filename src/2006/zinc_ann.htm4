@@ -5,11 +5,11 @@ m4_begin_post
 <p>
 I am pleased to announce the release of ZINC. ZINC is a variant of the
 game of <a href="http://en.wikipedia.org/wiki/Core_War">Core War</a> in
-which programmes fight for the control of a virtual computer.
+which programs fight for the control of a virtual computer.
 m4_begin_post_rest
 <p>
 Version 0.1 of ZINC is now <a
-href="software/index.html#zinc">available</a>.
+href="m4_root_dir/software/index.html#zinc">available</a>.
 <div class="centred">
 <br>
 <img src="m4_root_dir/software/images/zincscr.png"
