@@ -36,7 +36,7 @@ $(PUB_DIR)/%.xml: %.xm4
 all: html xml
 
 ifneq ($(MAKECMDGOALS),deps)
-include deps.mk
+  include deps.mk
 endif
 
 html: $(GEN_HTML)

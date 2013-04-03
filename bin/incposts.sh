@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Prints out the m4 macros to include an ordered list of posts from a given
 # year.
@@ -15,13 +15,12 @@ then
   exit 1
 fi
 
-BIN_DIR=`dirname $0`
-BIN_DIR=`cd $BIN_DIR; pwd`
+BIN_DIR=$(dirname $0)
+BIN_DIR=$(cd $BIN_DIR; pwd)
 
-SRC_DIR="$BIN_DIR/../src"
-SRC_DIR=`cd $SRC_DIR; pwd`
+SRC_DIR=$(cd $BIN_DIR/../src; pwd)
 
-for i in `$BIN_DIR/getposts.sh "$SRC_DIR"/"$2"`
+for i in $(${BIN_DIR}/getposts.sh -d "${SRC_DIR}/${2}")
 do
   POST_DATE=`echo $i | cut -f1 -d:`
   POST_ID=`echo $i | cut -f2 -d:`
@@ -43,7 +42,7 @@ do
     echo "    <updated>$POST_DATE""T00:00:00+05:30</updated>"
     echo "    <link rel=\"alternate\" href=\"http://rmathew.com/$2/$POST_ID.html\"/>"
     echo "    <content type=\"html\">"
-    awk -f $BIN_DIR/postconv.awk "$SRC_DIR/$2/$POST_ID".htm4
+    awk -f ${BIN_DIR}/postconv.awk "${SRC_DIR}/${2}/${POST_ID}.htm4"
     echo "    </content>"
     echo "  </entry>"
   fi

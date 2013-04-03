@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Removes leading/trailing spaces/tabs and empty lines from a
 # given file or from the standard input.
