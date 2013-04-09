@@ -1,0 +1,68 @@
+m4_define(`m4_root_dir',`.')m4_dnl
+m4_define(`m4_page_title',`About Me')m4_dnl
+m4_define(`m4_page_section',``Home'')m4_dnl
+m4_dnl
+m4_include(`header.htm4')m4_dnl
+m4_dnl
+<div id="main-copy">
+m4_heading( `1', `intro', `Introduction')
+<div style="overflow: auto;">
+<img src="m4_root_dir/images/RanjitLogo.jpg" width="200" height="150"
+  alt="My name in the Devanagari script"
+  style="float: left; clear: left; margin-right: 10px;">
+<p>
+My name is <b>Ranjit Mathew</b> and I am a <a
+href="m4_root_dir/resume.html">professional computer-programmer</a>.
+<p>
+Among other things, I love reading <a
+href="m4_root_dir/books/index.html">books</a>, <a
+href="m4_root_dir/software/index.html">programming computers</a>, eating out,
+traveling and listening to music.
+<p>
+I live in Bangalore, India.
+</div>
+m4_heading( `1', `contact', `Contact')
+<p>
+My e-mail address is <a href="mailto:rmathew@gmail.com">rmathew@gmail.com</a>.
+<div class="notice">
+<div class="centred">
+<b>
+<a href="http://en.wikipedia.org/wiki/Pretty_Good_Privacy"
+title="Pretty Good Privacy">PGP</a>
+Public Key Identifier: <a href="m4_root_dir/aa_6C114B8F.txt"
+title="Get Public Key"><tt>0x6C114B8F</tt></a>
+</b>
+<br>
+(Key Fingerprint:
+&ldquo;<tt>D6E5 B9C2 5522 ED3D 09DC 3B40 61BD 61C7 6C11 4B8F</tt>&rdquo;)
+</div>
+</div>
+m4_heading( `1', `other', `Elsewhere')
+<p>
+I can also be found in various other places on the web including:
+<ul>
+<li><a href="https://plus.google.com/111471032971282015374?rel=author">On
+  Google+</a></li>
+<li><a href="https://twitter.com/rmathew4tw">rmathew4tw on Twitter</a></li>
+<li><a href="https://bitbucket.org/rmathew/">rmathew on Bitbucket</a></li>
+<li><a href="http://www.linkedin.com/in/ranjitmathew">ranjitmathew on
+  LinkedIn</a></li>
+<li><a href="https://www.facebook.com/the.rmathew">the.rmathew on
+  Facebook</a></li>
+<li><a href="http://www.tripadvisor.com/members/rmathew">rmathew on
+  TripAdvisor</a></li>
+<li><a href="https://github.com/rmathew">rmathew on GitHub</a> (<b>Note:</b>
+  Currently inactive as GitHub doesn't support <a
+  href="http://mercurial.selenic.com/">Mercurial</a> yet.)</li>
+<li><a href="http://rmathew.blogspot.com/ncr">rmathew on Blogger</a>
+  (<b>Note:</b> Now inactive; all blog-posts there have been imported into
+  this web-site.)</li>
+<li><a href="http://www.advogato.org/person/rmathew/">rmathew on Advogato</a>
+  (<b>Note:</b> Now inactive; all diary-entries there have been imported into
+  this web-site.)</li>
+</ul>
+<p>
+Et Cetera.
+</div>
+m4_dnl
+m4_include(`footer.htm4')m4_dnl

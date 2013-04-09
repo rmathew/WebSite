@@ -96,56 +96,60 @@ echo done.
 echo -n Getting dependencies for HTML files...
 for i in $(find . -name "*.htm4")
 do
-  # The names are of the form "./foo/bar.htm4" - convert to "foo/bar.html".
-  HTML_FILE="$(echo $i | cut -b3- | sed s/\.htm4$/\.html/)"
-  HTML_FILE=$(echo $HTML_FILE | grep -Ev "$OMIT_HTMLS")
+  # The names are of the form "./foo/bar.htm4" - convert to "foo/bar.htm4".
+  HTM4_FILE="$(echo $i | cut -b3-)"
+  DEPS="common.m4"
+  
+  # Find files directly included using "m4_include".
+  for j in $(grep m4_include\( $i | sed 's/ //g')
+  do
+    # We have something like "m4_include(`foo/bar.htm4')".
+    INC_FILE="$(echo $j | cut -f2 -d\( | cut -b2- | cut -f1 -d\')"
+    DEPS="$DEPS $INC_FILE"
+    if [ "${INC_FILE}" = "posttrans.m4" ]
+    then
+      DEPS="${DEPS} header.htm4"
+    fi
+  done
 
+  # Find files directly included using "m4_include_post".
+  for j in $(grep m4_include_post\( $i | sed 's/ //g')
+  do
+    # We have something like "m4_include_post(`NNNN',`foo')".
+    TMP="$(echo $j | cut -f2 -d\( | cut -b2-)"
+    DIR="$(echo $TMP | cut -f1 -d\')"
+    FILE="$(echo $TMP | cut -f2 -d, | cut -b2- | cut -f1 -d\')"
+    DEPS="$DEPS $DIR/${FILE}.htm4"
+  done
+
+  # Find files indirectly included using "m4_collect_posts".
+  for j in $(grep m4_collect_posts\( $i | sed 's/ //g')
+  do
+    # We have something like "m4_collect_posts(`foo',`NNNN')"
+    # or "m4_collect_posts(`foo',m4_news_year)".
+    TMP="$(echo $j | cut -f2 -d\, | cut -f1 -d\))"
+
+    if [ "$TMP" = "m4_news_year" ]
+    then
+      # XXX: Assume that the "m4_news_year"-style usage is only inside
+      # the index files of the yearly archives.
+      DIR="$(dirname $HTM4_FILE)"
+    else
+      DIR="$(echo $TMP | cut -f1 -d\' | cut -b2-)"
+    fi
+
+    for k in $(${BIN_DIR}/getposts.sh ${SRC_DIR}/${DIR})
+    do
+      DEPS="${DEPS} ${DIR}/${k}.htm4"
+    done
+  done
+
+  HTML_FILE="$(echo ${HTM4_FILE} | sed s/\.htm4$/\.html/)"
+  HTML_FILE=$(echo $HTML_FILE | grep -Ev "$OMIT_HTMLS")
   if [ -n "$HTML_FILE" ]
   then
-    DEPS="common.m4"
-    
-    # Find files directly included using "m4_include".
-    for j in $(grep m4_include\( $i | sed 's/ //g')
-    do
-      # We have something like "m4_include(`foo/bar.htm4')".
-      INC_FILE="$(echo $j | cut -f2 -d\( | cut -b2- | cut -f1 -d\')"
-      DEPS="$DEPS $INC_FILE"
-    done
-
-    # Find files directly included using "m4_include_post".
-    for j in $(grep m4_include_post\( $i | sed 's/ //g')
-    do
-      # We have something like "m4_include_post(`NNNN',`foo')".
-      TMP="$(echo $j | cut -f2 -d\( | cut -b2-)"
-      DIR="$(echo $TMP | cut -f1 -d\')"
-      FILE="$(echo $TMP | cut -f2 -d, | cut -b2- | cut -f1 -d\')"
-      DEPS="$DEPS $DIR/${FILE}.htm4"
-    done
-
-    # Find files indirectly included using "m4_collect_posts".
-    for j in $(grep m4_collect_posts\( $i | sed 's/ //g')
-    do
-      # We have something like "m4_collect_posts(`foo',`NNNN')"
-      # or "m4_collect_posts(`foo',m4_news_year)".
-      TMP="$(echo $j | cut -f2 -d\, | cut -f1 -d\))"
-
-      if [ "$TMP" = "m4_news_year" ]
-      then
-	# XXX: Assume that the "m4_news_year"-style usage is only inside
-	# the index files of the yearly archives.
-	DIR="$(dirname $HTML_FILE)"
-      else
-	DIR="$(echo $TMP | cut -f1 -d\' | cut -b2-)"
-      fi
-
-      for k in $(${BIN_DIR}/getposts.sh ${SRC_DIR}/${DIR})
-      do
-	DEPS="${DEPS} ${DIR}/${k}.htm4"
-      done
-    done
-
     echo >>$OUT_FILE
-    echo $TGT_DIR/$HTML_FILE: $DEPS >>$OUT_FILE
+    echo ${TGT_DIR}/${HTML_FILE}: ${DEPS} >>${OUT_FILE}
   fi
 done
 echo done.
@@ -154,10 +158,9 @@ echo done.
 echo -n Getting dependencies for XML files...
 for i in $(find . -name "*.xm4")
 do
-  # The names are of the form "./foo/bar.xm4" - convert to "foo/bar.xml".
-  XML_FILE="$(echo $i | cut -b3- | sed s/\.xm4$/\.xml/)"
-
-  DEPS=""
+  # The names are of the form "./foo/bar.xm4" - convert to "foo/bar.xm4".
+  XM4_FILE="$(echo $i | cut -b3-)"
+  DEPS="${XM4_FILE}"
   
   # Find files directly included using "m4_include".
   for j in $(grep m4_include\( $i | sed 's/ //g')
@@ -178,11 +181,9 @@ do
     done
   done
 
-  if [ -n "$DEPS" ]
-  then
-    echo >>$OUT_FILE
-    echo $TGT_DIR/$XML_FILE: $DEPS >>$OUT_FILE
-  fi
+  XML_FILE="$(echo ${XM4_FILE} | sed s/\.xm4$/\.xml/)"
+  echo >>$OUT_FILE
+  echo ${TGT_DIR}/${XML_FILE}: ${DEPS} >>${OUT_FILE}
 done
 echo done.
 

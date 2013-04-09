@@ -1,18 +1,16 @@
 # Makefile for the maintenance of my web-site.
 
-# The folder that contains the ".htm4" sources.
+# The folder that contains the source-files.
 SRC_DIR=src
 
 # The folder that contains the generated files.
 PUB_DIR=$(CURDIR)/pub
 
-# The folder that contains the helper scripts.
+# The folder that contains the helper-scripts.
 BIN_DIR=$(CURDIR)/bin
 
+# Update PATH so that M4 macros can find the scripts to execute.
 PATH:=$(BIN_DIR):$(PATH)
-
-.SUFFIXES:
-.SUFFIXES: .htm4 .xm4 .m4 .html .xml
 
 # Ask Make to look for ".htm4", ".xm4" and ".m4" files in the source folder.
 vpath %.htm4 $(SRC_DIR)

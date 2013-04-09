@@ -30,7 +30,7 @@ div.post {
 }
 
 br.post_footer {
-  clear: right;
+  clear: left;
 }
 
 div.left_justified {
@@ -50,8 +50,8 @@ div.right_justified {
 
 div.book_display {
   text-align: center;
-  float: right;
-  margin-left: 10px;
+  float: left;
+  margin-right: 10px;
 }
 
 img {

@@ -5,25 +5,16 @@ m4_dnl
 m4_include(`header.htm4')m4_dnl
 <div id="main-copy">
 m4_heading( `1', `intro', `Introduction')
-<img src="m4_root_dir/images/RanjitLogo.jpg"
-alt="My name in the Devanagari script"
-style="float: right; margin-left: 10px;">
+<div style="overflow: auto;">
+<img src="m4_root_dir/images/RanjitLogo.jpg" width="200" height="150"
+  alt="My name in the Devanagari script"
+  style="float: left; clear: left; margin-right: 10px;">
 <p>
 This is the personal web-site of <b>Ranjit Mathew</b>.
 <p>
-I am a <a href="resume.html">professional computer programmer</a>.
-<div class="notice" style="clear: right;">
-<div class="centred">
-<b>
-<a href="http://en.wikipedia.org/wiki/Pretty_Good_Privacy"
-title="Pretty Good Privacy">PGP</a>
-Public Key Identifier: <a href="aa_6C114B8F.txt"
-title="Get Public Key"><tt>0x6C114B8F</tt></a>
-</b>
-<br>
-(Key Fingerprint:
-&ldquo;<tt>D6E5 B9C2 5522 ED3D 09DC 3B40 61BD 61C7 6C11 4B8F</tt>&rdquo;)
-</div>
+There are many other web-sites like it, but this one is <em>mine</em>.
+<p>
+Learn more <a href="m4_root_dir/about.html">about me</a>.
 </div>
 m4_heading( `1', `news', `News')
 m4_define( `m4_show_post_date', `true')m4_dnl
@@ -31,7 +22,7 @@ m4_collect_posts( `html', `2013')
 <div class="right_justified">
 &nbsp;
 <br>
-<b><a href="archives/index.html">Older Posts</a></b>
+<b><a href="m4_root_dir/archives/index.html">Older Posts</a></b>
 </div>
 </div>
 m4_dnl

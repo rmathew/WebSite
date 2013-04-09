@@ -32,16 +32,18 @@ media="print">
 <div class="superHeader">
 m4_include( `sitesrch.htm4')
 <div class="right">
-<span class="doNotDisplay">Related Sites:</span>
-<a href="http://feeds.feedburner.com/rmathew" title="Feed for posts">
-<img src="m4_root_dir/images/feed.png" alt="Feed Icon">&nbsp;<b>Feed</b></a>
-|
 <a href="https://plus.google.com/111471032971282015374?rel=author"
-title="Google+ Profile"><img src="m4_root_dir/images/gplus.png" alt="Google+
-Icon">&nbsp;<b>Google+</b></a>
-|
+title="Google+ Profile"><img src="m4_root_dir/images/gplus.png"
+width="16" height="16" alt="Google+ Icon">&nbsp;<b>Google+</b></a>
 <a href="http://twitter.com/rmathew4tw" title="Tweets">
-<img src="m4_root_dir/images/twitter.png" alt="Twitter Icon">&nbsp;<b>Twitter</b></a>
+<img src="m4_root_dir/images/twitter.png" width="16" height="16"
+alt="Twitter Icon">&nbsp;<b>Twitter</b></a>
+<a href="https://bitbucket.org/rmathew/" title="Bitbucket Profile">
+<img src="m4_root_dir/images/bitbucket.png" width="16" height="16"
+alt="Bitbucket Icon">&nbsp;<b>Bitbucket</b></a>
+<a href="http://feeds.feedburner.com/rmathew" title="Feed for posts">
+<img src="m4_root_dir/images/feed.png" width="16" height="16"
+alt="Feed Icon">&nbsp;<b>Feed</b></a>
 </div>
 </div>
 <div class="midHeader">
@@ -51,16 +53,16 @@ Icon">&nbsp;<b>Google+</b></a>
 <span class="doNotDisplay">Sections:</span>
 <a href="m4_root_dir/index.html"
 m4_ifelse(m4_page_section,`Home',`class="highlight"')
-title="Home page">Home</a> |
+title="Home page">Home</a>
 <a href="m4_root_dir/articles/index.html"
 m4_ifelse(m4_page_section,`Articles',`class="highlight"')
-title="Articles on various topics">Articles</a> |
+title="Articles on various topics">Articles</a>
 <a href="m4_root_dir/software/index.html"
 m4_ifelse(m4_page_section,`Software',`class="highlight"')
-title="Software for download">Software</a> |
+title="Software for download">Software</a>
 <a href="m4_root_dir/books/index.html"
 m4_ifelse(m4_page_section,`Books',`class="highlight"')
-title="Reviews of books">Book Reviews</a> |
+title="Reviews of books">Book Reviews</a>
 <a href="m4_root_dir/archives/index.html"
 m4_ifelse(m4_page_section,`Archives',`class="highlight"')
 title="Older posts">Archives</a>
@@ -80,13 +82,20 @@ google_ad_height = 600;
 src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 </script>
 </div>
+<p class="sideBarTitle">About
+<p class="sideBarText">
+<img src="m4_root_dir/images/RanjitLogoSmall.jpg"
+  width="100" height="75" alt="Small Logo"
+  style="display: block; margin: auto; padding-bottom: 1ex;">
+Created by <b>Ranjit Mathew</b> to inflict his inane ramblings upon an
+unsuspecting public.
+<p class="sideBarText">
+<a href="m4_root_dir/about.html">More...</a>
 <p class="sideBarTitle">Acknowledgements
 <p class="sideBarText">
-Free hosting provided by <a href="http://www.50webs.com/">50webs</a>.
-<br>
-&nbsp;
-<br>
-Design based on <a
-href="http://haran.freeshell.org/oswd/sinorca/">Sinorca 2.0</a> by Haran
+Free hosting courtesy of <a href="http://www.50webs.com/">50webs</a>.
+<p class="sideBarText">
+Design derived from <a
+href="http://haran.freeshell.org/oswd/sinorca/">Sinorca 2.0</a> of Haran
 Sivakumaran.
 </div>
