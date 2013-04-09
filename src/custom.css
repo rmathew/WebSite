@@ -52,6 +52,13 @@ div.book_display {
   text-align: center;
   float: left;
   margin-right: 10px;
+  padding: 1ex;
+  border: 1px solid rgb(196, 196, 196);
+}
+
+div.book_display img {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 img {

@@ -50,14 +50,17 @@ m4_define(
   [[m4_display_book]],
   [[
     <div class="book_display">
-    <img src="m4_root_dir/books/images/m4_post_id.jpg" alt="m4_post_title">
+    <img src="m4_root_dir/books/images/m4_post_id.jpg"
+      alt="Cover of m4_post_title">
     m4_ifelse(
       $1,
       _dummy_,
       `',
       <br>
-      <a href="http://www.amazon.com/gp/product/$1?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=$1">
-      <img src="m4_root_dir/books/images/buyamz.gif" alt="Buy from Amazon.com">
+      <a href="http://www.amazon.com/gp/product/$1?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=$1"
+	style="text-decoration: none;">
+      <img src="m4_root_dir/books/images/buyamz.gif" width="120" height="43"
+        alt="Buy from Amazon.com">
       </a>
       <img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=$1" width="1" height="1" alt="" style="border:none; margin:0px;">
     )
@@ -66,10 +69,15 @@ m4_define(
       _dummy_,
       `',
       <br>
-      <a href="http://www.flipkart.com/books/$2?affid=INRanjit">
-      <img src="m4_root_dir/books/images/buyfkart.png" alt="Buy from Flipkart.com">
+      <a href="http://www.flipkart.com/books/$2?affid=INRanjit"
+        style="text-decoration: none;">
+      <img src="m4_root_dir/books/images/buyfkart.png" width="118" height="40"
+        alt="Buy from Flipkart.com">
       </a>
     )
+    <br>
+    <p style="font-size: 85%;">
+    <a href="m4_root_dir/caveats.html#aff">Affiliate Links</a>
     </div>
   ]]
 )

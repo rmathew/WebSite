@@ -98,7 +98,7 @@ for i in $(find . -name "*.htm4")
 do
   # The names are of the form "./foo/bar.htm4" - convert to "foo/bar.htm4".
   HTM4_FILE="$(echo $i | cut -b3-)"
-  DEPS="common.m4"
+  DEPS="common.m4 sitesrch.htm4"
   
   # Find files directly included using "m4_include".
   for j in $(grep m4_include\( $i | sed 's/ //g')
@@ -108,7 +108,7 @@ do
     DEPS="$DEPS $INC_FILE"
     if [ "${INC_FILE}" = "posttrans.m4" ]
     then
-      DEPS="${DEPS} header.htm4"
+      DEPS="${DEPS} header.htm4 footer.htm4"
     fi
   done
 
