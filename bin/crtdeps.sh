@@ -60,6 +60,26 @@ then
 fi
 echo Generating dependencies information in \"${OUT_FILE}\".
 
+SITEMAP_FILE="$TGT_DIR/sitemap.xml"
+if [ -e "${SITEMAP_FILE}" ]
+then
+  echo -n Removing existing site-map file \"${SITEMAP_FILE}\"...
+  rm "${SITEMAP_FILE}"
+  echo done.
+fi
+echo Generating site-map in \"${SITEMAP_FILE}\".
+echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>" >>${SITEMAP_FILE}
+echo "<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">" \
+  >>${SITEMAP_FILE}
+
+# Adds a URL for the given file to the site-map.
+# Arg1 - relative path to the file (e.g. "./foo/bar.htm4")
+add2sitemap() {
+  GEN_FILE="$(echo $1 | cut -b3- | sed s/m4$/ml/)"
+  echo "  <url><loc>http://rmathew.com/${GEN_FILE}</loc></url>" \
+    >>${SITEMAP_FILE}
+}
+
 # These are the HTML files that should *not* be generated.
 # (Uses extended grep syntax for an OR pattern.)
 OMIT_HTMLS="header.html|footer.html|template.html|sitesrch.html"
@@ -75,6 +95,7 @@ do
   if [ -n "$HTML_FILE" ]
   then
     echo "  $TGT_DIR/$HTML_FILE \\" >>$OUT_FILE
+    add2sitemap "$i"
   fi
 done
 echo done.
@@ -88,8 +109,11 @@ do
   # The names are of the form "./foo/bar.xm4" - convert to "foo/bar.xml".
   XML_FILE="$(echo $i | cut -b3- | sed s/\.xm4$/\.xml/)"
   echo "  $TGT_DIR/$XML_FILE \\" >>$OUT_FILE
+  add2sitemap "$i"
 done
 echo done.
+
+echo "</urlset>" >>${SITEMAP_FILE}
 
 # Get the dependencies for each of the HTML files.
 # TODO: This could be done in a much better manner with awk.
