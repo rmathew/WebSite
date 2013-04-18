@@ -1,0 +1,90 @@
+m4_define(`m4_post_date', `2013-04-18')m4_dnl
+m4_define(`m4_post_title', `&ldquo;Masters of Doom&rdquo;')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I must confess that having spent a significant portion of my youth playing
+<a href="http://en.wikipedia.org/wiki/First-person_shooter">First-Person
+Shooter</a> (FPS) computer games, particularly those developed by <a
+href="http://www.idsoftware.com/">id Software</a>, I was predisposed to read
+&ldquo;Masters of Doom&rdquo; by David Kushner with the rose-tinted glasses
+of nostalgia. I was also a budding games-programmer with a strong interest in
+PC-based 3D graphics, so <a
+href="http://en.wikipedia.org/wiki/John_D._Carmack">John Carmack</a> was (and
+still is) a natural hero for me. After all, he created several pioneering FPS
+games at id Software, including <a
+href="http://en.wikipedia.org/wiki/Wolfenstein_3D">Wolfenstein 3D</a>, <a
+href="http://en.wikipedia.org/wiki/Doom_%28video_game%29">Doom</a> and <a
+href="http://en.wikipedia.org/wiki/Quake_%28video_game%29">Quake</a> and is
+very generous about <a href="https://github.com/id-Software">making their
+source-code available</a>. I was obviously excited to read about his life and
+how he got together with <a
+href="http://en.wikipedia.org/wiki/John_Romero">John Romero</a> to create id
+Software and its ground-breaking games. This book didn't disappoint me.
+m4_begin_post_rest
+m4_display_book( `0812972155', `9780749924898')
+<p>
+The book tells the story of the &ldquo;Two Johns&rdquo; - as John Carmack and
+John Romero were called - the former being a self-taught genius of a computer
+programmer with an incredible ability to focus on his work for several hours,
+the latter a Jack of all trades who was good at computer programming, art and
+level-design. It traces their troubled childhood, their unwavering passion for
+programming computer games and their getting together while working for <a
+href="http://en.wikipedia.org/wiki/Softdisk">Softdisk</a>. They hit it off
+very well with each other and moved on to start their own company. Eventually
+though they had a massive clash of egos and went their separate ways. While
+they were together they created the aforementioned superhit games (and many
+others), defining a genre of computer games and expanding the industry.
+<p>
+If you have ever played <a
+href="http://en.wikipedia.org/wiki/Commander_Keen">Commander Keen</a>,
+Wolfenstein 3D, Doom, Quake, etc., this book will tell you how they were
+created, including the missteps, the struggles and the fights behind the
+scenes. If you are a game-programmer or a graphics-programmer though, the
+book is <em>very</em> light on the technical details, so don't go looking for
+them here. Several predecessors of our protagonists in the games-industry
+(e.g. <a href="http://en.wikipedia.org/wiki/Richard_Garriott">Richard
+Garriott</a> or &ldquo;Lord British&rdquo; of <a
+href="http://en.wikipedia.org/wiki/Ultima_%28series%29">Ultima</a> fame, Ken
+and Roberta Williams of <a
+href="http://en.wikipedia.org/wiki/Sierra_Entertainment">Sierra On-Line</a>,
+etc.), as well as their contemporaries (e.g. <a
+href="http://en.wikipedia.org/wiki/Tim_Sweeney_%28game_developer%29">Tim
+Sweeny</a> of <a href="http://en.wikipedia.org/wiki/Unreal_Engine">Unreal
+Engine</a> fame) make an appearance here, but some notably don't (e.g. <a
+href="http://en.wikipedia.org/wiki/Ken_Silverman">Ken Silverman</a> of <a
+href="http://en.wikipedia.org/wiki/Build_engine">Build Engine</a> fame). If
+you are a gamer from that period, you'll surely recognize the names of several
+people and the titles of several games.
+<p>
+If you are looking forward to becoming a game-programmer though, this book
+should give you a pause and tell you just how unhealthy things regularly get at
+such companies - developers and designers spending almost all the time in
+&ldquo;crunch mode&rdquo; with 80-hour work-weeks and very little time for
+sleep; several days spent surviving on just pizzas and Diet Coke, people
+constantly cursing each other, etc. - <a
+href="http://www.penny-arcade.com/report/article/why-your-games-are-made-by-childless-31-year-old-white-men-and-how-one-stud">a
+recent Penny Arcade article</a> shows that things <em>still</em> don't seem to
+have improved much in this industry.
+<p>
+The book tells the story till around the time <a
+href="http://en.wikipedia.org/wiki/Doom_3">Doom 3</a> was in early development.
+Considering that the protagonists are still very much active, a book such as
+this is bound to be incomplete. For the timeline that it does cover though, it
+does an excellent job of documenting it - the specific story of the origins
+and early success of id Software as well as the general story of the maturing
+of the computer-games industry. From the times when a high-school kid could
+design and implement an entire game on their home-computer, send a demo-disk
+to a publisher and actually had a chance of being published, to the current era
+of multi-million dollar, multi-man-year games, this industry has sure come
+a long way.
+<p>
+I wish there were something like this book chronicling the evolution of
+games, but with much more technical details. Until such a time, your best bet
+is to read the <a href="http://bespin.org/~qz/pc-gpe/">PC Game Programmer's
+Encyclopedia</a>, the <a
+href="http://www.nondot.org/sabre/Mirrored/GraphicsProgrammingBlackBook/">Graphics
+Programming Black Book</a>, <a href="http://fabiensanglard.net/">Fabien
+Sanglard's game-engine code-reviews</a>, etc.
+m4_end_post_rest
+m4_end_post
