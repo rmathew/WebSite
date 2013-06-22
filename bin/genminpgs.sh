@@ -53,7 +53,7 @@ do
   make $PWD/pub/$A_FILE
 done
 
-UPLOAD_FILES="$UPDT_FILES $BOOK_IMG sitemap.xml"
+UPLOAD_FILES="sitemap.xml $UPDT_FILES $BOOK_IMG"
 echo
 echo "Files to upload:"
 for A_FILE in $UPLOAD_FILES
