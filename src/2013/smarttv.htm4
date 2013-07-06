@@ -1,0 +1,105 @@
+m4_define(`m4_post_date', `2013-07-06')m4_dnl
+m4_define(`m4_post_title', `A Smart TV On The Cheap')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+Bored by the usual fare on Indian television and needing a little flexibility
+with what I can watch on my TV and when I can watch it, I have always wanted
+something like the so-called &ldquo;<a
+href="http://en.wikipedia.org/wiki/Smart_TV">Smart TV</a>&rdquo;. However most
+such TV-sets seem to cost almost twice as much as a regular TV-set and are
+invariably laden with terrible software. Set-top boxes like <a
+href="http://en.wikipedia.org/wiki/Apple_TV">Apple TV</a>, <a
+href="http://en.wikipedia.org/wiki/Google_TV">Google TV</a>, <a
+href="http://www.roku.com/">Roku</a>, etc. are either not available in India or
+are available at almost double the price minus half the features (e.g. Hulu and
+Netflix). Some of them are also not flexible enough for my needs.
+m4_begin_post_rest
+<p>
+I toyed with the idea of using a <a
+href="http://en.wikipedia.org/wiki/Raspberry_Pi">Raspberry Pi</a> for this
+purpose, but it needs quite a few add-ons first (case, keyboard, mouse, Wi-Fi
+connector, etc.) to be useful and is also not that cheap in India. So I was on
+the lookout for an Android Mini PC that turns a regular TV into a Smart TV - a
+small and cheap set-top box or stick running Android on an ARM SoC that
+connects to your TV via HDMI and to the Internet via Wi-Fi (you can see some
+examples on <a href="https://www.miniand.com/">Miniand</a> and <a
+href="http://liliputing.com/">Liliputing</a>). The most famous among these
+devices are the <a
+href="http://en.wikipedia.org/wiki/Android_Mini_PC_MK802">MK802</a> and its
+successors. It is even supposed to be available in India as the <a
+href="http://www.micromaxinfo.com/consumer-electronics/smart-stick/Smart%20Stick">Micromax
+Smart Stick</a>, although I have never seen it in a store here. Micromax didn't
+respond to my enquiries about its price and availability either, so I'm not
+sure just how you're supposed to go about buying it.
+<p>
+On one of my recent travels, I chanced upon a few of these Android Mini PCs in
+a store and bought the Auxtek AT-01. It cost me the equivalent of about INR
+4,850. I also picked up a small <a
+href="https://ranger-technology.com/products/ranger-palmtop-keyboard-ii-2-dot-4ghz-wireless-with-Touchpad-and-laser-pointer">Ranger
+Palmtop Wireless Keyboard With Touchpad</a> to go with it, which cost me an
+additional amount roughly equal to INR 2,300. The AT-01 seems to be running a
+slightly-modified Android 4.0.4 (Ice Cream Sandwich) on an <a
+href="http://en.wikipedia.org/wiki/Allwinner_A10s">Allwinner A10s</a> ARM SoC
+that can run at 1.2 GHz. It has about 1 GB of RAM and about 2 GB of
+flash-storage, supports Wi-Fi as well as Ethernet, has two USB slots, a
+micro-SD slot, a camera and a basic remote (without a QWERTY-keyboard). The
+Ranger keyboard and touchpad complements the AT-01 nicely, making it actually
+usable. It connects to the AT-01 using Bluetooth via a USB nubbin that comes
+bundled with it.
+<div class="centred">
+<img src="m4_root_dir/images/miniand.jpg" alt="Auxtek AT-01 and Ranger
+Keyboard" width="640" height="480">
+</div>
+<p>
+The AT-01 comes with the expected set of apps (some media-players, a browser,
+YouTube, Skype, Facebook, etc.) and some pointless ones (Angry Birds, Fruit
+Ninja, an office-suite, etc.), given the available input mechanisms. I was able
+to install several other apps from the Play Store and even via <a
+href="http://en.wikipedia.org/wiki/APK_%28file_format%29">APKs</a>. Some of
+these apps work well enough with this device, some not so well. The
+media-players are able to play all the formats I've thrown at them so far and
+perform well enough to be usable. The Wi-Fi antenna doesn't seem to be that
+great though and has trouble maintaining a good steady connection in an area
+where, for example, my iPad and iPhone work perfectly fine. There are also
+occasional jitters in the system's overall performance that are
+slightly-irritating.
+<p>
+Android has been shoehorned into working for these Mini PCs and it shows
+through in many places - large on-screen keyboards covering most of the display
+appear everywhere text-input is needed, even though the wireless keyboard
+obviates the need for them (I couldn't find an option to suppress them);
+scrolling with arrow-keys and PgUp/PgDown is painful when the system is
+expecting swipes on a touch-screen. Many third-party apps are not tablet-ready,
+so their smartphone-based interfaces look ugly on a TV.
+<p>
+The major performance-updates brought about by Android Jelly Bean are sadly
+not available on this device - the &ldquo;Check For Updates&rdquo; option
+keeps telling me that I have the latest firmware. I haven't been able to find
+a trustworthy Android Jelly Bean build for such a device elsewhere. I haven't
+been able to locate the Auxtek web-site either, that is, assuming one exists.
+<p>
+By the way, this is the first time I am using Android on a regular basis,
+though I have been a long-time iOS user (on the iPad and the iPhone). The most
+important difference is the ease with which I can share files between
+different apps - search for a file using one app, download it using another
+(<a
+href="https://play.google.com/store/apps/details?id=org.zloy.android.downloader">Loader
+Droid</a>), explore it using a file-manager (<a
+href="https://play.google.com/store/apps/details?id=com.estrongs.android.pop">ES
+File Explorer</a>) and play it using a media-player (<a
+href="https://play.google.com/store/apps/details?id=com.mxtech.videoplayer.ad">MX
+Player</a>) - just like on a PC. Another important difference is that I can
+easily install any app using an APK instead of installing them only
+via the official app-store without jail-breaking my device. On the other hand,
+most of the apps I have tried so far don't seem polished enough and
+have various quirks that make them a little difficult to use, unlike on iOS
+where the apps I care about look well-designed and just work.
+<p>
+All that aside, this device works well enough that we have drastically reduced
+watching regular TV. The considerable flexibility offered by such a device -
+whatever you want to watch whenever you want to watch it - makes regular TV
+seem quite quaint in comparison, if not maddeningly-frustrating. Surely this is
+the future of TV, whether the entertainment companies like it or not.
+m4_end_post_rest
+m4_end_post
