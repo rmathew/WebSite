@@ -18,7 +18,7 @@ Learn more <a href="m4_root_dir/about.html">about me</a>.
 </div>
 m4_heading( `1', `news', `News')
 m4_define( `m4_show_post_date', `true')m4_dnl
-m4_collect_posts( `html', `2013')
+m4_collect_posts( `html', `2014')
 <div class="right_justified">
 &nbsp;
 <br>

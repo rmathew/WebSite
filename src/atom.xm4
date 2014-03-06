@@ -13,6 +13,6 @@ m4_include( `common.m4')m4_dnl
 m4_changequote( `[', `]')m4_dnl
   <updated>m4_esyscmd( [date "+%Y-%m-%dT%H:%M:%S%:z[]m4_dnl"])</updated>
 m4_changequote( [`], ['])m4_dnl
+m4_collect_posts( `xml', `2014')m4_dnl
 m4_collect_posts( `xml', `2013')m4_dnl
-m4_collect_posts( `xml', `2012')m4_dnl
 </feed>

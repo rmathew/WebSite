@@ -10,6 +10,7 @@ m4_heading( `1', `archives', `Archives')
 You can find archives for posts here. These are listed here in reverse
 chronological order:
 <ul>
+<li><a href="m4_root_dir/2014/index.html">Archive for 2014</a></li>
 <li><a href="m4_root_dir/2013/index.html">Archive for 2013</a></li>
 <li><a href="m4_root_dir/2012/index.html">Archive for 2012</a></li>
 <li><a href="m4_root_dir/2011/index.html">Archive for 2011</a></li>

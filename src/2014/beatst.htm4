@@ -1,0 +1,81 @@
+m4_define(`m4_post_date', `2014-03-06')m4_dnl
+m4_define(`m4_post_title', `&ldquo;Beating The Street&rdquo;')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+In &ldquo;Beating The Street&rdquo; <a
+href="http://en.wikipedia.org/wiki/Peter_Lynch">Peter Lynch</a> tries to show
+ordinary investors how to pick stocks and get better returns on average than
+most professional investors. I would ordinarily have dismissed such a book
+outright, but when it comes from the former head of the <a
+href="http://en.wikipedia.org/wiki/Magellan_Fund">Magellan Fund</a>, which
+grew from $18 million in assets to $14 billion in assets in about 13 years
+under him, it merits a second look.
+m4_begin_post_rest
+m4_display_book( `0671891634', `9780671891633')
+<p>
+The approach described in the book is a rough mixture of <a
+href="http://en.wikipedia.org/wiki/Value_investing">value investing</a> and
+identifying <a href="http://en.wikipedia.org/wiki/Growth_stocks">growth
+stocks</a>, especially in businesses that you come across in your day to
+day life. For example, when you come across a chain of restaurants or stores
+that seem to be doing well and seem to be recommended by various folks, it pays
+to examine its finances and growth prospects and to then invest in it if it
+still looks good at the price it is trading. Such opportunities are likely to
+be present for small or boring companies that are not covered by any analysts.
+With decent diversification and periodic reviews of your portfolio, you should
+do pretty well for yourself - the author claims to have followed precisely such
+a process for his mutual fund with great results.
+<p>
+This investment approach seems particularly well-suited for ordinary folks who
+invest only occasionally, do not follow the markets or the economy very
+closely and are willing to be patient with their investments. The book is
+written in a very approachable manner and the language used is somewhat folksy.
+It is peppered with several so-called &ldquo;Peter's Principles&rdquo;
+throughout, some of which make sense and some of which are flippant. A
+collection of &ldquo;25 Golden Rules&rdquo; towards the end of the book seems
+much more useful and directly applicable.
+<p>
+Will such an approach work for you? If you do something other than investing
+for a living, can invest only part-time, but still want your savings to beat
+inflation and perhaps grow in value, you would <em>want</em> to believe in
+this approach. However, a bit of caution is in order here. The author had
+relatively vast amounts of money to invest compared to the ordinary investor
+and could directly talk to CEOs and CFOs in the companies he was interested in,
+some times even getting material information in advance of the general public.
+This might look like insider-trading, but it could reasonably be argued that
+this information was there for anyone who had bothered to ask. Some times
+companies themselves would approach such fund-houses with detailed
+presentations and executives ready to answer any queries in order to encourage
+them to invest. The author also regularly attended investor meets, AGMs, etc.
+All this is unlikely to be available for an ordinary investor with limited
+money and time.
+<p>
+Still it could be worthwhile to pursue such an approach since it seems fairly
+reasonable on the face of it. Anecdotally it does seem to work, despite what
+you might expect if the <a
+href="http://en.wikipedia.org/wiki/Efficient-market_hypothesis">efficient-market
+hypothesis</a> were really true. Since each investor's goals, appetite for
+risk, ability to weather turbulence in returns, etc. is different from others,
+you should try it with a portion of your funds to see if it really works for
+you. Even the author recommends that you keep the bulk of your money in
+professionally-managed mutual funds and index funds.
+<p>
+The bulk of the book is devoted to what are effectively case-studies from a
+wide range of industries showing how the author applied this approach. What
+makes the book particularly endearing is that the author is ready to show us
+his triumphs as well as his mistakes - missed opportunities, erroneous
+judgements, etc. - and how he recovered from such mistakes. The case-studies
+should provide enough information for you to apply this approach to your own
+investments.
+<p>
+With the benefit of hindsight, some of the author's comments are amusing. For
+example, he had great enthusiasm for mortgage-backed securities that saved
+Fannie Mae at the time, but which are now blamed for the financial crisi of
+2008. He seemed to be quite skeptical of technology stocks. He seemed to think
+that copper-prices were bound to go up since telephone companies had to lay
+cables to reach most of their potential customers and the ridiculous
+alternative would be &ldquo;to put a cellular phone in every pocket&rdquo;!
+(The book was written around 1992.)
+m4_end_post_rest
+m4_end_post
