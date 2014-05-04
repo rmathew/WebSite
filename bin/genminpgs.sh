@@ -1,43 +1,47 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Generates only the necessary pages on the web-site for a given post.
-# (FIXME: Works only for book-review posts at the moment.)
 #
 # Usage:
 #
 #   genminpgs.sh <page_id> [<cat_id>]
 #
-# <cat_id> is the category identifier and has the default value "others".
+# <cat_id>, if specified, is the category-identifier for a book.
+
+set -o errexit
+set -o pipefail
 
 if [ -n "$1" ]
 then
-  BOOK_ID="$1"
+  PAGE_ID="$1"
 else
-  echo ERROR: Missing book-review page id.
+  echo ERROR: Missing page-identifier.
   echo
   echo Usage: genminpgs.sh \<page_id\> \[\<cat_id\>\]
   echo
-  echo "  If unspecified, <cat_id> has the default value \"others\"."
+  echo "  If specified, <cat_id> indicates the category for a book."
   exit 1
 fi
 
-BOOK_CAT=others
 if [ -n "$2" ]
 then
   BOOK_CAT="$2"
 fi
 
 CURR_YEAR=`date +%Y`
-if [ ! -f "$PWD/src/$CURR_YEAR/$BOOK_ID.htm4" ]
+if [ ! -f "$PWD/src/$CURR_YEAR/$PAGE_ID.htm4" ]
 then
-  echo ERROR: Missing book-review page \"src/$CURR_YEAR/$BOOK_ID.htm4\".
+  echo ERROR: Missing page \"src/$CURR_YEAR/$PAGE_ID.htm4\".
   exit 1
 fi
 
-BOOK_IMG="books/images/$BOOK_ID.jpg"
-if [ ! -f "$PWD/src/$BOOK_IMG" ]
+if [ -n "$BOOK_CAT" ]
 then
-  echo ERROR: Missing book-cover image \"src/$BOOK_IMG\".
-  exit 1
+  BOOK_IMG="books/images/$PAGE_ID.jpg"
+  if [ ! -f "$PWD/src/$BOOK_IMG" ]
+  then
+    echo ERROR: Missing book-cover image \"src/$BOOK_IMG\".
+    exit 1
+  fi
 fi
 
 if [ ! -f deps.mk ]
@@ -46,14 +50,23 @@ then
 fi
 
 UPDT_FILES="index.html atom.xml $CURR_YEAR/index.html"
-UPDT_FILES="$UPDT_FILES $CURR_YEAR/$BOOK_ID.html books/$BOOK_CAT.html"
+UPDT_FILES="$UPDT_FILES $CURR_YEAR/$PAGE_ID.html"
+if [ -n "$BOOK_CAT" ]
+then
+  UPDT_FILES="$UPDT_FILES books/$BOOK_CAT.html"
+fi
 
 for A_FILE in $UPDT_FILES
 do
   make $PWD/pub/$A_FILE
 done
 
-UPLOAD_FILES="sitemap.xml $UPDT_FILES $BOOK_IMG"
+UPLOAD_FILES="sitemap.xml $UPDT_FILES"
+if [ -n "$BOOK_CAT" ]
+then
+  UPLOAD_FILES="$UPLOAD_FILES $BOOK_IMG"
+fi
+
 echo
 echo "Files to upload:"
 for A_FILE in $UPLOAD_FILES

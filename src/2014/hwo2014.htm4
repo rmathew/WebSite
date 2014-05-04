@@ -1,0 +1,171 @@
+m4_define(`m4_post_date', `2014-05-04')m4_dnl
+m4_define(`m4_post_title', `Hello World Open 2014')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I had not heard of the <a href="https://helloworldopen.com/">Hello World
+Open</a> coding challenge until I came across <a
+href="https://news.ycombinator.com/item?id=7500573">a Hacker News post about
+it</a>. It seemed somewhat similar to the <a
+href="http://www.icfpconference.org/contest.html">ICFP contests</a>, albeit
+with much more time available for coding (14 days versus 3 days for the ICFP
+contests), and therefore for fun. So I decided to take part in it and it did
+turn out to be fun, though I remained true to form and did not finish coding
+before the time-limit expired.
+m4_begin_post_rest
+<p>
+The contest involved creating the controlling logic for a <a
+href="http://en.wikipedia.org/wiki/Slot_car">slot-car</a> racing against other
+slot-cars controlled by other teams. The races happened on a number of different
+tracks. These slot-cars just had a single throttle control for changing their
+speeds around the track (no braking, no steering, no shifting gears). The tracks
+varied in structure and the physics of the simulation kept changing across
+races, even for the same track. The main challenge for a team was to learn the
+physics of the simulation during a race and to use that to win a race without
+slipping off the track on bends. Since a slot-car is confined to a lane and
+cannot switch lanes except in designated places, it becomes difficult for it to
+overtake competitors and to avoid getting bumped off the track by other cars
+behind it.
+<p>
+It appears that most teams spent a lot of time trying to figure out the physics
+of the racing simulation so that they could finish a lap in the shortest time
+without de-slotting around bends. The main approaches to this problem seemed to
+be one of the following:
+<ul>
+<li>Reverse-engineering the formulas for speed for a throttle-power,
+drag-resistance, rolling-resistance, centrifugal force, etc. by observing the
+behavior of the car around the track. The simulation was somewhat realistic,
+but the contestants did not know <em>how</em> realistic the contest-organizers
+had chosen it to be and what factors they had chosen to include in the
+simulation, not to mention several unknowns like the mass of the car, the
+width of the tires, the coefficient of friction, etc. that are needed to
+actually apply various physical formulas.</li>
+<li>Learning the physics by taking several samples of track-conditions, the
+response of the car to the throttle, etc. and applying machine-learning
+techniques like linear regression and artificial neural networks. The main
+challenge here was to have good samples, a good set of features (which again
+involved guessing the phyiscal formulas relevant to the simulation), being
+able to derive a good model in a reasonable time, etc.</li>
+<li>Using genetic programming to evolve a suitable controller program. This
+would have involved a <em>lot</em> of races and directed evolution for the
+process to yield a reasonable controller program. (This strategy seemed to
+have been <a
+href="http://www.reddit.com/r/HWO/comments/23z01n/how_i_lost_this_competition_with_source_code/">derailed</a>
+by the organizers later imposing limits on contestants in response to
+bandwidth and server-load issues.)</li>
+</ul>
+<p>
+I first tried to reverse-engineer the physical formulas of relevance to the
+simulation by reading up whatever I could on this topic, including the
+excellent &ldquo;<a href="http://phors.locost7.info/contents.htm">The Physics
+of Racing</a>&rdquo; series of articles by Brian Beckman. Quite embarrassingly,
+I did not know what a &ldquo;slot-car&rdquo; was (and had not noticed the term
+in the technical specification) until a few days into the contest and hence was
+puzzled by the behavior of the car on the track, especially around bends. Even
+then, it proved quite difficult to reverse-engineer the physics of the
+simulation to a reasonable degree of accuracy, not helped at all by my tendency
+to punt on tackling the difficult problems by refactoring code again and again.
+I tried to write a controller following the old car-racing adage of &ldquo;slow
+in, fast out&rdquo; for tackling corners on the track, but without figuring out
+the physics, this didn't yield much success.
+<p>
+During the second week of the contest, I decided to try the simple linear
+regression technique from machine-learning to see if it helped. This decision
+was driven more by my desire to apply my new-found machine-learning skills
+from the <a href="https://www.coursera.org/course/ml">Coursera Machine
+Learning</a> course taught by <a
+href="http://cs.stanford.edu/people/ang/">Andrew Ng</a>, rather than its
+inherent suitability to this task. As it turns out, it <em>was</em> useful -
+not as accurate as reverse-engineering the physical formulas of relevance to
+the simulation, but good enough to predict the speed and slippage of the car
+with a decent margin-of-safety given a particular throttle-power. As I noted
+earlier, I never actually got around to using the predictions from the derived
+model to control the car as I ran out of time.
+<p>
+Some of the key machine-learning insights reinforced for me during this
+process include:
+<ul>
+<li>Feature-engineering is the key to creating a good model. In this context,
+this means that I had to have a fair idea of the kind of physical formulas of
+relevance to the simulation to derive useful features (e.g. speed-squared and
+speed-cubed for the drag, speed-squared divided by the radius for centrifugal
+force, etc.). Too many features led to a noisy model and too few features led
+to a useless model.</li>
+<li>Collecting enough samples from around the track - different throttle powers
+at different speeds, on straight track-pieces and on bent track-pieces of
+different radii, etc. - was key to creating a model that generalized
+well.</li>
+<li>Separating the samples into a training set and a cross-validation set (20%
+of the data-set) was important to evaluate a model. Feature-scaling over only
+the training set (not the cross-validation set) improved the model.</li>
+<li>Regularization was essential for reducing overfitting and for creating a
+model that generalized well.</li>
+<li>Since the physics of each race was different, the model had to be derived
+afresh for each race. A single learning-rate (alpha) and regularization
+parameter (lambda) was not enough to create a good model with relatively few
+samples and a limited time for deriving a model. Thankfully, my unoptimized
+learner (in C) was able to get a decent model by trying out 9 different
+combinations of alpha and lambda over 128 samples in about 120 ms on an old PC
+with a Pentium 3 running at 750 MHz.</li>
+</ul>
+<p>
+If you are interested in this topic, the paper &ldquo;<a
+href="http://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf">A Few Useful
+Things To Know About Machine Learning</a>&rdquo; (PDF) by Pedro Domingos is a
+good read full of practical advice.
+<p>
+I chose C as the implementation language. I had started off with Go, but wasn't
+very sure how its garbage-collector would behave with lots of tiny objects
+being created and discarded rapidly, as the controller processed and responded
+to around 60 messages per second from the server - I didn't want the
+garbage-collector to pause my program at inappropriate times. The C
+implementation used <a href="http://sourceforge.net/projects/cjson/">cJSON</a>
+to parse and construct <a href="http://www.json.org/">JSON</a> messages used to
+talk to the server - cJSON is remarkably small, easy to integrate, has a
+reasonable API and is fairly fast. Given the constraints on response-times, I
+thought that JSON-processing would be a big overhead, but it turned out that
+<a href="http://en.wikipedia.org/wiki/Nagle%27s_algorithm">Nagle's Algorithm</a>
+was a bigger bottleneck - setting <tt>TCP_NODELAY</tt> fixed the latency
+caused by this. It was also fairly straightforward to implement linear
+regression in C, though I really missed the simple and efficient matrix
+operations provided by <a href="http://www.gnu.org/software/octave/">GNU
+Octave</a>.
+<p>
+Some notable things about this contest:
+<ul>
+<li>The organizers supported a number of programming languages and provided
+pre-populated Git repositories with a simple implementation of the controller
+in <em>each</em> of these languages right at the start. This meant that teams
+didn't have to waste time in writing code for parsing and constructing
+messages, networking, etc. This was immensely helpful and much appreciated.</li>
+<li>The organizers created a continuous-integration set-up for building and
+running teams' code on their servers. This was also very helpful in assuring
+teams that their code would build and run on the contest-organizers' systems,
+instead of discovering such fatal mistakes after the deadline.</li>
+<li>The organizers created a dedicated <a
+href="http://www.reddit.com/r/HWO/">sub-reddit</a> for discussing the contest
+and for providing support to the contestants. This was great, except that some
+crucial communication by the organizers happened on this sub-reddit (rather
+than, say, via email), so the teams had to constantly check this
+sub-reddit.</li>
+<li>A fortnight was a good amount of time for such a contest, especially for
+working professionals and/or those with a family.</li>
+<li>Since all races happened on servers hosted by the organizers and there was
+no off-line race-simulator provided by them (as they feared that the teams
+might just reverse-engineer the binaries), the contestants had to have
+constant, low-latency internet-connectivity throughout the contest and the
+organizers had to scale their set-up and impose resource limits. This proved
+detrimental to pursuing some strategies (like genetic programming - see
+above) and frustrating at times as the servers got overloaded and responded
+slowly.</li>
+<li>Terms like &ldquo;<a
+href="http://en.wikipedia.org/wiki/Slip_angle">slip-angle</a>&rdquo; were used
+a little differently by the organizers compared to their normal usage. This was
+a little confusing.</li>
+</ul>
+<p>
+All in all, I enjoyed taking part in this contest and thank the organizers
+(<a href="http://reaktor.fi/">Reaktor</a> of Finland) for all the fun. I look
+forward to next year's contest and hope to perform better than this time.
+m4_end_post_rest
+m4_end_post
