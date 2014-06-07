@@ -1,0 +1,48 @@
+m4_define(`m4_post_date', `2014-06-07')m4_dnl
+m4_define(`m4_post_title', `&ldquo;Selected Stories&rdquo;')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+&ldquo;Selected Stories&rdquo; is a collection of short stories written by
+one of the most famous Urdu writers of the Indian sub-continent <a
+href="http://en.wikipedia.org/wiki/Saadat_Hasan_Manto">Saadat Hasan Manto</a>
+as translated by Khalid Hasan. This collection brings together some of his
+best-known stories, especially the kind of stories that made him (in)famous -
+the travails of ordinary people during the particularly bloody partition of
+the Indian sub-continent into India and Pakistan and the stirrings of sexual
+desire in conflict with a prudish society.
+m4_begin_post_rest
+m4_display_book( `0143102184', `9780143102182')
+<p>
+Manto was a prolific writer, supposedly writing an entire story in a single
+stretch without revisiting it later. This collection seems to reflect it, as it
+is a mixed-bag in terms of quality, in my opinion. Some of the stories are good
+and justifiably famous (like &ldquo;Toba Tek Singh&rdquo;, &ldquo;Odor&rdquo;,
+&ldquo;Khushia&rdquo;, etc.), while some left me wondering why they were
+originally published in the first place, let alone then translated and included
+in this particular compilation. Perhaps they read better in the original Urdu.
+<p>
+The stories seem to lose quite a bit in the translation from Urdu to English.
+The language seems a little stilted at times and somewhat alien as English
+prose throughout. I found myself trying to repeatedly guess what the original
+Urdu sentence might have been. In hindsight, I would have been better off
+reading a Hindi translation of these stories. I realize that translation is a
+very difficult job, especially across languages as distantly-related as Urdu
+and English (I probably would have done a much worse job of it, were I to take
+a stab at it). I am thankful that such translations bring writers like Manto to
+a much wider audience than they would have reached in their original.
+<p>
+I liked the simplicity of the stories and the refrain from showing off literary
+techniques. Manto says it like it is and writes about ordinary people and their
+lives. Most of us living in India can relate to the characters and the
+situations in these stories. As a collection of short and simple stories, this
+is the kind of book you can randomly pick and immerse yourself in for a while
+without worrying about losing continuity.
+<p>
+As an aside, Manto was tried six times for obscenity in his stories, both
+before and after the independence from British rule. Reading these stories now,
+a modern reader would wonder what the fuss was all about, since they appear
+particulary tame by modern standards. It is a sad reminder of how prudish our
+society was just a few decades back (and still is in many unfortunate ways).
+m4_end_post_rest
+m4_end_post
