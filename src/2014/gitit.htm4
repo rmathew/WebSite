@@ -1,0 +1,94 @@
+m4_define(`m4_post_date', `2014-12-26')m4_dnl
+m4_define(`m4_post_title', `Yeah Yeah`,' I Git It')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I have migrated all my source-code repositories from <a
+href="http://en.wikipedia.org/wiki/Mercurial">Mercurial</a> to <a
+href="http://en.wikipedia.org/wiki/Git_%28software%29">Git</a>. This means that
+they can now be mirrored on both <a
+href="https://bitbucket.org/rmathew/">Bitbucket</a> as well as <a
+href="https://github.com/rmathew/">GitHub</a>. It was not a very happy choice,
+but some times you just have to set aside your preferences and move on in life.
+m4_begin_post_rest
+<p>
+Beyond being very happy that we now have free and good-quality <a
+href="http://en.wikipedia.org/wiki/Distributed_version_control_system">DVCS</a>
+tools like <a href="http://mercurial.selenic.com/">Mercurial</a> and <a
+href="http://git-scm.com/">Git</a> (as well as free source-code
+hosting-providers for these like <a href="https://bitbucket.org/">Bitbucket</a>
+and <a href="https://github.com/">GitHub</a> respectively), I have never spent
+too much time and effort on <a
+href="en.wikipedia.org/wiki/Version_control_system">VCS</a> tools, considering
+them as tools (albeit important tools) to get a job done. To the extent that I
+did, I preferred the simplicity of Mercurial to the apparent complexity of Git
+(actually the command-line interfaces of the <code>hg</code> and
+<code>git</code> programs, respectively). I could easily memorize (or guess)
+the commands needed for Mercurial for day-to-day use, while Git seemed to
+constantly require looking up the relevant commands on-line and a hope that I
+have not screwed things up. It was also nice to see Mercurial (and Bitbucket)
+users quietly using their tool to actually develop software and quite
+off-putting to see Git (and GitHub) users constantly proselytize to (and
+putting down) users of other VCS tools. That is why I chose to use Mercurial to manage all my source-code repositories.
+<p>
+Unfortunately however, it is quite difficult to avoid Git (and GitHub) these
+days - more and more developers start their projects in Git (and on GitHub) and
+even those using Mercurial (and Bitbucket) earlier seem to have started
+converting their repositories to Git (for example, <a
+href="https://groups.google.com/d/topic/golang-dev/sckirqOWepg">the Go
+project</a> and <a href="https://www.python.org/dev/peps/pep-0481/">even
+Python</a>). Since I can't avoid learning Git (and using GitHub) and since it
+isn't actually <em>that</em> bad compared to Mercurial (in fact, the underlying
+concepts in Git are remarkably simple and consistent, while the
+<code>git</code> tool is incredibly fast; it also makes working with branches
+unbelievably simple and fast), I decided to just stick to Git. It also allows
+me to use both Bitbucket and GitHub for hosting my source-code repositories.
+<p>
+Fortunately the <a href="https://bitbucket.org/durin42/hg-git/">hg-git</a>
+Mercurial plug-in makes this transition quite painless. You first install
+<a href="https://github.com/jelmer/dulwich">Dulwich</a> and <code>hg-git</code>.
+Then you execute something like the following for each of your Mercurial
+repositories:
+<blockquote><pre>
+`#' Create an empty Git repository.
+$ mkdir -p /path/to/git_repo
+$ cd /path/to/git_repo
+$ git init
+&nbsp;
+`#' Export the Mercurial repository to the Git repository.
+$ cd /path/to/hg_repo
+$ hg bookmark hg
+$ hg push /path/to/git_repo
+&nbsp;
+`#' Finish the migration in the Git repository.
+$ cd /path/to/git_repo
+$ git checkout -b master hg
+$ git branch -d hg
+$ git tag -a git-conv -m "Converted to Git."
+</pre></blockquote>
+<p>
+Before pushing this to Bitbucket, rename your existing Mercurial repository
+(say &ldquo;MyProject&rdquo; to &ldquo;MyProject_Hg&rdquo;) to create a back-up
+and create a Git repository with the original name (i.e.
+&ldquo;MyProject&rdquo;). On GitHub create a Git repository with the same name.
+Now you execute something like the following:
+<blockquote><pre>
+`#' Add the Bitbucket and GitHub Git remotes.
+$ git remote add origin ssh://git@bitbucket.org/username/myproject.git
+$ git remote set-url origin --add ssh://git@github.com/username/MyProject.git
+&nbsp;
+`#' Push the Git repository to Bitbucket and GitHub.
+$ git push -u origin master
+$ git push origin git-conv
+</pre></blockquote>
+<p>
+That was it - that was all I needed to migrate my Mercurial repositories to
+Git and to host them on Bitbucket and GitHub. See the <code>hg-git</code> and
+<code>git</code> documentation for the details. The freely-available book
+&ldquo;<a href="http://git-scm.com/book/">Pro Git</a>&rdquo; provides an
+excellent introduction to Git (as well as its internals).
+<p>
+Farewell Mercurial, I will now be using Git. You were a great tool to work
+with, but the world is just not a fair place.
+m4_end_post_rest
+m4_end_post

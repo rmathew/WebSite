@@ -10,20 +10,24 @@ m4_heading( `1', `intro', `Introduction')
 <p>
 This page provides access to some of my personal projects.
 <p>
-These programmes have absolutely <b>NO WARRANTIES</b>
+These programs have absolutely <b>NO WARRANTIES</b>
 and are for purely educational purposes. If you find any of these useful,
 do tell me about it.
 <div class="notice">
-<b>NOTE:</b> These and some other programmes are now hosted on <a
-href="http://bitbucket.org/">BitBucket</a> as <a
-href="http://en.wikipedia.org/wiki/Mercurial">Mercurial</a> repositories
-under <a href="http://bitbucket.org/rmathew/"><b>bitbucket.org/rmathew</b></a>.
+<b>NOTE:</b> These and some other programs are now hosted on <a
+href="https://bitbucket.org/">Bitbucket</a> and <a
+href="https://github.com/">GitHub</a> as <a
+href="http://en.wikipedia.org/wiki/Git_%28software%29">Git</a> repositories
+under <a href="https://bitbucket.org/rmathew/"><b>bitbucket.org/rmathew</b></a>
+and <a href="https://github.com/rmathew/"><b>github.com/rmathew</b></a>
+respectively.
 </div>
+
 m4_heading( `1', `zinc', `ZINC')
 <p>
 ZINC (&ldquo;ZINC Is Not CoreWar&rdquo;) is a variant of the game of
 <a href="http://en.wikipedia.org/wiki/Core_War">Core War</a>
-in which programmes (called &ldquo;warriors&rdquo;) fight in a battle to take
+in which programs (called &ldquo;warriors&rdquo;) fight in a battle to take
 control of a virtual computer. The warriors are written in a simple language
 called Redcode and are run by a tool called Memory Array Redcode Simulator
 (MARS). The ZINC User Manual includes a short tutorial that teaches
@@ -33,7 +37,10 @@ at least Linux and Windows.
 <img src="images/zincscr.png" alt="ZINC Screenshot">
 </div>
 <p>
-<a href="http://bitbucket.org/rmathew/zinc/downloads"><b>Download ZINC</b></a>
+<a href="https://bitbucket.org/rmathew/zinc/downloads"><b>Download
+ZINC</b></a>&nbsp;(<a
+href="https://github.com/rmathew/ZINC/releases"><b>mirror</b></a>)
+
 m4_heading( `1', `vtaj', `Virtual Taj Mahal')
 <p>
 This is an interactive 3D walkthrough of the famous <a
@@ -44,14 +51,15 @@ from where I took the 3D models and textures - the original demo
 was coded by <a href="mailto:dsanjit_AT_yahoo_DOT_com">D Sanjit</a>
 and the models were created by
 <a href="http://www.vrrt.com/">VR Real Technologies</a>.
-The programme uses OpenGL/SDL and runs on Windows and Linux - please
-read the included 'README' file for more details. I hope you like it.
+The program uses OpenGL/SDL and runs on Windows and Linux. See the included
+&ldquo;README&rdquo; file for more details.
 <div class="centred">
 <img src="images/vtscr.png" alt="VirtualTaj Screenshot">
 </div>
 <p>
-<a href="http://bitbucket.org/rmathew/virtualtaj/downloads"><b>Download
-Virtual Taj Mahal</b></a>
+<a href="https://bitbucket.org/rmathew/virtualtaj/downloads"><b>Download
+Virtual Taj Mahal</b></a>&nbsp;(<a
+href="https://github.com/rmathew/VirtualTaj/releases"><b>mirror</b></a>)
 </div>
-m4_dnl
+
 m4_include(`footer.htm4')m4_dnl

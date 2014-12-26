@@ -28,13 +28,10 @@ My e-mail address is <a href="mailto:rmathew@gmail.com">rmathew@gmail.com</a>.
 <div class="centred">
 <b>
 <a href="http://en.wikipedia.org/wiki/Pretty_Good_Privacy"
-title="Pretty Good Privacy">PGP</a>
-Public Key Identifier: <a href="m4_root_dir/aa_6C114B8F.txt"
-title="Get Public Key"><tt>0x6C114B8F</tt></a>
-</b>
+title="Pretty Good Privacy">PGP</a> Public-Key Fingerprint:
 <br>
-(Key Fingerprint:
-&ldquo;<tt>D6E5 B9C2 5522 ED3D 09DC 3B40 61BD 61C7 6C11 4B8F</tt>&rdquo;)
+<a href="m4_root_dir/aa_6C114B8F.txt" title="Get my public-key">
+<tt>D6E5 B9C2 5522 ED3D 09DC 3B40 61BD 61C7 6C11 4B8F</tt></a></b>
 </div>
 </div>
 m4_heading( `1', `other', `Elsewhere')
@@ -45,15 +42,13 @@ I can also be found in various other places on the web including:
   Google+</a></li>
 <li><a href="https://twitter.com/rmathew4tw">rmathew4tw on Twitter</a></li>
 <li><a href="https://bitbucket.org/rmathew/">rmathew on Bitbucket</a></li>
+<li><a href="https://github.com/rmathew">rmathew on GitHub</a></li>
 <li><a href="http://www.linkedin.com/in/ranjitmathew">ranjitmathew on
   LinkedIn</a></li>
 <li><a href="https://www.facebook.com/the.rmathew">the.rmathew on
   Facebook</a></li>
 <li><a href="http://www.tripadvisor.com/members/rmathew">rmathew on
   TripAdvisor</a></li>
-<li><a href="https://github.com/rmathew">rmathew on GitHub</a> (<b>Note:</b>
-  Currently inactive as GitHub doesn't support <a
-  href="http://mercurial.selenic.com/">Mercurial</a> yet.)</li>
 <li><a href="http://rmathew.blogspot.com/ncr">rmathew on Blogger</a>
   (<b>Note:</b> Now inactive; all blog-posts there have been imported into
   this web-site.)</li>

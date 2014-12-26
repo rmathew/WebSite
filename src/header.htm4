@@ -6,7 +6,6 @@ m4_include(`common.m4')m4_dnl
 <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Cache-Control" content="max-age=86400">
 <META name="author" content="Ranjit Mathew">
-<META property="fb:admins" content="100001929392934" />
 <link rel="icon" href="m4_root_dir/favicon.ico" type="image/x-icon">
 <link rel="alternate" href="http://feeds.feedburner.com/rmathew"
 type="application/atom+xml" title="Feed for rmathew.com">
@@ -32,15 +31,15 @@ media="print">
 <div class="superHeader">
 m4_include( `sitesrch.htm4')
 <div class="right">
-<a href="https://plus.google.com/111471032971282015374?rel=author"
-title="Google+ Profile"><img src="m4_root_dir/images/gplus.png"
-width="16" height="16" alt="Google+ Icon">&nbsp;<b>Google+</b></a>
 <a href="http://twitter.com/rmathew4tw" title="Tweets">
 <img src="m4_root_dir/images/twitter.png" width="16" height="16"
 alt="Twitter Icon">&nbsp;<b>Twitter</b></a>
 <a href="https://bitbucket.org/rmathew/" title="Bitbucket Profile">
 <img src="m4_root_dir/images/bitbucket.png" width="16" height="16"
 alt="Bitbucket Icon">&nbsp;<b>Bitbucket</b></a>
+<a href="https://github.com/rmathew/" title="GitHub Profile">
+<img src="m4_root_dir/images/github.png" width="16" height="16"
+alt="GitHub Icon">&nbsp;<b>GitHub</b></a>
 <a href="http://feeds.feedburner.com/rmathew" title="Feed for posts">
 <img src="m4_root_dir/images/feed.png" width="16" height="16"
 alt="Feed Icon">&nbsp;<b>Feed</b></a>
