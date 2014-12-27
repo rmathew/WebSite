@@ -75,12 +75,9 @@ advertising fees by advertising and linking to flipkart.com.
 
 m4_heading( `1', `track', `Tracking')
 <p>
-I use social-sharing buttons on many of the pages on this web-site and
-use <a href="http://www.google.com/analytics/">Google Analytics</a> on almost
-all pages. This is accomplished by inserting appropriate JavaScript code
-provided by each of these vendors on such a page. These vendors might store
-cookies in your browser and use this or other mechanisms to track you on this
-and other web-sites.
+I use <a href="http://www.google.com/analytics/">Google Analytics</a> on almost
+all pages. Google might store cookies in your browser and use this or other
+mechanisms to track you on this and other web-sites.
 <p>
 I have no control over this tracking. If you are paranoid about this tracking,
 either use the private-browsing (or incognito) mode in your browser or use a
