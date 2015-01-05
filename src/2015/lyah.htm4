@@ -1,0 +1,64 @@
+m4_define(`m4_post_date', `2015-01-05')m4_dnl
+m4_define(`m4_post_title', `&ldquo;Learn You A Haskell For Great Good&rdquo;')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+&ldquo;<a href="http://learnyouahaskell.com/">Learn You A Haskell For Great
+Good</a>&rdquo; is a nice book with a weird title written by Miran
+Lipova&#269;a. It gently introduces you to <a
+href="http://en.wikipedia.org/wiki/Functional_programming">functional
+programming</a> with the <a
+href="http://en.wikipedia.org/wiki/Haskell_%28programming_language%29">Haskell</a>
+programming language and manages to cover a surprising amount of ground without
+being intimidating. The author and his publisher have very kindly made the
+entire book available for free on-line. I think it is a great resource to start
+learning Haskell, but by itself it is unfortunately not enough to become
+proficient.
+m4_begin_post_rest
+m4_display_book( `1593272839', `9781593272838')
+<p>
+The first thing that strikes you about the book is how informal the writing
+style is, not to mention the occasional humorous notes. The author also
+provides several nice hand-drawn images to enliven the text. When you consider
+that this book has been written by a non-native speaker of English from
+Slovenia who was a young Computer Science student at the time he wrote the book
+and who is also good at drawing, you realize the magnitude of his achievement.
+Kudos to him for having written a great first book that is clearly a labor of
+love.
+<p>
+The book covers almost everything you generally hear about Haskell, without
+getting ensnared in <a
+href="http://en.wikipedia.org/wiki/Monad_%28functional_programming%29">Monads</a>
+and <a href="http://en.wikipedia.org/wiki/Category_theory">Category Theory</a>
+as seems to be the fate of almost every tutorial on Haskell, which scares
+newcomers away. However, it does assume that you're already familiar with (at
+least) <a href="http://en.wikipedia.org/wiki/Imperative_programming">imperative
+programming</a>, so it is not good as a first book on computer programming. It
+gradually covers list-comprehensions, currying, type-classes, recursion,
+functors, modules, monads, monoids, etc. without making a big fuss about them
+and (mostly) showing the motivation behind them.
+<p>
+There are a few things amiss though. The book doesn't have any exercises, so
+it doesn't force you to check what you have learned and work out how you might
+apply it to solve problems. The second half of the book seems to be a bit
+dense without a clear explanation for the motivation. For example, I read
+through the section on applicative functors, but couldn't figure out
+<em>why</em> I should care about them until later in the book and even then I
+wasn't so sure. Surprisingly, the book doesn't show you how to write comments
+in your code (use <code>--</code> for single-line comments; <code>{-</code> and
+<code>-}</code> for block comments). Finally, I feel the author should have
+spent some time providing tips on the biggest stumbling block with Haskell
+for beginners: the rather dense type-related error messages spit by <a
+href="http://en.wikipedia.org/wiki/Glasgow_Haskell_Compiler">GHC</a> for the
+smallest of mistakes.
+<p>
+While you can start playing with Haskell for simple problems using the
+knowledge you gained from this book, it most likely would not be enough to
+write and debug non-trivial programs. For that, you will probably need a book
+like <a href="http://book.realworldhaskell.org/">Real World Haskell</a>. You
+should check out <a
+href="https://rkrishnan.org/posts/2014-01-03-haskell-books.html">the
+recommendations by Ramanathan Muthukrishnan</a> for learning Haskell and
+functional programming.
+m4_end_post_rest
+m4_end_post

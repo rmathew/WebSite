@@ -10,6 +10,9 @@ m4_changecom
 m4_dnl Flag this file's inclusion.
 m4_define( `m4_common_included', `true')
 
+m4_dnl The current year.
+m4_define(`m4_current_year', m4_esyscmd(`date "+%Y"``''m4_dnl'))
+
 m4_dnl Change the quoting characters.
 m4_dnl (We need single quotes with HTML/JavaScript.)
 m4_changequote([[,]])
