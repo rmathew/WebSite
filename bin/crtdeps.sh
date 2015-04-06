@@ -149,8 +149,9 @@ do
   # Find files indirectly included using "m4_collect_posts".
   for j in $(grep m4_collect_posts\( $i | sed 's/ //g')
   do
-    # We have something like "m4_collect_posts(`foo',`NNNN')"
-    # or "m4_collect_posts(`foo',m4_news_year)".
+    # We have something like "m4_collect_posts(`foo',`NNNN')",
+    # "m4_collect_posts(`foo',m4_news_year)" or
+    # "m4_collect_posts(`foo',m4_current_year)".
     TMP="$(echo $j | cut -f2 -d\, | cut -f1 -d\))"
 
     if [ "$TMP" = "m4_news_year" ]
@@ -158,6 +159,9 @@ do
       # XXX: Assume that the "m4_news_year"-style usage is only inside
       # the index files of the yearly archives.
       DIR="$(dirname $HTM4_FILE)"
+    elif [ "$TMP" = "m4_current_year" ]
+    then
+      DIR="$(date +%Y)"
     else
       DIR="$(echo $TMP | cut -f1 -d\' | cut -b2-)"
     fi
@@ -197,8 +201,20 @@ do
   # Find files indirectly included using "m4_collect_posts".
   for j in $(grep m4_collect_posts\( $i | sed 's/ //g')
   do
-    # We have something like "m4_collect_posts(`foo',`NNNN')".
-    DIR="$(echo $j | cut -f2 -d\, | cut -f1 -d\) | cut -f1 -d\' | cut -b2-)"
+    # We have something like "m4_collect_posts(`foo',m4_current_year)" or
+    # "m4_collect_posts(`foo',m4_decr(m4_current_year))".
+    TMP="$(echo $j | cut -f2 -d\, | cut -f1 -d\))"
+    if [ "$TMP" = "m4_current_year" ]
+    then
+      DIR="$(date +%Y)"
+    elif [ "$TMP" = "m4_decr(m4_current_year" ]
+    then
+      DIR="$(date -d '-1 year' +%Y)"
+    else
+      echo "ERROR: Unhandled argument \"$TMP\"."
+      exit 1
+    fi
+
     for k in $(${BIN_DIR}/getposts.sh ${SRC_DIR}/${DIR})
     do
       DEPS="${DEPS} ${DIR}/${k}.htm4"
