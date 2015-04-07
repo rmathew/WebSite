@@ -1,0 +1,101 @@
+m4_define(`m4_post_date', `2015-04-07')m4_dnl
+m4_define(`m4_post_title', `&ldquo;The Agony And The Ecstasy&rdquo;')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I hadn't known about &ldquo;<a
+href="http://en.wikipedia.org/wiki/The_Agony_and_the_Ecstasy_%28novel%29">The
+Agony And The Ecstasy</a>&rdquo;, a biographical novel of the great artist <a
+href="http://en.wikipedia.org/wiki/Michelangelo">Michelangelo Buonarroti</a> by
+<a href="http://en.wikipedia.org/wiki/Irving_Stone">Irving Stone</a>, until <a
+href="http://www.pradnya.me/">Pradnya</a> told me about it. While she had
+recommended that I read the book before my recent trip to Italy, I ended up
+reading it only after I had come back from the trip. This book is a majisterial
+work on the life and the works of a superb sculptor, painter and architect. It
+deserves to be read by anyone interested in art or history - especially if
+you have traveled to, or are planning to travel to, Italy.
+m4_begin_post_rest
+m4_display_book( `0451171357', `9780451171351')
+<p>
+For a toursit and an art-lover visiting Florence and Rome, this is a
+particularly nice book to read - whether before, during or after such a trip is
+debatable. If you have several days or weeks to spare in these cities, then you
+should try to read this book <em>during</em> your trip. If you read it before
+your trip, you'll understand a great deal of context behind the art and the
+architecture you'll encounter in these places, but you'll probably be lost in
+the numerous art-works, places, streets, etc. mentioned in this book. If you
+read it after your trip, you'll relate far better to everything mentioned here,
+but you'll probably badly want to revisit these to admire them with your
+new-found understanding. I stayed quite close to <a
+href="http://en.wikipedia.org/wiki/Casa_Buonarroti">Casa Buonarroti</a> and the
+<a
+href="http://en.wikipedia.org/wiki/Basilica_of_Santa_Croce,_Florence">Basilica
+of Santa Croce</a> when I was in Florence, so it was quite exciting to
+repeatedly read about these and Via Ghibellina in the book.
+<p>
+This book is truly a labor of love. The author has clearly done an extensive
+research on his subject over several years, actually been to most of the places
+he describes and has even taken the time to learn how to sculpt marble. He has
+done a decent job of putting it together into interesting fiction. This is a big
+book at close to 700 pages, but the author manages to mostly retain the interest
+of the reader. You get to know about the life and times of Michelangelo and how
+it was in medieval Italy. It is really amazing how he managed to produce his
+great works, while being bogged down by papal vagaries and a perpetually nagging
+family. It is also interesting to see other great artists like <a
+href="http://en.wikipedia.org/wiki/Leonardo_da_Vinci">Leonardo da Vinci</a>, <a
+href="http://en.wikipedia.org/wiki/Raphael">Raphael Sanzio</a> and <a
+href="http://en.wikipedia.org/wiki/Sandro_Botticelli">Sandro Botticelli</a>
+appearing in the life of Michelangelo, though sadly not always as positive
+forces. You also get to read about <a href="http://en.wikipedia.org/wiki/House_of_Medici">the Medicis</a>, <a
+href="http://en.wikipedia.org/wiki/Girolamo_Savonarola">Savonarola</a>, <a
+href="http://en.wikipedia.org/wiki/Niccol%C3%B2_Machiavelli">Machiavelli</a>
+and a surprising number of Popes.
+<p>
+Some parts of the book are a little tedious though. There are many pages
+devoted to detailed descriptions of his surreptitious dissections of corpses. I
+must admit that I didn't find many of the translated sonnets of Michelangelo
+that appear in this book that interesting (yes, he was a prolific poet too). I
+especially hated the several &ldquo;walk-through&rdquo; type of passages in the
+book that some tourists might like, but that are awkward in a novel. For
+example:
+<p>
+<blockquote>
+&ldquo;[Michelangelo] walked down the Via dell'Anguillara, the streets freshly
+washed and the stoops scrubbed, to Piazza Santa Croce, where the Franciscan
+church stood rough and dark in its unfinished brick. As he passed the open-sided
+gallery his eyes sought the outline of the Nino Pisano sarcophagus, held up by
+its four carved allegorical figures. He turned left on the Via del Fosso, build
+at the second limit of the city walls, passed the prison, then the house
+belonging to the nephew of St. Catherine of Sienna, and at the end of the
+street, at the corner of the Swallows, the city's famous chemist shop. From
+here he turned into Via Pietrapiana, Street of the Fiat Stones, which led
+through Piazza Sant'Ambrogio, in the church of which were buried the sculptors
+Verrocchio and Mino da Fiesole.&rdquo;
+</blockquote>
+<p>
+...and so on.
+<p>
+There are several interesting parallels between the way the author describes
+Michelangelo's passion for sculpture and the way passionate programmers
+approach software-development. He used to regularly &ldquo;<a
+href="http://en.wikipedia.org/wiki/Flow_%28psychology%29">get in the
+zone</a>&rdquo; while sculpting marble, some times for years; so much so that
+food, sleep, friends, etc. used to become irritating distractions. He was always
+itching to sculpt marble, being miserable when he couldn't. He could not bring
+himself to do a bad job even on something that he did not agree with. He was
+such a perfectionist that he could not delegate much work to his assitants,
+even if that meant taking much more time than was expected. He was more of an
+&ldquo;individual contributor&rdquo; than a &ldquo;team player&rdquo;. He was
+&ldquo;hands-on&rdquo; till the very end of his life (yes, even after he had
+become an architect...of <a
+href="http://en.wikipedia.org/wiki/St._Peter%27s_Basilica">St Peter's
+Basilica</a>).
+<p>
+This great artist produced <a
+href="http://en.wikipedia.org/wiki/List_of_works_by_Michelangelo">an astounding
+amount of work</a>, many of them classics truly appreciated only when seen in
+person. It is really sad to see how much trouble he had to go through to create
+them. Read this book to better appreciate his life and his work, as well as the
+creative process itself.
+m4_end_post_rest
+m4_end_post
