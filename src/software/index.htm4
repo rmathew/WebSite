@@ -14,13 +14,11 @@ These programs have absolutely <b>NO WARRANTIES</b>
 and are for purely educational purposes. If you find any of these useful,
 do tell me about it.
 <div class="notice">
-<b>NOTE:</b> These and some other programs are now hosted on <a
-href="https://bitbucket.org/">Bitbucket</a> and <a
-href="https://github.com/">GitHub</a> as <a
-href="http://en.wikipedia.org/wiki/Git_%28software%29">Git</a> repositories
-under <a href="https://bitbucket.org/rmathew/"><b>bitbucket.org/rmathew</b></a>
-and <a href="https://github.com/rmathew/"><b>github.com/rmathew</b></a>
-respectively.
+<b>NOTE:</b> These and some other programs are now hosted <a
+href="https://bitbucket.org/rmathew/">on Bitbucket</a>, <a
+href="https://github.com/rmathew/">on GitHub</a> and <a
+href="https://gitlab.com/u/rmathew/">on GitLab</a> as <a
+href="http://en.wikipedia.org/wiki/Git_%28software%29">Git</a> repositories.
 </div>
 
 m4_heading( `1', `zinc', `ZINC')
