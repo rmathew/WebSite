@@ -6,6 +6,7 @@ m4_include(`common.m4')m4_dnl
 <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Cache-Control" content="max-age=86400">
 <META name="author" content="Ranjit Mathew">
+<META name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" href="m4_root_dir/favicon.ico" type="image/x-icon">
 <link rel="alternate" href="http://feeds.feedburner.com/rmathew"
 type="application/atom+xml" title="Feed for rmathew.com">
