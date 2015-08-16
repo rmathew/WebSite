@@ -1,6 +1,6 @@
 m4_define(`m4_root_dir',`.')m4_dnl
 m4_define(`m4_page_title',`About Me')m4_dnl
-m4_define(`m4_page_section',``Home'')m4_dnl
+m4_define(`m4_page_section',``About'')m4_dnl
 m4_dnl
 m4_include(`header.htm4')m4_dnl
 m4_dnl

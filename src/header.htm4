@@ -11,7 +11,6 @@ m4_include(`common.m4')m4_dnl
 type="application/atom+xml" title="Feed for rmathew.com">
 <link rel="stylesheet" type="text/css" href="m4_root_dir/default.css"
 media="screen">
-<link rel="stylesheet" type="text/css" href="m4_root_dir/custom.css">
 <link rel="stylesheet" type="text/css" href="m4_root_dir/print.css"
 media="print">
 <title>m4_page_title</title>
@@ -29,7 +28,6 @@ media="print">
 <body>
 <div id="header">
 <div class="superHeader">
-m4_include( `sitesrch.htm4')
 <div class="right">
 <a href="https://twitter.com/rmathew4tw" title="Tweets">
 <img src="m4_root_dir/images/twitter.png" width="16" height="16"
@@ -68,23 +66,8 @@ title="Reviews of books">Book Reviews</a>
 <a href="m4_root_dir/archives/index.html"
 m4_ifelse(m4_page_section,`Archives',`class="highlight"')
 title="Older posts">Archives</a>
+<a href="m4_root_dir/about.html"
+m4_ifelse(m4_page_section,`About',`class="highlight"')
+title="About me">About</a>
 </div>
-</div>
-<div id="side-bar">
-<p class="sideBarTitle">About
-<p class="sideBarText">
-<img src="m4_root_dir/images/RanjitLogoSmall.jpg"
-  width="100" height="75" alt="Small Logo"
-  style="display: block; margin: auto; padding-bottom: 1ex;">
-A web-site created by <b>Ranjit Mathew</b> to inflict his inane ramblings upon
-an unsuspecting public.
-<p class="sideBarText">
-<a href="m4_root_dir/about.html">More...</a>
-<p class="sideBarTitle">Acknowledgements
-<p class="sideBarText">
-Free hosting courtesy of <a href="http://www.50webs.com/">50webs</a>.
-<p class="sideBarText">
-Design derived from <a
-href="http://haran.freeshell.org/oswd/sinorca/">Sinorca 2.0</a> of Haran
-Sivakumaran.
 </div>

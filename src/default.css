@@ -3,14 +3,9 @@
 body {
   color: black;
   background-color: white;
-  font-family: sans-serif;
-  font-size: 71%;  /* Enables font size scaling in MSIE */
-  margin: 0;
-  padding: 0;
-}
-
-html > body {
-  font-size: 9.5pt;
+  margin: 0 auto;
+  padding: 0 1em;
+  max-width: 50em;
 }
 
 acronym, .titleTip {
@@ -32,10 +27,15 @@ acronym, .titleTip {
 
 /* ##### Header ##### */
 
+#header {
+  margin: 0 auto 0 auto;
+}
+
 .superHeader {
   color: white;
   background-color: rgb(100,135,220);
-  height: 2.5em;
+  font-size: 91%;
+  height: 2em;
 }
 
 .superHeader a {
@@ -52,13 +52,13 @@ acronym, .titleTip {
 }
 
 .superHeader .left {
-  position: absolute;
+  text-align: left;
   left: 1.5mm;
   top: 0.75ex;
 }
 
 .superHeader .right {
-  position: absolute;
+  text-align: right;
   right: 1.5mm;
   top: 0.75ex;
 }
@@ -71,7 +71,7 @@ acronym, .titleTip {
 .headerTitle {
   font-size: 250%;
   font-weight: normal;
-  margin: 0 0 0 4mm;
+  margin: 0 0 0 0.25em;
   padding: 0.25ex 0;
 }
 
@@ -80,6 +80,7 @@ acronym, .titleTip {
   background-color: rgb(0,51,153);
   margin: 0;
   padding: 1ex 1ex 1ex 1.5mm;
+  font-size: 91%;
 }
 
 .subHeader a {
@@ -188,8 +189,6 @@ body > #side-bar {
   background-color: transparent;
   text-align: justify;
   line-height: 1.5em;
-  margin: 0.5ex 15em 0 0;
-  padding: 0.5mm 5mm 5mm 5mm;
 }
 
 #bodyText {
@@ -255,10 +254,9 @@ dd {
 #footer {
   color: white;
   background-color: rgb(100,135,220);
-  font-size: 91%;
-  margin: 0;
+  margin: 0 auto 0 auto;
   padding: 5px 5px 5px 5px;
-  clear: both;
+  font-size: 85%;
 }
 
 #footer .left {
@@ -281,4 +279,100 @@ dd {
 
 #footer a:hover {
   text-decoration: none;
+}
+
+/* ##### Custom Styles ##### */
+
+table.toc {
+  color: rgb(0,102,204);
+  background-color: rgb(248,250,255);
+  margin: 1.5em 0 0 0;
+  padding: 1ex 0 1ex 0.6ex;
+  border: 1px solid rgb(0,51,152);
+}
+
+th.toc_title {
+  text-align: left;
+  font-size: 150%;
+  font-weight: bold;
+}
+
+td.toc_entry_1 {
+  text-align: left;
+  padding: 0.5ex 5ex 0.5ex 3ex;
+}
+
+div.post_header {
+  margin-top: 2em;
+  margin-bottom: 0;
+}
+
+div.post {
+  margin-top: 0;
+  border-bottom: 1px dotted;
+}
+
+br.post_footer {
+  clear: left;
+}
+
+div.left_justified {
+  text-align: left;
+}
+
+div.centred {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+div.right_justified {
+  text-align: right;
+}
+
+div.book_display {
+  text-align: center;
+  float: left;
+  margin-right: 10px;
+  padding: 1ex;
+  border: 1px solid rgb(196, 196, 196);
+}
+
+div.book_display img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  border: 0;
+}
+
+img.inline {
+  float: left;
+  vertical-align: top;
+  padding-right: 5px;
+}
+
+div.notice {
+  margin: 2.5em;
+  padding: 0.3em;
+  border: 1px solid #000000;
+  text-align: left;
+}
+
+/*
+  NOTE: If JavaScript is disabled, we do not want content to remain
+  hidden - a JavaScript function later hides hidden DIVs.
+*/
+div.hidden {
+  display: block;
+}
+
+div.shown {
+  display: block;
+}
+
+li {
+  margin-bottom: 0.5em;
 }
