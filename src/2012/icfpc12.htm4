@@ -24,7 +24,7 @@ the complexities of the task at hand, including having to proactively prevent
 an already-falling rock from blocking the miner's exit from the mine.
 <p>
 <img src="m4_root_dir/images/icfpc12.png" width="642" height="501"
-  style="display: block; margin: auto;"/>
+  style="display: block; margin: auto;" alt="Visualizer screen-shot.">
 <p>
 On the second day I had a very bad case of &ldquo;programmer's block&rdquo; - I
 just could not come up with an algorithm good enough to properly complete the

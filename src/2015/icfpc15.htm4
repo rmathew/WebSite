@@ -41,7 +41,7 @@ a decent color-palette to pick colors from - I think I'll adopt it for my other
 projects as well - I already use it in my editor and terminal.)
 <p>
 <img src="m4_root_dir/images/icfpc15.png" width="640" height="492"
-  style="display: block; margin: auto;"/>
+  style="display: block; margin: auto;" alt="Visualizer screen-shot.">
 <p>
 I had some trouble with the task-specification - in particular figuring out what
 exactly is a legal move for a Unit. I am still not sure I have it right as many
