@@ -36,17 +36,6 @@ I have tried to disclose any conflicts of interest wherever applicable (for
 example, when I review a book about a current or past employer) and I try to
 be as objective as possible in such cases.
 
-m4_heading( `1', `adv', `Advertisements')
-<p>
-This web-site displays advertisements using <a
-href="https://www.google.com/adsense">Google AdSense</a>. However, I do not
-necessarily endorse any of the products or services displayed by these
-advertisements and would advise you to carry out your own research before
-acting upon any of them.
-<p>
-If you click on any such advertisement, I will probably (and eventually) be
-paid a small share of what Google charges the corresponding advertiser.
-
 m4_heading( `1', `aff', `Affiliate Links')
 <p>
 I link to products on <a href="http://www.amazon.com/">Amazon</a> and <a
