@@ -1,0 +1,60 @@
+m4_define(`m4_post_date', `2015-08-16')m4_dnl
+m4_define(`m4_post_title', `ICFPC 2015')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+After a gap of three years, I attempted to do the task for <a
+href="http://icfpcontest.org/">ICFPC 2015</a>. The task was to write a program
+that could play a game of (what was essentially) hexagonal <a
+href="https://en.wikipedia.org/wiki/Tetris">Tetris</a> with a few twists. There
+was a time-limit of 72 hours to finish this task in any programming language on
+almost any platform. As usual, by the end of the third day I was quite far from
+finishing it, but ended up having a little bit of fun.
+m4_begin_post_rest
+<p>
+My attempts at ICFPC each year now follow a distressingly-similar pattern:
+<ul>
+<li>Resolve at the end of the previous year's contest to become comfortable
+enough with a high-level functional programming language like <a
+href="http://www.haskell.org/">Haskell</a> in time for this year's contest, so
+that I can do the task in that language.</li>
+<li>Far from having managed to do that, settle on using a relatively low-level
+programming language like C, C++ or Java, which causes me to waste time on
+mundane issues.</li>
+<li>Spend most the time creating a visualizer for the task, mostly in <a
+href="http://www.libsdl.org/">SDL</a>, in order to &ldquo;understand it
+better&rdquo;before tackling it.</li>
+<li>Spend the remaining time re-factoring the code or debugging what turn out
+to be really silly issues.</li>
+<li>Realize it is too late to actually finish the original task within the
+time-limit. Promise to come back to the task after the actual contest in order
+to finish it at leisure.</li>
+<li>Never end up revisiting the task as I get distracted by other things in
+life.</li>
+</ul>
+<p>
+Needless to say, this is not good; not good at all.
+<p>
+The visualizer turned out to be passable for manually playing through the games.
+(Thanks to <a href="http://ethanschoonover.com/solarized">Solarized</a>, I had
+a decent color-palette to pick colors from - I think I'll adopt it for my other
+projects as well - I already use it in my editor and terminal.)
+<p>
+<img src="m4_root_dir/images/icfpc15.png" width="640" height="492"
+  style="display: block; margin: auto;"/>
+<p>
+I had some trouble with the task-specification - in particular figuring out what
+exactly is a legal move for a Unit. I am still not sure I have it right as many
+games seem unplayable according to the rules. I had trouble getting my head
+wrapped around a hexagonal grid, especially for implementing the turning of
+Units - I cursed myself for not having consulted <a
+href="http://www.redblobgames.com/grids/hexagons/">Amit Patel's excellent
+reference on hexagonal grids</a> earlier, as his coordinate transforms make
+working with hexagonal grids relatively easy.
+<p>
+As usual, the source-code for my attempt (such as it was) can be found <a
+href="https://bitbucket.org/rmathew/icfpc/src">on Bitbucket</a>, <a
+href="https://github.com/rmathew/icfpc/">on GitHub</a> and <a
+href="https://gitlab.com/rmathew/ICFPC">on GitLab</a>.
+m4_end_post_rest
+m4_end_post
