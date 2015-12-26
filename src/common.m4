@@ -47,8 +47,8 @@ m4_define(
 )
 
 m4_dnl Create a book-display, along with affiliate links.
-m4_dnl   arg1 = <Amazon.com ASIN>
-m4_dnl   arg2 = <Flipkart.com id>
+m4_dnl   arg1 = <Amazon.com ASIN>, "_dummy_" to skip.
+m4_dnl   arg2 = <Amazon.in ASIN>, "_dummy_" to skip.
 m4_define(
   [[m4_display_book]],
   [[
@@ -62,21 +62,22 @@ m4_define(
       <br>
       <a href="http://www.amazon.com/gp/product/$1?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=$1"
 	style="text-decoration: none;">
-      <img src="m4_root_dir/books/images/buyamz.gif" width="120" height="43"
+      <img src="m4_root_dir/books/images/buy_amz_us.gif" width="120" height="28"
         alt="Buy from Amazon.com">
       </a>
-      <img src="http://www.assoc-amazon.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=$1" width="1" height="1" alt="" style="border:none; margin:0px;">
+      <img src="http://ir-na.amazon-adsystem.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=$1" width="1" height="1" alt="" style="border:none; margin:0px;">
     )
     m4_ifelse(
       $2,
       _dummy_,
       `',
       <br>
-      <a href="http://dl.flipkart.com/dl/books/$2?affid=INRanjit"
-        style="text-decoration: none;">
-      <img src="m4_root_dir/books/images/buyfkart.png" width="118" height="40"
-        alt="Buy from Flipkart.com">
+      <a href="http://www.amazon.in/gp/product/$1?ie=UTF8&amp;tag=rmathew-21&amp;linkCode=as2&amp;camp=3626&amp;creative=24790&amp;creativeASIN=$1"
+	style="text-decoration: none;">
+      <img src="m4_root_dir/books/images/buy_amz_in.gif" width="120" height="28"
+        alt="Buy from Amazon.in">
       </a>
+      <img src="http://ir-in.amazon-adsystem.com/e/ir?t=rmathew-21&amp;l=as2&amp;o=31&amp;a=$1" width="1" height="1" alt="" style="border:none; margin:0px;">
     )
     <br>
     <p style="font-size: 85%;">

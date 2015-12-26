@@ -1,5 +1,5 @@
 m4_define( `m4_post_date', `2008-12-19')m4_dnl
-m4_define( `m4_post_title', `&ldquo;God is Not Great&rdquo;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;God Is Not Great&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>

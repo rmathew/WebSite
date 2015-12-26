@@ -1,5 +1,5 @@
 m4_define( `m4_post_date', `2005-05-15')m4_dnl
-m4_define( `m4_post_title', `&ldquo;How to Solve It&rdquo;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;How To Solve It&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>

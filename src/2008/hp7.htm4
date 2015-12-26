@@ -1,5 +1,5 @@
 m4_define( `m4_post_date', `2008-08-17')m4_dnl
-m4_define( `m4_post_title', `&ldquo;Harry Potter and the Deathly Hallows&rdquo;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;Harry Potter And The Deathly Hallows&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>

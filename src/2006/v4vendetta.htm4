@@ -1,5 +1,5 @@
 m4_define( `m4_post_date', `2006-06-14')m4_dnl
-m4_define( `m4_post_title', `&ldquo;V for Vendetta&rdquo;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;V For Vendetta&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
@@ -12,7 +12,7 @@ movie and the book had many differences in the plot and the characters,
 but for once I did not mind it - in fact, I quite liked each of the
 forks in both the media.
 m4_begin_post_rest
-m4_display_book( `0930289528', `140120841x')
+m4_display_book( `0930289528', `140120841X')
 <p>
 The hero of the book is a masked anarchist, known only as
 &ldquo;V&rdquo;, who rebels against the fascist and totalitarian regime

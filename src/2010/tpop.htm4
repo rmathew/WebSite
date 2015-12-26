@@ -1,5 +1,5 @@
 m4_define( `m4_post_date', `2010-01-23')m4_dnl
-m4_define( `m4_post_title', `&ldquo;The Practice of Programming&rdquo;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;The Practice Of Programming&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>

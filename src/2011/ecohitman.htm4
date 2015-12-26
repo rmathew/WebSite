@@ -1,5 +1,5 @@
 m4_define(`m4_post_date', `2011-06-04')m4_dnl
-m4_define(`m4_post_title', `&ldquo;Confessions of an Economic Hit Man&rdquo;')m4_dnl
+m4_define(`m4_post_title', `&ldquo;Confessions Of An Economic Hit Man&rdquo;')m4_dnl
 m4_include(`posttrans.m4')m4_dnl
 m4_begin_post
 <p>

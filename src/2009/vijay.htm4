@@ -1,5 +1,5 @@
 m4_define( `m4_post_date', `2009-01-06')m4_dnl
-m4_define( `m4_post_title', `&ldquo;The New Cambridge History of India: Vijayanagara&rdquo;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;The New Cambridge History Of India: Vijayanagara&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>

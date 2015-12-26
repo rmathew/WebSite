@@ -1,5 +1,5 @@
 m4_define( `m4_post_date', `2010-01-10')m4_dnl
-m4_define( `m4_post_title', `&ldquo;Economics: Private and Public Choice&rdquo;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;Economics: Private And Public Choice&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>

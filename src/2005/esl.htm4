@@ -1,5 +1,5 @@
 m4_define( `m4_post_date', `2005-07-15')m4_dnl
-m4_define( `m4_post_title', `&ldquo;Eats`,' Shoots and Leaves&rdquo;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;Eats`,' Shoots And Leaves&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>

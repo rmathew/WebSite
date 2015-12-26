@@ -1,5 +1,5 @@
 m4_define(`m4_post_date', `2013-04-18')m4_dnl
-m4_define(`m4_post_title', `&ldquo;Masters of Doom&rdquo;')m4_dnl
+m4_define(`m4_post_title', `&ldquo;Masters Of Doom&rdquo;')m4_dnl
 m4_include(`posttrans.m4')m4_dnl
 m4_begin_post
 <p>
@@ -22,7 +22,7 @@ how he got together with <a
 href="http://en.wikipedia.org/wiki/John_Romero">John Romero</a> to create id
 Software and its ground-breaking games. This book didn't disappoint me.
 m4_begin_post_rest
-m4_display_book( `0812972155', `9780749924898')
+m4_display_book( `0812972155', `0749924896')
 <p>
 The book tells the story of the &ldquo;Two Johns&rdquo; - as John Carmack and
 John Romero were called - the former being a self-taught genius of a computer

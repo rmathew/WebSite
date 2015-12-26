@@ -15,7 +15,7 @@ entire book available for free on-line. I think it is a great resource to start
 learning Haskell, but by itself it is unfortunately not enough to become
 proficient.
 m4_begin_post_rest
-m4_display_book( `1593272839', `9781593272838')
+m4_display_book( `1593272839', `1593272839')
 <p>
 The first thing that strikes you about the book is how informal the writing
 style is, not to mention the occasional humorous notes. The author also

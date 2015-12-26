@@ -13,7 +13,7 @@ normally-secretive company. This makes the contents of the book fairly
 accurate and turns it into a great book to read if you are curious about the
 inner workings of this company.
 m4_begin_post_rest
-m4_display_book( `B0054U53WG', `9781416596585')
+m4_display_book( `1416596585', `1416596585')
 <p>
 (<b>Disclosure:</b> I am an employee of Google at the time of this writing,
 albeit a fairly new one.)

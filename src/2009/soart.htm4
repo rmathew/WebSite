@@ -1,5 +1,5 @@
 m4_define( `m4_post_date', `2009-11-08')m4_dnl
-m4_define( `m4_post_title', `&ldquo;The Story of Art&rdquo;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;The Story Of Art&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>

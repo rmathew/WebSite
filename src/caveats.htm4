@@ -38,8 +38,8 @@ be as objective as possible in such cases.
 
 m4_heading( `1', `aff', `Affiliate Links')
 <p>
-I link to products on <a href="http://www.amazon.com/">Amazon</a> and <a
-href="http://www.flipkart.com/">Flipkart</a> using affiliate-links, most
+I link to products on <a href="https://www.amazon.com/">Amazon.com</a> and <a
+href="https://www.amazon.in/">Amazon.in</a> using affiliate-links, most
 notably in book-reviews. If you click any of these links and make a purchase,
 I will probably (and eventually) get a small cut of the total price as
 affiliate-fees.
@@ -52,14 +52,12 @@ an affiliate advertising program designed to provide a means for sites to earn
 advertising fees by advertising and linking to amazon.com.
 </blockquote>
 <p>
-I might as well note it for the Flipkart.com Affiliate Program, even though
-I couldn't locate any such requirement in their agreement, since <a
-href="http://business.ftc.gov/documents/bus71-ftcs-revised-endorsement-guideswhat-people-are-asking">the
-FTC mandates it</a>:
+I am also required to display this notice by the Amazon.in Associates Program
+Operating Agreement:
 <blockquote>
-Ranjit Mathew is a participant in the Flipkart.com Affiliate Program, an
-affiliate advertising program designed to provide a means for sites to earn
-advertising fees by advertising and linking to flipkart.com.
+Ranjit Mathew is a participant in the Amazon Associates Program, an affiliate
+advertising program designed to provide a means for sites to earn advertising
+fees by advertising and linking to amazon.in.
 </blockquote>
 
 m4_heading( `1', `track', `Tracking')
@@ -68,19 +66,18 @@ I use <a href="http://www.google.com/analytics/">Google Analytics</a> on almost
 all pages. Google might store cookies in your browser and use this or other
 mechanisms to track you on this and other web-sites.
 <p>
-I have no control over this tracking. If you are paranoid about this tracking,
-either use the private-browsing (or incognito) mode in your browser or use a
-tool like <a href="http://www.ghostery.com/">Ghostery</a> to detect and
-control such tracking.
+If you are paranoid about such tracking, either use the private-browsing (or
+incognito) mode in your browser or use a tool like <a
+href="http://www.ghostery.com/">Ghostery</a> to detect and control such
+tracking.
 
 m4_heading( `1', `lia', `Liability')
 <p>
-I provide the contents of the pages on this web-site for sharing information
-and for providing amusement. You are fully responsible for any action you take
-upon reading such pages and shall not hold me liable for any damages you might
-incur due to such actions.
+I provide the contents of the pages on this web-site for sharing information.
+You are fully responsible for any action you take upon reading such pages and
+shall not hold me liable for any damages you might incur due to such actions.
 <p>
-In other words, don't trust a random dude on the Internet - do your own due
+In other words, do not trust a random dude on the Internet - do your own due
 diligence before taking any action.
 
 </div>

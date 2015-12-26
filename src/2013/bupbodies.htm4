@@ -21,7 +21,7 @@ href="http://en.wikipedia.org/wiki/Anne_Boleyn">Anne Boleyn</a>, the queen.
 Like the first book, this book has also managed to win the author a Man Booker
 Prize and the prize feels justly-deserved.
 m4_begin_post_rest
-m4_display_book( `125002417X', `9780007490783')
+m4_display_book( `125002417X', `000749078X')
 <p>
 While the first book covered the rise of Cromwell and the rise of Anne to
 replace the king's first wife <a

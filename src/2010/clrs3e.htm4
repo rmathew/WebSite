@@ -1,5 +1,5 @@
 m4_define( `m4_post_date', `2010-03-22')m4_dnl
-m4_define( `m4_post_title', `&ldquo;Introduction to Algorithms&rdquo;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;Introduction To Algorithms&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>

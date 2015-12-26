@@ -1,5 +1,5 @@
 m4_define( `m4_post_date', `2010-09-20')m4_dnl
-m4_define( `m4_post_title', `&ldquo;The Ascent of Money&rdquo;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;The Ascent Of Money&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>

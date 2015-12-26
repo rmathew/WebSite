@@ -1,30 +1,27 @@
 m4_define( `m4_post_date', `2006-08-18')m4_dnl
-m4_define( `m4_post_title', `&ldquo;Programming Languages: Concepts and Constructs&rdquo;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;Programming Languages&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-&ldquo;Programming Languages: Concepts and Constructs&rdquo; (Second
-Edition) by Ravi Sethi is a book desgined to be used as one of the
-text books in a &ldquo;Principles of Programming Languages&rdquo; CS
-course. To that end, it covers all the major programming styles
-(imperative, functional and declarative) and variants (object-oriented
-and concurrent), basic lambda calculus, a short tour of a
-representative programming language or two for each of the covered
-styles, numerous exercises for the students to work out, extensive
-bibliography, etc.
+&ldquo;Programming Languages&rdquo; (Second Edition) by Ravi Sethi is a book
+desgined to be used as one of the text books in a &ldquo;Principles of
+Programming Languages&rdquo; CS course. To that end, it covers all the major
+programming styles (imperative, functional and declarative) and variants
+(object-oriented and concurrent), basic lambda calculus, a short tour of a
+representative programming language or two for each of the covered styles,
+numerous exercises for the students to work out, extensive bibliography, etc.
 m4_begin_post_rest
 m4_display_book( `0201590654', `8177584227')
 <p>
-Unfortunately, it is rather dull and boring (as most text books turn
-out to be) if you read it on your own for self-learning. It does not
-bother explaining <i>why</i> one should bother acquainting oneself
-with the different programming styles. It barely covers the genesis
-of the different programming styles and why, despite the overwhelming
-popularity of the imperative programming languages like C, C++ and
-Java, functional and declarative programming languages still have a
-small but dedicated and enthusiastic following.
+Unfortunately, it is rather dull and boring (as most text books turn out to be)
+if you read it on your own for self-learning. It does not bother explaining
+<i>why</i> one should bother acquainting oneself with the different programming
+styles. It barely covers the genesis of the different programming styles and
+why, despite the overwhelming popularity of the imperative programming
+languages like C, C++ and Java, functional and declarative programming
+languages still have a small but dedicated and enthusiastic following.
 <p>
-Were it not a prescribed text book in many a university, I think it
-would have long died a natural death.
+Were it not a prescribed text-book in many a university, I think it would have
+long died a natural death.
 m4_end_post_rest
 m4_end_post

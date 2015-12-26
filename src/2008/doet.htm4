@@ -1,5 +1,5 @@
 m4_define( `m4_post_date', `2008-11-20')m4_dnl
-m4_define( `m4_post_title', `&ldquo;The Design of Everyday Things&rdquo;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;The Design Of Everyday Things&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>

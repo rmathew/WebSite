@@ -1,5 +1,5 @@
 m4_define( `m4_post_date', `2010-12-23')m4_dnl
-m4_define( `m4_post_title', `&ldquo;The Art of Computer Systems Performance Analysis&rdquo;')m4_dnl
+m4_define( `m4_post_title', `&ldquo;The Art Of Computer Systems Performance Analysis&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>

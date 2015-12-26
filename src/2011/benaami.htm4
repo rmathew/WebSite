@@ -14,7 +14,7 @@ one</a> or <a href="http://www.asianage.com/books/unaccustomed-028">this
 one</a>), but I'm afraid I'll have to side with <a
 href="http://raote.wordpress.com/">Rrishi</a> on this one.
 m4_begin_post_rest
-m4_display_book( `_dummy_', `8191067323')
+m4_display_book( `8191067323', `8191067323')
 <p>
 The plot revolves around Arjun Chatterjee, who has recurring flashes from
 his previous birth about 150 years ago when he was Kartik, the founder of a
