@@ -88,8 +88,7 @@ Windows NT 4. Several add-on packages let you do this, but
 as far as I know, none of them are freely available.
 <p>
 However, I found a free (or so it seems) utility by HP
-called <a
-href="http://www.support.vectra.hp.com/vectrasupport/level4/621vdf507en.exe.html">SoftPowerDown</a>. This is supposedly for HP Vectra
+called SoftPowerDown. This is supposedly for HP Vectra
 machines, but I've found that it works on most ATX-based PCs with
 APM BIOS support. You can use this utility to enable this feature
 with your Windows NT 4. Be sure to apply at least SP 3 before this

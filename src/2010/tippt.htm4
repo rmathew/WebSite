@@ -4,10 +4,9 @@ m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
 &ldquo;The Tipping Point&rdquo; by <a href="http://www.gladwell.com/">Malcolm
-Gladwell</a> is a book that expands upon <a
-href="http://www.gladwell.com/1996/1996_06_03_a_tipping.htm">an article by
-the author in the New Yorker</a> published in 1996. It seeks to explore
-how ideas, products, messages and behaviours &ldquo;tip over&rdquo; and suddenly
+Gladwell</a> is a book that expands upon an article by the author in the New
+Yorker published in 1996. It seeks to explore how ideas, products, messages
+and behaviours &ldquo;tip over&rdquo; and suddenly
 spread through or recede from society, just like pathological epidemics
 through a population. These are termed &ldquo;social epidemics&rdquo; by the
 author.  Understanding such phenomena can help us effect a desired change in

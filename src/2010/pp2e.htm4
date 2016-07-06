@@ -3,10 +3,10 @@ m4_define( `m4_post_title', `&ldquo;Programming Pearls&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-<a href="http://www.cs.bell-labs.com/cm/cs/pearls/">Programming
-Pearls</a> by <a href="http://en.wikipedia.org/wiki/Jon_Bentley">Jon
-Bentley</a> is a book based on a collection of articles written by the
-author for the eponymous column in <a
+&ldquo;Programming Pearls&rdquo; by <a
+href="http://en.wikipedia.org/wiki/Jon_Bentley">Jon Bentley</a> is a book
+based on a collection of articles written by the author for the eponymous
+column in <a
 href="http://cacm.acm.org/">Communications of the ACM</a>. True to its
 name, the book presents several pearls of programming wisdom based on
 the hard-won experience of a brilliant computer programmer who was also

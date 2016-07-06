@@ -19,16 +19,16 @@ href="http://git-scm.com/">Git</a> (as well as free source-code
 hosting-providers for these like <a href="https://bitbucket.org/">Bitbucket</a>
 and <a href="https://github.com/">GitHub</a> respectively), I have never spent
 too much time and effort on <a
-href="en.wikipedia.org/wiki/Version_control_system">VCS</a> tools, considering
-them as tools (albeit important tools) to get a job done. To the extent that I
-did, I preferred the simplicity of Mercurial to the apparent complexity of Git
-(actually the command-line interfaces of the <code>hg</code> and
-<code>git</code> programs, respectively). I could easily memorize (or guess)
-the commands needed for Mercurial for day-to-day use, while Git seemed to
-constantly require looking up the relevant commands on-line and a hope that I
-have not screwed things up. It was also nice to see Mercurial (and Bitbucket)
-users quietly using their tool to actually develop software and quite
-off-putting to see Git (and GitHub) users constantly proselytize to (and
+href="https://en.wikipedia.org/wiki/Version_control_system">VCS</a>
+tools, considering them as tools (albeit important tools) to get a job done.
+To the extent that I did, I preferred the simplicity of Mercurial to the
+apparent complexity of Git (actually the command-line interfaces of the
+<code>hg</code> and <code>git</code> programs, respectively). I could easily
+memorize (or guess) the commands needed for Mercurial for day-to-day use,
+while Git seemed to constantly require looking up the relevant commands on-line
+and a hope that I have not screwed things up. It was also nice to see Mercurial
+(and Bitbucket) users quietly using their tool to actually develop software and
+quite off-putting to see Git (and GitHub) users constantly proselytize to (and
 putting down) users of other VCS tools. That is why I chose to use Mercurial to manage all my source-code repositories.
 <p>
 Unfortunately however, it is quite difficult to avoid Git (and GitHub) these

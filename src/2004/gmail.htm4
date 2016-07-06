@@ -3,7 +3,15 @@ m4_define(`m4_post_title', `Gmail')m4_dnl
 m4_include(`posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-<a href="http://gmail.google.com/">Gmail</a> is a real pleasure to use - thanks to <a href="http://www.yumpee.org/">Yumpee Saar</a>, I've had a Gmail account for a while now. It still lacks a couple of things and is not as customisable as one would have liked it to be, but it is still <i>so much better</i> than any other web-based email service I have seen. Like so many great innovations, it has so many neat and simple features that make you think "Why hadn't anyone thought of this before?". <a href="http://mannu.livejournal.com/161579.html">Nice</a>.  I have since had four opportunities to invite others and my wife, my sister, Kingshuk and Srikanth were promptly doled out these invitations.
+<a href="http://gmail.google.com/">Gmail</a> is a real pleasure to use - thanks
+to Yumpee Saar, I've had a Gmail account for a while now. It still lacks a
+couple of things and is not as customisable as one would have liked it to be,
+but it is still <i>so much better</i> than any other web-based email service I
+have seen. Like so many great innovations, it has so many neat and simple
+features that make you think "Why hadn't anyone thought of this before?". <a
+href="http://mannu.livejournal.com/161579.html">Nice</a>. I have since had four
+opportunities to invite others and my wife, my sister, Kingshuk and Srikanth
+were promptly doled out these invitations.
 <p>
 (<a href="http://www.advogato.org/person/rmathew/diary/23.html">Originally posted on Advogato</a>.)
 m4_end_post

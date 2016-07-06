@@ -3,9 +3,9 @@ m4_define( `m4_post_title', `&ldquo;Above Average&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-&ldquo;<a href="http://www.aboveaveragebook.com/">Above Average</a>&rdquo;
-by <a href="http://www.cse.iitd.ac.in/~bagchi/">Amitabha Bagchi</a> is
-a novel about a smart boy with a middle-class background and his life
+&ldquo;Above Average&rdquo; by <a
+href="http://www.cse.iitd.ac.in/~bagchi/">Amitabha Bagchi</a> is a novel
+about a smart boy with a middle-class background and his life
 before, during and after his stay at <a
 href="http://www.iitd.ac.in/">IIT Delhi</a>. It is the story of
 friendships forged and lost, love blossoming and withering. It is a

@@ -3,9 +3,8 @@ m4_define( `m4_post_title', `&ldquo;The Calculus Wars&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-In &ldquo;<a href="http://www.calculuswars.com/">The Calculus
-Wars</a>&rdquo;, Jason Bardi writes about the bitter fight in the
-beginning of the 18<sup>th</sup> century between Isaac Newton and
+In &ldquo;The Calculus Wars&rdquo;, Jason Bardi writes about the bitter
+fight in the beginning of the 18<sup>th</sup> century between Isaac Newton and
 Gottfried Leibniz over the right to be known as the inventor of
 calculus. Since this episode paints an extremely unflattering picture
 of the two great men, it is either ignored or only mentioned in passing

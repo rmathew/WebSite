@@ -3,7 +3,7 @@ m4_define(`m4_post_title', `ICFPC 2007')m4_dnl
 m4_include(`posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-I spent most of this weekend taking part in the <a href="http://www.icfpcontest.org/">ICFP contest</a> for 2007. As in 2005, I took part in the contest with <a href="http://www.yumpee.org/">Yumpee</a> as my team-mate. Our team was called "Kalianpur Bakaits" (an <a href="http://www.iitk.ac.in/">IIT-K</a> reference) in the beginning, but we changed it to "The Great Indian Rope Trick" later, for reasons that should become obvious in a while.
+I spent most of this weekend taking part in the <a href="http://www.icfpcontest.org/">ICFP contest</a> for 2007. As in 2005, I took part in the contest with Yumpee as my team-mate. Our team was called "Kalianpur Bakaits" (an <a href="http://www.iitk.ac.in/">IIT-K</a> reference) in the beginning, but we changed it to "The Great Indian Rope Trick" later, for reasons that should become obvious in a while.
 m4_begin_post_rest
 <p>
 This year's task was very similar to <a href="http://boundvariable.org/">that from last year</a>, but it was a bit tougher and even more fun. The organisers surely must have spent a lot of time and effort in putting together the task description and the supporting materials. There were no mistakes discovered in the task description for this year's contest (unlike those for the previous years' contests). The mailing list also had an unusually low-traffic during the contest - perhaps it was because the task description was precise enough, perhaps it was because a lot of people were finding it difficult just to get started or perhaps the contest was affected by the release of the latest Harry Potter book during the same weekend.

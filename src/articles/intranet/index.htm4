@@ -167,23 +167,17 @@ company Intranet following these steps:
 </ol>
 m4_heading( `1', `alt', `Alternatives')
 <p>
-It is not as if Sam did not look at other operating systems
-or server software for his Intranet server - far from a Linux
-zealot, Sam in fact was most comfortable with Microsoft Windows
-NT, and the software available on it. However, with the kind of
-limited resources and budget that Sam had, Windows just did not
-work out for him. For example, the most natural choice for Sam
-was using
-<a href="http://www.microsoft.com/iis/">Microsoft
-IIS</a> on Windows NT. However, it required him to get a Windows
-NT Server license, which was just out of question for him. He
-just couldn't find <i>free</i> or cheap, yet reliable, server
-software on Windows. For example, the only reasonable caching
-web proxy servers that he could find for Windows were
-<a href="http://www.microsoft.com/proxy/">Microsoft
-Proxy Server</a> and
-<a href="http://www.iplanet.com/products/iplanet_proxy/">iPlanet Proxy
-Server</a>, both of which were exorbitantly priced.
+It is not as if Sam did not look at other operating systems or server software
+for his Intranet server - far from a Linux zealot, Sam in fact was most
+comfortable with Microsoft Windows NT, and the software available on it.
+However, with the kind of limited resources and budget that Sam had, Windows
+just did not work out for him. For example, the most natural choice for Sam
+was using Microsoft IIS on Windows NT. However, it required him to get a
+Windows NT Server license, which was just out of question for him. He just
+couldn't find <i>free</i> or cheap, yet reliable, server software on Windows.
+For example, the only reasonable caching web proxy servers that he could find
+for Windows were Microsoft Proxy Server and iPlanet Proxy Server, both of which
+were exorbitantly priced.
 <p>
 He also looked at the other operating systems for PCs, most notably
 <a href="http://www.freebsd.org/">FreeBSD</a>, and
