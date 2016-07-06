@@ -7,7 +7,7 @@ m4_dnl
 <div id="main-copy">
 m4_heading( `1', `intro', `Introduction')
 <div style="overflow: auto;">
-<img src="m4_root_dir/images/RanjitLogo.jpg" width="200" height="150"
+<img src="m4_root_dir/images/RanjitLogo.png" width="200" height="150"
   alt="My name in the Devanagari script"
   style="float: left; clear: left; margin-right: 10px;">
 <p>
