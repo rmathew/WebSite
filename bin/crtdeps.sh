@@ -82,7 +82,7 @@ add2sitemap() {
 
 # These are the HTML files that should *not* be generated.
 # (Uses extended grep syntax for an OR pattern.)
-OMIT_HTMLS="header.html|footer.html|template.html|sitesrch.html"
+OMIT_HTMLS="header.html|footer.html|template.html"
 
 # Prepare a list of generated HTML files.
 echo -n Listing HTML files...
@@ -122,7 +122,7 @@ for i in $(find . -name "*.htm4")
 do
   # The names are of the form "./foo/bar.htm4" - convert to "foo/bar.htm4".
   HTM4_FILE="$(echo $i | cut -b3-)"
-  DEPS="common.m4 sitesrch.htm4"
+  DEPS="common.m4"
   
   # Find files directly included using "m4_include".
   for j in $(grep m4_include\( $i | sed 's/ //g')
