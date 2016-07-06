@@ -1,10 +1,9 @@
-/* ##### Common Styles ##### */
-
 body {
-  color: black;
-  background-color: white;
+  color: rgb(7,54,66);  /* base02 */
+  background-color: rgb(238,232,213);  /* base2 */
+  box-shadow: 6px 6px 3px black;
   margin: 0 auto;
-  padding: 0 1em;
+  padding: 0;
   max-width: 50em;
 }
 
@@ -28,8 +27,8 @@ acronym, .titleTip {
 }
 
 .pageHeader {
-  color: white;
-  background-color: rgb(0,51,153);
+  color: rgb(147,161,161);  /* base1 */
+  background-color: rgb(0,43,54);  /* base03 */
   margin: 0;
   padding: 1ex 1ex 1ex 1ex;
   font-size: 91%;
@@ -40,7 +39,7 @@ acronym, .titleTip {
 }
 
 .pageHeader a {
-  color: white;
+  color: rgb(147,161,161);  /* base1 */
   background-color: transparent;
   text-decoration: none;
   font-weight: bold;
@@ -53,112 +52,25 @@ acronym, .titleTip {
 }
 
 .pageHeader .highlight {
-  color: rgb(253,160,91);
+  color: rgb(181,137,0);  /* yellow */
   background-color: transparent;
 }
-
-
-/* ##### Side Boxes ##### */
-
-#side-bar {
-  width: 14em;
-  margin: 1.0em 1.0em 0 1ex;
-  float: right;
-  clear: right;
-}
-
-body > #side-bar {
-  margin-left: 2.5mm;  /* Circumvents a rendering bug in MSIE (6.0) */
-}
-
-.sideBarTitle {
-  color: white;
-  background-color: rgb(100,135,220);
-  font-weight: bold;
-  margin: 0;
-  padding: 0.4ex 0 0.4ex 0.6ex;
-}
-
-#side-bar ul {
-  list-style-type: none;
-  list-style-position: outside;
-  margin: 0;
-  padding: 0 0 2.25em 0;
-}
-
-#side-bar li {
-  margin: 0;
-  padding: 0.1ex 0;  /* Circumvents a rendering bug (?) in MSIE (6.0) */
-}
-
-#side-bar a, .thisPage {
-  color: rgb(0,102,204);
-  background-color: transparent;
-  text-decoration: none;
-  font-weight: bold;
-  margin: 0;
-  padding: 1.3ex 2ex;
-  display: block;
-}
-
-.thisPage {
-  color: black;
-  background-color: transparent;
-}
-
-#side-bar a:hover {
-  color: white;
-  background-color: rgb(100,135,220);
-  text-decoration: none;
-}
-
-.sideBarText {
-  line-height: 1.5em;
-  margin: 0 0 1.5em 0;
-  padding: 1ex 0.5ex 0 0.5ex;
-  display: block;
-}
-
-.sideBarText + .sideBarText {  /* Not recognised by MSIE (6.0) */
-  margin-top: -1.5em;
-}
-
-#side-bar .sideBarText a {
-  text-decoration: underline;
-  font-weight: normal;
-  margin: 0;
-  padding: 0;
-  display: inline;
-}
-
-#side-bar .sideBarText a:hover {
-  color: rgb(0,102,204);
-  background-color: transparent;
-  text-decoration: none;
-}
-
 
 /* ##### Main Copy ##### */
 
 #main-copy {
-  color: black;
-  background-color: transparent;
+  background-color: rgb(253,246,227);  /* base3 */
   text-align: left;
-  line-height: 1.5em;
-}
-
-#bodyText {
-  margin: 0 0 0 15.5em;
-  padding: 2mm 5mm 2mm 5mm;
+  padding-top: 1ex;
 }
 
 #main-copy p {
-  margin: 1em 1ex 1em 1ex;
-  padding: 0;
+  margin: 0;
+  padding: 1em 1ex 0.5ex 1ex;
 }
 
 #main-copy a {
-  color: rgb(0,102,204);
+  color: rgb(38,139,210);  /* blue */
   background-color: transparent;
   text-decoration: underline;
 }
@@ -168,24 +80,13 @@ body > #side-bar {
 }
 
 #main-copy h1 {
-  color: rgb(0,102,204);
+  color: rgb(38,139,210);  /* blue */
   background-color: transparent;
   font-size: 150%;
   font-weight: bold;
-  margin: 0.5ex 0 0 0;
+  margin: 0;
   padding: 0.5ex 0 0.5ex 0.6ex;
-  border-bottom: 1px solid rgb(0,102,204);
-}
-
-#main-copy .topOfPage {
-  color: rgb(0,102,204);
-  background-color: transparent;
-  font-size: 91%;
-  font-weight: bold;
-  text-decoration: none;
-  margin: 3ex 1ex 0 0;
-  padding: 0;
-  float: right;
+  border-bottom: 1px solid rgb(147,161,161);  /* base1 */
 }
 
 dl {
@@ -208,8 +109,9 @@ dd {
 /* ##### Footer ##### */
 
 #footer {
-  color: white;
-  background-color: rgb(100,135,220);
+  color: rgb(88,110,117);  /* base01 */
+  background-color: rgb(253,246,227);  /* base3 */
+  border-top: 1px solid rgb(147,161,161);  /* base1 */
   margin: 0 auto 0 auto;
   padding: 5px 5px 5px 5px;
   font-size: 85%;
@@ -217,18 +119,16 @@ dd {
 
 #footer .left {
   text-align: left;
-  line-height: 1.45em;
   float: left;
   clear: left;
 }
 
 #footer .right {
   text-align: right;
-  line-height: 1.45em;
 }
 
 #footer a {
-  color: white;
+  color: rgb(147,161,161);  /* base1 */
   background-color: transparent;
   text-decoration: underline;
 }
@@ -240,11 +140,11 @@ dd {
 /* ##### Custom Styles ##### */
 
 table.toc {
-  color: rgb(0,102,204);
-  background-color: rgb(248,250,255);
-  margin: 1.5em 0 0 0;
+  color: rgb(38,139,210);  /* blue */
+  background-color: transparent;
+  margin: 0 0 0 1ex;
   padding: 1ex 0 1ex 0.6ex;
-  border: 1px solid rgb(0,51,152);
+  border: 1px solid rgb(147,161,161);  /* base1 */
 }
 
 th.toc_title {
@@ -259,13 +159,13 @@ td.toc_entry_1 {
 }
 
 div.post_header {
-  margin-top: 2em;
+  margin-top: 0;
   margin-bottom: 0;
 }
 
 div.post {
   margin-top: 0;
-  border-bottom: 1px dotted;
+  border-bottom: 1px solid rgb(147,161,161);  /* base1 */
 }
 
 br.post_footer {
@@ -274,6 +174,7 @@ br.post_footer {
 
 div.left_justified {
   text-align: left;
+  padding-left: 1ex;
 }
 
 div.centred {
@@ -285,6 +186,7 @@ div.centred {
 
 div.right_justified {
   text-align: right;
+  padding-right: 1ex;
 }
 
 div.book_display {
@@ -313,7 +215,7 @@ img.inline {
 div.notice {
   margin: 2.5em;
   padding: 0.3em;
-  border: 1px solid #000000;
+  border: 1px solid rgb(147,161,161);  /* base1 */
   text-align: left;
 }
 
