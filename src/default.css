@@ -15,10 +15,6 @@ acronym, .titleTip {
   padding: 0 0 0.4px 0;
 }
 
-.doNotDisplay {
-  display: none;
-}
-
 .smallCaps {
   font-size: 110%;
   font-variant: small-caps;
@@ -31,51 +27,7 @@ acronym, .titleTip {
   margin: 0 auto 0 auto;
 }
 
-.superHeader {
-  color: white;
-  background-color: rgb(100,135,220);
-  font-size: 91%;
-  padding: 0.5ex 0.5ex 0.5ex 0.5ex;
-}
-
-.superHeader a {
-  color: white;
-  background-color: transparent;
-  text-decoration: none;
-  font-size: 91%;
-  margin: 0;
-  padding: 0 0.5ex 0 0.25ex;
-}
-
-.superHeader a:hover {
-  text-decoration: underline;
-}
-
-.superHeader .left {
-  text-align: left;
-  left: 1.5mm;
-  top: 0.75ex;
-}
-
-.superHeader .right {
-  text-align: right;
-  right: 1.5mm;
-  top: 0.75ex;
-}
-
-.midHeader {
-  color: rgb(39,78,144);
-  background-color: rgb(140,170,230);
-}
-
-.headerTitle {
-  font-size: 250%;
-  font-weight: normal;
-  margin: 0 0 0 0.25em;
-  padding: 0.25ex 0;
-}
-
-.subHeader {
+.pageHeader {
   color: white;
   background-color: rgb(0,51,153);
   margin: 0;
@@ -83,7 +35,11 @@ acronym, .titleTip {
   font-size: 91%;
 }
 
-.subHeader a {
+.pageHeader img {
+  vertical-align: text-bottom;
+}
+
+.pageHeader a {
   color: white;
   background-color: transparent;
   text-decoration: none;
@@ -92,11 +48,11 @@ acronym, .titleTip {
   padding: 0 0.75ex 0 0.5ex;
 }  
 
-.subHeader a:hover {
+.pageHeader a:hover {
   text-decoration: underline;
 }
 
-.superHeader .highlight, .subHeader .highlight {
+.pageHeader .highlight {
   color: rgb(253,160,91);
   background-color: transparent;
 }
