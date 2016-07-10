@@ -3,7 +3,7 @@ m4_define(`m4_post_title', `PGP Public Key')m4_dnl
 m4_include(`posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-I now have <a href="http://ranjitmathew.hostingzero.com/aa_6C114B8F.txt">my own PGP Public Key</a> (Key Identifier: <tt>6C114B8F</tt>, Key Fingerprint: <tt>D6E5 B9C2 5522 ED3D 09DC 3B40 61BD 61C7 6C11 4B8F</tt>) that I will try to use with my email messages. Of course, this will not work with the web interfaces provided by Gmail and Hotmail, but it works nicely with <a href="http://www.mozilla.org/products/thunderbird/">Thunderbird</a> using the <a href="http://enigmail.mozdev.org/">Enigmail</a> extension. I have published this key to a couple of keyservers. I do not foresee being able to participate in a Free Software hackers' key-signing party any time soon, but I have signed the keys from Mark Wielaard, Michael Koch and Andrew Haley for whatever it is worth.
+I now have <a href="m4_root_dir/aa_6C114B8F.txt">my own PGP Public Key</a> (Key Identifier: <tt>6C114B8F</tt>, Key Fingerprint: <tt>D6E5 B9C2 5522 ED3D 09DC 3B40 61BD 61C7 6C11 4B8F</tt>) that I will try to use with my email messages. Of course, this will not work with the web interfaces provided by Gmail and Hotmail, but it works nicely with <a href="http://www.mozilla.org/products/thunderbird/">Thunderbird</a> using the <a href="http://enigmail.mozdev.org/">Enigmail</a> extension. I have published this key to a couple of keyservers. I do not foresee being able to participate in a Free Software hackers' key-signing party any time soon, but I have signed the keys from Mark Wielaard, Michael Koch and Andrew Haley for whatever it is worth.
 <p>
 (<a href="http://www.advogato.org/person/rmathew/diary/110.html">Originally posted on Advogato</a>.)
 m4_end_post

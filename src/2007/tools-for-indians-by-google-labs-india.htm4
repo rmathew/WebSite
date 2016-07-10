@@ -3,7 +3,7 @@ m4_define(`m4_post_title', `Tools for Indians by Google Labs India')m4_dnl
 m4_include(`posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-The <a href="http://labs.google.co.in/">Google Labs India</a> folks have just announced <a href="http://googleblog.blogspot.com/2007/08/google-labs-india.html">a couple of cool new tools</a> for Indians. This includes being able to search in a number of Indian languages as well as <a href="http://www.google.com/transliterate/indic/">a transliteration tool</a> for easily typing in Devanagari using an ordinary keyboard.
+The Google Labs India folks have just announced <a href="http://googleblog.blogspot.com/2007/08/google-labs-india.html">a couple of cool new tools</a> for Indians. This includes being able to search in a number of Indian languages as well as a transliteration tool for easily typing in Devanagari using an ordinary keyboard.
 m4_begin_post_rest
 <p>
 The transliteration tool is especially nice. For example, it automatically converts "ramesh" to "????". If you did not want the word automatically put in by the tool, you can select the desired word from a set of alternatives or explicitly type it out yourself.

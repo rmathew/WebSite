@@ -3,10 +3,9 @@ m4_define( `m4_post_title', `Website Hosting Provider Changed')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-<a href="http://www.hostingzero.com/">HostingZero</a> has disappeared
-mysteriously and has been unavailable for at least about three or four
-weeks now. This website was therefore down as well. I was hoping to
-see HostingZero get back on-line, but it has been quite some time now
+HostingZero has disappeared mysteriously and has been unavailable for at least
+about three or four weeks now. This website was therefore down as well. I was
+hoping to see HostingZero get back on-line, but it has been quite some time now
 and I am giving up hope.
 m4_begin_post_rest
 <p>

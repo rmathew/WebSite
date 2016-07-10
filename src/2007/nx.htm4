@@ -3,7 +3,7 @@ m4_define(`m4_post_title', `NX')m4_dnl
 m4_include(`posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-<a href="http://www.nomachine.com/">NX</a> allows you to remotely access a Linux or Solaris machine and makes applications using X Windows appear quite responsive even over slow links. It even supports resuming, from anywhere, a session with the server suspended for any reason (for example, a broken network connection). The "Free Edition" of NX is free for personal use. The core NX libraries are Free Software. There is also <a href="http://freenx.berlios.de/">FreeNX</a> that provides a Free implementation of the NX server licenced under the GPL.
+<a href="http://www.nomachine.com/">NX</a> allows you to remotely access a Linux or Solaris machine and makes applications using X Windows appear quite responsive even over slow links. It even supports resuming, from anywhere, a session with the server suspended for any reason (for example, a broken network connection). The "Free Edition" of NX is free for personal use. The core NX libraries are Free Software. There is also FreeNX that provides a Free implementation of the NX server licenced under the GPL.
 m4_begin_post_rest
 <p>
 NX performs incredibly well, especially when you compare it to <a href="http://en.wikipedia.org/wiki/VNC">VNC</a>, ssh with compression and X forwarding, etc. The desktop client, especially on Windows, still has a few bugs that are mildly irritating but nothing catastrophic. The sheer improvement in the response of your remote applications more than makes up for these minor shortcomings.

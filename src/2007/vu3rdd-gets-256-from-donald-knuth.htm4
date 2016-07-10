@@ -3,7 +3,8 @@ m4_define(`m4_post_title', `VU3RDD Gets $2.56 From Donald Knuth')m4_dnl
 m4_include(`posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-<a href="http://www.zerobeat.in/">VU3RDD</a> (a.k.a. Ramakrishnan Muthukrishnan) recently <a href="http://www.zerobeat.in/2007/05/14/cheque-from-knuth/">received</a> a cheque for $2.56 from Donald Knuth as a <a href="http://en.wikipedia.org/wiki/Knuth_reward_check">reward</a> for spotting a mistake in <a href="http://sunburn.stanford.edu/%7Eknuth/taocp.html">TAoCP</a> Volume 2. Among the people I have met, he is the first such person. Congratulations!
+VU3RDD (a.k.a. <a href="https://rkrishnan.org/">Ramakrishnan Muthukrishnan</a>)
+recently received a cheque for $2.56 from Donald Knuth as a <a href="http://en.wikipedia.org/wiki/Knuth_reward_check">reward</a> for spotting a mistake in <a href="http://sunburn.stanford.edu/%7Eknuth/taocp.html">TAoCP</a> Volume 2. Among the people I have met, he is the first such person. Congratulations!
 <p>
 (<a href="http://rmathew.blogspot.com/2007/05/vu3rdd-gets-256-from-donald-knuth.html">Originally posted on Blogspot</a>.)
 m4_end_post

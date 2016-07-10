@@ -8,7 +8,7 @@ m4_begin_post_rest
 <p>
 The organisers of the contest have <a href="http://www.cs.uu.nl/research/techreps/UU-CS-2007-029.html">an interesting report on the contest</a> that also contains the "ideal" way one would go about solving the puzzles. Interestingly, Jochen Hoenicke managed to find <a href="http://hoenicke.ath.cx/icfp07/prefix.html">a perfect DNA prefix</a> some time after the contest was over. Impressively, Jed Davis came third by using <a href="http://www.celestial-dire-badger.com/icfp/2007/report.html">a brute-force approach</a> that won him the Judges' Prize - he was declared to be "an extremely cool hacker".
 <p>
-<b>Update (2007-10-24):</b> The organisers have now shared <a href="http://video.google.com/videoplay?docid=-6131258297916016786">the video of their presentation about the contest at ICFP 2007</a>.
+<b>Update (2007-10-24):</b> The organisers have now shared the video of their presentation about the contest at ICFP 2007.
 <p>
 (<a href="http://rmathew.blogspot.com/2007/10/icfpc-2007-epilogue.html">Originally posted on Blogspot</a>.)
 m4_end_post_rest
