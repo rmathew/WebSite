@@ -36,8 +36,7 @@ with his distribution were perfectly all right for his job.
 <p>
 To avoid unnecessary frustrations in the setup of the mail server,
 Sam made sure that he read up the excellent Linux
-<a href="http://www.linuxdoc.org/HOWTO/HOWTO-INDEX/apps.html#SERVERMAIL">Mail
-HowTos</a>. And without the essential
+Mail HowTos. And without the essential
 <a href="http://www.sendmail.org/faq/">Sendmail FAQ</a>,
 Sam would not have been able to set up anything.
 <br>
@@ -69,8 +68,7 @@ asking everyone to update their address books - all he had to do
 was to update the entry in the DNS server.
 <p>
 Sam used the Quota support in Linux (referring to the great
-<a href="http://www.linuxdoc.org/HOWTO/mini/Quota.html">Quota mini-HowTo</a>
-of course), to limit the
+Quota mini-HowTo of course), to limit the
 total size of files that the users could store on the server.
 This automatically limited the capacity of the mailboxes for
 the hobbits and prevented abuse of the server.
@@ -88,8 +86,7 @@ do was to link the &ldquo;official&rdquo; mail accounts.
 The first step for Sam was to ensure that the hobbits also
 get to see their &ldquo;external&rdquo; mails when they checked
 their internal mails. He used the really nifty
-<a href="http://tuxedo.org/~esr/fetchmail/">Fetchmail</a> program to enable
-this. He just
+Fetchmail program to enable this. He just
 installed the version that came with his distribution and
 then configured it. His Fetchmail configuration (stored in the
 home directory of the super-user as the file
@@ -309,8 +306,7 @@ The following resources proved immensely useful to Sam during the
 setup of the mail server:
 <ol>
 <li>
-<a href="http://www.linuxdoc.org/HOWTO/HOWTO-INDEX/apps.html#SERVERMAIL">Linux
-Mail HowTos</a>: The set of documents that helped
+Linux Mail HowTos: The set of documents that helped
 Sam get started on the mail server setup and taught him various
 concepts.
 </li>
@@ -333,13 +329,11 @@ could have used as an alternative to those that came with his
 distribution.
 </li>
 <li>
-<a href="http://tuxedo.org/~esr/fetchmail/">Fetchmail</a>:
-The powerful, automated mail retriever program that enabled Sam to
+Fetchmail: The powerful, automated mail retriever program that enabled Sam to
 merge the external and internal email accounts.
 </li>
 <li>
-<a href="http://www.linuxdoc.org/HOWTO/mini/Quota.html">Quota mini-HowTo</a>:
-The document that Sam used to
+Quota mini-HowTo: The document that Sam used to
 understand how to set up usage quotas for users under Linux.
 </li>
 </ol>

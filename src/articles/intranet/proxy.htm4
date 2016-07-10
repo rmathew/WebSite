@@ -22,8 +22,7 @@ and could provide a much better response time for content that
 hardly changed over time.
 <p>
 Sam found the solution in a caching web proxy server. And
-<a href="http://www.squid-cache.org/">Squid</a>
-was the powerful and configurable proxy server that Sam chose.
+Squid was the powerful and configurable proxy server that Sam chose.
 Since Squid did not come bundled with his Linux distribution, Sam
 had to download the sources and compile it himself. However,
 the compilation was extremely simple and all that Sam had to
@@ -126,18 +125,15 @@ The following resources proved immensely useful to Sam
 while setting up the proxy server:
 <ol>
 <li>
-<a href="http://www.squid-cache.org/">Squid</a>:
-The caching proxy server that Sam used for his Intranet Server.
+Squid: The caching proxy server that Sam used for his Intranet Server.
 </li>
 <li>
-<a href="http://squid.visolve.com/squidconf.html">Squid Configuration
-Manual</a>: A guide that explained
-how to configure Squid and set it up for effective use.
+Squid Configuration Manual: A guide that explained how to configure Squid
+and set it up for effective use.
 </li>
 <li>
-<a href="http://www.squid-cache.org/Doc/FAQ/FAQ.html">Squid FAQ</a>: A set
-of documents that helped
-Sam out with most of the problems he had with Squid.
+Squid FAQ: A set of documents that helped Sam out with most of the problems
+he had with Squid.
 </li>
 </ol>
 m4_dnl

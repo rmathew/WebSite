@@ -23,8 +23,7 @@ groups, the bandwidth was unnecessarily wasted as each hobbit
 individually read a newsgroup.
 <p>
 After some research, Sam decided to use the excellent
-<a href="http://www.isc.org/products/INN/">INN</a>
-(InterNetNews) server. He downloaded the source code for
+INN (InterNetNews) server. He downloaded the source code for
 version 2.3.2 of this software and compiled it himself after
 customising it a bit. Since he was quite new to this, he
 decided to take help from the
@@ -151,8 +150,7 @@ After he had successfully configured internal forums, Sam set
 about configuring local caches of externally hosted newsgroups.
 To optimally use the available bandwidth, and to avoid
 unnecessary connections to external news servers, Sam decided
-to use a separate newsgroups updater called
-<a href="http://home.att.net/~bobyetman/index.html">SUCK</a>, rather than
+to use a separate newsgroups updater called SUCK, rather than
 configuring INN to directly retrieve the newsfeed from these servers. Besides,
 some of these servers only accepted a &ldquo;POST&rdquo; from a newsreader and
 rejected incoming direct newsfeeds. For some reason, Sam could not
@@ -349,8 +347,7 @@ The following resources proved immensely useful to Sam as he
 set up the newsgroup server:
 <ol>
 <li>
-<a href="http://www.isc.org/products/INN/">INN</a>:
-The InterNetNews server software that hosted the newsgroups. Sam
+INN: The InterNetNews server software that hosted the newsgroups. Sam
 used version 2.3.2 of this software. The manual pages, and the
 installation document in particular, accompanying this software
 proved really useful in setting it up properly.
@@ -368,11 +365,10 @@ immensely helpful to Sam in understanding concepts related to
 USENET newsgroups and setting up a server to host them.
 </li>
 <li>
-<a href="http://home.att.net/~bobyetman/index.html">SUCK</a>: The set of
-tools that allowed Sam to optimally
-download and synchronise local caches of external newsgroups. Since
-he could not connect to the main site, he had to get it from
-<a href="ftp://sunsite.unc.edu/pub/Linux/system/news/transport/">sunsite.unc.edu</a>,
+SUCK: The set of tools that allowed Sam to optimally download and synchronise
+local caches of external newsgroups. Since he could not connect to the main
+site, he had to get it from <a
+href="ftp://sunsite.unc.edu/pub/Linux/system/news/transport/">sunsite.unc.edu</a>,
 though he could have also got it from <a
 href="ftp://tsx-11.mit.edu/pub/linux/sources/sbin/">tsx-11.mit.edu</a>. Sam
 used version 4.2.5 of this software.

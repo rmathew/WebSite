@@ -80,10 +80,8 @@ m4_heading( `1', `modsrcs', `Modifying the Sources')
 <p>
 Now go ahead and make the changes you intended to make. You will
 of course have to adhere to the coding standards in effect
-for that module and/or the programming language. The <a
-href="http://www.gnu.org/prep/standards_toc.html">GNU
-Coding Standards</a> are pretty detailed and apply strictly to
-GCC. GCJ has its own <a
+for that module and/or the programming language. The GNU Coding Standards are
+pretty detailed and apply strictly to GCC. GCJ has its own <a
 href="http://gcc.gnu.org/java/contrib.html">addendum</a> for Java source files.
 <p>
 An important thing to note here is that you should use a code

@@ -14,8 +14,8 @@ m4_begin_post_rest
 <p>
 Beyond being very happy that we now have free and good-quality <a
 href="http://en.wikipedia.org/wiki/Distributed_version_control_system">DVCS</a>
-tools like <a href="http://mercurial.selenic.com/">Mercurial</a> and <a
-href="http://git-scm.com/">Git</a> (as well as free source-code
+tools like <a href="https://www.mercurial-scm.org/">Mercurial</a> and <a
+href="https://git-scm.com/">Git</a> (as well as free source-code
 hosting-providers for these like <a href="https://bitbucket.org/">Bitbucket</a>
 and <a href="https://github.com/">GitHub</a> respectively), I have never spent
 too much time and effort on <a

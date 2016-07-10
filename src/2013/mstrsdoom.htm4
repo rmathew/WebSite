@@ -83,7 +83,7 @@ I wish there were something like this book chronicling the evolution of
 games, but with much more technical details. Until such a time, your best bet
 is to read the <a href="http://bespin.org/~qz/pc-gpe/">PC Game Programmer's
 Encyclopedia</a>, the <a
-href="http://www.nondot.org/sabre/Mirrored/GraphicsProgrammingBlackBook/">Graphics
+href="http://www.jagregory.com/abrash-black-book/">Graphics
 Programming Black Book</a>, <a href="http://fabiensanglard.net/">Fabien
 Sanglard's game-engine code-reviews</a>, etc.
 m4_end_post_rest

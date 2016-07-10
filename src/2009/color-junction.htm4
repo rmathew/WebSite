@@ -13,7 +13,7 @@ m4_begin_post_rest
 <p>
 The objective of the game is quite simple: clear as many coloured tiles as possible from the board. You can clear tiles by clicking on them, but only when two or more tiles of the same colour are connected. The tiles are attracted to the bottom left corner of the board - when a tile is cleared, the tiles above it fall down; if there are no tiles above it then the tiles to its right move to the left to fill in the space.
 <p>
-You can control the difficulty level and the board size in this version of the game. There is also a version of Color Junction <a href="http://tibulle.com/colorjunction/">in Flash</a> and as a standalone programme <a href="http://www.svidersky.net/colorjunction/">for Windows</a>, in case you like additional control over the game.  I have not been able to come up with a strategy that consistently clears the board. Quite embarrassingly, none of my strategies perform significantly better than random clearing of tiles.
+You can control the difficulty level and the board size in this version of the game. There is also a version of Color Junction in Flash and as a standalone programme <a href="http://www.svidersky.net/colorjunction/">for Windows</a>, in case you like additional control over the game.  I have not been able to come up with a strategy that consistently clears the board. Quite embarrassingly, none of my strategies perform significantly better than random clearing of tiles.
 <p>
 (<a href="http://rmathew.blogspot.com/2009/02/color-junction.html">Originally posted on Blogspot</a>.)
 m4_end_post_rest

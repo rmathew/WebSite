@@ -23,9 +23,8 @@ connector, etc.) to be useful and is also not that cheap in India. So I was on
 the lookout for an Android Mini PC that turns a regular TV into a Smart TV - a
 small and cheap set-top box or stick running Android on an ARM SoC that
 connects to your TV via HDMI and to the Internet via Wi-Fi (you can see some
-examples on <a href="https://www.miniand.com/">Miniand</a> and <a
-href="http://liliputing.com/">Liliputing</a>). The most famous among these
-devices are the <a
+examples on Miniand and <a href="http://liliputing.com/">Liliputing</a>). The
+most famous among these devices are the <a
 href="http://en.wikipedia.org/wiki/Android_Mini_PC_MK802">MK802</a> and its
 successors. It is even supposed to be available in India as the <a
 href="http://www.micromaxinfo.com/consumer-electronics/smart-stick/Smart%20Stick">Micromax
@@ -35,10 +34,9 @@ sure just how you're supposed to go about buying it.
 <p>
 On one of my recent travels, I chanced upon a few of these Android Mini PCs in
 a store and bought the Auxtek AT-01. It cost me the equivalent of about INR
-4,850. I also picked up a small <a
-href="https://ranger-technology.com/products/ranger-palmtop-keyboard-ii-2-dot-4ghz-wireless-with-Touchpad-and-laser-pointer">Ranger
-Palmtop Wireless Keyboard With Touchpad</a> to go with it, which cost me an
-additional amount roughly equal to INR 2,300. The AT-01 seems to be running a
+4,850. I also picked up a small Ranger Palmtop Wireless Keyboard With Touchpad
+to go with it, which cost me an additional amount roughly equal to INR 2,300.
+The AT-01 seems to be running a
 slightly-modified Android 4.0.4 (Ice Cream Sandwich) on an <a
 href="http://en.wikipedia.org/wiki/Allwinner_A10s">Allwinner A10s</a> ARM SoC
 that can run at 1.2 GHz. It has about 1 GB of RAM and about 2 GB of

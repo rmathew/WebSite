@@ -36,12 +36,10 @@ into the server.
 m4_heading( `1', `setup', `Setup')
 <p>
 For setting up the server, Sam was helped immensely by the excellent
-<a href="http://www.linuxdoc.org/HOWTO/DNS-HOWTO.html">Linux
-DNS-HowTo</a>. He installed the <code>bind</code>
+Linux DNS-HowTo. He installed the <code>bind</code>
 server that came with his Linux distribution. (He could have also
 compiled it himself using the sources he could find
-<a href="http://www.isc.org/products/BIND/">at this
-place</a>, but there really was no point to it.) Sam still swears by
+at this place, but there really was no point to it.) Sam still swears by
 the DNS-HowTo and recommends that everyone read it before attempting
 to configure a DNS server.
 <p>
@@ -266,14 +264,12 @@ The following were some of the resources that Sam found immensely
 useful during the period he set up his DNS server:
 <ol>
 <li>
-<a href="http://www.linuxdoc.org/HOWTO/DNS-HOWTO.html">The Linux
-DNS-HowTo</a>: A very good and useful
+The Linux DNS-HowTo: A very good and useful
 document that told Sam everything he wanted to know about the
 DNS system as well as how to set up a server on his machine.
 </li>
 <li>
-<a href="http://www.isc.org/products/BIND/">BIND</a>:
-The DNS server that Sam installed on his machine. He could have
+BIND: The DNS server that Sam installed on his machine. He could have
 downloaded and compiled the sources available here, but he
 preferred to simply install the binaries available with his
 distribution.

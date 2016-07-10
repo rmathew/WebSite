@@ -38,8 +38,7 @@ to Sam's rescue. He read up the
 excellent book <a href="http://www.oreilly.com/catalog/samba/">Using
 Samba</a>, and of course, the online
 manual pages and the central repository was up quite soon.
-He also read the <a href="http://www.linuxdoc.org/HOWTO/SMB-HOWTO.html">Linux
-SMB HOWTO</a>, but it was not necessary
+He also read the Linux SMB HOWTO, but it was not necessary
 this time - the other sources of information were more than
 sufficient for his purpose.
 <br>
@@ -135,9 +134,8 @@ Intranet server masquerade as a Windows machine. Sam used
 the version 2.2.0 of this software.
 </li>
 <li>
-<a href="http://www.linuxdoc.org/HOWTO/SMB-HOWTO.html">Linux SMB HOWTO</a>:
-A good set of documents
-that explains how to set up Samba on Linux.
+Linux SMB HOWTO: A good set of documents that explains how to set up Samba
+on Linux.
 </li>
 <li>
 <a href="http://www.oreilly.com/catalog/samba/">Using Samba</a>: The
