@@ -3,7 +3,7 @@ m4_define(`m4_post_title', `Firefox Bus')m4_dnl
 m4_include(`posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-<a href="http://kalyan.livejournal.com/204212.html">A bus painted by a painter who was "inspired" by the Firefox logo</a>.
+A bus painted by a painter who was "inspired" by the Firefox logo.
 <p>
 (<a href="http://www.advogato.org/person/rmathew/diary/162.html">Originally posted on Advogato</a>.)
 m4_end_post

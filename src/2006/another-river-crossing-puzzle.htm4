@@ -3,7 +3,7 @@ m4_define(`m4_post_title', `Another River Crossing Puzzle')m4_dnl
 m4_include(`posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-Most of us would have seen <a href="http://alloy.mit.edu/tutorial3/sidenote-RC-puzzle.html">the standard river crossing puzzle</a>. However, Prasadini recently sent me <a href="http://www.smallcampus.net/upload/html/maths_games/2001-05-03/riverIQGame.swf">another river crossing puzzle</a> (<a href="http://www.adobe.com/products/flashplayer/">Flash</a> animation) that I think is far more challenging.
+Most of us would have seen the standard river crossing puzzle. However, Prasadini recently sent me <a href="http://www.smallcampus.net/upload/html/maths_games/2001-05-03/riverIQGame.swf">another river crossing puzzle</a> (<a href="http://www.adobe.com/products/flashplayer/">Flash</a> animation) that I think is far more challenging.
 <p>
 A father and his two sons, a mother and her two daughters, a thief and a policeman are on one side of a river. There is a boat by the river bank, but it can only take two people at a time. Only the father, the mother and the policeman know how to operate the boat. The father can not be with any of the girls without their mother around. The mother can not be with any of the boys without their father around. The thief can not be with anyone else without the policeman around. How can you get everyone across to the other side of the river?
 <p>

@@ -3,7 +3,7 @@ m4_define(`m4_post_title', `GCC Summit 2006')m4_dnl
 m4_include(`posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-Just FYI, the proceedings of the <a href="http://www.gccsummit.org/2006/">GCC Summit for 2006</a> are now available online. They usually make for interesting reading for those even mildly involved with GCC in particular or with compilers in general.
+Just FYI, the proceedings of the GCC Summit for 2006 are now available online. They usually make for interesting reading for those even mildly involved with GCC in particular or with compilers in general.
 <p>
 (<a href="http://rmathew.blogspot.com/2006/07/gcc-summit-2006.html">Originally posted on Blogspot</a>.)
 m4_end_post

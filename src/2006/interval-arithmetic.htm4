@@ -10,9 +10,8 @@ struggling with errors in numeric computations in my <a
 href="m4_root_dir/software/index.html#vtaj">Virtual Taj</a> demo. If you have
 never heard of interval arithmetic, I recommend reading Brian Hayes's article
 "<a href="http://www.cs.utep.edu/interval-comp/hayes.pdf">A Lucid Interval</a>"
-(PDF, 84KB) first published in American Scientist and <a
-href="http://research.sun.com/minds/2004-0527/">an interview with Bill
-Walster</a> of Sun Microsystems. Essentially, interval arithmetic lets you keep
+(PDF, 84KB) first published in American Scientist and an interview with Bill
+Walster of Sun Microsystems. Essentially, interval arithmetic lets you keep
 track of the margins of error in your data and provides you an estimate of the
 probability of the correctness of the results of your computations with this
 data.

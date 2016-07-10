@@ -3,7 +3,8 @@ m4_define(`m4_post_title', `&ldquo;W&rdquo;``,'' &ldquo;A&rdquo; and &ldquo;D&rd
 m4_include(`posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-<a href="http://tarandeep.livejournal.com/">Tarandeep</a> gave a short presentation on JavaServer Faces the other day and I couldn't help but wonder how similar it was to the "W" web-application development framework that we had developed about seven years ago when I used to work for "T".
+Tarandeep gave a short presentation on JavaServer Faces the other day and I couldn't help but wonder how similar it was to the "W" web-application development framework that we had developed about seven years ago when I used to work for
+"T".
 <p>
 "W" was an <a href="http://en.wikipedia.org/wiki/Model-view-controller">MVC</a>-based framework written in Java that encouraged you to build your web-applications as a composition of reusable components rather than as monolithic one-time efforts. Since "T" used to build a lot of web-applications for its clients, we found ourselves doing some things over and over again, with only slight changes in look-and-feel and functionality for different applications. To save ourselves time and effort (which meant you could do the same stuff for lesser money - a big advantage over your competitors in the cut-throat software services industry), we developed the "W" framework and used it in our work.
 <p>

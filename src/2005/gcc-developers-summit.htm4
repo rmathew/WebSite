@@ -3,7 +3,7 @@ m4_define(`m4_post_title', `GCC Developers&rsquo; Summit')m4_dnl
 m4_include(`posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-The proceedings of the <a href="http://www.gccsummit.org/2005/">2005 GCC Developers' Summit</a> are now <a href="http://www.gccsummit.org/2005/2005-GCC-Summit-Proceedings.pdf">available</a> (PDF). As usual, they make for very interesting reading. I was particularly interested in reading Vladimir Makarov's paper on the new register allocator infrastructure that he is working on since register allocation, especially for register-starved architectures like x86-32, is GCC's Achille's Heel. It seems that the new <a href="http://gcc.gnu.org/projects/tree-ssa/">Tree-SSA</a> infrastructure particularly aggravates the register pressure.  <a href="http://kegel.com/">Dan Kegel</a> also maintained <a href="http://kegel.com/gcc/diary.txt">a diary</a> of his visit to the summit. 
+The proceedings of the 2005 GCC Developers&rsquo; Summit are now available. As usual, they make for very interesting reading. I was particularly interested in reading Vladimir Makarov's paper on the new register allocator infrastructure that he is working on since register allocation, especially for register-starved architectures like x86-32, is GCC's Achille's Heel. It seems that the new <a href="http://gcc.gnu.org/projects/tree-ssa/">Tree-SSA</a> infrastructure particularly aggravates the register pressure.  <a href="http://kegel.com/">Dan Kegel</a> also maintained <a href="http://kegel.com/gcc/diary.txt">a diary</a> of his visit to the summit. 
 <p>
 (<a href="http://www.advogato.org/person/rmathew/diary/97.html">Originally posted on Advogato</a>.)
 m4_end_post

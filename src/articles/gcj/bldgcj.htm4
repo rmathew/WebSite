@@ -45,8 +45,7 @@ This two-step process is actually <i>far faster</i> than the single-step
 native build process and is also very reliable. I can also test the compiler
 created like this on Linux itself using either <a
 href="http://www.winehq.com/">WINE</a> or Windows itself running inside an
-emulator like <a href="http://fabrice.bellard.free.fr/qemu/">QEMU</a>, thus
-completely avoiding the need to reboot my PC.
+emulator like QEMU, thus completely avoiding the need to reboot my PC.
 <p>
 It should come as no surprise then, that this is the process I used to build
 and test GCJ for Windows and this process is what is documented below.
