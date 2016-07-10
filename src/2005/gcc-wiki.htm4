@@ -3,7 +3,7 @@ m4_define(`m4_post_title', `GCC Wiki')m4_dnl
 m4_include(`posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-Daniel Berlin's GCC Wiki is now officially <a href="http://gcc.gnu.org/wiki/">hosted</a> on GCC's web site. As soon as I came to know of it, I vandalised it with <a href="http://gcc.gnu.org/wiki/GCJ">a stub article for GCJ</a>. Others will hopefully add more material to it and make it actually usable by GCJ newbies.
+Daniel Berlin's GCC Wiki is now officially hosted on GCC's web site. As soon as I came to know of it, I vandalised it with a stub article for GCJ. Others will hopefully add more material to it and make it actually usable by GCJ newbies.
 <p>
 (<a href="http://www.advogato.org/person/rmathew/diary/53.html">Originally posted on Advogato</a>.)
 m4_end_post

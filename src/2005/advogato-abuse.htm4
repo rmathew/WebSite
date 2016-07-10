@@ -3,7 +3,7 @@ m4_define(`m4_post_title', `Advogato Abuse')m4_dnl
 m4_include(`posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-<a href="http://www.advogato.org/person/richym/">richym</a>, <a href="http://www.advogato.org/person/otomoto/">otomoto</a>, <a href="http://www.advogato.org/person/smb/">smb</a>, <a href="http://www.advogato.org/person/accord/">accord</a>, <a href="http://www.advogato.org/person/dbit/">dbit</a>, <a href="http://www.advogato.org/person/sixtyk/">sixtyk</a>, <a href="http://www.advogato.org/person/gauss/">gauss</a>, <a href="http://www.advogato.org/person/jmors/">jmors</a>, <a href="http://www.advogato.org/person/greenj/">greenj</a>, <a href="http://www.advogato.org/person/odinv/">odinv</a>, etc. seem to be dummy accounts created just so that someone could play with Advogato's ranking system and perhaps use it to inflate their own certification. 
+richym, otomoto, smb, accord, dbit, sixtyk, gauss, jmors, greenj, odinv, etc. seem to be dummy accounts created just so that someone could play with Advogato's ranking system and perhaps use it to inflate their own certification. 
 <p>
 (<a href="http://www.advogato.org/person/rmathew/diary/91.html">Originally posted on Advogato</a>.)
 m4_end_post

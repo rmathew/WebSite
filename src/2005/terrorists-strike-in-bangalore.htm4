@@ -3,7 +3,7 @@ m4_define(`m4_post_title', `Terrorists Strike in Bangalore')m4_dnl
 m4_include(`posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-Terrorists <a href="http://timesofindia.indiatimes.com/articleshow/1350392.cms">opened</a> <a href="http://www.hindu.com/2005/12/29/stories/2005122919810100.htm">indiscriminate</a> <a href="http://www.deccanherald.com/deccanherald/dec292005/index21325320051228.asp">fire</a> and killed at least one person and seriously injured four to six others yesterday. What was particularly appalling was their choice of the <a href="http://www.iisc.ernet.in/">Indian Institute of Science (IISc)</a> and researchers attending a conference on Operations Research as the target!
+Terrorists opened indiscriminate fire and killed at least one person and seriously injured four to six others yesterday. What was particularly appalling was their choice of the <a href="http://www.iisc.ernet.in/">Indian Institute of Science (IISc)</a> and researchers attending a conference on Operations Research as the target!
 <p>
 (<a href="http://www.advogato.org/person/rmathew/diary/133.html">Originally posted on Advogato</a>.)
 m4_end_post

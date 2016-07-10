@@ -3,7 +3,7 @@ m4_define(`m4_post_title', `Sort Your Environment Variables for Win32')m4_dnl
 m4_include(`posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-It seems that the <a href="http://msdn.microsoft.com/library/en-us/dllproc/base/createprocess.asp">CreateProcess()</a> Win32 API expects the explicitly-passed environment variables, if any, to be in alphabetically sorted order. It <i>is</i> documented in passing in the API description, but you have to really look out for it to notice it. Without doing this, you might find that the spawned process is not able to retrieve some of the environment variables you are passing to it. This also seems to affect programs spawned using <tt>Runtime.exec()</tt> in Java, so even if you do not work on Windows yourself, you might want to keep this in mind for your hapless users.  Thanks to <a href="http://puggy.symonds.net/~srp/">Saju</a> for the explanation and to Rahul for bringing it to my attention. 
+It seems that the CreateProcess() Win32 API expects the explicitly-passed environment variables, if any, to be in alphabetically sorted order. It <i>is</i> documented in passing in the API description, but you have to really look out for it to notice it. Without doing this, you might find that the spawned process is not able to retrieve some of the environment variables you are passing to it. This also seems to affect programs spawned using <tt>Runtime.exec()</tt> in Java, so even if you do not work on Windows yourself, you might want to keep this in mind for your hapless users.  Thanks to Saju for the explanation and to Rahul for bringing it to my attention. 
 <p>
 (<a href="http://www.advogato.org/person/rmathew/diary/88.html">Originally posted on Advogato</a>.)
 m4_end_post

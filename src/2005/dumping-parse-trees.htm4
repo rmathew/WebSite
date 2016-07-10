@@ -3,7 +3,7 @@ m4_define(`m4_post_title', `Dumping Parse Trees')m4_dnl
 m4_include(`posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-<a href="http://gcc.gnu.org/wiki/GCJX">GCJX</a> now accepts an "<tt>-fdump-tree</tt>" option that prints out the abstract syntax tree of a Java source file to <tt>stdout</tt>.  
+GCJX now accepts an "<tt>-fdump-tree</tt>" option that prints out the abstract syntax tree of a Java source file to <tt>stdout</tt>.  
 <p>
 (<a href="http://www.advogato.org/person/rmathew/diary/118.html">Originally posted on Advogato</a>.)
 m4_end_post
