@@ -3,12 +3,9 @@ m4_define( `m4_post_title', `PlayStation Too?')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-The <a href="http://www.playstation2.com/">PlayStation 2</a>
-game console from Sony is <i>finally</i>
-<a href="http://www.ps2.indiatimes.com/">available
-in India</a> now. However, not only is the console exorbitantly
-priced, <a href="http://www.ps2.indiatimes.com/game.html">the
-games available for it now</a> are also priced way beyond the average
+The PlayStation 2 game console from Sony is <i>finally</i>
+available in India now. However, not only is the console exorbitantly
+priced, the games available for it now are also priced way beyond the average
 enthusiast's reach.
 m4_begin_post_rest
 <p>

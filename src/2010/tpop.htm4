@@ -3,8 +3,8 @@ m4_define( `m4_post_title', `&ldquo;The Practice Of Programming&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-In their book <a href="http://tpop.awl.com/">The Practice of
-Programming</a>, Brian Kernighan and Rob Pike aim to advise computer
+In their book &ldquo;The Practice of Programming&rdquo;, Brian Kernighan
+and Rob Pike aim to advise computer
 programmers on things like testing, debugging, style, performance,
 design, portability, etc. that they are not usually taught in computer
 science classes or programming courses. This is what they call the

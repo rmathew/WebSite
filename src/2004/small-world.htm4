@@ -3,7 +3,7 @@ m4_define(`m4_post_title', `Small World')m4_dnl
 m4_include(`posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-<a href="http://www.niraj.4t.com/">Niraj Kumar</a>, who contributed <a href="http://ufs-linux.sourceforge.net/">the support</a> for <a href="http://sixshooter.v6.thrupoint.net/jeroen/faq.html">FreeBSD's UFS2 filesystems</a> to the 2.6 series Linux kernel is also from Bangalore!  Not only that - he works for <a href="http://www.oracle.com/in/">Oracle India</a> as well and in fact sits in the same building as I do!  I am yet to meet him though. <tt>:-/</tt>
+<a href="http://www.niraj.4t.com/">Niraj Kumar</a>, who contributed <a href="http://ufs-linux.sourceforge.net/">the support</a> for FreeBSD's UFS2 filesystems to the 2.6 series Linux kernel is also from Bangalore!  Not only that - he works for <a href="http://www.oracle.com/in/">Oracle India</a> as well and in fact sits in the same building as I do!  I am yet to meet him though. <tt>:-/</tt>
 <p>
 (<a href="http://www.advogato.org/person/rmathew/diary/27.html">Originally posted on Advogato</a>.)
 m4_end_post

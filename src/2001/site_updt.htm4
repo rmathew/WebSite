@@ -4,9 +4,7 @@ m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
 I have changed the licence for my programmes to the
-<a href="http://www.trolltech.com/products/download/freelicense/license.html">Q
-Public License (QPL)</a> created by <a
-href="http://www.trolltech.com/">TrollTech</a>. This is a more practical
+Q Public License (QPL) created by TrollTech. This is a more practical
 license and is less restrictive than the GPL - users can use the software for
 free as long as they only develop free software using it, but for commercial
 uses they will have to contact the author (and pay him, yes!).

@@ -3,8 +3,7 @@ m4_define( `m4_post_title', `DataOne')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-I now have a 256Kbps broadband connection with <a
-href="http://dataone.in/">BSNL's DataOne</a>. It's a bit
+I now have a 256Kbps broadband connection with BSNL's DataOne. It's a bit
 erratic in connecting, but is good when connected. Detailed
 comments from me on this service can be found <a
 href="http://www.mouthshut.com/review/BSNL_Dataone_Broadband_Service-72890-1.html">elsewhere</a>.

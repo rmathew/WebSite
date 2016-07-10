@@ -3,7 +3,7 @@ m4_define(`m4_post_title', `&ldquo;Effective C++&rdquo;')m4_dnl
 m4_include(`posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-I read <a href="http://www.awl.com/cseng/titles/0-201-92488-9/">this book by Scott Meyers</a> this weekend and grew even less fond of C++! I mean, it's almost as if this language goes out of its way to ensure that you end up with several "gotchas" to worry about in addition to what you set out to code in the first place! 
+I read &ldquo;Effective C++&rdquo; by Scott Meyers this weekend and grew even less fond of C++! I mean, it's almost as if this language goes out of its way to ensure that you end up with several "gotchas" to worry about in addition to what you set out to code in the first place! 
 <p>
 (<a href="http://www.advogato.org/person/rmathew/diary/37.html">Originally posted on Advogato</a>.)
 m4_end_post

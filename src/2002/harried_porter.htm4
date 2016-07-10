@@ -3,16 +3,12 @@ m4_define( `m4_post_title', `Harried Porter')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-I guess I was feeling a bit too euphoric on being <a
-href="http://www.geocrawler.com/lists/3/SourceForge/6016/25/9779228/">annointed
-a MinGW developer</a>, so I migrated
-<a href="http://www.aha.ru/~grnsm/gdb-mingw.html">Artem
+I guess I was feeling a bit too euphoric on being annointed
+a MinGW developer, so I migrated <a
+href="http://www.aha.ru/~grnsm/gdb-mingw.html">Artem
 Khodush's patches to GDB for MinGW</a> from version 5.1.1 to 5.2.1 -
-the <a
-href="http://www.geocrawler.com/lists/3/SourceForge/6016/0/9820529/">result</a>
-is now available for your downloading
-pleasure at the <a href="http://sourceforge.net/projects/mingw/">MinGW
-SourceForge repository</a>.
+the result is now available for your downloading pleasure at the MinGW
+SourceForge repository.
 m4_begin_post_rest
 <p>
 In related news, if you wish to try out <a

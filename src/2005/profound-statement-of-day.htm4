@@ -3,7 +3,7 @@ m4_define(`m4_post_title', `Profound Statement of the Day')m4_dnl
 m4_include(`posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-"One man's beard is another man's velcro." <a href="http://o3.indiatimes.com/kavitha/archive/2005/05/05/109353.aspx">Thus spake</a> <a href="http://www.hindu.com/thehindu/mp/2005/02/21/stories/2005022101660100.htm">Lola Kutty</a>.
+"One man's beard is another man's velcro." Thus spake Lola Kutty.
 <p>
 (<a href="http://www.advogato.org/person/rmathew/diary/90.html">Originally posted on Advogato</a>.)
 m4_end_post

@@ -3,7 +3,7 @@ m4_define(`m4_post_title', `Coding Competitions')m4_dnl
 m4_include(`posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-There is a weekly coding competition for Indian coders running right now at <a href="http://www.azealots.com/">www.azealots.com</a> and there are fairly attractive prizes to be won. This is apart from the regular <a href="http://www.topcoder.com/tc">TopCoder</a> competitions. <a href="http://train.usaco.org/">train.usaco.org</a> seems to be a nice site for practising for such things.  By the way, I found a nice set of slides explaining the Static Single Assigment (SSA) form <a href="http://copland.udel.edu/~jan/ssa-presentation.pdf">here</a> (PDF).   Lastly, GCC 4.0.0 has been released! 
+There is a weekly coding competition for Indian coders running right now at www.azealots.com and there are fairly attractive prizes to be won. This is apart from the regular <a href="http://www.topcoder.com/">TopCoder</a> competitions. <a href="http://train.usaco.org/">train.usaco.org</a> seems to be a nice site for practising for such things.  By the way, I found a nice set of slides explaining the Static Single Assigment (SSA) form <a href="http://copland.udel.edu/~jan/ssa-presentation.pdf">here</a> (PDF).   Lastly, GCC 4.0.0 has been released! 
 <p>
 (<a href="http://www.advogato.org/person/rmathew/diary/77.html">Originally posted on Advogato</a>.)
 m4_end_post
