@@ -26,8 +26,6 @@ We discovered that the fun had just started. Embedded in the DNA were a series o
 <p>
 As I always end up saying after such contests, I hope we have a better luck the next time.
 <p>
-Some more reports: <a href="http://wiki.freaks-unidos.net/icfp/2007/">1</a>, <a href="http://blogs.msdn.com/cashto/archive/2007/07/23/the-icfp-10th-annual-programming-contest.aspx">2</a>, <a href="http://existentialtype.net/?p=156">3</a>,  <a href="http://jfkbits.blogspot.com/2007/07/not-programming-for-icfp-2007.html">4</a>, <a href="http://community.livejournal.com/evan_tech/229595.html">5</a>, <a href="http://marco-za.blogspot.com/2007/07/icfp-how-we-reached-top-15.html">6</a>, <a href="http://stereotype441.livejournal.com/45150.html">7</a>, <a href="http://vikipedia.wordpress.com/2007/07/23/icfp-with-haskellpython-ocaml/">8</a>, <a href="http://sambangu.blogspot.com/2007/07/python-to-rescue-icfp-contest-2007">9</a>, <a href="http://jsnell.iki.fi/blog/archive/2007-07-25icfp-2007.html">10</a>, etc.
-<p>
 <b>Update (2007-07-26):</b> I tweaked the code for the DNA-to-RNA converter a little bit to avoid creating a lot of unnecessary cords and that reduced its running time to about 1 minute 35 seconds on my PC (about 7 times better than before) and about 30 seconds on Yumpee's PC. Right now the garbage collector itself is the biggest consumer of CPU cycles (about 45% on the whole), but disabling it leads to the programme quickly running out of memory on my PC.
 <p>
 (<a href="http://rmathew.blogspot.com/2007/07/icfpc-2007.html">Originally posted on Blogspot</a>.)

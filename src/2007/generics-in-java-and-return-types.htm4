@@ -11,7 +11,7 @@ Consider what happens if the compiler were to allow such code to compile. Caller
 <p>
 A better way to define the second case is:<br /><pre><br />  ArrayList&lt;? extends I> foo( )<br />  {<br />    return new ArrayList&lt;C>( );<br />  }<br /></pre><br />(You can also return an <code>ArrayList&lt;I&gt;</code> instead, but that loosens up the definition of the returned object.)
 <p>
-Thanks to <a href="http://www.myspace.com/steveonorato">Steve</a> for clearing up my muddied thinking.
+Thanks to Steve Onorato for clearing up my muddied thinking.
 <p>
 (<a href="http://rmathew.blogspot.com/2007/01/generics-in-java-and-return-types.html">Originally posted on Blogspot</a>.)
 m4_end_post

@@ -3,15 +3,12 @@ m4_define( `m4_post_title', `&ldquo;Uru: Ages Beyond Myst&rdquo;')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-This week Anusha and I played <a href="http://uru.ubi.com/">Uru: Ages Beyond
-Myst</a> - the ambitious and open-ended
-3D incarnation of the <a href="http://www.mystworlds.com/">Myst series of
-games</a>.
+This week Anusha and I played Uru: Ages Beyond Myst - the ambitious and
+open-ended 3D incarnation of the Myst series of games.
 m4_begin_post_rest
 We have finished the original
-single player game and will soon start on <a
-href="http://www.pathoftheshell.com/">The Path of the Shell</a>
-which is the expansion pack for this game.
+single player game and will soon start on The Path of the Shell, which is the
+expansion pack for this game.
 <div class="centred">
 <img src="m4_root_dir/images/uru1.jpg" alt="Uru Screenshot">
 <br>

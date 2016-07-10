@@ -17,16 +17,13 @@ interested, you might also want to take a look at Section 4.2.2 of
 Donald Knuth's &ldquo;The Art of Computer Programming, Volume II:
 Seminumerical Algorithms&rdquo;, Third Edition. And while you are at
 it, see also Goldberg's
-&ldquo;<a href="http://citeseer.nj.nec.com/goldberg91what.html">What Every
-Computer Scientist Should Know About Floating
-Point Arithmetic</a>&rdquo;. Finally, if you feel like doing something
-about it, take a look at
-&ldquo;<a href="http://www-2.cs.cmu.edu/~quake/robust.html">Adaptive Precision
-Floating-Point Arithmetic</a>&rdquo;.
+&ldquo;What Every Computer Scientist Should Know About Floating Point
+Arithmetic&rdquo;. Finally, if you feel like doing something about it, take a
+look at &ldquo;<a href="http://www-2.cs.cmu.edu/~quake/robust.html">Adaptive
+Precision Floating-Point Arithmetic</a>&rdquo;.
 <p>
-I have finally acquired <a href="http://www.riven.com/">Riven</a>, the second
-title in the excellent
-<a href="http://www.mystworlds.com/">Myst series of games</a>.
+I have finally acquired Riven, the second title in the excellent
+Myst series of games.
 It is supposed to be the toughest in the series and I hope to dive
 into it as soon as I finish my current project.
 m4_end_post_rest
