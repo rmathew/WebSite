@@ -9,16 +9,29 @@ m4_heading( `1', `intro', `Introduction')
 <p>
 This page provides access to some of my personal projects.
 <p>
-These programs have absolutely <b>NO WARRANTIES</b>
-and are for purely educational purposes. If you find any of these useful,
-do tell me about it.
 <div class="notice">
-<b>NOTE:</b> These and some other programs are now hosted <a
-href="https://bitbucket.org/rmathew/">on Bitbucket</a>, <a
-href="https://github.com/rmathew/">on GitHub</a> and <a
-href="https://gitlab.com/u/rmathew/">on GitLab</a> as <a
-href="http://en.wikipedia.org/wiki/Git_%28software%29">Git</a> repositories.
+<b>WARNING:</b> These programs have absolutely <b>NO WARRANTIES</b>. I provide
+them purely for education and in the spirit of sharing knowledge.
 </div>
+<p>
+If you find any of these useful, do tell me about it.
+
+m4_heading( `1', `free', `Free Source-Code')
+<p>
+I maintain the source-code for most of my personal projects, this web-site and
+some other things as <a
+href="http://en.wikipedia.org/wiki/Git_%28software%29">Git</a> repositories.
+You can get access to these via various hosting-providers for source-code:
+<ul>
+<li><a href="https://bitbucket.org/rmathew/">rmathew on Bitbucket</a></li>
+<li><a href="https://github.com/rmathew/">rmathew on GitHub</a></li>
+<li><a href="https://gitlab.com/u/rmathew/">rmathew on GitLab</a></li>
+</ul>
+<p>
+<b>NOTE:</b> These projects are &ldquo;<a
+href="http://runtimeterror.com/abitopen.txt">almost open-source</a>&rdquo; - I
+hope you find them useful in some way, but I am not really looking for
+collaborators at the moment.
 
 m4_heading( `1', `zinc', `ZINC')
 <p>
