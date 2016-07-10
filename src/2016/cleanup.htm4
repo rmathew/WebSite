@@ -1,0 +1,23 @@
+m4_define(`m4_post_date', `2016-07-10')m4_dnl
+m4_define(`m4_post_title', `Web-Site Clean-Up')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I have just completed a much-needed clean-up of this web-site. This includes
+fixing a lot of broken links, cleaning up the design to be a bit more compact,
+making it more responsive, etc.
+m4_begin_post_rest
+<p>
+Over the last few years, a lot of the pages linked to from this web-site
+have disappeared. I have fixed all the broken links that I could find,
+replacing them wherever possible. Do let me know if you still find any broken
+links on this web-site.
+<p>
+The new color-scheme was inspired by <a
+href="http://ethanschoonover.com/solarized">Solarized</a>. It should be less
+harsh on the eyes compared to the old color-scheme. As far as I can tell, the
+new layout also behaves better with smaller screens. It is not fully
+<a href="https://en.wikipedia.org/wiki/Responsiveness">responsive</a>, but at
+least it should make the pages easier to read on mobile phones.
+m4_end_post_rest
+m4_end_post

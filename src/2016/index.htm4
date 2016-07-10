@@ -1,0 +1,12 @@
+m4_define(`m4_root_dir',`..')m4_dnl
+m4_define(`m4_news_year',`2016')m4_dnl
+m4_define(`m4_page_title',`Archive for 'm4_news_year)m4_dnl
+m4_define(`m4_page_section',``Archives'')m4_dnl
+m4_dnl
+m4_include(`header.htm4')m4_dnl
+m4_dnl
+m4_heading(`1', `news_'m4_news_year, `Archive for 'm4_news_year)
+m4_define(`m4_show_post_date', `true')m4_dnl
+m4_collect_posts(`html', m4_news_year)
+m4_dnl
+m4_include(`footer.htm4')m4_dnl
