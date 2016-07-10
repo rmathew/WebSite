@@ -9,7 +9,7 @@ m4_include(`common.m4')m4_dnl
 <META name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" href="m4_root_dir/favicon.ico" type="image/x-icon">
 <link rel="alternate" href="http://feeds.feedburner.com/rmathew"
-type="application/atom+xml" title="Feed for rmathew.com">
+type="application/atom+xml" title="Feed for rmathew.com.">
 <link rel="stylesheet" type="text/css" href="m4_root_dir/default.css"
 media="screen">
 <link rel="stylesheet" type="text/css" href="m4_root_dir/print.css"
@@ -27,22 +27,22 @@ media="print">
 <body>
 <div id="header">
 <div class="pageHeader">
-<a href="m4_root_dir/index.html" title="Home page">
+<a href="m4_root_dir/index.html" title="Home page.">
 <img src="m4_root_dir/images/home.png" width="16" height="16"
 alt="Home Icon"></a>
 <a href="m4_root_dir/articles/index.html"
 m4_ifelse(m4_page_section,`Articles',`class="highlight"')
-title="Articles on various topics">Notes</a>
+title="Notes on various topics.">Notes</a>
 <a href="m4_root_dir/software/index.html"
 m4_ifelse(m4_page_section,`Software',`class="highlight"')
-title="Source-code for software">Code</a>
+title="Source-code for some software.">Code</a>
 <a href="m4_root_dir/books/index.html"
 m4_ifelse(m4_page_section,`Books',`class="highlight"')
-title="Reviews of books">Books</a>
+title="Reviews of some books.">Books</a>
 <a href="m4_root_dir/archives/index.html"
 m4_ifelse(m4_page_section,`Archives',`class="highlight"')
-title="Archive of all posts">Posts</a>
-<a href="https://feeds.feedburner.com/rmathew" title="Feed for posts">
+title="Archives of all posts from each year.">Posts</a>
+<a href="https://feeds.feedburner.com/rmathew" title="Feed for posts.">
 <img src="m4_root_dir/images/feed.png" width="16" height="16"
 alt="Feed Icon"></a>
 </div>

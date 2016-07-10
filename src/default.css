@@ -1,7 +1,6 @@
 body {
   color: rgb(7,54,66);  /* base02 */
   background-color: rgb(238,232,213);  /* base2 */
-  box-shadow: 6px 6px 3px black;
   margin: 0 auto;
   padding: 0;
   max-width: 50em;
@@ -15,12 +14,8 @@ acronym, .titleTip {
 }
 
 .smallCaps {
-  font-size: 110%;
   font-variant: small-caps;
 }
-
-
-/* ##### Header ##### */
 
 #header {
   margin: 0 auto 0 auto;
@@ -31,7 +26,7 @@ acronym, .titleTip {
   background-color: rgb(0,43,54);  /* base03 */
   margin: 0;
   padding: 1ex 1ex 1ex 1ex;
-  font-size: 91%;
+  font-size: 85%;
 }
 
 .pageHeader img {
@@ -56,11 +51,10 @@ acronym, .titleTip {
   background-color: transparent;
 }
 
-/* ##### Main Copy ##### */
-
 #main-copy {
   background-color: rgb(253,246,227);  /* base3 */
   text-align: left;
+  line-height: 1.5em;
   padding-top: 1ex;
 }
 
@@ -105,26 +99,12 @@ dd {
   padding: 0;
 }
 
-
-/* ##### Footer ##### */
-
 #footer {
-  color: rgb(88,110,117);  /* base01 */
-  background-color: rgb(253,246,227);  /* base3 */
-  border-top: 1px solid rgb(147,161,161);  /* base1 */
+  color: rgb(147,161,161);  /* base1 */
+  background-color: rgb(0,43,54);  /* base03 */
   margin: 0 auto 0 auto;
-  padding: 5px 5px 5px 5px;
+  padding: 1ex 0 1ex 0;
   font-size: 85%;
-}
-
-#footer .left {
-  text-align: left;
-  float: left;
-  clear: left;
-}
-
-#footer .right {
-  text-align: right;
 }
 
 #footer a {
@@ -136,8 +116,6 @@ dd {
 #footer a:hover {
   text-decoration: none;
 }
-
-/* ##### Custom Styles ##### */
 
 table.toc {
   color: rgb(38,139,210);  /* blue */
@@ -165,16 +143,24 @@ div.post_header {
 
 div.post {
   margin-top: 0;
-  border-bottom: 1px solid rgb(147,161,161);  /* base1 */
 }
 
-br.post_footer {
-  clear: left;
+br.clean_break {
+  clear: both;
 }
 
-div.left_justified {
+.left_aligned {
   text-align: left;
+  float: left;
+  clear: left;
   padding-left: 1ex;
+}
+
+.right_aligned {
+  text-align: right;
+  float: right;
+  clear: right;
+  padding-right: 1ex;
 }
 
 div.centred {
@@ -182,11 +168,6 @@ div.centred {
   margin-left: auto;
   margin-right: auto;
   width: auto;
-}
-
-div.right_justified {
-  text-align: right;
-  padding-right: 1ex;
 }
 
 div.book_display {

@@ -19,11 +19,12 @@ Learn more <a href="m4_root_dir/about.html">about me</a>.
 m4_heading( `1', `news', `News')
 m4_define( `m4_show_post_date', `true')m4_dnl
 m4_collect_posts(`html', m4_current_year)
-<div class="right_justified">
+<div class="right_aligned">
 &nbsp;
 <br>
 <b><a href="m4_root_dir/archives/index.html">Older Posts</a></b>
 </div>
+<br class="clean_break">
 </div>
 m4_dnl
 m4_include(`footer.htm4')m4_dnl

@@ -142,16 +142,17 @@ m4_dnl Post ending.
 m4_define(
   [[m4_end_post]],
   [[
-      <br class="post_footer">
+      <br class="clean_break">
     </div>
     m4_ifelse(
       m4_standalone_post,
       `true',
-	<div class="right_justified">
+	<div class="right_aligned">
 	  <b><a
 	    href="m4_root_dir/m4_substr( m4_post_date, 0, 4)/index.html">Other
 	    Posts from m4_substr( m4_post_date, 0, 4)</a></b>
 	</div>
+	<br class="clean_break">
       </div>
       m4_include( footer.htm4)
     )

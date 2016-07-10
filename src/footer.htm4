@@ -1,10 +1,12 @@
 <div id="footer">
-<div class="left">
-&copy; 2001-m4_current_year <b><a
-href="m4_root_dir/about.html">Ranjit Mathew</a></b>. <a
-href="m4_root_dir/caveats.html">Caveats</a>.
-</div>
-<div class="right">&nbsp;</div>
+<span class="left_aligned">
+&copy; 2001-m4_current_year <b><a href="m4_root_dir/about.html">Ranjit
+Mathew</a></b>
+</span>
+<span class="right_aligned">
+<a href="m4_root_dir/caveats.html" class="smallCaps">Caveats</a>
+</span>
+<br class="clean_break">
 </div>
 </body>
 </html>
