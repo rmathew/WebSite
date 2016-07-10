@@ -4,7 +4,6 @@ m4_define(`m4_page_section',``Articles'')m4_dnl
 m4_dnl
 m4_include(`header.htm4')m4_dnl
 m4_dnl
-<div id="main-copy">
 m4_toc
 m4_heading( `1', `news', `Newsgroups Server')
 <p>
@@ -379,6 +378,5 @@ href="ftp://tsx-11.mit.edu/pub/linux/sources/sbin/">tsx-11.mit.edu</a>. Sam
 used version 4.2.5 of this software.
 </li>
 </ol>
-</div>
 m4_dnl
 m4_include(`footer.htm4')m4_dnl

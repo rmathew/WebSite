@@ -4,7 +4,6 @@ m4_define(`m4_page_section',``Articles'')m4_dnl
 m4_dnl
 m4_include(`header.htm4')m4_dnl
 m4_dnl
-<div id="main-copy">
 m4_toc
 m4_heading( `1', `intro', `Introduction')
 <p>
@@ -224,6 +223,5 @@ fantasy fiction ever penned - and Mark Fisher for creating the
 superb
 <a href="http://www.glyphweb.com/arda/">Encyclopedia of Arda</a>, a
 fantastic guide to the worlds of Tolkien.
-</div>
 m4_dnl
 m4_include(`footer.htm4')m4_dnl

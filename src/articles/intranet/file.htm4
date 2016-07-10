@@ -4,7 +4,6 @@ m4_define(`m4_page_section',``Articles'')m4_dnl
 m4_dnl
 m4_include(`header.htm4')m4_dnl
 m4_dnl
-<div id="main-copy">
 m4_toc
 m4_heading( `1', `file', `File Server')
 <p>
@@ -148,6 +147,5 @@ how to set it up properly. Sam found this book immensely
 useful and practical.
 </li>
 </ol>
-</div>
 m4_dnl
 m4_include(`footer.htm4')m4_dnl

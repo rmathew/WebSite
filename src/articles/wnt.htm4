@@ -4,7 +4,6 @@ m4_define(`m4_page_section',``Articles'')m4_dnl
 m4_dnl
 m4_include(`header.htm4')m4_dnl
 m4_dnl
-<div id="main-copy">
 m4_heading( `1', `tips', `Windows NT 4 Tips')
 <p>
 Most of us find ourselves working with a Microsoft OS most
@@ -161,6 +160,5 @@ in this folder and this program will be visible in the &ldquo;Send To&rdquo;
 menu. With this feature for example, you can very easily open a file
 in Notepad by right-clicking on the file in Explorer, and saying
 &ldquo;Send To&rdquo;<code>-&gt;</code>Notepad. Easy and convenient, huh?
-</div>
 m4_dnl
 m4_include(`footer.htm4')m4_dnl

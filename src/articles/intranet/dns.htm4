@@ -4,7 +4,6 @@ m4_define(`m4_page_section',``Articles'')m4_dnl
 m4_dnl
 m4_include(`header.htm4')m4_dnl
 m4_dnl
-<div id="main-copy">
 m4_toc
 m4_heading( `1', `dns', `DNS Server')
 <p>
@@ -280,6 +279,5 @@ preferred to simply install the binaries available with his
 distribution.
 </li>
 </ol>
-</div>
 m4_dnl
 m4_include(`footer.htm4')m4_dnl

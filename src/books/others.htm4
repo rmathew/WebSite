@@ -4,7 +4,6 @@ m4_define(`m4_page_section',``Books'')m4_dnl
 m4_dnl
 m4_include(`header.htm4')m4_dnl
 m4_dnl
-<div id="main-copy">
 m4_define( `m4_show_post_date', `false')m4_dnl
 m4_toc
 m4_heading( `1', `art', `Art')
@@ -64,6 +63,5 @@ m4_include_post(`2012', `intheplex')
 m4_include_post(`2010', `hfstats')
 m4_include_post(`2008', `calcwars')
 m4_include_post(`2007', `srch')
-</div>
 m4_dnl
 m4_include(`footer.htm4')m4_dnl

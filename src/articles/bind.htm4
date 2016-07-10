@@ -4,7 +4,6 @@ m4_define(`m4_page_section',``Articles'')m4_dnl
 m4_dnl
 m4_include(`header.htm4')m4_dnl
 m4_dnl
-<div id="main-copy">
 m4_heading( `1', `bind', `Binding Windows Executables')
 <p>
 This small program illustrates how to bind Windows executables to the DLLs
@@ -98,7 +97,6 @@ return 1;
 return 0;
 }
 </pre>
-</div>
 </div>
 m4_dnl
 m4_include(`footer.htm4')m4_dnl

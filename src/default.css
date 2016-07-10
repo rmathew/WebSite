@@ -17,6 +17,13 @@ acronym, .titleTip {
   font-variant: small-caps;
 }
 
+hr.clean_break {
+  clear: both;
+  margin: 0;
+  padding: 0;
+  border-style: none;
+}
+
 #header {
   margin: 0 auto 0 auto;
 }
@@ -143,10 +150,6 @@ div.post_header {
 
 div.post {
   margin-top: 0;
-}
-
-br.clean_break {
-  clear: both;
 }
 
 .left_aligned {

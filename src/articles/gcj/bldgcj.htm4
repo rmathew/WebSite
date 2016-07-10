@@ -4,7 +4,6 @@ m4_define(`m4_page_section',``Articles'')m4_dnl
 m4_dnl
 m4_include(`header.htm4')m4_dnl
 m4_dnl
-<div id="main-copy">
 m4_toc
 m4_heading( `1', `intro', `Introduction')
 <p>
@@ -388,6 +387,5 @@ on GCJ for Win32 since mid-2003 and that I still think the document
 is useful.
 </li>
 </ul>
-</div>
 m4_dnl
 m4_include(`footer.htm4')m4_dnl

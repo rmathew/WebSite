@@ -4,7 +4,6 @@ m4_define(`m4_page_section',``Articles'')m4_dnl
 m4_dnl
 m4_include(`header.htm4')m4_dnl
 m4_dnl
-<div id="main-copy">
 m4_heading( `1', `gcj', `GNU Compiler for Java')
 <p>
 The following articles on <a href="http://gcc.gnu.org/java/">the GNU
@@ -20,6 +19,5 @@ that I use to automate the tasks.
 I use to create and submit patches to GCJ/GCC.
 </li>
 </ul>
-</div>
 m4_dnl
 m4_include(`footer.htm4')m4_dnl

@@ -4,7 +4,6 @@ m4_define(`m4_page_section',``Articles'')m4_dnl
 m4_dnl
 m4_include(`header.htm4')m4_dnl
 m4_dnl
-<div id="main-copy">
 m4_heading( `1', `articles', `Articles')
 <p>
 The following articles are available from this web-site:
@@ -46,6 +45,5 @@ has been collected from various web sites on Tangrams.
 <a href="prog.html">Computer Programming</a>: Why I like computer programming.
 </li>
 </ul>
-</div>
 m4_dnl
 m4_include(`footer.htm4')m4_dnl

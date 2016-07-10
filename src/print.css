@@ -1,5 +1,3 @@
-/* ##### Common Styles ##### */
-
 body {
   color: black;
   background-color: white;
@@ -25,9 +23,6 @@ acronym:after, .titleTip:after {  /* Prints titles after the acronyms/titletips.
   display: none !important;
 }
 
-
-/* ##### Header ##### */
-
 #header {
   margin: 0;
   padding: 0;
@@ -38,15 +33,9 @@ acronym:after, .titleTip:after {  /* Prints titles after the acronyms/titletips.
   display: none;
 }
 
-
-/* ##### Side Bar ##### */
-
 #side-bar {
   display: none;
 }
-
-
-/* ##### Main Copy ##### */
 
 #main-copy {
   text-align: justify;
@@ -97,9 +86,6 @@ dd {
 .topOfPage {
   display: none;
 }
-
-
-/* ##### Footer ##### */
 
 #footer {
   margin: 2em 0 0 0;

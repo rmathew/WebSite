@@ -4,7 +4,6 @@ m4_define(`m4_page_section',``Books'')m4_dnl
 m4_dnl
 m4_include(`header.htm4')m4_dnl
 m4_dnl
-<div id="main-copy">
 m4_toc
 m4_heading( `1', `intro', `Introduction')
 <p>
@@ -45,6 +44,5 @@ technology, philosophy, economics, biographies, etc.</li>
 </ul>
 <p>
 I hope you enjoy reading the books in these selections as much as I have.
-</div>
 m4_dnl
 m4_include(`footer.htm4')m4_dnl

@@ -4,7 +4,6 @@ m4_define(`m4_page_section',``Articles'')m4_dnl
 m4_dnl
 m4_include(`header.htm4')m4_dnl
 m4_dnl
-<div id="main-copy">
 m4_toc
 m4_heading( `1', `proxy', `Caching Proxy Server')
 <p>
@@ -141,6 +140,5 @@ of documents that helped
 Sam out with most of the problems he had with Squid.
 </li>
 </ol>
-</div>
 m4_dnl
 m4_include(`footer.htm4')m4_dnl

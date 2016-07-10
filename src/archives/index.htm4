@@ -4,7 +4,6 @@ m4_define(`m4_page_section',``Archives'')m4_dnl
 m4_dnl
 m4_include(`header.htm4')m4_dnl
 m4_dnl
-<div id="main-copy">
 m4_heading( `1', `archives', `Archives')
 <p>
 You can find archives for posts here. These are listed here in reverse
@@ -19,6 +18,5 @@ m4_define(
 )
 m4_archive_items(m4_current_year)
 </ul>
-</div>
 m4_dnl
 m4_include(`footer.htm4')m4_dnl

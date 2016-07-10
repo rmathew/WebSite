@@ -14,7 +14,6 @@ m4_ifelse(
     m4_define( `m4_page_title', m4_post_title)m4_dnl
     m4_define( `m4_page_section', ``Archives'')m4_dnl
     m4_define( `m4_standalone_post', `true')m4_dnl
-m4_include( header.htm4)m4_dnl
-    <div id="main-copy">
-      m4_define( `m4_show_post_date', `true')m4_dnl
+    m4_include( header.htm4)m4_dnl
+    m4_define( `m4_show_post_date', `true')m4_dnl
 ')m4_dnl

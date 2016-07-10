@@ -4,7 +4,6 @@ m4_define(`m4_page_section',``Articles'')m4_dnl
 m4_dnl
 m4_include(`header.htm4')m4_dnl
 m4_dnl
-<div id="main-copy">
 m4_heading( `1', `prog', `Computer Programming')
 <p>
 I started programming on the <a
@@ -44,7 +43,6 @@ IT industry.
 <p>
 <div class="centred">
 <code><b>:-(</b></code>
-</div>
 </div>
 m4_dnl
 m4_include(`footer.htm4')m4_dnl

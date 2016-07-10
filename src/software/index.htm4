@@ -4,7 +4,6 @@ m4_define(`m4_page_section',``Software'')m4_dnl
 m4_dnl
 m4_include(`header.htm4')m4_dnl
 m4_dnl
-<div id="main-copy">
 m4_toc
 m4_heading( `1', `intro', `Introduction')
 <p>
@@ -58,6 +57,4 @@ The program uses OpenGL/SDL and runs on Windows and Linux. See the included
 <a href="https://bitbucket.org/rmathew/virtualtaj/downloads"><b>Download
 Virtual Taj Mahal</b></a>&nbsp;(<a
 href="https://github.com/rmathew/VirtualTaj/releases"><b>mirror</b></a>)
-</div>
-
 m4_include(`footer.htm4')m4_dnl

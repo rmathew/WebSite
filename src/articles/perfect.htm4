@@ -4,7 +4,6 @@ m4_define(`m4_page_section',``Articles'')m4_dnl
 m4_dnl
 m4_include(`header.htm4')m4_dnl
 m4_dnl
-<div id="main-copy">
 m4_toc
 m4_heading( `1', `intro', `Introduction')
 <p>
@@ -117,6 +116,5 @@ as defined here.
 Note that we didn't even have to consider the additional restriction
 that <tt>n</tt>, <tt>(n-1)</tt>, etc. bytes have to be respectively
 compressed to <tt>(n-1)</tt>, <tt>(n-2)</tt>, etc. or less bytes.
-</div>
 m4_dnl
 m4_include(`footer.htm4')m4_dnl

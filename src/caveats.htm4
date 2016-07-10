@@ -4,7 +4,6 @@ m4_define(`m4_page_section',``Home'')m4_dnl
 m4_dnl
 m4_include(`header.htm4')m4_dnl
 m4_dnl
-<div id="main-copy">
 m4_toc
 m4_heading( `1', `intro', `Introduction')
 <p>
@@ -79,7 +78,5 @@ shall not hold me liable for any damages you might incur due to such actions.
 <p>
 In other words, do not trust a random dude on the Internet - do your own due
 diligence before taking any action.
-
-</div>
 m4_dnl
 m4_include(`footer.htm4')m4_dnl

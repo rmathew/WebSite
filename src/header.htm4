@@ -1,4 +1,4 @@
-m4_include(`common.m4')m4_dnl
+m4_include(`common.m4')
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
 "http://www.w3.org/TR/html4/strict.dtd">
 <html>
@@ -26,24 +26,25 @@ media="print">
 </head>
 <body>
 <div id="header">
-<div class="pageHeader">
-<a href="m4_root_dir/index.html" title="Home page.">
-<img src="m4_root_dir/images/home.png" width="16" height="16"
-alt="Home Icon"></a>
-<a href="m4_root_dir/articles/index.html"
-m4_ifelse(m4_page_section,`Articles',`class="highlight"')
-title="Notes on various topics.">Notes</a>
-<a href="m4_root_dir/software/index.html"
-m4_ifelse(m4_page_section,`Software',`class="highlight"')
-title="Source-code for some software.">Code</a>
-<a href="m4_root_dir/books/index.html"
-m4_ifelse(m4_page_section,`Books',`class="highlight"')
-title="Reviews of some books.">Books</a>
-<a href="m4_root_dir/archives/index.html"
-m4_ifelse(m4_page_section,`Archives',`class="highlight"')
-title="Archives of all posts from each year.">Posts</a>
-<a href="https://feeds.feedburner.com/rmathew" title="Feed for posts.">
-<img src="m4_root_dir/images/feed.png" width="16" height="16"
-alt="Feed Icon"></a>
+  <div class="pageHeader">
+    <a href="m4_root_dir/index.html" title="Home page.">
+    <img src="m4_root_dir/images/home.png" width="16" height="16"
+    alt="Home Icon"></a>
+    <a href="m4_root_dir/articles/index.html"
+    m4_ifelse(m4_page_section,`Articles',`class="highlight"')
+    title="Notes on various topics.">Notes</a>
+    <a href="m4_root_dir/software/index.html"
+    m4_ifelse(m4_page_section,`Software',`class="highlight"')
+    title="Source-code for some software.">Code</a>
+    <a href="m4_root_dir/books/index.html"
+    m4_ifelse(m4_page_section,`Books',`class="highlight"')
+    title="Reviews of some books.">Books</a>
+    <a href="m4_root_dir/archives/index.html"
+    m4_ifelse(m4_page_section,`Archives',`class="highlight"')
+    title="Archives of all posts from each year.">Posts</a>
+    <a href="https://feeds.feedburner.com/rmathew" title="Feed for posts.">
+    <img src="m4_root_dir/images/feed.png" width="16" height="16"
+    alt="Feed Icon"></a>
+  </div>
 </div>
-</div>
+<div id="main-copy">

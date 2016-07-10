@@ -4,7 +4,6 @@ m4_define(`m4_page_section',``About'')m4_dnl
 m4_dnl
 m4_include(`header.htm4')m4_dnl
 m4_dnl
-<div id="main-copy">
 m4_heading( `1', `intro', `Introduction')
 <div style="overflow: auto;">
 <img src="m4_root_dir/images/RanjitLogo.png" width="200" height="150"
@@ -59,6 +58,5 @@ I can also be found in various other places on the web including:
 </ul>
 <p>
 Et Cetera.
-</div>
 m4_dnl
 m4_include(`footer.htm4')m4_dnl

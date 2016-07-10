@@ -4,7 +4,6 @@ m4_define(`m4_page_section',``Books'')m4_dnl
 m4_dnl
 m4_include(`header.htm4')m4_dnl
 m4_dnl
-<div id="main-copy">
 m4_heading( `1', `ficbooks', `Fiction Books')
 m4_define( `m4_show_post_date', `false')m4_dnl
 m4_include_post(`2012', `wolfhall')
@@ -35,6 +34,5 @@ m4_include_post(`2011', `benaami')
 m4_include_post(`2010', `efeather')
 m4_include_post(`2006', `ybgfxnov')
 m4_include_post(`2004', `fps')
-</div>
 m4_dnl
 m4_include(`footer.htm4')m4_dnl

@@ -4,7 +4,6 @@ m4_define(`m4_page_section',``Articles'')m4_dnl
 m4_dnl
 m4_include(`header.htm4')m4_dnl
 m4_dnl
-<div id="main-copy">
 m4_toc
 m4_heading( `1', `email', `Email Server')
 <p>
@@ -344,6 +343,5 @@ The document that Sam used to
 understand how to set up usage quotas for users under Linux.
 </li>
 </ol>
-</div>
 m4_dnl
 m4_include(`footer.htm4')m4_dnl
