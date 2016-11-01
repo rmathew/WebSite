@@ -65,7 +65,8 @@ As computer programmers we tend to think of performance analysis as, say,
 measuring the execution time of our programme on a large data-set or the
 average of running it several times over an input data-set. Such
 grossly-misdirected efforts have prompted rants like the infamous
-&ldquo;<a href="http://www.zedshaw.com/essays/programmer_stats.html">Programmers
+&ldquo;<a
+href="https://zedshaw.com/archive/programmers-need-to-learn-statistics-or-i-will-kill-them-all/">Programmers
 Need to Learn Statistics or I Will Kill Them All</a>&rdquo; by Zed Shaw. Even
 if you are not a performance analyst by profession, as an engineer you need to
 know what to measure, how to measure it, how to analyse the measurements and

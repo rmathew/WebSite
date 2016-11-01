@@ -67,14 +67,12 @@ store and process such data is important in modern computing (just as
 it was in the old days) and a book like this cannot afford to leave
 it out.
 <p>
-Unlike many other text-books, the problems in the exercises further
-explore the topics introduced in the associated section instead of
-merely testing the reader's comprehension, some times providing
-more details or introducing a variant. Some of the problems use
-mostly-funny names for professors - the authors provide <a
-href="http://mitpress.mit.edu/algorithms/profjokes3e.asp">explanations
-for these names</a> in case you don't &ldquo;get it&rdquo;. The
-bibliography is quite extensive and useful when you want to find more
-information about a given topic.
+Unlike many other text-books, the problems in the exercises further explore the
+topics introduced in the associated section instead of merely testing the
+reader's comprehension, some times providing more details or introducing a
+variant. Some of the problems use mostly-funny names for professors - the
+authors provide explanations for these names in case you don't &ldquo;get
+it&rdquo;. The bibliography is quite extensive and useful when you want to find
+more information about a given topic.
 m4_end_post_rest
 m4_end_post

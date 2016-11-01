@@ -3,9 +3,37 @@ m4_define(`m4_post_title', `Good Math``,'' Bad Math')m4_dnl
 m4_include(`posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-I came to know of Mark Chu-Carroll's &quot;<a href="http://www.goodmath.org/blog/">Good Math, Bad Math</a>&quot; blog via <a href="http://jaortega.wordpress.com/2006/05/14/a-minsky-machine-to-play-with/">a post in "Programming Musings", the blog of José Antonio Ortega Ruiz</a>. Mark writes mostly about mathematics, the theoretical foundations of programming, debunking bad use of mathematics in popular and not-so-popular media, etc.
+I came to know of Mark Chu-Carroll's &quot;<a
+href="http://www.goodmath.org/blog/">Good Math, Bad Math</a>&quot; blog via <a
+href="http://jaortega.wordpress.com/2006/05/14/a-minsky-machine-to-play-with/">a
+post in &ldquo;Programming Musings&rdquo;, the blog of Jos&eacute; Antonio
+Ortega Ruiz</a>. Mark writes mostly about mathematics, the theoretical
+foundations of programming, debunking bad use of mathematics in popular and
+not-so-popular media, etc.
 <p>
-I find many of Mark's articles very interesting to read, though many others go way over the top of my head. Some of his recent articles that I found really interesting include one that shows how absurd arithmetic with Roman numerals can be, one on Poincar&eacute; Conjecture, some in the "Friday Pathological Programming Language" series, one on zero, one on <span style="font-style: italic;">i</span>, one on <span style="font-style: italic;">e</span>, one on &Phi;, one on &Omega;, one on &Pi;, one on continued fractions, etc. The <a href="http://goodmath.blogspot.com/">old home for the GM/BM blog</a> contains <em>many more</em> interesting and insightful articles on math and programming theory. What an amazing guy!
+I find many of Mark's articles very interesting to read, though many others go
+way over the top of my head. Some of his recent articles that I found really
+interesting include <a
+href="http://www.goodmath.org/blog/2006/08/16/roman-numerals-and-arithmetic/">one
+that shows how absurd arithmetic with Roman numerals can be</a>, <a
+href="http://www.goodmath.org/blog/2006/08/15/the-poincar-conjecture/">one on
+Poincar&eacute; Conjecture</a>, some in the <a
+href="http://www.goodmath.org/blog/category/good-math/pathological-programming/">&ldquo;Friday
+Pathological Programming Language&rdquo;</a> series, <a
+href="http://www.goodmath.org/blog/2006/07/21/zero/">one on zero</a>, <a
+href="http://www.goodmath.org/blog/2006/08/01/i-the-imaginary-number/">one on
+<i>i</i></a>, <a
+href="http://www.goodmath.org/blog/2006/08/02/e-the-unnatural-natural-number/">one
+on <i>e</i></a>, <a
+href="http://www.goodmath.org/blog/2006/08/08/the-golden-ratio/">one on
+&Phi;</a>, <a
+href="http://www.goodmath.org/blog/2006/08/07/my-favorite-strange-number/">one
+on &Omega;</a>, <a href="http://www.goodmath.org/blog/2006/08/14/115/">one on
+&Pi;</a>, <a
+href="http://www.goodmath.org/blog/2006/08/03/something-nifty-a-taste-of-simple-continued-fractions/">one
+on continued fractions</a>, etc. The <a href="http://goodmath.blogspot.com/">old
+home for the GM/BM blog</a> contains <em>many more</em> interesting and
+insightful articles on math and programming theory. What an amazing guy!
 <p>
 Highly recommended.
 <p>

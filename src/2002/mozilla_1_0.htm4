@@ -3,46 +3,26 @@ m4_define( `m4_post_title', `<i>Le Roi Est Mort`,' Vive Le Roi!</i>')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-The <a href="http://www.mozilla.org/releases/mozilla1.0/">1.0 release of
-Mozilla</a> has finally happened
-after almost <i>4.5 years</i> (January 1998 to June 2002) of development!
-I have been using it for around a year now and am a very happy
-user - do check it out yourself, if you haven't already,
-especially if you have used Netscape Communicator before.
-It has <a
-href="http://www.mozilla.org/start/1.0/guide/product.html#features">goodies</a> like the ability to block popups, tabbed browsing,
-the ability to block banner ads, proper support for modern web standards,
-availability on a large number of platforms, etc. that make life so much
-better for all of us web surfers. Check out some of the
-<a href="http://www.mozilla.org/start/1.0/demos.html">really cool stuff that
-Mozilla can do</a>!
+The 1.0 release of Mozilla has finally happened after almost <i>4.5 years</i>
+(January 1998 to June 2002) of development! I have been using it for around a
+year now and am a very happy user - do check it out yourself, if you haven't
+already, especially if you have used Netscape Communicator before.  It has
+goodies like the ability to block popups, tabbed browsing, the ability to block
+banner ads, proper support for modern web standards, availability on a large
+number of platforms, etc. that make life so much better for all of us
+web-surfers. Check out some of the really cool stuff that Mozilla can do!
 m4_begin_post_rest
 <p>
 For those already familiar with <a href="http://www.mozilla.org/">Mozilla</a>,
-do you know that you
-can change the splash screen shown by Mozilla on start-up by dropping a
-bitmap (BMP) image of your choice named &ldquo;<tt>mozilla.bmp</tt>&rdquo;
-(on Windows) into the Mozilla installation folder? My personal favourite
-is this one that goes very well with the &ldquo;Modern&rdquo; theme
-of Mozilla:
+do you know that you can change the splash screen shown by Mozilla on start-up
+by dropping a bitmap (BMP) image of your choice named
+&ldquo;<tt>mozilla.bmp</tt>&rdquo; (on Windows) into the Mozilla installation
+folder?
 <p>
-<div class="centred">
-<a href="http://www.lotekk.net/index.php?page=moz&amp;sub=splash">
-<img src="http://www.lotekk.net/mozilla/splash/splash_modern_chrome.png"
-alt="Mozilla Splash Screen">
-</a>
-</div>
-<p><div class="centred">
-<i>(Click on the image to visit the author's site and get other neat splash
-screen images.)</i>
-</div>
-<p>
-By the way, if you don't like that pale blue lizard icon that Mozilla
-uses everwhere, on Windows you can get
-<a href="http://www.grayrest.com/moz/resources/icons.shtml">grayrest's icon
-pack for Mozilla</a>, that
-makes it look <i>much</i> better. And don't forget to check out the
-growing number of cool themes (a.k.a. skins) for Mozilla!
+By the way, if you don't like that pale blue lizard icon that Mozilla uses
+everwhere, on Windows you can get grayrest's icon pack for Mozilla, that makes
+it look <i>much</i> better. And don't forget to check out the growing number of
+cool themes (a.k.a. skins) for Mozilla!
 <P>
 Finally, a big <b><tt>:-P</tt></b> to
 <a href="http://www.mozillaquest.com/">all</a>

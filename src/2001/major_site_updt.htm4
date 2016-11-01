@@ -3,27 +3,22 @@ m4_define( `m4_post_title', `Major Site Update')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-For an as yet unknown reason, all sorts of unlikely
-people visit my home page and <i>actually</i> give
-me feedback on how to improve this site even though
-there was absolutely <b>nothing</b>
-here. I decided to put something here so that
-I could at least <i>pretend</i> to understand why
-they would have visited my site.
+For an as yet unknown reason, all sorts of unlikely people visit my home page
+and <i>actually</i> give me feedback on how to improve this site even though
+there was absolutely <b>nothing</b> here. I decided to put something here so
+that I could at least <i>pretend</i> to understand why they would have visited
+my site.
 m4_begin_post_rest
 <p>
-On a suggestion from
-<a href="http://www.biancabroussard.com/">
-Bianca Broussard</a>, I decided to adopt a weblog
-style for these pages. Sloth, the greatest affliction
-of my life, prevents me from completely changing the
-site every now and then. Besides, I can pretend to be
+On a suggestion from Bianca Broussard, I decided to adopt a weblog style for
+these pages. Sloth, the greatest affliction of my life, prevents me from
+completely changing the site every now and then. Besides, I can pretend to be
 <i>in</i> with the current fad in home page design.
 <p>
-I have completely reorganised the site and have divided
-it into various sections of possible interest to the people
-who come to this site. The links at the top of my home page will take
-you to these sections. Let's hope I update this site regularly and people
-find it useful. I would love to hear from you on how I can improve this site.
+I have completely reorganised the site and have divided it into various
+sections of possible interest to the people who come to this site. The links at
+the top of my home page will take you to these sections. Let's hope I update
+this site regularly and people find it useful. I would love to hear from you on
+how I can improve this site.
 m4_end_post_rest
 m4_end_post

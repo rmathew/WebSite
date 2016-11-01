@@ -3,7 +3,27 @@ m4_define(`m4_post_title', `ICFP 2005 Programming Contest')m4_dnl
 m4_include(`posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-Yumpee and I participated in the <a href="http://icfpc.plt-scheme.org/">ICFP 2005 programming contest</a> over this weekend. The <a href="http://icfpc.plt-scheme.org/spec.html">problem</a> was quite interesting and quite open-ended in that one could keep trying different strategies and play them against each other to see how they fare. In the end however, we ran out of time and we could only submit rather rudimentary cops and robbers - a cop that walks about randomly on the map hoping to catch a robber by serendipity rather than by design, a robber that just tries to rob the nearest bank while trying to avoid cops with a two-level lookup and a robber that walks about randomly on the map merely avoiding running into cops.  In terms of the implementation choice, the only middle-ground for the two of us turned out to be C++. I wasted much of the time debugging silly problems that arose mainly because C++ and the STL do not seem to have been designed with comprehension for lesser mortals like me in mind. Oh and we leaked memory with a perverse and gleeful abandon! (And our memory footprint at the end of any match was still less than the default no-op cop written in PLT Scheme that came with the BDK.)  I really enjoyed the coding binge and it was funky trying to coordinate rapid coding with a fellow hacker in a timezone that was 12 hours behind. At the risk of forfeiting the judges' prize, we still have two weeks to tweak our code and implement better strategies before the other half of the problem is announced. However, I'll be bang in the middle of my vacation during that period so it will entirely be up to Yumpee alone.
+Yumpee and I participated in the ICFP 2005 programming contest over this
+weekend. The problem was quite interesting and quite open-ended in that one
+could keep trying different strategies and play them against each other to see
+how they fare. In the end however, we ran out of time and we could only submit
+rather rudimentary cops and robbers - a cop that walks about randomly on the
+map hoping to catch a robber by serendipity rather than by design, a robber
+that just tries to rob the nearest bank while trying to avoid cops with a
+two-level lookup and a robber that walks about randomly on the map merely
+avoiding running into cops.  In terms of the implementation choice, the only
+middle-ground for the two of us turned out to be C++. I wasted much of the time
+debugging silly problems that arose mainly because C++ and the STL do not seem
+to have been designed with comprehension for lesser mortals like me in mind. Oh
+and we leaked memory with a perverse and gleeful abandon! (And our memory
+footprint at the end of any match was still less than the default no-op cop
+written in PLT Scheme that came with the BDK.)  I really enjoyed the coding
+binge and it was funky trying to coordinate rapid coding with a fellow hacker
+in a timezone that was 12 hours behind. At the risk of forfeiting the judges'
+prize, we still have two weeks to tweak our code and implement better
+strategies before the other half of the problem is announced. However, I'll be
+bang in the middle of my vacation during that period so it will entirely be up
+to Yumpee alone.
 <p>
 (<a href="http://www.advogato.org/person/rmathew/diary/96.html">Originally posted on Advogato</a>.)
 m4_end_post

@@ -14,7 +14,7 @@ It was easy to obtain the historical closing prices of the two indices and the U
 <p>
 Using Gnuplot, I obtained the following chart:
 <p>
-<a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://3.bp.blogspot.com/_glrEiI4xsDc/Rn1aoyWEaII/AAAAAAAAABU/tUYWQUxikbA/s1600-h/plot.png"><img style="display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;" src="http://3.bp.blogspot.com/_glrEiI4xsDc/Rn1aoyWEaII/AAAAAAAAABU/tUYWQUxikbA/s320/plot.png" border="0" alt=""id="BLOGGER_PHOTO_ID_5079315611499391106" /></a>
+<img style="display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;" src="http://3.bp.blogspot.com/_glrEiI4xsDc/Rn1aoyWEaII/AAAAAAAAABU/tUYWQUxikbA/s320/plot.png" border="0" alt=""id="BLOGGER_PHOTO_ID_5079315611499391106" />
 <p>
 This gave me the desired answer right away!
 <p>

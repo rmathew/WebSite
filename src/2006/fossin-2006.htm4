@@ -3,9 +3,16 @@ m4_define(`m4_post_title', `FOSS.IN 2006')m4_dnl
 m4_include(`posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-<a href="http://foss.in/2006/">FOSS.IN/2006</a> will be held between November 24-26 at the J. N. Tata Auditorium in <a href="http://www.iisc.ernet.in/">IISc Bangalore</a>. This event used to be called "Linux Bangalore" and is justly touted as "India's Premier Annual Free and Open Source Software Event". It has been organised every year since 2001 by the Bangalore Linux Users' Group (<a href="http://www.blug.in/">BLUG</a>). Atul Chitnis's diary entry has some more information.
+FOSS.IN/2006 will be held between November 24-26 at the J. N. Tata Auditorium
+in <a href="http://www.iisc.ernet.in/">IISc Bangalore</a>. This event used to
+be called &ldquo;Linux Bangalore&rdquo; and is justly touted as
+&ldquo;India&apos;s Premier Annual Free and Open Source Software Event&rdquo;.
+It has been organized every year since 2001 by the Bangalore Linux Users&apos;
+Group (BLUG). Atul Chitnis&apos;s diary entry has some more information.
 <p>
-I have personally attended only two of these events and I regret not having attended more of these. <a href="http://foss.in/2005/">FOSS.IN/2005</a> was fairly good and mostly fun. I hope to be able to attend this year's event as well.
+I have personally attended only two of these events and I regret not having
+attended more of these. FOSS.IN/2005 was fairly good and mostly fun. I hope to
+be able to attend this year&apos;s event as well.
 <p>
 (<a href="http://rmathew.blogspot.com/2006/07/fossin-2006.html">Originally posted on Blogspot</a>.)
 m4_end_post

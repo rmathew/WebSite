@@ -3,7 +3,11 @@ m4_define(`m4_post_title', `Google India Code Jam (GICJ) 2005')m4_dnl
 m4_include(`posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-The newspaper advertisement yesterday announcing the <a href="http://www.topcoder.com/gicj05">Google India Code Jam for 2005</a> has created quite a stir here. Notwithstanding the bragging rights associated with winning a coding competition open to <i>the whole of South Asia</i>, it offers a total of 16,00,000 rupees in prize money to the top 50 coders and a chance of an offer of employment from Google.
+The newspaper advertisement yesterday announcing the Google India Code Jam for
+2005 has created quite a stir here. Notwithstanding the bragging rights
+associated with winning a coding competition open to <i>the whole of South
+Asia</i>, it offers a total of 1,600,000 rupees in prize money to the top 50
+coders and a chance of an offer of employment from Google.
 <p>
 (<a href="http://www.advogato.org/person/rmathew/diary/56.html">Originally posted on Advogato</a>.)
 m4_end_post

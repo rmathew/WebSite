@@ -158,7 +158,7 @@ by your change. Note that each such line is preceded by a
 real TAB character and <i>not</i> an &ldquo;equivalent&rdquo;
 number of spaces. For GNU projects, you can find all you
 need to know about writing <tt>ChangeLog</tt> entries
-<a href="http://www.gnu.org/prep/standards_40.html">here</a>.
+<a href="http://www.gnu.org/prep/standards/">here</a>.
 <p>
 If your patch fixes a reported GCC/GCJ bug, be sure to
 have a line like &ldquo;<tt>Fixes PR c++/7910</tt>&rdquo;
