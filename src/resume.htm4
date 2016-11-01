@@ -5,28 +5,22 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta http-equiv="Cache-Control" content="max-age=86400">
 <meta name="author" content="Ranjit Mathew">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>R&eacute;sum&eacute; of Ranjit Mathew</title>
 <style type="text/css">
 body {
-font-family: sans-serif;
-font-size: 10pt;
 color: black;
-background: white;
+background-color: whitesmoke;
+max-width: 50em;
 }
 h1 {
 text-align: center;
 }
 table.sumtab {
-margin-left: 4em;
+margin-left: 2em;
 border-collapse: collapse;
 border-style: solid;
 border-width: 1px;
-}
-th {
-background-color: lightgrey;
-border-style: solid;
-border-width: 1px;
-padding: 1ex;
 }
 td {
 padding: 0.5ex;
@@ -49,87 +43,67 @@ padding: 0.5ex;
 </head>
 <body>
 <h1>R&eacute;sum&eacute; of Ranjit Mathew</h1>
+<h2>Summary</h2>
+<p>
+A computer programmer and architect with a long and varied experience. At ease
+with both system and enterprise application development. Good written and oral
+communication skills.
 <p>
 <table class="sumtab">
 <tr>
-<th align="center" colspan="2">Basic Information</th>
-</tr>
-<tr>
-<td class="label">Name</td>
-<td align="left">Ranjit Mathew</td>
-</tr>
-<tr>
-<td class="label">Email Address</td>
-<td align="left">rmathew@gmail.com</td>
-</tr>
-<tr>
-<td class="label" valign="top">Professional Experience</td>
+<td class="label" valign="top">Experience</td>
 <td align="left">
 <table border="0" cellpadding="0">
 <tr>
-<td class="compr">&nbsp;</td>
-<td class="compr">&nbsp;</td>
-<td class="compr">
-<script type="text/javascript">
-<!--
-// Started my career on 01-Aug-1996; note that months are numbered 0-11.
-var startDate = new Date(1996, 7, 1);
-var today = new Date();
-var yearMillis = 1000 * 60 * 60 * 24 * 365;
-var years = (today.getTime() - startDate.getTime()) / yearMillis;
-document.write(years.toFixed(1) + " Years");
-//-->
-</script>
-</td>
-</tr>
-<tr>
 <td class="compr">Google</td>
 <td class="compr">&nbsp;</td>
-<td class="compr">&nbsp;(Apr 2012 - Present)</td>
+<td class="compr">&nbsp;(Apr &apos;12 - Present)</td>
 </tr>
 <tr>
 <td class="compr">Yahoo</td>
 <td class="compr">&nbsp;</td>
-<td class="compr">&nbsp;(May 2010 - Apr 2012)</td>
+<td class="compr">&nbsp;(May &apos;10 - Apr &apos;12)</td>
 </tr>
 <tr>
 <td class="compr">Oracle</td>
 <td class="compr">&nbsp;</td>
-<td class="compr">&nbsp;(Jan 2003 - May 2010)</td>
+<td class="compr">&nbsp;(Jan &apos;03 - May &apos;10)</td>
 </tr>
 <tr>
 <td class="compr">Headstrong</td>
 <td class="compr">&nbsp;</td>
-<td class="compr">&nbsp;(Apr 2002 - Jan 2003)</td>
+<td class="compr">&nbsp;(Apr &apos;02 - Jan &apos;03)</td>
 <tr>
 <td class="compr">Torry Harris</td>
 <td class="compr">&nbsp;</td>
-<td class="compr">&nbsp;(Nov 1998 - Mar 2002)</td>
+<td class="compr">&nbsp;(Nov &apos;98 - Mar &apos;02)</td>
 </tr>
 <tr>
 <td class="compr">IBM</td>
 <td class="compr">&nbsp;</td>
-<td class="compr">&nbsp;(Aug 1996 - Nov 1998)</td>
+<td class="compr">&nbsp;(Aug &apos;96 - Nov &apos;98)</td>
 </tr>
 </table>
 </td>
 </tr>
 <tr>
 <td class="label" valign="top">Education</td>
-<td align="left">Bachelor of Technology (CSE), 1992-1996,<br>
-Indian Institute of Technology (IIT), Kanpur</td>
+<td align="left">B. Tech. (CS&amp;E), 1996, IIT Kanpur</td>
+</tr>
+<tr>
+<td class="label">Email</td>
+<td align="left">rmathew@gmail.com</td>
+</tr>
+<tr>
+<td class="label">Web</td>
+<td align="left">http://rmathew.com/</td>
 </tr>
 </table>
-<h2>Summary</h2>
-<p>
-Computer programmer and architect with a long and varied experience. At ease
-with both system and enterprise application development. Good written and oral
-communication skills.
 <h2>Experience</h2>
 <h3>At Google:</h3>
 <ul>
 <li>
-<b>Apps For Work:</b> Enterprise search &amp; assist.
+<b>Cloud:</b> Enterprise search &amp; assist.
 </li>
 <li>
 <b>Search Infrastructure:</b> Systems that crawl, index and serve web-pages as
