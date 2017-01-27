@@ -27,7 +27,7 @@ then
   BOOK_CAT="$2"
 fi
 
-CURR_YEAR=`date +%Y`
+CURR_YEAR=${CURR_YEAR:-$(date +%Y)}
 if [ ! -f "$PWD/src/$CURR_YEAR/$PAGE_ID.htm4" ]
 then
   echo ERROR: Missing page \"src/$CURR_YEAR/$PAGE_ID.htm4\".

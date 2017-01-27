@@ -11,27 +11,27 @@
 # NOTE: It assumes that all the necessary sub-directories have already been
 # created on the FTP server.
 
-if [[ -z "$PUB_DIR" ]]
+if [ -z "$PUB_DIR" ]
 then
     echo ERROR: \"PUB_DIR\" has not been defined.
     exit 1
 fi
-if [[ ! -d "${PUB_DIR}" ]]
+if [ ! -d "${PUB_DIR}" ]
 then
     echo ERROR: \"${PUB_DIR}\" does not exist.
     exit 2
 fi
-if [[ -z "$FTP_HOST" ]]
+if [ -z "$FTP_HOST" ]
 then
     echo ERROR: \"FTP_HOST\" has not been defined.
     exit 3
 fi
-if [[ -z "$FTP_USER" ]]
+if [ -z "$FTP_USER" ]
 then
     echo ERROR: \"FTP_USER\" has not been defined.
     exit 4
 fi
-if [[ -z "$FTP_DIR" ]]
+if [ -z "$FTP_DIR" ]
 then
     echo ERROR: \"FTP_DIR\" has not been defined.
     exit 5
@@ -55,7 +55,7 @@ echo quit >> "${TEMP_SCR}"
 
 /bin/ftp -n -v "${FTP_HOST}" < "${TEMP_SCR}"
 
-if [[ -r "${TEMP_SCR}" ]]
+if [ -r "${TEMP_SCR}" ]
 then
     rm "${TEMP_SCR}"
 fi

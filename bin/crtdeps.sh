@@ -12,6 +12,7 @@ then
   exit 1
 fi
 
+CURR_YEAR=${CURR_YEAR:-$(date +%Y)}
 ORIG_DIR="$PWD"
 SRC_DIR="$(cd $1; pwd)"
 
@@ -161,7 +162,7 @@ do
       DIR="$(dirname $HTM4_FILE)"
     elif [ "$TMP" = "m4_current_year" ]
     then
-      DIR="$(date +%Y)"
+      DIR="${CURR_YEAR}"
     else
       DIR="$(echo $TMP | cut -f1 -d\' | cut -b2-)"
     fi
@@ -206,10 +207,10 @@ do
     TMP="$(echo $j | cut -f2 -d\, | cut -f1 -d\))"
     if [ "$TMP" = "m4_current_year" ]
     then
-      DIR="$(date +%Y)"
+      DIR="${CURR_YEAR}"
     elif [ "$TMP" = "m4_decr(m4_current_year" ]
     then
-      DIR="$(date -d '-1 year' +%Y)"
+      DIR="$(/usr/bin/expr ${CURR_YEAR} - 1)"
     else
       echo "ERROR: Unhandled argument \"$TMP\"."
       exit 1
