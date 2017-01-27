@@ -1,0 +1,41 @@
+m4_define(`m4_post_date', `2016-12-31')m4_dnl
+m4_define(`m4_post_title', `&ldquo;The Little Prince&rdquo;')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+Just like its eponymous hero, &ldquo;<a
+href="https://en.wikipedia.org/wiki/The_Little_Prince">The Little
+Prince</a>&rdquo; by <a
+href="https://en.wikipedia.org/wiki/Antoine_de_Saint-Exup%C3%A9ry">Antoine de
+Saint-Exup&eacute;ry</a> packs quite a punch in its tiny frame. Told from the
+viewpoint of a child looking at the adult world around him in perplexity, even
+though the narrator himself is an experienced pilot, it holds a lesson for all
+of us stuck in our respective rat-race who tend to forget the little things in
+our lives that actually provide joy and meaning to it.
+m4_begin_post_rest
+m4_display_book( `0156012197', `819062086X')
+<p>
+The narrator crashes his plane on the Sahara Desert where he meets a little
+prince who has left his (really tiny) home planet and has been visiting various
+little planets (except for Earth). The little prince tells him little stories
+of his visits to these planets, but at the end of all these adventures he
+ultimately regrets having left his planet and his beloved flower, with whom he
+had a little falling out. He realizes that tending to his little planet and his
+flower gave him the joy and the meaning that he was searching for elsewhere.
+<p>
+The worlds that the writer describes are fantastical and impossibly tiny, but
+these are allegorical, each meant to represent a particular point. You need to
+once again adopt the viewpoint of a child to really appreciate the world around
+you and the little things that really matter in your life. Almost all of us
+lose this viewpoint as we grow older and more &ldquo;mature&rdquo;, which is a
+mistake according to the author.
+<p>
+The writing in this small book is simple, but beautiful, even in translation.
+The author himself has provided simple, but effective, illustrations for the
+book that tie in very well with the stories and are in fact crucial in some
+cases. No wonder it has become a beloved bestseller around the world.
+<p>
+Read this little book if you haven&rsquo;t already; read it again if you have.
+We all need constant reminders of the lessons in this beautiful book.
+m4_end_post_rest
+m4_end_post
