@@ -8,6 +8,7 @@ m4_heading( `1', `ficbooks', `Fiction Books')
 m4_define( `m4_show_post_date', `false')m4_dnl
 m4_include_post(`2012', `wolfhall')
 m4_include_post(`2013', `bupbodies')
+m4_include_post(`2016', `afarm')
 m4_include_post(`2013', `freedom')
 m4_include_post(`2004', `hdm')
 m4_include_post(`2004', `sil')

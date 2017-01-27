@@ -12,11 +12,11 @@ fi
 if [ "$1" = "-d" ]
 then
   EMIT_DATES=true
-  SORT_CMD="sort -nr"
+  SORT_CMD="/usr/bin/sort -k1,1r -t:"
   shift 1
 else
   EMIT_DATES=false
-  SORT_CMD="cat"
+  SORT_CMD="/usr/bin/cat"
 fi
 
 if [ ! -d "$1" ]

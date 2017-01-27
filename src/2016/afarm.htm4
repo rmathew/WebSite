@@ -1,0 +1,41 @@
+m4_define(`m4_post_date', `2016-12-31')m4_dnl
+m4_define(`m4_post_title', `&ldquo;Animal Farm&rdquo;')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I had been meaning to read the book &ldquo;<a
+href="https://en.wikipedia.org/wiki/Animal_Farm">Animal Farm</a>&rdquo; by <a
+href="https://en.wikipedia.org/wiki/George_Orwell">George Orwell</a> for quite
+some time now, but had never gotten around to actually reading it, until now.
+The proximate stimulus to do so came after I listened to the &ldquo;<a
+href="http://www.bbc.co.uk/programmes/b07wgkz4">Animal Farm</a>&rdquo; episode
+of the excellent &ldquo;<a href="http://www.bbc.co.uk/programmes/b006qykl">In
+Our Time</a>&rdquo; podcast. I should have read it sooner, but as they say,
+better late than never.
+m4_begin_post_rest
+m4_display_book( `0451526341', `0143416316')
+<p>
+The book is an allegory for the excesses of communism in the former Soviet
+Union under <a href="https://en.wikipedia.org/wiki/Joseph_Stalin">Joseph
+Stalin</a>. It tells the story of the animals in Manor Farm rebelling against
+their human owners to establish a fairer farming commune run by the animals
+themselves. What starts off well slowly devolves into the excesses that
+communism has become infamous for. There are straight parallels between the key
+animal characters in the book and historical figures (read <a
+href="https://en.wikipedia.org/wiki/Animal_Farm">the corresponding Wikipedia
+article</a> for more details).
+<p>
+The beauty of the book lies in the way the author shows the devolution of the
+initially utopian establishment into the ultimate dystopia shown at the end of
+the book. Each of the steps seems plausible from the previous step and many of
+us can relate to chilling parallels in our own society. In particular, the
+power of propaganda and its use by the powers that be to shape public opinion,
+even the collective memory, to their own ends is something that every
+conscientious citizen needs to be acutely aware of.
+<p>
+Even though the book was initially written by the author to warn us about
+communism, you can see many of the same tactics in use in democratic nations.
+That is why, even after the fall of communism in most places, this book remains
+important and becomes a must-read for everyone everywhere.
+m4_end_post_rest
+m4_end_post
