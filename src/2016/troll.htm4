@@ -1,0 +1,37 @@
+m4_define(`m4_post_date', `2016-12-26')m4_dnl
+m4_define(`m4_post_title', `&ldquo;Troll&rdquo;')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+If you travel to Norway or become familiar with <a
+href="https://en.wikipedia.org/wiki/Norse_mythology">Norse mythology</a>, you
+will come across these kind-of-scary, kind-of-cute beings called &ldquo;<a
+href="https://en.wikipedia.org/wiki/Troll">Trolls</a>&rdquo; and their tales. It
+is therefore natural to be curious about these tales and that is why I picked
+up &ldquo;Troll&rdquo;, though in somewhat of a hurry. That turned out to be a
+mistake.
+m4_begin_post_rest
+m4_display_book( `8278910308', `_dummy_')
+<p>
+This book is an English translation of a Norwegian book that showcases some of
+the work of <a href="https://en.wikipedia.org/wiki/Theodor_Kittelsen">Theodor
+Kittelsen</a>, a famous Norwegian artist, as edited by Per Erik Borge. There
+are small excerpts from the corresponding Troll-tale alongside each artwork,
+but that&rsquo;s about it - you will not actually get to read a Troll-tale from
+start to finish. This is frustrating and was a <em>huge</em> disappointment to
+me as I was actually looking forward to read some Troll-tales.
+<p>
+There should definitely be a disclaimer from the publisher on the cover of this
+book saying that these are <em>not</em> actually Troll-tales, but a collection
+of the artwork of an artist famous for drawing them. Otherwise they are simply
+being irresponsible to the casual book-reader or tourist.
+<p>
+The book that I should have actually read is the classic &ldquo;<a
+href="https://en.wikipedia.org/wiki/Norwegian_Folktales">Norwegian
+Folktales</a>&rdquo; by Peter Christen Asbj&oslash;rnsen and J&oslash;rgen Moe,
+which was famously illustrated by Theodor Kittelsen, the artist featured in
+this book.
+<p>
+Beware!
+m4_end_post_rest
+m4_end_post
