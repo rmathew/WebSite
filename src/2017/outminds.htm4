@@ -1,0 +1,59 @@
+m4_define(`m4_post_date', `2017-02-15')m4_dnl
+m4_define(`m4_post_title', `&ldquo;Out Of Their Minds&rdquo;')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+&ldquo;<a href="http://cs.nyu.edu/shasha/outofmind.html">Out Of Their
+Minds</a>&rdquo; by <a href="https://en.wikipedia.org/wiki/Dennis_Shasha">Dennis
+Shasha</a> and Cathy Lazere is an early (<i>circa</i> 1995) book on the lives of
+then-living 15 influential computer scientists - some well-known among the
+students of Computer Science, some not quite so well-known. The stated aim of
+the book is to get these people to talk about their inspirations, their
+contributions and where they see the future of their field. As it was published
+just around the time the world-wide web was becoming popular and computers in
+general were becoming ubiquitous, it provides very interesting perspectives and
+historical background.
+m4_begin_post_rest
+m4_display_book( `0387982698', `0387982698')
+<p>
+The book is written in a clear and engaging manner, both for the lay person and
+the practising computer scientist. It does not shy from explaining some of the
+technical problems in order to illustrate the contributions of featured people.
+Readers are shown problems in, for example, graph theory, number theory, theory
+of computing, etc. that were solved by the featured computer scientists. The
+book thus does not insult the intelligence of the reader, unlike so many books
+that try to awkwardly straddle the human and technical aspects of their
+subjects and end up providing not much information about the technical
+contributions of the subjects in order to really appreciate them. Of course,
+the more serious reader will have to consult a technical paper or book to get
+even more details on a particular problem than those provided by this book,
+should they become curious about it.
+<p>
+The subjects of the book are divided into &ldquo;Linguists&rdquo;,
+&ldquo;Algorithmists&rdquo;, &ldquo;Architects&rdquo; and &ldquo;Sculptors Of
+Machine Intelligence&rdquo; - the last one being particularly awkward as the
+book was published just around the time that the last major <a
+href="https://en.wikipedia.org/wiki/AI_winter">AI Winter</a> was setting in.
+Except for the last category, this is pretty much how most of us practitioners
+would categorize computer scientists.
+<p>
+It is interesting to see how most of the subjects arrived at Computer Science
+in a roundabout way - most of them dallying with physics, mathematics, biology,
+etc. first before giving Computer Science a go. Of course, this probably
+reflects the fact that Computer Science wasn&rsquo;t yet a formal discipline at
+the time they were starting their careers. Nevertheless, they brought ideas
+and approaches from these more mature disciplines into this fledgling
+discipline and shaped it into what it is today. This cross-pollination has
+doubtless been helpful to the field. It is sad to this being lost in these days
+of narrow specializations and focus.
+<p>
+Apart from the insights this book provides into the lives and thoughts of these
+major computer scientists, it also provides a nice historical background to
+several of the discoveries and inventions in our field that I have not yet seen
+aggregated in such a way in any other book or paper. Just for that, it needs to
+be read by the serious student of Computer Science. Of course, even if you
+aren&rsquo;t such a person, but are curious about the lives and thinking of
+very smart people or how one of the most impactful fields of modern times was
+formed, you ought to read this book.
+m4_end_post_rest
+m4_end_post
