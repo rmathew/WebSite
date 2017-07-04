@@ -1,0 +1,42 @@
+m4_define(`m4_post_date', `2017-07-04')m4_dnl
+m4_define(`m4_post_title', `&ldquo;50 Greatest Short Stories&rdquo;')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+&ldquo;50 Greatest Short Stories&rdquo; is a book put together by <a
+href="http://www.terryobrien.in/">Terry O&rsquo;Brien</a> that contains stories
+all right, but reasonable people will very likely differ on whether these are
+really the &ldquo;greatest&rdquo; in this genre or whether some of them can
+even be called &ldquo;short&rdquo;. That said, everyone is likely to find an
+enjoyable and memorable story or two in here.
+m4_begin_post_rest
+m4_display_book( `8129137259', `8129137259')
+<p>
+I have enjoyed reading short stories for a while now, so it wasn&rsquo;t too
+surprising to see the usual suspects like O. Henry, Saki, Guy de Maupassant,
+Edgar Allan Poe, Anton Chekov, etc. and their more famous short stories in this
+collection. What <em>was</em> surprising was the varying quality of the stories
+in this collection - some of the stories make you wonder just what is happening
+or whether it can even be termed a &ldquo;story&rdquo;, leave alone one of the
+&ldquo;greatest&rdquo;.
+<p>
+Another surprising thing was the omission of some of the great story-writers
+like Roald Dahl or Isaac Asimov or indeed any of the modern writers - for some
+reason (copyright?), almost all the stories are from late 19<sup>th</sup> or
+early 20<sup>th</sup> century. They are also only written by Western European
+or American writers. So yes, the book <em>definitely</em> does not live up to
+its title - <i>caveat emptor</i>.
+<p>
+Set these caveats aside though and you are likely to get many hours of joy from
+reading this book. Most of the stories can be read in a single sitting, so you
+can read this book as and when you can find the time without having to carry
+around the context in your head. This makes the book more suitable to the
+present hurried times, though the winded and somewhat archaic language in
+some of the stories is likely to strain the attention of some readers.
+<p>
+The paperback version of the book is affordably-priced and is nicely-sized,
+which makes it a tempting purchase. If you are new to the short story genre,
+this makes for a nice sampler and hopefully a springboard for further
+exploration.
+m4_end_post_rest
+m4_end_post
