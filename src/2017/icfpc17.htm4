@@ -1,0 +1,73 @@
+m4_define(`m4_post_date', `2017-08-09')m4_dnl
+m4_define(`m4_post_title', `ICFPC 2017')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I participated in <a href="http://icfpcontest.org/">ICFPC 2017</a> this year
+after a gap of two years. As in <a
+href="m4_root_dir/2012/icfpc12.html">2012</a> and <a
+href="m4_root_dir/2015/icfpc15.html">2015</a>, the task this year seemed to be
+inspired by a game as well - specifically, <a
+href="https://en.wikipedia.org/wiki/Ticket_to_Ride_%28board_game%29">Ticket To
+Ride</a>, the board-game. You had to connect a few producer sites containing
+&ldquo;lambda mines&rdquo; to various other consumer sites interested in these
+&ldquo;lambdas&rdquo; along rivers connecting sites to one another (forming an
+undirected graph) by claiming one river per turn for a limited number of turns.
+You were pitted against one or more adversaries. It was quite fun, with some
+improvements over my performance at previous attempts at ICFPC, though not
+enough to make much of a dent.
+m4_begin_post_rest
+<p>
+Instead of continuing to be a masochist and writing the code in a low-level
+programming language like C or C++, I opted for a high-level programming
+language this time: <a href="https://www.python.org/">Python</a>. I also spent
+<em>much</em> less time writing a visualizer this year, postponing it as much
+as I reasonably could and even then writing just a bare-bones one using <a
+href="https://bitbucket.org/marcusva/py-sdl2/">PySDL2</a> and <a
+href="http://www.ferzkopp.net/Software/SDL2_gfx/Docs/html/index.html">SDL2_gfx</a>.
+Both these decisions let me explore the task more than I usually get to do.
+<p>
+Unfortunately however, I ended up spending an <em>inordinate</em> amount of
+time getting the <a
+href="https://github.com/icfpcontest2017/lambda-duct">lambda-duct</a>
+helper-program provided by the organizers to work on my system. Only the <a
+href="https://ocaml.org/">OCaml</a> sources of this tool were available
+initially and getting its entire set of direct and indirect dependencies working
+in order to be able to compile it was, in hindsight, a <em>lot</em> of effort
+wasted that would have been better spent writing such a tool myself. (The need
+for every programming language to have its own package-manager and for every
+tool and library to have far too many dependencies are rants I reserve for
+some other time.)
+<p>
+Even when it was finally running, it did not work for me for quite some more
+time due to what <a
+href="http://lists.inf.ed.ac.uk/pipermail/icfp-contest2017/2017-August/000079.html">ultimately
+turned out</a> to be the use of non-blocking input by it for the captured
+<code>stdin</code> of player programs. Combined with another half a day I had
+to give up due to some personal commitments, this resulted in a total loss of
+about one and a half days out of the three days we had for this contest. Ugh!
+<p>
+<img src="m4_root_dir/images/icfpc17.png" width="640" height="496"
+  style="display: block; margin: auto;" alt="Visualizer screen-shot.">
+<p>
+Once these hurdles were overcome though, it was quite a lot of fun banging up
+code to tackle the problem. The use of Python meant that I could ignore a lot
+of the messy details and just tackle the actual problem. My inner
+systems-programmer kept cringing from time to time at the egregious waste of
+resources the solution entailed, but it was surprisingly easy to shush him up.
+I had so much fun in fact, and so much that I still wanted to explore, but
+could not due to the lack of time, that I had to drag myself back to work on
+Tuesday and seemed to be having withdrawal symptoms.
+<p>
+I ended up with having completed (and submitted) only a <em>very naive</em>
+strategy before the contest ended. Even then, it was amusing to note that
+randomizing its behavior produced better scores than it did otherwise (possibly
+due to that blocking the opponent in its attempts to capture rivers).
+<p>
+The source-code for my attempt this year can be found <a
+href="https://bitbucket.org/rmathew/icfpc/src">on Bitbucket</a>, <a
+href="https://github.com/rmathew/icfpc/">on GitHub</a> and <a
+href="https://gitlab.com/rmathew/ICFPC">on GitLab</a>. You can find some other
+write-ups on <a href="https://www.reddit.com/r/icfpcontest/">/r/icfpcontest</a>.
+m4_end_post_rest
+m4_end_post
