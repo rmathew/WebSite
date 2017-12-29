@@ -1,0 +1,63 @@
+m4_define(`m4_post_date', `2017-12-27')m4_dnl
+m4_define(`m4_post_title', `&ldquo;Myth &equals; Mithya&rdquo;')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+&ldquo;Myth &equals; Mithya&rdquo; is &ldquo;a handbook of Hindu
+mythology&rdquo; written by the prolific Indian author <a
+href="https://en.wikipedia.org/wiki/Devdutt_Pattanaik">Devdutt Pattanaik</a>
+that seeks to gently guide the reader through the vast set of somewhat
+confusing myths that are generally considered to form this mythology. Through
+this process, the author expounds upon the underlying philosophical framework
+that binds this mythology.
+m4_begin_post_rest
+m4_display_book( `0143423320', `0143423320')
+<p>
+The author distinguishes between &ldquo;God&rdquo; and &ldquo;god&rdquo; - the
+former being manifestations of the infinite divine and the latter being finite
+forms of the divine - Brahma, Vishnu, and Shiva are Gods, while there are
+330 million gods and goddesses like Indra, Agni, Vayu, etc. The three chapters
+in the book revolve around the three Gods, respectively symbolizing the
+creation, protection, and destruction of the universe. Even though the author
+insists that you can read the chapters in any order, it is better to tackle
+them sequentially, at least on a first reading.
+<p>
+Each chapter explores various aspects of the respective God, introduces sundry
+associated gods and goddesses and is peppered with tables, figures, diagrams,
+and tales from various sources to enliven the text. I found the tales to be
+nice and revelatory, the tables mostly tolerable, and the diagrams to be
+mostly irritating.
+<p>
+Many of the tables seem quite forced and look as if written by a middle-school
+student answering a question of the form &ldquo;What are the main differences
+between god A and god B? List at least ten.&rdquo; Most of the diagrams
+confound rather than inform - there are some truly bizarre diagrams here that
+left me scratching my head (e.g. the one contrasting the rattle-drum of Shiva
+and the discus of Vishnu). Together with some of the grammatical errors and
+errors of composition visible in the text, this makes me wonder if there was
+even a copy editor assigned to this book, let alone a capable editor.
+<p>
+The author avoids using italics, unlike the usual practice, to denote
+non-English words in the text. This gets quite confusing when terms like
+&ldquo;sat&rdquo; (the absolute truth) are used, which are also common English
+words. It would have also helped a lot if such terms were also written in the
+Devanagari script (apart from Latin), at least for the first occurrence or even
+in the glossary provided in the end, to help the (I guess the majority of)
+readers who could benefit from such an aide.
+<p>
+The book is quite small and assumes a general familiarity with the major Hindu
+epics (or at least their story-arcs and <i>dramatis personae</i>). It generally
+plays safe and does not tread into any controversial topics (unlike <a
+href="m4_root_dir/2014/thehindus.html">The Hindus</a>). The general impression
+one gets from reading this book is that of a single philosophical framework
+underlying Hinduism with only minor disagreements here and there among its
+adherents, which is in stark contrast to what seems to be the reality across
+millennia.
+<p>
+If you are an Indian, especially one whose only exposure to Hindu mythology
+has been through TV-series, films, or <a
+href="https://www.amarchitrakatha.com/">Amar Chitra Katha</a> comics, you
+ought to read this book to get a bigger picture and for exposure to the aspects
+of this mythology that such media coyly omit.
+m4_end_post_rest
+m4_end_post
