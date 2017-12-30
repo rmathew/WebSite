@@ -1,0 +1,60 @@
+m4_define(`m4_post_date', `2017-12-29')m4_dnl
+m4_define(`m4_post_title', `&ldquo;Cloud Atlas&rdquo;')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I first read about <a
+href="https://en.wikipedia.org/wiki/Cloud_Atlas_%28novel%29">&ldquo;Cloud
+Atlas&rdquo;, the novel</a>, when I came across <a
+href="https://en.wikipedia.org/wiki/Cloud_Atlas_%28film%29">&ldquo;Cloud
+Atlas&rdquo;, the film</a>. Written by <a
+href="https://en.wikipedia.org/wiki/David_Mitchell_%28author%29">David
+Mitchell</a>, it turns out to be more a collection of six linked stories than
+what is traditionally called a novel. The author has referred to these stories
+elsewhere as forming a <a
+href="https://en.wikipedia.org/wiki/Matryoshka_doll">Matryoshka doll</a> of
+tales of reincarnation spread across space and time.
+m4_begin_post_rest
+m4_display_book( `0375507256', `0340822783')
+<p>
+Programmers might be more comfortable with an analogy with a <a
+href="https://en.wikipedia.org/wiki/Stack_%28abstract_data_type%29">stack</a>
+and Last-In, First-Out (LIFO) order of completion. All the stories, except the
+innermost story, are interrupted at a crucial point in the story to start the
+next story and they then resume in the reverse order in the second half of the
+book.
+<p>
+(As an aside, I was not aware that this was a deliberate tactic - I thought
+there was a printing error in the copy I was reading, as the first story is
+literally interrupted in the middle of a sentence - only by quickly leafing
+through the rest of the book did I realize what was happening. I imagine this
+would have been really difficult to do in an eBook.)
+<p>
+All the stories are narrated by someone - as diary-entries, as letters, as a
+manuscript, as a testimony, orally, etc. - and they observe the immediate outer
+story by reading it, watching it, etc. Either the main character or an
+important supporting character in a given story is a reincarnation of someone
+from the outer story, indicated by a special birthmark or by episodes of
+<i>deja vu</i>.
+<p>
+The stories are narrated in the form of English that might plausibly be used by
+the characters of that time, with stories set in the future employing imagined
+variants. For example, the story set in a near future uses a language full
+of <a href="https://en.wikipedia.org/wiki/Generic_trademark">genericized
+trademarks</a> (e.g. &ldquo;fords&rdquo; for &ldquo;cars&rdquo;,
+&ldquo;nikes&rdquo; for &ldquo;shoes&rdquo;, etc.). This sometimes creates
+problems in reading them though - the story set in the 19<sup>th</sup> century
+had me reaching for the dictionary many a time and that set in a
+post-apocalyptic future was very difficult to read due to the numerous
+contractions and substitute-words.
+<p>
+All the stories are interesting by themselves, but beyond the thread of
+reincarnation, there is not <i>that much</i> intertwining them, nor is the book
+as a whole as groundbreaking as it would seem from the reception it got. The
+book did make much more sense to me than the eponymous film though. I still
+do not know why it was titled &ldquo;Cloud Atlas&rdquo;. In short, I did not
+understand the brouhaha about the book and the film. Perhaps I missed something
+here that was obvious to the others. Perhaps it was a triumph of a marketing
+machine. Whatever.
+m4_end_post_rest
+m4_end_post
