@@ -1,0 +1,38 @@
+m4_define(`m4_post_date', `2017-12-31')m4_dnl
+m4_define(`m4_post_title', `&ldquo;After The Quake&rdquo;')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+&ldquo;<a href="https://en.wikipedia.org/wiki/After_the_Quake">After The
+Quake</a>&rdquo; is a collection of six short stories by <a
+href="https://en.wikipedia.org/wiki/Haruki_Murakami">Haruki Murakami</a>
+(translated into English from the original Japanese by <a
+href="https://en.wikipedia.org/wiki/Jay_Rubin">Jay Rubin</a>). All the stories
+in this collection are linked in some way or another to the <a
+href="https://en.wikipedia.org/wiki/Great_Hanshin_earthquake">Kobe
+earthquake</a> in 1995 and take place some time after that. The characters in
+the stories are not physically affected by the earthquake, but the news of the
+destruction unleashed by the earthquake affect them in some way.
+m4_begin_post_rest
+m4_display_book( `0375713271', `0099448564')
+<p>
+The stories are not traditional short stories, so they do not make much sense
+on a superficial reading - one has to read between the lines to understand
+what the author is trying to convey or attach one&rsquo;s own interpretation
+to them based on personal experiences. This would <i>not</i> therefore be
+everyone&rsquo;s cup of tea.
+<p>
+That said, a couple of the stories in this collection left me completely
+baffled (e.g. &ldquo;Super-Frog Saves Tokyo&rdquo;) - either I am too dumb to
+understand them or I think the author was trying to be too clever with these
+stories. To be honest, I did not enjoy the stories in this collection. To be
+uncharitable, I think they are a little too pretentious for my taste. I am
+unlikely to pick up anything else written by the author any time soon.
+<p>
+By the way, a neat thing about the English translation (and the particular
+edition I was reading) is that almost all of the stories took up exactly 20
+pages, with the last story taking up exactly 30 pages. Surely this cannot be
+due to coincidence alone, but why the author/translator chose to do this, I do
+not know.
+m4_end_post_rest
+m4_end_post
