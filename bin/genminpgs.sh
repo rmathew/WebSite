@@ -36,7 +36,7 @@ fi
 
 if [ -n "$BOOK_CAT" ]
 then
-  BOOK_IMG="books/images/$PAGE_ID.jpg"
+  BOOK_IMG="$CURR_YEAR/$PAGE_ID.jpg"
   if [ ! -f "$PWD/src/$BOOK_IMG" ]
   then
     echo ERROR: Missing book-cover image \"src/$BOOK_IMG\".

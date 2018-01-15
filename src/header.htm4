@@ -28,7 +28,7 @@ media="print">
 <div id="header">
   <div class="pageHeader">
     <a href="m4_root_dir/index.html" title="Home page.">
-    <img src="m4_root_dir/images/home.png" width="16" height="16"
+    <img src="m4_root_dir/home.png" width="16" height="16"
     alt="Home Icon"></a>
     <a href="m4_root_dir/articles/index.html"
     m4_ifelse(m4_page_section,`Articles',`class="highlight"')
@@ -43,7 +43,7 @@ media="print">
     m4_ifelse(m4_page_section,`Archives',`class="highlight"')
     title="Archives of all posts from each year.">Posts</a>
     <a href="http://rmathew.com/atom.xml" title="Feed for posts.">
-    <img src="m4_root_dir/images/feed.png" width="16" height="16"
+    <img src="m4_root_dir/feed.png" width="16" height="16"
     alt="Feed Icon"></a>
   </div>
 </div>

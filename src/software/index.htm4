@@ -44,7 +44,7 @@ called Redcode and are run by a tool called Memory Array Redcode Simulator
 you the basics of Core War. The current version of ZINC is 0.1 and runs on
 at least Linux and Windows.
 <div class="centred">
-<img src="images/zincscr.png" alt="ZINC Screenshot">
+<img src="zincscr.png" alt="ZINC Screenshot">
 </div>
 <p>
 <a href="https://bitbucket.org/rmathew/zinc/downloads"><b>Download
@@ -64,7 +64,7 @@ and the models were created by
 The program uses OpenGL/SDL and runs on Windows and Linux. See the included
 &ldquo;README&rdquo; file for more details.
 <div class="centred">
-<img src="images/vtscr.png" alt="VirtualTaj Screenshot">
+<img src="vtscr.png" alt="VirtualTaj Screenshot">
 </div>
 <p>
 <a href="https://bitbucket.org/rmathew/virtualtaj/downloads"><b>Download

@@ -58,8 +58,7 @@ m4_define(
   [[m4_display_book]],
   [[
     <div class="book_display">
-    <img src="m4_root_dir/books/images/m4_post_id.jpg"
-      alt="Cover of m4_post_title">
+    <img src="m4_post_id.jpg" alt="Cover of m4_post_title.">
     m4_ifelse(
       $1,
       _dummy_,
@@ -67,7 +66,7 @@ m4_define(
       <br>
       <a href="http://www.amazon.com/gp/product/$1?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=$1"
 	style="text-decoration: none;">
-      <img src="m4_root_dir/books/images/buy_amz_us.gif" width="120" height="28"
+      <img src="m4_root_dir/books/buy_amz_us.gif" width="120" height="28"
         alt="Buy from Amazon.com">
       </a>
       <img src="http://ir-na.amazon-adsystem.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=$1" width="1" height="1" alt="" style="border:none; margin:0px;">
@@ -79,7 +78,7 @@ m4_define(
       <br>
       <a href="http://www.amazon.in/gp/product/$2?ie=UTF8&amp;tag=rmathew-21&amp;linkCode=as2&amp;camp=3626&amp;creative=24790&amp;creativeASIN=$2"
 	style="text-decoration: none;">
-      <img src="m4_root_dir/books/images/buy_amz_in.gif" width="120" height="28"
+      <img src="m4_root_dir/books/buy_amz_in.gif" width="120" height="28"
         alt="Buy from Amazon.in">
       </a>
       <img src="http://ir-in.amazon-adsystem.com/e/ir?t=rmathew-21&amp;l=as2&amp;o=31&amp;a=$2" width="1" height="1" alt="" style="border:none; margin:0px;">
