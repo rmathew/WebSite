@@ -1,0 +1,56 @@
+m4_define(`m4_post_date', `2018-01-15')m4_dnl
+m4_define(`m4_post_title', `&ldquo;Tamil Pulp Fiction: Volume 1&rdquo;')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+&ldquo;The Blaft Anthology Of Tamil Pulp Fiction&rdquo; is the first in what
+turned out to be a series of anthologies published by <a
+href="https://www.blaft.com/">Blaft</a>, comprising short stories and excerpts
+from short novels, originally in Tamil, and considered to be &ldquo;pulp
+fiction&rdquo; by the literati. The first volume has been selected and
+translated by Pritham K. Chakravarthy (and edited by Rakesh Khanna). Its intent
+is best summarized by the first sentence of the translator&rsquo;s note, which
+claims that it is &ldquo;an attempt to claim the status of
+&lsquo;literature&rsquo; for a huge body of writing that has rarely if ever
+made it into an academic library, despite having been produced for nearly a
+century&rdquo;.
+m4_begin_post_rest
+m4_display_book( `8190605607', `9380283911')
+<p>
+Does it succeed in this ambitious goal? Not <em>quite</em>, in my opinion,
+though it does bring to the fore many an author otherwise unknown to the
+non-Tamil-speaking population. Judging by the popularity of the book and its
+sequels, it seems to have found an enthusiastic readership who find its
+content entertaining. I enjoyed some of the stories in the book, while others
+left me indifferent. On the whole however, I am glad that such a book was
+published. (As an aside, why this obsession with being included in an academic
+library? Most of the books in an academic library, in my experience, seem to be
+unbearably dull.)
+<p>
+Pulp fiction authors in many a language are extremely prolific and boast of
+sales that mainstream authors can only dream of. For example, the author Rajesh
+Kumar, included in this anthology, claims to have published over 1,250 novels
+and over 2,000 short stories at the time and was still going strong, with each
+of his novels selling over 100,000 copies. This is an incredible output and
+sales-record by any standard. Despite their obvious popularity, the so-called
+cultured people shun them and their books, not considering them worthy of the
+label &ldquo;literature&rdquo;.
+<p>
+Apart from the stories themselves, this book also includes cover-art from some
+of these books, photographs of the authors, sketches from the books, quirky
+question-and-answers between readers and the authors, etc. that really enliven
+this book. It also includes short biographical notes on each of the featured
+authors as well as a &ldquo;Notes&rdquo; section at the end that provides a
+glossary of terms that might be unfamiliar to non-Tamil-speaking readers. This
+is an unconventional book about an unconventional subject to be sure.
+<p>
+Even if you set aside your prejudices and consider the stories for what they
+are instead of where they come from, you have to admit that some of them are
+far too simplistic and/or lackluster. For example, most of the detective
+stories included here follow reasonings that defy logic and feature
+irritatingly-chauvinistic heros. You can blame that on aggressive
+publication-schedules or low royalties or the need to adapt to the target
+readership or something else. These are quick-reads, suitable to while away
+your time, but are rarely memorable, except for the occasional gem.
+m4_end_post_rest
+m4_end_post
