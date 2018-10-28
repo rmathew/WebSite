@@ -1,0 +1,65 @@
+m4_define(`m4_post_date', `2018-07-24')m4_dnl
+m4_define(`m4_post_title', `ICFPC 2018')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I took part in <a href="http://2018.icfpcontest.org/">ICFPC 2018</a> this year
+to continue what has now become a tradition for me, though one that is not
+observed as regularly as I would like to. The task this year was similar to <a
+href="https://en.wikipedia.org/wiki/3D_printing">3D Printing</a> a set of
+objects based on models representing the respective objects, while minimizing
+the overall cost. A solution for the problem of printing such an object would
+emit instructions for one or more &ldquo;nanobots&rdquo; to create the object
+by creating matter in a three-dimensional matrix of voxels. It was fun to watch
+these nanobots assemble such objects in my model-viewer, though it would
+definitely have been more fun to actually come up with a decent
+<em>solution</em> as well for this problem in the given time.
+m4_begin_post_rest
+<p>
+As in <a href="m4_root_dir/2017/icfpc17.html">2017</a>, I picked a higher-level
+programming-language compared to C or C++ to tackle the problem this time: <a
+href="https://golang.org/">Go</a>. I am quite new to this language, but it
+turned out to be simple enough to pick up, thanks to the <a
+href="https://tour.golang.org/">Go Tour</a>, and start building programs. I
+built a viewer for the models using the <a
+href="https://github.com/veandco/go-sdl2">go-sdl2</a> package, which turned out
+to have a straightforward API.
+<p>
+<img src="icfpc18.png" width="640" height="492"
+  style="display: block; margin: auto;" alt="Model-viewer screen-shot.">
+<p>
+As has been observed by many others, Go seems to be language without fancy
+bells and whistles, but it still makes programming fun while providing a good
+enough performance through its compiler and runtime. Its <a
+href="https://golang.org/pkg/">standard library</a> seems to be quite compact
+compared to some other languages (&ast;cough&ast; Java &ast;cough&ast;) while
+providing a lot of useful, well-designed, and well-documented functions and
+data-structures. In other words, Go might turn out to be a good language for me
+to do casual programming. (Unlike apparently many others, the lack of generics
+in Go is <em>not</em> a deal-breaker for me &mdash; it has never been one for
+me in the programming-languages that I have used, though a couple of them did
+eventually end up supporting generics.)
+<p>
+What I did not like about Go (apart from its insistence on using TABs &ndash;
+<a href="m4_root_dir/2006/confessions-of-tab-hater.html">yuck!</a>), was the
+contortions I had to go through to satisfy its weird workspace-layout diktat. I
+refused to change my preferred source-code layout, so this meant playing with
+setting <code>GOPATH</code> again and again until it could satisfy all parties.
+Thankfully it seems that with <a
+href="https://github.com/golang/go/wiki/Modules">Modules</a> in Go 1.11 this
+madness might come to an end. (I also found it weird to use an upper-case first
+letter to indicate an exported symbol, but I can live with that.)
+<p>
+As for the task itself, I did not progress beyond creating the model-viewer
+and an execution-tracer. As has become a depressing pattern during each such
+ICFPC attempt, I spend far more time creating a visualizer for the problem than
+creating a solution for it. I need to find a way to break out of this bad habit
+of active procrastination.
+<p>
+The source-code for my attempt this year can be found <a
+href="https://bitbucket.org/rmathew/icfpc/src">on Bitbucket</a>, <a
+href="https://github.com/rmathew/icfpc/">on GitHub</a>, and <a
+href="https://gitlab.com/rmathew/ICFPC">on GitLab</a>. You can find some other
+write-ups on <a href="https://www.reddit.com/r/icfpcontest/">/r/icfpcontest</a>.
+m4_end_post_rest
+m4_end_post

@@ -3,8 +3,8 @@ m4_define(`m4_post_title', `ICFPC 2017')m4_dnl
 m4_include(`posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-I participated in <a href="http://icfpcontest.org/">ICFPC 2017</a> this year
-after a gap of two years. As in <a
+I participated in <a href="http://2017.icfpcontest.org/">ICFPC 2017</a>
+this year after a gap of two years. As in <a
 href="m4_root_dir/2012/icfpc12.html">2012</a> and <a
 href="m4_root_dir/2015/icfpc15.html">2015</a>, the task this year seemed to be
 inspired by a game as well - specifically, <a

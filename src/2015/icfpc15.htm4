@@ -4,8 +4,8 @@ m4_include(`posttrans.m4')m4_dnl
 m4_begin_post
 <p>
 After a gap of three years, I attempted to do the task for <a
-href="http://icfpcontest.org/">ICFPC 2015</a>. The task was to write a program
-that could play a game of (what was essentially) hexagonal <a
+href="http://2015.icfpcontest.org/">ICFPC 2015</a>. The task was to write a
+program that could play a game of (what was essentially) hexagonal <a
 href="https://en.wikipedia.org/wiki/Tetris">Tetris</a> with a few twists. There
 was a time-limit of 72 hours to finish this task in any programming language on
 almost any platform. As usual, by the end of the third day I was quite far from
