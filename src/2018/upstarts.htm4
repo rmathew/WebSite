@@ -1,0 +1,55 @@
+m4_define(`m4_post_date', `2018-11-10')m4_dnl
+m4_define(`m4_post_title', `&ldquo;The Upstarts&rdquo;')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+&ldquo;<a href="https://en.wikipedia.org/wiki/The_Upstarts">The
+Upstarts</a>&rdquo; is a book by <a
+href="https://en.wikipedia.org/wiki/Brad_Stone_%28journalist%29">Brad Stone</a>
+on the start-ups <a href="https://www.airbnb.com/">Airbnb</a> and <a
+href="https://www.uber.com/">Uber</a>, chronicling their foundation, growth, and
+travails till October 2016. Both start-ups have disrupted deeply-regulated
+industries around the world (hotels and taxis, respectively), grown
+spectacularly since their foundation, seen unprecedented investment and heady
+valuations, inspired several copycat companies that have not managed to
+overthrow them yet, and have faced heated opposition from both local
+governments and the entrenched incumbents wherever they launched. They are thus
+very similar to each other, even having been founded around the same time, and
+it therefore makes sense to study them together as is done in this book by a
+seasoned journalist.
+m4_begin_post_rest
+m4_display_book( `0316388416', `0593076354')
+<p>
+The 12 chapters of the book are divided into three parts &ndash; &ldquo;Side
+Projects&rdquo;, &ldquo;Empire Building&rdquo;, and &ldquo;The Trial Of The
+Upstarts&rdquo; &ndash; each part describing a particular phase in the life
+of each of these start-ups, alternating between the two start-ups somewhat
+erratically in each part. If you are an aspiring start-up entrepreneur, this
+book can either be quite inspiring or somewhat dispiriting depending on your
+aptitude.
+<p>
+The first part is especially enlightening, if all you knew about these
+companies and the early people associated with them was from their own
+air-brushed founding-myths repeated mindlessly by a generation of writers. I,
+for one, did not know about the early connections between the founders of these
+start-ups and how they stayed in touch as well as learned from each other over
+the years.
+<p>
+The book is an easy read, though it does get a bit tedious repeatedly talking
+about very similar, but somewhat different, events in the life of these
+start-ups. Even then, the book completely elides talking about Uber&rsquo;s
+battle with <a href="https://www.olacabs.com/">Ola</a> in India, another
+potentially-large market for it like China, where Uber has done relatively well
+unlike its fate against (what has now become) <a
+href="https://www.didiglobal.com/">Didi Chuxing</a> in China.
+<p>
+As these start-ups are still growing and expanding around the world, as well as
+facing even more serious challenges (in particular, the allegations of sexual
+harassment by <a href="https://en.wikipedia.org/wiki/Susan_Fowler">Susan
+Fowler</a> that eventually led to the ouster of <a
+href="https://en.wikipedia.org/wiki/Travis_Kalanick">Travis Kalanick</a> and
+other high-profile executives at Uber), this book is necessarily incomplete. We
+might perhaps see a new edition a few years down the line, or at the very least
+a much-expanded Epilogue.
+m4_end_post_rest
+m4_end_post

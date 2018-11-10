@@ -65,5 +65,6 @@ m4_include_post(`2012', `intheplex')
 m4_include_post(`2010', `hfstats')
 m4_include_post(`2008', `calcwars')
 m4_include_post(`2007', `srch')
+m4_include_post(`2018', `upstarts')
 m4_dnl
 m4_include(`footer.htm4')m4_dnl
