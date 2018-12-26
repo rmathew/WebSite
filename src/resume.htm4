@@ -103,7 +103,12 @@ communication skills.
 <h3>At Google:</h3>
 <ul>
 <li>
-<b>Cloud:</b> Enterprise search &amp; assist.
+<b>Maps UGC:</b> Automatic moderation and curation of user-submitted content
+using an ensemble of Machine Learning Models, heuristics, policies, etc.
+</li>
+<li>
+<b>Cloud Search:</b> Providing enterprise search and assist by crawling and
+indexing the content on first-party and third-party cloud-storage.
 </li>
 <li>
 <b>Search Infrastructure:</b> Systems that crawl, index and serve web-pages as

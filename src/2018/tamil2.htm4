@@ -1,0 +1,42 @@
+m4_define(`m4_post_date', `2018-12-26')m4_dnl
+m4_define(`m4_post_title', `&ldquo;Tamil Pulp Fiction: Volume 2&rdquo;')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+&ldquo;Tamil Pulp Fiction: Volume 2&rdquo; is the second in the &ldquo;Blaft
+Anthology Of Tamil Pulp Fiction&rdquo; series of anthologies published by <a
+href="https://www.blaft.com/">Blaft</a>. I had read <a
+href="m4_root_dir/2018/tamil1.html">Volume 1</a> earlier in the year &mdash;
+this volume is fairly similar, except for having longer stories. Similar to the
+first volume, the stories in this volume have been selected and translated by
+Pritham K. Chakravarthy (and have been edited by Rakesh Khanna). Once again, it
+includes cover-art from various Tamil pulp-fiction books as well as short
+biographical notes on each of the featured authors. However, this volume
+didn&rsquo;t quite work for me and was a disappointment on the whole.
+m4_begin_post_rest
+m4_display_book( `_dummy_', `9380636008')
+<p>
+The first novella, &ldquo;The Palace Of Kottaipuram&rdquo; by Indra Soundar
+Rajan, was fairly gripping. Because it was originally published as a series in
+a weekly magazine, one chapter at a time, each chapter ends in a cliffhanger in
+order to maintain the interest of the reader in reading the next issue of the
+magazine. This gives the plot a cadence that some people might find irritating,
+but it worked pretty well for me &mdash; I couldn&rsquo;t put down the book
+until I had finished this novella.
+<p>
+Quite unfortunately, the book rapidly goes downhill from there with the rest of
+the stories varying from being merely bad to being utter garbage. There are a
+couple of very bad horror-stories thrown in that just promote mindless
+superstition, as if this was not a bad enough problem for the country. There is
+a story with a bad plot presented as badly-drawn comics. You can immediately
+visualize some of the stories as the scripts for B-grade or C-grade movies. I
+kept going from story to story in the hope of finding another one that could
+redeem this volume like the first one, but in the end it was just all bad
+throughout the rest of the book.
+<p>
+It is one thing to romanticize the genre of regional pulp-fiction, quite
+another to then go on to pick some very bad examples and hold them up as
+&ldquo;literature&rdquo;. Surely this genre deserves better exposure than this
+disaster of a sampler. Disappointed.
+m4_end_post_rest
+m4_end_post
