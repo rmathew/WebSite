@@ -1,0 +1,93 @@
+m4_define(`m4_post_date', `2018-12-28')m4_dnl
+m4_define(`m4_post_title', `&ldquo;What The Dormouse Said&rdquo;')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+&ldquo;<a href="https://en.wikipedia.org/wiki/What_the_Dormouse_Said">What The
+Dormouse Said</a>&rdquo; by John Markoff is an intruiging account of how the
+milieu of the <a
+href="https://en.wikipedia.org/wiki/Counterculture_of_the_1960s">counterculture</a>
+movement in the San Francisco Bay Area of the 1960s shaped the evolution of the
+modern personal computer. In particular, it explores the effect of psychedelic
+drugs like LSD, anti-war protests, and the culture of sharing on the pioneers
+of this area of computing. In parts poignant, insightful, and funny, this book
+is a worthy complement to the two other great books on the history of personal
+computers &mdash; &ldquo;Fire In The Valley&rdquo; by Paul Freiberger &amp;
+Mike Swaine, and &ldquo;Hackers&rdquo; by Steven Levy.
+m4_begin_post_rest
+m4_display_book( `0143036769', `0143036769')
+<p>
+The 1960s seems to have been a heady (in more ways than one) time to be in the
+San Francisco Bay Area and more specifically in its Midpeninsula. People were
+trying to avoid being drafted (a pressing concern for a <em>lot</em> of the
+characters in this book) into the Vietnam War, staging protests against the
+war, &ldquo;expanding&rdquo; their minds by using pschedelic drugs, exploring
+&ldquo;free love&rdquo;, forming communes and &ldquo;going back to the
+land&rdquo;, etc.
+<p>
+On the other hand, the Vietnam War and the continuing Cold War with the Soviet
+Union, provided much of the initial funding for the influential duo of the
+Stanford Research Institute (SRI) and the Stanford Artificial Intelligence
+Laboratory (SAIL) that provided the impetus that took Silicon Valley far beyond
+the emerging semi-conductor industry into becoming a powerhouse of personal
+computer software and hardware.
+<p>
+This small book has a surprisingly large cast of characters (in my opinion a
+tad <em>too many</em> of them to keep track of), some famous in the computer
+industry and beyond, some not quite. The cast includes Doug Engelbart, John
+McCarthy, Alan Kay, Robert Taylor, Bill Duvall, Stewart Brand, Fred Moore, Ted
+Nelson, Bill Gates, Steve Jobs, Steven Wozniak, et al. Only some of the them,
+notably Doug Engelbart and Fred Moore are fleshed out in any detail; most
+others get short biographical sketches with varying levels of detail and
+sometimes just a passing mention (e.g. Steve Jobs and Donald Knuth).
+<p>
+In particular, this is the only decent account of the life of Doug Engelbart
+that I have read so far. He became famous for what has been called <a
+href="https://en.wikipedia.org/wiki/The_Mother_of_All_Demos">The Mother Of All
+Demos</a>, a demo from 50 years ago (right down to the month) that showcased
+technological and human-interface breakthroughs so far ahead of their time that
+it took the rest of the computer industry many, many years (decades actually)
+to catch up with them. The book shows how he single-mindedly pursued his goal
+of augmenting human-intellect with computers at SRI, facing many obstacles
+along the way, and then dejectedly watched as it all petered out after the
+success of his demo, which turned out to be the pinnacle of his career.
+<p>
+The book pits AI in general, and John McCarthy at SAIL in particular, against
+the augmentation of human-intellect pursued by Doug Engelbart at SRI and Alan
+Kay at Xerox PARC, by giving it a goal of supplanting human-intellect by
+surpassing it. I am not sure all AI (and now ML) researchers will subscribe to
+this dichotomy that drives the intial narrative of the book. The other thing I
+found unconvincing in the book was the role of (supposedly mind-expanding)
+psychedelic drugs taken by many of the characters in the book (including even
+Doug Engelbart) &mdash; the author presents no evidence that this materially
+affected the course of the evolution of personal computers, so it is reduced
+to being an interesting (or shocking, depending on your viewpoint) aside.
+<p>
+The book seems to come to an abrupt end just as it started chronicling <a
+href="https://en.wikipedia.org/wiki/Open_Letter_to_Hobbyists">the infamous
+battle</a> of Bill Gates with the hobbyist programmers of the <a
+href="https://en.wikipedia.org/wiki/Homebrew_Computer_Club">Homebrew Computer
+Club</a> over unauthorized copying of paper-tapes containing the Altair BASIC
+created by the nascent &ldquo;Micro-Soft&rdquo;. In my opinion, the book might
+have been better written as a bigger book containing fewer, but more fully
+sketched-out characters, supported by a tighter narrative.
+<p>
+Apart from the life and work of Doug Engelbart, there are quite a few things in
+this book that I have not read elsewhere. For example, the personal life of
+AI-pioneer and LISP-inventor John McCarthy, how the ARPANET (the precursor to
+the current Internet) really came into existence, the story of <a
+href="https://en.wikipedia.org/wiki/Whole_Earth_Catalog">The Whole Earth
+Catalog</a> before and after its short existence, etc. It is quite evident that
+the author has done a lot of research for this book and has talked to a lot of
+the key people during the course of this research. It is thus an invaluable
+resource for the students of computer history.
+<p>
+What I found really remarkable was the confluence of so many brilliant and
+creative minds over such a short period and inside such a small geographic
+area. What were the odds of this happening? In particular, Stanford comes
+across as a truly astonishing magnet for bringing together such people (which
+it continues to do to this day). Even when they were originally geographically
+disperse, some of these brilliant minds kept crossing each other&rsquo;s paths
+and ended up influencing each other. Amazing.
+m4_end_post_rest
+m4_end_post
