@@ -1,0 +1,74 @@
+m4_define(`m4_post_date', `2018-12-30')m4_dnl
+m4_define(`m4_post_title', `&ldquo;The Name Of The Rose&rdquo;')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+&ldquo;<a href="https://en.wikipedia.org/wiki/The_Name_of_the_Rose">The Name Of
+The Rose</a>&rdquo; is on the surface a medieval murder-mystery novel by <a
+href="https://en.wikipedia.org/wiki/Umberto_Eco">Umberto Eco</a> (translated
+into English by <a href="https://en.wikipedia.org/wiki/William_Weaver">William
+Weaver</a>). When you read it, you realize that it is also expounds on history,
+theology, philosophy, logic, politics, etc. all the while having an
+entertaining plot. It provides a nice insight into monastic life in 14th
+century Europe and the struggles between the church, the state, and the sundry
+factions of Christianity fighting with each other for dominance at the time. It
+was also made into a (not so successful) <a
+href="https://en.wikipedia.org/wiki/The_Name_of_the_Rose_%28film%29">movie of
+the same name</a> in 1986 featuring Sean Connery.
+m4_begin_post_rest
+m4_display_book( `0544176561', `0749397055')
+<p>
+The novel is set in the year 1327. Its events take place over the course of
+seven days in a fictional <a
+href="https://en.wikipedia.org/wiki/Benedictines">Benedictine</a> monastery
+in an abbey located somewhere in Northern Italy. It is written in the form of
+the memoirs of a Benedictine <a
+href="https://en.wikipedia.org/wiki/Novice#Christianity">novice</a> travelling
+with his <a href="https://en.wikipedia.org/wiki/Franciscans">Franciscan</a> <a
+href="https://en.wikipedia.org/wiki/Master_of_novices">master</a> to the abbey.
+The book is divided into nine parts: the middle seven parts correspond to each
+of the seven days they spend in the abbey and are sandwiched between a prologue
+and an epilogue. Each of these seven parts is then sub-divided into chapters
+corresponding to the <a
+href="https://en.wikipedia.org/wiki/Liturgy_of_the_Hours">liturgical hours</a>
+during a day. This structure, combined with the fact that people keep dying
+mysteriously throughout the book, makes the book a bit more manageable than
+what would have been the case in the face of all the expositions and the
+untranslated Latin.
+<p>
+Every now and then, some of the characters end up debating (very, very
+impressively, I must admit) over various minutiae &mdash; Is laughter licit for
+a monk? Was Christ really poor? Should all heretics be clubbed together? <i>Et
+cetera</i>. To the layperson these questions might appear rather arcane and
+even pointless, but their resolution determined the behavior of the church and
+the life of the monks, so they were actually quite significant. The characters
+quote various authorities and references to bolster their respective points and
+I could not help but wonder just how much research was needed on part of the
+author to create such credibly-erudite dialogues. Very impressive indeed.
+However, these debates (and the expositions on such points by some of the
+characters) do become a bit tedious at times and hamper the readability of the
+book.
+<p>
+Another deterrent to the readability of the book is the copious amount of
+untranslated Latin that is present throughout the book. Why do some
+authors and publishers assume that every reader of their book would know how to
+read Latin, that too <a
+href="https://en.wikipedia.org/wiki/Ecclesiastical_Latin">Ecclesiastical
+Latin</a>? (I have complained before about this, in fact, while reviewing <a
+href="m4_root_dir/2005/fp.html">another novel by Umberto Eco</a>.) Given that
+many of the monks and priests in the book are shown to have come from
+various parts of Europe, they would quite probably be talking to each other in
+Latin anyway. Why then are only <em>some</em> of the passages and fragments of
+sentences in Latin when the rest of the book is, in effect, a translation from
+Latin? I thus found all the Latin in this book gratuitous and quite irritating.
+<p>
+All that aside, the book turned out to be fairly entertaining and quite
+insightful at the same time, so I am happy to have read it. I recommend that
+you read it, especially if you are interested in history, theology, philosophy,
+or are just fascinated by medieval Europe in general (or how monks copied and
+illustrated books in a <a
+href="https://en.wikipedia.org/wiki/Scriptorium">Scriptorium</a> in particular).
+I am now tempted to watch the eponymous movie, especially because it has Sean
+Connery.
+m4_end_post_rest
+m4_end_post
