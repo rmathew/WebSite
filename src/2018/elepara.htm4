@@ -1,0 +1,55 @@
+m4_define(`m4_post_date', `2018-12-31')m4_dnl
+m4_define(`m4_post_title', `&ldquo;The Elephant Paradigm&rdquo;')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+&ldquo;The Elephant Paradigm&rdquo; by Gurcharan Das is a collection of essays
+by the author based on his columns in <i>The Times Of India</i> and other
+newspapers. Published in 2002, it examines how India has changed after the
+economic liberalization of 1991, as well as other reforms like those in
+telecommunications, education, and local government. It then ponders how the
+country can really make progress on economic and other fronts to become a truly
+developed country. (<em>Disclosure</em>: After the first 100 or so pages, I
+mostly skimmed through the rest of the pages as I found the book a bit dull
+&ndash; more on that below &ndash; so take this &ldquo;review&rdquo; with a
+pinch of salt.)
+m4_begin_post_rest
+m4_display_book( `014302910X', `0143419269')
+<p>
+One of my bad habits is to always try and read a book from cover to cover even
+after I have realized that I do not like the book. This habit not only wastes
+a lot of my time, but it also makes me drag my feet before picking up another
+book to read. It is thus doubly harmful. I have been trying to break this habit,
+especially after reading articles like <a
+href="https://www.theglobeandmail.com/arts/books-and-media/nancy-pearls-rule-of-50-for-dropping-a-bad-book/article565170/">Nancy
+Pearl&rsquo;s Rule Of 50 For Dropping A Bad Book</a> and <a
+href="https://bookriot.com/2014/11/11/reading-is-not-chore-finishing-books/">Reading
+Is Not A Chore: On Quitting Books</a>.
+<p>
+When I started reading this particular book, I found it quite stultifying and
+haphazard even after I had read close to a 100 pages (out of the roughly 300
+pages), so I thought of discarding it in keeping with my resolve to mend my bad
+habit. However, having read the author&rsquo;s column on and off in the Sunday
+edition of <i>The Times Of India</i> over many years, I felt a bit bad about it
+and skimmed through the remaining pages, reading a page more thoroughly if
+something on the page caught my eye. The book unhappily did not get any better,
+so I ultimately ended up wasting my time.
+<p>
+The book is divided into three parts, each part containing a series of essays
+somewhat loosely gathered into individual chapters. The first part examines the
+country as it stood around 2002 after a decade or so of significant reforms to
+regulations governing business and finance, telecommunications, local
+government, education, etc. The second part then explores how individuals have
+already changed with the changed country and how they must change in order to
+achieve progress. The last part dwells on how as a nation India must evolve in
+order to become a truly developed country.
+<p>
+As I have noted earlier, the essays are a bit haphazard and meander through a
+whole host of topics. Perhaps it is because the source material was a set of
+disparate newspaper columns. Combined with the dull prose, this makes it very
+hard to engage with the book. To be sure, there is no doubt that the author is
+well-read, well-travelled, widely published, and fairly accomplished in his
+corporate life &mdash; however, the book as a whole still does not work for me,
+so I sadly cannot recommend it.
+m4_end_post_rest
+m4_end_post
