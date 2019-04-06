@@ -1,0 +1,87 @@
+m4_define(`m4_post_date', `2019-02-04')m4_dnl
+m4_define(`m4_post_title', `&ldquo;Early Indians&rdquo;')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+&ldquo;Early Indians&rdquo; by Tony Joseph takes a look at some of the recent
+scientific research in genetics, linguistics, archeology, etc. to figure out
+just <em>who</em> the first settlers of India might have been and <em>how</em>
+they might have evolved over the years to form the current population of the
+Indian sub-continent. It is a relatively small book, but it is packed with
+information and provides copious references to the curious reader for further
+research. As it touches upon the roots and the identity of us Indians in these
+hyper-nationalistic times, it seems to have ruffled a few feathers already
+despite having what I consider a well-balanced and non-judgemental presentation.
+m4_begin_post_rest
+m4_display_book( `938622898X', `938622898X')
+<p>
+Who were the <a href="https://en.wikipedia.org/wiki/Aryan">Aryans</a>? Who were
+the <a href="https://en.wikipedia.org/wiki/Dravidian_people">Dravidians</a>?
+Who were the people who built the <a
+href="https://en.wikipedia.org/wiki/Indus_Valley_Civilisation">Indus Valley
+Civilization</a> and why did they suddenly disappear? How are the <a
+href="https://en.wikipedia.org/wiki/Adivasi">Adivasis</a> of India related to
+these other people. If you found yourself asking such questions at any point in
+time, this is a must-read book for you.
+<p>
+The book is divided into four parts. The first part talks about how India and
+the Indians came to be. The second part talks about what is known about the
+&ldquo;First Indians&rdquo; &ndash; the very first settlers of this land
+&ndash; based on the current research. The third part talks about the people of
+the Indus Valley Civilization and what is known (and is still unknown) about
+these fascinating people. The fourth and the last part talks about the Aryans,
+especially in the light of the recent research in genetics and linguistics. All
+throughout the book, there are fascinating insights and nuggets of information.
+<p>
+For example, the T*13910 <a
+href="https://en.wikipedia.org/wiki/Allele">allele</a> provides <a
+href="https://en.wikipedia.org/wiki/Lactase_persistence">lactase
+persistence</a>, which allows a person to continue to properly digest milk
+and milk-based products beyond infancy. This genetic-mutation has been found
+in the population of India, with the lactase persistence being the strongest in
+the people living in the north-west of the country and the weakest in the
+people living in the south-east of the country. This suggests a migration and
+assimilation of a pastoral people into the country, moving in from the
+north-west. As another example, the <a
+href="https://en.wikipedia.org/wiki/Arghandab_River">Arghandab</a> river in
+modern-day Afghanistan was known as &ldquo;Harahuvati&rdquo;, which is cognate
+with the name for the <a
+href="https://en.wikipedia.org/wiki/Sarasvati_River">Sarasvati</a> river, the
+mythical river in ancient India.
+<p>
+You can get an idea of the material in this book by reading some of the
+articles by the author on this subject elsewhere. For example:
+<ol>
+<li>&ldquo;<a href="https://www.thehindu.com/sci-tech/science/how-genetics-is-settling-the-aryan-migration-debate/article19090301.ece">How Genetics Is Settling The Aryan Migration Debate</a>&rdquo; (<i>The Hindu, June 2017</i>).</li>
+<li>&ldquo;<a href="https://www.thehindu.com/opinion/op-ed/who-were-the-first-settlers-of-india/article19621078.ece">Who Were The First Settlers Of India?</a>&rdquo; (<i>The Hindu, September 2017</i>).</li>
+<li>&ldquo;<a href="https://www.thehindu.com/news/national/who-built-the-indus-valley-civilisation/article22261315.ece">Who Built The Indus Valley Civilization?</a>&rdquo; (<i>The Hindu, December 2017</i>).</li>
+<li>&ldquo;<a href="https://www.thequint.com/voices/opinion/genomic-study-vedic-aryan-migration-dravidian-languages-sanskrit">How We, The Indians, Came To Be</a>&rdquo; (<i>The Quint, April 2018</i>).</li>
+<li>&ldquo;<a href="https://www.bbc.com/news/world-asia-india-46616574">How Ancient DNA May Rewrite Prehistory In India</a>&rdquo; (<i>BBC, December 2018</i>).</li>
+</ol>
+<p>
+Some of the startling insights into our origin as presented in this book are
+based on very recent research (with some papers having been published as late
+as 2018) and it should be noted that not all scientists in the respective fields
+agree with the conclusions (as is duly noted in this book, to be fair to the
+author). Even where the science is solid, the conclusions are an emotional
+hot-button issue for many people here, so expect a lot of misinformation around
+them in social media and elsewhere.
+<p>
+The most important series of papers cited by the author are <a
+href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2842210/">Reconstructing
+Indian Population History</a> by David Reich, et al (Nature, 2009), <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3769933/">Genetic Evidence For Recent
+Population Mixture In India</a> by Priya Moorjani, et al (American Journal Of
+Human Genetics, 2013), and <a
+href="https://www.biorxiv.org/content/10.1101/292581v1">The Genomic Formation
+Of South And Central Asia</a> by Vagheesh Narasimhan, et al (Biorxiv, 2018).
+These papers analyze the available ancient DNA to trace the ancestry of the
+current population of the Indian subcontinent. These papers use the coy terms
+&ldquo;Ancestral North Indians&rdquo; and &ldquo;Ancestral South Indians&rdquo;
+in order to escape unneeded controversy.
+<p>
+It should be interesting to see how this book (and the scientific research it
+cites to back up its conclusions) holds up, say, ten years later. In the
+meantime, it does provide a lot of fodder for thought and is a definite
+must-read.
+m4_end_post_rest
+m4_end_post
