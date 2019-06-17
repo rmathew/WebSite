@@ -37,11 +37,10 @@ be as objective as possible in such cases.
 
 m4_heading( `1', `aff', `Affiliate Links')
 <p>
-I link to products on <a href="https://www.amazon.com/">Amazon.com</a> and <a
-href="https://www.amazon.in/">Amazon.in</a> using affiliate-links, most
-notably in book-reviews. If you click any of these links and make a purchase,
-I will probably (and eventually) get a small cut of the total price as
-affiliate-fees.
+I link to products on <a href="https://www.amazon.com/">Amazon.com</a> using
+affiliate-links, most notably in book-reviews. If you click any of these links
+and make a purchase, I will probably (and eventually) get a small cut of the
+total price as affiliate-fees.
 <p>
 In particular, I am required to display this notice by the Amazon.com
 Associates Program Operating Agreement:
@@ -49,14 +48,6 @@ Associates Program Operating Agreement:
 Ranjit Mathew is a participant in the Amazon Services LLC Associates Program,
 an affiliate advertising program designed to provide a means for sites to earn
 advertising fees by advertising and linking to amazon.com.
-</blockquote>
-<p>
-I am also required to display this notice by the Amazon.in Associates Program
-Operating Agreement:
-<blockquote>
-Ranjit Mathew is a participant in the Amazon Associates Program, an affiliate
-advertising program designed to provide a means for sites to earn advertising
-fees by advertising and linking to amazon.in.
 </blockquote>
 
 m4_heading( `1', `track', `Tracking')
