@@ -1,0 +1,57 @@
+m4_define(`m4_post_date', `2019-12-24')m4_dnl
+m4_define(`m4_post_title', `&ldquo;The Guernsey Literary And Potato Peel Pie Society&rdquo;')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+&ldquo;<a
+href="https://en.wikipedia.org/wiki/The_Guernsey_Literary_and_Potato_Peel_Pie_Society">The
+Guernsey Literary And Potato Peel Pie Society</a>&rdquo; is a historical novel
+by <a href="https://en.wikipedia.org/wiki/Mary_Ann_Shaffer">Mary Ann Shaffer</a>
+(finished by <a href="https://en.wikipedia.org/wiki/Annie_Barrows">Annie
+Barrows</a> due to the former&rsquo;s ill health). It is an <a
+href="https://en.wikipedia.org/wiki/Epistolary_novel">epistolary novel</a>
+comprising almost entirely of letters and telegrams written by some of the
+characters to each other (and the odd set of diary-entries by one of them). It
+is an enjoyable novel that is partly funny and partly tragic and mostly
+romantic. It was recently adapted into <a
+href="https://en.wikipedia.org/wiki/The_Guernsey_Literary_and_Potato_Peel_Pie_Society_(film)">an
+eponymous movie</a> as well.
+m4_begin_post_rest
+m4_display_book( `0385341008', `1526603373')
+<p>
+The novel begins in 1946, soon after the end of World War II, with the young
+author Juliet Ashton on a promotional book-tour. She is looking for something
+other than life under World War II that she has been writing about under a
+pen-name, but has not found the inspiration yet. She receives a letter from
+Dawsey Adams, a complete stranger living in <a
+href="https://en.wikipedia.org/wiki/Guernsey">Guernsey</a>, who has chanced
+upon her old copy of a book by <a
+href="https://en.wikipedia.org/wiki/Charles_Lamb">Charles Lamb</a> in a bookshop
+on the island.
+<p>
+During her correspondence with Dawsey, she gets to know of The Guernsey
+Literary And Potato Peel Pie Society on the island and is intrigued by it. She
+then starts corresponding with some of the other members of this society and is
+so charmed by the story of its origin, its working, and especially the story of
+Elizabeth McKenna, that she decides to pay them a visit herself. This visit
+then ends up changing her life.
+<p>
+The society is a book-club that was accidentally formed during the <a
+href="https://en.wikipedia.org/wiki/German_occupation_of_the_Channel_Islands">German
+Occupation</a> of the island to cover up for an illicit dinner of a roasted pig
+by some people, which would have otherwise attracted punishment from the German
+soldiers. They were then forced to hurriedly gather some books and meet
+regulary to keep up the appearance. Some of its initial members hadn&rsquo;t
+read even a single book before in their life. However, they soon discover the
+joys of reading and find books that have become their favorites.
+<p>
+I was initially a bit skeptical about an epistolary novel retaining my interest
+and an American author being able to convincingly write about English
+characters from the past, but I must happily admit that I was proven wrong on
+both counts. The book remained interesting all the way to the end. It
+illustrates how terrible wars are even for the people not directly involved in
+it. The author has managed to concoct letters that develop the characters and
+advance the story while looking somewhat plausible. This is a good read and I
+would heartily recommend it.
+m4_end_post_rest
+m4_end_post
