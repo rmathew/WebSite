@@ -1,0 +1,168 @@
+m4_define(`m4_post_date', `2019-12-26')m4_dnl
+m4_define(`m4_post_title', `&ldquo;Getting Things Done&rdquo;')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+&ldquo;<a href="https://en.wikipedia.org/wiki/Getting_Things_Done">Getting
+Things Done</a>&rdquo; is a book by productivity-consultant <a
+href="https://en.wikipedia.org/wiki/David_Allen_%28author%29">David Allen</a>
+that describes their famous time-management method of the same name (often
+referred to by its abbreviation &ldquo;GTD&rdquo;). It has become somewhat of a
+classic book on improving productivity for individuals and achieved this status
+almost as soon as it was published in 2001. It has its share of naysayers, but
+if you are someone who is overwhelmed by all the things that you have to do in
+your work or to achieve your personal goals, this might just be the book for
+you.
+m4_begin_post_rest
+m4_display_book( `0143126563', `0349410151')
+<p>
+I should note that I have been skeptical of productivity-enhancement methods
+in general &ndash; if they are not <a
+href="https://en.wikipedia.org/wiki/Snake_oil">snake oil</a> outright, they
+either require adherence to a system that does not generalize well or require
+far too much discipline than is reasonable. I am sympathetic to the idea of <a
+href="https://zenhabits.net/get-less-done-stop-being-productive-and-enjoy-yourself/">enjoying
+the one life that you have</a> when you can, instead of sacrificing it all at
+the altar of &ldquo;productivity&rdquo; and getting burned out. A simple
+&ldquo;to-do list&rdquo; of prioritized tasks (for each day as well as for the
+near future), subject to periodic reviews and accompanied by an optimized
+daily routine, has served me quite well over the years. So why then am I
+looking to improve my productivity? To answer that we need to take a slight
+personal detour.
+<p>
+As someone who is at their productive best in the mornings and on whose
+productivity fragmented meetings have <a
+href="http://www.paulgraham.com/makersschedule.html">a devastating effect</a>,
+I have been fortunate enough to have had sympathetic managers and colleagues
+who let me set aside a blocked time-period in the mornings and who schedule
+most meetings where I am required only in the afternoons. I have also been
+lucky in working as an individual contributor with team-leadership and
+mentorship responsibilities throughout most of my career.
+<p>
+This permitted me to have the following rough routine every working day:
+<ol>
+<li>
+<b>Process Emails &ndash;</b> Create aggressive email-filters so that only
+emails that require my attention are in my inbox. For example, I use filters
+like:
+<pre style="text-align:center;">
+list:foo@example.com -{to:me cc:me}
+</pre>
+in Gmail to set aside all emails from a given mailing-list except those that
+are meant for me. Read through each unread email in my inbox, replying quickly
+to it where I can, marking it unread where a quick reply will not suffice, and
+trashing or archiving it otherwise.
+</li>
+<li>
+<b>Unblock Others &ndash;</b> Review code and documents from colleagues,
+providing feedback, the necessary approvals, etc.
+</li>
+<li>
+<b>Create To-Do List &ndash;</b> Identify what should be done that day based
+on my calendar, overflow from the previous day (if any), work scheduled for
+that day, etc.
+</li>
+<li>
+<b>Work &ndash;</b> Do the major task for the day, whether it is writing code
+or a document, while my energy-levels are high and while relatively fewer
+people are in the office to create distractions. Put on headphones playing 
+some noise from <a href="https://mynoise.net/">myNoise</a> to enhance focus.
+</li>
+<li>
+<b>Everything Else &ndash;</b> Attend meetings, catch up with mailing-lists and
+reading-materials, do lower-priority tasks, etc.
+</li>
+</ol>
+<p>
+This worked <em>very well</em> for a while, but it has not worked that well in
+recent years. As I have taken on more responsibilities for a larger team that
+works with a greater number of other teams (both local and remote), I now have
+far too many things to handle effectively and I find that my productivity has
+taken a hit. This has not been helped by having to work in an <a
+href="https://en.wikipedia.org/wiki/Open_plan">open plan</a> office and having
+an ever-increasing number of meetings at all hours of the day. I thus find
+myself looking for a better solution. I have heard good things about GTD over
+the years, but never had the need to look deeper into it. Until now.
+<p>
+The basic idea behind GTD is to reduce your stress by freeing up your mind and
+to improve your productivity by providing a process for gaining control over
+your work. You start by collecting <em>all</em> the &ldquo;stuff&rdquo; that is
+on your mind, both professional <em>and</em> personal, in a trusted system.
+These could be tasks to do, things to follow up on, errands to run, projects to
+undertake, etc. This can take quite a while, but it relaxes your mind by
+ensuring that everything that has been bothering you has been captured in this
+trusted system.
+<p>
+You then process this &ldquo;in&rdquo; list in order by identifying actionable
+items &ndash; items that require multiple actions go into a list of
+&ldquo;projects&rdquo; that merit planning in order to define the desired
+outcome and to enumerate further actions, while items that can be done in a
+single step are done immediately if they are small (need less than two minutes),
+delegated to someone else if they are better suited to do it than you, or
+deferred to be done at a later time. Non-actionable items that are still useful
+are either set aside to be considered at a later time or filed to be used as a
+reference; other items are discarded as trash. This workflow is shown by the
+following flow-chart (see the book for more details):
+<p>
+<img src="gtd_workflow.png" width="640" height="646"
+  style="display: block; margin: auto;"
+  alt="Flow-chart for the Getting Things Done workflow.">
+<p>
+For an alternative and more detailed overview see <a
+href="https://gettingthingsdone.com/pdfs/gtd_workflow_advanced.pdf">this map</a>
+at the <a href="https://gettingthingsdone.com/">GTD web-site</a>. Alternatively,
+see <a href="https://hamberg.no/gtd/">this quick overview</a> by Erlend Hamberg.
+<p>
+This collection and processing is not enough by itself, of course, so GTD has
+recommendations for organizing all the items that survive this process,
+regularly reviewing such items, and for actually doing things in a systematic
+fashion. Somewhat heretically, but providing good reasons for doing so, the
+author neither recommends maintaining to-do lists nor picking up tasks based
+simply on their priorities. Watch <a
+href="https://www.youtube.com/watch?v=Qo7vUdKTlhk">this video</a> (after
+reading the book), where the author expands upon their approach a bit.
+<p>
+The interesting thing about GTD is that it does not mandate a particular system
+for following it, providing only the overall method and some guidelines.
+Another interesting thing is that it covers <em>both</em> your personal and
+your professional lives. I suspect that these aspects, as well as the
+continuing discipline needed to benefit from it, would make it difficult for
+most people to actually follow it fully. You can see that, for example, in
+comment-threads like <a
+href="https://news.ycombinator.com/item?id=8628605">this</a> and <a
+href="https://news.ycombinator.com/item?id=15747703">this</a> on <a
+href="https://news.ycombinator.com/">Hacker News</a>. To be fair though, it
+seems that most of these people have not actually read the book fully as the
+author explicitly addresses many of these things. There are also criticisms and
+alternatives provided by more famous people like, for example, <a
+href="https://www.calnewport.com/blog/2012/12/21/getting-unremarkable-things-done-the-problem-with-david-allens-universalism/">Cal
+Newport</a> and <a
+href="https://zenhabits.net/zen-to-done-ztd-the-ultimate-simple-productivity-system/">Leo
+Babuata</a>.
+<p>
+Note that GTD does <em>not</em> provide guidelines on some aspects of
+productivity and well-being that are still very important for effectively doing
+your work, especially if it requires creativity and/or focus. For example,
+eating healthy food, getting good sleep, doing exercises regularly, having a
+stress-free commute, setting up an environment that allows you to do deep work
+with sustained focus, managing your time effectively, etc. are all critical for
+such work. You have to look elsewhere for guidance on these. Once you have
+these in place, GTD promises to let you work more efficiently and reduce your
+stress.
+<p>
+There are some anachronisms in the first edition of this book from 2001 that
+have seemingly been fixed in a subsequent revision in 2015. For example, the
+author repeatedly refers to Palm PDAs, Lotus Notes, Rolodex, etc. They also ask
+you to maintain 43 phyiscal files containing potential items for each of the 31
+days in a month and for the 12 months of a year, which I highly doubt anyone
+would follow these days (and whether anyone actually did in those days as well).
+<p>
+I am not sure whether I can adopt this method lock, stock, and barrel. I rather
+like the &ldquo;do, delegate, defer&rdquo; part of the workflow, so I can
+perhaps start by applying that to at least the emails in my inbox. I also like
+the part about putting down all the &ldquo;stuff&rdquo; on your mind in a list
+and going through that systematically, so perhaps that could be the next step
+in adopting this method. Only time will tell whether I can be successful with
+this piecemeal approach.
+m4_end_post_rest
+m4_end_post
