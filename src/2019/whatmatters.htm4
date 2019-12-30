@@ -1,0 +1,104 @@
+m4_define(`m4_post_date', `2019-12-30')m4_dnl
+m4_define(`m4_post_title', `&ldquo;Measure What Matters&rdquo;')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+&ldquo;Measure What Matters</a>&rdquo; is a book by the investor and
+venture-capitalist <a href="https://en.wikipedia.org/wiki/John_Doerr">John
+Doerr</a> on using OKRs (<a href="https://en.wikipedia.org/wiki/OKR">Objectives
+and Key Results</a>) and CFRs (Conversations, Feedback, and Recognition) to
+drive excellence and growth in a company. These have been replacing MBOs (<a
+href="https://en.wikipedia.org/wiki/Management_by_objectives">Management By
+Objectives</a>) and KPIs (<a
+href="https://en.wikipedia.org/wiki/Performance_indicator">Key Performance
+Indicators</a>) in many companies. OKRs were pioneered by former Intel CEO <a
+href="https://en.wikipedia.org/wiki/Andrew_Grove">Andy Grove</a>, but have been
+proselytized by the author over the years. They were made famous by their
+adoption and continued use at Google as it grew at an unprecedented scale. If
+you want to know more about OKRs and how to apply them at your company, this is
+the book for you.
+m4_begin_post_rest
+m4_display_book( `0525536221', `024134848X')
+<p>
+It is an adage in management that &ldquo;if you cannot measure it, you cannot
+improve it&rdquo; (interestingly, a quote <a
+href="https://blog.deming.org/2015/08/myth-if-you-cant-measure-it-you-cant-manage-it/">wrongly</a>
+attributed to <a href="https://en.wikipedia.org/wiki/W._Edwards_Deming">W.
+Edwards Deming</a>, who actually said something to the <em>opposite</em>
+effect). An OKR combines a concrete, action-oriented Objective (the WHAT) with
+a few measurable, verifiable, and time-bound Key Results (the HOW), the
+completion of which indicates the achievement of the Objective. A group defines
+OKRs at the beginning of the relevant time-period (say, a year or a quarter)
+and then works towards achieving those Objectives by delivering the respective
+Key Results.
+<p>
+OKRs are defined at <em>every</em> level of the organizational hierarchy
+&ndash; from those for the entire company down to those for an individual
+employee &ndash; for a specific time-period and in such a way that these are
+all aligned with each other and committed to by the stakeholders at the
+beginning of the time-period. They are transparent across the organization so
+that everyone can see how the entire organization is working towards achieving
+the shared goals. They are tracked periodically and reviewed at the end of the
+time-period, but employee-compensation is <em>not</em> tied to them.
+<p>
+CFRs replace annual performance-reviews with a continuous process of having
+crucial conversations, providing timely feedback, and rewarding good
+performance. Managers are encouraged to have regular one-on-one conversations
+with their team-members in which they both provide and receive feedback,
+review growth-plans, address concerns, etc. This eliminates recency bias in
+annual performance-reviews. It allows managers to provide critical feedback and
+recognition when it is most effective, rather than at the end of the year when
+it could be too late.
+<p>
+The book explains the rationale behind OKRs and CFRs, how to use them
+effectively, and contrasts them with MBOs and KPIs. The bulk of the book deals
+with OKRs though, with CFRs somewhat cursorily addressed in the latter portion
+of the book. It provides several case-studies from across the industry to
+illustrate how different companies have adopted OKRs, what they have learned
+from it, etc. (I felt that these case-studies were the weakest part of the
+book, as after a while they got quite repetitive in essence and got entangled
+in irrelevant details.) At the end of the book is a &ldquo;Google&apos;s OKR
+Playbook&rdquo; that provides some concrete guidelines on creating OKRs as
+adopted by Google. There is a <a href="https://www.whatmatters.com/">companion
+web-site</a> as well providing more resources and updates for those interested
+in adopting these methods.
+<p>
+Having used OKRs for several years at work, I have seen both the good as well
+as the bad parts of adopting them. For cross-functional, distributed teams that
+work across various time-zones, it is particularly important to get early
+alignment and commitment across the teams for useful OKRs to be created and to
+avoid costly readjustment of priorities and reallocation of resources later.
+The management at an organization has to have enough trust in their employees
+and provide them sufficient autonomy for OKRs to be effective in boosting
+performance. As the emphasis is on having fewer, focussed OKRs that deliver
+measurable value to the company and manage to stretch the team beyond its
+comfort-zone, maintenance and polishing work often gets dropped leading to
+reduced productivity in the longer run.
+<p>
+Sometimes, it is not really possible to measure some important things, so
+people either do not put them as Key Results or worse, end up using the wrong
+metric just to make Key Results measurable. As <a
+href="https://quoteinvestigator.com/2010/05/26/everything-counts-einstein/">someone</a>
+once quipped:
+<blockquote>
+Not everything that counts can be counted, and not everything that can be counted counts.
+</blockquote>
+<p>
+Or to use <a
+href="https://blog.deming.org/2015/08/myth-if-you-cant-measure-it-you-cant-manage-it/">the
+full quote</a> from W. Edwards Deming referenced earlier:
+<blockquote>
+It is wrong to suppose that if you can&apos;t measure it, you can&apos;t manage
+it &ndash; a costly myth.
+</blockquote>
+<p>
+So beware of this caveat while adopting OKRs or any other measurement-oriented
+(aka &ldquo;data-driven&rdquo;) methodology.
+<p>
+That said, the transparency and the focus brought about by properly adopting
+OKRs and CFRs are particularly effective in showing a worker in the trenches
+how their work eventually matters to achieving the overall goals of the company
+and to make the entire company more productive. If you are not already using
+OKRs, take a look at this book and decide for yourself.
+m4_end_post_rest
+m4_end_post
