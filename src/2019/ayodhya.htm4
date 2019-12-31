@@ -1,9 +1,9 @@
 m4_define(`m4_post_date', `2019-12-28')m4_dnl
-m4_define(`m4_post_title', `&ldquo;Ayodhya&colon; The Dark Night&rdquo;')m4_dnl
+m4_define(`m4_post_title', `&ldquo;Ayodhya&`#'58; The Dark Night&rdquo;')m4_dnl
 m4_include(`posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-&ldquo;Ayodhya&colon; The Dark Night&rdquo; is a book by the journalists
+&ldquo;Ayodhya&`#'58; The Dark Night&rdquo; is a book by the journalists
 Krishna Jha and Dhirendra K. Jha telling the story of that fateful night of
 22<sup>nd</sup> December 1949 when a bunch of Hindu activists smuggled in an
 idol of <a href="https://en.wikipedia.org/wiki/Rama">Rama</a> into the <a

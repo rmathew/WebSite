@@ -1,14 +1,14 @@
 m4_define(`m4_post_date', `2019-12-30')m4_dnl
-m4_define(`m4_post_title', `&ldquo;D&apos;Aulaires&apos; Book Of Greek Myths&rdquo;')m4_dnl
+m4_define(`m4_post_title', `&ldquo;D&`#'39;Aulaires&`#'39; Book Of Greek Myths&rdquo;')m4_dnl
 m4_include(`posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-&ldquo;D&apos;Aulaires&apos; Book Of Greek Myths</a>&rdquo; is ostensibly an
+&ldquo;D&`#'39;Aulaires&`#'39; Book Of Greek Myths&rdquo; is ostensibly an
 illustrated introductory book to <a
 href="https://en.wikipedia.org/wiki/Greek_mythology">Greek mythology</a> for
 children by the artist-writer couple <a
 href="https://en.wikipedia.org/wiki/Ingri_and_Edgar_Parin_d'Aulaire">Ingri and
-Edgar Parin d&apos;Aulaire</a>. However, it is a fine introductory book to this
+Edgar Parin d&`#'39;Aulaire</a>. However, it is a fine introductory book to this
 important subject for adults as well because of the breadth of its coverage and
 its nice artwork. For a more comprehensive coverage of this vast topic though,
 you would have to consult other books and even then it is quite unlikely that a
@@ -59,8 +59,8 @@ about handing this book over to their children. However, many mythologies have
 such &ldquo;uncomfortable bits&rdquo; and this is not something unique to Greek
 mythology.
 <p>
-The book starts from the origin myths and goes on to cover both gods and heroes
-from Greek mythology. Due to its breadth, the book necessarily presents
+The book starts from the creation myths and goes on to cover both gods and
+heroes from Greek mythology. Due to its breadth, the book necessarily presents
 extremely abridged versions of many of the stories, albeit with some
 inconsistencies in the coverage. For example, while the labors of <a
 href="https://en.wikipedia.org/wiki/Heracles">Heracles</a> are narrated in a

@@ -3,7 +3,7 @@ m4_define(`m4_post_title', `&ldquo;Measure What Matters&rdquo;')m4_dnl
 m4_include(`posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-&ldquo;Measure What Matters</a>&rdquo; is a book by the investor and
+&ldquo;Measure What Matters&rdquo; is a book by the investor and
 venture-capitalist <a href="https://en.wikipedia.org/wiki/John_Doerr">John
 Doerr</a> on using OKRs (<a href="https://en.wikipedia.org/wiki/OKR">Objectives
 and Key Results</a>) and CFRs (Conversations, Feedback, and Recognition) to
@@ -57,7 +57,7 @@ of the book. It provides several case-studies from across the industry to
 illustrate how different companies have adopted OKRs, what they have learned
 from it, etc. (I felt that these case-studies were the weakest part of the
 book, as after a while they got quite repetitive in essence and got entangled
-in irrelevant details.) At the end of the book is a &ldquo;Google&apos;s OKR
+in irrelevant details.) At the end of the book is a &ldquo;Google&`#'39;s OKR
 Playbook&rdquo; that provides some concrete guidelines on creating OKRs as
 adopted by Google. There is a <a href="https://www.whatmatters.com/">companion
 web-site</a> as well providing more resources and updates for those interested
@@ -81,6 +81,7 @@ metric just to make Key Results measurable. As <a
 href="https://quoteinvestigator.com/2010/05/26/everything-counts-einstein/">someone</a>
 once quipped:
 <blockquote>
+<p>
 Not everything that counts can be counted, and not everything that can be counted counts.
 </blockquote>
 <p>
@@ -88,8 +89,9 @@ Or to use <a
 href="https://blog.deming.org/2015/08/myth-if-you-cant-measure-it-you-cant-manage-it/">the
 full quote</a> from W. Edwards Deming referenced earlier:
 <blockquote>
-It is wrong to suppose that if you can&apos;t measure it, you can&apos;t manage
-it &ndash; a costly myth.
+<p>
+It is wrong to suppose that if you can&`#'39;t measure it, you can&`#'39;t
+manage it &ndash; a costly myth.
 </blockquote>
 <p>
 So beware of this caveat while adopting OKRs or any other measurement-oriented
