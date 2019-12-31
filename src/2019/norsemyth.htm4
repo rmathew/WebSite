@@ -1,0 +1,67 @@
+m4_define(`m4_post_date', `2019-12-31')m4_dnl
+m4_define(`m4_post_title', `&ldquo;Norse Mythology&rdquo;')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+&ldquo;<a href="https://en.wikipedia.org/wiki/Norse_Mythology_%28book%29">Norse
+Mythology</a>&rdquo; is a book by <a
+href="https://en.wikipedia.org/wiki/Neil_Gaiman">Neil Gaiman</a> containing
+retellings of some of the stories from, well, <a
+href="https://en.wikipedia.org/wiki/Norse_mythology">Norse mythology</a>. The
+stories have been told in a modern voice and are embellished with a humor that
+makes one break into a smile every now and then. The stories range right from
+the creation myths all the way to the final destruction (also known as <a
+href="https://en.wikipedia.org/wiki/Ragnar%C3%B6k">Ragnar&ouml;k</a>). If you
+have been curious to know more about Norse mythology, this book should serve as
+a fine starting point. It also makes for a good book from which to tell stories
+to children and friends.
+m4_begin_post_rest
+m4_display_book( `0393356183', `1526602067')
+<p>
+I first encountered elements of this mythology via <a
+href="https://en.wikipedia.org/wiki/Thor_%28Marvel_Comics%29">Thor comics</a>
+and <a href="https://en.wikipedia.org/wiki/Asterix">Asterix</a>. I later found
+out that <a href="https://en.wikipedia.org/wiki/The_Lord_of_the_Rings">The Lord
+Of The Rings</a> was also influenced by it. The very first Linux distribution
+that I came across in the early days was named &ldquo;<a
+href="https://en.wikipedia.org/wiki/Yggdrasil_Linux/GNU/X">Yggdrasil</a>&rdquo;.
+Of course, these days the biggest source of exposure to Norse mythology for
+most of us are the films from the <a
+href="https://en.wikipedia.org/wiki/Marvel_Cinematic_Universe">Marvel Cinematic
+Universe</a> (MCU). What many of us do not realize is that most of the <a
+href="https://en.wikipedia.org/wiki/Names_of_the_days_of_the_week">names of the
+days of the week</a> are also derived from the names of gods in this mythology.
+So it was natural for me to be curious to know more about this mythology.
+<p>
+Most of the stories in this collection feature <a
+href="https://en.wikipedia.org/wiki/Odin">Odin</a>, <a
+href="https://en.wikipedia.org/wiki/Thor">Thor</a>, and <a
+href="https://en.wikipedia.org/wiki/Loki">Loki</a>. If you are only familiar
+with them via the MCU, you should know that they and their respective story
+arcs are quite different in this mythology. Interestingly, <a
+href="https://en.wikipedia.org/wiki/Mj%C3%B6lnir">Mj&ouml;lnir</a> remains with
+Thor till the end here, there is no Stormbreaker to replace it, and people
+other than Thor are able to lift it as well. Another interesting thing (for
+Indians at least) that I learned from this book was that one of the sons of
+Thor was named <a
+href="https://en.wikipedia.org/wiki/M%C3%B3%C3%B0i_and_Magni">M&oacute;di</a>
+and he manages to survive Ragnar&ouml;k.
+<p>
+The book combines a modern style of prose with a story-telling voice that makes
+for an easy and fun reading. The stories are quite fascinating, though after a
+while you wonder if the Norse gods would have been much better off just getting
+rid of Loki altogether early on in their saga. He is the chief troublemaker
+causing much misery all around, though he is also the god who gets them out of
+trouble at times. Truth be told, the stories just would not be as interesting
+to read without Loki there to spice things up.
+<p>
+The stories here would make for good ones to be retold to children and friends,
+although some parts might be a bit too dark for little children (e.g. <a
+href="https://en.wikipedia.org/wiki/Kvasir">Kvasir</a> is a god who is slain
+and then his blood is drained out to make the <a
+href="https://en.wikipedia.org/wiki/Mead_of_poetry">mead of poetry</a>).
+Whether you want to learn more about Norse mythology, or just enjoy some good
+stories, or are fans of Neil Gaiman or the MCU, you would be served well by
+this book. An enjoyable read that I would heartily recommend.
+m4_end_post_rest
+m4_end_post
