@@ -1,0 +1,207 @@
+m4_define(`m4_post_date', `2020-07-25')m4_dnl
+m4_define(`m4_post_title', `ICFPC 2020')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I participated in <a href="http://2020.icfpcontest.org/">ICFPC 2020</a> last
+weekend to continue my tradition of using this programming-contest as a fun way
+of spending three days trying to program a solution for a really tough problem.
+This year&rsquo;s contest was organized by a team from <a
+href="https://tech.kontur.ru/">kontur.ru</a> that has itself been performing
+quite well in recent iterations of this contest. As it turned out, the famous
+<a href="http://churchill-society-london.org.uk/RusnEnig.html">quote by
+Winston Churchill</a> was quite apt for this year&rsquo;s contest: &ldquo;It
+is a riddle wrapped in a mystery inside an enigma; but perhaps there is a
+key.&rdquo; Somewhat incredibly, I ended up being both very frustrated with the
+contest as well as managing to have lot of fun working through it. It is quite
+weird, to be honest.
+m4_begin_post_rest
+<p>
+<b>The Task</b><br>
+A fictional space-observatory in Russia starts receiving encoded messages
+from aliens that are posted as teasers by the organizers during the days
+leading up to the contest. If you are familiar with the <a
+href="https://en.wikipedia.org/wiki/Pioneer_plaque">Pioneer plaque</a>, the
+<a href="https://en.wikipedia.org/wiki/Arecibo_message">Arecibo message</a>,
+and/or the <a href="https://en.wikipedia.org/wiki/Lincos_language">Lincos</a>
+language, you will get a fair idea of the gradual progression of more and
+more complex messages that seek to build a language for communicating with the
+aliens. A community of contestants starts decoding these messages and updating
+<a href="http://message-from-space.readthedocs.io/">the documentation</a> on a
+web-site provided by the organizers. At the beginning of the contest, even more
+messages are provided by the organizers to be decoded, including a &ldquo;<a
+href="https://message-from-space.readthedocs.io/en/latest/message42.html">huge
+message</a>&rdquo; that turns out to be the instructions to run a &ldquo;galaxy
+simulator&rdquo; using a programming-language and interaction-protocol
+described by the previous set of messages. It was unclear what needed to be
+done after that.
+<p>
+As a contestant, or even as a casual participant like yours truly, you had to:
+<ol>
+<li>Understand the <a
+href="http://message-from-space.readthedocs.io/">task-specification</a>, such
+as it was, to figure out <em>what</em> needs to be done. This documentation was
+built and refined by the community of contestants sending in <a
+href="https://en.wikipedia.org/wiki/Git">Git</a> pull-requests during the days
+leading up to the contest (based on the teaser-images posted by the organizers)
+and even into the early hours of the contest, but they apparently gave up at
+that point. The result was that the documentation remained quite incomplete and
+vague about the task at hand till the end of the competition.
+</li>
+<li>
+Implement a reasonably-performant and bug-free virtual-machine with a graphical
+interface to run a &ldquo;<a
+href="https://message-from-space.readthedocs.io/en/latest/message42.html">galaxy
+simulator</a>&rdquo; written in purely <a
+href="https://en.wikipedia.org/wiki/Functional_programming">functional</a>
+programming-language (that was defined &ndash; incompletely &ndash; by the
+task-specification). This VM had to communicate with a server hosted by the
+organizers using an HTTP-based protocol that was <em>also</em> incompletely
+specified. It had to have a graphical UI to be able to precisely capture your
+mouse-clicks.
+</li>
+<li>
+Literally click around <em>a lot of times</em> at random places in the galaxy
+simulator UI hoping to uncover some clues about what is to be done next. If you
+persevered, and had not yet developed <a
+href="https://en.wikipedia.org/wiki/Repetitive_strain_injury">RSI</a> from the
+constant clicking, you would discover (apparently &ndash; I just gave up at
+this point) that you have to create a <a
+href="https://en.wikipedia.org/wiki/Intelligent_agent">bot</a> for controlling
+a ship participating in a battle against another ship orbiting a weird square
+planet with a weird gravitational field. Your bot would be pitched in a battle
+against bots written by other contestants to determine the overall winner of
+the contest. <em>That</em> was the task for the contest.
+</li>
+</ol>
+<p>
+To say that this was frustrating would be a gross understatement. What
+compounded this frustration was that there were <em>so many</em> different
+channels for the organizers to disseminate crucial information (albeit
+cryptically) &ndash; the main contest web-site, a couple of blogs, Read The
+Docs, YouTube, Twitter, Discord, Twitch, etc. were all used &ndash; the <a
+href="https://discord.gg/xvMJbas">Discord chat</a> in particular, was
+apparently quite critical (I hate trying to concentrate on solving a problem
+and having to constantly check a busy chat-room, so I missed out on all such
+information that never made it back as updates to the task-specification).
+<p>
+This year&rsquo;s contest would have been particularly difficult for newcomers,
+especially if they did not already know the basics of <a
+href="https://en.wikipedia.org/wiki/Functional_programming">functional
+programming</a> and the <a
+href="https://en.wikipedia.org/wiki/Lambda_calculus">lambda calculus</a>. If
+the contest is not approachable for newcomers, and frustrates old-timers, the
+already-small community will become even smaller over time and might even
+disappear.
+<p>
+What is even more frustrating is that it is quite obvious how much love and
+effort the organizers have put into the contest, so why would they squander it
+away on an ill-defined task like this? The galaxy simulator is incredible and
+contains tutorials, mini-games, easter-eggs, battles, etc. all expressed via a
+fairly &ldquo;pure&rdquo; and abstract language. I gather that the
+submission-system was also quite good and worked flawlessly for the
+contestants. The technology behind the contest is an amazing achievement.
+<p>
+<b>My Attempt</b><br>
+The contest started at 18:30 IST on a Friday and ended at 18:30 IST on the
+subsequent Monday. I had tried to end my work-day by the evening while I was
+still in the middle of an interesting coding-session, but that turned out to be
+a mistake &ndash; I could not stop thinking about it while reading the
+task-specification, so to clear up my head-space I decided to go back and
+finish the coding (as well as writing the unit-tests) &ndash; this
+unfortunately meant staying up late into Friday-night.
+<p>
+I got up relatively late on Saturday and had to finish a few chores in the
+middle of yet another lock-down in Bangalore due to <a
+href="https://en.wikipedia.org/wiki/Coronavirus_disease_2019">COVID-19</a>.
+When I got back to the problem, it was still as inscrutable as ever. I spent
+hours trying to decipher parts of the task-specification and then gave up in
+frustration.
+<p>
+On Sunday morning, I started coding up whatever I could understand of the
+task-specification. I chose Go <a href="m4_root_dir/2018/icfpc18.html">once
+again</a>, and made decent progress with writing a small lexer, a
+recursive-descent parser, and an expression-evaluator that was helped
+immensely by <a
+href="https://message-from-space.readthedocs.io/en/latest/implementation.html">the
+pseudo-code</a> posted by the organizers.
+<p>
+By Monday afternoon, I had ironed out enough of the bugs to get the simulator
+to work along with a rudimentary visualizer and to explore it further (albeit
+far too late to matter for the contest):
+<p>
+<img src="icfpc20.png" width="640" height="492"
+  style="display: block; margin: auto;" alt="Galaxy-viewer screen-shot.">
+<p>
+I spent an inordinate amount of time trying to figure out and correctly
+implement the modulation and demodulation of <a
+href="https://message-from-space.readthedocs.io/en/latest/message35.html">a
+list of messages</a>, which was necessary to communicate with the server run
+by the organizers. Correct communication with this server was necessary even
+for local explorations within the galaxy simulator. This was made difficult by
+trying to decipher whether tiny little squares in the given image were a
+&lsquo;0&rsquo; or a &lsquo;1&rsquo; and how many of them were there for each
+input-case.
+<p>
+An embarrassing cause of a lot of wrist-pain was that I was drawing each layer
+of the images resulting from every expression-evaluation in the same color,
+making it impossible to tell where I was supposed to click (resulting in me
+trying to click everywhere inside the drawn parts). The organizers have gone
+out of their way to ensure that contestants implemented precise capture of
+mouse-clicks. This also made me implement a &ldquo;dynamic zoom&rdquo; feature
+so that the target-squares for the mouse-clicks were much bigger for the
+initial click-tests in the galaxy simulator.
+<p>
+A frustrating bug caused me even more wrist-pain due to having to click around
+a lot in the UI, as I wondered why the galaxy simulator was so slow in moving
+through its frames. Because the galaxy simulator went through an
+expression-evaluation cycle only after a mouse-click (and I had discovered that
+injecting random mouse-clicks to speed up this process was not a great idea),
+it was not immediately obvious to me that the underlying problem was that my
+mouse-clicks were not getting registered with the right values when negative
+coordinates were involved. This turned out to be due to the way Go rounds
+integer-division towards zero even for negative numbers (just like C/C++).
+<p>
+It was nice to see it all finally working in the galaxy simulator at a decent
+speed and then to explore around in the UI (there is even a tic-tac-toe game
+in there). One of the interesting things to note is that the task-specification
+has all the images &ldquo;upside down&rdquo;, as becomes obvious when you
+render the humans shown above. The flip side of drawing things the right way up
+is that it is not easy to spot the symbols from the task-specification in the
+UI. Neither orientation of the Y-axis is thus optimal. One of the organizers
+noted, &ldquo;In space, what is up and what is down?&ldquo;.
+<p>
+The time for the contest was up by Monday evening and I gave up trying to
+decipher it further. However, I continued to tweak things (and fix a couple of
+bugs) over the next couple of days. This turned out to be interesting enough in
+the end that I plan to shortly revisit it and explore it further.
+<p>
+The source-code for my attempt this year can be found <a
+href="https://bitbucket.org/rmathew/icfpc/src">on Bitbucket</a>, <a
+href="https://github.com/rmathew/icfpc/">on GitHub</a>, and <a
+href="https://gitlab.com/rmathew/ICFPC">on GitLab</a>. You can find some other
+write-ups on <a href="https://old.reddit.com/r/icfpcontest/">/r/icfpcontest</a>.
+(I particularly liked <a
+href="https://dastapov.dreamwidth.org/131798.html">this</a> three-part series
+of write-ups by Dmitry Astapov.)
+<p>
+<b>Epilogue</b><br>
+The frustration with the task-specification this year led me to become
+nostalgic about some previous years&rsquo;s task-specifications. To my horror,
+I found out that many of the past contest web-sites were no longer working.
+Thanks to the <a href="https://web.archive.org/">Wayback Machine</a>, I was
+able to salvage some of these task-specifications and problem-sets. I have
+now uploaded them to my repositories above, in case anyone else finds these
+useful. Of course, task-specifications and problem-sets for contests requiring
+interactions with a server not existing any more will be of limited value.
+<p>
+Despite resolving to code more in Go the last time to get more familiar with
+its idioms and standard library, I have not spent much time with it in the
+interim. This is because my day-job involves coding (when I do get a chance) in
+C++. This meant that I spent a lot of time figuring out how to do even the
+basic things in Go, exploring some of its standard library to see if I could
+use something from there (I could, in a lot of cases &ndash; it seems like a
+nice &ldquo;batteries included&rdquo; approach like that of Python), etc. Not
+good.
+m4_end_post_rest
+m4_end_post
