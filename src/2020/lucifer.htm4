@@ -1,0 +1,117 @@
+m4_define(`m4_post_date', `2020-07-26')m4_dnl
+m4_define(`m4_post_title', `&ldquo;Lucifer&rdquo; Turned 20 This Year')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+During <a href="http://icfpcontest.org/">ICFPC</a> 2020 <a
+href="m4_root_dir/2020/icfpc20.html">last weekend</a>, the keyboard for the
+desktop PC on which I was coding for the contest stopped working. This made me
+realize that the desktop PC, which I had named &ldquo;Lucifer&rdquo;, turned
+<em>20 years old</em> in January this year. That is quite a long life for a PC
+by any standard. It has served me very well indeed over all these years, though
+these days I rarely use it for anything other than for recreational programming
+and for maintaining this web-site. It is the first and the only desktop PC that
+I have ever owned.
+m4_begin_post_rest
+<p>
+I purchased the components for the PC over a period of two months from December
+1999 to January 2000. Some of the components, like the graphics-card and the
+sound-card, had to be purchased from the US and a couple of kind colleagues on
+a trip to the US at the time brought them back to India. The entire rig,
+including the compact table and the UPS, cost me about INR 85,000 at that time,
+which was <em>quite a lot</em> for a desktop PC (this is equivalent to roughly
+INR 295,000 now, with an average rate of inflation at <a
+href="https://www.macrotrends.net/countries/IND/india/inflation-rate-cpi">6.43%</a>
+during this period). What I got for this money was a very good gaming PC that
+could play any 3D game of the time at full resolution and with superb sound.
+<p>
+I assembled the PC myself (I almost shorted the motherboard in the process and
+thankfully noticed the problem before I turned it on for the first time). When
+I finished assembling it in late January 2000, it had these components:
+<ul>
+<li>An Asus <a href="https://www.asus.com/supportonly/P3B-F/">P3B-F</a>
+motherboard based on the <a
+href="https://en.wikipedia.org/wiki/Intel_440BX">Intel 440BX</a> chipset that
+supported <a href="https://en.wikipedia.org/wiki/Slot_1">Slot 1</a> CPUs.</li>
+<li>An Intel <a href="https://en.wikipedia.org/wiki/Pentium_II">Pentium II</a>
+CPU running at 450 MHz.</li>
+<li>128 MB of <a href="https://en.wikipedia.org/wiki/PC100">PC100</a> <a
+href="https://en.wikipedia.org/wiki/Synchronous_dynamic_random-access_memory">SDRAM</a>
+with <a href="https://en.wikipedia.org/wiki/ECC_memory">ECC</a>.</li>
+<li>A 13 GB Quantum Fireball HDD.</li>
+<li>A Creative Riva TNT2 Ultra 3D-accelerator graphics-card.</li>
+<li>A Creative SoundBlaster Live! Value sound-card.</li>
+<li>A Creative 52x CD-ROM drive.</li>
+<li>A set of Creative Cambridge SoundWorks 2.1 speakers.</li>
+<li>A Samsung Samtron 75E 17&rdquo; CRT monitor.</li>
+<li>A 3.5&rdquo; floppy-drive.</li>
+<li>A <a href="https://www.tvs-e.in/">TVS</a> Champ keyboard (with a <a
+href="https://en.wikipedia.org/wiki/DIN_connector">DIN connector</a> that was
+obsolete even then and required a <a
+href="https://en.wikipedia.org/wiki/PS/2_port">PS/2 port</a> adapter &ndash;
+this is the keyboard that finally gave up the ghost last week).</li>
+<li>A Logitech three-button PS/2 mouse.</li>
+</ul>
+<p>
+The form-factor of the enclosure was <a
+href="https://en.wikipedia.org/wiki/ATX">ATX</a>. Because of the erratic
+power-supply in Bangalore, I had to buy an APC 500VA UPS to ensure
+uninterrupted and stabilized power for it. I also bought a compact
+computer-desk to house it. I named the newly-assembled PC
+&ldquo;Lucifer&rdquo;. This is how Lucifer looked a few days after its birth
+in January 2000:
+<p>
+<img src="lucifer.jpg" width="480" height="728"
+  style="display: block; margin: auto;" alt="Lucifer desktop PC. Circa 2000.">
+<p>
+By the end of year, Lucifer was able to connect to the Internet at a whopping
+56 Kbps using a dial-up modem. I enjoyed playing many a game on this PC over
+the next few years. Over the next three years or so, I upgraded some of its
+core components:
+<ul>
+<li>The CPU was upgraded to a <a
+href="https://en.wikipedia.org/wiki/Pentium_III">Pentium III</a> running at
+750 MHz.</li>
+<li>The graphics-card was upgraded to an NVIDIA GeForce3 Ti 200.</li>
+<li>I added another 128 MB RAM at first, and later another 256 MB RAM, taking
+the total installed RAM to 512 MB.</li>
+<li>I added a 40 GB Seagate HDD.</li>
+<li>I switched to a Samsung RW combo-drive to let me read and write CDs &amp;
+DVDs.</li>
+<li>I added a 100 Mbps Ethernet card and got ADSL broadband.</li>
+</ul>
+<p>
+This has pretty much been the configuration ever since. A few years ago, the
+CRT monitor died and had to be replaced by a 17&rdquo; Dell P190S LCD monitor,
+which was actually a <em>downgrade</em> in terms of color-reproduction.
+Similarly, the Logitech USB keyboard that I am temporarily using as a
+replacement for the TVS Champ keyboard also feels like a downgrade. These days
+I have a 250 Mbps fiber-based Internet-connection, which is most definitely an
+upgrade. (Given these upgrades since its birth, a question like that for the <a
+href="https://en.wikipedia.org/wiki/Ship_of_Theseus">Ship of Theseus</a>
+arises: is Lucifer still the same PC? I think so, as I believe the Asus P3B-F
+motherboard to be the core of the system.)
+<p>
+After these initial upgrades, I kept postponing further upgrades for a few
+years as it always seemed like something much better was just around the
+corner. More importantly, I had stopped playing 3D games and hacking on <a
+href="https://gcc.gnu.org/">GCC</a> &ndash; two activities that used to require
+a lot of resources &ndash; so the procrastination became easier. Of course, the
+web and most software have kept getting slower and slower over the years, which
+is quite frustrating.
+<p>
+These days I <em>want</em> to keep using this PC to see how bad things have
+become over time while providing the same or even worse features. (Of course, I
+mostly use either a laptop or a mobile-phone for the usual web-browsing, as the
+web has become just excruciatingly slow these days. Most web-sites feel
+sluggish even on a brand new laptop these days, so that is a different
+tragedy of its own.)
+<p>
+For recreational programming and for taking part in programming-contests like
+the ICFPC, Lucifer is still entirely sufficient. Even relatively new
+programming languages like <a href="https://golang.org/">Go</a> support this
+decidedly ancient configuration in their latest releases, so that is good to
+know. Let us see how many more years Lucifer has still left in it. Till then,
+I am grateful for its service so far.
+m4_end_post_rest
+m4_end_post
