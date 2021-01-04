@@ -1,0 +1,63 @@
+m4_define(`m4_post_date', `2020-12-31')m4_dnl
+m4_define(`m4_post_title', `&ldquo;Unix&rdquo;')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+As its sub-title indicates, &ldquo;Unix&rdquo; is a book by <a
+href="https://en.wikipedia.org/wiki/Brian_Kernighan">Brian Kernighan</a> that
+tells the story of the evolution of the <a
+href="https://en.wikipedia.org/wiki/Unix">Unix</a> operating system at <a
+href="https://en.wikipedia.org/wiki/Bell_Labs">Bell Labs</a> and beyond. The
+author was a part of the small and extremely talented group at the hallowed
+Bell Labs that used and developed what came to be known as Unix. This
+perspective of the author and their excellent writing skills that has been
+repeatedly demonstrated via several great books makes this a must-read book for
+any student of Computer History.
+m4_begin_post_rest
+m4_display_book( `1695978552', `1695978552')
+<p>
+I must admit that I found the book a gripping read and finished it within a
+day. I am a fan of both the Unix operating system as well as the writing-style
+of the author, besides also being interested in Computer History, so this was
+to be expected. Even if this were not the case, the book is peppered with nice
+anecdotes, interesting biographical notes, and several previously-unseen
+pictures that make this an interesting read.
+<p>
+If you are interested in one or more of Unix, Bell Labs, Computer History, and
+innovation, you owe it to yourself to read this book. It shows what a small
+group of talented and movitated engineers with minimal and benevolent
+managerial oversight can accomplish. Of course, being in the right place at the
+right time also mattered somewhat to their success, but only somewhat &ndash;
+it is quite evident that this group comprised brilliant engineers with good
+taste and a knack for writing clear and concise documentation.
+<p>
+The history of Unix has been told by many people over the years with various
+levels of detail. You can piece together some of this history via resources
+like <a href="https://www.bell-labs.com/usr/dmr/www/hist.html">this paper</a>
+by <a href="https://en.wikipedia.org/wiki/Dennis_Ritchie">Dennis Ritchie</a>,
+<a href="https://www.youtube.com/watch?v=EY6q5dv_B-o">this interview</a> of <a
+href="https://en.wikipedia.org/wiki/Ken_Thompson">Ken Thompson</a>, <a
+href="https://corecursive.com/brian-kernighan-unix-bell-labs1/">this
+interview</a> of the author in a podcast, etc. However, it is really nice to
+see it all (and more) in a single place and presented in a
+relatively-accessible manner.
+<p>
+That brings me to my primary criticism of this book &ndash; it papers over far
+too many details in order to appeal to a much wider audience than programmers.
+In this process, it only provides teasers that one must follow through
+elsewhere to gain more insights. That said, there are lots of other details
+that would probably confuse non-programmers, so it might have been better
+on the whole to somewhat restrict its audience to programmers.
+<p>
+Another frustrating aspect was that both the author and their key collaborators
+are far too modest. It cannot possibly be the case that a bunch of
+good-for-nothing programmers got lucky while goofing around and somehow ended
+up at Bell Labs that was home to <em>several</em> key inventions, authors of
+several impactful books, and an impressive number of Nobel-laureates. For
+example, neither this book nor <a
+href="https://www.youtube.com/watch?v=EY6q5dv_B-o">the interview of Ken
+Thompson by the author</a> (noted above) shed any light on <em>why</em> Bell
+Labs would go to such great lengths to try and recruit Ken. Maybe another book
+will fill this void at some point.
+m4_end_post_rest
+m4_end_post

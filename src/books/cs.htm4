@@ -21,6 +21,7 @@ m4_include_post(`2009', `cn')
 m4_include_post(`2009', `osc')
 m4_include_post(`2010', `cdk2e')
 m4_include_post(`2015', `lyah')
+m4_include_post(`2020', `kernunix')
 m4_include_post(`2017', `outminds')
 m4_include_post(`2006', `proglang')
 m4_dnl
