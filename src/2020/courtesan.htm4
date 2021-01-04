@@ -1,0 +1,53 @@
+m4_define(`m4_post_date', `2020-12-30')m4_dnl
+m4_define(`m4_post_title', `&ldquo;The Courtesan&comma; The Mahatma&comma; And The Italian Brahmin&rdquo;')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+&ldquo;The Courtesan&comma; The Mahatma&comma; And The Italian Brahmin&rdquo;
+is an anthology of edited essays on Indian history written by <a
+href="https://en.wikipedia.org/wiki/Manu_S._Pillai">Manu Pillai</a> that first
+appeared as part of a regular column in an Indian newspaper. These essays
+provide a much-needed perspective on characters and events from Indian history
+that are often overlooked by history-textbooks in schools and popular books on
+history. I found most of these essays to be both entertaining and insightful
+and I would highly recommend this book to anyone interested in knowing more
+about India&rsquo;s past.
+m4_begin_post_rest
+m4_display_book( `938868978X', `938868978X')
+<p>
+The book divides the essays into two broad parts based on the corresponding
+time-periods: stories from before the <a
+href="https://en.wikipedia.org/wiki/British_Raj">British Raj</a> in India and
+stories from the time of the British Raj. Many of these essays relate to
+Southern India in general and the state of Kerala in particular, which is a
+welcome shift in focus from the usual books on Indian history. As a fellow
+Malayalee, I found the essays on Kerala fascinating as I was not at all aware
+of most of these aspects of its history.
+<p>
+The essays in this book are written in an informal, non-patronizing language
+that I really appreciated. There is a bibliography towards the end of the book
+that provides more references for serious students of history (or folks who
+become curious to know more about a topic or person after reading about it
+here). I believe that the author has struck the right balance here and I wish
+more books on history were written like this.
+<p>
+The essays are short and self-contained, which makes it easy to read this book
+in small sittings without the fear of losing context. (I ended up reading this
+book over the course of the entire weird year that was 2020.) Most of the
+essays are about individuals, with some being hypothetical &ldquo;What
+If?&rdquo; speculations. I really enjoyed the ones on largely unknown, but
+quite unusual characters from our history. For example, the very first essay is
+about <a href="https://en.wikipedia.org/wiki/Roberto_de_Nobili">Roberto de
+Nobili</a>, an Italian Jesuit missionary who ends up adopting Indian languages
+and its customs.
+<p>
+I first heard about this book via the gripping <a
+href="https://seenunseen.in/episodes/2019/7/1/episode-127-our-colorful-past/">Episode
+&num;127 of The Seen And The Unseen</a> podcast. I would highly recommend that
+you listen to this episode as a complement to reading this excellent book. As
+an aside, <em>all</em> episodes of that podcast featuring the author of this
+book were excellent and quite gripping throughout, despite their lengths. I
+look forward to reading other books by the same author (who is quite prolific
+at such a young age).
+m4_end_post_rest
+m4_end_post
