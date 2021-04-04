@@ -6,17 +6,10 @@ m4_include(`header.htm4')m4_dnl
 m4_dnl
 m4_heading( `1', `archives', `Archives')
 <p>
-You can find archives for posts here. These are listed here in reverse
-chronological order:
-<ul>
-m4_define(
-    `m4_archive_items',
-    `m4_ifelse($1, 2000, `',
-        <li><a href="m4_root_dir/$1/index.html">Archive for $1</a></li>
-        `m4_archive_items(m4_decr($1))'
-    )'
-)
-m4_archive_items(m4_current_year)
-</ul>
+Here is a year-wise archive of my posts on this web-site in <em>reverse</em>
+chronological order, along with an indicator of posting-activity during the
+respective year:
+<p>
+m4_esyscmd(`postsact.sh ' m4_current_year)
 m4_dnl
 m4_include(`footer.htm4')m4_dnl

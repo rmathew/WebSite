@@ -1,0 +1,75 @@
+m4_define(`m4_post_date', `2021-03-30')m4_dnl
+m4_define(`m4_post_title', `Twenty Years Of Blogging')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+It has been <em>twenty years</em> since I started blogging on this web-site and
+elsewhere. Initially, I used to post separately on this web-site, <a
+href="https://web.archive.org/web/20170628004030/http://www.advogato.org/person/rmathew/">on
+Advogato</a>, and <a href="https://rmathew.blogspot.com/">on BlogSpot</a>.
+After a while, I consolidated all my blog-posts on this web-site, as there was
+no clear separation of themes for the posts across these platforms and it was
+simpler to have a single soap-box. Over the years I started posting more and
+more, but ultimately the posts have become a sad trickle, mostly about <a
+href="m4_root_dir/books/index.html">book-reviews</a> and the odd <a
+href="http://icfpcontest.org/">ICFP Contest</a> in which I took part. I should
+really fix this by posting more regularly and on more diverse topics.
+m4_begin_post_rest
+<p>
+<a href="m4_root_dir/2001/major_site_updt.html">My first post</a> on 2001-03-30
+was about a major redesign of my web-site to adopt a <a
+href="https://en.wikipedia.org/wiki/Blog">weblog</a>-style for the main content,
+based on the apparent feedback from a certain &ldquo;<a
+href="http://web.archive.org/web/20010301220507/http://www.biancabroussard.com/home.asp">Bianca
+Broussard</a>&rdquo; (who soon turned out to be <a
+href="m4_root_dir/2001/dodo.html">a fake person</a> trying to promote the
+services of a company named <a
+href="https://en.wikipedia.org/wiki/Xanga">Xanga</a>). In the early days, the
+blog-posts did not have their own standalone web-page (for example, see a
+snapshot from May 2001 <a
+href="https://web.archive.org/web/20010511052208/http://ranjitmathew.tripod.com/">here</a>,
+thanks to <a href="https://web.archive.org/">The Wayback Machine</a>). In 2008,
+I <a href="m4_root_dir/2008/reorg.html">reorganized</a> this web-site to have
+per-post standalone pages for being able to link to each blog-post separately
+and for the faster loading of aggregator pages. I also provided a <a
+href="http://rmathew.com/atom.xml">feed</a> based on the <a
+href="http://www.atomenabled.org/">Atom</a> format so that regular readers, if
+any, could easily get notified of new blog-posts as and when they appeared.
+<p>
+To see how I have been faring over the years, here is a graph showing the
+number of blog-posts I have published in each year:
+<p>
+<img src="blogfreq.png" width="600" height="371"
+  style="display: block; margin: auto;" alt="Graph of blog-posts each year.">
+<p>
+As an alternate view, here is an activity-calendar till the end of last year
+in reverse chronological order (which I have now incorporated into <a
+href="m4_root_dir/archives/index.html">the main archives page</a>):
+m4_esyscmd(`postsact.sh 2020')
+<p>
+As can be seen above, I used to be a fairly regular blogger till about 2011,
+after which the posting-frequency dropped quite a bit. In recent years, there
+has been some mid-year activity due to the ICFP Contest and some year-end
+activity due to book-reading.
+<p>
+The primary reason for the sharp drop-off after 2011 is that I started <a
+href="https://twitter.com/rmathew4tw">using Twitter</a> for publishing casual
+thoughts (since it was as low-friction as BlogSpot and Advogato, unlike
+publishing to this web-site). I also started reading <em>many</em> more
+long-form articles with the help of <a
+href="https://wwww.feedly.com/">Feedly</a> and <a
+href="https://getpocket.com/">Pocket</a>, as well as spending more time reading
+<a href="https://news.ycombinator.com/">Hacker News</a> &ndash; this left me
+with much less time for reading books. To redeem myself, I scramble to finish
+reading at least a couple of books during my usual year-end break, so that it
+does not turn out to be a shameful year in which I did not read even a single
+book.
+<p>
+This is obviously <em>not</em> healthy and also diminishes the value of this
+web-site to its precious few visitors. I have resolved again and again to
+remedy this by posting around once a week on a range of topics, but have not
+succeeded so far. Dare I hope that things would start becoming better from this
+year? Let us see.
+<p>
+m4_end_post_rest
+m4_end_post

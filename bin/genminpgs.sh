@@ -49,7 +49,7 @@ then
   make deps
 fi
 
-UPDT_FILES="index.html atom.xml $CURR_YEAR/index.html"
+UPDT_FILES="index.html atom.xml archives/index.html $CURR_YEAR/index.html"
 UPDT_FILES="$UPDT_FILES $CURR_YEAR/$PAGE_ID.html"
 if [ -n "$BOOK_CAT" ]
 then
