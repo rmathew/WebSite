@@ -36,6 +36,7 @@ BEGIN {
 /^[0-9]+ 20[0-9][0-9]-[0,1][0-9]$/ { freqs[$2] = $1; }
 
 END {
+    print "<div style=\"overflow-x: auto;\">"
     print "<table style=\"margin: 8px auto; border-collapse: separate; border-spacing: 4px; border: 0;\">"
 
     printf("<thead><tr><th style=\"width: 3.5em;\"></th>")
@@ -72,5 +73,5 @@ END {
            get_background_color(8))
     printf("<td style=\"background-color: %s;\" title=\"9 or more posts\">&nbsp;</td>",
            get_background_color(16))
-    print "</tr></tfoot></table>"
+    print "</tr></tfoot></table></div>"
 }

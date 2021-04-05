@@ -91,7 +91,7 @@ hr.clean_break {
 #main-copy {
   background-color: var(--color00);
   text-align: left;
-  line-height: 1.5em;
+  line-height: 1.32em;
   padding-top: 1ex;
 }
 
@@ -218,6 +218,8 @@ div.book_display img {
 }
 
 img {
+  max-width: 100%;
+  height: auto;
   border: 0;
 }
 
