@@ -1,0 +1,74 @@
+m4_define(`m4_post_date', `2021-04-30')m4_dnl
+m4_define(`m4_post_title', `Ten Years Of iPad 2')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I bought an <a href="https://en.wikipedia.org/wiki/IPad_2">Apple iPad 2</a>
+<em>ten years</em> ago to the day and it is wonderful to see it still going
+strong with regular usage throughout this period. In an era where electronic
+devices have such short shelf-lives due to either being designed with <a
+href="https://en.wikipedia.org/wiki/Planned_obsolescence">planned
+obsolescence</a> or being manufactured using bad-quality components, it is a
+shining testament to Apple&`#'39;s focus on good quality and a respect for its
+customers. (It is not just the iPad 2 &ndash; my <a
+href="https://en.wikipedia.org/wiki/IPhone_4S">iPhone 4S</a> from later on in
+2011 worked well for <em>six years</em>, after which I reluctantly replaced it
+in 2017 by an <a
+href="https://en.wikipedia.org/wiki/IPhone_SE_(1st_generation)">iPhone SE</a>,
+primarily due to its inability to run 64-bit applications or to keep up with
+ever-bloating web-pages &ndash; the iPhone SE is still going strong though.)
+Unlike the pricing of its devices recently in India, Apple sold the iPad 2 at
+quite a reasonable price at the time, which has made this iPad 2 deliver an
+exceptional value for the money I had paid for it.
+m4_begin_post_rest
+<p>
+I primarily use the iPad 2 for reading things. Every week I read the digital
+edition of <a href="https://www.economist.com/">The Economist</a> on it. I
+also frequently catch up with articles I have saved using <a
+href="https://getpocket.com/">Pocket</a> on it. Occasionally, I read the PDFs
+of research-papers on it using <a href="https://goodreader.com/">GoodReader</a>
+or (more rarely) an eBook on <a
+href="https://en.wikipedia.org/wiki/Apple_Books">iBooks</a>. Sometimes I catch
+up with an issue of <a href="https://www.economist.com/1843">1843</a> on it. In
+the beginning, I used to also catch up with <a
+href="https://twitter.com/">Twitter</a> as well my RSS feeds (via <a
+href="https://reederapp.com/">Reeder</a>) on it, but these days I do that
+elsewhere. <a href="https://en.wikipedia.org/wiki/Flipboard">Zite</a> used to
+be my workhorse news-aggregator on it, but after the Flipboard acquisition and
+assimilation it has gone downhill, so I do not use it any more.
+<p>
+<img src="ipad2.jpg" width="640" height="822"
+  style="display: block; margin: auto;"
+  alt="My iPad 2 running the Pocket app.">
+<p>
+I also use the iPad 2 for some entertainment. I used to watch videos hosted on
+<a href="https://www.youtube.com/">YouTube</a>, <a
+href="https://www.vimeo.com/">Vimeo</a>, etc. on it, but that happens elsewhere
+(and on bigger screens) these days. I still have fun playing casual games on it
+though (<a
+href="https://apps.apple.com/us/app/traffic-rush/id322423174">Traffic
+Rush</a>, <a
+href="https://en.wikipedia.org/wiki/Flight_Control_(video_game)">Flight
+Control</a>, <a href="https://en.wikipedia.org/wiki/Plants_vs._Zombies">Plants
+vs Zombies</a>, etc.). In other words, I use the iPad 2 for a lot of things for
+which people usually use tablets.
+<p>
+However, I must admit that the iPad 2 is not as snappy as it used to be when I
+had bought it, mostly due to bloated applications and a sluggish OS. My iPad 2
+had shipped with <a
+href="https://en.wikipedia.org/wiki/IOS_4">iOS 4.3</a> and has been updated to
+<a href="https://en.wikipedia.org/wiki/IOS_9">iOS 9.3.5</a>, the last version
+of iOS available for it from Apple. While Apple added some useful features to
+iOS over these releases, they <em>also</em> added on a lot of bloat and bad UX
+to it (especially starting with <a
+href="https://en.wikipedia.org/wiki/IOS_7">iOS 7</a>). At the same time, the
+Web has become more bloated with most web-sites abusing JavaScript to shove
+advertisements and to do pervasive tracking of users. Due to these reasons, I
+have stopped using this iPad 2 for casual browsing of the Web.
+<p>
+I will have to eventually move on to something beefier to keep with the
+pervasive bloat in applications and the Web, but until then, this iPad 2 will
+suffice for most of my modest needs. Thanks Apple.
+<p>
+m4_end_post_rest
+m4_end_post
