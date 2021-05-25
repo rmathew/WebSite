@@ -1,0 +1,87 @@
+m4_define(`m4_post_date', `2021-05-25')m4_dnl
+m4_define(`m4_post_title', `&ldquo;A Philosophy Of Software Design&rdquo;')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+&ldquo;<a href="https://web.stanford.edu/~ouster/cgi-bin/book.php">A Philosophy
+Of Software Design</a>&rdquo; is a book by <a
+href="https://en.wikipedia.org/wiki/John_Ousterhout">John Ousterhout</a> that
+aims to teach a set of principles by which one can learn how to design
+software-systems in order to reduce the overall complexity. This is a tall
+order for a relatively slim book, but I am happy to report that it lives up to
+its expecations. I had read many good things about the book from people whom
+I respect, so I was somewhat prejudiced in its favor before I started reading
+it. That said, almost all practitioners in the field will find something or the
+other in this book with which they will disagree.
+m4_begin_post_rest
+m4_display_book( `1732102201', `1732102201')
+<p>
+In many ways, this book is complementary to other excellent books in the field
+like <a href="m4_root_dir/2010/cc2e.html">Code Complete</a> and <a
+href="m4_root_dir/2010/tpop.html">The Practice Of Programming</a>. Unlike those
+books though, this book spends more time on the higher-level system-design
+aspects of software than the lower-level coding and debugging aspects. I would
+recommend any serious programmer to read all these books to get better at their
+craft.
+<p>
+The book defines &ldquo;complexity&rdquo; as &ldquo;anything related to the
+structure of a software system that makes it hard to understand and modify the
+system&rdquo;. I think this is quite a reasonable definition of the term. Most
+experienced programmers would agree that their designs and implementations
+should aim to minimize the complexity of systems. The book then goes on to show
+how to identify the symptoms of complexity and what causes it. It recommends
+following a &ldquo;strategic programming&rdquo; approach while building a
+system as opposed to the &ldquo;tactical programming&rdquo; approach often seen
+with inexperienced programmers, start-ups scrambling to get to an MVP, projects
+working under tight deadlines, etc. It recognizes that the former approach is
+not always feasible, so it suggests ways in which one can find the right
+balance.
+<p>
+The bulk of the book is devoted to demonstrating techniques that can help
+reduce the complexity in a system. Some of these run directly against the
+conventional wisdom in certain pockets of our industry. For example, the author
+strongly recommends that a module should be &ldquo;deep&rdquo; &ndash; a small
+interface that presents a good generic abstraction over a large and possibly
+complex implementation. The author presents the well thought out, yet quite
+small, interface for file I/O in Unix and contrasts that with rampant
+&ldquo;classitis&rdquo; in Java. As another example, the author presents the
+copious exceptions that are bubbled up across the call-stack in many Java
+programs and contrasts that with an approach that minimizes or altogether
+eliminates certain classes of errors. The author recommends that the designer
+of a module should &ldquo;pull the complexity downward&rdquo; in order to
+shield the users of the module from the complexities of implementing the
+relevant abstraction (contrast this with the &ldquo;<a
+href="https://en.wikipedia.org/wiki/Worse_is_better">Worse Is Better</a>&rdquo;
+approach).
+<p>
+The author offers several pieces of advice for quotidian activities that
+nevertheless impact the complexity of a system. These include when and how to
+write comments, how to choose good names, making code more obvious, eliminating
+certain classes of comments, ensuring consistency while modifying code, etc. I
+believe most reasonable programmers would agree in general with the advice in
+these chapters, except possibly for the &ldquo;eliminate all comments&rdquo;
+extremists.
+<p>
+On the other hand, the author also offers several opinions on many
+software-trends like object-oriented programming, agile development,
+test-driven development, design-patterns, getters and setters, etc. These
+opinions are sure to rile up some of the readers, although I must admit that I
+ended up agreeing with almost all of them. Our industry suffers too many fads
+and entertains far too many charlatans who mislead impressionable young
+programmers into wasting their time and effort.
+<p>
+There are several design-principles and red-flags throughout this book
+(helpfully gathered in a concluding summary towards the end of the book) that
+would be useful for new and experienced programmers alike. I would heartily
+recommend this book to inexperienced programmers serious about their vocation,
+though they might not appreciate it fully straight out of college. Even for
+experienced programmers and system-designers the book nicely articulates
+several principles and perspectives that they might have internalized over time.
+I have been gravitating towards many of these principles over the years myself,
+so it is nice to have a well-written book to which I can point others as a nice
+summary of such principles.
+<p>
+This book deserves to get a prominent place on the bookshelf of every serious
+programmer. I would be sure to keep returning to it in the future.
+m4_end_post_rest
+m4_end_post

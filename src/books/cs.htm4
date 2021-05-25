@@ -7,6 +7,7 @@ m4_dnl
 m4_heading( `1', `csbooks', `Computer Books')
 m4_define( `m4_show_post_date', `false')m4_dnl
 m4_include_post(`2010', `pp2e')
+m4_include_post(`2021', `philsoft')
 m4_include_post(`2007', `ctmcp')
 m4_include_post(`2010', `cc2e')
 m4_include_post(`2006', `dromey')
