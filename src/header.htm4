@@ -3,17 +3,20 @@ m4_include(`common.m4')
 "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 <head>
-<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<META http-equiv="Cache-Control" content="max-age=86400">
-<META name="author" content="Ranjit Mathew">
-<META name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Cache-Control" content="max-age=86400">
+<meta name="author" content="Ranjit Mathew">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" href="m4_root_dir/favicon.ico" type="image/x-icon">
 <link rel="alternate" href="http://rmathew.com/atom.xml"
 type="application/atom+xml" title="Feed for rmathew.com.">
 <link rel="stylesheet" type="text/css" href="m4_root_dir/default.css"
-media="screen">
+  media="screen">
 <link rel="stylesheet" type="text/css" href="m4_root_dir/print.css"
-media="print">
+  media="print">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Merriweather&amp;display=swap">
 <title>m4_page_title</title>
 <script type="text/javascript" defer
   src="https://www.googletagmanager.com/gtag/js?id=UA-2383717-2"></script>

@@ -1,24 +1,32 @@
 :root {
-    /* PaperColor Light (https://github.com/NLKNguyen/papercolor-theme). */
-    --color00: #EEEEEE;
-    --color01: #AF0000;
-    --color02: #008700;
-    --color03: #5F8700;
-    --color04: #0087AF;
-    --color05: #878787;
-    --color06: #005F87;
-    --color07: #444444;
-    --color08: #BCBCBC;
-    --color09: #D70000;
-    --color10: #D70087;
-    --color11: #8700AF;
-    --color12: #D75F00;
-    --color13: #D75F00;
-    --color14: #005FAF;
-    --color15: #005F87;
-    --color16: #0087AF;
-    --color17: #008700;
-    --selback: #F8F880;
+  /* PaperColor Light (https://github.com/NLKNguyen/papercolor-theme). */
+  --color00: #EEEEEE;
+  --color01: #AF0000;
+  --color02: #008700;
+  --color03: #5F8700;
+  --color04: #0087AF;
+  --color05: #878787;
+  --color06: #005F87;
+  --color07: #444444;
+  --color08: #BCBCBC;
+  --color09: #D70000;
+  --color10: #D70087;
+  --color11: #8700AF;
+  --color12: #D75F00;
+  --color13: #D75F00;
+  --color14: #005FAF;
+  --color15: #005F87;
+  --color16: #0087AF;
+  --color17: #008700;
+  --selback: #F8F880;
+}
+
+/* Disable auto-scaling of fonts in landscape-mode on mobile devices. */
+html {
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 body {
@@ -27,6 +35,8 @@ body {
   margin: 0 auto;
   padding: 0;
   max-width: 50em;
+  font-family: 'Merriweather', 'Georgia', 'Times New Roman', serif;
+  font-size: 16px;
 }
 
 ::selection {
@@ -91,7 +101,7 @@ hr.clean_break {
 #main-copy {
   background-color: var(--color00);
   text-align: left;
-  line-height: 1.32em;
+  line-height: 1.5;
   padding-top: 1ex;
 }
 
@@ -176,6 +186,10 @@ td.toc_entry_1 {
 div.post_header {
   margin-top: 0;
   margin-bottom: 0;
+}
+
+div.post_header b {
+  font-size: 112%;
 }
 
 div.post {
