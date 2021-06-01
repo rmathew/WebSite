@@ -123,11 +123,22 @@ hr.clean_break {
 #main-copy h1 {
   color: var(--color06);
   background-color: transparent;
-  font-size: 150%;
+  font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+  font-size: 175%;
   font-weight: bold;
   margin: 0;
   padding: 0.5ex 0 0.5ex 0.6ex;
   border-bottom: 1px solid var(--color08);
+}
+
+#main-copy h2 {
+  color: var(--color06);
+  background-color: transparent;
+  font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+  font-size: 125%;
+  font-weight: bold;
+  margin: 0;
+  padding: 1em 1ex 0.2ex 1ex;
 }
 
 dl {
@@ -181,15 +192,6 @@ th.toc_title {
 td.toc_entry_1 {
   text-align: left;
   padding: 0.5ex 5ex 0.5ex 3ex;
-}
-
-div.post_header {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-div.post_header b {
-  font-size: 112%;
 }
 
 div.post {

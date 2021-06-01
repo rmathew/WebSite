@@ -122,12 +122,9 @@ m4_define(
       m4_standalone_post,
       `true',
       <h1>[m4_post_date] m4_post_title</h1>,
-      <div id="m4_post_id" class="post_header">
-	<p>
-	<b>
+      <h2 id="m4_post_id">
 	m4_ifelse( m4_show_post_date, true, [m4_post_date] )m4_make_post_link( m4_post_date, m4_post_id, `m4_post_title')m4_dnl
-	</b>
-      </div>
+      </h2>
     )
   ]]
 )
