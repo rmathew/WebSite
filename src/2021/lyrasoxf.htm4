@@ -1,0 +1,39 @@
+m4_define(`m4_post_date', `2021-06-12')m4_dnl
+m4_define(`m4_post_title', `&ldquo;Lyra&`#'39s Oxford&rdquo;')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+&ldquo;<a href="https://en.wikipedia.org/wiki/Lyra's_Oxford">Lyra&`#'39s
+Oxford</a>&rdquo; is a short book by <a
+href="https://en.wikipedia.org/wiki/Philip_Pullman">Philip Pullman</a> set in
+the universe described by the fantastic <a
+href="https://en.wikipedia.org/wiki/His_Dark_Materials">His Dark Materials</a>
+trilogy. I had <em>immensely</em> <a
+href="m4_root_dir/2004/hdm.html">enjoyed</a> the trilogy when I first read it,
+so I was looking forward to reading this book to reinhabit that universe.
+m4_begin_post_rest
+m4_display_book( `0399555455', `0857535579')
+<p>
+This is a really short book (the edition I read has just over 30 pages)
+comprising a short story, an illustrated map of the fictional town of Oxford,
+and copies of some other things. The story is set a couple of years after the
+events described by the main trilogy. It follows the heroine <a
+href="https://en.wikipedia.org/wiki/Lyra_Belacqua">Lyra Belacqua</a> as she
+tries to find a mysterious alchemist in town, egged on by the daemon of a witch
+apparently dying of an illness. She saves this daemon, which has settled on the
+form of a bird, when it was being attacked by a flock of other birds. Things do
+not turn out the way she expected them to.
+<p>
+The story and the accompanying illustrations are charming, but there is not
+much in it for people who are not already fans of the trilogy. I would heartily
+recommend that you first read the original trilogy as it is a nice work of
+fantasy well worth your time.
+<p>
+If you <em>are</em> a fan of the books, this story presents an
+<i>amuse-bouche</i> preparing you for the hopefully-delicious meal of <a
+href="https://en.wikipedia.org/wiki/The_Book_of_Dust">the next trilogy</a> of
+books by the author set in the same fictional universe.
+<p>
+<i>Bon App&eacute;tit!</i>
+m4_end_post_rest
+m4_end_post
