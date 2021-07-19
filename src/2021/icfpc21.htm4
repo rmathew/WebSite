@@ -1,0 +1,108 @@
+m4_define(`m4_post_date', `2021-07-19')m4_dnl
+m4_define(`m4_post_title', `ICFPC 2021')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I took part in <a href="https://icfpcontest2021.github.io/">ICFPC 2021</a>
+last weekend. I was somewhat hesitant going into the contest this year after <a
+href="m4_root_dir/2020/icfpc20.html">having been weirded out</a> by last
+year&`#'39s task, but I am happy to report that the task this year was a
+&ldquo;classic&rdquo; no-nonsense ICFPC task with a concise and
+straightforward <a
+href="https://icfpcontest2021.github.io/specification.html">specification</a>.
+That did <em>not</em> mean that it was an easy task to fulfill &ndash; going by
+the write-ups from other teams, it seems I was not alone in thinking that.
+m4_begin_post_rest
+<p>
+As my day-job continues to almost exclusively involve C++, I wanted to use this
+opportunity as a way to properly learn the <a
+href="https://rust-lang.org/">Rust</a> programming-language. However, once again
+I could not get it to work on <a
+href="m4_root_dir/2020/lucifer.html">Lucifer</a> in time for the contest. So it
+was back to coding in <a href="https://golang.org/">Go</a> for me this year as
+well. At least this way I could learn to program in it a bit more.
+<p>
+The contest started at 17:30 on Friday 9<sup>th</sup> July in my time-zone and
+ended at 17:30 on Monday 12<sup>th</sup> July after 72 hours. I took the day off
+on Monday to enjoy three back-to-back days of trying to solve a hard problem.
+This was quite an enjoyable experience, even though I did not successfully solve
+it. I continued to tinker with it after work on a couple of other days during
+the rest of the week and will probably do so for at least a couple of more days.
+<p>
+The task was based on the Japanese TV-game &ldquo;<a
+href="https://en.wikipedia.org/wiki/Brain_Wall">Brain Wall</a>&rdquo; (watch
+some <a href="https://www.youtube.com/watch?v=6DYJXSSgW08">clips from the
+game</a> to get a feel for it). Given a wall with a hole cut-out moving towards
+a figure, you have to contort the figure to assume a pose that will fit the
+hole, while trying to minimize the distances of its extremities from the corners
+of the hole (in other words, maximize how closely the pose resembles the hole).
+Unlike a human, the edges of the 2D figures in the task could be stretched or
+compressed by a certain amount (they behaved like springs).
+<p>
+The specification for the task was concisely and precisely stated with no
+fixes required during the contest (except, of course, for the addition of the
+traditional bonus-tasks and extra problems). Various problems corresponding to
+the task were available via <a href="https://poses.live/">a dedicated
+web-site</a>, which also allowed the contestants to submit corresponding
+solutions and visualize how they fared. Both the problems and the solutions were
+encoded in <a href="https://json.org/">JSON</a>. Thus the task this year was a
+&ldquo;classic&rdquo; no-nonsense ICFPC task and the associated set-up made it
+really simple to submit and visualize solutions to various problems. The really
+hard part was in automatically coming up with solutions for the problems.
+<p>
+I started off by writing code to parse problems and solutions (the organizers
+included a sample solution for the first problem in the task-specification
+itself). Since it was important to visualize these problems and understand how
+the solutions looked in relation to the problem, I then wrote a simple
+visualizer for the problems and the solutions.
+<p>
+<img src="icfpc21.png" width="640" height="492"
+  style="display: block; margin: auto;" alt="Hole-in-the-wall screen-shot.">
+<p>
+I then tried <em>hard</em> to come up with an analytical solution for the
+problems and spent several hours on it. (It turns out that this was a mistake,
+as many teams managed to get high scores by simply solving the problems manually
+&ndash; after all, there were relatively few problems to solve and the
+organizers just wanted solutions to those problems, rather than pit the program
+from one contestant against that from another. However, what is the fun in that?
+I take part in ICFPC to try to solve hard problems rather than win a contest.)
+<p>
+After a while, I gave up and tried to take a shot at learning <a
+href="https://en.wikipedia.org/wiki/Simulated_annealing">Simulated
+Annealing</a> and using it to come up with solutions (in other words, a
+glorified trial-and-error method). But before doing that, I had to implement a
+few 2D-geometry algorithms and this turned out to be a can of worms of its own.
+In particular, I tried to essentially implement scan-line polygon-fill and
+failed miserably at it &ndash; in the end, I just ended up using <a
+href="https://sourceforge.net/projects/sdl2gfx/">SDL2_gfx</a> to render into an
+off-screen buffer and then reading back the pixel-values. Shameful.
+<p>
+Simulated Annealing turned out to be unexpectedly weird. In particular, the
+algorithm as described on Wikipedia, in the book &ldquo;<a
+href="https://algorist.com/">The Algorithm Design Manual</a>&rdquo;, the
+canonical papers cited as references for it, etc. <em>are all different</em>.
+This seems bizarre to me and I might be missing something here. In addition, no
+one seems to provide guidance on how to specify various critical parameters for
+the algorithm to work, what to look out for when trying to get to a solution,
+etc. It seems like this approach <em>should</em> eventually yield a solution,
+but all my attempts with it have failed so far. I still want to properly learn
+it, so I will probably continue to tinker with it for a while longer.
+<p>
+So I ended this year without either manual or automated solutions for any of the
+problems, which is sad. However, I did learn quite a bit during the contest and
+I did have fun trying hard to come up with automated solutions for the problems.
+That is what makes ICFPC enjoyable for me and the organizers delivered on this
+count. Kudos to them.
+<p>
+The source-code for my attempt this year can be found <a
+href="https://bitbucket.org/rmathew/icfpc/src">on Bitbucket</a>, <a
+href="https://github.com/rmathew/icfpc/">on GitHub</a>, and <a
+href="https://gitlab.com/rmathew/ICFPC">on GitLab</a>. You can find some other
+write-ups on <a href="https://old.reddit.com/r/icfpcontest/">/r/icfpcontest</a>
+(and in <a
+href="https://old.reddit.com/r/icfpcontest/comments/oiq1xg/icfpc_2021_completed_share_your_thoughts_writeups/">this
+thread</a> in particular) or <a
+href="https://icfpcontest2021.github.io/writeups.html">on the contest
+web-site</a> itself.
+m4_end_post_rest
+m4_end_post
