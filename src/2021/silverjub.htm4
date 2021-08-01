@@ -1,0 +1,157 @@
+m4_define(`m4_post_date', `2021-08-01')m4_dnl
+m4_define(`m4_post_title', `Silver Jubilee')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+Today marks the completion of 25 years in the IT industry for me. Just as with
+the increasing number of silver hair on my scalp, I hope that this silver
+jubilee marks a certain maturity on my part rather than just the passage of
+time. While I do not have pearls of wisdom to offer on this anniversary, I
+would like to reflect a bit on the journey so far.
+m4_begin_post_rest
+<p>
+<b>Beginning</b><br>
+<p>
+On the 1<sup>st</sup> of August 1996 I joined what was then known as
+&ldquo;Tata Information Systems Limited&rdquo; (TISL) soon after graduating
+from college. I also moved to Bangalore as a part of joining TISL, where I
+continue to live to this day. TISL was a joint venture between the venerable <a
+href="https://en.wikipedia.org/wiki/Tata_Group">Tata Group</a> and the colossus
+in computing <a href="https://en.wikipedia.org/wiki/IBM">IBM</a>. Within the
+approximately two years that I was employed by the company, TISL changed its
+name and corporate-structure to first become Tata-IBM and then IBM Global
+Services.
+<p>
+I have <a href="m4_root_dir/resume.html">changed a few jobs</a> since then.
+<p>
+<b>Job Satisfaction</b><br>
+As a na&iuml;ve college-graduate, I wanted to attain &ldquo;job
+satisfaction&rdquo; in my career. I had <a
+href="m4_root_dir/articles/prog.html"><em>loved</em></a> computer-programming
+in general since high school and graphics-programming &amp; game-programming in
+particular since college, so my ideal employer would have been a game-developer
+creating their own 3D graphics-engine. However, I did not want to subject
+myself to the shenanigans and the constraints of the US immigration system, so
+I joined a regular company in the hopes of making the switch some time later if
+conditions were to become better. It now seems that most game-development
+companies are quite exploitative in nature, you are not left with much of a
+work-life balance, and game-development in general has gone in a direction that
+is not my cup of tea. So I do not terribly regret the path I have taken.
+<p>
+That said, I realized soon that the interests of a company are <em>never</em>
+fully aligned with your interests, despite all the noises they might make to the
+contrary, so it would be foolish to seek fulfillment via your job. For a while
+therefore, I did not exert myself too much in my day job, preferring to work on
+my side-projects in the evenings and over the weekends. That turned out to be
+not such a great idea since a day job takes up quite a bit of your mental
+energy, especially as you start to take on more responsibilities and
+doubly so if you work on soul-sucking enterprise software. This leaves you with
+little time or energy for your passion-projects and is therefore quite
+frustrating. So it was back to finding at least somewhat interesting
+work-opportunities in the latter half of my career. If you are spending so many
+of your waking hours and mental energy on something, it better be a bit
+fulfilling as well.
+<p>
+<b>Experience</b><br>
+Someone once quipped that &ldquo;experience is a comb that life gives you after
+you have lost all your hair&rdquo;. I sometimes wish that I could get into a
+time-machine and tell my younger self all the things that I have learned over
+the years, but I <em>know</em> that this would be a futile exercise since there
+are many things that you have to experience yourself for you to truly appreciate
+them. I see this play out repeatedly as I try to advise younger folks who seem
+quite sincere in seeking out such advice. This frustration is compounded by the
+fact that there is so much bad advice floating around and spouted in confidence
+by inexperienced folks, while the really experienced folks mumble and waddle
+about in self-doubt. (AKA &ldquo;empty vessels make the most noise&rdquo; or the
+<a href="https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect">Dunning-Kruger
+effect</a>.) Confidence is not equal to authority, but we perceive it to be so.
+<p>
+As an example of this, I now strive relentlessly to keep things simple in a
+system and to not over-design it for solving use-cases that <em>might</em>
+arise in the hypothetical future. To really appreciate this, you have to have
+maintained complex software-systems as they evolved to support changing
+requirements or as they prematurely got replaced by the next shiny thing.
+However, a simple-looking system will not win you brownie-points with
+management or with peers in unrelated teams who might be evaluating you.
+(&ldquo;What is so great about this? Even a kid could have built something like
+this.&rdquo;) In sharp contrast, as a kid barely four years out of college and
+a designated &ldquo;architect&rdquo;, I was <a
+href="https://www.joelonsoftware.com/2001/04/21/dont-let-architecture-astronauts-scare-you/">an
+architecture astronaut</a> creating elaborate castles stuffed to the hilt with
+design-patterns and ready to address all current and future use-cases. Those
+systems did not survive for long as they were not needed after a while and the
+new use-cases never came to pass.
+<p>
+Another example of this is the propensity of our industry to keep pushing new
+products, methodologies, languages, etc. as a silver bullet that will make your
+life a whole lot easier, but that end up adding to the complexity of systems and
+wasting your time and money. Younger folks enthusiastically take these up and
+evangelize replacing older products, methodologies, languages, etc. by the new
+shiny thing. If your foundations are strong and if you have weathered the
+industry for several years, you tend you see through the hype and become jaded,
+but no one would listen to your &ldquo;not yet&rdquo; (unless you happen to have
+the authority to put your foot down and have others follow along). At the same
+time, you have to watch out and not become too cynical and so skeptical of new
+solutions that you miss the significance of genuine improvements that crop up at
+times. Always be learning.
+<p>
+<b>Career</b><br>
+When I had joined the industry, IT in India was relatively new and oriented
+towards services, not products. It had seemed that the only way to advance my
+career was to soon get into people-management, which was a depressing prospect
+for someone who loves programming and is an engineer at heart. Thankfully, more
+and more opportunities opened up in Bangalore and I have remained a so-called
+&ldquo;individual contributor&rdquo; throughout my career so far, with no
+intention of getting into people-management any time soon.
+<p>
+I have repeatedly seen that people are eager to quickly advance in their career
+and for others to equate that ascent with success. After all, the quicker you
+can get more power, more money, and more prestige, the better for you, right?
+However, this eventually leads to a stalled career, frustration or
+disillusionment, and even burnout. It ultimately results in the manifestation of
+the <a href="https://en.wikipedia.org/wiki/Peter_principle">Peter Principle</a>
+even in the most data-driven and supposedly-objective companies. You spend your
+most energetic years pursuing a path that might not ultimately be as fulfilling
+as you had hoped and that leaves you with no time for family, friends, and your
+hobbies. (You probably have much more money than your peers, which is not bad
+at all, even if it cannot buy you happiness.) I have consciously tried to avoid
+taking this approach for my career, though I sometimes do wonder whether I am
+just trying to rationalize my laid-back approach to life.
+<p>
+<b>Communication</b><br>
+To paraphrase Titus Winters and Russ Cox, software engineering is a surface
+integral of programming over time and other people. While I loved programming,
+it took me while to become better at software engineering. A key thing I learned
+in system-design is the pursuit of simplicity, which reduces the overall
+maintenance-burden of a system for a team. Another important learning was the
+importance of clear and crisp communication. Explaining your design clearly so
+that your team can use it to effectively implement the system, keeping your code
+readable so that others can maintain or enhance it, documenting the semantics
+and the contract of your interfaces properly to reduce errors, etc. are all
+important to building a good system. Most engineers would eventually come to see
+the benefit of this and start following them with some guidance and perhaps a
+bit of goading.
+<p>
+There are other forms of communication however, that are more difficult for
+engineers to follow, but that are nevertheless critical to their career and
+well-being. For example, you have to develop the ability to say &ldquo;no&rdquo;
+by pushing back on unreasonable requirements that would add unnecessary
+complexity to a system or taking on additional responsibilities that would
+strain your well-being. As another example, many engineers seem to believe that
+all their good and hard work will speak for itself and are loath to engage in
+what they perceive to be shameless self-promotion &ndash; this is delusional and
+you would do well to let others know about your achievements, crisply
+highlighting the impact of your efforts, the difficulty you had to overcome,
+etc. As yet another example, when someone goes out of their way to help you,
+take some time to thank them publicly to show them that you are grateful and
+they did not simply waste their time.
+<p>
+<b>Conclusion</b><br>
+There are many other topics on which I can pontificate based on my time in the
+industry, but I should probably set them aside for detailed exploration in
+future blog-posts. Suffice it to say that I consider myself fortunate to be
+still working on interesting problems with smart engineers who are eager to
+learn and where I get to continuously learn as well. I hope to remain productive
+for many years to come.
+m4_end_post_rest
+m4_end_post
