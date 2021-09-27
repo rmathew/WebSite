@@ -1,0 +1,40 @@
+m4_define(`m4_post_date', `2021-09-26')m4_dnl
+m4_define(`m4_post_title', `&ldquo;Once Upon A Time In The North&rdquo;')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+&ldquo;<a href="https://en.wikipedia.org/wiki/Once_Upon_a_Time_in_the_North">Once
+Upon A Time In The North</a>&rdquo; is another short book (after <a
+href="lyrasoxf.html">Lyra&#39s Oxford</a>) by <a
+href="https://en.wikipedia.org/wiki/Philip_Pullman">Philip Pullman</a> set in
+the fictional universe described by the <a
+href="https://en.wikipedia.org/wiki/His_Dark_Materials">His Dark Materials</a>
+trilogy. The hero of this book is the aeronaut <a
+href="https://en.wikipedia.org/wiki/Lee_Scoresby">Lee Scoresby</a> and the book
+tells the story of his first meeting with the armored bear <a
+href="https://en.wikipedia.org/wiki/Iorek_Byrnison">Iorek Byrnison</a>.
+m4_begin_post_rest
+m4_display_book( `0399555447', `0857535668')
+<p>
+Fans of the &ldquo;His Dark Materials&rdquo; series would recognize these two as
+important characters who provide critical help to the heroine Lyra in her quest.
+Even if you are not a fan of the series or have never read any book in the
+series (or watched the eponymous TV series or film), I feel that you can still
+enjoy this nice little story on its own. (Of course, you might have to look up
+what a &ldquo;<a
+href="https://en.wikipedia.org/wiki/D%C3%A6mon_%28His_Dark_Materials%29">daemon</a>&rdquo;
+is in this fictional universe to understand why the hero has a talking animal
+by his side at all times.)
+<p>
+The book has some beautiful illustrations accompanying it, especially of various
+items alluded to in the story, which nicely complement the story in helping you
+imagine the world described by the story. For a short while, you inhabit this
+fictional universe and enjoy the story deftly told by the author in a build-up
+to his next trilogy of books set in the same world.
+<p>
+If you are a fan of the original trilogy, you will surely enjoy this little
+book as chance to get to know more about two lovable characters. If you are not
+a fan (yet), you can still enjoy this short tale of adventure set in a world
+somewhat similar to ours.
+m4_end_post_rest
+m4_end_post
