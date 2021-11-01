@@ -107,7 +107,7 @@ hr.clean_break {
 
 #main-copy p {
   margin: 0;
-  padding: 1em 1ex 0.5ex 1ex;
+  padding: 5px 10px 5px 10px;
 }
 
 #main-copy a {
@@ -127,7 +127,7 @@ hr.clean_break {
   font-size: 175%;
   font-weight: bold;
   margin: 0;
-  padding: 0.5ex 0 0.5ex 0.6ex;
+  padding: 25px 10px 5px 10px;
   border-bottom: 1px solid var(--color08);
 }
 
@@ -138,7 +138,17 @@ hr.clean_break {
   font-size: 125%;
   font-weight: bold;
   margin: 0;
-  padding: 1em 1ex 0.2ex 1ex;
+  padding: 15px 10px 5px 10px;
+}
+
+#main-copy h3 {
+  color: var(--color06);
+  background-color: transparent;
+  font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+  font-size: 100%;
+  font-weight: bold;
+  margin: 0;
+  padding: 10px 10px 5px 10px;
 }
 
 dl {
@@ -250,6 +260,18 @@ div.notice {
   padding: 0.5em;
   border: 1px solid var(--color08);
   text-align: left;
+}
+
+code {
+  color: var(--color01);
+  font-family: 'Inconsolata', 'DejaVu Sans', 'Consolas', monospace;
+}
+
+#main-copy pre {
+  margin: 5px 10px 5px 10px;
+  padding: 5px 10px 5px 10px;
+  border: 1px solid var(--color08);
+  overflow-x: auto;
 }
 
 /*

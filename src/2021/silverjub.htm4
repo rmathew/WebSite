@@ -8,9 +8,10 @@ the increasing number of silver hair on my scalp, I hope that this silver
 jubilee marks a certain maturity on my part rather than just the passage of
 time. While I do not have pearls of wisdom to offer on this anniversary, I
 would like to reflect a bit on the journey so far.
+
 m4_begin_post_rest
-<p>
-<b>Beginning</b><br>
+
+m4_heading(`2', `beginning', `Beginning')
 <p>
 On the 1<sup>st</sup> of August 1996 I joined what was then known as
 &ldquo;Tata Information Systems Limited&rdquo; (TISL) soon after graduating
@@ -23,8 +24,9 @@ name and corporate-structure to first become Tata-IBM and then IBM Global
 Services.
 <p>
 I have <a href="m4_root_dir/resume.html">changed a few jobs</a> since then.
+
+m4_heading(`2', `satisfaction', `Job Satisfaction')
 <p>
-<b>Job Satisfaction</b><br>
 As a na&iuml;ve college-graduate, I wanted to attain &ldquo;job
 satisfaction&rdquo; in my career. I had <a
 href="m4_root_dir/articles/prog.html"><em>loved</em></a> computer-programming
@@ -51,8 +53,8 @@ frustrating. So it was back to finding at least somewhat interesting
 work-opportunities in the latter half of my career. If you are spending so many
 of your waking hours and mental energy on something, it better be a bit
 fulfilling as well.
+m4_heading(`2', `experience', `Experience')
 <p>
-<b>Experience</b><br>
 Someone once quipped that &ldquo;experience is a comb that life gives you after
 you have lost all your hair&rdquo;. I sometimes wish that I could get into a
 time-machine and tell my younger self all the things that I have learned over
@@ -94,8 +96,9 @@ the authority to put your foot down and have others follow along). At the same
 time, you have to watch out and not become too cynical and so skeptical of new
 solutions that you miss the significance of genuine improvements that crop up at
 times. Always be learning.
+
+m4_heading(`2', `career', `Career')
 <p>
-<b>Career</b><br>
 When I had joined the industry, IT in India was relatively new and oriented
 towards services, not products. It had seemed that the only way to advance my
 career was to soon get into people-management, which was a depressing prospect
@@ -117,8 +120,9 @@ hobbies. (You probably have much more money than your peers, which is not bad
 at all, even if it cannot buy you happiness.) I have consciously tried to avoid
 taking this approach for my career, though I sometimes do wonder whether I am
 just trying to rationalize my laid-back approach to life.
+
+m4_heading(`2', `communication', `Communication')
 <p>
-<b>Communication</b><br>
 To paraphrase Titus Winters and Russ Cox, software engineering is a surface
 integral of programming over time and other people. While I loved programming,
 it took me while to become better at software engineering. A key thing I learned
@@ -145,8 +149,9 @@ highlighting the impact of your efforts, the difficulty you had to overcome,
 etc. As yet another example, when someone goes out of their way to help you,
 take some time to thank them publicly to show them that you are grateful and
 they did not simply waste their time.
+
+m4_heading(`2', `conclusion', `Conclusion')
 <p>
-<b>Conclusion</b><br>
 There are many other topics on which I can pontificate based on my time in the
 industry, but I should probably set them aside for detailed exploration in
 future blog-posts. Suffice it to say that I consider myself fortunate to be

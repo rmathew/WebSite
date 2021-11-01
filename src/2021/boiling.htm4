@@ -1,0 +1,524 @@
+m4_define(`m4_post_date', `2021-10-25')m4_dnl
+m4_define(`m4_post_title', `Boiling The Ocean On Lucifer`,' Once Again')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+Over the past three weeks or so, I have been updating the installation of
+<a href="https://en.wikipedia.org/wiki/Linux">Linux</a> on my old desktop PC <a
+href="m4_root_dir/2020/lucifer.html">Lucifer</a> to use newer software. This
+has been a painful, yet quite educational, process by which I was finally able
+to achieve what I had set out to do. Reasonable people would have long ago just
+upgraded their machines and then used a package-manager native to their
+distribution to achieve what I did, but where is the fun in being a reasonable
+person?
+
+m4_begin_post_rest
+
+m4_heading(`2', `trigger', `The Trigger')
+<p>
+The proximate reason for the update was to be able to run <a
+href="https://www.rust-lang.org/">Rust</a> on this machine so that I could
+learn it properly to see what all the fuss was about. Lucifer has a Pentium 3
+for a CPU, but the <code>i686-unknown-linux-gnu</code> binaries available from
+the official Rust web-site do not actually support the CPU <a
+href="https://hsivonen.fi/i686/">due to some bizarre reasons</a> involving <a
+href="https://www.llvm.org/">LLVM</a> and Rust. The project does <em>not</em>
+provide binaries for <code>i586-unknown-linux-gnu</code> either, so it is really
+difficult to get the Rust compiler running on older machines. Since the compiler
+for Rust is written in Rust itself and the language keeps changing, it is really
+hard to bootstrap a compiler for it for a supposed <a
+href="https://doc.rust-lang.org/nightly/rustc/platform-support.html">Tier 2</a>
+(&ldquo;guaranteed to build&rdquo;) platform. Some folks have made <a
+href="https://guix.gnu.org/blog/2018/bootstrapping-rust/">a brave attempt</a>
+at short-circuiting this bootstrapping process a bit by using <a
+href="https://github.com/thepowersgang/mrustc">mrustc</a>, but frankly this
+whole situation is rather ridiculous for a mainstream language that seeks to
+replace C.
+<p>
+Thankfully Rust <em>does</em> support easy cross-compilation, so I found myself
+a capable <code>x86_64-unknown-linux-gnu</code> machine and with little
+difficulty managed to create a <a
+href="https://gcc.gnu.org/onlinedocs/gccint/Configure-Terms.html">crossed-native
+compiler</a> for <code>i586-unknown-linux-gnu</code>. The only problem was that
+it required glibc-2.32 or later, while my machine was on glibc-2.21. That
+upgrade was not going to be easy, so I punted on it for a long time.
+
+m4_heading(`2', `other', `Other Reasons')
+<p>
+Being able to run Rust was not the only reason I wanted to update the software
+on this machine though. I have been longing to be able to use <a
+href="https://en.wikipedia.org/wiki/C%2B%2B17">C++-17</a> or newer on this
+machine since it made working with C++ so much better. However, I was afraid of
+upgrading to <a href="https://gcc.gnu.org/gcc-5/changes.html">GCC 5</a> or
+better because of the change in its ABI due to the new implementations of
+<code>std::string</code> and <code>std::list</code>. (As it turned out, GCC has
+implemented this in a clever way that lets it present a <a
+href="https://gcc.gnu.org/onlinedocs/libstdc++/manual/using_dual_abi.html">dual
+ABI</a> to programs, so that libraries compiled with older versions of the
+compiler do not break when used with programs compiled with the newer versions.)
+<p>
+I also wanted to be able to use <a href="https://clang.llvm.org/">Clang</a> and
+associated goodies like clang-format, clang-tidy, etc., but even that required
+GCC 5 or better for building it. Of course, it is easier to meet the
+requirements for a newer compiler-toolchain than the C library by installing it
+into a sequestered installation-prefix and using the older toolchain for the
+rest of the system. However, I wanted to be able to use the newer toolchain for
+the rest of the system as well to benefit from (hopefully) better optimizations
+and improved error-checking.
+
+m4_heading(`2', `problem', `The Problem')
+<p>
+Unfortunately for me, glibc requires at least kernel-3.2.0 or better <a
+href="https://sourceware.org/pipermail/libc-announce/2017/000017.html">starting
+with glibc-2.26</a>. This was a problem because the last version of the
+proprietary driver from Nvidia that I can get for the <a
+href="https://en.wikipedia.org/wiki/GeForce_3_series">GeForce 3</a> Ti 200
+graphics-card on this machine (<a
+href="https://download.nvidia.com/XFree86/Linux-x86/96.43.23/README/index.html">v96.43.23</a>),
+does not support anything newer than kernel-2.6.x or X.org server 1.12.4. The
+proprietary Nvidia driver was sadly necessary to get a decent performance for 3D
+graphics with <a href="https://www.opengl.org/">OpenGL</a> and even for a smooth
+desktop-experience (most notable while dragging application-windows across the
+screen).
+<p>
+I was still willing to upgrade the kernel, X.org server, etc. as I thought
+surely by now the open-source <a
+href="https://nouveau.freedesktop.org/">Nouveau</a> driver for Nvidia
+graphics-cards should provide adequate support for my graphics-card (as affirmed
+by the <a
+href="https://nouveau.freedesktop.org/FeatureMatrix.html">feature-matrix</a> on
+its wiki) along with the latest <a href="https://dri.freedesktop.org/">DRI</a>.
+Thus I embarked on the upgrade-process that took far longer than I had
+originally anticipated.
+
+m4_heading(`2', `dependencies', `Dependencies Hell')
+<p>
+Lucifer has a Linux-installation with a base of <a
+href="http://www.slackware.com/announce/12.1.php">Slackware 12.1</a>, which has
+been updated over the years with newer versions of some software compiled from
+source. (The lightweight package-management, and being able to easily replace
+stock versions of software with manually-compiled ones optimized for my machine,
+is what I love about Slackware, among many other things.) As an aside, this
+version was installed <a href="m4_root_dir/2008/icfpc-2008.html">in 2008</a>
+after an unfortunately-timed crash of the previous primary hard-disk on this
+machine.
+<p>
+Anyone who has compiled software for Linux on a regular basis knows the kind of
+dependencies hell one can quickly get into. You set out to update one piece of
+software and you end up installing many, many other libraries and even run into
+software that has circular dependencies. This is tedious and frustrating, not
+to mention quite time-consuming, so I do not look forward to it and have not
+been doing it for a while. In fact, the timestamps for various libraries on my
+system show that I last attempted an upgrade that was even remotely similar to
+this back in June 2011 &ndash; more than ten years ago. This is why I wish more
+software developers paid attention to the excellent advice by Russ Cox <a
+href="https://research.swtch.com/deps">on managing dependencies</a>.
+<p>
+Since I was determined to update the system this time, I bit the bullet and
+started updating software one by one. I began with binutils-1.37, moved on to
+updating the dependencies for gcc-9.4.0 and then bootstrapping the compiler
+itself, and so on. Since I wanted the latest end-to-end support with Nouveau,
+I had to update to the latest stable versions at the time of the the kernel
+(v5.14.12), <a href="https://www.mesa3d.org/">Mesa3D</a> (v21.2.3), and the
+X.org server (v1.20.13), as well as their <em>numerous</em> dependencies.
+
+m4_heading(`2', `nouveau', `Nouveau`,' The New Woe')
+<p>
+Thus began a struggle lasting around two weeks during which I desperately tried
+to make the Nouveau driver work for my set-up, but it just would not. As soon as
+I enabled <a href="https://nouveau.freedesktop.org/KernelModeSetting.html">Kernel
+Mode Setting</a> (KMS) for the Nouveau kernel-module, it completely messed up my
+display, but without KMS the Nouveau display-driver for the X.org server
+refused to work so KMS was essential. The display (on a Dell P190S 19&rdquo; LCD
+monitor connected via DVI-D to the graphics-card) would either freeze or show
+&ldquo;snow&rdquo; whenever KMS was enabled.
+<p>
+I experimented with tweaking a lot of kernel-parameters during boot-up in order
+to solve the problem, including those related to the Nouveau kernel-module, the
+DRM kernel-module, the framebuffer console, etc. without luck. I even
+recompiled the kernel several times, enabling the drivers for all sorts of LCD
+panels, connectors, I2C support for various chips, GPIO support, etc. still
+without any luck. These recompilations took a lot of time and I would usually
+recompile the kernel overnight. I tried these with the last stable versions of
+the kernel in the 3.x series as well (both kernel-3.18.140 and kernel-3.19.8)
+to rule out regressions over time in the support for legacy graphics-cards.
+<p>
+I finally started poking around the sources for the Nouveau kernel-module and
+as far as I can tell, it just does not like my set-up. For example, it <a
+href="https://elixir.bootlin.com/linux/v5.14.12/source/drivers/gpu/drm/nouveau/nouveau_bios.c#L1280">refuses</a>
+to use the DCB data provided by the VBIOS on my graphics-card and is not able to
+properly <a href="https://elixir.bootlin.com/linux/v5.14.12/source/drivers/gpu/drm/nouveau/nouveau_bios.c#L1042">parse</a>
+the BMP data either. It therefore does not recognize the display connected to
+the DVI-D connector and defaults to using the VGA output, where there is no
+display available. I had no energy (or time) left to try to debug and patch this
+issue, so I started looking for alternatives.
+<p>
+I first tried out the old &ldquo;nv&rdquo; driver for the X.org server, which
+did not depend on KMS or DRI. It performed quite badly at first, but it turned
+out that it was because it really needed <a
+href="https://en.wikipedia.org/wiki/XFree86_Acceleration_Architecture">XAA</a>,
+support for which had been dropped from the X.org servers starting from version
+1.13. So I had to downgrade the X.org server to v1.12.4 and finally managed to
+get decent performance for regular desktop tasks. However, the performance for
+3D graphics under OpenGL was still very bad under this set-up, so I fell back to
+checking if the proprietary driver from Nvidia could <em>somehow</em> be made to
+work with the newer 3.x series of the kernel (which was the minimum version
+needed by glibc-2.26+).
+
+m4_heading(`2', `nvidia', `Nvidia`,' Still With Ya')
+<p>
+Searching around the Internet led to the pleasant discovery that some
+enterprising souls had indeed managed to make the kernel-module in the Nvidia
+v93.43.23 &ldquo;legacy&rdquo; drivers work with the 3.x series kernel. For
+example, I found one set of patches and a handy shell-script <a
+href="https://slackbuilds.org/slackbuilds/14.1/system/nvidia-legacy96-kernel/">on
+SlackBuilds</a>. However, they did not work for kernel-3.18.140 or kernel-3.19.8,
+so I had to make some more modifications until I could make it work. You can get
+<a href="https://gist.github.com/rmathew/0acd5faf67378a80d85ab6755948a71f">the
+updated patch</a> that worked for me, if you are interested.
+<p>
+Getting the proprietary Nvidia driver working with the newer kernel was a huge
+relief as I could finally move on to the rest of the upgrade to the newer
+glibc.
+
+m4_heading(`2', `udev', `Udev`,' I Dev`,' We All Dev')
+<p>
+One of the somewhat-forced upgrade that happened during this time was the update
+to <a href="https://en.wikipedia.org/wiki/Udev">udev</a>, one of the critical
+components on a modern Linux box (it works in userspace and manages entries in
+<code>/dev</code> dynamically as and when devices are added or removed from the
+system). Unfortunately, it has gone through a weird journey over the years and
+is now a part of <a href="https://en.wikipedia.org/wiki/Systemd">systemd</a> (of
+all things). Since I did not want to touch <a
+href="https://blog.darknedgy.net/technology/2020/05/02/0/">that beast</a> even
+with a bargepole, I went with a forked alternative to udev called <a
+href="https://wiki.gentoo.org/wiki/Eudev">eudev</a>.
+<p>
+The upgrade to udev turned to be the first instance in this adventure where my
+system ended up in an unbootable state (since <code>/dev</code> now had to be
+explicitly mounted as a devtmpfs file-system during boot-up and without
+<code>/dev</code>, the system was useless). Thankfully I still had the Slackware
+12.1 bootable CDs on hand and it worked with ext3fs, though I could not use it
+for a while as the CD drive-tray had become stuck with disuse over the years
+&ndash; this was resolved by sticking a pin into the &ldquo;forced eject&rdquo;
+hole on the drive. I had also backed up the old set of udev-rules before
+upgrading udev, so after some effort I could put together a usable system by
+updating my <code>/etc/fstab</code>, by suitably updating my start-up scripts
+(in particular, <code>/etc/rc.d/rc.S</code>), and by adding a few local
+udev-rules.
+<p>
+One of the major irritants in moving back and forth between the 2.6, 3.x, and
+5.x series of Linux kernels was the renaming of <code>/dev/hda1</code>,
+<code>/dev/hda2</code>, etc. to <code>/dev/sda1</code>, <code>/dev/sda2</code>,
+etc. due to the deprecation and removal of the old IDE layer and the move to
+<a href="https://lwn.net/Articles/198344/">the new libsata-based subsystem</a>.
+This made it hard to have a unified <code>/etc/fstab</code> and
+<code>/etc/lilo.conf</code> that could work across these kernels. While I was
+able to resolve the problem with <code>/etc/fstab</code> by taking advantage of
+<a href="https://wiki.archlinux.org/title/persistent_block_device_naming">persistent
+naming for block devices</a> and using only disk-labels instead of
+<code>/dev/hda1</code> or <code>/dev/sda1</code>, I could solve the problem with
+<code>/etc/lilo.conf</code> only by resorting to custom udev-rules (in the
+process demonstrating how useful udev can be).
+<p>
+I found an answer to <a href="https://serverfault.com/questions/84410">this
+question</a> quite helpful for solving my problem with a stable
+<code>/etc/lilo.conf</code> across kernel-versions. I created these local
+udev-rules:
+<pre><code>m4_dnl
+KERNEL=="hd[a-z]*", SUBSYSTEM=="block", \
+&nbsp;      PROGRAM="/root/disk_id.sh %k", SYMLINK+="disk/by-id/%c"
+KERNEL=="hd[a-z][0-9]*", SUBSYSTEM=="block", \
+&nbsp;      PROGRAM="/root/disk_id.sh %k", SYMLINK+="disk/by-id/%c
+</code></pre>
+<p>
+where the helper <code>/root/disk_id.sh</code> shell-script is just:
+<pre><code>m4_dnl
+if [[ -z "${1}" ]]; then
+&nbsp;   echo "ERROR: Missing disk-identifier (\"xyz\" in \"/dev/xyz\")."
+&nbsp;   exit 1
+fi
+DISK="/dev/${1}"
+set -euo pipefail
+&nbsp;
+HDPARM="/usr/sbin/hdparm"
+MODEL_NUM=$(${HDPARM} -I ${DISK} | grep "Model Number" | awk '{print $3}')
+SERIAL_NUM=$(${HDPARM} -I ${DISK} | grep "Serial Number" | awk '{print $3}')
+PARTITION_SUFFIX=""
+if [[ "${DISK}" =~ ".*([0-9]+)$" ]]; then
+&nbsp;   PARTITION_SUFFIX="-part${BASH_REMATCH[1]}"
+fi
+echo "ata-${MODEL_NUM}_${SERIAL_NUM}${PARTITION_SUFFIX}"
+</code></pre>
+<p>
+These rules along with the helper shell-script above ensured that I could use
+<code>/dev/disk/by-id/</code> identifiers, that are usually available only
+under the newer 5.x kernels, under the 3.x kernels as well. I could finally use
+a unified <code>/etc/lilo.conf</code> under both sets of kernels.
+<p>
+I also wrote a few other udev-rules as well. For example, in order to get the
+persistent name <code>eth0</code> for my Ethernet card, to automatically create
+pseudo-terminals like <code>/dev/pty1</code>, etc. when I connected via SSH,
+etc.. I found <a href="http://reactivated.net/writing_udev_rules.html">this
+guide</a> by Daniel Drake quite useful during this process.
+
+m4_heading(`2', `glibc', `Tripsy Glibc')
+<p>
+When I finally came around to updating glibc, I managed to make my system
+unbootable at least a couple of more times. When I built and installed
+glibc-2.34, it broke my system during the installation-process &ndash; <a
+href="https://sourceware.org/pipermail/libc-alpha/2021-August/129718.html">from
+this version on</a>, glibc has migrated to having a single <code>libc.so</code>
+library-file, instead of having separate helper-libraries like
+<code>libpthread.so</code>, etc. &ndash; the problem is that as soon as the
+newer <code>libc.so</code> is installed, any application linked against the
+older <code>libpthread.so</code> becomes unusable as it can no longer load
+glibc-private symbols from <code>libc.so</code> that used to be available in
+older versions of glibc. Such programs include the Bash shell and several core
+utilities, so the in-place upgrade process never completes and leaves the system
+in a broken, unbootable state. (I still do not know how in-place upgrade is
+really supposed to work with the newer version of glibc, since if you install
+the now-dummy helper-libraries first instead, the dependent programs will still
+be broken by the older <code>libc.so</code> library not providing everything
+before the newer <code>libc.so</code> is copied over.)
+<p>
+So it was back to using the Slackware 12.1 CDs for fixing up the system, though
+I ran into a couple of additional hiccups. Since I had foolishly not backed up
+the files from the older glibc-2.21, the system was left with static libraries
+like <code>/usr/lib/libc.a</code>, <code>/sbin/ldconfig</code>, etc. from the
+newer glibc. Thankfully, these were backward-compatible. Another hiccup was that
+even after I fixed the symbolic-links for core glibc-libraries to point to the
+files from the older version, as soon as <code>/sbin/ldconfig</code> ran after
+boot-up, it updated the symbolic-links to point to the newer version, breaking
+my system yet again. The solution was to nuke the older version completely
+before fixing the symbolic-links and then rebooting the system.
+<p>
+Once my system was back in a working state, I was able to compile and install
+glibc-2.33, the last version of glibc before the breaking move to a monolithic
+glibc. Thankfully this version also satisfied the requirement for the minimum
+version being at least glibc-2.32 for the crossed-native Rust compiler that I
+had built elsewhere.
+<p>
+I was <em>finally</em> able to run the Rust compiler, but it kept crashing
+while trying to compile a &ldquo;Hello World&rdquo; program.  After a bit of
+fiddling around, I found out that I was using the sources from the
+&ldquo;dev&rdquo; channel by default &ndash; moving to the &ldquo;stable&rdquo;
+channel and recompiling a crossed-native compiler seems to have fixed the
+issue. Phew! (It is <em>not at all </em> obvious from the download-page for the
+Rust compiler that you are actually getting a compiler that will use supporting
+software from the &ldquo;dev&rdquo; channel by default, instead of the
+&ldquo;stable&rdquo; channel &ndash; you have to manually edit the
+<code>config.toml</code> file before building the Rust compiler to switch to the
+latter.)
+
+m4_heading(`2', `building', `Building From Source')
+<p>
+I prefer building software from source as I can leave out unwanted fluff and
+tweak things to be optimized for my set-up. On an older machine like Lucifer,
+you can readily see the effects of doing this, for example, by using a Linux
+kernel compiled with only the parts needed to run on this machine and optimized
+for the Pentium 3 CPU on it. However, this process can get tedious and painful
+due the problem of dependencies hell that I mentioned earlier and due to the
+sheer amount of time it takes (the Linux kernel and GCC have become larger and
+slower to build over the years &ndash; back in 2005 or so, a three-stage GCC
+bootstrap for C, C++, and Java used to take ~4.5 hours on the same set-up
+&ndash; now it took <em>~28 hours</em> for C, C++, and Fortran). I have always
+had a lot of respect for people who create and maintain the various Linux
+distributions and I am surprised by just how many such distributions there are,
+given how painful it must be to keep a Linux distribution up to date.
+<p>
+For example, one of the seemingly-innocuous changes in the newer versions of
+libX11 was <a
+href="https://lists.freedesktop.org/archives/xcb/2009-April/004489.html">the
+removal of libxcb-xlib</a>, which ended up breaking <em>a lot</em> of the
+installed software on my machine. Since I did not want to go back to the
+previous version of libX11 (as I was still trying to make the latest Nouveau
+work on my set-up), I ended up either removing or recompiling from source a lot
+of X11-based software. This meant that I had to create some automation to help
+with this tedious and time-consuming process.
+<p>
+I created the <code><a
+href="https://github.com/rmathew/Misc/blob/master/bin/whats_broken">whats_broken</a></code>
+shell-script to find out the programs or libraries broken by removed libraries
+or newer, but incompatible, versions of libraries. I either removed such
+programs or libraries or compiled and installed their latest stable version from
+the respective sources. I created the <code><a
+href="https://github.com/rmathew/Misc/blob/master/bin/configurator">configurator</a></code>
+shell-script to capture the recipes for configuring various pieces of software,
+some of which I intend to keep updating over time. Finally, I created the
+<code><a href="https://github.com/rmathew/Misc/blob/master/bin/installer">installer</a></code>
+shell-script to automate the chore of downloading, unpacking, configuring,
+building, removing the older version, and then installing the newer version for
+a given package. This script was particularly useful in updating the X.org
+server and its seemingly <em>hundreds</em> of related packages, some of them for
+really tiny &ldquo;proto&rdquo; files that take far more time in pointless
+configuration than in the milliseconds they take for installation.
+<p>
+These shell-scripts helped a ton with overcoming the tedium of the upgrade
+process. I am sure that the maintainers of the various Linux distributions have
+similar, but far more sophisticated automation to help them with such chores.
+For example, I know that the Gentoo project uses the <a
+href="https://en.wikipedia.org/wiki/Portage_(software)#ebuild">ebuild</a> set of
+scripts to help with compilation and installation from source. That said, such
+automation only papers over the underlying issue of unbridled dependencies
+across Linux and the wider software ecosystem.
+<p>
+The fragility of broken or incompatible dynamic libraries exposed during this
+upgrade-process, especially with the upgrade to glibc, makes me appreciate the
+decision of the Plan 9 folks <a
+href="https://9p.io/wiki/plan9/why_static/index.html">to use statically-linked
+binaries</a> even more. (They seem to consider <a
+href="http://harmful.cat-v.org/software/dynamic-linking/">dynamic linking to be
+harmful</a>.)
+<p>
+As an aside, I noticed that while the vast majority of software-packages
+continue to use <a href="https://en.wikipedia.org/wiki/GNU_Autotools">GNU
+Autotools</a> for configuration, building, and installation, an increasing
+number (especially within the <a
+href="https://www.freedesktop.org/">Freedesktop.org</a> ecosystem) were now
+using <a href="https://mesonbuild.com/">Meson</a> for configuration and <a
+href="https://ninja-build.org/">Ninja</a> for building and installation. (I
+also noticed that while <a href="https://cmake.org/">CMake</a> is said to be
+popular, there were still not that many packages that seemed to use it.) While
+I do not feel strongly either way about Meson, I am excited about Ninja. It
+works well, seems much faster than Make on my machine, and is a joy to install
+itself (just a single self-contained binary). Make has <em>several</em> issues
+apart from its idiosyncratic syntax and anachronistic built-in rules that slow
+down every build (see &ldquo;<a
+href="https://accu.org/journals/overload/14/71/miller_2004/">Recursive Make
+Considered Harmful</a>&rdquo; as well as &ldquo;<a
+href="https://www.microsoft.com/en-us/research/wp-content/uploads/2016/03/hadrian.pdf">Non-Recursive
+Make Considered Harmful</a>&rdquo;, for example), so Ninja is a welcome breath
+of fresh air that I hope succeeds in replacing it. At least on my machine, Make
+also had trouble with parallel builds, especially with GCC, the Linux kernel,
+and binutils (though most other projects were fine), while Ninja had no issues
+at all. If you are interested in Ninja, read <a
+href="http://neugierig.org/software/blog/2020/05/ninja.html">this blog-post</a>
+by its creator Evan Martin as well as <a
+href="https://www.aosabook.org/en/posa/ninja.html">this article</a> by the same
+author.
+<p>
+A final note on building from source: I noticed during this time that the
+stability of the Linux kernel was sensitive to the version of the GCC compiler
+used for building it &ndash; you <em>could</em>, for example, make kernel-3.19.8
+work with gcc-9.4.0 by pretending that it is the same as GCC5, but the kernel
+thus built would have stability-issues (at least on my machine). To get a really
+stable kernel, I had to build and keep gcc-4.5.4 and gcc-4.8.5 for building the
+older kernels. I had read about miscompilation-issues with GCC and the tight
+dependency of the Linux kernel and GCC-versions earlier, but this was the first
+time I actually got to experience it first hand, that too across different
+versions of the Linux kernel. Fascinating, and a bit scary for sure.
+
+m4_heading(`2', `firefox', `Firefox')
+<p>
+During this upgrade-binge, I decided to also build and install gtk+-3.x, as that
+was the dependency holding this machine back at the ancient Firefox 45.7.0 ESR
+version. While gtk+-3.24.30 was surprisingly-painless to build and install, I
+found out that the latest officially-released versions of Firefox for 32-bit
+Linux <a
+href="https://support.mozilla.org/en-US/kb/your-hardware-no-longer-supported">do
+not support CPUs older than Pentium 4</a>. The last officially-released version
+of Firefox that <em>does</em> support a Pentium 3 CPU is the 52.9.0 ESR version.
+<p>
+Firefox 52.9.0 turned out to be a pleasant as well as a nasty surprise &ndash;
+it was pleasantly snappy compared to the older version (perhaps due to <a
+href="https://www.mozilla.org/en-US/firefox/48.0/releasenotes/">the integration
+with Skia in v48</a>), but it just showed a blank page almost all the time for
+all web-sites (though <em>not</em> for built-in pages like
+<code>about:preferences</code>, <code>about:support</code>, etc.). I tried a lot
+of things to make this work &ndash; using official documentation, bug-reports,
+on-line answers, etc. &ndash; but nothing helped. It was only when I chanced
+upon <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1288719">this
+bug-report</a> that I realized that I was somehow running without
+<code>/dev/shm</code> on my machine after the upgrade to udev. After updating
+<code>/etc/fstab</code> and <code>/etc/rc.d/rc.S</code> suitably, I finally had
+<code>/dev/shm</code> set up and a working Firefox. That was weird.
+<p>
+So the machine is still stuck with an ancient albeit faster version of Firefox,
+though relatively less ancient compared to the version on it earlier. I do not
+have the patience and perseverance (yet?) to try and build Firefox from its
+sources to overcome this problem, so this version will have to do for a while.
+<p>
+A side-effect of this upgrade has been that <a
+href="https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/">uBlock
+Origin</a> is now broken. While I could manually install the last supported
+version of uBlock Origin v1.17.4 via <a
+href="https://github.com/gorhill/uBlock/releases">the release-artifacts page of
+the project</a>, the all-important filter-lists do not seem to be updated or
+used any more by uBlock Origin. This is still broken at the time of this writing
+and is something that I need to somehow fix soon (the Internet is well nigh
+unusable without a sanity-preserving add-on like uBlock Origin).
+
+m4_heading(`2', `help', `Help')
+<p>
+An endeavor of this magnitude by a person who was disconnected for so long with
+the evolution of the Linux ecosystem (even though it has been the primary driver
+OS at both work and at home) cannot be carried out without seeking help on-line.
+Somewhat surprisingly for me, neither the various <a
+href="https://stackexchange.com/">Stack Exchange</a> web-sites nor <a
+href="https://www.linuxquestions.org/">Linux Questions</a> were particularly
+useful. While both sets of web-sites had excellent matches for the questions to
+which I was seeking answers, the actual answers were either unhelpful generic
+advice or actively misleading suggestions. This makes me realize yet again how
+bad it must be for Linux newbies seeking help on-line.
+<p>
+What <em>did</em> help a lot were the recipes and pointers on <a
+href="https://linuxfromscratch.org/lfs/">Linux From Scratch</a> (LFS) and its
+sister-project <a href="https://linuxfromscratch.org/blfs/">Beyond Linux From
+Scratch</a> (BLFS), as they contained useful configuration-options (especially
+for the iterations for packages with circular dependencies), recommended patches
+to work around the appalling QA on some projects, etc. I have been meaning to
+build a Linux-system from scratch using LFS and BLFS for quite a while, but I
+did not expect them to come in handy for even regular updates to software built
+from source. These are a highly recommended set of resources and I am grateful
+to the volunteers who have built them and help in keeping them updated.
+<p>
+Another great set of resources (especially for help on Nouveau, DRM, and on
+udev) were the <a href="https://wiki.archlinux.org/">Wiki for Arch Linux</a> and
+the <a href="https://wiki.gentoo.org/">Wiki for Gentoo Linux</a>. The Linux
+kernel also has <a href="https://www.kernel.org/doc/html/latest/">its
+documentation on-line</a> in a somewhat easy to read format, which was helpful
+in configuring its build as well as the post-installation kernel. The Bootlin
+folks also host a web-site with an Elixir-based <a
+href="https://elixir.bootlin.com/">cross-referenced source-code for every
+released version of the Linux kernel</a>, which was especially helpful in trying
+to debug the issues with Nouveau and DRM.
+<p>
+<a href="https://www.google.com/">Google Search</a> itself was a hit and miss
+affair, though it was indispensable in finding help. Many a time I had to resort
+to putting terms in double-quotes (&ldquo;foo&rdquo;) to force a term to be
+included in the pages in the search-results, negate other terms
+(&ldquo;-bar&rdquo;), or block web-sites (&ldquo;-site:example.com&rdquo;) to
+reduce the noise in the search-results. Its habit of searching for a
+&ldquo;foo&rdquo; term by default instead of the &ldquo;bar&rdquo; term you
+actually typed in gets really old really quickly as you keep clicking on the
+&ldquo;Search for bar instead&rdquo; after every search.
+
+m4_heading(`2', `epilogue', `Epilogue')
+<p>
+I am not done with the series of updates yet, but my proximate trigger (being
+able to run the Rust compiler on Lucifer) has been addressed. Rust really should
+have a much better story for bootstrapping its compiler or commit to not
+changing the language so often that it is hard for helper-projects like mrustc
+to keep up with it. I really hope this language is worth all the trouble I have
+taken to make it work on this machine.
+<p>
+That said, I have learned a great deal about modern Linux during this upgrade
+process since the last time I was actively tracking it was about ten years ago,
+though not all of it was welcome (especially about the needless churn, egregious
+feature-creep, and worsening inter-dependencies). This was also a thrilling
+adventure at various points as I left my system unbootable on one more than one
+occasion. It is not something that I can afford to do on a regular basis though,
+as it feels like running frantically to stay in the same place. There are better
+things to do in life than to keep up with this <a
+href="https://www.jwz.org/doc/cadt.html">CADT</a>.
+<p>
+One of the side-effects of this upgrade was that I stopped visiting my daily
+watering holes of <a href="https://twitter.com/">Twitter</a> and <a
+href="https://news.ycombinator.com/">Hacker News</a> for almost a month, but did
+not actually miss them very much. Ditto for the magazines and the on-line
+articles that were my regular reading staple. This was not as much a Joy Of
+Missing Out (JOMO) as a lack of the Fear Of Missing Out (FOMO). Strange.
+
+m4_end_post_rest
+m4_end_post
