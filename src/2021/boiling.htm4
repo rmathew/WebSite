@@ -115,7 +115,7 @@ software developers paid attention to the excellent advice by Russ Cox <a
 href="https://research.swtch.com/deps">on managing dependencies</a>.
 <p>
 Since I was determined to update the system this time, I bit the bullet and
-started updating software one by one. I began with binutils-1.37, moved on to
+started updating software one by one. I began with binutils-2.37, moved on to
 updating the dependencies for gcc-9.4.0 and then bootstrapping the compiler
 itself, and so on. Since I wanted the latest end-to-end support with Nouveau,
 I had to update to the latest stable versions at the time of the the kernel
@@ -232,7 +232,13 @@ KERNEL=="hd[a-z][0-9]*", SUBSYSTEM=="block", \
 &nbsp;      PROGRAM="/root/disk_id.sh %k", SYMLINK+="disk/by-id/%c
 </code></pre>
 <p>
-where the helper <code>/root/disk_id.sh</code> shell-script is just:
+The rules above tell udev that whenever the Linux kernel informs it about a
+block-device named <code>hda</code>, <code>hdb</code>, <code>hda1</code>,
+<code>hda2</code>, etc. it should run the program <code>/root/disk_id.sh</code>
+with that device as an argument and use its output to create a symbolic-link
+with the emitted name in <code>/dev/disk/by-id</code>.
+<p>
+The helper <code>/root/disk_id.sh</code> shell-script is just:
 <pre><code>m4_dnl
 if [[ -z "${1}" ]]; then
 &nbsp;   echo "ERROR: Missing disk-identifier (\"xyz\" in \"/dev/xyz\")."
