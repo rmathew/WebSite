@@ -15,24 +15,33 @@ href="https://en.wikipedia.org/wiki/Box-drawing_character#Unix,_CP/M,_BBS">box-d
 characters</a>. Until now.
 
 m4_begin_post_rest
+
+m4_heading(`2', `motivation', `Motivation')
 <p>
-mrxvt is quite fast &ndash; try repeatedly executing something like <code>time
-cat /usr/man/man1/xterm.1</code> in mrxvt (after warming up the file-cache) and
-then some other terminal, especially when paired with a bitmapped font. It
-does not depend on heavy GUI-toolkits like Gtk+ or Qt and only uses X for
-rendering content. On old hardware like Lucifer, it provides a snappy UX
-compared to other terminal-emulators and that is why I prefer it.  Sadly it has
-not been actively developed for many years and lacks some features like proper
-UTF-8 support, which is a deal-breaker for many folks (though not for me).
+mrxvt is quite fast, especially when paired with a bitmapped font &ndash; try
+repeatedly executing something like <code>time cat /usr/man/man1/xterm.1</code>
+in mrxvt (of course,after warming up the file-cache to make it a fair
+comparison) and then in some other terminal. It does not depend on heavy
+GUI-toolkits like Gtk+ or Qt and only uses X for rendering content. On old
+hardware like Lucifer, it provides a <em>snappy</em> UX compared to other
+terminal-emulators and that is why I prefer it. Sadly it has not been actively
+developed for many years and lacks some features like proper UTF-8 support,
+which is a deal-breaker for many folks (though not for me).
 <p>
 I really like the glyphs on <code>console8x16</code> and it is my favorite
-bitmapped font to use on older hardware with lower display-resolution. Lars
-Doelle, the creator of Konsole, used the old VGA 8x16 PC font as a base (the
-same as that used by the Linux VGA console or the Linux Framebuffer with the
-VGA8x16 font) and then extended it beyond code-point 255 to support various
-characters. It was used in Konsole till at least KDE 3.5.10. Sadly it has become
-quite hard to find these days as most people have moved on from bitmapped fonts,
-so I preserved my copy of the source of the font <a
+bitmapped font to use on older hardware with a lower display-resolution. Lars
+Doelle, the creator of Konsole, used the old VGA BIOS font as a base (the same
+as that used by the Linux VGA console or the Linux Framebuffer with the VGA8x16
+font) and then extended it beyond code-point 255 to support various characters.
+It was used in Konsole till at least KDE 3.5.10.
+<p>
+<img src="cons8x16.png" width="367" height="51"
+  style="display: block; margin: auto; border: 1px solid var(--color08);"
+  alt="Some glyphs from the console8x16 font.">
+<p>
+Sadly it has become quite hard to find it these days as most people have moved
+on from using bitmapped fonts to using proportional fonts. So I preserved a
+copy of the source for the font <a
 href="https://github.com/rmathew/Misc/blob/master/gfx/console8x16.bdf">here</a>.
 Recently however, I was once again able to find a copy of the source preserved
 in the Git-repository of the <a href="http://trinitydesktop.org/">Trinity
@@ -43,19 +52,31 @@ href="https://download.kde.org/Attic/3.5.10/src/kdebase-3.5.10.tar.bz2">kdebase-
 as the file <code>kdebase-3.5.10/konsole/fonts/console8x16.bdf</code>. (All
 these copies of the file should have an MD5-checksum of
 <code>b961b8a1f45973c637a36542db632b29</code>.)
+
+m4_heading(`2', `problem', `Problem')
 <p>
 While <code>console8x16</code> does provide the box-drawing characters and both
 Konsole and xterm are able to correctly render them while using
 <code>console8x16</code> as a font, mrxvt is not. The reason is that when asked
 to switch to the <a
 href="https://en.wikipedia.org/wiki/DEC_Special_Graphics">VT100 Alternate
-Character Set</a> (ACS) by an application via the escape-sequence <code>ESC (
-0</code> in order to render the box-drawing characters, mrxvt simply tries to
-load the glyph at code-point <code>&lt;ascii-code&gt; - 0x5f</code>, which is
-normally reserved for various control-characters. Since <code>console8x16</code>
-does not provide glpyhs for these code-points, mrxvt is not able to render lines
-and the display gets messed up. (xterm uses a more sophisticated
-fallback-mechanism in such cases in order to correctly render lines.)
+Character Set</a> (ACS) by a terminal-based application via the <a
+href="https://en.wikipedia.org/wiki/ANSI_escape_code">ANSI escape-sequence</a>
+<code>ESC ( 0</code> in order to render the box-drawing characters and then
+given the characters corresponding to the lines, mrxvt simply tries to load the
+glyph at code-point <code>&lt;ASCII-code&gt; - 0x5f</code> for each such
+character, which is normally reserved for various control-characters. Since
+<code>console8x16</code> does not provide glyphs for these code-points, mrxvt is
+not able to render lines and the display gets messed up. (xterm uses a more
+sophisticated fallback-mechanism in such cases in order to correctly render
+lines.)
+<p>
+For example, here is how mrxvt renders the output of the command <code>dialog
+--msgbox 'Hello World!' 0 0</code> when using <code>console8x16</code>:
+<p>
+<img src="badbox.png" width="170" height="130"
+  style="display: block; margin: auto; border: 1px solid var(--color08);"
+  alt="Botched up rendering of a dialog-box.">
 <p>
 Here is a small shell-script that lets you check the glyphs from ACS as rendered
 by your terminal-emulator:
@@ -70,6 +91,15 @@ for n in $(seq 95 126); do
 done
 </code></pre>
 <p>
+When I run this script, this is what I see with mrxvt using the
+<code>console8x16</code> font:
+<p>
+<img src="badbdc.png" width="262" height="516"
+  style="display: block; margin: auto; border: 1px solid var(--color08);"
+  alt="Botched up rendering of box-drawing characters.">
+
+m4_heading(`2', `solution', `Solution')
+<p>
 Since <a
 href="https://en.wikipedia.org/wiki/Glyph_Bitmap_Distribution_Format">BDF</a> is
 a text-based file-format, I was able to edit the source for
@@ -79,25 +109,56 @@ You can find the source for the updated font <a
 href="https://github.com/rmathew/Misc/blob/master/gfx/mconsole8x16.bdf">here</a>.
 You can compile it to a format that can be used by X by running:
 <pre><code>m4_dnl
-bdftopcf -t -o mconsole.pcf mconsole8x16.bdf && \
-&nbsp; gzip --best mconsole.pcf
+bdftopcf -t -o mconsole8x16.pcf mconsole8x16.bdf && \
+&nbsp; gzip --best mconsole8x16.pcf
 </code></pre>
 <p>
 Copy it over to a directory that is in the font-path of your X server (do not
 forget to run <code>mkfontdir</code> on the directory after copying over the
 font).
 <p>
-By the way, there used to be a nifty BDF-editor application called
-&ldquo;XmBDFEditor&rdquo; that seems to be no longer available. Fortunately, I
-was able to snag <a
-href="https://web.archive.org/web/20070203224716if_/http://crl.nmsu.edu:80/~mleisher/xmbdfed-4.7.tar.bz2">a copy via the Web Archive</a>.
-The sources need to be patched up a bit before they can be compiled on a modern
-Linux desktop. Once you have that, you can use it explore a BDF font, modify it,
-create your own glyphs or fonts, etc. If you simply want to see the glyphs
-provided by a font, use the standard <code>xfd</code> utility instead.
+I did not bother to populate all the characters in the ACS, so this is what I
+now see when I run the script above in mrxvt using the modified
+<code>mconsole8x16</code> font:
+<p>
+<img src="goodbdc.png" width="261" height="516"
+  style="display: block; margin: auto; border: 1px solid var(--color08);"
+  alt="Fixed rendering of box-drawing characters.">
+<p>
+However, this limited fix-up is good enough to render the box-drawing characters
+in most applications. For example, the botched-up dialog-box shown earlier now
+renders as:
+<p>
+<img src="goodbox.png" width="170" height="130"
+  style="display: block; margin: auto; border: 1px solid var(--color08);"
+  alt="Fixed rendering of the dialog-box.">
 <p>
 Now that mrxvt can properly render (a patched) <code>console8x16</code>, I am
-happily using the dynamic duo on Lucifer.
+happily using the dynamic duo once again on Lucifer.
+
+m4_heading(`2', `epilogue', `Epilogue')
+<p>
+By the way, <code>console8x16</code> was originally edited using <a
+href="http://web.archive.org/web/20090227090450/http://crl.nmsu.edu/~mleisher/xmbdfed.html">XmBDFEditor</a>
+by <a href="http://sofia.nmsu.edu/~mleisher/">Mark Leisher</a>, which seems to
+be no longer available. I came to know later that it was replaced by <a
+href="http://sofia.nmsu.edu/~mleisher/Software/gbdfed/">gbdfed</a>, which uses
+Gtk+ instead of the Motif toolkit used by <code>xmbdfed</code>, and provides
+more features. Before I stumbled upon <code>gbdfed</code> though, I tried
+searching for the sources of <code>xmbdfed</code> and was finally able to snag
+<a href="https://web.archive.org/web/20070203224716if_/http://crl.nmsu.edu:80/~mleisher/xmbdfed-4.7.tar.bz2">a
+copy of the xmbdfed-4.7 sources</a> via the Internet Archive Wayback Machine.
+The sources need to be <a
+href="https://github.com/rmathew/Misc/blob/master/patches/xmbdfed-4.7-linux.patch">patched
+up</a> a bit before they can be compiled on a modern Linux desktop. Once you
+have that, you can use it explore a BDF font, modify it, create your own glyphs
+or fonts, etc. (Of course, <code>gbdfed</code> works better on a modern system.)
+If you simply want to see the glyphs provided by a font, use the standard
+<code>xfd</code> utility instead.
+<p>
+<b>Update (2021-11-14):</b> Added a few screen-shots to the post to illustrate
+the problem and the solution. Added a pointer to <code>gbdfed</code> that
+supersedes <code>xmbdfed</code>.
 
 m4_end_post_rest
 m4_end_post
