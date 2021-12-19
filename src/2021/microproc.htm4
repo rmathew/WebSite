@@ -1,0 +1,111 @@
+m4_define(`m4_post_date', `2021-12-19')m4_dnl
+m4_define(`m4_post_title', `&ldquo;Microprocessors&rdquo;')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+It has been more than thirty years since &ldquo;Microprocessors: A
+Programmer&`#'39s View&rdquo; by <a
+href="https://en.wikipedia.org/wiki/Robert_Dewar">Robert Dewar</a> and Matthew
+Smosna was published and I <em>still</em> have not come across another book
+on the topic that has a similar breadth and depth. I first read this book in
+1995 and enjoyed it immensely then. I read it once again recently and still
+found it quite insightful despite its age.
+m4_begin_post_rest
+m4_display_book( `0070166390', `0070166390')
+<p>
+The topic of this book is the abstract model of the computer architecture
+presented to a low-level systems programmer by the <a
+href="https://en.wikipedia.org/wiki/Instruction_set_architecture">Instruction
+Set Architecture</a> (ISA) of a CPU on a system. It contrasts the models
+presented by <a
+href="https://en.wikipedia.org/wiki/Complex_instruction_set_computer">CISC</a>
+and <a
+href="https://en.wikipedia.org/wiki/Reduced_instruction_set_computer">RISC</a>
+CPUs by presenting in-depth case-studies of representative CPUs from each of the
+families. In particular, it explains the rationale behind each of the approaches
+and the trade-offs made by the respective designers of the CPUs.
+<p>
+Due to it being the dominant computer architecture at the time and because of
+its complexity, the book devotes three chapters to the <a
+href="https://en.wikipedia.org/wiki/Intel_386">Intel 386</a>. (The <a
+href="https://en.wikipedia.org/wiki/I486">Intel 486</a> had been introduced just
+before the publication of the book and was architecturally very similar to the
+i386 anyway.) Since the 32-bit <a
+href="https://en.wikipedia.org/wiki/IA-32">IA-32</a> architecture led to the
+now-dominant, but very similar, 64-bit <a
+href="https://en.wikipedia.org/wiki/X86-64">x86-64</a> architecture, the
+in-depth coverage of the i386 in this book is still quite useful. (The other
+CISC CPU covered by this book, with two chapters devoted to it, is the <a
+href="https://en.wikipedia.org/wiki/Motorola_68030">Motorola 68030</a>, which
+has since been supplanted by other architectures.)
+<p>
+Since RISC CPUs started getting commercialized in the 80s and were seen as the
+future of high-performance computing at the time, more than half of the book is
+devoted to RISC CPUs. The coverage begins by explaining the rationale behind the
+approach and a historical perspective leading up to it. The case-studies
+include the <a href="https://en.wikipedia.org/wiki/MIPS_architecture">MIPS</a>
+architecture, the Sun <a href="https://en.wikipedia.org/wiki/SPARC">SPARC</a>
+architecture, the now-defunct Intel <a
+href="https://en.wikipedia.org/wiki/Intel_i860">i860</a> architecture, the IBM
+<a href="https://en.wikipedia.org/wiki/IBM_POWER_instruction_set_architecture">POWER</a>
+architecture (referred to as &ldquo;RIOS&rdquo; in this book, as it was too new
+at the time and there was no official designation yet), and the INMOS <a
+href="https://en.wikipedia.org/wiki/Transputer">Transputer</a>. Sadly, the book
+does <em>not</em> cover the Acorn <a
+href="https://en.wikipedia.org/wiki/ARM_architecture">ARM</a> architecture for
+some reason, even though it had been in production at the time (and is now the
+most prevalent microprocessor in the world). Ditto for the HP <a
+href="https://en.wikipedia.org/wiki/PA-RISC">PA-RISC</a>, although that was not
+a very successful ISA. The book was published a few years before the
+high-performance 64-bit DEC <a
+href="https://en.wikipedia.org/wiki/DEC_Alpha">Alpha</a> CPU was introduced,
+which embodied an interesting approach (see <a
+href="https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.997.938&rep=rep1&type=pdf">this
+paper</a> by Richard L. Sites, for example).
+<p>
+One cannot help but admire the relative simplicity and elegance of the RISC
+approach to CPU-design as presented in this book. In some sense, all modern CPUs
+are now RISC CPUs (even ostensibly-CISC architectures like x86-64 use RISC-like
+<a href="https://en.wikipedia.org/wiki/Micro-operation">micro-operations</a>
+internally). Newer ISAs like <a
+href="https://en.wikipedia.org/wiki/RISC-V">RISC-V</a> are RISC. That said, I
+am <em>not</em> a fan of <a href="https://en.wikipedia.org/wiki/Delay_slot">delay
+slots</a>, the lack of an instruction for division in some CPUs, having to use a
+sequence of single-cycle multiply-step instructions for multiplication, etc. As
+someone had once noted, RISC is a set of reduced instructions (and not a reduced
+set of instructions, as can be seen in some RISC CPUs), but sometimes these
+reduced instructions can be a little too reductionist.
+<p>
+The book has unfortunately not been updated since it was first published in
+1990. Shortly after its publication, Matthew Smosna died at a young age. The
+surviving author Robert Dewar <a
+href="https://gcc.gnu.org/legacy-ml/gcc/2004-12/msg00451.html">wanted</a> to
+update it when I asked him about it in 2004, but sadly he too passed away a
+decade later. This is a real tragedy for us programmers, since a lot has changed
+in microprocessors over the years, though the fundamentals remain the same.
+There is thankfully a (much underlined) <a
+href="https://archive.org/details/microprocessorsp00robe/">copy of this book</a>
+available on The Internet Archive, but this book is otherwise hard to obtain, as
+this book has long been out of print.
+<p>
+If you are a systems programmer, particularly someone working on writing
+compilers, operating systems, device-drivers, low-level graphics, etc., this is
+a very useful book to have. Even if you are just a generally curious programmer,
+this book can be quite insightful in providing low-level details and a
+historical perspective on some of the domninant computer architectures today. Of
+course, you should supplement this book with articles like <a
+href="https://danluu.com/new-cpu-features/">What&`#'39s New In CPUs Since The
+80s?</a> by Dan Luu or <a
+href="https://www.lighterra.com/papers/modernmicroprocessors/">Modern
+Microprocessors: A 90-Minute Guide</a> by JRC Patterson. (In my opinion,
+the usually-recommended text-books on computer architecture like <a
+href="m4_root_dir/2009/coad.html">Computer Organization And Design</a> and <a
+href="m4_root_dir/2009/ca.html">Computer Architecture</a> are <em>not</em> a
+viable alternative to this book, as they do not cover the topic in sufficient
+depth.)
+<p>
+I wish someone would write a similar book for modern CPUs and covered additional
+topics like vector instructions (aka SIMD), GPUs, memory-models, etc. across
+these CPUs.
+m4_end_post_rest
+m4_end_post
