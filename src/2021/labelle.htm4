@@ -1,0 +1,60 @@
+m4_define(`m4_post_date', `2021-12-28')m4_dnl
+m4_define(`m4_post_title', `&ldquo;La Belle Sauvage&rdquo;')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+&ldquo;<a href="https://en.wikipedia.org/wiki/La_Belle_Sauvage">La Belle
+Sauvage</a>&rdquo; is the first book in the &ldquo;<a
+href="https://en.wikipedia.org/wiki/The_Book_of_Dust">The Book Of
+Dust</a>&rdquo; trilogy of fantasy-fiction books by <a
+href="https://en.wikipedia.org/wiki/Philip_Pullman">Philip Pullman</a>. It is
+based in the same fictional universe as the previous &ldquo;<a
+href="https://en.wikipedia.org/wiki/His_Dark_Materials">His Dark
+Materials</a>&rdquo; (HDM) trilogy of books by the same author. I had <a
+href="m4_root_dir/2004/hdm.html">immensely enjoyed</a> reading the HDM books,
+so I was looking forward to reading this trilogy. So far, I am not disappointed.
+m4_begin_post_rest
+m4_display_book( `0553510746', `0241365856')
+<p>
+The events in this book take place shortly after the birth of the heroine of
+HDM, <a href="https://en.wikipedia.org/wiki/Lyra_Belacqua">Lyra
+Belacqua</a>. Due to the prophecy about the significance of Lyra
+(&ldquo;destined to bring about the end of destiny&rdquo;), the oppressive
+Church wants to lay its hands on baby Lyra, while an assortment of people on the
+opposing side want to protect her. Her mother has no interest initially in
+raising this baby from an extramarital affair, while her father faced trial for
+murdering the husband of the mother (in self-defense, so he was acquited later,
+but lost custody of the baby). She has therefore been separated from her
+parents and is being raised by some nuns in a priory near the town of Oxford.
+<p>
+Little Malcolm Polstead stays near the priory and helps his parents run an inn,
+when he gets time away from his school. He is intelligent, has good mechanical
+skills, and likes to row about in his little canoe named &ldquo;La Belle
+Sauvage&rdquo;. He grows quite fond of the baby during his visits to the priory
+to help the nuns. On the other hand, he is wary of the slightly older Alice,
+who works in the inn run by his parents and alongside whom he has to work, as he
+serves and gathers dishes to the patrons of the inn.
+<p>
+Malcolm gets involved more and more with a secret service, known only as
+&ldquo;Oakley Street&rdquo;, due to his being a witness to an unfortunate
+incident and subsequent possession of a secret message. It turns out that this
+secret service is in opposition to the oppressive ways of the Church and that it
+wants to protect baby Lyra from it. After a particularly nasty flood, the lives
+of both Malcolm and Alice are turned topsy-turvy as together they try to save
+baby Lyra from a murderous maniac and from the agents of the Church. In the
+process, their relationship changes completely as they overcome many obstacles
+towards achieving their shared goal, have strange encounters on the way, and
+thus get to know each other much better.
+<p>
+The book tells a tale that is quite gripping on its own, so it is not really
+mandatory for the reader to have read HDM first. However, the reader would enjoy
+it much more if they have read HDM first, as there are quite a few references to
+concepts, events, and characters from HDM, even though this book is set in a
+time period before the events in HDM. The style of writing in this book is the
+same unpretentious and accessible style as in HDM, which I appreciated quite a
+lot. If you like a good story, irrespective of whether you like fantasy-fiction
+or not, I would recommend that you read this book.
+<p>
+I am now eagerly looking forward to reading the next book in this trilogy.
+m4_end_post_rest
+m4_end_post
