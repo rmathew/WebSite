@@ -4,33 +4,31 @@ m4_define(`m4_page_section',``Books'')m4_dnl
 m4_dnl
 m4_include(`header.htm4')m4_dnl
 m4_dnl
-m4_toc
 m4_heading( `1', `intro', `Introduction')
 <p>
 I enjoy reading good books. Through these pages I hope to share with you some
-of the books I have read.
+of the books that I have read.
 <div class="notice">
 <u><b>NOTE</b></u>
 <br>
-When you read these book-reviews, do bear the following in mind:
+When you read these book-reviews, please do bear the following in mind:
 <ul>
 <li>Not all the books I have ever read are listed here.</li>
 <li>I do not actually own all of these books.</li>
 <li>Not all the books I own are listed here.</li>
 <li>If you haven't been able to find a book listed here in a bookstore, a
-library or on <a href="https://www.amazon.com/">Amazon.com</a>, I would most
-likely not know where to find it either.</li>
+library, or on <a href="https://www.amazon.com/">Amazon.com</a>, I would most
+likely not know where to find it either. Sorry.</li>
 </ul>
 </div>
 <p>
-You can find some of the book reviews as news items on either <a
+You can find some of the book-reviews as news-items on either <a
 href="m4_root_dir/index.html">the home page</a> or the <a
 href="m4_root_dir/archives/index.html">news archives</a>. I write these almost
-as soon as I finish reading the respective book.
-<p>
-I do not try to give these books any ratings. I only try to list the more
-significant books (as I perceive it) in a given category before the other books
-in that category.
+as soon as I finish reading the respective book. In my book-reviews or
+elsewhere on this web-site, I do not try to give these books any ratings as it
+is very hard to fairly compare books across categories or time-periods.
+
 m4_heading( `1', `cats', `Categories')
 <p>
 I have tentatively divided the books into the following main categories:
@@ -39,9 +37,12 @@ I have tentatively divided the books into the following main categories:
 science, software engineering, software design and architecture, etc.</li>
 <li><a href="fiction.html"><b>Fiction</b></a>: Novels, plays, long and short
 stories, etc.</li>
-<li><a href="others.html"><b>Others</b></a>: Everything else - science and
-technology, philosophy, economics, biographies, etc.</li>
+<li><a href="others.html"><b>Others</b></a>: Everything else - history, science
+and technology, philosophy, economics, biographies, etc.</li>
 </ul>
+<p>
+Within each category, or within a section in a given category, I have listed
+the books in the alphabetical order of their respective titles.
 <p>
 I hope you enjoy reading the books in these selections as much as I have.
 m4_dnl
