@@ -1,0 +1,113 @@
+m4_define(`m4_post_date', `2021-12-27')m4_dnl
+m4_define(`m4_post_title', `&ldquo;C Interfaces And Implementations&rdquo;')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+&ldquo;<a href="http://drh.github.io/cii/">C Interfaces And
+Implementations</a>&rdquo; is a book by <a href="https://drhanson.net/">David R
+Hanson</a> that shows you how to create interfaces and their corresponding
+implementations in the C programming language in a way that minimizes the
+coupling between a module and its clients, while enforcing a well-defined
+contract. The author demonstrates this by building <a
+href="https://github.com/drh/cii">a small library</a> of useful data-structures
+and helper-fuctions that is freely available under a liberal license.
+m4_begin_post_rest
+m4_display_book( `0201498413', `0201498413')
+<p>
+The book starts off by explaining what <a
+href="https://en.wikipedia.org/wiki/Literate_programming">literate
+programming</a> is and how it uses the <a
+href="https://en.wikipedia.org/wiki/Noweb">Noweb</a> tool for literate
+programming to interweave source-code and explanatory text. It then describes
+what an interface is, how the implementation needs to be separated from the
+interface, and the general technique followed by the book to declare interfaces
+and define the implementations. The rest of the book describes the interfaces
+and implementations of various widely-applicable modules, repeatedly
+demonstrating the techniques shown in the first couple of chapters. In the
+process, it also reveals interesting information about the C programming
+language and its standard library that even experienced programmers would
+benefit from.
+<p>
+C provides minimal support for defining interfaces via declarations and for
+implementations via the corresponding definitions. Unlike many other high-level
+programming languages, especially of recent vintage, it does not provide support
+for namespaces, exceptions, garbage-collection, concurrency, etc. On top of
+that, its standard library is quite minimal, providing no support for common
+data-structures, and is littered with footguns like <code>strcat()</code> for
+the careless programmer. For any non-trivial project in C, programmers have had
+to roll up their own helper-libraries to tide over these shortcomings or use an
+external library like <a href="https://en.wikipedia.org/wiki/GLib">GLib</a>.
+This book helps the former category of programmers in their endeavor and
+provides an alternative minimal library for the latter category of programmers.
+<p>
+To minimize the coupling between a module and its clients, the modules in this
+book present their interface in a header-file using the bare minimum
+information required to link against that module. In particular, for an <a
+href="https://en.wikipedia.org/wiki/Abstract_data_type">Abstract Data-Type</a>
+(ADT), only an opaque pointer is exposed to clients, so that implementations
+for the corresponding interface can be switched without affecting the clients.
+Since C does not provide support for namespaces, all structures and functions
+in the interface of a module have the name of the module as a prefix in their
+names.
+<p>
+For example, for a module providing a &ldquo;Snafu&rdquo; ADT, the
+<code>snafu.h</code> header-file would look something like:
+<pre><code>m4_dnl
+#ifndef SNAFU_INCLUDED
+#define SNAFU_INCLUDED
+&nbsp;
+#define T Snafu_T
+typedef struct Snafu_T *T;
+&nbsp;
+extern T Snafu_new(void);
+extern void Snafu_wombat(T s);
+extern void Snafu_free(T *s);
+&nbsp;
+#undef T
+#endif  /* SNAFU_INCLUDED */
+</code></pre>m4_dnl
+<p>
+Thus the client only works with the opaque <code>Snafu_T</code> (aliased to the
+short-hand <code>T</code> in the interface, but not otherwise exposed to
+clients, for reducing the noise). The implementation is then free to define
+<code>struct Snafu_T</code> however it pleases and manage its memory however it
+wants. The implementation can even be swapped out according to the requirements
+without affecting the client-code (e.g. for performing extensive checks for
+memory-safety in a memory-management module at the cost of performance, instead
+of the usual lightweight checks). The interface extensively documents the
+contract between the client and the module. The implementation performs various
+checks, including using <code>assert()</code>, to verify this contract when its
+functions are called. (As an aside, note how <code>Snafu_free()</code> takes a
+pointer to a pointer instead of just a pointer in order to minimize
+double-frees by overwriting the original pointer.)
+<p>
+The author builds up a library of useful data-structures and helpful functions
+using this technique. These include data-structures like stacks, lists,
+hash-tables, strings, etc. and helper-functions for working with arithmetic
+beyond what is provided by the language, error-handling, memory-management,
+concurrency, etc. As is evident from the (extensive) bibliographic references
+and the background of the author, these interfaces are inspired by the
+corresponding interfaces in <a
+href="https://en.wikipedia.org/wiki/Icon_(programming_language)">Icon</a> and
+its predecessor <a href="https://en.wikipedia.org/wiki/SNOBOL">SNOBOL</a>. The
+implementations in this book (from 1997) might not be terribly cache-friendly on
+modern CPUs, so they should not be used as is if you care about performance.
+<p>
+I am in two minds about the use of literate programming in this book. On the one
+hand, it is quite distracting to put together the implementation of a function
+scattered across a chapter. On the other hand, it might be helpful to some
+readers to break the monotony of a wall of code by interspersing it with
+descriptive text. I personally prefer to see all of the code for a function
+together in one place.
+<p>
+Many experienced C-programmers have been using the techniques shown in this book
+in their own code, so the book would be good for them to get a refresher on a
+disciplined approach to create such APIs in C. For inexperienced C-programmers,
+there is a <em>wealth</em> of information here about improving their usage of
+the language and avoiding the many, many footguns it presents to the
+unsuspecting programmer. For most applications these days, C is not the right
+programming language to use for the implementation, but when you have to
+program in C, it helps to have a great resource at hand like this book (and <a
+href="m4_root_dir/2003/c-programming.html">Expert C Programming</a>).
+m4_end_post_rest
+m4_end_post
