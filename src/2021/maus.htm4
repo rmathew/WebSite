@@ -1,0 +1,70 @@
+m4_define(`m4_post_date', `2021-12-31')m4_dnl
+m4_define(`m4_post_title', `&ldquo;The Complete Maus&rdquo;')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+&ldquo;<a href="https://en.wikipedia.org/wiki/Maus">Maus</a>&rdquo; is a
+biographical graphic novel by <a
+href="https://en.wikipedia.org/wiki/Art_Spiegelman">Art Spiegelman</a>. It tells
+the story of Vladek Spiegelman, the father of the author, as he and his family
+survive the horrors of <a href="https://en.wikipedia.org/wiki/The_Holocaust">the
+Holocaust</a> as Jews in Poland persecuted by the Nazis from Germany. It is the
+only graphic novel so far to have won a Pulitzer Prize. In my opinion, the
+accolades it has received so far are all justified.
+m4_begin_post_rest
+m4_display_book( `0679406417', `0141014083')
+<p>
+&ldquo;The Complete Maus&rdquo; combines both the original volumes, &ldquo;My
+Father Bleeds History&rdquo; and &ldquo;And Here My Troubles Began&rdquo;, into
+a single book. The author is both the writer as well as the illustrator of this
+graphic novel. The panels are all black and white, with people depicted as
+animals &ndash; the Polish Jews as mice, the Poles as pigs, the Germans as cats,
+the Americans as dogs, etc. The style of the art and the language takes a bit
+getting used to, but the story makes you forget about these issues.
+<p>
+Vladek is a fairly prosperous man running his own business and happily married
+to his love Anna. They have a little son and live with her parents in a joint
+family in a town in Poland. This is when the second World War starts and Germany
+invades to occupy Poland. Slowly their lives become worse as hatred for Jews
+creeps in, with their lives eventually turned completely upside down as their
+business, house, etc. are snatched from them and the family-members separated by
+the Nazis under various pretexts. They manage to send their son away to protect
+him from the horrors, but eventually learn of his death as the Nazi-occupation
+keeps spreading everywhere. Vladek is quite street-smart and manages to keep
+himself and Anna safe for as long as possible, but they are eventually caught by
+the Nazis as they try to flee over to Hungary and then brought over to the
+dreaded <a
+href="https://en.wikipedia.org/wiki/Auschwitz_concentration_camp">Auschwitz
+concentration-camp</a>.
+<p>
+At Auschwitz, the Spiegelmans are separated from each other and suffer even more
+horrors, but somehow still manage to escape the horrible gas-chambers over the
+course of about ten months, each not knowing whether the other was even alive or
+not. They finally manage to meet each other (just about) and separately survive
+till the end of the war based on their luck, their good nature, and with some
+help from a few folks. After the war, they are able to get back together, have
+another son (the author), and then emigrate to the US. It would seem that they
+escaped the Holocaust as survivors after all. However, the book asks if they
+really did manage to survive the Holocaust.
+<p>
+A few years after the war and after they have migrated to the US, Anna commits
+suicide after succumbing to her depression. Vladek suffers from diabetes and a
+heart-disease, which take quite a toll on his health and leave him blind in one
+eye. He continues to mourn for Anna even after remarrying another
+Holocaust-survivor Mala. Their marriage is constantly under stress and she even
+leaves him for a brief period. He becomes extremely miserly and cranky, driving
+everyone around him nuts. He continuously berates his son as he grows up,
+leaving the son with life-long psychological scars. The son still respects his
+father and maintains his distance as an adult, but finally coaxes Vladek to tell
+his story so that it can be published as a graphic novel. Vladek sadly dies of a
+heart-attack before the book could be published.
+<p>
+I have always found it difficult to come to terms with the horrors of the
+Holocaust whenever I read about it or watch its dramatizations. I cannot believe
+how one set of humans could do such things to other humans. The book describes
+some of these horrors in vivid detail and it was a very depressing read overall.
+However, this is an important part of our history that needs to be told again
+(and again), so that we do not forget about it and learn from it. This book is
+an important reminder of that tragedy for us all and is well worth the read.
+m4_end_post_rest
+m4_end_post
