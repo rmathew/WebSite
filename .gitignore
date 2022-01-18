@@ -1,3 +1,2 @@
-deps.mk
+/deps.mk
 pub/
-*.swp
