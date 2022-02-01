@@ -1,0 +1,69 @@
+m4_define(`m4_post_date', `2022-01-31')m4_dnl
+m4_define(`m4_post_title', `&ldquo;The Three-Body Problem&rdquo;')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+When I started reading the science-fiction novel &ldquo;<a
+href="https://en.wikipedia.org/wiki/The_Three-Body_Problem_(novel)">The
+Three-Body Problem</a>&rdquo; by <a
+htref="https://en.wikipedia.org/wiki/Liu_Cixin">Cixin Liu</a>, I had great
+expectations from it. It had been nominated for, and had won, many awards. It
+was praised highly by not just the usual suspects, but even folks like Barack
+Obama, George R. R. Martin, et al. In hindsight, I was bound to be disappointed
+by going in with such high expectations. The book turned out to be good, but
+not great.
+m4_begin_post_rest
+m4_display_book( `0765382032', `1800246684')
+<p>
+The story starts with the horrors of the Chinese <a
+href="https://en.wikipedia.org/wiki/Cultural_Revolution">Cultural
+Revolution</a> as experienced by physicist Ye Wenjie, progresses to her
+forced participation in the environmental destruction done in its wake, and then
+describes a top-secret project at the time in China to make <a
+href="https://en.wikipedia.org/wiki/First_contact_(science_fiction)">first
+contact</a> with an alien civilization in which she ends up playing a crucial
+part. The message sent via the project is actually received by people on
+Trisolaris, a planet caught up in a devastating three-star system with a
+civilization that is repeatedly almost completely wiped out by the extreme
+conditions in the system. The aliens then plan to invade and occupy Earth with
+the help of discontents on Earth and with a devious plan to stall scientific
+progress till their actual arrival more than four centuries later using
+ingenious devices called &ldquo;Sophons&rdquo;.
+<p>
+The author does not shy from venturing into theories in physics and their
+impliciations. They examine how traumatic experiences change the moral compass
+of individuals and can cause fatal disaffection in them. They also explore how
+the very prospect of first contact with an alien civilization affects human
+behavior and shapes civilization on Earth without the contact even having taken
+place. I therefore feel that there is a good balance of &ldquo;science&rdquo;
+and &ldquo;fiction&rdquo; in this science-fiction novel unlike many books in
+this genre. That said, if you have read the classics by Asimov, Clarke, et al
+this book does not break new ground as far as I can tell, despite all the
+flowery praise seen in the blurbs on the back-cover as well as the inside of
+the book.
+<p>
+I also felt the language of the book to be a bit stilted and awkward, perhaps
+due to the translation from the original Chinese into English. I found it
+amusing that almost everything and everyone of significance in this book is in
+China &ndash; this is a nice counter to the usual US-centric perspective in
+such books and films, but that does not make it any less jarring. I actually
+found it pleasantly surprising that so much implied criticism of the Cultural
+Revolution made it past the censors in China.
+<p>
+I like science-fiction, but I am not an ardent fan pursuing the genre across
+various kinds of media. Given that, I liked the book in general and would
+recommend reading it, albeit with few expectations and discarding all the hype
+around the book.
+<p>
+When I started reading the book, I did not know that it is merely the first
+volume in <a
+href="https://en.wikipedia.org/wiki/Remembrance_of_Earth%27s_Past">a trilogy of
+books</a>. Now I am wondering whether I should pursue reading the other two
+parts of the trilogy or whether I should just let it be. (Since I generally
+liked the book, and since I am a sucker for closure, I very well might read all
+the books in the trilogy anyway.) Apparently there is a film as well as a
+TV-series planned to be produced as adaptations of these books, continuing the
+glorious modern tradition of milking an &ldquo;asset&rdquo; for all it is worth
+via franchises.
+m4_end_post_rest
+m4_end_post

@@ -65,11 +65,11 @@ m4_define(
       `',
       <br>
       <a href="https://www.amazon.com/gp/product/$1?ie=UTF8&amp;tag=rmathew-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=$1"
-	style="text-decoration: none;">
-      <img src="m4_root_dir/books/buy_amz_us.gif" width="120" height="28"
-        alt="Buy from Amazon.com">
-      </a>
-      <img src="https://ir-na.amazon-adsystem.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=$1" width="1" height="1" alt="" style="border:none; margin:0px;">
+	style="text-decoration: none;"><img
+	src="m4_root_dir/books/buy_amz_us.gif" width="120" height="28"
+	alt="Buy from Amazon.com" style="margin: auto;"></a><img
+	src="https://ir-na.amazon-adsystem.com/e/ir?t=rmathew-20&amp;l=as2&amp;o=1&amp;a=$1"
+	width="1" height="1" alt="" style="border:none; margin:0px;">
     )
     m4_ifelse(
       $2,
@@ -77,10 +77,9 @@ m4_define(
       `',
       <br>
       <a href="https://www.amazon.in/gp/product/$2"
-	style="text-decoration: none;">
-      <img src="m4_root_dir/books/buy_amz_in.gif" width="120" height="28"
-        alt="Buy from Amazon.in">
-      </a>
+	style="text-decoration: none;"><img
+	src="m4_root_dir/books/buy_amz_in.gif" width="120" height="28"
+	alt="Buy from Amazon.in" style="margin: auto;"></a>
     )
     <br>
     <p style="font-size: 85%;">
