@@ -1,0 +1,67 @@
+m4_define(`m4_post_date', `2022-04-25')m4_dnl
+m4_define(`m4_post_title', `&ldquo;The Dark Forest&rdquo;')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I had low expectations from &ldquo;<a
+href="https://en.wikipedia.org/wiki/The_Dark_Forest">The Dark Forest</a>&rdquo;,
+a science-fiction novel by <a
+href="https://en.wikipedia.org/wiki/Liu_Cixin">Cixin Liu</a>, since I had been
+<a href="m4_root_dir/2022/3body.html">disappointed</a> by the first book in the
+&ldquo;<a
+href="https://en.wikipedia.org/wiki/Remembrance_of_Earth%27s_Past">Remembrance
+Of Earth&#39s Past</a> trilogy of books. The only reason I started reading this
+book was because I am a sucker for closure &ndash; I <em>had</em> to read the
+rest of the books in the trilogy once I had started reading its first book. I
+am happy to report that this book turned out to be <em>much better</em> than I
+had expected.
+m4_begin_post_rest
+m4_display_book( `0765386690', `1800246692')
+<p>
+The book is set in the so-called &ldquo;Crisis Era&rdquo; on Earth in the near
+future, that follows the revelation from the first book of a fleet of alien
+ships from the nearby Trisolaris system that is headed towards Earth in order to
+destroy the human civilization. Due to vast distance between the two systems,
+the fleet of alien ships would take about four centuries to arrive here, giving
+humans some time to prepare themselves for the impending invasion. Their efforts
+are constantly thwarted by sub-atomic computers called &ldquo;sophons&rdquo;
+that have been sent to Earth by the aliens as well as an organization of humans
+sympathetic to the aliens that calls itself The Earth-Trisolaris Organization
+(ETO).
+<p>
+Despite these obstacles, the humans are able to make a lot of progress towards
+their defence and, for a while at least, look to have gained an upper hand on
+the incoming fleet of aliens. This delusion of the humans proves to be
+short-lived when a single, tiny probe from the aliens manages to destroy almost
+the entire fleet of spaceships from Earth in a spectacular display of the
+technical superiority of aliens. Is humanity doomed to perish after all? You
+have to read the book to find that out.
+<p>
+This book presents the central idea of this series of books based on what it
+calls the axioms of cosmic sociology. Given the finite resources in the
+universe, the imperative for life to survive, and the explosive pace of
+technological growth in a civilization, any contact between two civilizations in
+the universe is bound to result in the destruction of one of them due to a chain
+of suspicion (as the book calls it). This is its answer to the famous <a
+href="https://en.wikipedia.org/wiki/Fermi_paradox">Fermi Paradox</a> of
+extraterrestrial life.
+<p>
+Somewhat coincidentally, Kurzgesagt released <a
+href="https://www.youtube.com/watch?v=xAUJYP8tnRE">this video</a> recently on
+why we should not go around looking for aliens. Imagine my delight when I came
+across the same idea in the book that I was reading. However, I feel that they
+do not give proper credit where it is due. Only in a (pinned) comment on the
+video do Kurzgesagt acknowledge the origin of this theory in this book, which I
+found a bit odd &ndash; I would have expected this information to be prominently
+presented in the video itself or at least in the description of the video.
+<p>
+You have to have read the first book to make sense of this second book in the
+series, even though I found it to be far more interesting. Like the first book,
+I found the prose in this book quite stilted and the extreme China-centric
+narrative and the plethora of Chinese characters somewhat disorienting. As I
+noted earlier, the former might be an artifact of translation and the latter is
+a critical reminder of the typical US-centric narratives in popular culture.
+<p>
+After a break, I am looking forward to reading the last book in this trilogy.
+m4_end_post_rest
+m4_end_post
