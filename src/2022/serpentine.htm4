@@ -1,0 +1,35 @@
+m4_define(`m4_post_date', `2022-05-30')m4_dnl
+m4_define(`m4_post_title', `&ldquo;Serpentine&rdquo;')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+&ldquo;<a
+href="https://en.wikipedia.org/wiki/Serpentine_(book)">Serpentine</a>&rdquo; is
+a (really short) novella by <a
+href="https://en.wikipedia.org/wiki/Philip_Pullman">Philip Pullman</a>. It is
+set some time after the events described in the &ldquo;<a
+href="https://en.wikipedia.org/wiki/His_Dark_Materials">His Dark
+Materials</a>&rdquo; trilogy, but before those in the &ldquo;<a
+href="https://en.wikipedia.org/wiki/The_Book_of_Dust">The Book Of
+Dust</a>&rdquo; trilogy. It is a richly-illustrated book containing a short tale
+that is unlikely to be of interest to anyone except for the fans of this series
+of books.
+m4_begin_post_rest
+m4_display_book( `0593377680', `0241475244')
+This novella is a tale describing the uneasy tension between <a
+href="https://en.wikipedia.org/wiki/Lyra_Belacqua">Lyra</a> and her daemon
+Pantalaimon. They had been separated towards the end of the first trilogy, which
+was quite painful for both, especially for Pantalaimon who felt betrayed by
+Lyra. However, they never got around to having a frank discussion about this
+uncomfortable topic, so the tension simmers and leads to a growing disaffection
+and consequent alienation. Can they overcome their inhibitions and become as
+close to each other as they were before?
+<p>
+The book, such as it is, seems to have been released to keep fans excited about
+the upcoming series of books in the new trilogy. There is not much substance to
+it. Even fans of the series might not find that much to be excited about in this
+particular book (I, for one, certainly did not). As far as I can tell, it does
+not add to the enjoyment of the second trilogy and does not contain anything
+particularly revealing or insightful.
+m4_end_post_rest
+m4_end_post
