@@ -1,0 +1,63 @@
+m4_define(`m4_post_date', `2022-06-30')m4_dnl
+m4_define(`m4_post_title', `&ldquo;Sapiens&rdquo;')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+&ldquo;<a
+href="https://en.wikipedia.org/wiki/Sapiens:_A_Brief_History_of_Humankind">Sapiens</a>&rdquo;
+is a book on the history of humankind by <a
+href="https://en.wikipedia.org/wiki/Yuval_Noah_Harari">Yuval Noah Harari</a>. It
+tries to show why humans, and not any of the other animals on Earth, came to
+dominate the planet, sometimes to the detriment of other species on the planet
+that are driven to extinction. It is a reasonably engaging work of non-fiction,
+but I am surprised that it has become so popular.
+m4_begin_post_rest
+m4_display_book( `0062316117', `0099590085')
+<p>
+The author attributes the success of humankind to four major
+&ldquo;revolutions&rdquo; in its history: the Cognitive Revolution, the
+Agricultural Revolution, the Unification Of Humankind, and the Scientific
+Revolution. The Cognitive Revolution started around 70,000 years ago and allowed
+humans to develop imagination, to invent language to communicate with each
+other, and to live in tight-knit communities. The Agricultural Revolution
+started around 12,000 years ago and made humans give up their nomadic
+hunter-gatherer ways and permanently settle into larger and larger communities
+like villages, towns, and cities. The Unification Of Humankind started around
+5,000 years ago and made humans invent money, create more sophisticated
+religions, and build large empires. The Scientific Revolution started around
+500 years ago and saw humans make technological leaps to conquer the planet,
+explode in population, converge on capitalism, and live in nuclear families.
+<p>
+The book is certainly ambitious for the breadth of topics it covers and its wide
+sweep over history, science, economics, biology, etc. However, for the most part
+there are no new insights that a modern well-read reader would not have come
+across otherwise. Where there <em>are</em> bold new claims, there is not much
+evidence to back them except hand-wavy assertions. For example, it is not at all
+obvious to me that the lives of the nomadic hunter-gatherers was better than the
+lives of the later farmers. As another example, it is not that clear that a
+willingness to admit ignorance among the Europeans is what led to the scientific
+revolution and the consequent technological progress that made Europe leap-frog
+other continents in development and reign supreme over them.
+<p>
+The author does not shy from broaching sensitive topics like religion, race,
+gender, sexuality, colonization, climate-change, etc. while discussing why some
+set of humans seem to have succeeded more than others. However, they end up
+discussing these topics in a way that seems to pander more to
+political-correctness than to having a dispassionate scientific discourse backed
+by incontrovertible evidence. This was off-putting even when I agreed with the
+assertions of the author.
+<p>
+The book is much longer than it should have been. The author keeps making the
+same points again and again in slightly different ways. On the other hand, the
+book has copious <i>in situ</i> illustrations and photographs that enliven the
+prose. It also provides bibliographic notes at the end of the book for each
+chapter in the book so that curious readers can enter their own rabbit-holes of
+further research. The last chapter of the book is its weakest, with wild
+speculations about the evolution of humans involving genetics, bionics,
+artifical intelligence, etc.
+<p>
+In short, I do not get why this book has become so popular and has been praised
+so much by so many famous people. It is not a bad book, but it is not a great
+book either. It is an enjoyable read if you do not expect too much from it.
+m4_end_post_rest
+m4_end_post
