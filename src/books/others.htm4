@@ -84,6 +84,7 @@ m4_heading( `1', `technology', `Technology')
 m4_include_post(`2012', `intheplex')
 m4_include_post(`2013', `mstrsdoom')
 m4_include_post(`2007', `srch')
+m4_include_post(`2022', `soulmach')
 m4_include_post(`2018', `upstarts')
 m4_include_post(`2018', `dormouse')
 m4_dnl

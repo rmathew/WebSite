@@ -1,0 +1,80 @@
+m4_define(`m4_post_date', `2022-07-31')m4_dnl
+m4_define(`m4_post_title', `&ldquo;The Soul Of A New Machine&rdquo;')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+<a href="https://en.wikipedia.org/wiki/Tracy_Kidder">Tracy Kidder</a> manages to
+achieve in &ldquo;<a
+href="https://en.wikipedia.org/wiki/The_Soul_of_a_New_Machine">The Soul Of A New
+Machine</a>&rdquo; what most writers of popular non-fiction would shy away from
+&ndash; narrate the story of a team of hardware-engineers racing against time to
+build a 32-bit mini-computer to maintain the relevance of their company in the
+crowded marketplace of the computer-industry of the late 1970s. It is a gripping
+story in computer history that would have been forgotten, were it not for this
+wonderful book.
+m4_begin_post_rest
+m4_display_book( `0316491977', `0316491977')
+<p>
+It is the late 1970s and <a
+href="https://en.wikipedia.org/wiki/Data_General">Data General</a> is lagging
+behind its arch-rival <a
+href="https://en.wikipedia.org/wiki/Digital_Equipment_Corporation">DEC</a> and
+its successful <a href="https://en.wikipedia.org/wiki/VAX">VAX</a> line of
+mini-computers in bringing a next-generation 32-bit mini-computer to its current
+and prospective customers. Its aging <a
+href="https://en.wikipedia.org/wiki/Data_General_Nova">Nova</a> and <a
+href="https://en.wikipedia.org/wiki/Data_General_Eclipse">Eclipse</a> series of
+computers are not enough for the expanding needs of such customers. It decides
+to make a clean break with the secretive &ldquo;Fountain Head Project&rdquo;
+(FHP) computer, first sequestering the team of super-stars in a different office
+in the same city and then in another office in a different city altogether.
+Those who are not selected for this effort or who can not migrate to a different
+city are left to work on the legacy systems.
+<p>
+Fighting against these odds, one of the folks left behind manages to convince
+the leadership of the company to invest a little in expanding the legacy Eclipse
+series to a 32-bit architecture in a way that maintains backward-compatibility
+with the 16-bit software written by its customers. This charismatic yet
+eccentric leader, <a href="https://en.wikipedia.org/wiki/Tom_West">Tom West</a>,
+then tries to assemble a team of engineers to build this system from scratch
+(code-named &ldquo;Eagle&rdquo;) in just a year. The engineers are
+understandably reluctant to work on what they consider to be a kludge of a
+system and is not a clear priority for the leadership. Tom manages to convince a
+few of them, but largely staffs the new team with fresh college-graduates who
+are willing to work a lot more for a lot less and who are happy to be working on
+something challenging right away that they perceive to be important to the
+company.
+<p>
+The unrealistic deadlines of the overly-ambitious project results in a <a
+href="https://en.wikipedia.org/wiki/Death_march_(project_management)">death-march</a>
+that takes a heavy toll on some of the team-members. They suffer burn-outs,
+ruined personal-relationships, health-issues, etc. However, most of them tell
+the author that they would gladly suffer it all over again for even less pay.
+They bring the new computer to life by pouring their own souls into it. The
+computer is finally released as the <a
+href="https://en.wikipedia.org/wiki/Data_General_Eclipse_MV/8000">Eclipse
+MV/8000</a> after slipping its initial schedule by about six months. The
+competing FHP system on the other hand keeps slipping and is finally cancelled.
+The team does not, however, reap much rewards as a result of its heroic endeavor
+and in fact disbands shortly thereafter. Sad.
+<p>
+As a computer-programmer, I found the many tales of debugging in this book quite
+fascinating, especially the bugs that were hard to reproduce. The vicarious joy
+of seeing a system come to life after many long and arduous battles by the team
+makes this book a wonderful read. However, it is hard to overlook the clearly
+exploitative behavior of the leaders and unreasonable pressure on the team from
+having arbitrary deadlines imposed on them. In fact, Tom West proclaims to
+practise the &ldquo;<a
+href="https://en.wikipedia.org/wiki/Mushroom_management">Mushroom Theory Of
+Management</a>&rdquo; (&ldquo;keeping them in the dark, feeding them shit, and
+watching them grow&rdquo;). Cringe.
+<p>
+That said, war-stories of people overcoming great odds to deliver something of
+quality makes for great reading. The author, a writer by profession, manages to
+convey hard technical ideas like instruction-pipelining, multi-level
+cache-coherence, memory-protection, etc. in a way that lay readers should be
+able to follow along to appreciate the challenges faced by the team. This is a
+remarkable achievement. The Pulitzer Prize the author received for this book is
+entirely justified, as far as I can tell. Bravo!
+m4_end_post_rest
+m4_end_post
