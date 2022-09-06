@@ -1,0 +1,102 @@
+m4_define(`m4_post_date', `2022-09-06')m4_dnl
+m4_define(`m4_post_title', `ICFPC 2022')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I took part in <a href="https://icfpcontest2022.github.io/">ICFPC 2022</a> the
+past weekend. It was another &ldquo;classic&rdquo; no-nonsense ICFPC <a
+href="https://icfpcontest2022.github.io/specification/">task</a> this year,
+continuing the fine precedent set by the contest <a
+href="m4_root_dir/2021/icfpc21.html">last year</a>. This was especially awesome
+since the contest almost did not happen this year due to the initial trouble in
+<a
+href="https://old.reddit.com/r/icfpcontest/comments/uv9pyr/looking_for_organizers_for_the_2022_contest/">finding
+organizers</a> for it. Thankfully that was resolved in time. Unfortunately,
+that did not mean that I had better luck in solving the problem this year.
+m4_begin_post_rest
+<p>
+Once again, this was my yearly refresher in coding in <a
+href="https://golang.org/">Go</a>, since my day-job mostly involves C++. I find
+Go to be a nicely productive and fairly performant programming language that
+has an especially nice, but somehow still compact, standard library. For the
+task this year, this standard library came in particularly handy since it had
+functions for loading and saving PNG images, drawing and clipping images,
+decoding JSON files, etc.
+<p>
+The task this year was fairly straightforward: you have to emit a program for a
+computer-controlled painting-robot (&ldquo;Robo Vinci&rdquo;) so that it can
+transform a given canvas into a given painting. The instructions for this
+computer comprised manipulating blocks on the canvas (splitting blocks, coloring
+blocks, swapping blocks, and merging blocks). The score your are awarded depends
+on the similarity of the output of your painting-program to the target-painting
+and the cost incurred while executing the program.
+<p>
+For example, one of the target paintings was this masterpiece by Johannes
+Vermeer:
+<p>
+<img src="pearlgirl.png" width="400" height="400"
+    style="display: block; margin: auto;"
+    alt="The Girl With The Pearl Earring by Johannes Vermeer.">
+<p>
+When you compare it with the result below from my brute-force and desperate
+attempt at finding a solution to this problem, you can get a pretty good idea
+of how I fared this year:
+<p>
+<img src="icfpc22.png" width="400" height="400"
+    style="display: block; margin: auto;"
+    alt="The output of my brute-force solver.">
+<p>
+While the problem was quite straightforward to comprehend, I just could not
+figure out how to even <em>begin</em> trying to solve it. I got stuck pretty
+hard in this &ldquo;programmer&`#'39s block&rdquo; for a couple of days of this
+three-day contest. As a form of active procrastination, I wrote an interpreter
+for the given language that could emit a painting and compute the expected score
+for it by comparing it with the target painting.
+<p>
+In the end, I resigned myself to a brute-force and greedy approach of just
+applying point-cut and color moves to approximate the target painting, while
+reducing the incremental cost at each step. This solution worked by comparing
+the cost of painting a block of the canvas with an averaged color of the
+corresponding block in the target painting to the cost of sub-dividing the block
+into quadrants with the respective averaged color of the individual quadrant. If
+the former cost is lower, you stick with it; otherwise you recurse into each of
+the quadrants applying the same greedy heuristic.
+<p>
+I managed to get solutions to the first 25 problems using this approach, but it
+completely broke down for the subsequent problems as they started with an
+initial configuration that had more than just a single default block covering
+the whole canvas. Of course, even the solutions that I did get were horribly
+expensive compared to the scores from other contestants that I could see on the
+score-board, but it was somewhat better than having <em>nothing</em> to show for
+three days of effort.
+<p>
+Despite my miserable performance, I really liked the task this year for the
+simplicity of its description combined with the complexity of coming up with a
+solution for it. Impressively, it could be done entirely on your local machine
+(well, except for the last few problems that required you to download an image
+from the Internet) without requiring constant access to some external server
+that might not remain up for long, using virtual machines, relatively uncommon
+programming language environments, etc.
+<p>
+While the specification was short and sweet, it did have some frustrating
+ambiguities. For example, it did not specify whether the RGBA tuples it used
+were pre-multiplied by the alpha-value or not (in the Go
+<code>image/color</code> package, <code>RGBA</code> uses pre-multiplied values
+while <code>NRGBA</code> does not). As another example, it did not specify what
+was meant by rounding a floating-point value using <code>Math.round()</code> (or
+even which programming-language this was referring to). I found by some trial
+and error that it was using rounding away from zero (rather than the usual
+rounding towards even). There were also some gotchas in the Go standard library
+(e.g. that <code>Rectangle</code> uses half-open bounds rather than the usual
+closed ones) that combined with the ambiguities above to make it take much
+longer for me to recreate the scores produced by the organizer&`#'39s web-site.
+<p>
+The source-code for my attempt this year can be found <a
+href="https://bitbucket.org/rmathew/icfpc/src">on Bitbucket</a>, <a
+href="https://github.com/rmathew/icfpc/">on GitHub</a>, and <a
+href="https://gitlab.com/rmathew/ICFPC">on GitLab</a>. You can find some other
+write-ups on <a href="https://old.reddit.com/r/icfpcontest/">/r/icfpcontest</a>
+or <a href="https://icfpcontest2022.github.io/writeups/">on the contest
+web-site</a> itself.
+m4_end_post_rest
+m4_end_post
