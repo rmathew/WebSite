@@ -1,0 +1,64 @@
+m4_define(`m4_post_date', `2022-09-16')m4_dnl
+m4_define(`m4_post_title', `&ldquo;Deep Work&rdquo;')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+&ldquo;Deep Work&rdquo; by <a
+href="https://en.wikipedia.org/wiki/Cal_Newport">Cal Newport</a> is the kind of
+book that is important for people whose work requires them to achieve long hours
+of uninterrupted focus in order to get ahead in their field. For example, when
+you achieve <a href="https://en.wikipedia.org/wiki/Flow_(psychology)">flow</a>
+in your work, you feel very productive and can derive greater satisfaction from
+it. Unfortunately the modern world seems to be set up in a way that is designed
+to prevent you from achieving flow and thus personal growth.
+m4_begin_post_rest
+m4_display_book( `0349413681', `0349413681')
+<p>
+The author defines deep work as the kind of professional activities that are
+performed with a distraction-free concentration and that push your cognitive
+capabilities to their limit. This is in opposition to shallow work that is not
+cognitively demanding, logistical in nature, and often performed in a state of
+distraction. The author argues that the ability to perform deep work is
+increasingly becoming rare at exactly the same time as it is increasingly
+becoming valuable in our economy. As a software engineer cursed to work in
+<a href="https://en.wikipedia.org/wiki/Open_plan#Office_spaces">open-plan
+offices</a>, I strongly concur.
+<p>
+The author presents a few rules to help you consistently achieve deep work. I
+was pleasantly surprised to find a lot of my own tactics listed here. For
+example, I have been carving out &ldquo;focus time&rdquo; chunks on my calendar
+and have been trying to &ldquo;defrag&rdquo; my meetings as much as possible so
+that I have at least some hope of getting around to doing the important things
+in my job. (This is referred to as the &ldquo;rhythmic&rdquo; depth philosophy
+in the book.) That said, I break the second rule in the book by being
+constantly distracted via my smartphone (chiefly through <a
+href="https://news.ycombinator.com/">Hacker News</a> and <a
+href="https://twitter.com/">Twitter</a>).
+<p>
+In fact, one of the harder rules to follow in this book is about social media
+and the Internet. The author asks us to apply the law of the vital few to our
+Internet-habits &ndash; adopt a network tool (social media app, web-site, etc.)
+<em>only if</em> its positive impact on core factors substantially outweigh its
+negative impacts. This is in sharp contrast to the &ldquo;any benefit&rdquo;
+threshold of using a network tool that most of us employ. We tend to use such
+network tools if there is any benefit to using them (e.g. connecting with our
+friends from school, keeping up with the careers of our professional colleagues,
+etc.). Note that this is <em>not</em> about completely quitting all social media
+and web-sites, but about being extremely intentional in which network tool you
+use and how you use it.
+<p>
+Three of the four rules in this book are essentially variations on being less
+connected and being more intentional with your time. The author repeatedly
+insists that deep, meaningful work that advances you professionally is quite
+possible to achieve, while having a healthy work-life balance. The key is to
+drain out the shallows (the mindless distractions that we engage in throughout
+the day and at any hint of boredom) and carving out time for focussed work.
+<p>
+As I have noted above, I have already been trying to adopt some of these habits
+with some success, even before having read this book. Most folks in my
+profession already recognize the value and the rarity of deep work. This makes
+me think that the advice in this book is reasonably plausible and therefore
+good. I shall certainly be revisiting this book time and again and hope to
+benefit more from the advice herein. Highly recommended.
+m4_end_post_rest
+m4_end_post
