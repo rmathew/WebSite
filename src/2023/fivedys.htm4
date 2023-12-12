@@ -1,0 +1,77 @@
+m4_define(`m4_post_date', `2023-11-30')m4_dnl
+m4_define(`m4_post_title', `&ldquo;The Five Dysfunctions Of A Team&rdquo;')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+&ldquo;<a
+href="https://en.wikipedia.org/wiki/The_Five_Dysfunctions_of_a_Team">The Five
+Dysfunctions Of A Team</a>&rdquo; is a small book by <a
+href="https://en.wikipedia.org/wiki/Patrick_Lencioni">Patrick Lencioni</a> on
+how to create effective teams. The author presents insights gleaned from having
+worked with various CEOs and having coached them on how to build such teams for
+their respective companies. There are some nifty insights for leaders in this
+book.
+<p>
+m4_begin_post_rest
+m4_display_book( `8126522747', `B0C4HBPVJL')
+<p>
+The author claims that teamwork is elusive because most teams fall prey to five
+dysfunctions. These dysfunctions are inter-related issues, where one issue
+leads to another. The author illustrates this model with a pyramid, where the
+most fundamental issue is at the base of the pyramid and the final issue is at
+the top.
+<p>
+In an interesting approach, the author presents a parable in the first part of
+the book to illustrate their ideas and then presents their model in the second
+part of the book. The parable takes up quite a big portion of the book, but I
+found it helpful (if a bit contrived). The parable revolves around a fictional
+technology company that is struggling, so the board hires an external CEO to
+fix it, in the process pulling her out of her early retirement. The new CEO just
+observes the workings of the company for a while and then organizes a series of
+off-site retreats for her executive team to drill these ideas into them. It is
+a difficult transition for the team and it does not emerge unscathed at the end
+of it. I found it interesting that the CEO is shown having self-doubt and having
+to take tough decisions with individuals in the larger interests of the company.
+<p>
+In the model presented by the author, the issues (starting from the base) are:
+<ol>
+<li>An <em>absence of trust</em> in the team because they are unwilling to be
+vulnerable in front of each other, presenting a facade of invulnerability
+instead.</li>
+<li>This leads to a <em>fear of conflict</em>, so teammates avoid having
+unfiltered debates based on ideas (and not personalities), choosing instead to
+be guarded during discussions.</li>
+<li>This in turn leads to a <em>lack of commitment</em> in the team and there
+is no buy-in for decisions and plans of action as team-members feel that they
+have not been able to express their honest opinions.</li>
+<li>That results in a <em>lack of accountability</em> and teammates hesitate to
+call out their peers on their execution.</li>
+<li>That breeds a culture of <em>inattention to results</em> for the team and
+team-members end up placing their individual goals before the outcomes for the
+team as a whole.</li>
+</ol>
+<p>
+After presenting the model, the author presents a quick diagnostic to help you
+evaluate your own team, in the form of a set of questions (that you can also ask
+your teammates to answer) and a scoring methodology. This diagnostic should help
+you identify which kinds of issues your team suffers from. The author admits
+that solving these issues take quite a lot of discipline and suggests a few ways
+in which teams can approach resolving these issues.
+<p>
+I found the ideas presented here intriguing, but I am a bit skeptical about the
+model itself. These are definitely issues that I have seen in various teams, but
+these are not the only issues that I have seen. The number of issues here seem
+to have been selected to match the title of another book by the author and both
+seem to have a suspiciously pleasant and small number in their respective models
+(like almost all self-help books). I am not saying this to dismiss these ideas,
+but merely to wonder if these really are the <em>elemental</em> issues in
+teamwork and whether they really are inter-linked in the manner presented by the
+author here. In any case, this book presents good fodder for thought and for
+action.
+<p>
+If you are a leader, read this book and reflect on the ideas presented here
+based on your experience and the state of your team. It is a short book, so it
+would not take up that much of your time. It would be interesting to see how
+many teams have been helped by applying these ideas and how many could not.
+m4_end_post_rest
+m4_end_post
