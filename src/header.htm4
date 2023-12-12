@@ -19,12 +19,12 @@ type="application/atom+xml" title="Feed for rmathew.com.">
   href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400&amp;family=Open+Sans:wght@700&amp;family=Inconsolata:wght@500&amp;display=swap">
 <title>m4_page_title</title>
 <script type="text/javascript" defer
-  src="https://www.googletagmanager.com/gtag/js?id=UA-2383717-2"></script>
+  src="https://www.googletagmanager.com/gtag/js?id=G-ZFVWDJ6ZYC"></script>
 <script type="text/javascript">
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'UA-2383717-2');
+  gtag('config', 'G-ZFVWDJ6ZYC');
 </script>
 </head>
 <body>
