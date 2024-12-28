@@ -1,0 +1,60 @@
+m4_define(`m4_post_date', `2024-07-02')m4_dnl
+m4_define(`m4_post_title', `ICFPC 2024')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+I took part in <a href="https://icfpcontest2024.github.io/">ICFPC 2024</a> the
+past weekend. This was a really nice contest that combined the best elements of
+the classic contests from <a href="m4_root_dir/2006/icfpc-2006.html">2006</a>
+and <a href="m4_root_dir/2007/icfpc-2007.html">2007</a>. As usual, I had a lot
+of fun during the contest, but did not have any breakthrough in actually
+solving the problems.
+m4_begin_post_rest
+<p>
+The <a href="https://icfpcontest2024.github.io/task.html">task</a> this year
+was to decipher programs written in a functional programming <a
+href="https://icfpcontest2024.github.io/icfp.html">language</a> in order to
+solve problems of increasing difficulty. You begin by implementing a parser
+and an interpreter for this language and then use it to communicate with a
+web-server hosted by the organizers. You pretend to do an on-line course to
+learn more and more about an alien civilization by fetching documents
+associated with different keywords. When you solve problems, you unlock more
+and more of these special keywords.
+<p>
+I chose to solve the problems this year using Python, simply because it was
+easy to get started and iterate from there. Its &ldquo;batteries included&rdquo;
+standard library contains almost everything I needed to get going. I
+implemented a simple REPL that allowed me to decode the alien language and poke
+around the remote server. That said, I kept running into efficient evaluation
+issues in the interpreter that made it crash on certain degenerate problems.
+Unfortunately, I could not solve these by the end of the contest and I did not
+get the time to follow up after that.
+<p>
+An experiment I tried this time was to see if ChatGPT, Gemini, et al could help
+me create the basic evaluator faster, so that I could concentrate on the core
+problems. As has been my experience elsewhere, these LLMs spewed plausible
+looking solutions that actually contained some blatant and some subtle bugs.
+Finding and resolving these bugs took more time that the initial saving in
+creating the program. On the whole, the experience was a bit promising at the
+begining and frustrating in the end. I do not know how others find LLMs so
+useful for coding, since this has consistently been my experience with them so
+far. Maybe I am not prompting them properly.
+<p>
+Shortly after the contest ended, the organizers kindly shared <a
+href="https://github.com/icfpcontest2024/icfpc2024">a repository</a> containing
+<em>everything</em> related to the contest (task-description, problems,
+server-implementation in Haskell, etc.). Technically, this allows you to
+continue to play with the problems by running your own server, tweaking things,
+etc.
+<p>
+The source-code for my attempt this year can be found <a
+href="https://github.com/rmathew/icfpc/">on GitHub</a>, <a
+href="https://gitlab.com/rmathew/ICFPC">on GitLab</a>, and <a
+href="https://bitbucket.org/rmathew/icfpc/src">on Bitbucket</a>. You can find
+links to some other write-ups <a
+href="https://icfpcontest2024.github.io/writeups.html">here</a> on the contest
+web-site. Weirdly, <a
+href="https://old.reddit.com/r/icfpcontest/">/r/icfpcontest</a> was quite quiet
+during the contest this year. I wonder if that sub-reddit is dying out. Sad.
+m4_end_post_rest
+m4_end_post
