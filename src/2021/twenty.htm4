@@ -5,7 +5,7 @@ m4_begin_post
 <p>
 It has been <em>twenty years</em> since I started blogging on this web-site and
 elsewhere. Initially, I used to post separately on this web-site, <a
-href="https://web.archive.org/web/20170628004030/http://www.advogato.org/person/rmathew/">on
+href="https://web.archive.org/web/20170628004030/https://www.advogato.org/person/rmathew/">on
 Advogato</a>, and <a href="https://rmathew.blogspot.com/">on BlogSpot</a>.
 After a while, I consolidated all my blog-posts on this web-site, as there was
 no clear separation of themes for the posts across these platforms and it was
@@ -32,7 +32,7 @@ thanks to <a href="https://web.archive.org/">The Wayback Machine</a>). In 2008,
 I <a href="m4_root_dir/2008/reorg.html">reorganized</a> this web-site to have
 per-post standalone pages for being able to link to each blog-post separately
 and for the faster loading of aggregator pages. I also provided a <a
-href="http://rmathew.com/atom.xml">feed</a> based on the <a
+href="https://rmathew.com/atom.xml">feed</a> based on the <a
 href="http://www.atomenabled.org/">Atom</a> format so that regular readers, if
 any, could easily get notified of new blog-posts as and when they appeared.
 <p>

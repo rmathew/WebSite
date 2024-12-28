@@ -5,5 +5,5 @@ m4_begin_post
 <p>
 Thomas Fitzsimmons implemented JAWT for GCJ and Anthony Green built on that work to let JOGL run with GCJ! This is sweet - could GCJ become a viable platform some day to write cross-platform 3D games?
 <p>
-(<a href="http://www.advogato.org/person/rmathew/diary/57.html">Originally posted on Advogato</a>.)
+(<a href="https://www.advogato.org/person/rmathew/diary/57.html">Originally posted on Advogato</a>.)
 m4_end_post

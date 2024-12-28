@@ -5,5 +5,5 @@ m4_begin_post
 <p>
 I have been granted write access to the CVS repositories of <a href="http://www.classpath.org/">GNU Classpath</a> and <a href="http://sources.redhat.com/mauve/">Mauve</a>. I have also started messing with GCJX (again) that was started by Tom Tromey. It has come a long way since the last time I had taken a look, but it sure can use some help from willing hackers. Would <i>you</i> like to help develop a first-class Java compiler?  By the way, Tom <a href="http://gcc.gnu.org/ml/gcc/2005-09/msg00422.html">has become</a> one of the Java front-end maintainers for GCC.
 <p>
-(<a href="http://www.advogato.org/person/rmathew/diary/112.html">Originally posted on Advogato</a>.)
+(<a href="https://www.advogato.org/person/rmathew/diary/112.html">Originally posted on Advogato</a>.)
 m4_end_post

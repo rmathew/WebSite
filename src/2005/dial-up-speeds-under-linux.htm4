@@ -5,5 +5,5 @@ m4_begin_post
 <p>
 I was not happy with the dial-up speeds I was getting under Linux compared to Windows and finding no simple way of improving it, I just changed the modem initialisation string from <tt>"ATZ"</tt> to <tt>"ATZ0&K3%C3+MS=12,1,33600,56000;"</tt> after reading its manual.  This has had an amazingly good effect on the speed - it is <i>not</i> a placebo effect as my wife initially claimed since I could prove it using kppp speed graphs. For the curious, it says "initialise to the default modem profile (Z0), use hardware flow control (&K3), use all compression (%C3), use V.90 (56k) with automode turned on to negotiate the best speeds and only accept a minimum speed of 33600bps and a maximum of 56000bps (+MS=12,1,33600,56000;)".  However, as a user I shouldn't have to tweak things like this - they should automatically have been taken care of in the first place!
 <p>
-(<a href="http://www.advogato.org/person/rmathew/diary/55.html">Originally posted on Advogato</a>.)
+(<a href="https://www.advogato.org/person/rmathew/diary/55.html">Originally posted on Advogato</a>.)
 m4_end_post

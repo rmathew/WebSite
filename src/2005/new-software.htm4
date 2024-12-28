@@ -5,5 +5,5 @@ m4_begin_post
 <p>
 <a href="http://www.mozilla.org/projects/seamonkey/">SeaMonkey</a> is the new avatar of the Mozilla Application Suite, kept alive by people who prefer the old monolithic application approach to the new approach of having standalone browser (Firefox), mail client (Thunderbird), etc. components. SeaMonkey has just released 1.0 Beta. I personally prefer the old approach as well, but have decided for the moment to not switch back from Firefox/Thunderbird simply because I have now become quite used to these applications and have begun to rely on some of the superb extensions created by the community for them. QEMU 0.8.0 is out (as is <a href="http://www.vmware.com/products/player/">VMWare Player</a> 1.0). By the way, QEMU can be <a href="http://johnbokma.com/mexit/2005/10/26/vmware-player-windows-xp.html">easily used</a> to create virtual machine discs for use with VMWare Player. However, I still prefer to use QEMU. 
 <p>
-(<a href="http://www.advogato.org/person/rmathew/diary/131.html">Originally posted on Advogato</a>.)
+(<a href="https://www.advogato.org/person/rmathew/diary/131.html">Originally posted on Advogato</a>.)
 m4_end_post

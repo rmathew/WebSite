@@ -25,5 +25,5 @@ The lesson learnt? We programmers are really quite bad at guessing the hotspots 
 <p>
 By the way, a few hapless souls discovered that the lack of unsigned integers in Java makes it unnecessarily difficult to implement something like this in Java. Why exactly couldn't the creators of the language provide unsigned variants of the integral types?
 <p>
-(<a href="http://rmathew.blogspot.com/2006/07/icfpc-2006.html">Originally posted on Blogspot</a>.)
+(<a href="https://rmathew.blogspot.com/2006/07/icfpc-2006.html">Originally posted on Blogspot</a>.)
 m4_end_post

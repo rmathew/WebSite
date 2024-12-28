@@ -3,7 +3,7 @@ m4_define(`m4_post_title', `Tromey')m4_dnl
 m4_include(`posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-<a href="http://www.advogato.org/person/tromey">tromey</a> continues to blog albeit elsewhere!  He seems to be working on <a href="http://www.sf.net/projects/gcjx/">a new frontend for GCJ</a>.  Now why don't I get to know of such cool things earlier? <tt>:-(</tt> BTW, I <i>finally</i> get to see what he looks like!
+<a href="https://www.advogato.org/person/tromey">tromey</a> continues to blog albeit elsewhere!  He seems to be working on <a href="http://www.sf.net/projects/gcjx/">a new frontend for GCJ</a>.  Now why don't I get to know of such cool things earlier? <tt>:-(</tt> BTW, I <i>finally</i> get to see what he looks like!
 <p>
-(<a href="http://www.advogato.org/person/rmathew/diary/14.html">Originally posted on Advogato</a>.)
+(<a href="https://www.advogato.org/person/rmathew/diary/14.html">Originally posted on Advogato</a>.)
 m4_end_post

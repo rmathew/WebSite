@@ -27,5 +27,5 @@ Anyways, looking at the factorisation of (x<sup>2</sup> - y<sup>2</sup>) into (x
 <p>
 <div style="text-align: center;">(x<sup>n</sup> - 1)/(x - 1) = x<sup>n-1</sup> + x<sup>n-2</sup> + ... + x + 1<br /></div><br />which is the same formula that we derived just a while back for calculating the sum of a geometric series!<br /></div></div>
 <p>
-(<a href="http://rmathew.blogspot.com/2006/06/mathematical-digressions.html">Originally posted on Blogspot</a>.)
+(<a href="https://rmathew.blogspot.com/2006/06/mathematical-digressions.html">Originally posted on Blogspot</a>.)
 m4_end_post

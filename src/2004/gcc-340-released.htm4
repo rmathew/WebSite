@@ -5,5 +5,5 @@ m4_begin_post
 <p>
 <a href="http://gcc.gnu.org/ml/gcc/2004-04/msg00955.html">GCC 3.4.0 is out</a> with <a href="http://gcc.gnu.org/gcc-3.4/changes.html">tonnes of improvements</a>! Notable among these are cool optimiser improvements (profile feedback based optimisation and unit-at-a-time compilation), a rewritten C++ parser that brings g++ much closer to standards conformance, much better GCJ and a Java interpreter that can actually <a href="http://mail.gnu.org/archive/html/classpath/2003-08/msg00004.html">run Eclipse 2.x</a>(!), etc.
 <p>
-(<a href="http://www.advogato.org/person/rmathew/diary/21.html">Originally posted on Advogato</a>.)
+(<a href="https://www.advogato.org/person/rmathew/diary/21.html">Originally posted on Advogato</a>.)
 m4_end_post

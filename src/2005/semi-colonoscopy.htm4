@@ -5,5 +5,5 @@ m4_begin_post
 <p>
 Can you write a valid Java program to print out "Hello" on the standard output without using a single semi-colon in the source code?  When Srikanth asked me this question, my immediate and disingenious response was to hide the semi-colon using a Unicode escape sequence like this: <pre> public class Sriki {   public static void main( String[] args)   {     System.out.println("Hello")\u003b   } } </pre> However, he has a better solution: <pre> public class Sriki {   public static void main( String[] args) throws Exception   {     if( System.out.getClass( ).getMethod(       "println",       new Class[] { String.class}).invoke(         System.out,         new Object[] { "Hello"}) == null)     {     }   } } </pre> Can <i>you</i> come up with a better solution?
 <p>
-(<a href="http://www.advogato.org/person/rmathew/diary/126.html">Originally posted on Advogato</a>.)
+(<a href="https://www.advogato.org/person/rmathew/diary/126.html">Originally posted on Advogato</a>.)
 m4_end_post

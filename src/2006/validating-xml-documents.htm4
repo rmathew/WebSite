@@ -11,5 +11,5 @@ I first used Sun's <a href="http://www.sun.com/software/xml/developers/multische
 <p>
 While creating these documents from the appropriate XML Schemata, I found xs3p to be really useful. This is a stylesheet that takes an XML Schema and generates a pretty HTML document from it that you can use to understand the original XML Schema and easily navigate through its structure. I used Apache <a href="http://xalan.apache.org/">Xalan</a> to generate the HTML documents.
 <p>
-(<a href="http://rmathew.blogspot.com/2006/07/validating-xml-documents.html">Originally posted on Blogspot</a>.)
+(<a href="https://rmathew.blogspot.com/2006/07/validating-xml-documents.html">Originally posted on Blogspot</a>.)
 m4_end_post

@@ -21,5 +21,5 @@ Even after switching to Xfce, I still haven't removed KDE from my PC. After all,
 <p>
 On a side note, has anyone tried to compile the ultra-modular 7.1 release of the <a href="http://www.x.org/">X.org</a> server? Every little thing has now been broken into its own little module with the result that <a href="http://ftp.x.org/pub/X11R7.1/src/everything/">there are just too many modules</a> without an easy way of choosing the ones you want (again, like "<tt>make menuconfig</tt>" for the Linux kernel). There are scripts to automate the download and build, of course, but they still don't seem to make it easy to choose among the modules.
 <p>
-(<a href="http://rmathew.blogspot.com/2007/02/xfce-and-kde.html">Originally posted on Blogspot</a>.)
+(<a href="https://rmathew.blogspot.com/2007/02/xfce-and-kde.html">Originally posted on Blogspot</a>.)
 m4_end_post

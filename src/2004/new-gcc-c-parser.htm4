@@ -5,5 +5,5 @@ m4_begin_post
 <p>
 Lesser mortals take significantly longer than the mere week that <a href="http://www.srcf.ucam.org/~jsm28/">Joseph Myers</a> took to write <a href="http://gcc.gnu.org/ml/gcc-patches/2004-10/msg01969.html">a new recursive-descent C parser for GCC</a> that accepts the same C language plus GNU extensions (a.k.a. "GNU C") as the existing one that uses Bison. <tt>:-/</tt>
 <p>
-(<a href="http://www.advogato.org/person/rmathew/diary/45.html">Originally posted on Advogato</a>.)
+(<a href="https://www.advogato.org/person/rmathew/diary/45.html">Originally posted on Advogato</a>.)
 m4_end_post

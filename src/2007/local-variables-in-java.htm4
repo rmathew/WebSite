@@ -13,5 +13,5 @@ Since he was still sceptical, I compiled both the variants to bytecode, used <co
 <p>
 On the other extreme, I have another colleague who is in the masochistic habit of introducing new scopes to isolate the local variables used only in a section of a method's body. That is, something like:<br /><pre><br />  {<br />    Foo x = wombat.snafu( );<br />    // Use x here.<br />    ...<br />  }<br />  {<br />    Bar y = new Bar( a, b, c);<br />    // Use y here.<br />    ...<br />  }<br /></pre>
 <p>
-(<a href="http://rmathew.blogspot.com/2007/01/local-variables-in-java.html">Originally posted on Blogspot</a>.)
+(<a href="https://rmathew.blogspot.com/2007/01/local-variables-in-java.html">Originally posted on Blogspot</a>.)
 m4_end_post

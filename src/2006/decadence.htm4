@@ -11,5 +11,5 @@ That delusion was rather short-lived. I soon discovered that programming is actu
 <p>
 When I do get to write code, I have to write the simplest of programmes. The requirements almost never merit anything sophisticated. On the rare occasions where better data structures and algorithms can help, I still cannot use them since the code then becomes unmaintainable by the "average" software engineer. For an underperforming application, the standard solution seems to be to use a bigger machine instead of making the application more efficient. Developing "enterprise" software can be really dull and depressing for someone even mildly interested in programming.
 <p>
-(<a href="http://rmathew.blogspot.com/2006/07/decadence.html">Originally posted on Blogspot</a>.)
+(<a href="https://rmathew.blogspot.com/2006/07/decadence.html">Originally posted on Blogspot</a>.)
 m4_end_post

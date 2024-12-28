@@ -3,7 +3,7 @@ m4_define( `m4_post_title', `Accounts')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-I update <a href="http://www.advogato.org/person/rmathew/">my
+I update <a href="https://www.advogato.org/person/rmathew/">my
 Advogato diary</a> far more often than these pages, probably because I
 have more things to say on nerdy stuff than on anything else. That diary
 is now also being consolidated into <a

@@ -16,6 +16,6 @@ While a multi-process model might seem good for UI responsiveness and shielding 
 <p>
 It seems that the Firefox developers are already moving in that direction with a project code-named <a href="https://wiki.mozilla.org/Electrolysis">Electrolysis</a>. I hope that this results in a better browser for those of us who have decided to stick with Firefox.
 <p>
-(<a href="http://rmathew.blogspot.com/2010/01/spawner-in-works.html">Originally posted on Blogspot</a>.)
+(<a href="https://rmathew.blogspot.com/2010/01/spawner-in-works.html">Originally posted on Blogspot</a>.)
 m4_end_post_rest
 m4_end_post

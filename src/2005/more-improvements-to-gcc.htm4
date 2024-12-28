@@ -5,5 +5,5 @@ m4_begin_post
 <p>
 Apart from the projects already planned for GCC 4.2, we now have proposals for <a href="http://gcc.gnu.org/ml/gcc/2005-11/msg00735.html">Link-time Optimisation</a>, <a href="http://gcc.gnu.org/ml/gcc/2005-11/msg00783.html">New Register Allocation Method</a> and <a href="http://gcc.gnu.org/ml/gcc/2005-11/msg00888.html">LLVM Integration</a>. The integration with LLVM, should it happen, would be the most significant change to GCC since <a href="http://gcc.gnu.org/projects/tree-ssa/">Tree-SSA</a>. Pretty exciting times for a hacker to be involved with GCC! 
 <p>
-(<a href="http://www.advogato.org/person/rmathew/diary/123.html">Originally posted on Advogato</a>.)
+(<a href="https://www.advogato.org/person/rmathew/diary/123.html">Originally posted on Advogato</a>.)
 m4_end_post

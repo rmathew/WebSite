@@ -16,6 +16,6 @@ See its web-site for a number of other examples that show its power. Its command
 <p>
 I also looked at some other tools, notably <a href="http://www.pdfsam.org/">PDF Split and Merge</a> (PDFsam) and <a href="http://www.pdfill.com/">PDFill</a>. PDFsam is written in Java and looks promising; unfortunately for me, a warning tone was all that I could get out of it as I tried out its different plug-ins. I didn't get around to trying PDFill as pdftk and PDF::API2 were more than enough for my purpose.
 <p>
-(<a href="http://rmathew.blogspot.com/2009/09/pdf-manipulation-tools.html">Originally posted on Blogspot</a>.)
+(<a href="https://rmathew.blogspot.com/2009/09/pdf-manipulation-tools.html">Originally posted on Blogspot</a>.)
 m4_end_post_rest
 m4_end_post

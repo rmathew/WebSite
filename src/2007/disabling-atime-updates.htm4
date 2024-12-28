@@ -10,6 +10,6 @@ Each time you read a file, its <code>atime</code> has to be updated. This can qu
 <p>
 I have now changed the "<code>/etc/fstab</code>" on my PC to mount its file-systems using the "<code>noatime</code>" option. It does seem to have slightly improved the responsiveness of the desktop, though this could just be a <a href="http://en.wikipedia.org/wiki/Placebo">placebo effect</a>. On the other hand, in the KernelTrap article people have presented measurements that demonstrate the actual performance improvements brought about by using this option.
 <p>
-(<a href="http://rmathew.blogspot.com/2007/08/disabling-atime-updates.html">Originally posted on Blogspot</a>.)
+(<a href="https://rmathew.blogspot.com/2007/08/disabling-atime-updates.html">Originally posted on Blogspot</a>.)
 m4_end_post_rest
 m4_end_post

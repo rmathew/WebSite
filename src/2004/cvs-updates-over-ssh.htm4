@@ -5,5 +5,5 @@ m4_begin_post
 <p>
 The slow CVS updates from the GCC repository that I was facing were mostly due to <a href="http://sources.redhat.com/ml/overseers/2004-q2/threads.html#00072">filesystem  corruption</a> on the machine hosting <tt>gcc.gnu.org</tt> and <tt>sources.redhat.com</tt>. Now that these problems have been fixed, my CVS updates over SSH are acceptably fast over my dial-up link at home.
 <p>
-(<a href="http://www.advogato.org/person/rmathew/diary/21.html">Originally posted on Advogato</a>.)
+(<a href="https://www.advogato.org/person/rmathew/diary/21.html">Originally posted on Advogato</a>.)
 m4_end_post

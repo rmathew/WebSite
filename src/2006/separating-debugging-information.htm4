@@ -9,5 +9,5 @@ Microsoft's development tools support creating a separate "Program Database" (PD
 <p>
 Danny Smith pointed out to me that something similar is already supported by recent versions of GDB and binutils. You can use the <tt>--only-keep-debug</tt> option of <tt>objcopy</tt> for this purpose. For example:<br /><tt><br /><blockquote><br />gcc -g hello.c<br />objcopy --only-keep-debug a.out a.dbg<br />strip --strip-debug a.out<br /></blockquote><br /></tt><br /><tt>a.dbg</tt> now has the debugging symbols and <tt>a.out</tt> has been stripped of debugging symbols. When you want to debug <tt>a.out</tt> you can use:<br /><tt><br /><blockquote><br />gdb -s a.dbg -e a.out<br /></blockquote><br /></tt><br />Simple.
 <p>
-(<a href="http://rmathew.blogspot.com/2006/06/separating-debugging-information.html">Originally posted on Blogspot</a>.)
+(<a href="https://rmathew.blogspot.com/2006/06/separating-debugging-information.html">Originally posted on Blogspot</a>.)
 m4_end_post

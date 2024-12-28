@@ -16,8 +16,8 @@ With this decision table in hand, the core of our steering-control logic simply 
 <p>
 Think about how you would have written this logic without using a decision table.
 <p>
-<b>Update (2010-02-24):</b> The chapter on table-driven methods in the book "<a href="http://rmathew.com/2010/cc2e.html">Code Complete</a>" by Steve McConnell contains more details on this technique.
+<b>Update (2010-02-24):</b> The chapter on table-driven methods in the book "<a href="https://rmathew.com/2010/cc2e.html">Code Complete</a>" by Steve McConnell contains more details on this technique.
 <p>
-(<a href="http://rmathew.blogspot.com/2008/12/decision-tables.html">Originally posted on Blogspot</a>.)
+(<a href="https://rmathew.blogspot.com/2008/12/decision-tables.html">Originally posted on Blogspot</a>.)
 m4_end_post_rest
 m4_end_post

@@ -3,7 +3,7 @@ m4_define( `m4_post_title', `Website Versus Weblog')m4_dnl
 m4_include( `posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-Now that I have <a href="http://rmathew.blogspot.com/">my own
+Now that I have <a href="https://rmathew.blogspot.com/">my own
 weblog</a>, the &ldquo;News&rdquo; items on this website are simply
 about updates to the website. For example, newly-added articles or
 book reviews, software releases, website redesign or restructuring,

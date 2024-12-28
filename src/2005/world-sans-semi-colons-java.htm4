@@ -5,5 +5,5 @@ m4_begin_post
 <p>
 Srikanth has a better solution that works with JDK1.5: <pre> public class Sriki {   public static void main( String[] args)   {     if( System.out.append( "Hello World!\n") != null)     {     }   } } </pre>
 <p>
-(<a href="http://www.advogato.org/person/rmathew/diary/127.html">Originally posted on Advogato</a>.)
+(<a href="https://www.advogato.org/person/rmathew/diary/127.html">Originally posted on Advogato</a>.)
 m4_end_post

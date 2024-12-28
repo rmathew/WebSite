@@ -5,5 +5,5 @@ m4_begin_post
 <p>
 Yumpee pointed me to an old story about a guy who used a <a href="http://en.wikipedia.org/wiki/BBC_Micro">BBC Micro</a> monitoring a decaying prawn sandwich to tell the time!  <a href="http://home.gna.org/jockey/">Jockey</a> is a cool user-space program execution recording and replaying library for Linux. It actually <a href="http://home.gna.org/jockey/doc/segregation-stack.html">scans</a> the code page of a process to recognise system call instructions and rewrites them to jump to a trampoline instead.   By the way, my favourite Free 3D modelling tool <a href="http://www.blender3d.com/">Blender</a> has <a href="http://www.blender3d.com/cms/Blender_2_40.598.0.html">reached version 2.40</a> featuring tonnes of cool improvements. 
 <p>
-(<a href="http://www.advogato.org/person/rmathew/diary/134.html">Originally posted on Advogato</a>.)
+(<a href="https://www.advogato.org/person/rmathew/diary/134.html">Originally posted on Advogato</a>.)
 m4_end_post

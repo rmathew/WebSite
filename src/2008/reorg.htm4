@@ -6,14 +6,14 @@ m4_begin_post
 I have once again slightly reorganised this web-site in order to make it
 a bit faster to load, a bit easier to use and a lot easier to maintain.
 Among the major user-visible changes are <a
-href="http://rmathew.com/atom.xml">a web-site feed</a>, per-post pages,
+href="https://rmathew.com/atom.xml">a web-site feed</a>, per-post pages,
 lighter aggregating pages and a web-site-specific Google search.
 m4_begin_post_rest
 <p>
 With the addition of a web-site feed, you can now automatically get
 notified of new posts to this web-site instead of having to manually
 check for such updates. The feed <a
-href="http://feedvalidator.org/check.cgi?url=http%3A//rmathew.com/atom.xml">conforms</a>
+href="http://feedvalidator.org/check.cgi?url=https%3A//rmathew.com/atom.xml">conforms</a>
 to the <a href="http://www.atomenabled.org/">Atom</a> 1.0 standard. I
 have also verified that it works in at least <a
 href="http://www.mozilla.com/thunderbird/">Thunderbird</a> and <a

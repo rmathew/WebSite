@@ -5,5 +5,5 @@ m4_begin_post
 <p>
 GCJ was <a href="http://developers.slashdot.org/comments.pl?sid=142758&cid=11962575&pid=11962575&threshold=0&mode=nested&commentsort=0&op=Change">discussed</a> on Slashdot recently and this time around there were so <i>many</i> positive comments! <a href="http://developers.slashdot.org/comments.pl?sid=142758&cid=11962971">This comment</a> in particular made my day - it was referring to <a href="http://gcc.gnu.org/bugzilla/show_bug.cgi?id=20312">PR 20312</a>. As Tom remarked earlier, the number of bugs that have been filed against GCJ have increased dramatically in the recent months, indicating that more and more people are trying it out and are hopeful enough about it to bother to report bugs.
 <p>
-(<a href="http://www.advogato.org/person/rmathew/diary/65.html">Originally posted on Advogato</a>.)
+(<a href="https://www.advogato.org/person/rmathew/diary/65.html">Originally posted on Advogato</a>.)
 m4_end_post

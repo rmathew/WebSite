@@ -5,5 +5,5 @@ m4_begin_post
 <p>
 GCJX now accepts an "<tt>-fdump-tree</tt>" option that prints out the abstract syntax tree of a Java source file to <tt>stdout</tt>.  
 <p>
-(<a href="http://www.advogato.org/person/rmathew/diary/118.html">Originally posted on Advogato</a>.)
+(<a href="https://www.advogato.org/person/rmathew/diary/118.html">Originally posted on Advogato</a>.)
 m4_end_post

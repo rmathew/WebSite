@@ -5,5 +5,5 @@ m4_begin_post
 <p>
 I am playing with Tom's <a href="http://sourceforge.net/projects/gcjx/">GCJX</a> now whenever I get some time, trying to understand it and see if I can contribute a little to add in some of the missing pieces. Last weekend I contributed JAR/ZIP reading. It turns out that this is a bit slower than reading from expanded folders containing the compiled classes.  By the way, GCJX is most definitely much easier to understand and tweak than the current GCJ front end. It also uses standard STL containers instead of the ubiquitous GCC trees or hash tables.  A disturbing thing that I discovered was that GCJX compiled with debugging information is around 48.5MB(!) on my machine and when stripped, comes down to somewhat reasonable 1.5MB. Could it be that we need to exorcise the <a href="http://gcc.gnu.org/onlinedocs/gcc/Template-Instantiation.html">Template Instantiation</a> demon?
 <p>
-(<a href="http://www.advogato.org/person/rmathew/diary/34.html">Originally posted on Advogato</a>.)
+(<a href="https://www.advogato.org/person/rmathew/diary/34.html">Originally posted on Advogato</a>.)
 m4_end_post

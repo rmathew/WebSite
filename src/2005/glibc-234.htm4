@@ -5,5 +5,5 @@ m4_begin_post
 <p>
 On my machine, glibc 2.3.4 compiled rather painlessly with GCC 3.4.3 and using Linux kernel 2.6.10 headers. It installed nicely and has been running quite smoothly with all the installed applications that I checked it with. The <i>only</i> "application" that has shown problems with it is the (binary-only) "nvidia" X11 driver. Fortunately, the alternative "nv" driver does work properly, so I'll stick to it till Nvidia updates its driver to work properly with NPTL and 2.6.x kernels.  So why do people <a href="http://gcc.gnu.org/ml/gcc/2005-01/threads.html#01407">bitch so much about glibc</a>?
 <p>
-(<a href="http://www.advogato.org/person/rmathew/diary/54.html">Originally posted on Advogato</a>.)
+(<a href="https://www.advogato.org/person/rmathew/diary/54.html">Originally posted on Advogato</a>.)
 m4_end_post

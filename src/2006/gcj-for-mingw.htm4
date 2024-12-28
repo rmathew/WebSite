@@ -3,7 +3,7 @@ m4_define(`m4_post_title', `GCJ for MinGW')m4_dnl
 m4_include(`posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-I have updated my article "<a href="http://rmathew.com/articles/gcj/bldgcj.html">Building GCJ for Windows</a>" and the associated scripts to work with the current SVN mainline sources of GCC (to be released as GCC 4.2). They might also work with GCC 4.1 sources, but I have not checked it myself. The article also has some tips for building GCC natively on Windows using the <a href="http://rmathew.com/articles/gcj/bldgcj.html">MSYS</a> toolkit, especially to make the built and installed GCC relocatable (see below).
+I have updated my article "<a href="https://rmathew.com/articles/gcj/bldgcj.html">Building GCJ for Windows</a>" and the associated scripts to work with the current SVN mainline sources of GCC (to be released as GCC 4.2). They might also work with GCC 4.1 sources, but I have not checked it myself. The article also has some tips for building GCC natively on Windows using the <a href="https://rmathew.com/articles/gcj/bldgcj.html">MSYS</a> toolkit, especially to make the built and installed GCC relocatable (see below).
 <p>
 A major portion of the effort went in to ensure that the resultant toolchain was actually relocatable (that is, the installation can be archived and then extracted elsewhere, possibly on a different machine, and everything can still be expected to be working). The proper locations of the Windows headers and runtime libraries and the flags to pass to the GCC configuration scripts were something that took a lot of trial and error (and a lot of help from Mark Mitchell and Danny Smith) to get right, since I was trying to do something less common (building cross and crossed-native compilers) for a platform that gets the attention of very few GCC hackers as such, if at all.
 <p>
@@ -15,5 +15,5 @@ We must do something about this situation.
 <p>
 QEMU running Windows on Linux comes to my rescue here. When run with the <tt>-kernel-kqemu</tt> option using the QEMU Accelerator ("kqemu"), the guest OS runs at very close to native speeds without adversely affecting the performance of the host OS. It has a built-in TFTP server that allows you to easily transfer files from the host machine into the guest system (there are also other ways of achieving this using QEMU, but this is the simplest). It's almost magical and is immensely useful. It's no wonder that virtualisation is becoming so popular these days and every developer who has tried it out <a href="http://www.joelonsoftware.com/news/fog0000000103.html">sings</a> its praises. If you are an "enterprise software" developer, you should already know what I am talking about. If you haven't tried it out yet, you really should. Virtualisation offers you the freedom and the flexibility to play around that is very useful and quite addictive.
 <p>
-(<a href="http://rmathew.blogspot.com/2006/06/gcj-for-mingw.html">Originally posted on Blogspot</a>.)
+(<a href="https://rmathew.blogspot.com/2006/06/gcj-for-mingw.html">Originally posted on Blogspot</a>.)
 m4_end_post

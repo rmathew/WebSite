@@ -30,6 +30,6 @@ Impressive as Chrome is, I'm not yet shifting to it and am sticking with Firefox
 <p>
 I use a small shell script called "<a href="http://cid-65b7c3a02dd61662.skydrive.live.com/self.aspx/.Public/chkchrome.sh">chkchrome.sh</a>" to download and extract such releases using the method described in this post. I also have a small TAR archive that stores the symbolic links and overriding shared libraries needed to run Chrome and keep it in "<tt>$HOME/tmp/chrome-libs.tar.bz2</tt>" - the <tt>chkchrome.sh</tt> script automatically extracts this archive into the installation folder so that Chrome is ready to use once the script finishes executing successfully.
 <p>
-(<a href="http://rmathew.blogspot.com/2009/11/google-chrome-on-slackware.html">Originally posted on Blogspot</a>.)
+(<a href="https://rmathew.blogspot.com/2009/11/google-chrome-on-slackware.html">Originally posted on Blogspot</a>.)
 m4_end_post_rest
 m4_end_post

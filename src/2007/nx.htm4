@@ -8,6 +8,6 @@ m4_begin_post_rest
 <p>
 NX performs incredibly well, especially when you compare it to <a href="http://en.wikipedia.org/wiki/VNC">VNC</a>, ssh with compression and X forwarding, etc. The desktop client, especially on Windows, still has a few bugs that are mildly irritating but nothing catastrophic. The sheer improvement in the response of your remote applications more than makes up for these minor shortcomings.
 <p>
-(<a href="http://rmathew.blogspot.com/2007/03/nx.html">Originally posted on Blogspot</a>.)
+(<a href="https://rmathew.blogspot.com/2007/03/nx.html">Originally posted on Blogspot</a>.)
 m4_end_post_rest
 m4_end_post

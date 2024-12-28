@@ -3,7 +3,7 @@ m4_define(`m4_post_title', `Hello World')m4_dnl
 m4_include(`posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-I will now be using this weblog instead of <a href="http://www.advogato.org/person/rmathew/">my Advogato diary</a>.
+I will now be using this weblog instead of <a href="https://www.advogato.org/person/rmathew/">my Advogato diary</a>.
 <p>
-(<a href="http://rmathew.blogspot.com/2006/05/hello-world.html">Originally posted on Blogspot</a>.)
+(<a href="https://rmathew.blogspot.com/2006/05/hello-world.html">Originally posted on Blogspot</a>.)
 m4_end_post

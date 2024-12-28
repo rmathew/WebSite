@@ -5,5 +5,5 @@ m4_begin_post
 <p>
 A single data structure that allows ultra-fast searching, takes very little space and is also cache-friendly? "<a href="http://judy.sourceforge.net/">Judy Arrays</a>" could to be the answer. 
 <p>
-(<a href="http://www.advogato.org/person/rmathew/diary/91.html">Originally posted on Advogato</a>.)
+(<a href="https://www.advogato.org/person/rmathew/diary/91.html">Originally posted on Advogato</a>.)
 m4_end_post

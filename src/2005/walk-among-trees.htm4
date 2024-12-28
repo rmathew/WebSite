@@ -5,5 +5,5 @@ m4_begin_post
 <p>
 I implemented a simple pretty-printer for the <a href="http://en.wikipedia.org/wiki/Abstract_syntax_tree">AST</a> used in GCJX over this weekend. It works just like the <tt>debug_tree()</tt> function in GCC and is accessed by using the <tt>dump_tree()</tt> function in GCJX. For convenience, I just change "<tt>-fdump-methods</tt>" to call <tt>dump_tree()</tt> instead of <tt>dump_method()</tt>. That way I can easily see the ASTs created for various Java source files. For someone like me who is new to GCJX in particular and compiler construction in general, this can be quite enlightening.  While debugging the GCJ front-end, I have found <tt>debug_tree()</tt> to be an immensely useful tool. I hope <tt>dump_tree()</tt> proves similarly useful for GCJX.   By the way, I added a small page to the GCC Wiki describing how to go about debugging GCJX.
 <p>
-(<a href="http://www.advogato.org/person/rmathew/diary/117.html">Originally posted on Advogato</a>.)
+(<a href="https://www.advogato.org/person/rmathew/diary/117.html">Originally posted on Advogato</a>.)
 m4_end_post

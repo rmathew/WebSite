@@ -5,5 +5,5 @@ m4_begin_post
 <p>
 Hey, I didn't know that you were <a href="http://uwsg.iu.edu/hypermail/linux/kernel/0007.3/0587.html">no longer</a> supposed to maintain a "<tt>/usr/src/linux</tt>" symlink for the kernel headers!
 <p>
-(<a href="http://www.advogato.org/person/rmathew/diary/46.html">Originally posted on Advogato</a>.)
+(<a href="https://www.advogato.org/person/rmathew/diary/46.html">Originally posted on Advogato</a>.)
 m4_end_post

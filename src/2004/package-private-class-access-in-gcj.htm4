@@ -5,5 +5,5 @@ m4_begin_post
 <p>
 This weekend I thought I would try my luck at nailing down another instance of illegal package-private access that GCJ lets through (<a href="http://gcc.gnu.org/bugzilla/show_bug.cgi?id=15073">PR java/15073</a>). As luck would have it, I was able to come up with a <a href="http://gcc.gnu.org/ml/java-patches/2004-q2/msg00230.html">patch</a> that fixes that problem. The great thing about this patch is that it also simplifies my fix to <a href="http://gcc.gnu.org/bugzilla/show_bug.cgi?id=9685">the other package-private access problem</a>, by removing a nagging kludge that was needed for that fix to work properly. (If you must know, <tt>not_accessible_p()</tt> in "<tt>java/parse.y</tt>" was being called even for classes and not just members as it was supposed to be - the kludge was needed to account for such rogue <tt>TYPE_DECL</tt>s.) Cool! 
 <p>
-(<a href="http://www.advogato.org/person/rmathew/diary/22.html">Originally posted on Advogato</a>.)
+(<a href="https://www.advogato.org/person/rmathew/diary/22.html">Originally posted on Advogato</a>.)
 m4_end_post

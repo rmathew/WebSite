@@ -4,9 +4,9 @@ m4_include(`posttrans.m4')m4_dnl
 m4_begin_post
 <p>
 I have imported into this web-site all the posts from <a
-href="http://rmathew.blogspot.com/ncr">my Blogspot blog</a> (into which I had
+href="https://rmathew.blogspot.com/ncr">my Blogspot blog</a> (into which I had
 <a href="m4_root_dir/2007/advogato-diary-imported.html">previously imported</a>
-the entries from <a href="http://www.advogato.org/person/rmathew/">my Advogato
+the entries from <a href="https://www.advogato.org/person/rmathew/">my Advogato
 diary</a>). I feel it is better to have a single infrequently-updated web-site
 rather than a couple of such web-sites. It also consolidates into a single
 web-site most of what I have been polluting the World Wide Web with since the

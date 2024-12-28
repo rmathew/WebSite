@@ -53,5 +53,5 @@ One of the problems with using a pseudo terminal that initially stumped me was t
 <p>
   return ret_fd;<br />}<br /></pre>
 <p>
-(<a href="http://rmathew.blogspot.com/2006/09/terminal-sickness.html">Originally posted on Blogspot</a>.)
+(<a href="https://rmathew.blogspot.com/2006/09/terminal-sickness.html">Originally posted on Blogspot</a>.)
 m4_end_post

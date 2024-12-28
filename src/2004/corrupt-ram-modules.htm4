@@ -5,5 +5,5 @@ m4_begin_post
 <p>
 Once <i>again</i>, I have been bitten by bad RAM modules, this time in the Dell Optiplex GX270 machine I use at work. <a href="http://www.memtest86.com/">Memtest-86</a> was able to diagnose the problem after I spent almost a month wondering why programs randomly crashed on me and trying out all sorts of software updates.
 <p>
-(<a href="http://www.advogato.org/person/rmathew/diary/42.html">Originally posted on Advogato</a>.)
+(<a href="https://www.advogato.org/person/rmathew/diary/42.html">Originally posted on Advogato</a>.)
 m4_end_post

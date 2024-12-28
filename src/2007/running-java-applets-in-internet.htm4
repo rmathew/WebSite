@@ -25,6 +25,6 @@ With IE, Flash and Java Applets with you, you are now ready to savour the worst 
 <p>
 <b>Update (2007-10-31):</b> The default location used by IEs4Linux is <tt>$HOME/.ies4linux</tt> (notice the period in front of the directory name). Changed the post to use this location instead as people were getting confused by the location used earlier.
 <p>
-(<a href="http://rmathew.blogspot.com/2007/04/running-java-applets-in-internet.html">Originally posted on Blogspot</a>.)
+(<a href="https://rmathew.blogspot.com/2007/04/running-java-applets-in-internet.html">Originally posted on Blogspot</a>.)
 m4_end_post_rest
 m4_end_post

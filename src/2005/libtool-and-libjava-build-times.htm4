@@ -5,5 +5,5 @@ m4_begin_post
 <p>
 <a href="http://gcc.gnu.org/ml/gcc/2005-05/msg00003.html">rth did a few experiments</a> on the libjava build times in the current GCC mainline and found that <a href="http://www.gnu.org/software/libtool/">libtool</a> alone took <i>2/3</i> of the total build time for libjava! Very interesting.
 <p>
-(<a href="http://www.advogato.org/person/rmathew/diary/82.html">Originally posted on Advogato</a>.)
+(<a href="https://www.advogato.org/person/rmathew/diary/82.html">Originally posted on Advogato</a>.)
 m4_end_post

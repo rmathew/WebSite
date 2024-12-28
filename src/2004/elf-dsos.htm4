@@ -5,5 +5,5 @@ m4_begin_post
 <p>
 "<a href="http://people.redhat.com/~drepper/dsohowto.pdf">How to Write Shared Libraries</a>" (PDF) is a paper by <a href="http://people.redhat.com/~drepper/">Ulrich Drepper</a> that should be mandatory reading for every serious UNIX programmer. If nothing else, it lets one throw terms around like GOT and PLTs at newbies! <tt>;-)</tt>
 <p>
-(<a href="http://www.advogato.org/person/rmathew/diary/25.html">Originally posted on Advogato</a>.)
+(<a href="https://www.advogato.org/person/rmathew/diary/25.html">Originally posted on Advogato</a>.)
 m4_end_post

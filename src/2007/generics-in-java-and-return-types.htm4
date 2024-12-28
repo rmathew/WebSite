@@ -13,5 +13,5 @@ A better way to define the second case is:<br /><pre><br />  ArrayList&lt;? exte
 <p>
 Thanks to Steve Onorato for clearing up my muddied thinking.
 <p>
-(<a href="http://rmathew.blogspot.com/2007/01/generics-in-java-and-return-types.html">Originally posted on Blogspot</a>.)
+(<a href="https://rmathew.blogspot.com/2007/01/generics-in-java-and-return-types.html">Originally posted on Blogspot</a>.)
 m4_end_post

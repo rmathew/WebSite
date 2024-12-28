@@ -28,6 +28,6 @@ As I always end up saying after such contests, I hope we have a better luck the 
 <p>
 <b>Update (2007-07-26):</b> I tweaked the code for the DNA-to-RNA converter a little bit to avoid creating a lot of unnecessary cords and that reduced its running time to about 1 minute 35 seconds on my PC (about 7 times better than before) and about 30 seconds on Yumpee's PC. Right now the garbage collector itself is the biggest consumer of CPU cycles (about 45% on the whole), but disabling it leads to the programme quickly running out of memory on my PC.
 <p>
-(<a href="http://rmathew.blogspot.com/2007/07/icfpc-2007.html">Originally posted on Blogspot</a>.)
+(<a href="https://rmathew.blogspot.com/2007/07/icfpc-2007.html">Originally posted on Blogspot</a>.)
 m4_end_post_rest
 m4_end_post

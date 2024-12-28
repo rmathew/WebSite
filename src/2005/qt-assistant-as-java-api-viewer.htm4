@@ -5,5 +5,5 @@ m4_begin_post
 <p>
 I was trying to learn Qt to create a simple Java API Viewer on Linux for my own use, when I stumbled upon the fact that Qt Assistant can be configured easily for displaying one's own help documentation. With a little bit of ugly shell scripting, I was able to create a Qt Assistant "profile" from the JDK documentation index files and now I have a simple but quick and effective JDK API viewer on Linux. Cool!  Needless to say, my interest in learning Qt has evaporated and so has my desire to create a native Java API viewer for Linux. 
 <p>
-(<a href="http://www.advogato.org/person/rmathew/diary/78.html">Originally posted on Advogato</a>.)
+(<a href="https://www.advogato.org/person/rmathew/diary/78.html">Originally posted on Advogato</a>.)
 m4_end_post

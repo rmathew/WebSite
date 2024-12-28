@@ -37,10 +37,10 @@ do
     echo m4_define\( \`m4_root_dir\', \`..\'\)m4_dnl
 
     echo "  <entry>"
-    echo "    <id>http://rmathew.com/$2/$POST_ID.html</id>"
+    echo "    <id>https://rmathew.com/$2/$POST_ID.html</id>"
     echo "    <title type=\"html\">m4_post_title</title>"
     echo "    <updated>$POST_DATE""T00:00:00+05:30</updated>"
-    echo "    <link rel=\"alternate\" href=\"http://rmathew.com/$2/$POST_ID.html\"/>"
+    echo "    <link rel=\"alternate\" href=\"https://rmathew.com/$2/$POST_ID.html\"/>"
     echo "    <content type=\"html\">"
     awk -f ${BIN_DIR}/postconv.awk "${SRC_DIR}/${2}/${POST_ID}.htm4"
     echo "    </content>"

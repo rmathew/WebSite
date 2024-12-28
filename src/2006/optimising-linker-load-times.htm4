@@ -5,5 +5,5 @@ m4_begin_post
 <p>
 Last week's <a href="http://lwn.net/">LWN.net</a> Weekly Edition had <a href="http://lwn.net/Articles/192624/">a nice article on optimising linker load times</a> by John Richard Moser. It was based on some recent features added to the linker in <a href="http://sources.redhat.com/binutils/">GNU binutils</a>. It explains the kind of things that most of us never bother to learn about, but which can affect the loading times of our applications and shared libraries. As someone noted in the comments, an informative read even by LWN.net's usually high standards.
 <p>
-(<a href="http://rmathew.blogspot.com/2006/08/optimising-linker-load-times.html">Originally posted on Blogspot</a>.)
+(<a href="https://rmathew.blogspot.com/2006/08/optimising-linker-load-times.html">Originally posted on Blogspot</a>.)
 m4_end_post

@@ -77,7 +77,7 @@ echo "<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">" \
 # Arg1 - relative path to the file (e.g. "./foo/bar.htm4")
 add2sitemap() {
   GEN_FILE="$(echo $1 | cut -b3- | sed s/m4$/ml/)"
-  echo "  <url><loc>http://rmathew.com/${GEN_FILE}</loc></url>" \
+  echo "  <url><loc>https://rmathew.com/${GEN_FILE}</loc></url>" \
     >>${SITEMAP_FILE}
 }
 

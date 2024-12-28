@@ -5,5 +5,5 @@ m4_begin_post
 <p>
 QEMU is a superb (fast and reasonably accurate) emulator for x86 and other architectures and a viable alternative to VMWare. Fabrice Bellard, the extremely talented author of the program, has now written the QEMU Accelerator Module which apparently drastically improves x86-on-x86 performance. Unfortunately, this is provided as a binary-only module and under a proprietary (non-Free) license. He says he would open up the sources only if some company sponsors the effort or he is somehow compensated for the loss in revenue. This has led to flames, "understanding" posts, etc. on the QEMU mailing list.
 <p>
-(<a href="http://www.advogato.org/person/rmathew/diary/57.html">Originally posted on Advogato</a>.)
+(<a href="https://www.advogato.org/person/rmathew/diary/57.html">Originally posted on Advogato</a>.)
 m4_end_post

@@ -5,5 +5,5 @@ m4_begin_post
 <p>
 My patches for PR <a href="http://gcc.gnu.org/bugzilla/show_bug.cgi?id=15073">15073</a> and <a href="http://gcc.gnu.org/bugzilla/show_bug.cgi?id=9685">9685</a> are <i>finally</i> in. 
 <p>
-(<a href="http://www.advogato.org/person/rmathew/diary/23.html">Originally posted on Advogato</a>.)
+(<a href="https://www.advogato.org/person/rmathew/diary/23.html">Originally posted on Advogato</a>.)
 m4_end_post

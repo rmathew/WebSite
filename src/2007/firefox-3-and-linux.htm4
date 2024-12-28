@@ -8,6 +8,6 @@ m4_begin_post_rest
 <p>
 As an aside, Firefox on Linux also seems to behave quite differently from Firefox on Windows. For example, on Linux Firefox seems to consistently consume more CPU time and memory than on Windows. Some pages are rendered differently on Windows and Linux (perhaps due to the availability, or otherwise, of the fonts requested by the page designer and the rendering infrastructure). I have personally also noticed <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=337093">bug-337093</a> on Windows but not on Linux.
 <p>
-(<a href="http://rmathew.blogspot.com/2007/05/firefox-3-and-linux.html">Originally posted on Blogspot</a>.)
+(<a href="https://rmathew.blogspot.com/2007/05/firefox-3-and-linux.html">Originally posted on Blogspot</a>.)
 m4_end_post_rest
 m4_end_post

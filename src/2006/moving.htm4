@@ -3,7 +3,7 @@ m4_define(`m4_post_title', `Moving')m4_dnl
 m4_include(`posttrans.m4')m4_dnl
 m4_begin_post
 <p>
-I am now moving to <a href="http://rmathew.blogspot.com/"><tt>rmathew.blogspot.com</tt></a> for blogging. I find Advogato a bit painful to use for blogging. I also do not want to be restricted to only talking about hacking on Free Software.
+I am now moving to <a href="https://rmathew.blogspot.com/"><tt>rmathew.blogspot.com</tt></a> for blogging. I find Advogato a bit painful to use for blogging. I also do not want to be restricted to only talking about hacking on Free Software.
 <p>
-(<a href="http://www.advogato.org/person/rmathew/diary/169.html">Originally posted on Advogato</a>.)
+(<a href="https://www.advogato.org/person/rmathew/diary/169.html">Originally posted on Advogato</a>.)
 m4_end_post

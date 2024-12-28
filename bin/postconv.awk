@@ -2,7 +2,7 @@
 
 /m4_end_post/ { emit = "false" }
 
-# NOTE: Uncomment the following for summarised feed.
+# NOTE: Uncomment the following for summarized feed.
 #
 # /m4_post_date/ {
 #   year_ind = match( $0, /[0-9][0-9][0-9][0-9]/)
@@ -15,7 +15,7 @@
 #   split( tmp[n], tmp, ".")
 #   post_id = tmp[1]
 #   printf "&lt;p&gt;\n"
-#   printf "&lt;a href=\"http://rmathew.com/%s/%s.html\"&gt;&lt;b&gt;Read More...&lt;/b&gt;&lt;/a&gt;\n", post_year, post_id
+#   printf "&lt;a href=\"https://rmathew.com/%s/%s.html\"&gt;&lt;b&gt;Read More...&lt;/b&gt;&lt;/a&gt;\n", post_year, post_id
 # }
 
 {
