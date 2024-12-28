@@ -23,40 +23,50 @@ I live in Bangalore, India.
 m4_heading( `1', `contact', `Contact')
 <p>
 My e-mail address is <a href="mailto:rmathew@gmail.com">rmathew@gmail.com</a>.
-<div class="notice">
-<div class="centred">
-<b>
-<a href="http://en.wikipedia.org/wiki/Pretty_Good_Privacy"
-title="Pretty Good Privacy">PGP</a> Public-Key Fingerprint:
-<br>
-<a href="m4_root_dir/aa_6C114B8F.txt" title="Get my public-key">
-<tt>D6E5 B9C2 5522 ED3D 09DC 3B40 61BD 61C7 6C11 4B8F</tt></a></b>
-</div>
-</div>
 m4_heading( `1', `other', `Elsewhere')
 <p>
-I can also be found in various other places on the web including:
+I can also be found at various other places on the web:
 <ul>
-<li><a href="https://plus.google.com/111471032971282015374?rel=author">On
-  Google+</a></li>
-<li><a href="https://twitter.com/rmathew4tw">rmathew4tw on Twitter</a></li>
-<li><a href="https://bitbucket.org/rmathew/">rmathew on Bitbucket</a></li>
-<li><a href="https://github.com/rmathew/">rmathew on GitHub</a></li>
-<li><a href="https://gitlab.com/u/rmathew/">rmathew on GitLab</a></li>
-<li><a href="http://www.linkedin.com/in/ranjitmathew">ranjitmathew on
-  LinkedIn</a></li>
-<li><a href="https://www.facebook.com/the.rmathew">the.rmathew on
-  Facebook</a></li>
-<li><a href="http://www.tripadvisor.com/members/rmathew">rmathew on
-  TripAdvisor</a></li>
-<li><a href="http://rmathew.blogspot.com/ncr">rmathew on Blogger</a>
-  (<b>Note:</b> Now inactive; all blog-posts there have been imported into
-  this web-site.)</li>
-<li><a href="http://www.advogato.org/person/rmathew/">rmathew on Advogato</a>
-  (<b>Note:</b> Now inactive; all diary-entries there have been imported into
-  this web-site.)</li>
+<li>Source-Code
+    <ul>
+    <li><a href="https://github.com/rmathew/">rmathew on GitHub</a></li>
+    <li><a href="https://gitlab.com/u/rmathew/">rmathew on GitLab</a></li>
+    <li><a href="https://bitbucket.org/rmathew/">rmathew on Bitbucket</a></li>
+    </ul>
+</li>
+<li>Micro-Blogging
+    <ul>
+    <li><a href="https://twitter.com/rmathew4tw">rmathew4tw on Twitter</a></li>
+    <li><a href="https://mastodon.social/@rmathew">rmathew@mastodon.social on
+    Mastodon</a></li>
+    <li><a href="https://www.threads.net/@rmathew4ig">rmathew4ig on
+    Threads</a></li>
+    <li><a href="https://bsky.app/profile/rmathew4bs.bsky.social">rmathew4bs.bsky.social
+    on Bluesky</a></li>
+    </ul>
+</li>
+<li>Miscellaneous
+    <ul>
+    <li><a href="http://www.linkedin.com/in/ranjitmathew">ranjitmathew on
+    LinkedIn</a></li>
+    <li><a href="https://www.instagram.com/rmathew4ig/">rmathew4ig on
+    Instagram</a></li>
+    <li><a href="https://www.facebook.com/the.rmathew">the.rmathew on
+    Facebook</a></li>
+    <li><a href="http://www.tripadvisor.com/members/rmathew">rmathew on
+    TripAdvisor</a></li>
+    <li><a href="http://rmathew.blogspot.com/ncr">rmathew on Blogger</a>
+    (<b>Note:</b> Now inactive; all blog-posts there have been imported into
+    this web-site.)</li>
+    <li><a href="http://www.advogato.org/person/rmathew/">rmathew on
+    Advogato</a> (<b>Note:</b> Now inactive; all diary-entries there have been
+    imported into this web-site.)</li>
+    <li><a href="https://plus.google.com/111471032971282015374?rel=author">On
+    Google+</a> (<b>Note:</b> Now inactive.)</li>
+    </ul>
+</li>
 </ul>
 <p>
-Et Cetera.
+Et cetera.
 m4_dnl
 m4_include(`footer.htm4')m4_dnl

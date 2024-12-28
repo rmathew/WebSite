@@ -103,6 +103,10 @@ communication skills.
 <h3>At Google:</h3>
 <ul>
 <li>
+<b>Core Data:</b> Ergonomic and efficient extensibility for GoogleSQL and other
+systems using user-defined functions.
+</li>
+<li>
 <b>Maps UGC:</b> Automatic moderation and curation of user-submitted content
 using an ensemble of Machine Learning Models, heuristics, policies, etc.
 </li>
