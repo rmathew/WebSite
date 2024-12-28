@@ -1,0 +1,81 @@
+m4_define(`m4_post_date', `2024-12-27')m4_dnl
+m4_define(`m4_post_title', `&ldquo;Crucial Conversations&rdquo;')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+&ldquo;<a
+href="https://en.wikipedia.org/wiki/Crucial_Conversations:_Tools_for_Talking_When_Stakes_Are_High">Crucial
+Conversations</a>&rdquo; by Kerry Patterson, et al, was recommended to me by <a
+href="https://selfishaltruist.in/">a former boss</a>. It took me a while to get
+around to reading this book, but I finally did and am glad that I did. The book
+teaches you how to engage in conversations at work or in personal life that are
+difficult, but important, and that most of us do not handle well. Even though
+the book is firmly in the self-help mold, it actually has useful information to
+give you if you can set aside your cynicism for this genre of books.
+<p>
+m4_begin_post_rest
+m4_display_book( `1260474216', `9355323352')
+<p>
+So what exactly is a &ldquo;crucial conversation&rdquo;? The authors define it
+as a conversation or a dialogue where people have opposing opinions, the stakes
+are high for one or both the parties, and strong emotions are involved. For
+example, this could be about giving difficult feedback to a colleague, a
+life-partner, or a child, discussing a hike in your pay, negotiating with
+striking workers, etc. Even conversations that start off as regular
+conversations can turn into crucial conversations when someone makes a hurtful
+remark, for example. The authors want us to develop the skills needed to
+recognize when we find ourselves in such a crucial conversation and to conduct
+ourselves in a way that makes it a productive conversation that strengthens
+mutual trust.
+<p>
+The book is divided into three parts. The first part deals with how to prepare
+for such a conversation, including choosing the right topic, identifying what
+you <em>really</em> want from the conversation, and keeping your emotions in
+check throughout the conversation. The second part deals with how to have such
+a conversation, including making it a safe environment for both parties, how to
+talk persuasively without being abrasive or condescending, how to listen
+properly, and how to stay in control while absorbing feedback. The third part
+deals with how to make such conversations actionable and ensure that you get
+meaningful results as a follow-up. It also talks about how to apply this
+framework to really difficult cases, since it is perfectly valid to be
+skeptical of the broad applicability of such self-help advice. Each part is
+divided into focussed chapters that tackle a particular aspect. Each such
+chapter starts by providing an overview, gets into the details (with several
+interleaving anecdotes sprinkled throughout), and ends by providing a short
+summary of what we learned in the chapter. I admit that this is the usual
+template for self-help books these days, but it is actually quite effective
+here. (That said, the anecdotes seem unreal and the dialogues do not sound like
+how normal people talk, once again just like in other self-help books.)
+<p>
+One of the nice devices that the authors use is a &ldquo;path to action&rdquo;
+model. You see or hear something, you tell yourselves a story based on that
+(even if it happens in an instant and you are not aware of it), you form
+emotions based on that story, and finally you act based on those emotions. The
+most important skills in having crucial conversations is being able to identify
+and control this path in ourselves and in those with whom we are having such a
+conversation. Of course, this is much easier said than done, so the authors
+provide you various techniques to help with that. Even after that, I remain a
+bit skeptical on how ordinary people can muster the self-awareness and
+discipline required to master these skills.
+<p>
+What I didn&rsquo;t like here is the irritating &ldquo;pool of meaning&rdquo;
+metaphor that the authors keep using throughout the book. The authors also fall
+prey to the usual self-help book trope of using cutesy acronyms
+(&ldquo;CRIB&rdquo;, &ldquo;STATE&rdquo;, &ldquo;AMPP&rdquo;, etc.) that
+immediately make me suspicious of what they are leaving out or shoving in so
+that they could get these acronyms. I guess authors want to provide mnemonics
+to their readers to help absorb their message, but I always find these more
+irritating than helpful. However, yes, this definitely is a book that merits
+reflection and possibly note-taking, not something that you just read cover to
+cover and never revisit. I will surely come back to this book like I plan to do
+with <a href="m4_root_dir/2019/gtd.html">Getting Things Done</a>.
+<p>
+As with many popular self-help books, the authors have courses and spin-off
+books based on the &ldquo;crucial&rdquo; theme. You can find these and other
+additional resources referenced from this book on <a
+href="https://cruciallearning.com/">their web-site</a>. Even if you do not use
+those additional resources, you can get something useful out of this book (if
+you can set aside your skepticism, if any, for self-help books). I am grateful
+to my former boss for having recommended this book.
+m4_end_post_rest
+m4_end_post
