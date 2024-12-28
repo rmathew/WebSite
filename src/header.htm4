@@ -8,7 +8,7 @@ m4_include(`common.m4')
 <meta name="author" content="Ranjit Mathew">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" href="m4_root_dir/favicon.ico" type="image/x-icon">
-<link rel="alternate" href="http://rmathew.com/atom.xml"
+<link rel="alternate" href="https://rmathew.com/atom.xml"
 type="application/atom+xml" title="Feed for rmathew.com.">
 <link rel="stylesheet" type="text/css" href="m4_root_dir/default.css"
   media="screen">
@@ -45,7 +45,7 @@ type="application/atom+xml" title="Feed for rmathew.com.">
     <a href="m4_root_dir/archives/index.html"
     m4_ifelse(m4_page_section,`Archives',`class="highlight"')
     title="Archives of all posts from each year.">Posts</a>
-    <a href="http://rmathew.com/atom.xml" title="Feed for posts.">
+    <a href="https://rmathew.com/atom.xml" title="Feed for posts.">
     <img src="m4_root_dir/feed.png" width="16" height="16"
     alt="Feed Icon"></a>
   </div>

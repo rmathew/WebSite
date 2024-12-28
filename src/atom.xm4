@@ -1,14 +1,14 @@
 m4_include( `common.m4')m4_dnl
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>http://rmathew.com/</id>
+  <id>https://rmathew.com/</id>
   <title>rmathew.com</title>
-  <link rel="self" href="http://rmathew.com/atom.xml"/>
-  <link rel="alternate" href="http://rmathew.com/"/>
+  <link rel="self" href="https://rmathew.com/atom.xml"/>
+  <link rel="alternate" href="https://rmathew.com/"/>
   <author>
     <name>Ranjit Mathew</name>
     <email>rmathew@gmail.com</email>
-    <uri>http://rmathew.com/</uri>
+    <uri>https://rmathew.com/</uri>
   </author>
 m4_changequote(`[', `]')m4_dnl
   <updated>m4_esyscmd( [date "+%Y-%m-%dT%H:%M:%S%:z[]m4_dnl"])</updated>

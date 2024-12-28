@@ -1,0 +1,79 @@
+m4_define(`m4_post_date', `2024-12-28')m4_dnl
+m4_define(`m4_post_title', `HTTP Yes')m4_dnl
+m4_include(`posttrans.m4')m4_dnl
+m4_begin_post
+<p>
+At long last, I have somewhat grudgingly enabled pervasive HTTPS on this
+web-site. I do not agree with the scaremongering around HTTP-only personal
+web-sites, but I was tired of having to constantly fight an uphill battle
+against the penalties on vanilla HTTP-only web-sites imposed by the current web
+ecosystem. As another one bites the HTTPS dust, please do let me know if you
+face any issues with accessing this web-site over HTTPS.
+m4_begin_post_rest
+<p>
+While I appreciate the enhanced security provided by HTTPS for web-sites that
+deal with sensitive information, I think the current overzealous push towards
+only HTTPS by browsers, search-engines, &ldquo;thought leaders&rdquo;, et al
+even for personal web-sites is an overkill. If you have an HTTP-only web-site,
+browsers scare off vistors when they try to visit your web-site, search-engines
+down-rank your web-site (making it harder for you to reach your audience), etc.
+HTTPS comes with additional costs and maintenance-burden for personal web-sites
+and provides disproportionately little in extra benefits. You only get
+encryption, but not identity-verification, from HTTPS by using the
+commonly-given suggestions for enabling it for personal web-sites.
+<p>
+The usual reasons given for having HTTPS, even for personal web-sites, is that
+otherwise someone malicious in the middle can tamper with the contents (e.g.
+change it or inject advertisements) or inspect the web-traffic. First off, you
+should never trust a rando like me on the Internet, whether they use HTTPS or
+not. Second, I am not publishing anything sensitive here &ldquo;for your eyes
+only&rdquo; that no one else should see. Third, you can still see loads of
+advertisements and trackers on web-sites, even if they use HTTPS.
+<p>
+On the other hand, until recently the shift from a static HTTP-only web-site to
+an HTTPS-based web-site meant an increase in the costs and maintenance-burden.
+For a static HTTP-only web-site, you only need to upload a bunch of HTML and
+other files to a shared web-server, usually provided for free by many web-hosts,
+and then forget about it. Having to acquire, publish, and update SSL
+certificates for an HTTPS-based web-site increases your costs and drastically
+reduces your choices. It creates an additional hurdle for regular people to
+have their own web-sites, going against the goals of the original World Wide
+Web.
+<p>
+Thankfully we now have <a href="https://letsencrypt.org/">Let&rsquo;s Encrypt</a>
+to provide free SSL certificates to everyone. However, even they are moving
+towards ever shorter certificate-validity (from a short 90 days to just <a
+href="https://letsencrypt.org/2024/12/11/eoy-letter-2024/">six days</a>,
+because moar security), which means you need to have <em>reliable
+automation</em> in place to keep updating your SSL certificates. This is not
+easy for ordinary folks, or even for regular software engineers.
+<p>
+Luckily in my case, I discovered that <a
+href="https://www.50webs.com/">50Webs</a>, the free web-hosting service that I
+have been using since 2008 (thank you folks!), now provides an option to
+integrate with Let&rsquo;s Encrypt and to auto-renew it before expiry, <em>even
+in their Free Plan</em>. This is really nice of them. This was enough for me to
+finally make the switch to using HTTPS on this web-site, since 50Webs has
+managed to keep the maintenance-burden low even for freeloaders like yours
+truly. Kudos 50Web!
+<p>
+As an aside, I wanted to use pervasive HTTPS (redirect HTTP to HTTPS) and
+canonicalize the bare domain (strip &ldquo;www&rdquo; from the URL, if
+specified) on this web-site. The only way I could reliably do this was to use
+the following <a
+href="https://httpd.apache.org/docs/current/mod/mod_rewrite.html">mod_rewrite</a>
+configuration in my <code>.htaccess</code> file:
+<pre>
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP_HOST} ^(?:www\.)?(.+)$ [NC]
+RewriteRule ^ https://%1%{REQUEST_URI} [NE,L,R=301]
+RewriteCond %{HTTPS} on
+RewriteCond %{HTTP_HOST} ^(www\.)(.+)$ [NC]
+RewriteRule ^ https://%2%{REQUEST_URI} [NE,L,R=301]
+</pre>
+<p>
+This seems ugly, but this is what I cobbled together based on trial and error
+and by reading the documentation.
+m4_end_post_rest
+m4_end_post
