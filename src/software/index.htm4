@@ -18,20 +18,22 @@ If you find any of these useful, do tell me about it.
 
 m4_heading( `1', `free', `Free Source-Code')
 <p>
-I maintain the source-code for most of my personal projects, this web-site and
+I maintain the source-code for most of my personal projects, this web-site, and
 some other things as <a
 href="http://en.wikipedia.org/wiki/Git_%28software%29">Git</a> repositories.
 You can get access to these via various hosting-providers for source-code:
 <ul>
-<li><a href="https://bitbucket.org/rmathew/">rmathew on Bitbucket</a></li>
-<li><a href="https://github.com/rmathew/">rmathew on GitHub</a></li>
-<li><a href="https://gitlab.com/u/rmathew/">rmathew on GitLab</a></li>
+<li><a href="https://github.com/rmathew/">rmathew</a> on GitHub</li>
+<li><a href="https://gitlab.com/u/rmathew/">rmathew</a> on GitLab</li>
+<li><a href="https://bitbucket.org/rmathew/">rmathew</a> on Bitbucket</li>
 </ul>
 <p>
 <b>NOTE:</b> These projects are &ldquo;<a
 href="http://runtimeterror.com/abitopen.txt">almost open-source</a>&rdquo; - I
-hope you find them useful in some way, but I am not really looking for
-collaborators at the moment.
+hope you find them useful in some way, but I am not really looking for any
+collaborators at the moment. (In other words, these are &ldquo;Open Source, Not
+Open Contribution&rdquo; projects, <a
+href="https://www.sqlite.org/copyright.html#notopencontrib">like SQLite</a>.)
 
 m4_heading( `1', `zinc', `ZINC')
 <p>

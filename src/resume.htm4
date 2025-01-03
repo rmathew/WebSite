@@ -6,6 +6,7 @@
 <meta http-equiv="Cache-Control" content="max-age=86400">
 <meta name="author" content="Ranjit Mathew">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="canonical" href="https://rmathew.com/resume.html">
 <title>R&eacute;sum&eacute; of Ranjit Mathew</title>
 <style type="text/css">
 body {
@@ -208,7 +209,7 @@ India Summit 2011.
 <h2>Personal Projects</h2>
 <ul>
 <li>
-<b>Bitbucket, GitHub &amp; GitLab:</b> User-name &lsquo;<tt>rmathew</tt>&rsquo;.
+<b>GitHub, GitLab, and Bitbucket:</b> User-name &ldquo;<tt>rmathew</tt>&rdquo;.
 </li>
 <li>
 <b>GCJ:</b> I was a contributer to the GNU Compiler for Java (GCJ) and the GNU

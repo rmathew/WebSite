@@ -21,11 +21,11 @@ vpath %.m4 $(SRC_DIR)
 
 # Tell Make how to create a ".html" file from the corresponding ".htm4" file.
 $(PUB_DIR)/%.html: %.htm4
-	m4 --include=$(SRC_DIR) $(M4_DEBUG) --prefix-builtins $< | $(BIN_DIR)/defluff.sh >$@
+	m4 --include=$(SRC_DIR) $(M4_DEBUG) --prefix-builtins -Dm4___input_file__=$< $< | $(BIN_DIR)/defluff.sh >$@
 
 # Ditto for ".xml" from ".xm4". Also validate the generated XML.
 $(PUB_DIR)/%.xml: %.xm4
-	m4 --include=$(SRC_DIR) $(M4_DEBUG) --prefix-builtins $< | $(BIN_DIR)/defluff.sh | awk -f $(BIN_DIR)/eschtml.awk >$@
+	m4 --include=$(SRC_DIR) $(M4_DEBUG) --prefix-builtins -Dm4___input_file__=$< $< | $(BIN_DIR)/defluff.sh | awk -f $(BIN_DIR)/eschtml.awk >$@
 	xmllint --noout $@ || rm -i $@
 
 .PHONY: all html xml deps clean
